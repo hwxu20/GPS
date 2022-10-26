@@ -1,0 +1,9 @@
+{
+  "task_name": "generate_task_description",
+  "labels": {
+    "1": {
+      "instruction": "Task: Write two question that mean the same thing.\nQuestion 1: \"<X1>\"\nQuestion 2: \"",
+      "counter_labels": []
+    }
+  }
+}
