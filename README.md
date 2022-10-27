@@ -1,11 +1,11 @@
 ## GPS: Genetic Prompt Search for Efficient Few-shot Learning
-___
+
 
 This is the implementation of the paper GPS: Genetic Prompt Search for Efficient Few-shot Learning. 
 GPS is an automatic prompt search method based on genetic algorithm for better few-shot learning.
 
 ## Overview
-___
+
 ![](./GPS.png)
 
 In this paper, we introduce Genetic Prompt Search (GPS) to improve few-shot learning with prompts, which utilizes a genetic algorithm to automatically search for high-performing prompts. GPS is gradient-free and requires no update of model parameters but only a small validation set.
@@ -42,5 +42,4 @@ You can find more details of this work in our paper.
 
 
 ## Citation
-___
 todo
