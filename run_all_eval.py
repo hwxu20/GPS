@@ -70,16 +70,6 @@ def read_split_list(file_name):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Reproduce main evaluation in T0.")
-    # parser.add_argument("--dataset_name", type=str, default=None,
-    #                     help="The name of the dataset to use (via the datasets library).", required=True, )
-    # parser.add_argument(
-    #     "--dataset_config_name",
-    #     type=str,
-    #     default=None,
-    #     help="The configuration name of the dataset to use (via the datasets library).",
-    # )
-    # parser.add_argument("--template_name", type=str, default=None,
-    #                     help="The template/prompt name", required=True, )
     parser.add_argument("--max_length", type=int, default=1024,
                         help=(
                             "The maximum total input sequence length after tokenization. Sequences longer than this will be truncated,"
@@ -95,8 +85,7 @@ def parse_args():
                         required=True, )
     parser.add_argument("--config_name", type=str, default=None,
                         help="Pretrained config name or path if not the same as model_name", )
-    parser.add_argument("--template_dir", type=str, default='/localdata/codebook/t-zero/templates_test',
-                        help="模版文件的位置", )
+    parser.add_argument("--template_dir", type=str, default='./templates')
     parser.add_argument("--tokenizer_name", type=str, default=None,
                         help="Pretrained tokenizer name or path if not the same as model_name", )
     parser.add_argument("--use_slow_tokenizer", action="store_true",
@@ -106,14 +95,13 @@ def parse_args():
     parser.add_argument("--output_dir", type=str, default=None, help="Where to store the final model.")
     parser.add_argument("--debug", action="store_true",
                         help="Activate debug mode and run training only with a subset of data.", )
-    parser.add_argument("--ga_dev_distribution", type=str, choices=['uniform', 'ratio'], default='uniform',
-                        help="ga_dev的分布", )
+    parser.add_argument("--ga_dev_distribution", type=str, choices=['uniform', 'ratio'], default='uniform')
     parser.add_argument("--parallelize", action="store_true",
                         help=(
                             "If passed, will call `model.parallelize` which splits the model on all GPUs available when applicable (model parallelism). "
                             "Note that this feature is still experimental in HF Transformers."),
                         )
-    parser.add_argument("--test_split", type=str, help='测试任务名单')
+    parser.add_argument("--test_split", type=str, help='list of task to eval')
     parser.add_argument("--dataset_type", type=str, choices=['ga', 'all'])
     args = parser.parse_args()
 
@@ -218,22 +206,10 @@ def build_ga_dataset(dataset_name, dataset_config_name, raw_datasets, distributi
         label_key = 'answer_right_ending'
     filtered_dataset = raw_datasets
 
-    # 对anli数据集和winogrande的特别处理
     if dataset_name == 'anli':
-        # print(f'len of raw_dataset: {filtered_dataset}')
         filtered_dataset = filtered_dataset.filter(lambda x: len(x['reason']) > 0, load_from_cache_file=False)
-        # print(f'len of filtered_dataset: {filtered_dataset}')
-        if dataset_config_name == 'r1':
-            filtered_dataset = filtered_dataset.select(range(900))
-        elif dataset_config_name == 'r2':
-            filtered_dataset = filtered_dataset.select(range(1500))
-        elif dataset_config_name == 'r3':
-            index = list(range(len(filtered_dataset)))
-            index = index[8000:]
-            filtered_dataset = filtered_dataset.select(index)
     if dataset_name == 'winogrande':
-        # filtered_dataset = load_dataset('winogrande', 'winogrande_debiased', split='train')
-        train_file_path = '/localdata/codebook/data/T0_dataset'
+        train_file_path = './T0_dataset'
         train_file_path = os.path.join(train_file_path, 'winogrande_winogrande_debiased')
         data_files = {
             'train': os.path.join(train_file_path, 'train.json'),
@@ -244,7 +220,7 @@ def build_ga_dataset(dataset_name, dataset_config_name, raw_datasets, distributi
     label_type_set = set(label_list)
     print(f'label_type_set: {label_type_set}')
     ga_dataset_list = []
-    # 把每个类别的样本分类存储
+    # sample 32 shot dev set
     for label_type in label_type_set:
         single_label_dataset = filtered_dataset.filter(lambda x: x[label_key] == label_type, load_from_cache_file=False)
         single_label_dataset = single_label_dataset.shuffle(seed=42)
@@ -278,7 +254,7 @@ def main():
     metric = load_metric("accuracy")
 
     test_task_list = read_split_list(args.test_split)
-    logger.info(f'测试任务: {test_task_list}')
+    logger.info(f'eval tasks: {test_task_list}')
 
     # Setup logging, we only want one process per machine to log things on the screen.
     # accelerator.is_local_main_process is only True for one process per machine.
@@ -342,7 +318,7 @@ def main():
     padding = "max_length" if args.pad_to_max_length else False
 
     for dataset_name, dataset_config_name in test_task_list:
-        train_file_path = '/localdata/codebook/data/T0_dataset'
+        train_file_path = './T0_dataset'
         if dataset_config_name:
             train_file_path = os.path.join(train_file_path, f'{dataset_name}_{dataset_config_name}')
         else:
@@ -351,7 +327,7 @@ def main():
             'train': os.path.join(train_file_path, 'train.json'),
             'validation': os.path.join(train_file_path, 'validation.json')
         }
-        if args.dataset_type == 'ga' or args.dataset_type == 'pt':
+        if args.dataset_type == 'ga':
             if dataset_name == 'story_cloze':
                 raw_datasets = load_dataset('json', data_files=data_files)['validation']
             else:
@@ -370,9 +346,9 @@ def main():
         if args.debug:
             raw_datasets = raw_datasets.select(range(min(len(raw_datasets), 100)))
         elif args.dataset_type == 'ga':
-            pass  # 不截断
+            pass  # do nothing
         else:
-            # raw_datasets = raw_datasets.select(range(1000))
+            # optional: only eval up to 1000 samples per task to save our valuable time
             if dataset_name != 'hellaswag':
                 raw_datasets = raw_datasets.select(range(min(len(raw_datasets), 1000)))
 
@@ -390,10 +366,7 @@ def main():
                     k: examples[k][i]
                     for k in column_names
                 }
-                # print(f'debug: ex: {ex}')
                 input, target = template.apply(ex)
-                # print(f'debug: input: {input}')
-                # print(f'debug: target: {target}')
 
                 ex_answer_choices = template.get_answer_choices_list(ex)
                 assert target in ex_answer_choices
@@ -441,23 +414,13 @@ def main():
 
             return features
 
-        # Get the prompt to apply and the possible targets.
         logger.info(f'use template_dir: {args.template_dir}')
-        # if dataset_name == 'anli' and args.dataset_type != 'ga':
-        #     # ga时r1 r2 r3视作不同的数据集
-        #     prompts = DatasetTemplates(dataset_name, template_dir=args.template_dir)
-        # else:
-        #     prompts = DatasetTemplates(
-        #         f"{dataset_name}" if dataset_config_name is None else f"{dataset_name}/{dataset_config_name}",
-        #         template_dir=args.template_dir)
         prompts = DatasetTemplates(
             f"{dataset_name}" if dataset_config_name is None else f"{dataset_name}/{dataset_config_name}",
             template_dir=args.template_dir)
 
-        # key是uuid
-        # template_list = prompts.name_to_id_mapping.keys()
         template_list = prompts.templates.keys()
-        logger.info(f'{dataset_name}的模板列表：{template_list}')
+        logger.info(f'{dataset_name} contains templates: {template_list}')
 
         result_summary = []
         for template_id in template_list:
@@ -466,12 +429,12 @@ def main():
 
             logger.info(f'{template.metadata.original_task}, type: {type(template.metadata.original_task)}')
             if template.metadata.original_task is not True:
-                logger.info(f'跳过{template_name}, 因为不是原始任务形式')
+                logger.info(f'skip {template_name}, we only need templates for original task')
                 continue
 
             prediction_list = []
 
-            # 过滤copa样本, 一些prompt只适用于部分样本
+            # filter invalid samples
             filtered_dataset = None
             if dataset_config_name == 'copa':
                 if template_name in ["\u2026What could happen next, C1 or C2?", "\u2026As a result, C1 or C2?"]:
@@ -479,7 +442,6 @@ def main():
                 if template_name in ["\u2026which may be caused by", "\u2026why? C1 or C2"]:
                     filtered_dataset = raw_datasets.filter(lambda example: example['question'] == 'cause', load_from_cache_file=False)
 
-            # ga的32 dev在这里过滤，不然filter完可能少于32
             if args.dataset_type == 'ga':
                 if not filtered_dataset:
                     filtered_dataset = raw_datasets
@@ -507,7 +469,6 @@ def main():
                         load_from_cache_file=False)
 
             # Log a few random samples from the eval set:
-            # 随机展示几个样本
             if args.debug:
                 for index in random.sample(range(len(eval_dataset)), 3):
                     logger.info(f"Sample {index} of the training set: {eval_dataset[index]}.")
@@ -543,7 +504,7 @@ def main():
 
             model.eval()
             for batch in eval_dataloader:
-                # batch: attention_mask, input_ids, labels(答案的token ids), labels_attention_mask
+                # batch: attention_mask, input_ids, labels, labels_attention_mask
                 model_inputs = {
                     k: batch[k]
                     for k in ["input_ids", "attention_mask", "labels"]
@@ -565,7 +526,7 @@ def main():
 
                 exam_num = seq_log_prob.shape[0]
                 choice_num = seq_log_prob.shape[1]
-                # 记录预测结果
+                # dumps eval result
                 for exam_id, batch_idx in enumerate(range(0, exam_num*choice_num, choice_num)):
                     prediction_result = {
                         'input_text:': tokenizer.decode(batch['input_ids'][batch_idx], skip_special_tokens=True),
@@ -594,7 +555,7 @@ def main():
                 "evaluation": eval_metric
             }
             result_summary.append(results)
-            # 记录每条预测结果
+            # dumps prediction results
             prediction_dir = os.path.join(args.output_dir, 'predictions')
             os.makedirs(prediction_dir, exist_ok=True)
             if accelerator.is_main_process:
@@ -608,7 +569,6 @@ def main():
                 with open(os.path.join(prediction_dir, f"{output_name}.json"), "w") as f:
                     json.dump(prediction_list, f, indent=4)
 
-        # 写入当前数据集的acc
         if accelerator.is_main_process:
             output_name = '_'.join(dataset_name.split(' '))
             if dataset_config_name is not None:

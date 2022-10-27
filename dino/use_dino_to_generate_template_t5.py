@@ -16,7 +16,6 @@ import uuid
 
 
 def get_valid_invalid_option(option_list):
-    """返回不合法的option单词，加入黑名单中"""
     option_list = [option.lower().strip() for option in option_list]
     black_set = set()
     if option_list.count('yes') > 0:  # yes/no/(may)
@@ -26,18 +25,16 @@ def get_valid_invalid_option(option_list):
     elif option_list.count('false') > 0:  # True/false
         pass
 
-    # 不能直接加no，不然find函数会把带no的单词都算命中
-
     return black_set
 
 
 def will_keep_with_clean_rule(task_name, template_name, description, option_list):
-    """判断生成的description是否合法"""
+    """Determine whether the generated template is valid"""
 
     description = description.strip()
     description = description.replace('  ', ' ')
 
-    # 长度控制
+    # filter too short template
     if len(description) < 2:
         return False
     if len(description.split(' ')) < 2:
@@ -47,18 +44,17 @@ def will_keep_with_clean_rule(task_name, template_name, description, option_list
         return False
 
     MUST_WORD = set()
+    # filter template contains invalid symbol
     BLACK_WORD = {'=', '#', '__', '[', ']', '\\u', '%', '{{{', '}}}', 'God', '\\x', 'ie.', 'i.e.',
                   '(2)', '(1)', '(?', 'ENSLAVED', 'DevOps', 'U.S.', '**', '...', '+', '--', '(a)',
                   '(1)'}
-    # 黑名单，过滤有特殊符号的prompt
 
     VALID_PLACEHOLDER = {'hypothesis', 'premise', 'ctx', 'pronoun', 'reference', 'word', 'option' 'option1', 'option2'}
 
-    # 必须是合法placeholder
-    re_pattern = re.compile(r'{{(.*?)}}', re.S)  # 最小匹配
-    match_placeholder = re.findall(re_pattern, description)  # 必须是合法的这几个placeholder
+    # only keep template contains valid input placeholder
+    re_pattern = re.compile(r'{{(.*?)}}', re.S)
+    match_placeholder = re.findall(re_pattern, description)
     for placeholder in match_placeholder:
-        # 每个placeholder的个数不能超过1
         if match_placeholder.count(placeholder) > 1:
             return False
 
@@ -120,7 +116,6 @@ def will_keep_with_clean_rule(task_name, template_name, description, option_list
             return False
         BLACK_WORD.update({'three', 'four', 'five', 'six', 'How many', 'subject'})
     elif template_name in ['plausible_alternatives']:
-        # MUST_WORD.add('option')  # t5生成质量很好，不需要这个
         BLACK_WORD.update({'three', 'four', 'five', 'six', 'How many', 'subject', 'less'})
     elif template_name in ['\u2026As a result, C1 or C2?']:
         if not description.endswith(','):
@@ -128,7 +123,7 @@ def will_keep_with_clean_rule(task_name, template_name, description, option_list
         BLACK_WORD.update({'three', 'four', 'five', 'six', 'How many', 'subject', 'teaching'})
     elif template_name in ['\u2026which may be caused by']:
         if description[-1] in string.punctuation:
-            return False  # 不能以标点符号结尾
+            return False
         BLACK_WORD.update({'three', 'four', 'five', 'six', 'How many', 'subject', 'NOT'})
     elif template_name in ['choose']:
         if not description.endswith(':'):
@@ -154,7 +149,7 @@ def will_keep_with_clean_rule(task_name, template_name, description, option_list
             return False
     elif template_name in ['GPT-3 Style', 'GPT-3 style']:
         if task_name.find('wsc') == -1:
-            return None  # 只适用于wsc
+            return None
         if description.find('reference') == -1 or description.find('pronoun') == -1:
             return False
         if description.count('pronoun') != 1 or description.count('reference') != 1:
@@ -217,7 +212,7 @@ def will_keep_with_clean_rule(task_name, template_name, description, option_list
         if description.count('pronoun') != 1:
             return False
         if description[-1] in string.punctuation:
-            return False  # 不能以标点符号结尾
+            return False
         BLACK_WORD.update({'\'', 'Why'})
     elif template_name in ['stand for']:
         if description.find('pronoun') == -1 or description.find('reference') == -1:
@@ -254,12 +249,10 @@ def will_keep_with_clean_rule(task_name, template_name, description, option_list
     else:
         pass
 
-    # 必须包含这些词
     for word in MUST_WORD:
         if description.find(word) == -1:
             return False
 
-    # 不能包含黑名单里的词
     for word in BLACK_WORD:
         if description.find(word) != -1:
             return False
@@ -268,7 +261,7 @@ def will_keep_with_clean_rule(task_name, template_name, description, option_list
 
 
 def get_description_from_template(task_name, template):
-    """从template obj中提取description，需要为每个template编写规则, 对于不使用的template返回None"""
+    """extract description from a template"""
     if not template.metadata.original_task:
         return None
 
@@ -299,18 +292,16 @@ def get_description_from_template(task_name, template):
         description = description.replace('{{premise}}', '')
         description = description.strip()
         description += ': hypothesis true or false?'
-    # elif template_name in ['GPT-3 style']:
-    #     pass  # 无法augment, 没有prompt
     elif template_name in ['take the following as truth', 'guaranteed/possible/impossible',
                            'always/sometimes/never',
                            'consider always/sometimes/never']:
-        pass  # 无法augment, 不好处理
+        pass  # some templates are impossible to augment
 
     # hellaswage
     elif template_name in ['complete_first_then']:
         description = template_text.split(':')[0]
     elif template_name in ['Randomized prompts template']:
-        pass  # 无法augment, 不好处理
+        pass
     elif template_name in ['Predict ending with hint']:
         description = template_text.split('\n')[0]
     elif template_name in ['if_begins_how_continues']:
@@ -330,14 +321,14 @@ def get_description_from_template(task_name, template):
     elif template_name in ['plausible_alternatives']:
         description = template_text.split('\n')[1]
     elif template_name in ['C1 or C2? premise, so/because\u2026', "\u2026why? C1 or C2"]:
-        pass  # 无法augment, 没有prompt
+        pass
     elif template_name in ['choose']:
         description = template_text.split('\n')[1]
     elif template_name in ['\u2026As a result, C1 or C2?', '\u2026which may be caused by']:
         description = template_text.split('{{ premise }}')[1]
         description = description.split('"{{ answer_choices[0] }}"')[0]
     elif template_name in ['best_option']:
-        pass  # 无法augment, 不好处理
+        pass
     elif template_name in ['more likely']:
         description = template_text.split('\n')[0]
     elif template_name in ['cause_effect']:
@@ -346,7 +337,6 @@ def get_description_from_template(task_name, template):
         description = description.strip()
         description += ' option.'
 
-    # rte/CB与anli完全相同
     # wsc.fixed
     elif template_name in ['does the pronoun refer to']:
         description = template_text.split('|||')[0]
@@ -370,7 +360,7 @@ def get_description_from_template(task_name, template):
         description = description.replace('{{ span1_text }}', 'the reference')
     elif template_name in ['in other words', 'I think they mean', 'p is/are r',
                            'Who or what is/are', 'by p they mean']:
-        pass  # 无法处理
+        pass
     elif template_name in ['GPT-3 Style', 'GPT-3 style']:
         if task_name.find('wsc') == -1:
             return None
@@ -435,11 +425,8 @@ def get_description_from_template(task_name, template):
         description = template_text.split('\n')[1]
         description = description.replace('_', 'pronoun')
     else:
-        print(f'无法识别的template: {template_name}')
+        print(f'ignore template: {template_name}')
 
-    # debug
-    # if description is not None:
-    #     print(f'template_name: {template_name}\ntemplate_text: {template_text}\ndescription: {description}')
     if description is not None:
         description = description.replace('  ', ' ')
         description = description.strip()
@@ -448,7 +435,7 @@ def get_description_from_template(task_name, template):
 
 
 def build_template(task_name: str, template_name, augment_description):
-    """根据description和template_name生成template"""
+    """build new template from generated description"""
     augment_template = None
     if template_name in ['must be true', 'can we infer', 'guaranteed true']:
         augment_template = augment_description.replace('premise', ' {{premise}} ')
@@ -662,7 +649,7 @@ def build_template(task_name: str, template_name, augment_description):
         augment_template = augment_description.replace('pronoun', '_')
         augment_template = '{{sentence}}\n' + augment_template + '\n- {{option1}}\n- {{option2}}\n|||\n{% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
     else:
-        print(f'无法识别的template_name: {template_name}')
+        print(f'invalid template_name: {template_name}')
 
     if augment_template is not None:
         augment_template = augment_template.strip()
@@ -686,9 +673,7 @@ def read_input_template(args, input_dir, task_list):
         if dataset_config_name:
             config_file_path = os.path.join(config_file_path, dataset_config_name)
         config_file_path = os.path.join(config_file_path, 'templates.yaml')
-        # 读该任务的templates
         task_templates = yaml.load(open(config_file_path, "r"), Loader=yaml.FullLoader)
-        # 过滤非原始任务template
         templates_dict = task_templates['templates']
         config_dict[task_name] = task_templates
         for template in task_templates['templates'].values():
@@ -701,7 +686,7 @@ def read_input_template(args, input_dir, task_list):
 
 
 def build_output_config(args, origin_config_dict, all_description_list, output_entry_list):
-    """根据dino生成的结果生成config, 这里主要是些"""
+    """dumps templates to output files"""
 
     augment_dict = {}
     for entry in output_entry_list:
@@ -714,21 +699,14 @@ def build_output_config(args, origin_config_dict, all_description_list, output_e
         else:
             augment_dict[text_a].append(text_b)
 
-    # 生成新的config文件
     for task_name, config in origin_config_dict.items():
 
         templates_list = list(config['templates'].values())
-        # 只用原始任务形式的template
         templates_list = [template_obj for template_obj in templates_list if template_obj.metadata.original_task is True]
 
-        # 只用前N个
-        # if args.input_dir != '/mfs/shaonan/moonshot/t-zero/templates':
-        #     templates_list = templates_list[:args.Top_N_patterns]  # 当前任务的所有template obj
-
-        # new_pattern_list = copy.deepcopy(patterns_list)
         new_template_dict = {}
 
-        # 用于去重
+        # dedup
         exist_description = set()
         exist_template = set()
 
@@ -741,27 +719,25 @@ def build_output_config(args, origin_config_dict, all_description_list, output_e
             if origin_description is None:
                 continue
 
-            # OPTION: 是否不允许生成上一步一样的
             exist_description.add(origin_description)
             exist_template.add(template.jinja)
 
-            # 该description所有augment的结果
             if origin_description in augment_dict:
                 augment_result = augment_dict[origin_description]
             else:
                 print(f'=========================')
-                print(f'找不到augment的结果: {origin_description}')
+                print(f'can not find generated result: {origin_description}')
                 print(augment_dict)
                 print(f'========================')
                 continue
 
             # 规则过滤
-            print('========filter before==========')
+            print('========before filter==========')
             print(f'origin_description: {origin_description}')
             print(augment_result)
             augment_result = [augment_description for augment_description in
                               augment_result if will_keep_with_clean_rule(task_name, template_name, augment_description, option_list)]
-            print(f'========filter after==========')
+            print(f'========after filter==========')
             print(augment_result)
 
             for augment_description in augment_result:
@@ -769,7 +745,6 @@ def build_output_config(args, origin_config_dict, all_description_list, output_e
                     continue
                 augment_template_text = build_template(task_name, template_name, augment_description)
 
-                # description没有重复，但是转成template重复了，也不行
                 if augment_template_text in exist_template:
                     continue
 
@@ -781,7 +756,7 @@ def build_output_config(args, origin_config_dict, all_description_list, output_e
                 exist_description.add(augment_description)
                 exist_template.add(augment_template_text)
 
-        # 生成新的template file，并输出
+        # dump
         new_config = copy.deepcopy(config)
         new_config['templates'] = dict()
         for template_id, template in new_template_dict.items():
@@ -806,16 +781,16 @@ if __name__ == '__main__':
 
     # Required parameters
     parser.add_argument("--input_dir", type=str, required=True,
-                        help="需要augment的template的目录")
+                        help="Load template files in input_dir")
     parser.add_argument("--output_dir", type=str, required=True,
                         help="The output directory to which the generated dataset is saved")
     parser.add_argument("--task_file", type=str,
-                        default='/share/zongyu/shaonan/dino-main/task_specs/generate_task_description_en_v2.json',
+                        default='./dino/task_specs/generate_task_description_en_v2.json',
                         help="A json file providing the instructions and other information required for dataset generation. "
                              "See the 'task_specs' directory for examples and 'README.md' for more details on how to create this file.")
-    parser.add_argument("--task_list_file", type=str, default='/share/zongyu/shaonan/t-zero/config/setting_5/test.list')
+    parser.add_argument("--task_list_file", type=str, default='./config/test.list')
 
-    parser.add_argument("--model_name", type=str, default="/share/zongyu/shaonan/pretrained_model/gpt2-xl",
+    parser.add_argument("--model_name", type=str, default="./pretrained_model/gpt2-xl",
                         help="The pretrained model to use for dataset generation. Currently, only variants of GPT2 are supported.")
 
     parser.add_argument("--max_output_length", type=int, default=50,
@@ -851,8 +826,7 @@ if __name__ == '__main__':
     parser.add_argument("--min_num_tokens", type=int, default=-1,
                         help="The minimum number of tokens for each dataset entry. Entries with fewer tokens are removed.")
 
-    parser.add_argument("--Top_N_patterns", type=int, default=6,
-                        help="使用top n 个pattern进行argument")
+    parser.add_argument("--Top_N_patterns", type=int, default=6)
 
     # Miscellaneous further parameters
     parser.add_argument("--no_cuda", action='store_true')
@@ -864,7 +838,7 @@ if __name__ == '__main__':
     print(f"Parameters: {args}")
 
     args.remove_identical_pairs = True
-    # 没有用的参数，单纯防止报错
+    # we do not use this params
     args.input_file_type = 'plain'
     args.openai_api_key = None
 
@@ -872,9 +846,7 @@ if __name__ == '__main__':
         os.makedirs(args.output_dir)
 
     with open(args.task_file, 'r', encoding='utf8') as fh:
-        # 提供instruction的文件
         task_specification = json.load(fh)
-        # validate_task_spec(task_specification, with_inputs=args.input_file is not None)
 
     task_list = []
     with open(args.task_list_file, 'r') as f:
@@ -883,7 +855,6 @@ if __name__ == '__main__':
             task_name = task_name.strip()
             task_list.append(task_name)
 
-    # 根据input目录读需要augment的config文件
     print(f'Reading input config file: {args.input_dir}')
     config_dict, description_list = read_input_template(args, args.input_dir, task_list)
 
@@ -904,10 +875,5 @@ if __name__ == '__main__':
     print("Starting dataset generation with DINO...")
     outputs = generator.generate_dataset(inputs, num_entries_per_input_and_label=args.num_entries_per_input_and_label,
                                          num_entries_per_label=args.num_entries_per_label, batch_size=args.batch_size)
-    # debug
-    # with open(os.path.join(args.output_dir, 'augmented_prompt.txt'), 'w') as f:
-    #     for entry in outputs:
-    #         dict_line = {'text_a': entry.text_a, 'text_b': entry.text_b}
-    #         f.write(json.dumps(dict_line) + '\n')
 
     build_output_config(args, config_dict, description_list, outputs)

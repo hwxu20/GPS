@@ -80,7 +80,7 @@ class Template(yaml.YAMLObject):
                                the template is open-ended. This list is accessible
                                from within Jinja as the variable `answer_choices`.
         """
-        self.id = str(uuid.uuid4())  # 生成的一个随机序列
+        self.id = str(uuid.uuid4())
         self.name = name
         self.jinja = jinja
         self.reference = reference
@@ -330,10 +330,10 @@ class DatasetTemplates:
     DATASET_KEY = "dataset"
     SUBSET_KEY = "subset"
     TEMPLATE_FILENAME = "templates.yaml"
-    TEMPLATE_DIR = '/mfs/shaonan/moonshot/t-zero/templates_test'
+    TEMPLATE_DIR = './templates'
 
     def __init__(self, dataset_name: str, subset_name: str = None,
-                 template_dir='/mfs/shaonan/moonshot/t-zero/templates_test'):
+                 template_dir='./templates'):
         self.dataset_name: str = dataset_name
         self.subset_name: str = subset_name
         self.TEMPLATE_DIR = template_dir
@@ -360,7 +360,6 @@ class DatasetTemplates:
     @property
     def folder_path(self) -> str:
         if self.subset_name:  # rte
-            # TEMPLATES_FOLDER_PATH: templates的目录
             return os.path.join(self.TEMPLATE_DIR, self.dataset_name, self.subset_name)
         else:
             return os.path.join(self.TEMPLATE_DIR, self.dataset_name)
@@ -387,7 +386,6 @@ class DatasetTemplates:
         if not os.path.exists(self.yaml_path):
             return {}
         yaml_dict = yaml.load(open(self.yaml_path, "r"), Loader=yaml.FullLoader)
-        # 文件中的所有prompt模板
         return yaml_dict[self.TEMPLATES_KEY]
 
     def write_to_file(self) -> None:

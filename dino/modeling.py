@@ -27,7 +27,7 @@ from transformers import GPT2LMHeadModel
 # from cpm.tokenization_cpm import CpmTokenizer
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-from generation import SelfDebiasingGPT2LMHeadModel
+# from generation import SelfDebiasingGPT2LMHeadModel
 from utils import DatasetEntry
 
 PLACEHOLDER_STR = "<X1>"
@@ -88,7 +88,6 @@ class DinoGenerator:
         :return: the generated dataset
         """
 
-        # 原始文本列表，对于生成句对来说是必须的
         generate_with_inputs = input_texts is not None
 
         if not generate_with_inputs:
@@ -98,7 +97,6 @@ class DinoGenerator:
         input_iterator = tqdm(input_texts, desc="Dataset Entries")
         dataset = []
 
-        # 一次处理一个样本
         for input_text_or_id in input_iterator:
             for label in self.labels:
                 dataset += self._generate_dataset_entries(input_text_or_id, label=label, num_entries=num_entries_per_input_and_label,
@@ -273,7 +271,6 @@ class GPT2Wrapper(ModelWrapper):
     def generate_self_debiasing(self, input_text: str, debiasing_texts: List[str], num_samples: int = 1, decay_constant: float = 100,
                                 epsilon: float = 0.01, debug: bool = False, min_length: int = None, max_length: int = None,
                                 **kwargs) -> List[str]:
-        # 这里添加了纠偏的逻辑
         # self._model.init_logits_processor(num_debiasing_prefixes=len(debiasing_texts), decay_constant=decay_constant, epsilon=epsilon,
         #                                   debug=debug, tokenizer=self._tokenizer)
 
@@ -292,9 +289,9 @@ class GPT2Wrapper(ModelWrapper):
             if max_length is not None:
                 max_length = min(self._model.config.max_position_embeddings, max_length + input_length)
         elif self.model_name == 't5':
-            pass  # t5什么都不需要处理
+            pass
         else:
-            raise NotImplementedError(f'无法识别的模型类型: {self.model_name}')
+            raise NotImplementedError(f'invalid model name: {self.model_name}')
 
         inputs = {k: v.to(self._device) for k, v in inputs.items()}
 
@@ -302,7 +299,7 @@ class GPT2Wrapper(ModelWrapper):
 
         if self.model_name == 'gpt':
             batch_size = output_ids.shape[0] // (1 + len(debiasing_texts))
-            output_ids = output_ids[:batch_size, inputs['input_ids'].shape[1]:]  # 把输入的部分去掉
+            output_ids = output_ids[:batch_size, inputs['input_ids'].shape[1]:]
             return self._tokenizer.batch_decode(output_ids)
         elif self.model_name == 't5':
             return self._tokenizer.batch_decode(output_ids, skip_special_tokens=True)
