@@ -1,0 +1,186 @@
+dataset: anli
+templates:
+  12ff2ef7-a139-40f9-a997-e359c353aff2: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 12ff2ef7-a139-40f9-a997-e359c353aff2
+    jinja: Given that {{premise}} Then, if it must be true that "{{hypothesis}}" ?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  18a22795-12d6-4c74-b497-032df709b1e9: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 18a22795-12d6-4c74-b497-032df709b1e9
+    jinja: '{{premise}} Based on the previous passage, is it possible that the "{{hypothesis}}"
+      might be correct? Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  204007e3-06a9-465e-9eaf-a27391f6a67e: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 204007e3-06a9-465e-9eaf-a27391f6a67e
+    jinja: Given that {{premise}} , Then, it must be true that "{{hypothesis}}" ?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  321e9f3c-1f30-4a58-b29d-99e764da2a76: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 321e9f3c-1f30-4a58-b29d-99e764da2a76
+    jinja: Given that {{premise}} then, it must be true that "{{hypothesis}}" ? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  357df3d8-f521-4a29-84ee-27ef80915508: !Template
+    answer_choices: True ||| Inconclusive ||| False
+    id: 357df3d8-f521-4a29-84ee-27ef80915508
+    jinja: '{{premise}} Based on the evidence, should the hypothesis: "{{hypothesis}}"
+      {{"true"}}, {{"false"}}, or {{"inconclusive"}}? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: claim true/false/inconclusive
+    reference: Sanh et al. 2021
+  4385412c-0be8-42a1-a8c1-e2899674cb9d: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 4385412c-0be8-42a1-a8c1-e2899674cb9d
+    jinja: Suppose {{premise}} (be sure to take out the proper implication) can we
+      infer the same "{{hypothesis}}" ? Yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: can we infer
+    reference: Webson & Pavlick 2021
+  47cb9686-7c5e-4d4f-bf2c-86baf962dbdf: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 47cb9686-7c5e-4d4f-bf2c-86baf962dbdf
+    jinja: "{{premise}} \n\nIf this is true, does it mean that \"{{hypothesis}}\"\
+      ? Yes, no, or maybe? ||| {{ answer_choices[label] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  66806829-21ce-4343-9eb0-8f40f1007f5c: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 66806829-21ce-4343-9eb0-8f40f1007f5c
+    jinja: '{{premise}} Based on the previous passage, is it logical that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  9b4ed58f-f3ac-401e-8bff-77bb346856d8: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 9b4ed58f-f3ac-401e-8bff-77bb346856d8
+    jinja: Given that "{{hypothesis}}" Therefore, is it true that {{premise}} 1? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  cd71d733-28de-4f3d-97d3-59b57874167f: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: cd71d733-28de-4f3d-97d3-59b57874167f
+    jinja: If that {{premise}} is true, does that statement follow that {{hypothesis}}
+      yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does it follow that
+    reference: Sanh et al. 2021
+  db0a1bfb-3466-400a-9598-7b8d93f1bbd7: !Template
+    answer_choices: True ||| Inconclusive ||| False
+    id: db0a1bfb-3466-400a-9598-7b8d93f1bbd7
+    jinja: '{{premise}} Based on the information in the analysis, is the hypothesis:
+      "{{hypothesis}}" {{"true"}}, {{"false"}}, or {{"inconclusive"}}? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: claim true/false/inconclusive
+    reference: Sanh et al. 2021
+  deb1c972-53a4-48e0-9a53-d1a3d16780b3: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: deb1c972-53a4-48e0-9a53-d1a3d16780b3
+    jinja: Suppose {{premise}} (be sure to take out the proper implication) Can we
+      conclude the same "{{hypothesis}}" ? Yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: can we infer
+    reference: Webson & Pavlick 2021
+  e0a488e0-acd0-4bc5-b293-8f886984dac4: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: e0a488e0-acd0-4bc5-b293-8f886984dac4
+    jinja: "{{premise}} \n\nIf this means that then is that \"{{hypothesis}}\" true?\
+      \ Yes, no, or maybe? ||| {{ answer_choices[label] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  e8745657-12ed-4d60-84ba-59964da6b5d3: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: e8745657-12ed-4d60-84ba-59964da6b5d3
+    jinja: Given that {{premise}} Then, it must be true that "{{hypothesis}}" Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  f60f99c0-93f6-4210-8870-7fdc01732e9b: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: f60f99c0-93f6-4210-8870-7fdc01732e9b
+    jinja: Given that {{premise}} Therefore is it true that "{{hypothesis}}" ? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021

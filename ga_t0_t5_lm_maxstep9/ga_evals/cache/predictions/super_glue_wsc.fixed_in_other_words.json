@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "I put the cake away in the refrigerator. It has a lot of butter in it. In other words, the refrigerator has a lot of butter in it. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.418945550918579,
+            -0.29807841777801514
+        ]
+    },
+    {
+        "input_text:": "Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: \"There's plenty.\" In other words, Tatyana guests. Now Tatyana watched as Grandma gatTatyanaed Tatyana's small motTatyana into a wide, scrawny embrace and then propelled Tatyana to the table, lifting Tatyana shawl from Tatyana shoulders, seating Tatyana in the place of honor, and saying simply: \"TTatyanae's plenty.\" True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.24818578362464905,
+            -1.6459815502166748
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. In other words, mothers ran away. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.08482006192207336,
+            -3.1184351444244385
+        ]
+    },
+    {
+        "input_text:": "Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned. In other words, Bob was very concerned. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.4892692565917969,
+            -0.28044235706329346
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had bought from him didn't work. In other words, Tom had bought from him didn't work. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.31330135464668274,
+            -1.5881060361862183
+        ]
+    },
+    {
+        "input_text:": "This book introduced Shakespeare to Goethe ; it was a fine selection of his writing. In other words, Goethe writing. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.17754192650318146,
+            -2.093827247619629
+        ]
+    },
+    {
+        "input_text:": "The city councilmen refused the demonstrators a permit because they feared violence. In other words, the demonstrators feared violence. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.039639849215745926,
+            -4.094441890716553
+        ]
+    },
+    {
+        "input_text:": "The fish ate the worm. It was hungry. In other words, the worm was hungry. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.025900043547153473,
+            -3.969676971435547
+        ]
+    },
+    {
+        "input_text:": "The firemen arrived after the police because they were coming from so far away. In other words, the police were coming from so far away. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.02880372293293476,
+            -6.0086236000061035
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs dangled. In other words, Ollie legs dangled. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.317800998687744,
+            -0.1503814458847046
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. In other words, mothers back, but they scold mothers just the same because they ran away. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5544226169586182,
+            -1.1233187913894653
+        ]
+    },
+    {
+        "input_text:": "Susan knows all about Ann's personal problems because she is nosy. In other words, Ann is nosy. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.010363022796809673,
+            -5.63097620010376
+        ]
+    },
+    {
+        "input_text:": "Mary tucked her daughter Anne into bed, so that she could sleep. In other words, Mary could sleep. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.2314462661743164,
+            -0.41191694140434265
+        ]
+    },
+    {
+        "input_text:": "Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years. In other words, Cooper had been travelling for five years. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.06610417366027832,
+            -2.869818925857544
+        ]
+    },
+    {
+        "input_text:": "Emma did not pass the ball to Janie although she was open. In other words, Emma was open. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7018951177597046,
+            -0.9136440753936768
+        ]
+    },
+    {
+        "input_text:": "The cat was lying by the mouse hole waiting for the mouse, but it was too impatient. In other words, the mouse was too impatient. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.021859705448150635,
+            -4.4319047927856445
+        ]
+    },
+    {
+        "input_text:": "Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical. In other words, Mark should have been more skeptical. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.17879123985767365,
+            -2.073519468307495
+        ]
+    },
+    {
+        "input_text:": "In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it removed. In other words, the roof removed. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.8732811212539673,
+            -1.1740957498550415
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs ached. In other words, Tommy legs ached. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.12462938576936722,
+            -2.725510597229004
+        ]
+    },
+    {
+        "input_text:": "The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone. In other words, The sun was gone. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.10513973236084,
+            -0.30429595708847046
+        ]
+    },
+    {
+        "input_text:": "Jane knocked on Susan's door but she did not answer. In other words, Jane did not answer. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.04906303808093071,
+            -3.7504305839538574
+        ]
+    },
+    {
+        "input_text:": "Emma's mother had died long ago, and her place had been taken by an excellent woman as governess. In other words, Emma's mother place had been taken by an excellent woman as governess. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.065240859985352,
+            -0.018672803416848183
+        ]
+    },
+    {
+        "input_text:": "Jackson was greatly influenced by Arnold, though he lived two centuries earlier. In other words, Arnold lived two centuries earlier. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.08616794645786285,
+            -2.752938747406006
+        ]
+    },
+    {
+        "input_text:": "Ann asked Mary what time the library closes, but she had forgotten. In other words, Mary had forgotten. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.1493141651153564,
+            -0.1750795841217041
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. In other words, politicians must make rules to regulate them. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.538165807723999,
+            -0.38938409090042114
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had sold him didn't work. In other words, Tom had sold him didn't work. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.7449585795402527,
+            -0.8445276618003845
+        ]
+    },
+    {
+        "input_text:": "The sculpture rolled off the shelf because it wasn't level. In other words, the shelf wasn't level. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.4321436882019043,
+            -0.41868770122528076
+        ]
+    },
+    {
+        "input_text:": "The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time. In other words, the stars were very cooperative, so the interview lasted for a long time. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.128652572631836,
+            -0.06512759625911713
+        ]
+    },
+    {
+        "input_text:": "Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it. In other words, Pam's parents were furious about it. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.71123743057251,
+            -0.04871154949069023
+        ]
+    },
+    {
+        "input_text:": "Mark was close to Mr. Singer's heels. He heard him calling for the captain, promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over. In other words, Mr. Singer calling for the captain, promising Mr. Singer, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.10134146362543106,
+            -2.8143606185913086
+        ]
+    },
+    {
+        "input_text:": "I took the water bottle out of the backpack so that it would be handy. In other words, the water bottle would be handy. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.5524041652679443,
+            -0.08380071818828583
+        ]
+    },
+    {
+        "input_text:": "John couldn't see the stage with Billy in front of him because he is so short. In other words, John is so short. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.4206316471099854,
+            -0.3210793435573578
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. In other words, settlers. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3413524329662323,
+            -1.3403745889663696
+        ]
+    }
+]

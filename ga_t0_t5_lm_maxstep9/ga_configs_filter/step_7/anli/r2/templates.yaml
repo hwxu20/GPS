@@ -1,0 +1,197 @@
+dataset: anli
+templates:
+  0a20e751-c717-43b3-a8f3-13c69ebdedde: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 0a20e751-c717-43b3-a8f3-13c69ebdedde
+    jinja: In a trivial set of circumstances, given that {{premise}} Then, if it must
+      be true that "{{hypothesis}}" Then, yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  0d65501a-5a78-4263-a28b-f45184515221: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 0d65501a-5a78-4263-a28b-f45184515221
+    jinja: There is not a nontrivial set of circumstances, Then, given that {{premise}}
+      Then, if it must be true that "{{hypothesis}}" Then, yes, no, or maybe? |||
+      {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  1a27e614-65dc-4eff-bd54-6611dcd1a3e4: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 1a27e614-65dc-4eff-bd54-6611dcd1a3e4
+    jinja: If, in a nontrivial set of circumstances, Then, given that {{premise}}
+      Then, if it must be true that "{{hypothesis}}" Then, yes, no, or maybe? |||
+      {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  1a2dbf51-6c1a-4d94-8281-8de5e0354089: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 1a2dbf51-6c1a-4d94-8281-8de5e0354089
+    jinja: Each set of circumstances In and Then Then In, given that {{premise}} Then,
+      if it must be true that "{{hypothesis}}" Then, yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  251886ba-0c8e-4b55-b63a-51f7c871a693: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 251886ba-0c8e-4b55-b63a-51f7c871a693
+    jinja: So, In a nontrivial set of circumstances, Then, given that {{premise}}
+      Then, if it must be true that "{{hypothesis}}" Then, yes, no, or maybe? |||
+      {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  3301b7f9-2a87-4d78-9a2c-c43c13dd693f: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 3301b7f9-2a87-4d78-9a2c-c43c13dd693f
+    jinja: Do you think it is true that, in a trivial set of circumstances, given
+      that {{premise}} Then, if it must be true that "{{hypothesis}}" Then, yes, no,
+      or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  3941316d-e8e3-47aa-96fc-ce55b95e4f2a: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 3941316d-e8e3-47aa-96fc-ce55b95e4f2a
+    jinja: All the same, In a nontrivial set of circumstances, Then, given that {{premise}}
+      Then, if it must be true that "{{hypothesis}}" Then, yes, no, or maybe? |||
+      {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  3dcd712d-433f-4e39-918b-ed914cf7682d: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 3dcd712d-433f-4e39-918b-ed914cf7682d
+    jinja: Every set of circumstances In and Then In, given that {{premise}} Then,
+      if it must be true that "{{hypothesis}}" Then, yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  591cf939-08b3-4315-b7e1-8ebb927d620c: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 591cf939-08b3-4315-b7e1-8ebb927d620c
+    jinja: In two nontrivial sets of circumstances In Then, given that {{premise}}
+      Then, if it must be true that "{{hypothesis}}" Then, yes, no, or maybe? |||
+      {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  b0f7b228-39a1-410a-ae50-dde64c8d3f69: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: b0f7b228-39a1-410a-ae50-dde64c8d3f69
+    jinja: Any two sets of circumstances In Then, given that {{premise}} Then, if
+      it must be true that "{{hypothesis}}" Then, yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  d5b44057-63e5-409c-879f-a483bbaaf356: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: d5b44057-63e5-409c-879f-a483bbaaf356
+    jinja: How can it be that under a nontrivial set of circumstances Then, given
+      that {{premise}} Then, if it must be true that "{{hypothesis}}" Then, yes, no,
+      or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  e7e8b3cb-b7bf-4719-9cd6-394af9d7d760: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: e7e8b3cb-b7bf-4719-9cd6-394af9d7d760
+    jinja: If there exists a nontrivial set of circumstances, Then, given that {{premise}}
+      Then, if it must be true that "{{hypothesis}}" Then, yes, no, or maybe? |||
+      {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  e958db92-4be4-45fe-be0e-5ad0a48e4dd9: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: e958db92-4be4-45fe-be0e-5ad0a48e4dd9
+    jinja: So, in a nontrivial set of circumstances, Then, given that {{premise}}
+      Then, if it must be true that "{{hypothesis}}" Then, yes, no, or maybe? |||
+      {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  f0167455-3ef2-43ef-ac74-7193bbc6bf2c: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: f0167455-3ef2-43ef-ac74-7193bbc6bf2c
+    jinja: Suppose that in a set of 'trivial circumstances', given that {{premise}}
+      Then, if it must be true that "{{hypothesis}}" Then, yes, no, or maybe? |||
+      {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  f2824421-a8c6-4906-b2dc-288ff6b94661: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: f2824421-a8c6-4906-b2dc-288ff6b94661
+    jinja: How can it be that if in a nontrivial set of circumstances Then, given
+      that {{premise}} Then, if it must be true that "{{hypothesis}}" Then, yes, no,
+      or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021

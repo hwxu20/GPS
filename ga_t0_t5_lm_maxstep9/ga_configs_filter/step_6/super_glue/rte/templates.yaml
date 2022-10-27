@@ -1,0 +1,125 @@
+dataset: super_glue
+subset: rte
+templates:
+  24ddab8e-f6d1-48bf-90e9-430274f5c16b: !Template
+    answer_choices: Yes ||| No
+    id: 24ddab8e-f6d1-48bf-90e9-430274f5c16b
+    jinja: Given the {{premise}} s s, can you prove the "{{hypothesis}}" (B)? Yes
+      or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  25a150c3-ca77-4987-b61b-bd11e2178a86: !Template
+    answer_choices: Yes ||| No
+    id: 25a150c3-ca77-4987-b61b-bd11e2178a86
+    jinja: Given the {{premise}} s, can you prove the "{{hypothesis}}" (B)? Yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  39b1acb1-42fb-42ba-b10e-59d677c000ed: !Template
+    answer_choices: Yes ||| No
+    id: 39b1acb1-42fb-42ba-b10e-59d677c000ed
+    jinja: Given the {{premise}} s s, Can you prove the "{{hypothesis}}" (A)? Yes
+      or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  3ef78c8e-8209-4ee4-b40e-23927d4007ce: !Template
+    answer_choices: Yes ||| No
+    id: 3ef78c8e-8209-4ee4-b40e-23927d4007ce
+    jinja: Given the {{premise}} s s and x, Can you prove the "{{hypothesis}}" (B)?
+      Yes or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  4080003e-d2d3-42eb-854e-8803cc853ee7: !Template
+    answer_choices: Yes ||| No
+    id: 4080003e-d2d3-42eb-854e-8803cc853ee7
+    jinja: Given the {{premise}} s, can you prove the "{{hypothesis}}" (A)? Yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  4c4f2447-cbe8-48d2-a490-c2ffad2d4df1: !Template
+    answer_choices: Yes ||| No
+    id: 4c4f2447-cbe8-48d2-a490-c2ffad2d4df1
+    jinja: "{{premise}} \n\nQuestion: is this likely to entail that \"{{hypothesis}}\"\
+      . ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  507d3371-791a-4e47-a2a3-0091a3751cf7: !Template
+    answer_choices: Yes ||| No
+    id: 507d3371-791a-4e47-a2a3-0091a3751cf7
+    jinja: "{{premise}} \n\nQuestion: is this likely to be that \"{{hypothesis}}\"\
+      . ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  649ebd76-31e8-4899-9e9a-6f156a19ad3d: !Template
+    answer_choices: Yes ||| No
+    id: 649ebd76-31e8-4899-9e9a-6f156a19ad3d
+    jinja: "{{premise}} \n\nQuestion: If that is likely to entail that \"{{hypothesis}}\"\
+      , then this is likely to be true. ||| {% if label != -1 %}{{answer_choices[label]}}{%\
+      \ endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  69f55e8d-5e20-4190-947c-46b55febf6ff: !Template
+    answer_choices: Yes ||| No
+    id: 69f55e8d-5e20-4190-947c-46b55febf6ff
+    jinja: "{{premise}} \n\nQuestion: If this is likely to entail that \"{{hypothesis}}\"\
+      , then that is likely to be true. ||| {% if label != -1 %}{{answer_choices[label]}}{%\
+      \ endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  760d2a3f-4e76-4d47-9333-f6e7053065a1: !Template
+    answer_choices: Yes ||| No
+    id: 760d2a3f-4e76-4d47-9333-f6e7053065a1
+    jinja: "{{premise}} \n\nQuestion: Is this likely to entail that \"{{hypothesis}}\"\
+      . ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021

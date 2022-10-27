@@ -310,7 +310,7 @@ if __name__ == '__main__':
     task_mode = 't0'
 
     device = '0,1,2'
-    exp_dir = './ga_t0_t5_lm'
+    exp_dir = 'ga_t0_t5_lm_maxstep9'
     if not os.path.exists(os.path.join(exp_dir, 'ga_configs')):
         os.makedirs(os.path.join(exp_dir, 'ga_configs'), exist_ok=True)
         os.makedirs(os.path.join(exp_dir, 'ga_configs', 'cache'), exist_ok=True)
@@ -321,4 +321,4 @@ if __name__ == '__main__':
         os.mkdir(os.path.join(exp_dir, 'ga_evals'))
         os.mkdir(os.path.join(exp_dir, 'tensorboard_unified'))
 
-    ga_process(exp_dir=exp_dir, max_steps=7, device=device, mode=task_mode)
+    ga_process(exp_dir=exp_dir, max_steps=9, device=device, mode=task_mode)

@@ -1,0 +1,1705 @@
+dataset: super_glue
+subset: cb
+templates:
+  0126ffbb-8ee9-4d44-8d58-95bcaff9499a: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 0126ffbb-8ee9-4d44-8d58-95bcaff9499a
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" has any reasonable
+      basis for believing it? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  02afbd7b-75dc-4f66-b014-9a45e560f343: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 02afbd7b-75dc-4f66-b014-9a45e560f343
+    jinja: '{{premise}} Sufficient evidence for that "{{hypothesis}}"? Yes, no, or
+      maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  05bfcc30-eba2-4531-a918-f7b64f9a468e: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 05bfcc30-eba2-4531-a918-f7b64f9a468e
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" is better than those
+      ideas? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{%
+      endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  097fd045-4550-4941-b8c8-e2f73ea7950c: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 097fd045-4550-4941-b8c8-e2f73ea7950c
+    jinja: Given that {{premise}} ,is true that "{{hypothesis}}" Yes, no, or maybe?
+      ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  0c122dc1-5299-4455-8357-17662b6cf705: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 0c122dc1-5299-4455-8357-17662b6cf705
+    jinja: '{{premise}} Can you explain why you don''t like that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  0c44c407-31e5-4cac-81e2-c830542762dd: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 0c44c407-31e5-4cac-81e2-c830542762dd
+    jinja: '{{premise}} Can you see how that "{{hypothesis}}" makes sense? Yes, no,
+      or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  16e8b378-66d4-4f3f-b822-1d9f20722559: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 16e8b378-66d4-4f3f-b822-1d9f20722559
+    jinja: '{{premise}} Does it look as if we have no reasonable basis for believing
+      that "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  17d28e5b-8b09-4374-afdf-d56eddb5effa: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 17d28e5b-8b09-4374-afdf-d56eddb5effa
+    jinja: '{{premise}} Does it look as if there is some reasonably-placed confidence
+      in believing that "{{hypothesis}}"? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  187feed6-cea7-4690-9020-b8e2ca0578f1: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 187feed6-cea7-4690-9020-b8e2ca0578f1
+    jinja: Given that {{premise}} Does true that "{{hypothesis}}" ||| {% if label
+      != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  1a116811-0068-45c0-bec0-89fd74cc9463: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 1a116811-0068-45c0-bec0-89fd74cc9463
+    jinja: Given that {{premise}} and that conclusion, is it impossible to be true
+      that "{{hypothesis}}" ? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  1a12e70d-20fb-4194-9440-69005cb2fd2a: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 1a12e70d-20fb-4194-9440-69005cb2fd2a
+    jinja: '{{premise}} Can you see why the "{{hypothesis}}" is wrong? Yes, no, or
+      maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  1a84ef7a-5b38-47d2-8d30-ffc42df1f728: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 1a84ef7a-5b38-47d2-8d30-ffc42df1f728
+    jinja: Given that {{premise}} is it true that this "{{hypothesis}}" is not true?
+      Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif
+      %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  1f492088-84ac-4845-92ff-a3a958b36daa: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 1f492088-84ac-4845-92ff-a3a958b36daa
+    jinja: '{{premise}} Please rate your understanding of the reasoning behind the
+      "{{hypothesis}}". ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  1f70af0a-82c1-4d7f-a630-5ea41baff214: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 1f70af0a-82c1-4d7f-a630-5ea41baff214
+    jinja: '{{premise}} Do you believe that "{{hypothesis}}" correct? ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  2723dd55-da29-40d2-a508-2f662bf68faf: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 2723dd55-da29-40d2-a508-2f662bf68faf
+    jinja: '{{premise}} If that "{{hypothesis}}" is correct, the earth is flat. |||
+      {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  27ff3d4d-56eb-4532-92bd-04771a55f981: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 27ff3d4d-56eb-4532-92bd-04771a55f981
+    jinja: '{{premise}} Is that "{{hypothesis}}" a reasonable one? Yes, no, or maybe?
+      ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  2af900bb-b733-4976-839e-5b6f71f4bb7f: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 2af900bb-b733-4976-839e-5b6f71f4bb7f
+    jinja: '{{premise}} If the jury finds there is a reasonable basis for believing
+      that "{{hypothesis}}", what are their reasons? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  2cc0f402-0350-4eef-8146-eb5234619d07: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 2cc0f402-0350-4eef-8146-eb5234619d07
+    jinja: '{{premise}} Can you imagine why that "{{hypothesis}}" makes sense? Yes,
+      no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  2e809480-1c3e-4864-9b13-d0a441dbbb99: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 2e809480-1c3e-4864-9b13-d0a441dbbb99
+    jinja: '{{premise}} Is it like there is a reasonable basis for believing that
+      "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  32877e3c-b3a0-472a-9bfb-ccc998d8d017: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 32877e3c-b3a0-472a-9bfb-ccc998d8d017
+    jinja: '{{premise}} Does it look as if there''s a possibility of some sort that
+      would make sense under that "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  3979327d-357f-45f3-af63-b6c0cf3919d4: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 3979327d-357f-45f3-af63-b6c0cf3919d4
+    jinja: Given that {{premise}} and that conclusion, can it be true that the "{{hypothesis}}"
+      is true? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  3a37a9d3-7433-4411-8f5f-a667e2708aaf: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 3a37a9d3-7433-4411-8f5f-a667e2708aaf
+    jinja: '{{premise}} Does that "{{hypothesis}}" look like it has a reasonable basis
+      for believing it? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  3aa92778-9b6c-499e-a67b-08ae49510aad: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 3aa92778-9b6c-499e-a67b-08ae49510aad
+    jinja: '{{premise}} If you know that there is an argument for believing that "{{hypothesis}}",
+      would you still agree with the conclusion of that argument? ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  3ded0c1b-9c56-4a98-9928-f6d07d7ff648: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 3ded0c1b-9c56-4a98-9928-f6d07d7ff648
+    jinja: '{{premise}} Is it reasonable to consider that "{{hypothesis}}" true? Yes,
+      no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  4436841c-24d0-4c02-b0ac-770b6e6fddbf: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 4436841c-24d0-4c02-b0ac-770b6e6fddbf
+    jinja: Given that {{premise}} and that conclusion, is it possible for the "{{hypothesis}}"
+      ? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif
+      %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  45729a5f-91d3-40b8-9b1c-c31a34b9b48e: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 45729a5f-91d3-40b8-9b1c-c31a34b9b48e
+    jinja: '{{premise}} Does it look as if there is evidence to support the "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  45802acd-7b50-4f90-8ab9-831a39a747f3: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 45802acd-7b50-4f90-8ab9-831a39a747f3
+    jinja: Given that {{premise}} is it true that this "{{hypothesis}}" is true? Yes,
+      no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  4777f594-76c6-451c-9062-f8b168907e19: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 4777f594-76c6-451c-9062-f8b168907e19
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" looks as if it is
+      an argument for believing that? Yes, no, or maybe? ||| {% if label !=-1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  48320597-38c5-4b00-9a4f-f6d6a7445409: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 48320597-38c5-4b00-9a4f-f6d6a7445409
+    jinja: '{{premise}} Is that "{{hypothesis}}" correct? Yes, no, or maybe? (List
+      reasons why one would be correct while the other would not). ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  4b4640d2-b7ef-4b36-8a84-df0b91993feb: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 4b4640d2-b7ef-4b36-8a84-df0b91993feb
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" is supported by a
+      lot of evidence? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  4f369577-4232-4eeb-86d8-9660b48d3fa6: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 4f369577-4232-4eeb-86d8-9660b48d3fa6
+    jinja: '{{premise}} Does it look as if there is a reason to believe that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  4f959ea4-b0a9-455f-877e-8974bea65d47: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 4f959ea4-b0a9-455f-877e-8974bea65d47
+    jinja: '{{premise}} You may think the argument from your "{{hypothesis}}" is probably
+      correct. Would you like to know more about that argument? ||| {% if label !=-1
+      %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  55252c84-4078-43b8-bcf7-354e8f250725: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 55252c84-4078-43b8-bcf7-354e8f250725
+    jinja: '{{premise}} Do you think the "{{hypothesis}}" is valid? ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  5747964c-a55e-4415-99d1-a26768c95702: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 5747964c-a55e-4415-99d1-a26768c95702
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" looks like it has
+      a good basis for believing it? Yes, no, or maybe? ||| {% if label !=-1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  578f412e-6b0e-4d21-a854-617d42ebb388: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 578f412e-6b0e-4d21-a854-617d42ebb388
+    jinja: Given that {{premise}} ,Is true that "{{hypothesis}}" ? Yes, no or maybe?
+      ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  5b1489e1-90d9-432d-8615-2c74ab2802af: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 5b1489e1-90d9-432d-8615-2c74ab2802af
+    jinja: '{{premise}} Does it look as if we have a good argument for believing that
+      "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  5bd1ef2e-63dc-4b0b-946e-9c84736ece2d: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 5bd1ef2e-63dc-4b0b-946e-9c84736ece2d
+    jinja: '{{premise}} What is the strength of the argument for believing that "{{hypothesis}}"?
+      ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  5d15ecad-aa92-4f9c-b514-e76ff10cd98b: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 5d15ecad-aa92-4f9c-b514-e76ff10cd98b
+    jinja: Given that {{premise}} , is that "{{hypothesis}}" true? Yes, no, or maybe?
+      ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  5d963146-cc8b-4eb5-92e4-907faaec552d: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 5d963146-cc8b-4eb5-92e4-907faaec552d
+    jinja: '{{premise}} Is that "{{hypothesis}}" correct? Yes, no, or maybe (use how
+      to create survey) ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  5defaa1e-0ea4-49d2-b4b5-a75d5fce0ed4: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 5defaa1e-0ea4-49d2-b4b5-a75d5fce0ed4
+    jinja: '{{premise}} What do you think of the reasoning of this "{{hypothesis}}"?
+      ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  635c6831-74d5-4c47-a2fd-c2bbf9e4677a: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 635c6831-74d5-4c47-a2fd-c2bbf9e4677a
+    jinja: '{{premise}} Do you think that "{{hypothesis}}" is correct? Yes, no, or
+      maybe ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  69882d6e-372a-45e1-aa0c-0ff7eb88a671: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 69882d6e-372a-45e1-aa0c-0ff7eb88a671
+    jinja: '{{premise}} Does it look like that "{{hypothesis}}" has a reasonable basis
+      for believing it? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  6a8956b6-c8d6-408f-ad5e-d344efdfc0c9: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 6a8956b6-c8d6-408f-ad5e-d344efdfc0c9
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" could lead to results
+      similar to what we expect to find? Yes, no, or maybe? ||| {% if label !=-1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  6a9f91a0-77dd-4d3d-8b0f-238d13b54779: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 6a9f91a0-77dd-4d3d-8b0f-238d13b54779
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" looks like there
+      is a basis for believing it? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  6ab7176a-9ea1-41de-a3f2-c543c4aae303: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 6ab7176a-9ea1-41de-a3f2-c543c4aae303
+    jinja: If {{premise}} A is true then this "{{hypothesis}}" is true? Yes, no, or
+      maybe? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  6b143346-d543-4143-96a8-ff929012b87b: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 6b143346-d543-4143-96a8-ff929012b87b
+    jinja: '{{premise}} Does it look as if there is some reasonable basis for believing
+      that "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  6b3bba51-1a14-4ac3-83a0-9e93ae82dad0: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 6b3bba51-1a14-4ac3-83a0-9e93ae82dad0
+    jinja: '{{premise}} Does it look as if there is something reasonable to be observed
+      about that "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  6e876660-6dab-4ccf-808e-33fd857d9ff7: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 6e876660-6dab-4ccf-808e-33fd857d9ff7
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" looks like it has
+      an excellent basis for believing it? Yes, no, or maybe? ||| {% if label !=-1
+      %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  6fcb6583-0c31-4755-ae2c-f27aefe752d9: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 6fcb6583-0c31-4755-ae2c-f27aefe752d9
+    jinja: '{{premise}} Is that "{{hypothesis}}" plausible? Yes, no, or maybe? |||
+      {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  71a8a7fb-2147-46c6-95d8-22e072564ab0: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 71a8a7fb-2147-46c6-95d8-22e072564ab0
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" seems to be strongly
+      supported by the available evidence? Yes, no, or maybe? ||| {% if label !=-1
+      %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  745ae1d5-fae5-4116-a902-6803e90a9f3c: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 745ae1d5-fae5-4116-a902-6803e90a9f3c
+    jinja: '{{premise}} Does it look as if we have some reason to believe that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  7480dce7-d2eb-4ee2-98dc-9c56f0ca6759: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 7480dce7-d2eb-4ee2-98dc-9c56f0ca6759
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" looks like it has
+      a good reason for believing it? Yes, no, or maybe? ||| {% if label !=-1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  7620c779-b8bc-441a-89c2-285ba9f3f2c7: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 7620c779-b8bc-441a-89c2-285ba9f3f2c7
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" looks like it is
+      supported by facts? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  777fc3ac-a05d-41f4-aaed-674b2618e688: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 777fc3ac-a05d-41f4-aaed-674b2618e688
+    jinja: '{{premise}} If that "{{hypothesis}}" is correct, what will the result
+      be? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  78827157-775c-4581-959f-ac51af89386c: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 78827157-775c-4581-959f-ac51af89386c
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" has any reasonable
+      basis for being believed? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  7c4fa14b-159a-45c6-bc75-e5e8d2072d96: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 7c4fa14b-159a-45c6-bc75-e5e8d2072d96
+    jinja: Given that {{premise}} and that conclusion, is it likely to be true that
+      "{{hypothesis}}" ? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  7d01455b-0eac-48a8-9953-3aabf0178621: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 7d01455b-0eac-48a8-9953-3aabf0178621
+    jinja: '{{premise}} What do you think about this "{{hypothesis}}"? ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  7e6c53b2-527b-4cce-a3e3-651b04d16a48: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 7e6c53b2-527b-4cce-a3e3-651b04d16a48
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" has a reasonable
+      basis for believing it? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  7fd60137-c23e-4ddc-8025-5e6925d19b4c: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 7fd60137-c23e-4ddc-8025-5e6925d19b4c
+    jinja: Given that {{premise}} , does that "{{hypothesis}}" have any significance
+      Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif
+      %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  7ff4958d-4dbf-41e1-a6b5-0ffe16c9eb88: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 7ff4958d-4dbf-41e1-a6b5-0ffe16c9eb88
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" seems like it has
+      a reasonable basis for believing it? Yes, no, or maybe? ||| {% if label !=-1
+      %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  7ffa4869-ad49-45c0-bf2b-dffe574ee9b6: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 7ffa4869-ad49-45c0-bf2b-dffe574ee9b6
+    jinja: '{{premise}} If you can see why that "{{hypothesis}}" makes sense, how
+      can you make it better? ||| {% if label !=-1 %}{{ answer_choices[label] }}{%
+      endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  87c93a5c-cff8-4b87-831e-35afdf56bc9b: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 87c93a5c-cff8-4b87-831e-35afdf56bc9b
+    jinja: Given those {{premise}} s and that conclusion, can it be true that the
+      "{{hypothesis}}" ? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  8b6949b6-a0fb-4746-b13c-80d7e0776603: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 8b6949b6-a0fb-4746-b13c-80d7e0776603
+    jinja: Given that {{premise}} Does true that "{{hypothesis}}" not? ||| {% if label
+      != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  8bc65997-4ef3-4a3c-9f72-6bcb2d6b025b: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 8bc65997-4ef3-4a3c-9f72-6bcb2d6b025b
+    jinja: Given that {{premise}} Is true that "{{hypothesis}}" ? ||| {% if label
+      != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  8c4e931c-070b-45d3-8017-d756baf302b8: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 8c4e931c-070b-45d3-8017-d756baf302b8
+    jinja: '{{premise}} Yes, no, or maybe. Does it look as if we have a good argument
+      for believing that "{{hypothesis}}"? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  8d94ba3d-daaf-4190-a38c-ad85e05fa633: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 8d94ba3d-daaf-4190-a38c-ad85e05fa633
+    jinja: Given that {{premise}} and that conclusion, is it true that the "{{hypothesis}}"
+      ? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif
+      %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  8ef77978-676c-49a9-a4df-17f710789e7a: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 8ef77978-676c-49a9-a4df-17f710789e7a
+    jinja: '{{premise}} Sufficient evidence is needed to refute that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  92ab76fe-1639-4830-96b2-d6e09731cbaa: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 92ab76fe-1639-4830-96b2-d6e09731cbaa
+    jinja: Given that {{premise}} , is true that "{{hypothesis}}" Yes, no, or maybe?
+      ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  956621a2-7be7-4d14-a246-61f2eb3b44ad: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 956621a2-7be7-4d14-a246-61f2eb3b44ad
+    jinja: Given that {{premise}} does true that "{{hypothesis}}" ? ||| {% if label
+      != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  964886e3-96ee-4c6a-8891-8af7b16e3910: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 964886e3-96ee-4c6a-8891-8af7b16e3910
+    jinja: Given that {{premise}} , is it true that this "{{hypothesis}}" ? Yes, no,
+      or maybe? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  9679be07-5111-49e0-896c-7d1507d7d4e7: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 9679be07-5111-49e0-896c-7d1507d7d4e7
+    jinja: '{{premise}} Is that "{{hypothesis}}" correct? Yes, no, or maybe (Note
+      that''maybe'' has a different meaning from ''yes''). ||| {% if label !=-1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  9ba63000-56eb-4686-a00b-76619e7c28ac: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 9ba63000-56eb-4686-a00b-76619e7c28ac
+    jinja: '{{premise}} Does it look as if we have some sort of evidence to believe
+      that "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  9f8874f3-30bb-45ce-99c7-3f8faa76fad9: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 9f8874f3-30bb-45ce-99c7-3f8faa76fad9
+    jinja: '{{premise}} If that "{{hypothesis}}" is correct, how did you find out?
+      ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  9fa276a7-3b78-4729-90f0-9bcb06f17e7d: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: 9fa276a7-3b78-4729-90f0-9bcb06f17e7d
+    jinja: '{{premise}} If that "{{hypothesis}}" is correct, how confident are you?
+      What is your confidence level? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  a0a1a0b7-5887-4af3-a1b9-1c516f67df63: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: a0a1a0b7-5887-4af3-a1b9-1c516f67df63
+    jinja: '{{premise}} Are there sufficient evidence to support that "{{hypothesis}}"?
+      ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  a45da304-f4b9-492c-9b61-013a81c81715: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: a45da304-f4b9-492c-9b61-013a81c81715
+    jinja: '{{premise}} Is that "{{hypothesis}}" correct? Yes, no, or maybe? ||| {%
+      if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  a569d760-06d1-439f-9df8-0d79ab816f21: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: a569d760-06d1-439f-9df8-0d79ab816f21
+    jinja: '{{premise}} Can you see why the "{{hypothesis}}" makes sense? Yes, no,
+      or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  a6adb385-628f-4c98-8d62-c30a3fa6dc4b: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: a6adb385-628f-4c98-8d62-c30a3fa6dc4b
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" is supported by something
+      that hasn''t been discovered yet? Yes, no, or maybe? ||| {% if label !=-1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  a82f6b56-b127-455b-b15c-585ff3957a88: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: a82f6b56-b127-455b-b15c-585ff3957a88
+    jinja: '{{premise}} Is that "{{hypothesis}}" correct? No, maybe, or yes ||| {%
+      if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  a9c6493b-ac28-4021-84b0-545ed7913087: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: a9c6493b-ac28-4021-84b0-545ed7913087
+    jinja: Given that {{premise}} and that conclusion, is it possible that "{{hypothesis}}"
+      is true? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  ac26650c-8a19-415a-9dd8-cdc497fdcca5: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: ac26650c-8a19-415a-9dd8-cdc497fdcca5
+    jinja: '{{premise}} How do you think this "{{hypothesis}}" is true? ||| {% if
+      label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  ac63cc28-55c4-4618-9477-d153595ebacb: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: ac63cc28-55c4-4618-9477-d153595ebacb
+    jinja: '{{premise}} That "{{hypothesis}}" is correct, according to science. But
+      the reason why isn''t clear. ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  ad9bbcd0-755a-4f47-be95-d2b81379c9a1: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: ad9bbcd0-755a-4f47-be95-d2b81379c9a1
+    jinja: '{{premise}} Is that "{{hypothesis}}" correct? Yes, no, or maybe (Understand
+      the difference between yes and no) ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  aea7ca22-9323-43bf-b819-2f9898c2e2f2: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: aea7ca22-9323-43bf-b819-2f9898c2e2f2
+    jinja: '{{premise}} If you did NOT believe that "{{hypothesis}}", then why did
+      you answer that question? (Use how to create survey) ||| {% if label !=-1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  b4414fba-ff82-449e-879a-06bfb89467ca: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: b4414fba-ff82-449e-879a-06bfb89467ca
+    jinja: Given that {{premise}} , Does true that "{{hypothesis}}" ? ||| {% if label
+      != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  b5f5143d-9547-4020-8236-aa12875fd1cb: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: b5f5143d-9547-4020-8236-aa12875fd1cb
+    jinja: '{{premise}} If we had an argument for believing that "{{hypothesis}}",
+      would you have a probability of believing it? Yes, no, or maybe? ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  b7d2f9fb-b991-4ddc-9876-e6af54b72454: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: b7d2f9fb-b991-4ddc-9876-e6af54b72454
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" is correct? Yes,
+      no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  b90e11c2-f85e-4d6f-8cd7-287b6c754c23: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: b90e11c2-f85e-4d6f-8cd7-287b6c754c23
+    jinja: '{{premise}} How confident are we that there is an argument for believing
+      that "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  bb1ce638-5d8f-4998-8882-a233fd1ba99a: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: bb1ce638-5d8f-4998-8882-a233fd1ba99a
+    jinja: Given that {{premise}} is that "{{hypothesis}}" true? ||| {% if label !=
+      -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  bd307bf4-3e44-4374-b9e5-e57a8a4f8fd5: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: bd307bf4-3e44-4374-b9e5-e57a8a4f8fd5
+    jinja: '{{premise}} Is that "{{hypothesis}}" correct? Yes, no, or maybe (understand
+      the difference between yes and no) ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  be11b64d-cbc5-43ce-bb81-f198f9550cb0: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: be11b64d-cbc5-43ce-bb81-f198f9550cb0
+    jinja: '{{premise}} Is that "{{hypothesis}}" correct? Yes, no, or maybe. ||| {%
+      if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  c03fe239-a841-474c-b458-6be77915ef9a: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: c03fe239-a841-474c-b458-6be77915ef9a
+    jinja: '{{premise}} Does it look like that "{{hypothesis}}" looks like it has
+      a reasonable basis for believing it? Yes, no, or maybe? ||| {% if label !=-1
+      %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  c0a11054-37ac-4432-9fac-8fe05d6d8354: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: c0a11054-37ac-4432-9fac-8fe05d6d8354
+    jinja: '{{premise}} When reading this experiment description, can you see why
+      that "{{hypothesis}}" makes sense? Yes, no, or maybe? ||| {% if label !=-1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  c1549ab2-44cd-4e3c-a9de-5bb73a461a61: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: c1549ab2-44cd-4e3c-a9de-5bb73a461a61
+    jinja: '{{premise}} Does it look as if there is a chance we will be right about
+      the current "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  c1634faf-b5d8-412e-b6bb-c99aed6fb259: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: c1634faf-b5d8-412e-b6bb-c99aed6fb259
+    jinja: '{{premise}} If it looks as if that "{{hypothesis}}" has a reasonable basis
+      for believing it, how much does it look as if you can believe it? ||| {% if
+      label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  c681f775-67ef-4780-8422-b4fdd29898f0: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: c681f775-67ef-4780-8422-b4fdd29898f0
+    jinja: Given that {{premise}} and that conclusion, is it possible that this "{{hypothesis}}"
+      is true? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  c73aaed0-9a2b-4c1c-9faa-4ee1d2052b1c: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: c73aaed0-9a2b-4c1c-9faa-4ee1d2052b1c
+    jinja: '{{premise}} Does it look as if there is a reason for arguing for or against
+      that "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  ca3a3d0a-e82c-4d04-b080-9aabb5290c18: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: ca3a3d0a-e82c-4d04-b080-9aabb5290c18
+    jinja: '{{premise}} If you could test that "{{hypothesis}}" (H1) against that
+      (H2), do you think it would pass? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  ca73828b-a74f-4dd7-ae5b-c318498dbc5c: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: ca73828b-a74f-4dd7-ae5b-c318498dbc5c
+    jinja: '{{premise}} Why do you think that "{{hypothesis}}" is right? ||| {% if
+      label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  cc21f8d3-4d25-4891-be69-83a3be246933: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: cc21f8d3-4d25-4891-be69-83a3be246933
+    jinja: '{{premise}} Does that "{{hypothesis}}" correct? Yes, no, or maybe |||
+      {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  cf731b8c-81f7-4d62-b10b-eda05d58c7df: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: cf731b8c-81f7-4d62-b10b-eda05d58c7df
+    jinja: Given that {{premise}} and that conclusion, does the "{{hypothesis}}" have
+      to be true? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  d025b154-8b64-4678-b991-488286a69107: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d025b154-8b64-4678-b991-488286a69107
+    jinja: '{{premise}} Why doesn''t that "{{hypothesis}}" make sense? ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d089a728-1113-4f06-a5b9-971afa1a8f68: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d089a728-1113-4f06-a5b9-971afa1a8f68
+    jinja: '{{premise}} Does it look as if we have some good reason to believe that
+      "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d09648e4-94ff-480b-b729-03f92af161aa: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d09648e4-94ff-480b-b729-03f92af161aa
+    jinja: '{{premise}} Does it look as if there is a reasonable basis for believing
+      that "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d2789ad4-75ca-4b1d-ab19-704d9ce5a716: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d2789ad4-75ca-4b1d-ab19-704d9ce5a716
+    jinja: '{{premise}} Can you see why that "{{hypothesis}}" is wrong? Yes, no, or
+      maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d284cf65-f8ad-4f02-8246-ad14053bfcae: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d284cf65-f8ad-4f02-8246-ad14053bfcae
+    jinja: '{{premise}} Is that "{{hypothesis}}" correct? Yes, no, or maybe (Gets
+      students to predict what the answer is rather than tell them) ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d286bc9c-583f-4839-ab95-0d193aab9be0: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d286bc9c-583f-4839-ab95-0d193aab9be0
+    jinja: '{{premise}} Does it look as if there is an okay basis for believing that
+      "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d410a52f-01f0-428e-991c-f668a6e4b576: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d410a52f-01f0-428e-991c-f668a6e4b576
+    jinja: '{{premise}} Does the evidence show that that "{{hypothesis}}" is reasonable?
+      Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d4ede8b8-af73-463f-8996-39bcafbb3125: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d4ede8b8-af73-463f-8996-39bcafbb3125
+    jinja: '{{premise}} Do you think that "{{hypothesis}}" is true? Yes, no, or maybe?
+      ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d59f1b85-eeb1-43f0-b625-be3f3aef1278: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d59f1b85-eeb1-43f0-b625-be3f3aef1278
+    jinja: Given that {{premise}} , Is true that "{{hypothesis}}" yes, no or maybe?
+      ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  d5cb0bca-6a2b-42ab-a3da-e717447e87d4: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d5cb0bca-6a2b-42ab-a3da-e717447e87d4
+    jinja: '{{premise}} Does it look as if we have evidence for believing that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d6da80a1-bd45-4cf6-a3b3-6509fa2c9132: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d6da80a1-bd45-4cf6-a3b3-6509fa2c9132
+    jinja: '{{premise}} What would you think about this "{{hypothesis}}"? ||| {% if
+      label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d764a257-0e34-4c75-890c-6903c241c5b8: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d764a257-0e34-4c75-890c-6903c241c5b8
+    jinja: Given that {{premise}} , does true that "{{hypothesis}}" ? ||| {% if label
+      != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  d7ff2e27-31e2-414f-b51e-d8a9ca5aa992: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: d7ff2e27-31e2-414f-b51e-d8a9ca5aa992
+    jinja: Given that {{premise}} is it true that this "{{hypothesis}}" is true? |||
+      {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  dcb67fb9-7515-4a4d-979d-11e13c8591d5: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: dcb67fb9-7515-4a4d-979d-11e13c8591d5
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" is reasonable? Yes,
+      no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  deba2aed-a246-444e-97cb-2dbb38498a3f: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: deba2aed-a246-444e-97cb-2dbb38498a3f
+    jinja: Given that {{premise}} and that conclusion, can it be true that the "{{hypothesis}}"
+      is? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label] }}{%
+      endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  decdf008-b538-4c50-84fb-c2d05a188950: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: decdf008-b538-4c50-84fb-c2d05a188950
+    jinja: Given that {{premise}} and that conclusion, it is possible to be true that
+      "{{hypothesis}}" ? Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  e03b33d7-d5b4-4d7f-a35a-b8fbfdffb571: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: e03b33d7-d5b4-4d7f-a35a-b8fbfdffb571
+    jinja: '{{premise}} If you agree with "{{hypothesis}}" A, then is it true that
+      B is true? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  e868d8d0-dff3-4761-bde6-0167278cff54: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: e868d8d0-dff3-4761-bde6-0167278cff54
+    jinja: '{{premise}} Does it look as if there is an adequate basis for believing
+      that "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  e95d05c6-d911-4252-8c93-e1d6cb80ea19: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: e95d05c6-d911-4252-8c93-e1d6cb80ea19
+    jinja: Given that {{premise}} and that conclusion, is the "{{hypothesis}}" reasonable?
+      Yes, no, or maybe? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif
+      %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  eb261523-bee2-47e4-b480-a452e879e53e: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: eb261523-bee2-47e4-b480-a452e879e53e
+    jinja: Given that {{premise}} and that conclusion, is it possible that "{{hypothesis}}"
+      is true? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  eb472bf4-abea-4cf0-9780-75533f265036: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: eb472bf4-abea-4cf0-9780-75533f265036
+    jinja: '{{premise}} Does it look as if we have an argument against believing that
+      "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  ebdecb74-f60c-4d05-9fb2-ee0e9bd87442: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: ebdecb74-f60c-4d05-9fb2-ee0e9bd87442
+    jinja: '{{premise}} Can you describe in the world where that "{{hypothesis}}"
+      would have been true? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  ec6047af-400c-409a-871a-5c5396ed0dfc: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: ec6047af-400c-409a-871a-5c5396ed0dfc
+    jinja: '{{premise}} Does it look as if we have a case for believing that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  eecb65a8-9461-46c1-bd24-b62e4818f020: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: eecb65a8-9461-46c1-bd24-b62e4818f020
+    jinja: '{{premise}} Do you think the "{{hypothesis}}" is correct? Yes, no, or
+      maybe? (use how to create survey) ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  f08bfaf2-0236-4bae-b095-01e899dd8de7: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: f08bfaf2-0236-4bae-b095-01e899dd8de7
+    jinja: '{{premise}} If that "{{hypothesis}}" is correct, why do you think it is
+      correct? (use how to create survey) ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  f12cd17c-2081-48f6-b419-2b0890015f03: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: f12cd17c-2081-48f6-b419-2b0890015f03
+    jinja: '{{premise}} Sufficient evidence does not support that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  f1fef82e-4ba3-47ec-ad80-c44c6a8478de: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: f1fef82e-4ba3-47ec-ad80-c44c6a8478de
+    jinja: '{{premise}} Is that "{{hypothesis}}" correct? Yes, no, or maybe ||| {%
+      if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  f5c26fe7-9d95-4c89-98cd-8479b603470f: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: f5c26fe7-9d95-4c89-98cd-8479b603470f
+    jinja: Given that {{premise}} and that "{{hypothesis}}" , What is the value of
+      that number? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  f5fb6bad-0849-49d0-a177-c920e9e53b97: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: f5fb6bad-0849-49d0-a177-c920e9e53b97
+    jinja: '{{premise}} Can that "{{hypothesis}}" be supported? Yes, no, or maybe?
+      ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  f612eb84-c5d4-4195-812c-af3259223d23: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: f612eb84-c5d4-4195-812c-af3259223d23
+    jinja: '{{premise}} Does it look as if there are some serious drawbacks in believing
+      that "{{hypothesis}}"? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  f6ec4835-8978-4b7f-b7ab-ffcc4c75a7ce: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: f6ec4835-8978-4b7f-b7ab-ffcc4c75a7ce
+    jinja: '{{premise}} Is it reasonable to believe that "{{hypothesis}}"? Yes, no,
+      or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  fafe26c0-379b-4e84-a594-a8e2f17c882e: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: fafe26c0-379b-4e84-a594-a8e2f17c882e
+    jinja: '{{premise}} Does it look as if that "{{hypothesis}}" looks like it is
+      important enough to support? Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  fcff5943-c3aa-459a-af01-16e95d4279ca: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: fcff5943-c3aa-459a-af01-16e95d4279ca
+    jinja: '{{premise}} Is this "{{hypothesis}}" correct? ||| {% if label !=-1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  ff00d7fa-2673-4535-b9b5-3d729c54c83e: !Template
+    answer_choices: Yes ||| No ||| Maybe
+    id: ff00d7fa-2673-4535-b9b5-3d729c54c83e
+    jinja: '{{premise}} If yes, what should we do to improve the "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021

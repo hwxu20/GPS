@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Assume it is true that John Fair \"Jocko\" Marcellino (born May 12, 1950) is an American singer, musician, songwriter, producer and actor best known as one of the founders of the American rock and roll group Sha Na Na. He performed with Sha Na Na at the original Woodstock Festival, in the movie \"Grease\" and in The Sha Na Na Show, their worldwide syndicated TV show. Therefore, \"John Fair was born a singer in 1950\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -9.702469825744629,
+            -7.409635543823242,
+            -14.10653018951416
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that The Gannochy trust is a charitable organisation which is based and operates in Scotland with a preference for projects in Perth and Kinross. The trust was founded in 1937 by influential Perth business man Arthur Kinmond Bell, known as A. K. Bell, of Arthur Bell & Sons Ltd. Therefore, \"The Gannochy trust gives help to charitable causes in the US.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -14.334673881530762,
+            -8.259438514709473,
+            -11.24826431274414
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Mon Colle Knights, known as Six Gates Far Away Mon Colle Knight (Japanese: , Hepburn: Rokumon Tengai Mon Kore Naito ) in Japan, is an anime and manga series. The original concept was made by Hitoshi Yasuda and Group SNE. The series is based on the Monster Collection trading card game. Therefore, \"Hitoshi Yasudau was involved in the original idea of the anime and maga series which was first a trading card game.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -10.196124076843262,
+            -6.572108268737793,
+            -13.224161148071289
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Agatha Christie: Evil Under the Sun is a video game released for the PC and Nintendo Wii, and is the third installment of The Adventure Company's \"Agatha Christie\" series, developed by AWE Productions, based on Agatha Christie's novel \"Evil Under the Sun\". The PC version was released in 2007, and the Wii version one year later. Therefore, \"The Adventure Company made at least three video games\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -11.318145751953125,
+            -7.629077911376953,
+            -15.694704055786133
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Pilsner (also pilsener or simply pils) is a type of pale lager. It takes its name from Plze (Pilsen in Czech Republic), a city in Bohemia, then in the Austrian Empire, now in the Czech Republic, where it was first produced in 1842. The world\u2019s first blond lager, the original Pilsner Urquell, is still produced there today. Therefore, \"Pilsner is Czech.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -10.694536209106445,
+            -8.040603637695312,
+            -16.22960662841797
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Okra or okro ( or ), known in many English-speaking countries as ladies' fingers or ochro, is a flowering plant in the mallow family. It is valued for its edible green seed pods. The geographical origin of okra is disputed, with supporters of West African, Ethiopian, and South Asian origins. The plant is cultivated in tropical, subtropical and warm temperate regions around the world. Therefore, \"The geopgraphical origin of okra is disputed, with supporters stating that the origins of the plant could be from either East Africa, Eithiopia, or South Asia.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -13.595454216003418,
+            -6.6314167976379395,
+            -15.258214950561523
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Ai Weiwei The Fake Case is a 2013 documentary film about Chinese artist and activist Ai Weiwei, directed by Danish filmmaker Andreas Johnsen. The film won Best 2014 Documentary in Danish Film Critics Association's 67th Bodil Awards, played in the official selection of 2014 Hot Docs Canadian International Documentary Festival in Toronto and International Documentary Film Festival Amsterdam. Therefore, \"Ai Weiwei The Fake Case is a 2013 documentary film about Chinese artist and activist Ai Weiwei staring Ai Weiwei.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -9.136221885681152,
+            -6.996500492095947,
+            -15.346601486206055
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that PSR B1919+21 is a pulsar with a period of 1.3373 seconds and a pulse width of 0.04 seconds. Discovered by Jocelyn Bell Burnell and Antony Hewish on November 28, 1967, it is the first discovered radio pulsar. The power and regularity of the signals were briefly thought to resemble an extraterrestrial beacon, leading the source to be nicknamed LGM-1 (for \"little green men\"). Therefore, \"PSR B1919+21 has a period of 1337.3 ms\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -11.288806915283203,
+            -8.511750221252441,
+            -17.548337936401367
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Objective-C is a general-purpose, object-oriented programming language that adds Smalltalk-style messaging to the C programming language. It was the main programming language used by Apple for the OS X and iOS operating systems, and their respective application programming interfaces (APIs) Cocoa and Cocoa Touch prior to the introduction of Swift. Therefore, \"Objective-C is the main programming language that is now used by Apple for the OSX and iOS operating systems.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -13.269240379333496,
+            -7.804513931274414,
+            -12.513083457946777
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Elazar Menachem Man Shach (Hebrew:     ) Elazar Shach (January 1, 1899 O.S. \u2013 November 2, 2001) was a leading Lithuanian-Jewish Haredi rabbi in Bnei Brak, Israel. He also served as one of three co-deans of the Ponevezh Yeshiva in Bnei Brak, along with Rabbis Shmuel Rozovsky and Dovid Povarsky. Therefore, \"Bnei Brak was a leading Lithuanian-Jewish Haredi rabbi in Israel.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -10.018369674682617,
+            -6.696616172790527,
+            -14.452863693237305
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Chamaecyparis, common names cypress or false cypress (to distinguish it from related cypresses), is a genus of conifers in the cypress family Cupressaceae, native to eastern Asia (Japan + Taiwan) and to the western and eastern margins of the United States. The name is derived from the Greek \"khamai\", meaning ground, and \"kuparissos\" for cypress. Therefore, \"Chamaecyparis stands from cypress that means ground\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -11.679919242858887,
+            -6.2792744636535645,
+            -13.582908630371094
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that The Prince and Me is a 2004 romantic comedy film directed by Martha Coolidge, and starring Julia Stiles, Luke Mably, and Ben Miller, with Miranda Richardson, James Fox, and Alberta Watson. The film focuses on Paige Morgan, a pre-med college student in Wisconsin, who is pursued by a prince posing as a normal college student. Therefore, \"The prince is a college graduate. \" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.191282272338867,
+            -7.442421913146973,
+            -14.44554328918457
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Jia Zhangke (born 24 May 1970) is a Chinese film director and screenwriter. He is generally regarded as a leading figure of the \"Sixth Generation\" movement of Chinese cinema, a group that also includes such figures as Wang Xiaoshuai, Lou Ye, Wang Quan'an and Zhang Yuan. Therefore, \"Jia was prominent in his career at age 65.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -12.622206687927246,
+            -8.3472318649292,
+            -13.784265518188477
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Taxi Driver: Oko Ashewo, also known as just Taxi Driver or Oko Ashewo, is a 2015 Nigerian dark comedy thriller film produced by Ayobami Macaulay and directed by Daniel Oriahi. It stars Odunlade Adekola, Femi Jacobs, Ijeoma Grace Agu and Hafeez Oyetoro. Therefore, \"There's only four actors in Oko Ashewo\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -10.549309730529785,
+            -7.143561363220215,
+            -12.71359920501709
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Songs Our Daddy Taught Us is the second album by close harmony country/rock and roll duo The Everly Brothers, released in 1958. The album is a selection of songs that the brothers learned as boys from their father, Ike Everly. Originally released on Cadence Records, the album has been re-released on LP and CD many times, primarily by Rhino and EMI. Therefore, \"Songs Our Daddy Taught Us won a Pulitzer.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -12.64655876159668,
+            -7.949961185455322,
+            -11.79910945892334
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Abroad with Two Yanks is a 1944 American comedy film directed by Allan Dwan and starring Helen Walker, William Bendix and Dennis O'Keefe as the title characters. It was Bendix's third and final role in a film as a US Marine and the first of Dwan's three films about the United States Marine Corps. Therefore, \"Abroad with Two Yanks won an Academy Award for Best Picture in 1945, amid critical success.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.44333267211914,
+            -8.499555587768555,
+            -14.765935897827148
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Shadowboxer is a 2005 crime thriller film directed by Lee Daniels and starring Academy Award winners Cuba Gooding Jr., Helen Mirren, and Mo'Nique. It opened in limited release in six cities: New York, Los Angeles, Washington, D.C., Baltimore, Philadelphia, and Richmond, Virginia. Therefore, \"The limited release of Shadowboxer was not available in any landlocked states.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -12.715825080871582,
+            -7.933876037597656,
+            -13.288825035095215
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Wedding Toasts I\u2019ll Never Give is a memoir by Ada Calhoun about marriage. It was inspired by the success of her \"New York Times\" \u201cModern Love\u201d column, \u201cThe Wedding Toast I\u2019ll Never Give,\u201d which the paper named one of its most-read stories of 2015. The book was released on May 16, 2017 by W. W. Norton & Company. Therefore, \"Ada Calhoun is married.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -10.975120544433594,
+            -6.993354320526123,
+            -14.944047927856445
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that The Agatha Christie Award ( ) is a Japanese literary award established in 2010 in commemoration of the 120th anniversary of Agatha Christie's birth. The award is presented by Hayakawa Publishing Corporation in association with the Agatha Christie Society, which is chaired by Mathew Pritchard, the grandson of Agatha Christie. Therefore, \"The Agatha Christie Award is a Japanese literary award established in 2010 in commemoration of the 120th anniversary of Agatha Christie's birth which Mathew Pritchard attends.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.348827362060547,
+            -7.349906921386719,
+            -14.700068473815918
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that BlayzBloo: Super Melee Brawlers Battle Royale, released in Japan as BlazBlue: Battle  Battle ( --, BureiBur: Batoru kurosu Batoru ), is a 3D arena fighting video game developed by Arc System Works. It was published in Japan by Arc System Works on January 27, 2010 and for the Nintendo DSi/Nintendo DSi XL. The game was released in North America on August 2, 2010. Therefore, \"Arc System Works released many successful games, including BlazBlue which was released in North America in the fall of 2010.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.632779121398926,
+            -6.644578456878662,
+            -13.876129150390625
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Illinois Route 3 (IL 3) is a major north\u2013south arterial state highway in southwestern Illinois. It has its southern terminus at Cairo Junction (about 4 mi north of Cairo) at the intersection of Interstate 57 (I-57) and U.S. Route 51 (US 51), and its northern terminus in Grafton at IL 100. This is a distance of 187.44 mi. Therefore, \"Illinois Route 3 does not extend into other states. \" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.316784858703613,
+            -9.473494529724121,
+            -13.55249309539795
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Shawn Levy (born July 23, 1968) is a Canadian film director, producer, and actor. He directed the films \"Big Fat Liar\" (2002), \"Just Married\" (2003), \"Cheaper by the Dozen\" (2003), \"The Pink Panther\" (2006), \"Night at the Museum\" (2006), \"\" (2009), \"Date Night\" (2010), \"Real Steel\" (2011), \"The Internship\" (2013), \"This Is Where I Leave You\" (2014) and \"\" (2014). Therefore, \"Shawn Levy is still currently living in 2019.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -10.687108993530273,
+            -8.325183868408203,
+            -15.223276138305664
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Dr. Tony Gardner (born 10 January 1964) is an English actor and doctor. He qualified as a doctor at Guy's Hospital in 1987, then as a general practitioner in 1993. He combined medicine and comedy during the 1990s as half of the award-winning comedy duo \"Struck Off and Die\" with Phil Hammond. Therefore, \"Dr. Tony Gardner became a general practitioner prior to becoming a doctor.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -13.022717475891113,
+            -8.510505676269531,
+            -12.327293395996094
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Moonstruck is a 1987 American romantic comedy film directed by Norman Jewison and written by John Patrick Shanley. It is about a widowed 37-year-old Italian-American woman (Cher) who falls in love with her fianc\u00e9's (Danny Aiello) estranged, hot-tempered younger brother (Nicolas Cage). Vincent Gardenia and Olympia Dukakis play supporting roles. Therefore, \" Moonstruck was not a documentary about a widowed 37 year old. \" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -11.17603588104248,
+            -8.471299171447754,
+            -12.14176082611084
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Catterline is a coastal village on the North Sea in Aberdeenshire, Scotland. It is situated about six kilometres south of Stonehaven; nearby to the north are Dunnottar Castle and Fowlsheugh Nature Reserve. Other noted architectural or historic features in the general area include Fetteresso Castle, Fiddes Castle, Chapel of St. Mary and St. Nathalan and Muchalls Castle. Therefore, \"6km north of Stonehaven is the coastal village of Catterline.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -12.590298652648926,
+            -7.1269402503967285,
+            -11.690872192382812
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that A flamenco shoe is a type of shoe worn by flamenco dancers. They are typically worn by female dancers, they are called flamenco heel, often with traje de flamenca costumes. Male flamenco dancers traditionally wear short, heeled boots, although there are now some flamenco shoe styles available for men. Therefore, \"Flamenco dancers, both male and female, wear the same shoes.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -12.570931434631348,
+            -8.69604206085205,
+            -12.986709594726562
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Tura Beach is suburb of Merimbula, on the South Coast of New South Wales, Australia, in the Bega Valley Shire local government area. It lies approximately 6 km north of Merimbula. At the 2016 census, Tura Beach had a population of 3,158 people with an median age of 57 years, 19 years greater than that of the overall Australian population. Therefore, \"The median age of the population of Australia in 2016 was 38 years. \" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -13.518531799316406,
+            -7.888533592224121,
+            -14.429987907409668
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Mario Fernandez (born 1984), better known as Wizzo or wizzogmb, is a Mexican-American hip-hop/electronic producer, recording/mixing engineer, and DJ based in Santa Ana, Ca. He was born to Mexican mother and father in Guadalajara, Jalisco, Mexico. He has worked with Lil Jon, Boosie, DJ Drama, Nipsey Hussle, Yg, Skeme, Dom Kennedy, Jim Jonsin, and various other producers, artists and engineers. Therefore, \"Fernandez's father is American.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -10.696349143981934,
+            -5.659668922424316,
+            -11.167444229125977
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Liverpool Football Club ( ) is a professional association football club based in Liverpool, Merseyside, England. They compete in the Premier League, the top tier of English football. The club has won an English record 5 European Cups, 3 UEFA Cups, 3 UEFA Super Cups, 18 League titles, 7 FA Cups, a record 8 League Cups, and 15 FA Community Shields. Therefore, \"The liverpool football club, based in Liverpool, compete in a low tier of English football.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -14.06668472290039,
+            -9.47899055480957,
+            -12.3226900100708
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that John Travers (ca. 1703 \u2013 June 1758) was an English composer who held the office of Organist to the Chapel Royal from 1737 to 1758. Before filling several parochial posts in London he had been a choir boy at St. George's Chapel, Windsor and a pupil of Johann Christoph Pepusch. Therefore, \"John Travers was a priest\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -11.316804885864258,
+            -6.751298427581787,
+            -12.469594955444336
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Stuart Murdoch (born September 2, 1955) is a football coach. He is perhaps best known for his spell as manager of Wimbledon between May 2002 and June 2004, during which time the team moved to Milton Keynes in 2003. Wimbledon were renamed Milton Keynes Dons by the new owner in 2004 and Murdoch remained in charge until November of that year. Therefore, \"Stuart Murdoch coached a new football team in 2004\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -12.761031150817871,
+            -7.359585762023926,
+            -14.162720680236816
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that \"All We Ever Knew\" is a song written and recorded by American folk band The Head and the Heart, released as the lead single for their third studio album \"Signs of Light\" by Warner Bros. Records. The song was written by the band and produced by Jay Joyce. Therefore, \"\"The Head and the Heart\" was a song on the album \"Signs of Light\"\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -10.621126174926758,
+            -7.972339153289795,
+            -13.60839557647705
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Yeidhavan (English: The Man Who Aims ) is a 2017 Indian Tamil-language crime action film written and directed by Sakthi Rajasekaran and produced by Sudhakaran. The film stars Kalaiyarasan and Satna Titus in the leading roles and features music composed by newcomer, Paartav Barggo. The film released on 12 May 2017. Therefore, \"Its not certian Yeidhavan (English: The Man Who Aims ) is a 2017 Indian Tamil-language\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -12.57640552520752,
+            -7.739776134490967,
+            -12.09377670288086
+        ]
+    }
+]

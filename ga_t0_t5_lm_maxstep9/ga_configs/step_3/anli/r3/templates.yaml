@@ -1,0 +1,1128 @@
+dataset: anli
+templates:
+  00dd80e1-c9fe-4322-9d40-4cef8fc5fe8b: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 00dd80e1-c9fe-4322-9d40-4cef8fc5fe8b
+    jinja: '{{premise}} If we were to test that "{{hypothesis}}", would it come to
+      be true? Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  01f6da69-0ff6-443b-b029-ab06e6a52621: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 01f6da69-0ff6-443b-b029-ab06e6a52621
+    jinja: '{{premise}} Do you think that "{{hypothesis}}" is true? Yes, no, or maybe?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  02c742cf-4219-481e-8340-344eb25a5b50: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 02c742cf-4219-481e-8340-344eb25a5b50
+    jinja: '{{premise}} If you tested that "{{hypothesis}}", what do you think would
+      happen? Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  03001279-bddf-462c-b900-30cbb9367550: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 03001279-bddf-462c-b900-30cbb9367550
+    jinja: If the "{{hypothesis}}" is true, then all the {{premise}} s must be true.
+      Do you agree? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  0388a8d6-73f0-4e4e-8854-ef93237bfe44: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 0388a8d6-73f0-4e4e-8854-ef93237bfe44
+    jinja: '{{premise}} If you know that there is an experimental design, would you
+      test the "{{hypothesis}}"? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  07ae9ecc-b104-4f4d-936d-9b165bbfec15: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 07ae9ecc-b104-4f4d-936d-9b165bbfec15
+    jinja: '{{premise}} If we were to test that "{{hypothesis}}", what would the result
+      be? Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  0c65fe43-c055-4568-ba68-3239f26fe679: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 0c65fe43-c055-4568-ba68-3239f26fe679
+    jinja: If the first and second {{premise}} s s are true, then the "{{hypothesis}}"
+      is true. Do you agree? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  0d936cad-4d29-4c53-9197-634f15e30d08: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 0d936cad-4d29-4c53-9197-634f15e30d08
+    jinja: '{{premise}} What is the most likely result of testing that "{{hypothesis}}"?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  0e77d6c6-b32e-47ad-9c7f-120a2bc1dc56: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 0e77d6c6-b32e-47ad-9c7f-120a2bc1dc56
+    jinja: '{{premise}} Would you like to test that "{{hypothesis}}"? Yes, no, or
+      maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  0fe429b4-a230-47c5-b152-c64412487c53: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 0fe429b4-a230-47c5-b152-c64412487c53
+    jinja: '{{premise}} What do you think would happen if the "{{hypothesis}}" were
+      true? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  11217e2a-e5fe-4dbb-94e2-7535305421e4: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 11217e2a-e5fe-4dbb-94e2-7535305421e4
+    jinja: '{{premise}} What if we were to test that "{{hypothesis}}"? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  219ae3cf-34f6-49cf-a20c-0013edda312f: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 219ae3cf-34f6-49cf-a20c-0013edda312f
+    jinja: '{{premise}} How would you think if we were to test that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  22066f23-858d-4c75-8b6b-d0aa883368d3: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 22066f23-858d-4c75-8b6b-d0aa883368d3
+    jinja: '{{premise}} When we say we are justified in that "{{hypothesis}}", is
+      it because of what we can see? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  26a49985-bb97-4a28-a1be-fac100ce86b6: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 26a49985-bb97-4a28-a1be-fac100ce86b6
+    jinja: '{{premise}} What do you think we could do to test that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  2a0ab150-2c26-47b9-af07-ace2cfb55818: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 2a0ab150-2c26-47b9-af07-ace2cfb55818
+    jinja: Assuming that the {{premise}} is true then, is the "{{hypothesis}}" true?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  2d81819d-de34-46ea-872a-40805fbb9e2a: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 2d81819d-de34-46ea-872a-40805fbb9e2a
+    jinja: If the {{premise}} is true, then does the "{{hypothesis}}" follow? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  2dc93fbd-916d-4812-a376-afa597c59f32: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 2dc93fbd-916d-4812-a376-afa597c59f32
+    jinja: Given that the {{premise}} then, if the "{{hypothesis}}" is true, the conclusion
+      is true? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  2e9f184e-fd72-4263-8b97-a96d5b618c15: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 2e9f184e-fd72-4263-8b97-a96d5b618c15
+    jinja: '{{premise}} What do you think if we were to test that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  2ee44367-14cf-4620-8c04-3a6a2814798b: !Template
+    answer_choices: True ||| Inconclusive ||| False
+    id: 2ee44367-14cf-4620-8c04-3a6a2814798b
+    jinja: '{{premise}} Based on the information in the analysis, is the claim: "{{hypothesis}}"
+      {{"true"}}, {{"false"}}, or {{"inconclusive"}}? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: claim true/false/inconclusive
+    reference: Sanh et al. 2021
+  335f219d-b859-4348-9ffe-e986773fde86: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 335f219d-b859-4348-9ffe-e986773fde86
+    jinja: Given that the {{premise}} then, it follows that the "{{hypothesis}}" is
+      true? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  36128e63-296c-4222-8daa-3e4728b497e3: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 36128e63-296c-4222-8daa-3e4728b497e3
+    jinja: '{{premise}} What would you do if we tested that "{{hypothesis}}"? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  377dd9e2-0765-4932-8e18-8a06874553dd: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 377dd9e2-0765-4932-8e18-8a06874553dd
+    jinja: '{{premise}} What is the probability that if we tested that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  37f4a599-14fc-4e00-b9f0-231292725cdb: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 37f4a599-14fc-4e00-b9f0-231292725cdb
+    jinja: Given the {{premise}} s and the conclusion d, does the "{{hypothesis}}"
+      bear some truth value? If so, yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  387c4d38-681e-4545-af69-b2e0c3f5846e: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 387c4d38-681e-4545-af69-b2e0c3f5846e
+    jinja: Given that the {{premise}} , then, it follows that the "{{hypothesis}}"
+      ? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  38d9b488-bdfa-4066-9b6d-24b12f7c040b: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 38d9b488-bdfa-4066-9b6d-24b12f7c040b
+    jinja: '{{premise}} Why does this "{{hypothesis}}" seem right? Yes, no, or maybe?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  3b8bea04-b2b2-4d14-b3ce-730caf1f085a: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 3b8bea04-b2b2-4d14-b3ce-730caf1f085a
+    jinja: '{{premise}} What would happen if we were to test that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  40c84c82-cf01-4c14-b631-95743d8b8d58: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 40c84c82-cf01-4c14-b631-95743d8b8d58
+    jinja: Given that {{premise}} and conclusion, it follows that, it must be true
+      that "{{hypothesis}}" ? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  43be4336-d434-4c2f-99db-da1ccc8e5779: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 43be4336-d434-4c2f-99db-da1ccc8e5779
+    jinja: '{{premise}} What would you say if we were to test that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  45d01a34-cf35-4bd2-9a67-79fb2e9a9e92: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 45d01a34-cf35-4bd2-9a67-79fb2e9a9e92
+    jinja: '{{premise}} If we know we are justified in that "{{hypothesis}}", how
+      do we know it? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  46818b52-d416-4a3e-9a15-a27e061e8dee: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 46818b52-d416-4a3e-9a15-a27e061e8dee
+    jinja: If the {{premise}} is true, then the "{{hypothesis}}" is true? Yes, no,
+      or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  491b9041-f6fc-4136-ab2c-ff4de25c10d9: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 491b9041-f6fc-4136-ab2c-ff4de25c10d9
+    jinja: '{{premise}} What are the possible outcomes if we were to test that "{{hypothesis}}"?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  4931d21a-0b7c-4835-91e4-bb82a8ba2af1: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 4931d21a-0b7c-4835-91e4-bb82a8ba2af1
+    jinja: '{{premise}} If we were to test that "{{hypothesis}}", how likely is it
+      that we will find the answer we are looking for? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  4be72e42-9a06-478d-b10a-2ed576775061: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 4be72e42-9a06-478d-b10a-2ed576775061
+    jinja: '{{premise}} Why is this "{{hypothesis}}" plausible? Yes, no, or maybe?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  4caed499-d90a-4fe5-860c-d61b10b48dc7: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 4caed499-d90a-4fe5-860c-d61b10b48dc7
+    jinja: I assume that the first and second {{premise}} s a and b are true. However,
+      if they are not true, then I assume that the "{{hypothesis}}" is true. Do you
+      agree? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  4d3d89c0-5322-4924-9b84-f23b190dfc76: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 4d3d89c0-5322-4924-9b84-f23b190dfc76
+    jinja: '{{premise}} If we say we are justified in that "{{hypothesis}}", why do
+      we believe that? Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  4ee9d013-3d89-454c-b012-fdae6d302f31: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 4ee9d013-3d89-454c-b012-fdae6d302f31
+    jinja: '{{premise}} What would happen if we were to try that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  4f8137e5-2c4c-435a-afc9-31cdb0c641ab: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 4f8137e5-2c4c-435a-afc9-31cdb0c641ab
+    jinja: '{{premise}} What do you think would happen if we tested that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  562869d0-affd-482e-a45f-71b5b764de6a: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 562869d0-affd-482e-a45f-71b5b764de6a
+    jinja: '{{premise}} How could we test that "{{hypothesis}}" to see what it would
+      say? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  589c14cd-75f7-44e7-a462-9d4362df842c: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 589c14cd-75f7-44e7-a462-9d4362df842c
+    jinja: '{{premise}} If you were to test that "{{hypothesis}}", what would the
+      result be? Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  5cd9555f-f250-470f-bb01-96ceb5d93c40: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 5cd9555f-f250-470f-bb01-96ceb5d93c40
+    jinja: '{{premise}} What is the likelihood that we can make that "{{hypothesis}}"
+      true? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  5d6021f5-e5c8-4f89-bad1-3aff22763bd4: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 5d6021f5-e5c8-4f89-bad1-3aff22763bd4
+    jinja: '{{premise}} If we were to test that "{{hypothesis}}", what are the possibilities?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  5d7b275c-f43f-4c6c-9ef8-823d225d12b4: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 5d7b275c-f43f-4c6c-9ef8-823d225d12b4
+    jinja: What is the likely effect of what follows from that {{premise}} , it must
+      be true that "{{hypothesis}}" ? Yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  600301b3-8ae6-42cf-9c80-d5081b31de9e: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 600301b3-8ae6-42cf-9c80-d5081b31de9e
+    jinja: If the "{{hypothesis}}" is true, then, given that the {{premise}} s are
+      true, is the conclusion true? Yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  661268c6-dd24-4df0-aa85-5359ad3ba5c0: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 661268c6-dd24-4df0-aa85-5359ad3ba5c0
+    jinja: '{{premise}} Are you going to test that "{{hypothesis}}"? Yes, no, or maybe?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  6a6c1c0a-9005-4bcb-94f5-279f32bf92c0: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 6a6c1c0a-9005-4bcb-94f5-279f32bf92c0
+    jinja: Given that the {{premise}} then, The "{{hypothesis}}" is true? Yes, no,
+      or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  6dc21e41-e620-4302-855e-05925ec324ed: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 6dc21e41-e620-4302-855e-05925ec324ed
+    jinja: If the {{premise}} is true, if the "{{hypothesis}}" is true? yes, no, or
+      maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  6eda4ba6-730f-4f79-8b3f-9da88ea445b5: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 6eda4ba6-730f-4f79-8b3f-9da88ea445b5
+    jinja: '{{premise}} What do you think if you were to test that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  703f78a8-e8cb-473d-adf3-8ea980b42198: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 703f78a8-e8cb-473d-adf3-8ea980b42198
+    jinja: '{{premise}} What would be the possibility if we are to test that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  738b3189-642e-46aa-865a-acc8ac838739: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 738b3189-642e-46aa-865a-acc8ac838739
+    jinja: '{{premise}} What would be the greatest benefits to our people if we were
+      to test that "{{hypothesis}}"? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  7578416b-a8bc-4acc-8578-e6a4450a769d: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 7578416b-a8bc-4acc-8578-e6a4450a769d
+    jinja: '{{premise}} Why do we think we are justified in that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  78fad1f4-99e1-44fd-9978-8fe87e9c0a5a: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 78fad1f4-99e1-44fd-9978-8fe87e9c0a5a
+    jinja: Do you agree that, given that the first and second {{premise}} s are true,
+      then the "{{hypothesis}}" is true? Yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  7cb82f74-5b01-46cd-b4b2-5739ceebedf9: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 7cb82f74-5b01-46cd-b4b2-5739ceebedf9
+    jinja: '{{premise}} What would the most likely outcome be if we tested that "{{hypothesis}}"?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  7fe6005a-2bee-4132-9770-441b4330fb89: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 7fe6005a-2bee-4132-9770-441b4330fb89
+    jinja: '{{premise}} What would you say if we did test that "{{hypothesis}}"? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  81b57f20-c038-457d-b851-5ed54cc053ee: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 81b57f20-c038-457d-b851-5ed54cc053ee
+    jinja: '{{premise}} What is the most likely reason why that "{{hypothesis}}" is
+      not true? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  83601ce0-9949-48d4-83c5-f7ea59cc6877: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 83601ce0-9949-48d4-83c5-f7ea59cc6877
+    jinja: If the {{premise}} s are true, then the "{{hypothesis}}" is true. Do you
+      agree? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  88a76d99-acf7-49be-a573-f02aa24be2d8: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 88a76d99-acf7-49be-a573-f02aa24be2d8
+    jinja: '{{premise}} What do you think if we tested that "{{hypothesis}}"? |||
+      {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  89ae2fce-19e4-4075-b7b4-f836b66e4409: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 89ae2fce-19e4-4075-b7b4-f836b66e4409
+    jinja: If the "{{hypothesis}}" is true, then all the {{premise}} s are true. Do
+      you agree? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  89ef54cf-c711-4daf-9f60-98d7a10b41a6: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 89ef54cf-c711-4daf-9f60-98d7a10b41a6
+    jinja: '{{premise}} What would the answer be if we did test that "{{hypothesis}}"?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  8d8f3303-d9bb-4c49-9fa4-9c3a64e0ab43: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 8d8f3303-d9bb-4c49-9fa4-9c3a64e0ab43
+    jinja: '{{premise}} What is the possibility if we were to test that "{{hypothesis}}"?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  9158aef9-386b-40e9-b133-37151c12391e: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 9158aef9-386b-40e9-b133-37151c12391e
+    jinja: '{{premise}} What if we were to test that "{{hypothesis}}"? Yes, no, or
+      maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  916b582b-fc8b-46bf-ac0e-4ee5911533dc: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 916b582b-fc8b-46bf-ac0e-4ee5911533dc
+    jinja: '{{premise}} What would be the possibility if we were to test that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  92b0d7c0-7521-45be-a9ac-3a4e99d0b43f: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 92b0d7c0-7521-45be-a9ac-3a4e99d0b43f
+    jinja: '{{premise}} What is the best way to test that "{{hypothesis}}"? ||| {{
+      answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  98f80db0-520c-4925-9fa6-d925444e1171: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 98f80db0-520c-4925-9fa6-d925444e1171
+    jinja: 'I agree with the following truth conclusion: The first and second {{premise}}
+      s are true, and if they are true, then the "{{hypothesis}}" is true. Do you
+      agree? Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  a0f0bca2-f7a8-4a88-be17-fdbebca22eaa: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: a0f0bca2-f7a8-4a88-be17-fdbebca22eaa
+    jinja: '{{premise}} If we were to test that "{{hypothesis}}", would the result
+      be different from the previous? Yes, no, or maybe? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  a4fe6050-764f-4431-9f6b-667887822e8b: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: a4fe6050-764f-4431-9f6b-667887822e8b
+    jinja: If you first and second {{premise}} s are true, then the "{{hypothesis}}"
+      is true. Do you agree? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  a5c7fb58-37ed-4cf8-a412-9a9c73fa4641: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: a5c7fb58-37ed-4cf8-a412-9a9c73fa4641
+    jinja: Yes, the first and second {{premise}} are true, and if they are true, then
+      the "{{hypothesis}}" is true. Do you agree? Yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  a652d16a-4330-4455-87b7-3f07c7edd1db: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: a652d16a-4330-4455-87b7-3f07c7edd1db
+    jinja: Given that {{premise}} , it follows that, it must be true that, "{{hypothesis}}"
+      ? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  afd8dede-1994-4cd4-9541-faa607801ac9: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: afd8dede-1994-4cd4-9541-faa607801ac9
+    jinja: If it is true that "{{hypothesis}}" , is it true that {{premise}} ? |||
+      {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  b30fbb48-15a3-4851-b14f-c97def9f408f: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: b30fbb48-15a3-4851-b14f-c97def9f408f
+    jinja: '{{premise}} What if that "{{hypothesis}}" turned out to be true? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  b4e28a04-7b4b-410a-8d7e-55f8cb566c1a: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: b4e28a04-7b4b-410a-8d7e-55f8cb566c1a
+    jinja: '{{premise}} What would you think if we were to test that "{{hypothesis}}"?
+      No, yes, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  bb49038b-c318-477e-b5f6-dbb843725872: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: bb49038b-c318-477e-b5f6-dbb843725872
+    jinja: If there is only one "{{hypothesis}}" , is it guaranteed true that {{premise}}
+      ? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  c18be3aa-4645-449e-917f-2c465444c04e: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: c18be3aa-4645-449e-917f-2c465444c04e
+    jinja: '{{premise}} What possibilities do we have in mind if we were to test that
+      "{{hypothesis}}"? Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  c2949ab9-269b-425c-aa7e-526253786a98: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: c2949ab9-269b-425c-aa7e-526253786a98
+    jinja: Given that the {{premise}} then, if the "{{hypothesis}}" is true? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  c6d91471-cdb6-487c-98fe-600dc4b28346: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: c6d91471-cdb6-487c-98fe-600dc4b28346
+    jinja: If the "{{hypothesis}}" is true, then, if the {{premise}} is true, does
+      this rule hold true? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  c7e73141-89a7-44e9-b742-4a8677220f3e: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: c7e73141-89a7-44e9-b742-4a8677220f3e
+    jinja: '{{premise}} Would you expect the data you observe to confirm your "{{hypothesis}}"?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  c8ad51d0-cea1-4f6a-a6ce-e6887d417593: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: c8ad51d0-cea1-4f6a-a6ce-e6887d417593
+    jinja: '{{premise}} Are you justified in that "{{hypothesis}}"? Yes, no, or maybe?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  cda7fd2b-ad56-4dd3-a83a-0b84be3fbf9b: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: cda7fd2b-ad56-4dd3-a83a-0b84be3fbf9b
+    jinja: '{{premise}} If that "{{hypothesis}}" were true, what might the result
+      be? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  cff4826d-dc64-4100-a6b7-494f078e236b: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: cff4826d-dc64-4100-a6b7-494f078e236b
+    jinja: '{{premise}} Do you think there would be any evidence to support this "{{hypothesis}}"?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d043be85-a8b8-42bc-818c-16954a5f245a: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: d043be85-a8b8-42bc-818c-16954a5f245a
+    jinja: '{{premise}} If we test that "{{hypothesis}}", will it confirm our opinion
+      or not? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d0d772c1-6d4d-4084-bb35-891e413facd9: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: d0d772c1-6d4d-4084-bb35-891e413facd9
+    jinja: Given {{premise}} , given "{{hypothesis}}" , is it guaranteed true that
+      the combination is guaranteed true? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  d2c03527-7cae-439f-a3db-59b8b2cb0f36: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: d2c03527-7cae-439f-a3db-59b8b2cb0f36
+    jinja: '{{premise}} What were the possibilities if we were to test that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d5c94edf-e7ff-4e8f-a4fd-13a7174fc106: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: d5c94edf-e7ff-4e8f-a4fd-13a7174fc106
+    jinja: If the {{premise}} is true, then the conclusion follows from the "{{hypothesis}}"
+      ? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  d609865f-0131-4397-a750-916995038099: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: d609865f-0131-4397-a750-916995038099
+    jinja: '{{premise}} What do you think is the probability that the "{{hypothesis}}"
+      is true? Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  dfc6a3d8-8179-46c7-8838-093bddb242f3: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: dfc6a3d8-8179-46c7-8838-093bddb242f3
+    jinja: '{{premise}} Why should we believe this "{{hypothesis}}"? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  e5052d7e-f13b-4f08-91c1-66232dc067e6: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: e5052d7e-f13b-4f08-91c1-66232dc067e6
+    jinja: '{{premise}} What would you think if we were to test that "{{hypothesis}}"?
+      ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  ec834467-5d98-4ca3-b75c-c1d6bc59fc8a: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: ec834467-5d98-4ca3-b75c-c1d6bc59fc8a
+    jinja: In order to prove that {{premise}} , it must be true that, the "{{hypothesis}}"
+      ? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  ed713f06-6aa1-4d45-adc2-7f9cf66fb9db: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: ed713f06-6aa1-4d45-adc2-7f9cf66fb9db
+    jinja: Is the {{premise}} logically necessary for the "{{hypothesis}}" ? ||| {{
+      answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  ef2b5c86-13ab-4bda-9731-f1aeacf5adf0: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: ef2b5c86-13ab-4bda-9731-f1aeacf5adf0
+    jinja: If both the first and second {{premise}} s are true, then the "{{hypothesis}}"
+      is true. Do you agree? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  f1a7cf30-6d71-4c3c-a5bb-02ee43e8e3b7: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: f1a7cf30-6d71-4c3c-a5bb-02ee43e8e3b7
+    jinja: Given "{{hypothesis}}" , does {{premise}} have a distinct truth value?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  f2d80fd8-cf3b-4894-b17b-adb1d6f150e5: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: f2d80fd8-cf3b-4894-b17b-adb1d6f150e5
+    jinja: If the first and second {{premise}} are true, then the "{{hypothesis}}"
+      is true. Do you agree? Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  f3468590-a864-45b5-8266-8b59acb05809: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: f3468590-a864-45b5-8266-8b59acb05809
+    jinja: '{{premise}} What would you do if we were to test that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  f3cf87ab-cf76-40f8-9c7f-1bb55c25b5af: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: f3cf87ab-cf76-40f8-9c7f-1bb55c25b5af
+    jinja: Given the {{premise}} s, what is the probability that the "{{hypothesis}}"
+      is true, yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  f619b010-a273-40e1-aabd-92de9c31cf33: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: f619b010-a273-40e1-aabd-92de9c31cf33
+    jinja: Given "{{hypothesis}}" , is it guaranteed true that {{premise}} ? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021

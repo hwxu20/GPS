@@ -1,0 +1,410 @@
+[
+    {
+        "input_text:": "How did this sentence end? [header] How to meet gay and bisexual men [title] Know the lgbt community in your state. [step] In the last few decades, studies have been dedicated to create maps of demographics of sexual orientation. The studies show that the west coast and the states of new england have the highest percentage of lgbt people. (a) Bns are national organizations that advocate for gay and bisexuals in lgbt communities across the nation. [substeps] The national institutes of social justice (mbsi) has also shown that gay and bisexuals have the highest percentage of bns. (b) So while this geographical map is interesting for many and may provide a wealth of information that will help you have knowledge about \" gay and bisexuals, \" it's not good for anyone to assume their identity. Search for \" homophobia \" and/or \" gay and bisexuals association \" in any online database, like :. (c) States in the midwest have a very low percentage. If you are looking to surround yourself with gay and bisexual men, it will be easier to do if you live in a state with a more expansive lgbt community. (d) The chances of finding a gay and bisexual man are even higher. [title] Take a friend or family member to the meeting. Hint: the topic of the sentence is Relationships",
+        "target_text": "Bns are national organizations that advocate for gay and bisexuals in lgbt communities across the nation. [substeps] The national institutes of social justice (mbsi) has also shown that gay and bisexuals have the highest percentage of bns.",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -32.76286697387695,
+            -25.031404495239258,
+            -17.52292251586914,
+            -17.348678588867188
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? A man is belly surfing as a wave arrives. He stands up on his surfboard and rides the waves. a woman reporter (a) talks to a man next to the board. (b) is interviewing him on the beach. (c) talks to a man about the surfer. (d) is interviewing the surf boarder as the waves got bigger. Hint: the topic of the sentence is Surfing",
+        "target_text": "talks to a man next to the board.",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -11.302499771118164,
+            -7.643511772155762,
+            -13.435747146606445,
+            -4.747067451477051
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? Woman is holding a cat on her legs and is cutting his nails with a nail clipper. the cat (a) is now laying on the table and woman is putting clips on it's nails and making him laugh. (b) is a baby and the baby is watching his grandma slicing its nails with it's paw. (c) is faling sleep while the woman is cutting his nails. (d) is licking its paw and looking with passion on the woman. Hint: the topic of the sentence is Clipping cat claws",
+        "target_text": "is now laying on the table and woman is putting clips on it's nails and making him laugh.",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -5.447807788848877,
+            -10.30626392364502,
+            -7.573829650878906,
+            -7.141246795654297
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? A man riding a horse and swinging a rope around is seen chasing after a calf and eventually grabbing the animal with his rope. He holds the calf down and another man comes out to help the man tie up the calf. he (a) releases the rope that fell out and the calf rushes to get out of the hay. (b) ropes the calf up once more and throws it over his shoulder next to him. (c) then grabs his rope and rides out of the arena on his horse. (d) picks up another calf and begins swinging him around on his rope while the man is once again standing next to the man. Hint: the topic of the sentence is Calf roping",
+        "target_text": "releases the rope that fell out and the calf rushes to get out of the hay.",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -4.73707389831543,
+            -5.138011932373047,
+            -7.418335437774658,
+            -8.107342720031738
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to stop your parents from nagging about schoolwork [title] Let them know that nagging you isn't helping. [step] But, put this as respectfully as possible. Don't say it in a rude or irritated way. (a) Just say, \" you don't need to nag me. We need to talk about it, \" and move on. (b) Say, \" i'm sorry, but my work is taking up a lot of my time. Do you mind if i do my homework too? \" if they insist, wait and let them know gently. (c) [substeps] You might say something like, \" i really think that if you asked me a bit more nicely about my schoolwork, i would be able to talk to you about it more. \" [title] Agree to work harder on your schoolwork. (d) Always direct the conversation with questions to show them you're not throwing a fit or complaining. [substeps] You might say, \" grandma, i know that you sometimes find me very stressed out. Hint: the topic of the sentence is Youth",
+        "target_text": "Just say, \" you don't need to nag me. We need to talk about it, \" and move on.",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -10.664307594299316,
+            -13.325478553771973,
+            -26.964111328125,
+            -21.7177734375
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to make cake mix [title] Sift dry ingredients. [step] Place the all purpose flour, baking powder, and salt into a sifter or a strainer. Sift into a bowl, eliminating any clumps. (a) [title] Sift the egg white, milk, and sugar into a separate bowl. [step] Crack open the egg white into another container and stir until it dissolves completely. (b) [substeps] The flour and salt may both appear crumbly, so a strainer is absolutely necessary for this recipe. Alternatively, use a cheese strainer to collect the dry ingredients. (c) [substeps] Sifting helps lighten the flour from where it's been packed down. It also helps to mix the dry ingredients together well. (d) [substeps] Use a wire mixing container with a small enough opening to contain the batter. Your bowl should be shallow enough to comfortably transport the cake mix, but wide enough to accommodate the size of your cake mix cups. Hint: the topic of the sentence is Food and Entertaining",
+        "target_text": "[title] Sift the egg white, milk, and sugar into a separate bowl. [step] Crack open the egg white into another container and stir until it dissolves completely.",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -12.875824928283691,
+            -20.915864944458008,
+            -21.85670280456543,
+            -15.03730583190918
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to make a garland with scrap fabrics [title] Sort through your fabric stash. [substeps] Coordinate the scraps by their color. Determine how much yardage you have. (a) Together they will make up a lot of your garland. Do you have enough scrap fabric in your home to accommodate polyworcestershire yarn (and make sure to adjust the yardage of these scraps you have)? Use green yarn for a bold color theme. (b) Start from small and work your way up to larger pieces. As your garland size increases, you'll gradually increase the yardage. (c) You will be able to make approximately 30 inches (76 cm) of garland per yard (91 cm) of fabric you have on hand. Choose 2 to 4 coordinating fabrics to use for your garland. (d) If you have a lot of scraps, sort into different colors. If you have too many scraps, you'll have to sort through all of your scraps to determine what things to keep. Hint: the topic of the sentence is Home and Garden",
+        "target_text": "Together they will make up a lot of your garland. Do you have enough scrap fabric in your home to accommodate polyworcestershire yarn (and make sure to adjust the yardage of these scraps you have)? Use green yarn for a bold color theme.",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -29.707693099975586,
+            -14.815098762512207,
+            -16.270658493041992,
+            -21.428462982177734
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? There's are some young athletes standing in an open field talking about hurling as some players play the game. there (a) are a lot of people gathered on the field and the coach is running around directing the game. (b)'s some young men dressed in white shirts standing with a red flag and a blue one sitting in front of them. (c) are two teams participating in hurling. (d) are several spectators watching the children from the sides. Hint: the topic of the sentence is Hurling",
+        "target_text": "are a lot of people gathered on the field and the coach is running around directing the game.",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.445807456970215,
+            -12.06832218170166,
+            -5.092033386230469,
+            -8.378311157226562
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to be a corporate lawyer [title] Understand what a corporate lawyer does. [step] Corporate lawyers serve only one client-the corporation they work for. As a corporate lawyer, you will be called upon to handle a variety of legal tasks including corporate taxes, mergers and acquisitions, corporate structure issues, employment law, and government reporting. (a) [substeps] The corporate lawyer will spend an average salary of at least $12, 500 a year on legal work. The average hourly salary for corporate lawyers is $80, 000 per month. (b) These tasks are complex and difficult, so you will need some practice. [substeps] Going into this field by yourself may be stressful, but it is necessary if you want to land a corporate position. (c) Corporate lawyers will generally need to be knowledgeable in a wide range of legal fields and will need to be able to handle a large number of issues. Some corporations will hire multiple lawyers and each will be a specialist in one or two areas of corporate law. (d) These tasks are often complicated to handle individually, but are often highly recommended. To become a corporate lawyer, you must need to learn. Hint: the topic of the sentence is Finance and Business",
+        "target_text": "[substeps] The corporate lawyer will spend an average salary of at least $12, 500 a year on legal work. The average hourly salary for corporate lawyers is $80, 000 per month.",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -20.646390914916992,
+            -23.537290573120117,
+            -19.477874755859375,
+            -14.818357467651367
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? A sign board is seen with a company logo and contact information. A construction worker screws down floor baseboards. a construction worker (a) shakes the dust around in a box while welding. (b) uses a handheld scraper to apply plaster to the bare floor. (c) nails tiles together on an asphalt floor. (d) lifts tiles to place in a protection configuration. Hint: the topic of the sentence is Laying tile",
+        "target_text": "shakes the dust around in a box while welding.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -14.343656539916992,
+            -7.373482704162598,
+            -8.066524505615234,
+            -9.790730476379395
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to prove workplace bullying [title] Start a log of events. [step] If someone at work starts bullying or harassing you, keep a detailed and organized log of each of the incidents. You may be not even need more than one incident, depending on the severity, before you can take action. (a) [substeps] Keep the log in a safe place where the bully cannot grab it. Remove as many objects as you can, let your belongings drop out of sight, and store them someplace you can't see. (b) [substeps] Incidents severe enough to warrant repercussions on their own include any physical abuse or intimidation, or verbal abuse that is blatantly racist or sexist. Smaller incidents may add up to a pattern of bullying or harassment. (c) [substeps] To start, find a person at the bottom of your log with whom you interact frequently. For example, you may be a coworker, or a teacher at a local high school. (d) [substeps] You may need a library or diary to record every incident. Write down any details that could be added into the log. Hint: the topic of the sentence is Work World",
+        "target_text": "[substeps] Keep the log in a safe place where the bully cannot grab it. Remove as many objects as you can, let your belongings drop out of sight, and store them someplace you can't see.",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.341854095458984,
+            -14.280356407165527,
+            -11.635187149047852,
+            -12.629753112792969
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to make a shrimp tempura roll [title] Make the tempura batter. [step] Mix the flour, eggs, and cold water. Make sure you put an equal amount of all three of the ingredients. (a) Mix in the shortening and cornstarch. [title] Spread the batter on a baking sheet. (b) Too much water could make the batter too runny, and too much flour could make the batter too thick. For a single roll, one egg, half a cup of cold water, and a cup of flour should work just fine. (c) If your recipe calls for 1 cup water, use that instead of flour. Then add 3 eggs and 1 flour into the egg mixture. (d) [substeps] To make a recipe using the flour mix, place the flour and water in a mixing bowl. Add your fingers to the flour mixture and whisk in the mixture. Hint: the topic of the sentence is Food and Entertaining",
+        "target_text": "Mix in the shortening and cornstarch. [title] Spread the batter on a baking sheet.",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -16.336246490478516,
+            -16.534929275512695,
+            -11.98440170288086,
+            -14.336353302001953
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? The man takes a bow from a bag and lines it up on his arrow and man shoots his bow. we (a) then see a shot of a bridge, then houses with the same saying and logo. (b) switch to two other men shooting their bows. (c) see a stadium with instructors. (d) see the words above the arrow. Hint: the topic of the sentence is Archery",
+        "target_text": "then see a shot of a bridge, then houses with the same saying and logo.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -9.85576343536377,
+            -2.342606544494629,
+            -9.21673583984375,
+            -3.727545738220215
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to play pool like a pro [title] Check your hand position. [substeps] Hold the thick end of the cue in your dominant hand with your palm facing upward. Find the spot on the wrap where the cue evenly balances. (a) Holding it at that spot can put a lot of pressure on the cue ball, leading to inaccurate shots on the ball. You can also experiment to see where you can get heavier. (b) Grip your cue about 1 \" behind that spot. Make a circle with the thumb and index finger of your non-dominant hand. (c) Grip the cue between the index and middle fingers. This can be anywhere between 0.5 centimeter (0.8 in) and 0.8 centimeter (0.7 in). (d) At the top of the cue, with the cue wand on the opposite end, place the point between the index and middle fingers. [title] Position the cue wand in your extended out (vertical) position. Hint: the topic of the sentence is Sports and Fitness",
+        "target_text": "Holding it at that spot can put a lot of pressure on the cue ball, leading to inaccurate shots on the ball. You can also experiment to see where you can get heavier.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -13.825843811035156,
+            -24.359315872192383,
+            -23.218507766723633,
+            -18.53568458557129
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? We see a man walk over and sits on a rowing machine. The man drink from his water. The man rows fast on the machine. We see a title screen. we (a) then see the man board a surf board. (b) see the man stop rowing and walks and gets the camera. (c) see a man look at his camera. (d) see the ending title screen. Hint: the topic of the sentence is Using the rowing machine",
+        "target_text": "then see the man board a surf board.",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -12.843853950500488,
+            -9.134709358215332,
+            -8.406229972839355,
+            -4.781554222106934
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? A man is seen pulling a pair of drums closer. He then begins playing on the drums. the man (a) continues playing and ends by laughing to the camera. (b) continues to play while looking off into the distance. (c) pauses and speaks more. (d) stops and begins drinking from a water can. Hint: the topic of the sentence is Playing congas",
+        "target_text": "continues playing and ends by laughing to the camera.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.154651403427124,
+            -2.962473154067993,
+            -10.513733863830566,
+            -6.917787551879883
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to calculate a lease payment [title] Learn the three main components of a lease payment. [step] The first is depreciation, the reduction in the value of the car over the term of the lease. The second is financing, the amount that you pay for the use of the car. (a) The money must be depreciated on time, and even in the first year of the lease. You would need to analyze the difference between a car depreciation and a lease repayment. (b) It is computed on the amount the leasing company invested to purchase it. The third is sales tax, which is added to the monthly lease payment in many u.s. (c) To calculate a lease payment, take out your loan term. You will need to change this out to a period of 30 years or longer. (d) Both financing and repayment periods vary and require different written forms and methods in order to be effective. [title] Look at your bank statements and loan statements. Hint: the topic of the sentence is Cars & Other Vehicles",
+        "target_text": "The money must be depreciated on time, and even in the first year of the lease. You would need to analyze the difference between a car depreciation and a lease repayment.",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -18.032493591308594,
+            -22.024166107177734,
+            -16.88237190246582,
+            -28.554140090942383
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? The video begins with a title screen. an older man (a) is then shown speaking to several participants at an event. (b) shows off a surfing helmet on a child. (c) rides a bicycle over slopes standing in a parking lot. (d) is seen in a gym speaking to the camera while men play volleyball in the background. Hint: the topic of the sentence is Volleyball",
+        "target_text": "is then shown speaking to several participants at an event.",
+        "label:": 3,
+        "prediction:": 0,
+        "logits": [
+            -3.5147290229797363,
+            -7.221253395080566,
+            -14.756928443908691,
+            -7.178062438964844
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? The person is now showing a very close up of them putting ingredients into a large clear glass bowl, and they mix it all together with a wooden spoon. the person (a) now has all of the ingredients blended together and sandwich seated into a bowl. (b) puts the mixing bowl into the large wooden pot, which they attach to the stove with two forks, then they struggle to get the liquid out of the bowls, they reach in for the spoons and scoop out the mess, finally putting it on a same plate to make a girl into puppy dog laugh. (c) is now talking to the camera that is sitting on the ground in the middle of them like it has been there a lot longer now that the time is come for them to start boiling it all together. (d) stops mixing with a spoon and then begins to use their hand to mix it all together. Hint: the topic of the sentence is Baking cookies",
+        "target_text": "now has all of the ingredients blended together and sandwich seated into a bowl.",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -7.856166839599609,
+            -12.469085693359375,
+            -8.640641212463379,
+            -6.324234962463379
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? Then he is shown taking parts out to put the saxophone together where there isn't anyone really looking. when he (a)'s finished, all of the saxophones are added together and each one he put in has a gold bar riding onto the bass drum. (b) is done, he pulls out the bag and proceeds to use the device to play the saxophone all through the whole time. (c) the is over, he smiles to the camera and with one final union point he begins leaving the camera. (d)'s finished, he starts to play the saxophone using his mouth and his fingers. Hint: the topic of the sentence is Playing saxophone",
+        "target_text": "'s finished, all of the saxophones are added together and each one he put in has a gold bar riding onto the bass drum.",
+        "label:": 3,
+        "prediction:": 1,
+        "logits": [
+            -20.91459083557129,
+            -2.518803358078003,
+            -9.715468406677246,
+            -11.984551429748535
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? Next, the man holds up a bag of lemons and begin to talk before they put their head equipment on. Now, it is time for the match and they begin wrestling with one another. however (a), he turns the other around acting all crazy as he hits her continuously. (b), a fight breaks out between each of them and one makes a cut. (c), the man wins and they all laugh and talk about the outcome, after flipping the match over. (d), they've added a feature to the match and each person has to put lemons in the other's hat to gain points. Hint: the topic of the sentence is Sumo",
+        "target_text": ", he turns the other around acting all crazy as he hits her continuously.",
+        "label:": 3,
+        "prediction:": 2,
+        "logits": [
+            -18.765363693237305,
+            -16.720094680786133,
+            -12.803509712219238,
+            -13.577261924743652
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to get an automatic and correct flash sight picture and an automatic and correct sight picture with p&s [title] Learn to aim. [step] Aiming involves sight alignment and sight placement. [title] Learn what sight alignment is. (a) [step] Sight alignment is the placement of crosshair lines on the ground. This enables sighting to identify sights for target conditions or to guide crosshairs over distance. (b) [step] This is similar to the physical method, but your shooting sight will have the graphics shown on the display of the screen, such as balance, dotted light, a branch at the prime. This has many uses for one rifle, such as allowing you to be no more than 7 feet (2 meters) off the ground, well-controlled, target. (c) [title] Learn the control positions that occur in a snappose click and hold steady target hold. [title] Learn which mode to use with a picture splitter. (d) [step] Sight alignment is the centering of the front blade in the rear sight notch, and the raising or lowering the top of the front sight so it is level with the top of the rear sight. [title] Sight placement is the positioning of the weapon's sights in relation to the target. Hint: the topic of the sentence is Education and Communications",
+        "target_text": "[step] Sight alignment is the placement of crosshair lines on the ground. This enables sighting to identify sights for target conditions or to guide crosshairs over distance.",
+        "label:": 3,
+        "prediction:": 1,
+        "logits": [
+            -12.801286697387695,
+            -11.646066665649414,
+            -17.26267433166504,
+            -13.831727981567383
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to live the yogic lifestyle [title] Enroll in a class. [step] First things first: to live the lifestyle, you need to start doing yoga. Consider joining a class at a gym, community center, or yoga studio, for example. (a) Yoga classes are designed to teach you some basic lifestyle moves. [substeps] Some classes for the yogic lifestyle include count and lean, slow yoga, and pali komigoong. (b) Starting yoga will help stretch your body after work and make you less susceptible to tightness and flare. Prepare your face and head, for example, for a yoga session. (c) [substeps] If you live in a rural area, going to local yoga studios will likely be easier than going to smaller-scale studios that are cheaper. Check online to find out any classes offered in your area. (d) Ease your way into the practice and prepare to feel better and more relaxed. [substeps] There are many reasons to start yoga. Hint: the topic of the sentence is Health",
+        "target_text": "Yoga classes are designed to teach you some basic lifestyle moves. [substeps] Some classes for the yogic lifestyle include count and lean, slow yoga, and pali komigoong.",
+        "label:": 3,
+        "prediction:": 1,
+        "logits": [
+            -27.042734146118164,
+            -13.48637580871582,
+            -18.288049697875977,
+            -18.606441497802734
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to build a self sustaining ecosystem [title] Choose a size for your ecosystem. [step] If you are new to building ecosystems, you may want to start small. However, the smaller your container, the harder it is to maintain a self-sustaining environment. (a) Subtract, or add sizes of ecosystems, trees, flowers, plants, and other organisms. Purchase your selection online so you know what will fill the bottom. (b) Experiment with sizes and sizes until you find what works for you. [substeps] For example, a 10-gallon bucket won't take up a lot of room in a 2-gallon bucket. (c) Deciding on a size can require you to assess whether you want to work with plants, birds, insects, or other creatures in your ecosystem. [substeps] For example, a 10-gallon tank might require an aquarium pond 4-6 gallons. (d) Larger containers allow for the inclusion of multiple diverse species and give everything room to grow. All containers must be clear to let in light. Hint: the topic of the sentence is Education and Communications",
+        "target_text": "Subtract, or add sizes of ecosystems, trees, flowers, plants, and other organisms. Purchase your selection online so you know what will fill the bottom.",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -22.47333335876465,
+            -30.223894119262695,
+            -30.426883697509766,
+            -22.216171264648438
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to manage chats on whatsapp [title] Open the whatsapp app. [step] If you do not already have whatsapp installed, you can get it from the. [title] Select the \" chats \" tab. (a) [step] For example, you can tap \" log in \" in the \" create an account \" window to create an account with whatsapp. [substeps] When you're creating an account, tap the \" register \" button below \" setup settings \" in the upper right corner. (b) [step] A pop-up will appear asking you to log in. [title] Click \" send \" on the pop-up to send your friend and/or feed him/her the info you want him/her to see. (c) [step] If you do not have whatsapp installed, you can download the app from the app store at. [title] Sign into the you-app-visit screen. (d) [step] This button appears in the top menu bar, under the search and call buttons. You will be taken to a list of your chats. Hint: the topic of the sentence is Computers and Electronics",
+        "target_text": "[step] For example, you can tap \" log in \" in the \" create an account \" window to create an account with whatsapp. [substeps] When you're creating an account, tap the \" register \" button below \" setup settings \" in the upper right corner.",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -22.593616485595703,
+            -24.429454803466797,
+            -18.73294448852539,
+            -17.434995651245117
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to outshine someone extremely popular [title] Notice what the other person is doing that gets so much attention. [step] If it's something positive, like good grades or a good sense of fashion, you will want to go for the same thing. But if they're popular because they smoke or sleep around, think twice. (a) Do you really want to put your safety at risk for the sake of a little attention? [title] Think about yourself and the popular individual. [step] What do they do that you could do yourself? [title] Think about you, and what's important to you. (b) Always be aware of what the other person is doing that won't get the attention. [title] Find something you and your friend would compare with each other. (c) [title] Ask the two of them to go see their favorite movie. [step] If you're not sure you want to watch the movie, ask if it's okay if you do. (d) You don't want to start a rumor about that person's newfound popularity! [title] Have them do what you want them to do. [step] Don't bother trying to do something because you find it annoying, of course, but try and work with them if you see what it is. Hint: the topic of the sentence is Youth",
+        "target_text": "Do you really want to put your safety at risk for the sake of a little attention? [title] Think about yourself and the popular individual. [step] What do they do that you could do yourself? [title] Think about you, and what's important to you.",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -33.55244064331055,
+            -26.82769775390625,
+            -14.504878044128418,
+            -19.50183868408203
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? A man starts talking and a young boy in pommel horse doing some endless circling move. He continues on doing it while the man is watching him and showing him what to do. the man (a) continues on talking about pommel horse while the boy continue on doing his routine. (b) does a few hand stands and is in the audience watching him. (c) is in very animated but just how to do the process is pretty difficult. (d) is still unsuccessful in brushing the horse. Hint: the topic of the sentence is Using the pommel horse",
+        "target_text": "continues on talking about pommel horse while the boy continue on doing his routine.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.9199278354644775,
+            -8.836980819702148,
+            -7.212438106536865,
+            -7.844212532043457
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to clean a sticky keyboard [title] Turn your computer off. [step] Before you begin cleaning a sticky keyboard you will need to shut down your computer. Once your computer is shut down, make sure its power sources are disconnected. (a) For example, if your desktop is plugged into an outlet, you will need to unplug it. [title] Unplug the keyboard from the computer. (b) Turn off your computer and unplug your device. This will save energy and reduce the number of germs that can then get on your device during the cleaning process. (c) Be sure that the sound meter on your computer is turned off before proceeding to any important tasks. [substeps] Doing so will prevent the key from accidentally buzzing and could put a damper on the cleaning process. (d) Turning your computer back on will allow you to perform the cleaning. [substeps] Without power off your computer, it will take much longer to clean a sticky keyboard than if you left your computer on with the circuit breaker on. Hint: the topic of the sentence is Food and Entertaining",
+        "target_text": "For example, if your desktop is plugged into an outlet, you will need to unplug it. [title] Unplug the keyboard from the computer.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -21.34416961669922,
+            -15.495518684387207,
+            -20.979328155517578,
+            -15.899407386779785
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? Many kids are in a gym playing dodge ball. The camera goes to one of the kids showing them making a throw. the kids (a) run back and forth as the game persists. (b) are swishing the balls up and down. (c) continue to walk around the court. (d) continue to make the throws and launch back and forth between the camera and the other kids. Hint: the topic of the sentence is Dodgeball",
+        "target_text": "run back and forth as the game persists.",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -5.680444240570068,
+            -6.738237380981445,
+            -5.5743842124938965,
+            -4.722826957702637
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to file for divorce in texas without a lawyer [title] Determine if you qualify to file for divorce in texas. [step] Under texas law, at least one party to the divorce must have resided in texas for at least six months prior to the filing of the divorce. In addition, either you or your spouse must have lived in the county where you file for 90 days prior to the date of filing. (a) Also, a divorce in texas cannot be finalized if the wife is pregnant. If your wife is pregnant, be sure to keep this in mind. (b) If you and your spouse are unable to agree on a name change, you must have served as an alternate. You are considered an alternate as long as your default filing term of 90 days has passed. (c) In other words, neither party must have resided in the county where the divorce was finalized. [title] Determine if your state does not require the paperwork for divorce to be filed. (d) [substeps] Any resulting separation is an ordered divorce. You cannot file for divorce without a lawyer. Hint: the topic of the sentence is Finance and Business",
+        "target_text": "Also, a divorce in texas cannot be finalized if the wife is pregnant. If your wife is pregnant, be sure to keep this in mind.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -23.008493423461914,
+            -12.938838958740234,
+            -28.08489990234375,
+            -19.22915267944336
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to bid on remodeling jobs [title] Get credit references from your client if you have not worked for him before. [step] It's only smart business to ensure that your client has the means to pay you for your work. Asking for bank references is certainly not out of line, especially if the remodeling job is significant. (a) Additionally, if you discover that your potential client has a history of dragging out payments, you may wish to decline bidding. [title] Analyze the job to see if it will make you a profit. (b) A good way to get references is to reference past clients to websites. Simply use \"...\" to give them your bid. (c) Remember to ask if your client would be willing to pay for this work when you bid on the job. [title] Evaluate your bid (or bid) based on the location and the quality of the work. (d) To get an off the cuff financial lift, ask a family member to vouch for your work. [substeps] Rich people-such as older retired people-may have financial needs other than trying to cover the cost of an expansion. Hint: the topic of the sentence is Food and Entertaining",
+        "target_text": "Additionally, if you discover that your potential client has a history of dragging out payments, you may wish to decline bidding. [title] Analyze the job to see if it will make you a profit.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -20.027034759521484,
+            -14.00303840637207,
+            -18.87186050415039,
+            -21.430992126464844
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to use herbs to treat the flu [title] Take andrographis as soon as you notice flu symptoms. [step] Andrographis may reduce the severity of flu symptoms and the length of illness if it is taken as soon as the symptoms start. Make sure that you talk to your doctor before trying this herb. (a) [substeps] Do not use andrographis if you have high or low blood pressure, diabetes, take a blood thinner, have an immune disorder, or if you are pregnant or trying to become pregnant. Choose a supplement that has been standardized to 4-5.6 mg andrographolide. (b) [substeps] Do not try andrographis as soon as you notice flu symptoms. Instead, take androtrec 1-3 times a day. (c) [substeps] Refrain from using andrographis if you are pregnant, having kidney and liver problems, or have other medical conditions which may impair your ability to take it. [title] Apply andrographis to protect yourself from fleas. (d) You should also talk to your doctor about taking andrographis to lessen the severity of flu-like symptoms. [substeps] You should also avoid taking andrographis if you have hypertension, strokes, urinary tract infections, or arthritis. Hint: the topic of the sentence is Health",
+        "target_text": "[substeps] Do not use andrographis if you have high or low blood pressure, diabetes, take a blood thinner, have an immune disorder, or if you are pregnant or trying to become pregnant. Choose a supplement that has been standardized to 4-5.6 mg andrographolide.",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -19.48763084411621,
+            -20.596843719482422,
+            -18.96239471435547,
+            -17.61125373840332
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to protect yourself during legal separation [title] Stay in the home. [step] If you move out of the house, then you reduce the chances of getting joint custody. A judge will interpret your actions as a sign that you don't care about your children. (a) [substeps] If it is difficult to stay in the same house as your spouse, then you might want to \" time-share. \" under this arrangement, you both live in the house but at different times. (b) For these reasons, stay in the home. [substeps] The judge might give you a week or two to get out of the home. (c) [title] Determine how much time you are able to spend with your children. [step] Each state has its own requirements about how you can spend time with your children. (d) Some states and municipalities allow one parent to take custody during divorce proceedings. Others defraud plaintiff's other parent by suing the other. Hint: the topic of the sentence is Finance and Business",
+        "target_text": "[substeps] If it is difficult to stay in the same house as your spouse, then you might want to \" time-share. \" under this arrangement, you both live in the house but at different times.",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -20.23699188232422,
+            -20.638465881347656,
+            -17.355512619018555,
+            -18.676921844482422
+        ]
+    },
+    {
+        "input_text:": "How did this sentence end? [header] How to convince your parents to let you buy a bunny [title] Do some research on the basics of rabbit care. [step] Your parents want to make sure you know how to care for any pet. Spend some time online looking up the basics of rabbit care on websites like the humane society and the aspca. (a) [substeps] Rabbits usually live in cages or huts that are stocked with cedar or wood shavings. If your parents worry about messes, rabbits can be litter trained. (b) Check out the different rabbit options, as well as your parents' selections. Do some research online so you know what to expect in terms of price, facilities, and the availability of bunny clothes at specialty fur stores. (c) Sometimes these websites will let you see the water bowl, the good care instructions as well as some basic rules like doling out food and water. [substeps] Also research caring for a bunny from a reputable source. (d) [title] Find out what a bunny is allowed to bring into a home. [step] Many shelters or rescue organizations don't allow their rabbits outdoors in gardens. Hint: the topic of the sentence is Computers and Electronics",
+        "target_text": "[substeps] Rabbits usually live in cages or huts that are stocked with cedar or wood shavings. If your parents worry about messes, rabbits can be litter trained.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -32.461143493652344,
+            -22.05770492553711,
+            -26.283065795898438,
+            -27.16850471496582
+        ]
+    }
+]

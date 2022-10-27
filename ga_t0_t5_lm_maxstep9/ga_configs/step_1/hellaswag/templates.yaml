@@ -1,0 +1,331 @@
+dataset: hellaswag
+templates:
+  19619573-6881-42bd-a7a5-2a6324af0af3: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 19619573-6881-42bd-a7a5-2a6324af0af3
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then what\
+      \ can it mean? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1] }}\n\
+      \nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  2258c7a0-6c4d-4ed3-8893-2f4314322f51: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 2258c7a0-6c4d-4ed3-8893-2f4314322f51
+    jinja: "If the next sentence begins like this: {{ ctx }}... Then what does it\
+      \ mean? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1] }}\n\nEnding\
+      \ 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  2fd6bfb5-eef4-4995-9a78-1d3e1e60c7f7: !Template
+    answer_choices: '{{endings | join(" ||| ")}}'
+    id: 2fd6bfb5-eef4-4995-9a78-1d3e1e60c7f7
+    jinja: 'Complete the story with an appropriate ending:
+
+      First, {{ ctx_a.lower() }} Then, {{ ctx_b.lower() }} ...
+
+
+      (a) {{ answer_choices[0] }}
+
+
+      (b) {{ answer_choices[1] }}
+
+
+      (c) {{ answer_choices[2] }}
+
+
+      (d) {{ answer_choices[3] }}
+
+      |||
+
+      {{ answer_choices[label | int()] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: complete_first_then
+    reference: ''
+  354cf3a4-19ce-4797-a5e3-1dfc1cb6e102: !Template
+    answer_choices: '{{endings | join(" ||| ")}}'
+    id: 354cf3a4-19ce-4797-a5e3-1dfc1cb6e102
+    jinja: 'Complete the description with a descriptor for the ending:
+
+      First, {{ ctx_a.lower() }} Then, {{ ctx_b.lower() }} ...
+
+
+      (a) {{ answer_choices[0] }}
+
+
+      (b) {{ answer_choices[1] }}
+
+
+      (c) {{ answer_choices[2] }}
+
+
+      (d) {{ answer_choices[3] }}
+
+      |||
+
+      {{ answer_choices[label | int()] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: complete_first_then
+    reference: ''
+  366ae57e-853d-4a25-9efe-80dff995d2b3: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 366ae57e-853d-4a25-9efe-80dff995d2b3
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then how\
+      \ does it continue? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  40d07b43-b08c-4fae-b4fa-1bef7f53ad79: !Template
+    answer_choices: '{{endings | join(" ||| ")}}'
+    id: 40d07b43-b08c-4fae-b4fa-1bef7f53ad79
+    jinja: 'Complete the description with an appropriate end:
+
+      First, {{ ctx_a.lower() }} Then, {{ ctx_b.lower() }} ...
+
+
+      (a) {{ answer_choices[0] }}
+
+
+      (b) {{ answer_choices[1] }}
+
+
+      (c) {{ answer_choices[2] }}
+
+
+      (d) {{ answer_choices[3] }}
+
+      |||
+
+      {{ answer_choices[label | int()] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: complete_first_then
+    reference: ''
+  4d9ea5c7-74d7-4bdb-bea6-58490f4d7428: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 4d9ea5c7-74d7-4bdb-bea6-58490f4d7428
+    jinja: "If a description of a situation begins like this: {{ ctx }}... Then what\
+      \ will happen next? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  54ec38e3-e2d9-49a8-b073-9f35598fd7e2: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 54ec38e3-e2d9-49a8-b073-9f35598fd7e2
+    jinja: "If a description of a situation begins like this: {{ ctx }}... Then what\
+      \ does it end with? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  56c51bed-e625-4aa2-96fa-a27a8ba31c1c: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 56c51bed-e625-4aa2-96fa-a27a8ba31c1c
+    jinja: "If a description of a situation begins like this: {{ ctx }}... Then what\
+      \ happens next? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1] }}\n\
+      \nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  62098764-172d-431b-a34a-8c17fad63ab2: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 62098764-172d-431b-a34a-8c17fad63ab2
+    jinja: "If a description of a situation begins like this: {{ ctx }}... Then what\
+      \ else could happen? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  696cbfc7-a5e3-444b-b1c0-2e1877ec0450: !Template
+    answer_choices: '{{endings | join("|||")}}'
+    id: 696cbfc7-a5e3-444b-b1c0-2e1877ec0450
+    jinja: 'How did you end it?
+
+      {{ctx}}
+
+
+      (a) {{answer_choices[0]}}
+
+
+      (b) {{answer_choices[1]}}
+
+
+      (c) {{answer_choices[2]}}
+
+
+      (d) {{answer_choices[3]}}
+
+
+      Hint: the topic of the sentence is {{activity_label}}
+
+      |||
+
+      {{answer_choices [label | int()]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: Predict ending with hint
+    reference: Predict the ending with the activity label as the hint
+  81950e6d-1ce1-4b85-a291-d311d0e3f64f: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 81950e6d-1ce1-4b85-a291-d311d0e3f64f
+    jinja: "If a description of a situation begins like this: {{ ctx }}... Then what\
+      \ does it end like? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  9166fe98-21fa-4b4f-a49a-ecfb4a312088: !Template
+    answer_choices: '{{endings | join("|||")}}'
+    id: 9166fe98-21fa-4b4f-a49a-ecfb4a312088
+    jinja: 'How did this sentence end?
+
+      {{ctx}}
+
+
+      (a) {{answer_choices[0]}}
+
+
+      (b) {{answer_choices[1]}}
+
+
+      (c) {{answer_choices[2]}}
+
+
+      (d) {{answer_choices[3]}}
+
+
+      Hint: the topic of the sentence is {{activity_label}}
+
+      |||
+
+      {{answer_choices [label | int()]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: Predict ending with hint
+    reference: Predict the ending with the activity label as the hint
+  d8656932-f5ce-4455-80eb-1610f5d0e494: !Template
+    answer_choices: '{{endings | join(" ||| ")}}'
+    id: d8656932-f5ce-4455-80eb-1610f5d0e494
+    jinja: 'Complete the description with a proper end:
+
+      First, {{ ctx_a.lower() }} Then, {{ ctx_b.lower() }} ...
+
+
+      (a) {{ answer_choices[0] }}
+
+
+      (b) {{ answer_choices[1] }}
+
+
+      (c) {{ answer_choices[2] }}
+
+
+      (d) {{ answer_choices[3] }}
+
+      |||
+
+      {{ answer_choices[label | int()] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: complete_first_then
+    reference: ''
+  e48e894c-84e7-40ca-bee7-c40f5fe3d2ff: !Template
+    answer_choices: '{{endings | join(" ||| ")}}'
+    id: e48e894c-84e7-40ca-bee7-c40f5fe3d2ff
+    jinja: 'Describe the end of the journey:
+
+      First, {{ ctx_a.lower() }} Then, {{ ctx_b.lower() }} ...
+
+
+      (a) {{ answer_choices[0] }}
+
+
+      (b) {{ answer_choices[1] }}
+
+
+      (c) {{ answer_choices[2] }}
+
+
+      (d) {{ answer_choices[3] }}
+
+      |||
+
+      {{ answer_choices[label | int()] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: complete_first_then
+    reference: ''

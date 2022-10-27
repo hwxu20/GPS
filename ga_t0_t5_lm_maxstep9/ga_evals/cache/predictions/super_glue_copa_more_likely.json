@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The woman refused a second beer. as a result of: - She was the designated driver for the night. - She was familiar with the bartender.",
+        "target_text": "She was the designated driver for the night.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.007748079486191273,
+            -9.818869590759277
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The girl found the missing puzzle piece. as a consequence: - She completed the puzzle. - She took apart the puzzle.",
+        "target_text": "She completed the puzzle.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.005191213916987181,
+            -10.22296142578125
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The tenant misplaced his keys to his apartment. as a consequence: - His landlord unlocked the door. - His landlord repaired the door.",
+        "target_text": "His landlord unlocked the door.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.019885476678609848,
+            -5.403812408447266
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The gardener pulled the weeds. as a consequence: - The weeds came out of the soil. - The weeds produced seeds.",
+        "target_text": "The weeds came out of the soil.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.049748264253139496,
+            -4.435917377471924
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The man went away for the weekend. as a result of: - He wanted to relax. - He felt content.",
+        "target_text": "He wanted to relax.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0183608066290617,
+            -5.200371265411377
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The surfer caught the wave. as a consequence: - The wave carried her to the shore. - She paddled her board into the ocean.",
+        "target_text": "The wave carried her to the shore.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0636695995926857,
+            -2.829932451248169
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The man took a shower. as a result of: - He was sweaty from working out. - He opened a new bar of soap.",
+        "target_text": "He was sweaty from working out.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.020778736099600792,
+            -7.269503116607666
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: Our group's conversation gradually lulled to silence. as a consequence: - I felt awkward. - I became enraged.",
+        "target_text": "I felt awkward.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.028282782062888145,
+            -6.122982501983643
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The librarian located the book in the stacks. as a result of: - I requested the librarian's help. - The book was checked out.",
+        "target_text": "I requested the librarian's help.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.20562507212162018,
+            -1.8177390098571777
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The man felt thankful to be alive. as a result of: - He was cured of cancer. - His wife was diagnosed with cancer.",
+        "target_text": "He was cured of cancer.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.21791663765907288,
+            -1.6903717517852783
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The offender violated parole. as a consequence: - She was sent back to jail. - She stole money from a church.",
+        "target_text": "She was sent back to jail.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.033147770911455154,
+            -12.599661827087402
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The benefactor requested to stay anonymous. as a result of: - He wanted to maintain his privacy. - He supported the cause behind his donation.",
+        "target_text": "He wanted to maintain his privacy.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.017520200461149216,
+            -6.189825057983398
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The terrorist set off the bomb. as a consequence: - The bomb exploded. - The bomb was deactivated.",
+        "target_text": "The bomb exploded.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0034206572454422712,
+            -8.68724536895752
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The man revealed personal information to the therapist. as a result of: - He trusted the therapist. - He disagreed with the therapist.",
+        "target_text": "He trusted the therapist.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.006312554702162743,
+            -19.41234588623047
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The man became disabled. as a consequence: - His family offered him financial support. - His family cut off contact with him.",
+        "target_text": "His family offered him financial support.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.021744022145867348,
+            -5.103724956512451
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The man had lipstick on his cheek. as a result of: - The woman kissed him. - The woman made him blush.",
+        "target_text": "The woman kissed him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.02131721004843712,
+            -4.125953197479248
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: My knees buckled on the stairs. as a consequence: - I caught myself on the railing. - The railing came loose from the wall.",
+        "target_text": "I caught myself on the railing.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0719929113984108,
+            -3.8652427196502686
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The boy pushed his sister. as a consequence: - His sister tattled on him. - They played hide and seek.",
+        "target_text": "His sister tattled on him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.036058515310287476,
+            -4.569997787475586
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The woman filed a restraining order against the man. as a result of: - The man called her. - The man stalked her.",
+        "target_text": "The man called her.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.74243688583374,
+            -0.0015530039090663195
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The crowd gave the band a standing ovation. as a consequence: - The band signed autographs. - The band reappeared on the stage.",
+        "target_text": "The band signed autographs.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.231408596038818,
+            -0.018733492121100426
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The vase broke. as a consequence: - I stenciled it. - I glued it back together.",
+        "target_text": "I stenciled it.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.427043914794922,
+            -0.02859754115343094
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: My foot went numb. as a consequence: - I put my shoes on. - I shook my foot.",
+        "target_text": "I put my shoes on.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.102318525314331,
+            -0.07438904047012329
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The man dropped food on the floor. as a consequence: - His dog jumped up on him. - His dog ran over to eat the food.",
+        "target_text": "His dog jumped up on him.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.327860355377197,
+            -0.031064750626683235
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: It got dark outside. as a consequence: - Snowflakes began to fall from the sky. - The moon became visible in the sky.",
+        "target_text": "Snowflakes began to fall from the sky.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.4175267219543457,
+            -0.11676393449306488
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The woman received a diploma. as a result of: - She enrolled in college. - She graduated from college.",
+        "target_text": "She enrolled in college.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.297295093536377,
+            -0.006571365986019373
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The company lost money. as a result of: - Its products received positive consumer reviews. - Some of its products were manufactured defectively.",
+        "target_text": "Its products received positive consumer reviews.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.782389640808105,
+            -0.0024493548553436995
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The documents contained important information. as a consequence: - I paper clipped them together. - I kept them in a secure place.",
+        "target_text": "I paper clipped them together.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.5427446365356445,
+            -0.009776703082025051
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The man looked at his watch. as a consequence: - He realized he forgot something. - He realized he was early.",
+        "target_text": "He realized he forgot something.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.9235447645187378,
+            -1.1243237257003784
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The man threw out the bread. as a result of: - It was fresh. - It was stale.",
+        "target_text": "It was fresh.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.957466125488281,
+            -0.009422156028449535
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The patient underwent the risky medical procedure. as a result of: - The procedure was costly. - Specialists recommended the procedure.",
+        "target_text": "The procedure was costly.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.829109191894531,
+            -0.005496608559042215
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The woman's makeup smeared. as a result of: - She brushed her hair. - She wiped her eyes.",
+        "target_text": "She brushed her hair.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.579226016998291,
+            -0.25744789838790894
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: The police officer dropped the gun. as a consequence: - The gun recoiled. - The gun went off.",
+        "target_text": "The gun recoiled.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.627315044403076,
+            -0.02285047620534897
+        ]
+    },
+    {
+        "input_text:": "Pick the most likely continuation to the following sentence: My daughter suffered an allergy attack. as a consequence: - I encouraged her to take deep breaths. - I took her to the emergency room.",
+        "target_text": "I encouraged her to take deep breaths.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.0226845741271973,
+            -0.15448081493377686
+        ]
+    }
+]

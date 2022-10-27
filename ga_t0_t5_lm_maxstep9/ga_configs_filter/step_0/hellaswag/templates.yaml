@@ -1,0 +1,120 @@
+dataset: hellaswag
+templates:
+  00caa8cb-7f67-43bc-9e90-fc1d5d329432: !Template
+    answer_choices: '{{endings | join(" ||| ")}}'
+    id: 00caa8cb-7f67-43bc-9e90-fc1d5d329432
+    jinja: 'Complete the description with an appropriate ending:
+
+      First, {{ ctx_a.lower() }} Then, {{ ctx_b.lower() }} ...
+
+
+      (a) {{ answer_choices[0] }}
+
+
+      (b) {{ answer_choices[1] }}
+
+
+      (c) {{ answer_choices[2] }}
+
+
+      (d) {{ answer_choices[3] }}
+
+      |||
+
+      {{ answer_choices[label | int()] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: complete_first_then
+    reference: ''
+  52fbd075-46cb-49fb-a41b-00a0f4a60285: !Template
+    answer_choices: '{{endings | join(" ||| ") }}'
+    id: 52fbd075-46cb-49fb-a41b-00a0f4a60285
+    jinja: '{% set prompts = [
+
+      ''Can you pick the correct ending for the sentence: '',
+
+      ''The task is to generate the ending for the sentence: '',
+
+      ''How does this sentence end? '',
+
+      ''From the list of endings described below, what ending makes the most sense
+      for the sentence '',]
+
+      %}
+
+      {{prompts | choice}}
+
+      {{ctx}}
+
+
+      (a)  {{answer_choices[0]}}
+
+
+      (b)  {{answer_choices[1]}}
+
+
+      (c)  {{answer_choices[2]}}
+
+
+      (d)  {{answer_choices[3]}}
+
+      |||
+
+      {{answer_choices [label | int()]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: Randomized prompts template
+    reference: Original task template with randomized prompt template
+  6e9f8d7d-9016-45bc-b997-c42aeb2dc944: !Template
+    answer_choices: '{{endings | join("|||")}}'
+    id: 6e9f8d7d-9016-45bc-b997-c42aeb2dc944
+    jinja: 'How does this sentence end?
+
+      {{ctx}}
+
+
+      (a)  {{answer_choices[0]}}
+
+
+      (b)  {{answer_choices[1]}}
+
+
+      (c)  {{answer_choices[2]}}
+
+
+      (d)  {{answer_choices[3]}}
+
+
+      Hint: the topic of the sentence is {{activity_label}}
+
+      |||
+
+      {{answer_choices [label | int()]}}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: Predict ending with hint
+    reference: Predict the ending with the activity label as the hint
+  def77598-682f-48de-b187-55db4d390f07: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: def77598-682f-48de-b187-55db4d390f07
+    jinja: "If a description of a situation begins like this: {{ ctx }}... Then how\
+      \ does it continue? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)

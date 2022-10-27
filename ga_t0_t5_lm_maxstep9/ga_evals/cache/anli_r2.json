@@ -1,0 +1,740 @@
+[
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "024f67a5-17c4-4154-8caf-759a2c18f3fb",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "0831383f-015a-4096-bca0-14abada998fe",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "0dc77fac-40af-4014-90d4-ecfa0d7a2682",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "0f4ff9ac-bf68-4cfd-babb-e324a2d8cfdb",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "13911dc8-1753-4783-971a-e7b6bfa05d7b",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "13bff82a-ef46-4b80-9812-77659f6218a9",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "1401dcc2-ab9e-46ec-9b4d-16d4f4ca1914",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "17ffc326-b10b-42e6-8db5-e4ef4bb665a8",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "1e804bb5-4ef5-428f-9b7b-f35409640972",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "222fbc39-34ce-4521-8323-1bb0fa535945",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.24242424242424243
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "223ecb24-893d-43b6-b539-31eb71885f45",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "2fd0c9f1-54f1-4218-9888-9a1d3f347995",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "301297c8-9617-4a31-a5ec-285a90246bc5",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "321c33c8-3bd6-4107-8835-ba943d1b3514",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "343feb19-71fc-459e-b765-e4aa4aa72142",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "34869361-a1cf-4bbe-addb-5daa55dd2c86",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "35956fdb-fa1e-4487-8e48-60c81bec1ea2",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.48484848484848486
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "37475422-3570-4537-9464-43f92b7440cb",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "3bad8924-f4a9-4e38-8784-3c8dd735b3c0",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "3d03fdb1-4beb-462f-ace2-16acdcde3da1",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "3da445a1-97ce-49cd-8564-a7b7b2760d84",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "3dcb1774-ccf2-4adb-88cb-9366e5dea43c",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "4b637515-d4c9-45ba-968c-d257f6cbf1b9",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "4bebeede-9cb7-424d-8849-80f4facc4754",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "4c064b7b-764a-4763-ada7-ce906fc2b537",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "51ed3896-e603-4fd7-b4a0-5306d316002e",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "5332656a-9bf8-4451-9541-70f30c793ed3",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "566ad650-b0b2-45f5-b1f6-56855b421283",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "5d2cb56b-a783-48f3-9f59-b3c24bb07145",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "5f11b0fa-a762-4b61-b5a7-83602370ab1e",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "622464f7-155e-4d13-9ca4-561ac4953057",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "67fe07cd-3627-4a08-af3f-58d011ec623f",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "6c10b441-efcd-4aa5-a409-fe0942a8fbfc",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "6e7715e9-c265-4f7a-b703-13fbb8ab8244",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "6f1cc8a0-d59a-4047-8755-1d4da3699196",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "6fe1c7cb-1455-46d7-af37-c8e3204e3a01",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "70fad7ca-7247-4c25-944e-2d398d10d83e",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "76b9350a-a019-4d11-aabc-b43ae9dd5e40",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "7a7fdf33-7b67-421d-8300-b09fcd20f2a3",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "7c66f5ca-fbbd-4ee6-9fca-c491b2a69343",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.3333333333333333
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "7df75b9c-2dec-4da7-b057-f7950e6a4499",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "8088a590-c0d9-4296-b640-9ea4454be80b",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "83cf339d-d28a-412a-81ba-f5c0594acdef",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "848a8a8a-748f-4374-8723-81cf7712a3ef",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "86769a4a-9658-4d27-be73-b45526eeb46b",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "8781afdd-a594-4efd-b8ce-75fc935d0eb6",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "8cbca51d-4d20-4475-a154-e741eaf97736",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "8d33e51a-37bc-4fe0-bd7b-e2e2c17daddd",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "8e8bc5c2-90b8-4986-b460-09d830feea82",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "91baf204-8100-4cff-a20c-4eb60f4c2fa9",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "93a111c5-e1d3-4882-bd61-d1e75b60b50c",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "9b704335-e3bb-4221-9a0d-8999be98d4c2",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "a3109767-90d8-4a94-b4ad-ce98160e0e23",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "a6cf79df-984a-44ab-8e28-8922befd4ef7",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "ab6d9938-2922-4d23-874d-4a9b054d997d",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "adf14eb5-64a8-4a1b-8720-97610506d5c2",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "b0706d8b-b656-490c-9ccb-5fee92d9cc4c",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "b4861e03-5eea-42a2-b00c-a1d27e4bab70",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "b591ed4b-6d9c-4b04-886c-df250ad14a5b",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "b5e4e288-c83f-4518-89b0-2abcd86734f3",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "b8b58c9a-099f-4a39-b732-01cedeb13e9a",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "b91cf286-3ef4-428f-b08f-7596fcd2deee",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "ba56c996-b7c2-4513-8b05-2a0420ed4f4b",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "bdb7dc5c-9a0a-4c30-9767-57aaa2782063",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "c4b3bfbc-70a3-41b9-985a-9c2b57193a0c",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "ccff9732-e6cd-466d-8bd9-1c098fb9928b",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "d26b78eb-9176-4d24-80eb-7f5da8c3bed3",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "d59d7149-d232-4772-a79b-628533d8982e",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "d68ee65f-2667-478a-a12a-0b5413e79a99",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "d7fb0513-fca0-4e9b-b092-039af3627121",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "dbb81533-362c-4395-94de-9e42b120a93e",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "e7c1c92e-576f-48e8-bc37-d30595b0226a",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "ecac98d9-a951-4cb6-82eb-a67e16be3634",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "f0174b40-4dcd-4600-b05a-ada92c4f3d31",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "f0f1c639-65e3-486e-8fa7-67514335b843",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "f11a0e51-4179-4a66-895e-a1d0c4311793",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "f344ea2c-becf-4967-8907-7b21d1defe4c",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "f51ddaec-830f-468b-80f4-ae898ee6360f",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "f5548031-0f62-4765-89fa-7658b81c164d",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "f75a8bfb-4bec-44c9-b2ab-ba80ca05e317",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "f8bedbb8-3cb0-4bdd-b662-d2e19fc24bc1",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r2",
+        "template_id": "fba18beb-0474-4f4a-ada5-2d099e51702c",
+        "template_name": "must be true",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    }
+]

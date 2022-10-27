@@ -1,0 +1,2245 @@
+dataset: super_glue
+subset: copa
+templates:
+  0236c6ba-461e-4730-b277-d99beca523ba: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 0236c6ba-461e-4730-b277-d99beca523ba
+    jinja: '{{ premise }}
+
+
+      Select the cheapest {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  05241dd1-212f-4b35-8914-c94b340c078b: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 05241dd1-212f-4b35-8914-c94b340c078b
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happens happen \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  059f5862-739e-4e50-8f58-8bbfc43783e2: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 059f5862-739e-4e50-8f58-8bbfc43783e2
+    jinja: '{{ premise }}
+
+
+      Please select the one you think is the best {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  0739c249-5ca9-4244-809c-1fa9b51c1037: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 0739c249-5ca9-4244-809c-1fa9b51c1037
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} How come happened have\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  07dda2e1-b11e-4768-b4e8-18b1547627b6: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 07dda2e1-b11e-4768-b4e8-18b1547627b6
+    jinja: '{{ premise }}
+
+
+      Do not select any {% if question == "cause" %} cause: {% else %} effect:{% endif
+      %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  0a1a34ba-b86e-4431-a62a-6e4621a42046: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 0a1a34ba-b86e-4431-a62a-6e4621a42046
+    jinja: '{{ premise }}
+
+
+      Select the most appropriate {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  0a9ffaac-e78f-4505-b2a8-3015c56dec78: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 0a9ffaac-e78f-4505-b2a8-3015c56dec78
+    jinja: '{{ premise }}
+
+
+      Select the relevant {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  0d421e87-4bce-4e71-b533-2dc9be6b91ef: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 0d421e87-4bce-4e71-b533-2dc9be6b91ef
+    jinja: '{{ premise }}
+
+
+      Select the most plausible {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  0db771b7-c692-4de1-ac82-0081d1c435a8: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 0db771b7-c692-4de1-ac82-0081d1c435a8
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What may happen? \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  1070311a-f38b-4792-8f9b-a81a9dea8582: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 1070311a-f38b-4792-8f9b-a81a9dea8582
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What do you hope will\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  1184b9a2-5bc7-4a34-960a-a9f5f8b584dc: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 1184b9a2-5bc7-4a34-960a-a9f5f8b584dc
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What do you expect will\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  13d46702-4aa9-4380-82a5-8854dd7fbff1: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 13d46702-4aa9-4380-82a5-8854dd7fbff1
+    jinja: '{{ premise }}
+
+
+      Select the least perfect {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  14f13f52-04a1-4845-8d38-26e7a53eff66: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 14f13f52-04a1-4845-8d38-26e7a53eff66
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened to him \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  1561e36f-f355-4b7d-93a2-8a9249d42af8: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 1561e36f-f355-4b7d-93a2-8a9249d42af8
+    jinja: '{{ premise }}
+
+
+      The employer should choose the most cost-effective {% if question == "cause"
+      %} cause: {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  1594ab5d-2b23-4efe-b8af-c08c78d64b84: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 1594ab5d-2b23-4efe-b8af-c08c78d64b84
+    jinja: '{{ premise }}
+
+
+      The employer must choose the best available {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  15efbf32-b2e5-44a1-a604-afdbd40df1e9: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 15efbf32-b2e5-44a1-a604-afdbd40df1e9
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} If you had to predict\
+      \ what will happen, what would you do? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1]\
+      \ }}\"? ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif\
+      \ %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  1802ac39-5b6f-4dd5-83fa-053bde72b69c: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 1802ac39-5b6f-4dd5-83fa-053bde72b69c
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened in the entire\
+      \ universe. \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? |||\
+      \ {% if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  185c5b57-401b-4be6-b175-63db47dd0c90: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 185c5b57-401b-4be6-b175-63db47dd0c90
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} If it happens, what will\
+      \ it mean for? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? |||\
+      \ {% if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  19849436-82f0-4c1e-b1be-f5b8e0486f94: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 19849436-82f0-4c1e-b1be-f5b8e0486f94
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What is likely to happen\
+      \ next? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if\
+      \ label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  1a46ee16-16c4-438b-b41e-347fa4da733d: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 1a46ee16-16c4-438b-b41e-347fa4da733d
+    jinja: '{{ premise }}
+
+
+      Select the most preferred {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  1ae63f77-0154-4589-8817-3eccb0d98d30: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 1ae63f77-0154-4589-8817-3eccb0d98d30
+    jinja: '{{ premise }}
+
+
+      The manager must choose the least costly {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  1ecac17c-d065-494e-bb37-83334a316f8e: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 1ecac17c-d065-494e-bb37-83334a316f8e
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened in the real\
+      \ world? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  20d7ffd0-653a-49dd-bd90-08fc84b4b919: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 20d7ffd0-653a-49dd-bd90-08fc84b4b919
+    jinja: '{{ premise }}
+
+
+      What is the least costly {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  216df310-9a1a-4052-927e-f3871eeabecc: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 216df310-9a1a-4052-927e-f3871eeabecc
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened to happen?\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  229a4ce7-a7fa-418c-aa2a-48443c87f4c3: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 229a4ce7-a7fa-418c-aa2a-48443c87f4c3
+    jinja: '{{ premise }}
+
+
+      Select the most amazing {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  2580bff7-5b58-47ee-9da1-df519e097dbc: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 2580bff7-5b58-47ee-9da1-df519e097dbc
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What is in all likelihood\
+      \ to happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? |||\
+      \ {% if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  25ad897b-a931-4b4b-870c-5dfd63fe2ba0: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 25ad897b-a931-4b4b-870c-5dfd63fe2ba0
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What didn't happen? \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  275aa7a6-189b-4806-b310-b0d4fba158ce: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 275aa7a6-189b-4806-b310-b0d4fba158ce
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What could have happened?\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  27e47538-334b-4d59-b1bf-9e2eba6ccdbc: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 27e47538-334b-4d59-b1bf-9e2eba6ccdbc
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened? \"{{ answer_choices[0]\
+      \ }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  2aa8b5be-55cb-470a-a2ae-0821ee32179b: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 2aa8b5be-55cb-470a-a2ae-0821ee32179b
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What will most likely\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  30102bb8-0ff9-4074-a329-0969ab344325: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 30102bb8-0ff9-4074-a329-0969ab344325
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What do you think WILL\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  368d9633-4a6a-4e53-a289-3bda1e6c7dfc: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 368d9633-4a6a-4e53-a289-3bda1e6c7dfc
+    jinja: '{{ premise }}
+
+
+      Select the least broad {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  375b5ac2-7d87-4e56-9257-ed8d3c34b379: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 375b5ac2-7d87-4e56-9257-ed8d3c34b379
+    jinja: '{{ premise }}
+
+
+      Select the most comprehensive {% if question == "cause" %} cause: {% else %}
+      effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  3bdf40be-2421-43f3-821d-e73acfb9e15b: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 3bdf40be-2421-43f3-821d-e73acfb9e15b
+    jinja: '{{ premise }}
+
+
+      Select the worst {% if question == "cause" %} cause: {% else %} effect:{% endif
+      %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  3c3b68d7-44bc-45e9-8453-9df396c5ab39: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 3c3b68d7-44bc-45e9-8453-9df396c5ab39
+    jinja: '{{ premise }}
+
+
+      Select the most suitable {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  3e208fa3-72d2-49ab-91dd-594bfd609eab: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 3e208fa3-72d2-49ab-91dd-594bfd609eab
+    jinja: '{{ premise }}
+
+
+      Select the most focused {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  3e5ed7e9-6ad4-4d00-a863-6e238d64b90a: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 3e5ed7e9-6ad4-4d00-a863-6e238d64b90a
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What will happen will\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  40b1cf5d-fd69-489b-8eac-7a2e6e7ee33b: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 40b1cf5d-fd69-489b-8eac-7a2e6e7ee33b
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What did not happen? \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  40f26246-2b4e-4b10-923f-1ad98dc7996b: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 40f26246-2b4e-4b10-923f-1ad98dc7996b
+    jinja: '{{ premise }}
+
+
+      Select the most culturally and ethnically focused {% if question == "cause"
+      %} cause: {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  4573cc89-ed65-4201-aaa7-ca88c0e8fe5a: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 4573cc89-ed65-4201-aaa7-ca88c0e8fe5a
+    jinja: '{{ premise }}
+
+
+      The employer must choose the most expensive {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  467cf19f-0e30-4141-a911-b29442ca8741: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 467cf19f-0e30-4141-a911-b29442ca8741
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened you \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  48b68285-d679-4403-a140-68ffb8438fc5: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 48b68285-d679-4403-a140-68ffb8438fc5
+    jinja: '{{ premise }}
+
+
+      The employer must choose the best {% if question == "cause" %} cause: {% else
+      %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  4a9acaee-281a-48cc-86cc-a1c7884f9062: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 4a9acaee-281a-48cc-86cc-a1c7884f9062
+    jinja: '{{ premise }}
+
+
+      The employer has a number of options to choose from. Which is the best {% if
+      question == "cause" %} cause: {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  4dead263-2ada-494b-a9f9-c7c3db9e40b3: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 4dead263-2ada-494b-a9f9-c7c3db9e40b3
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened was \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  4deeda4b-723e-400b-8c86-02ead6dd253f: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 4deeda4b-723e-400b-8c86-02ead6dd253f
+    jinja: '{{ premise }}
+
+
+      The employee must choose the best possible {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  51f3f179-14ab-461d-99fb-f414acbcc6fe: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 51f3f179-14ab-461d-99fb-f414acbcc6fe
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What have happened \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  558ff7fe-77ee-45f5-8390-db57da633c6c: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 558ff7fe-77ee-45f5-8390-db57da633c6c
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened in your\
+      \ body. \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if\
+      \ label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  5b9f231f-db8c-4510-92f7-3a4c8c4f11da: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 5b9f231f-db8c-4510-92f7-3a4c8c4f11da
+    jinja: '{{ premise }}
+
+
+      Select the most traditionally focused {% if question == "cause" %} cause: {%
+      else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  5c54fc55-6c91-4fe2-8783-f7d8b9ec2ef6: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 5c54fc55-6c91-4fe2-8783-f7d8b9ec2ef6
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened in your\
+      \ head. \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if\
+      \ label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  63a9f8ed-411f-4434-a066-79632664580d: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 63a9f8ed-411f-4434-a066-79632664580d
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened of \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  65af9daa-adc4-4657-bb20-623e8a564b9e: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 65af9daa-adc4-4657-bb20-623e8a564b9e
+    jinja: '{{ premise }}
+
+
+      Select the most detailed {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  68e82018-838f-4097-8d4c-7cfcff1b041d: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 68e82018-838f-4097-8d4c-7cfcff1b041d
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What is happening? \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  69bddbf3-c97b-4841-acbf-2f1e668ba18d: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 69bddbf3-c97b-4841-acbf-2f1e668ba18d
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened to \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  6f5e5a88-1e3d-4ec9-aaf9-9fff18025ac6: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 6f5e5a88-1e3d-4ec9-aaf9-9fff18025ac6
+    jinja: '{{ premise }}
+
+
+      Select the most clearly focused {% if question == "cause" %} cause: {% else
+      %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  70054f47-743d-4dd8-aac9-dd62443a6d23: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 70054f47-743d-4dd8-aac9-dd62443a6d23
+    jinja: '{{ premise }}
+
+
+      The employee must choose the least costly {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  708c4269-b9f7-44fe-acf9-7243bacb56a8: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 708c4269-b9f7-44fe-acf9-7243bacb56a8
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened is \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  7302fa61-e66f-4df6-b712-3a95e8b4975d: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 7302fa61-e66f-4df6-b712-3a95e8b4975d
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened with your\
+      \ body. \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if\
+      \ label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  730ef9c3-67af-439e-a6d1-c7530af8ea33: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 730ef9c3-67af-439e-a6d1-c7530af8ea33
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} How will it happen? \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  73f9f949-5ad7-47f2-8a5a-57d96d206cc8: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 73f9f949-5ad7-47f2-8a5a-57d96d206cc8
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happens will \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  74a2f2a3-06b1-4150-be37-a34f6f844501: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 74a2f2a3-06b1-4150-be37-a34f6f844501
+    jinja: '{{ premise }}
+
+
+      Select the more excellent {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  7784e8c9-a702-4373-8c96-7efe0e48b2d1: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 7784e8c9-a702-4373-8c96-7efe0e48b2d1
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} How is it likely to happen?\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  79809245-25aa-4bea-9eb9-f254d19356b1: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 79809245-25aa-4bea-9eb9-f254d19356b1
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What do you think might\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  798c51ef-3f6a-4c5e-97ed-71cf27103436: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 798c51ef-3f6a-4c5e-97ed-71cf27103436
+    jinja: '{{ premise }}
+
+
+      Select the most positive {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  79fb9cfd-3f28-49bb-804b-8e1ebfa5bb51: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 79fb9cfd-3f28-49bb-804b-8e1ebfa5bb51
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened in your\
+      \ memory. \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  7b7d5e87-e4ef-40ce-8a9e-b42f1b5619cf: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 7b7d5e87-e4ef-40ce-8a9e-b42f1b5619cf
+    jinja: '{{ premise }}
+
+
+      Select the most socially focused {% if question == "cause" %} cause: {% else
+      %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  7bbe8fe7-fe49-4134-b31e-a2242251ab18: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 7bbe8fe7-fe49-4134-b31e-a2242251ab18
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happen has \"{{ answer_choices[0]\
+      \ }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  7c27e80a-3828-4e75-863d-bf00051ef4f7: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 7c27e80a-3828-4e75-863d-bf00051ef4f7
+    jinja: '{{ premise }}
+
+
+      The employer must choose the most affordable {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  7feaad8f-4105-454d-ae37-83ebe635a782: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 7feaad8f-4105-454d-ae37-83ebe635a782
+    jinja: '{{ premise }}
+
+
+      Select the best {% if question == "cause" %} cause: {% else %} effect:{% endif
+      %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  81bb0b04-ca0b-432e-8e45-e4bf2ef2817a: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 81bb0b04-ca0b-432e-8e45-e4bf2ef2817a
+    jinja: '{{ premise }}
+
+
+      Select the broadest {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  81c045c8-7158-4f0d-b669-1f70902e8483: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 81c045c8-7158-4f0d-b669-1f70902e8483
+    jinja: '{{ premise }}
+
+
+      The employer should choose the most effective {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  8499dad0-93a0-413e-86af-711218881f90: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 8499dad0-93a0-413e-86af-711218881f90
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What is most likely to\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  84c0bebc-9027-4a48-b36e-b18d70a4988e: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 84c0bebc-9027-4a48-b36e-b18d70a4988e
+    jinja: '{{ premise }}
+
+
+      Select the most interesting {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  88f7c514-03ef-41c8-9616-32b6e910485f: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 88f7c514-03ef-41c8-9616-32b6e910485f
+    jinja: '{{ premise }}
+
+
+      The employer must choose the most costly {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  8962261e-5263-4553-9dd4-375a5dfbea98: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 8962261e-5263-4553-9dd4-375a5dfbea98
+    jinja: '{{ premise }}
+
+
+      In order to avoid overspending, the employer must choose the most cost-effective
+      {% if question == "cause" %} cause: {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  8b09c841-62a4-4dd5-9b29-b2150a027a4e: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 8b09c841-62a4-4dd5-9b29-b2150a027a4e
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happening've \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  8b4a427c-a521-4c93-b595-0e3f44ba9e99: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 8b4a427c-a521-4c93-b595-0e3f44ba9e99
+    jinja: '{{ premise }}
+
+
+      Select the most relevant option in which the answer of the first option is more
+      relevant to the answer of the second {% if question == "cause" %} cause: {%
+      else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  8ba5b525-9036-4db1-9c0d-48fe32fcaaf3: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 8ba5b525-9036-4db1-9c0d-48fe32fcaaf3
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened to the \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  8e95b065-e0c8-4245-947c-f15998779f08: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 8e95b065-e0c8-4245-947c-f15998779f08
+    jinja: '{{ premise }}
+
+
+      Select the narrowest {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  8f3f505a-87f1-4a29-b00d-12c0849335ff: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 8f3f505a-87f1-4a29-b00d-12c0849335ff
+    jinja: '{{ premise }}
+
+
+      Select the most outstanding {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  908e0f16-f255-4ce2-98d9-0b9937eff46b: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 908e0f16-f255-4ce2-98d9-0b9937eff46b
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened to what?\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  928f0c04-2b02-4e76-b5ae-36ff9981fa54: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 928f0c04-2b02-4e76-b5ae-36ff9981fa54
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What should happen? \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  9301e7d0-6163-4435-b6f3-3e822ca1717c: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 9301e7d0-6163-4435-b6f3-3e822ca1717c
+    jinja: '{{ premise }}
+
+
+      Is this really the best {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  94d70c24-c54f-4332-9c58-2a1dd1c6f4eb: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 94d70c24-c54f-4332-9c58-2a1dd1c6f4eb
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What do you know will\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  98a6a2ab-cba4-4b3c-b4c1-92f1f9531418: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 98a6a2ab-cba4-4b3c-b4c1-92f1f9531418
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What did I happen? \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  9be1b3bd-fc78-46a7-bf1f-da4cc6f7b78f: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 9be1b3bd-fc78-46a7-bf1f-da4cc6f7b78f
+    jinja: '{{ premise }}
+
+
+      Select the most legally oriented {% if question == "cause" %} cause: {% else
+      %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  9e59279b-8f22-4552-8382-29fb67a51481: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 9e59279b-8f22-4552-8382-29fb67a51481
+    jinja: '{{ premise }}
+
+
+      The employer must choose the most prestigious {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  9feb4dff-ed9b-4221-a3ed-dacfc82b1819: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: 9feb4dff-ed9b-4221-a3ed-dacfc82b1819
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What do you really think\
+      \ will happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? |||\
+      \ {% if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  a65376c5-9fa8-4c65-9372-1a9003635668: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: a65376c5-9fa8-4c65-9372-1a9003635668
+    jinja: '{{ premise }}
+
+
+      Select the most narrow {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  a7906ec2-67d8-4d22-8eea-210ea43c4005: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: a7906ec2-67d8-4d22-8eea-210ea43c4005
+    jinja: '{{ premise }}
+
+
+      Select the most scientifically focused {% if question == "cause" %} cause: {%
+      else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  aa0f730d-0b32-4323-a703-aaa2ef87e3d7: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: aa0f730d-0b32-4323-a703-aaa2ef87e3d7
+    jinja: '{{ premise }}
+
+
+      Select the most accurate {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  aa80a599-523a-4423-a5bd-d67cbe66f255: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: aa80a599-523a-4423-a5bd-d67cbe66f255
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened it? \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  ab2dc2c1-1227-457e-8ce3-0c00fbd8be46: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: ab2dc2c1-1227-457e-8ce3-0c00fbd8be46
+    jinja: '{{ premise }}
+
+
+      Select the most useful {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  aed93008-e707-4053-bf1a-31ffbeac5219: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: aed93008-e707-4053-bf1a-31ffbeac5219
+    jinja: '{{ premise }}
+
+
+      The employer must choose the most profitable {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  b29292b1-1de5-4a35-8f3e-474541e8d1a6: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: b29292b1-1de5-4a35-8f3e-474541e8d1a6
+    jinja: '{{ premise }}
+
+
+      The employer should choose the most cost effective {% if question == "cause"
+      %} cause: {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  b38f0c18-c461-49df-a33f-03dd73c8e9bc: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: b38f0c18-c461-49df-a33f-03dd73c8e9bc
+    jinja: '{{ premise }}
+
+
+      Select the least politically and socially focused {% if question == "cause"
+      %} cause: {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  b77909bf-1783-4bcd-a266-de0980b15229: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: b77909bf-1783-4bcd-a266-de0980b15229
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What do you think will\
+      \ not happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? |||\
+      \ {% if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  be293e9b-5ff3-4610-b409-d827260e9337: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: be293e9b-5ff3-4610-b409-d827260e9337
+    jinja: '{{ premise }}
+
+
+      The employer must choose the highest return {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  bf1fa9df-f3d1-4fb3-a844-bc688d067c8c: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: bf1fa9df-f3d1-4fb3-a844-bc688d067c8c
+    jinja: '{{ premise }}
+
+
+      Select the most narrowly focused {% if question == "cause" %} cause: {% else
+      %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  c0a75d79-52bb-4743-a2bf-57e4823dd181: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: c0a75d79-52bb-4743-a2bf-57e4823dd181
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened have not\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  c230880d-65a3-4861-9988-e02201dbe553: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: c230880d-65a3-4861-9988-e02201dbe553
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What will happen have\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  c3d9e692-ed9b-46e7-a66f-0c7613bd4c06: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: c3d9e692-ed9b-46e7-a66f-0c7613bd4c06
+    jinja: '{{ premise }}
+
+
+      Select the most annoying {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  c59080a1-1f18-411e-b18c-a99b78ad6376: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: c59080a1-1f18-411e-b18c-a99b78ad6376
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened haven't\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  c5ee9574-3ae9-4a98-9505-ccab5c622b39: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: c5ee9574-3ae9-4a98-9505-ccab5c622b39
+    jinja: '{{ premise }}
+
+
+      The employer should choose the cheapest {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  c669ff35-0b3f-454f-852d-2c2a572b7616: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: c669ff35-0b3f-454f-852d-2c2a572b7616
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened have happened\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  c9dcd43c-3edc-444a-8795-ebd8eec6171c: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: c9dcd43c-3edc-444a-8795-ebd8eec6171c
+    jinja: '{{ premise }}
+
+
+      The manager must choose the least expensive {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  cc9a8496-fc6a-4656-b07b-12d8c3df253b: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: cc9a8496-fc6a-4656-b07b-12d8c3df253b
+    jinja: '{{ premise }}
+
+
+      Select the highest valued {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  ccf5cc36-8c41-4fd9-9cf8-123b2a15f43a: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: ccf5cc36-8c41-4fd9-9cf8-123b2a15f43a
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened had \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  cd8a31cb-abf7-4a25-9a30-9a636d81e8b7: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: cd8a31cb-abf7-4a25-9a30-9a636d81e8b7
+    jinja: '{{ premise }}
+
+
+      Select the most socially and politically focused {% if question == "cause" %}
+      cause: {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  cf80c8f6-7d59-4429-afa2-77f328bcb009: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: cf80c8f6-7d59-4429-afa2-77f328bcb009
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What is going to happen?\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  d02ba914-c16b-4017-9cab-a3452218667f: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: d02ba914-c16b-4017-9cab-a3452218667f
+    jinja: '{{ premise }}
+
+
+      Select the narrowest-focus {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  d02eea7e-ece0-403d-87c5-3f7993a1924b: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: d02eea7e-ece0-403d-87c5-3f7993a1924b
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What is more likely to\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  d0975757-8891-4f46-af45-cd67c9cf09ce: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: d0975757-8891-4f46-af45-cd67c9cf09ce
+    jinja: '{{ premise }}
+
+
+      Select the least excellent {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  d394a007-714b-4f4a-9bb0-c886ddb34226: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: d394a007-714b-4f4a-9bb0-c886ddb34226
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What is NOT likely to\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  db361351-655c-4b79-a856-2b30dedfa7b1: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: db361351-655c-4b79-a856-2b30dedfa7b1
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened then \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  dc247228-c508-4dd6-bc98-06004b59b379: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: dc247228-c508-4dd6-bc98-06004b59b379
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened in your\
+      \ hand. \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if\
+      \ label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  de7e0acf-fa76-446a-91fd-96a9791d9800: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: de7e0acf-fa76-446a-91fd-96a9791d9800
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What was happening? \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  dfc05e0b-9e75-40de-9f74-9f775f3fd9ab: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: dfc05e0b-9e75-40de-9f74-9f775f3fd9ab
+    jinja: '{{ premise }}
+
+
+      Select the most specific {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  e0a61938-8fb2-4bc9-801d-0fa304666a92: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: e0a61938-8fb2-4bc9-801d-0fa304666a92
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} what happened have \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  e1de3d78-abb8-4f2b-a381-0ad5c7d07cfa: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: e1de3d78-abb8-4f2b-a381-0ad5c7d07cfa
+    jinja: '{{ premise }}
+
+
+      Select the most politically focused {% if question == "cause" %} cause: {% else
+      %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  e1f47168-7282-40d4-a65c-104ba1c98c4a: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: e1f47168-7282-40d4-a65c-104ba1c98c4a
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened in your\
+      \ heart. \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  e57de71c-d021-43c7-8e2b-78428420e26d: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: e57de71c-d021-43c7-8e2b-78428420e26d
+    jinja: '{{ premise }}
+
+
+      The employees must choose the best possible {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  e8fa817e-7bde-4255-9a97-0bde7bf64103: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: e8fa817e-7bde-4255-9a97-0bde7bf64103
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What is not likely to\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  ea7a04bf-6169-487b-82db-670c65b6c49f: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: ea7a04bf-6169-487b-82db-670c65b6c49f
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What will happen? \"{{\
+      \ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  ef8b5a35-a2ed-40ef-83c9-96da55a90770: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: ef8b5a35-a2ed-40ef-83c9-96da55a90770
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What is certain to happen?\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  f0b1b2fa-d452-4e17-bc6d-3efe3c6ae871: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f0b1b2fa-d452-4e17-bc6d-3efe3c6ae871
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} what have happened have\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  f1408241-01dd-4eb7-86de-c8694f551d66: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f1408241-01dd-4eb7-86de-c8694f551d66
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened to you.\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  f192f926-eaf4-4822-bd76-324be7a79b1f: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f192f926-eaf4-4822-bd76-324be7a79b1f
+    jinja: '{{ premise }}
+
+
+      Select the most legally and ethically focused {% if question == "cause" %} cause:
+      {% else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  f34c4cc4-9df0-40da-a929-b8fc87c2cfa1: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f34c4cc4-9df0-40da-a929-b8fc87c2cfa1
+    jinja: '{{ premise }}
+
+
+      Select the most specialized {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  f3b471bc-ca20-46b0-88a1-03ab607de344: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f3b471bc-ca20-46b0-88a1-03ab607de344
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What would happen? \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  f6107ee6-2dd1-4206-996a-bde602358de2: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f6107ee6-2dd1-4206-996a-bde602358de2
+    jinja: '{{ premise }}
+
+
+      Select the most adequate {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  f6788940-f09f-40c2-9c70-fe45eee75394: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f6788940-f09f-40c2-9c70-fe45eee75394
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What are likely to happen?\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  f7c9b5c9-b459-4c1b-8cb0-0deabf4e0546: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f7c9b5c9-b459-4c1b-8cb0-0deabf4e0546
+    jinja: '{{ premise }}
+
+
+      Select the most specifically focused {% if question == "cause" %} cause: {%
+      else %} effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  f7f0a7c3-400a-4927-ac9e-d1fa47165a14: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f7f0a7c3-400a-4927-ac9e-d1fa47165a14
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What did you think would\
+      \ happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  f84f5789-3dba-4d90-a182-fd4a9b54fbff: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f84f5789-3dba-4d90-a182-fd4a9b54fbff
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What will likely happen?\
+      \ \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  f9358477-e4c2-42b8-8b3d-76bf4a6fb315: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f9358477-e4c2-42b8-8b3d-76bf4a6fb315
+    jinja: '{{ premise }}
+
+
+      Select the least relevant {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  f994b62a-02f2-47c1-acea-7244d1fcc05e: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: f994b62a-02f2-47c1-acea-7244d1fcc05e
+    jinja: '{{ premise }}
+
+
+      Select the narrowest focused {% if question == "cause" %} cause: {% else %}
+      effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  fa79a1fc-4fb4-4bde-addf-abc2eeec6fdf: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: fa79a1fc-4fb4-4bde-addf-abc2eeec6fdf
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What do you think is likely\
+      \ to happen? \"{{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? |||\
+      \ {% if label != -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''
+  fa988cb6-4825-4ea1-a86e-cbd944c2bd7f: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: fa988cb6-4825-4ea1-a86e-cbd944c2bd7f
+    jinja: '{{ premise }}
+
+
+      Select the least exceptional {% if question == "cause" %} cause: {% else %}
+      effect:{% endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  fcdb3f15-66f2-4216-b922-a2123a75c4f1: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: fcdb3f15-66f2-4216-b922-a2123a75c4f1
+    jinja: '{{ premise }}
+
+
+      Are there more than one {% if question == "cause" %} cause: {% else %} effect:{%
+      endif %}
+
+      - {{choice1}}
+
+      - {{choice2}} ||| {% if label != -1 %}{{ answer_choices[label] }}{%endif%}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: cause_effect
+    reference: ''
+  fdaa895e-5592-482c-ba2e-4b9a9a7f9dcb: !Template
+    answer_choices: '{{choice1}} ||| {{choice2}}'
+    id: fdaa895e-5592-482c-ba2e-4b9a9a7f9dcb
+    jinja: "{% if question == \"effect\" %} \n{{ premise }} What happened when? \"\
+      {{ answer_choices[0] }}\" or \"{{ answer_choices[1] }}\"? ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{%endif%}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: "\u2026What could happen next, C1 or C2?"
+    reference: ''

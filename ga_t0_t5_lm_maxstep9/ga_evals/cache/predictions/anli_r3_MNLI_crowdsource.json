@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. This \"You can be hired by passing a psychological test.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -15.863994598388672,
+            -26.178552627563477,
+            -18.760295867919922
+        ]
+    },
+    {
+        "input_text:": "Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. This \"I was pregnant during at least one meeting\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -10.649115562438965,
+            -18.105499267578125,
+            -12.347001075744629
+        ]
+    },
+    {
+        "input_text:": "Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. This \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -16.028593063354492,
+            -19.167123794555664,
+            -15.104729652404785
+        ]
+    },
+    {
+        "input_text:": "Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. This \"Dookie is still alive.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -14.62683391571045,
+            -20.572111129760742,
+            -13.009903907775879
+        ]
+    },
+    {
+        "input_text:": "Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. This \"The robbers get away from Reba by running away. \" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -14.779016494750977,
+            -19.67007827758789,
+            -13.770623207092285
+        ]
+    },
+    {
+        "input_text:": "NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) This \"Crude futures experienced losses this week.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -24.205604553222656,
+            -33.12837219238281,
+            -20.502466201782227
+        ]
+    },
+    {
+        "input_text:": "Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. This \"the church dedication was in 1824\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -19.784452438354492,
+            -37.354042053222656,
+            -18.074678421020508
+        ]
+    },
+    {
+        "input_text:": "Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. This \" Bruce Larson quit drag racing for quite sometime\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -16.06319236755371,
+            -23.551239013671875,
+            -19.732280731201172
+        ]
+    },
+    {
+        "input_text:": "How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). This \"Basic rules of soccer are decided upon by more than 1 member of IFAB\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -8.383377075195312,
+            -23.479602813720703,
+            -14.818211555480957
+        ]
+    },
+    {
+        "input_text:": "The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). This \"The Sounds have, at present, had less than four dozen coaches.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -17.17205047607422,
+            -26.934825897216797,
+            -21.214319229125977
+        ]
+    },
+    {
+        "input_text:": "Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. This \"Anna use her camera in her photography class\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -16.941051483154297,
+            -21.006471633911133,
+            -17.392175674438477
+        ]
+    },
+    {
+        "input_text:": "Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. This \"Tina enjoys being on the water.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -13.27466106414795,
+            -20.22428321838379,
+            -13.638973236083984
+        ]
+    },
+    {
+        "input_text:": "How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. This \"She wnats to copy her hairstyle.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -12.549886703491211,
+            -23.666982650756836,
+            -16.292152404785156
+        ]
+    },
+    {
+        "input_text:": "Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. This \"Alvin's wife is immoral.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.671283721923828,
+            -19.802377700805664,
+            -12.130456924438477
+        ]
+    },
+    {
+        "input_text:": "Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. This \"The narrator and Milosevic met on GeoCities, and their wives know each other.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -17.741125106811523,
+            -19.46281623840332,
+            -11.811171531677246
+        ]
+    },
+    {
+        "input_text:": "Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. This \"fish food has a s\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -12.401896476745605,
+            -21.391651153564453,
+            -13.553266525268555
+        ]
+    },
+    {
+        "input_text:": "How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. This \"Bankruptcy can always be avoided.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -11.096653938293457,
+            -21.523033142089844,
+            -17.515172958374023
+        ]
+    },
+    {
+        "input_text:": "Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! This \"Scott did not get along with his boss\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -10.695489883422852,
+            -18.05486488342285,
+            -10.430875778198242
+        ]
+    },
+    {
+        "input_text:": "Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. This \"Seth creates new levels in the game without any help from his brothers. \" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -14.20925521850586,
+            -22.070621490478516,
+            -18.582805633544922
+        ]
+    },
+    {
+        "input_text:": "How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. This \"Herding dogs is a bigger group than Border collies.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -11.259583473205566,
+            -30.942720413208008,
+            -16.994802474975586
+        ]
+    },
+    {
+        "input_text:": "How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. This \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -12.411595344543457,
+            -27.34078025817871,
+            -12.981694221496582
+        ]
+    },
+    {
+        "input_text:": "How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. This \"Red leaf lettuce must always be eaten with salad\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.65957498550415,
+            -20.183063507080078,
+            -10.310359001159668
+        ]
+    },
+    {
+        "input_text:": "Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. This \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -12.67088508605957,
+            -18.959983825683594,
+            -16.096893310546875
+        ]
+    },
+    {
+        "input_text:": "Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. This \"Dan is in a wheelchair\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -14.144290924072266,
+            -20.53974723815918,
+            -13.018755912780762
+        ]
+    },
+    {
+        "input_text:": "Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. This \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -20.983789443969727,
+            -34.88871383666992,
+            -23.691869735717773
+        ]
+    },
+    {
+        "input_text:": "But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? This \"40,00 people with lose their union\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -13.38856315612793,
+            -15.614716529846191,
+            -11.993475914001465
+        ]
+    },
+    {
+        "input_text:": "Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. This \"The Marple TV show used the same stories as the Marple book series.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -15.753551483154297,
+            -23.998233795166016,
+            -17.193492889404297
+        ]
+    },
+    {
+        "input_text:": "\"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. This \"Dead Yakuza chose money over life.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -14.635868072509766,
+            -27.040599822998047,
+            -16.766063690185547
+        ]
+    },
+    {
+        "input_text:": "And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. This \"The speaker would like it if the troops were withdrawn immediately.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -13.179502487182617,
+            -18.733375549316406,
+            -13.36352252960205
+        ]
+    },
+    {
+        "input_text:": "Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. This \"Benny was encouraged to continue\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -10.725202560424805,
+            -20.623798370361328,
+            -10.469995498657227
+        ]
+    },
+    {
+        "input_text:": "How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. This \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -13.111246109008789,
+            -28.47464370727539,
+            -16.377695083618164
+        ]
+    },
+    {
+        "input_text:": "How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. This \"The house will clean itself.\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -14.299762725830078,
+            -26.5968074798584,
+            -19.192670822143555
+        ]
+    },
+    {
+        "input_text:": "Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. This \"Joseph enjoyed the cake\" based on what you know about the world?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -13.19353199005127,
+            -16.275144577026367,
+            -9.76272964477539
+        ]
+    }
+]

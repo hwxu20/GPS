@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Suppose it's true that Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy. You could also say he was driven there by the railway. Then, is \"Gustave was driven to creative retreat in Croisset by the railway\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -6.950499057769775,
+            -6.102776050567627,
+            -5.9021830558776855
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Jane ate without pausing. Hunger was an unknown experience. She had never imagined it could actually hurt. Then, is \"hunger could actually hurt\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -7.285711288452148,
+            -6.901266098022461,
+            -7.929269313812256
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. Then, is \"Miss Lavant was in love with Dr Greenslade\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.030742168426514,
+            -7.373586654663086,
+            -6.602621078491211
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that It was a complex language. Not written down but handed down. One might say it was peeled down. Then, is \"the language was peeled down\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.327676773071289,
+            -7.677786350250244,
+            -5.2443976402282715
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that At length she decided that there was nothing to be gained by worrying her. Probably there was some quite innocent explanation, which Roger Kenyon would give her when she returned the wallet - if, indeed, it were his. And yet why had his manner changed so abruptly when he learned that the girl whose hat he had rescued was going to live at Sunset Cottage? Then, is \"the girl whose hat Roger Kenyon had rescued was going to live at Sunset Cottage\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.304287910461426,
+            -7.783531665802002,
+            -7.907627582550049
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that A: Oh, oh yeah, and every time you see one hit on the side of the road you say is that my cat. B: Uh-huh. A: And you go crazy thinking it might be yours. B: Right, well I didn't realize my husband was such a sucker for animals until I brought one home one night. Then, is \"her husband was such a sucker for animals\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.692393779754639,
+            -9.482671737670898,
+            -7.693990707397461
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The Susweca. It means dragonfly'' in Sioux, you know. Did I ever tell you that's where Paul and I met? Then, is \"Susweca is where she and Paul met\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.4307732582092285,
+            -7.641256809234619,
+            -6.841556549072266
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Richard Breeden hadn't noticed that his new desk had just four telephone lines and one phone. Then, is \"Richard Breeden's new desk had just four telephone lines and one phone\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.718484401702881,
+            -6.99185848236084,
+            -6.106396675109863
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that B: Yeah, and the ground will filter some of it but not all of it. A: No, not when you figure, I didn't realize one cow produces that much manure Then, is \"one cow produces that much manure\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.661810874938965,
+            -9.04754638671875,
+            -8.32664966583252
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Paula could not help herself. It was just the way she was. Others might say they hated her and mean it. Then, is \"others hated Paula\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.327946662902832,
+            -6.211609840393066,
+            -4.9303297996521
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that I wanted to tell you. But the Bookman asked me to keep our meeting a secret.'' How did you know I 'd met him? Then, is \"he had met the Bookman\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.979976177215576,
+            -6.848154544830322,
+            -5.246122360229492
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that But don't dilly-dally for too long. Once it's published we are all going to look a little risible if we have made no adjustments to what is after all known as being predominantly my own design of gallery. Also I am a bit older than the rest of you but you can perhaps understand that I don't want to drop dead without a proper and public recantation. Then, is \"he doesn't want to drop dead without a proper and public recantation\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.852875232696533,
+            -8.65602970123291,
+            -8.132488250732422
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that How do you know? she was going to ask, but his smile was answer enough. If DeVore said there was going to be a vacancy there would be a vacancy. Then, is \"there was going to be a vacancy\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.250694751739502,
+            -8.131976127624512,
+            -6.520678520202637
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened. Then, is \"something had happened\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -6.051666259765625,
+            -8.790285110473633,
+            -5.940712928771973
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that But the damage was done as far as my faith was concerned, which is probably why I went mad. So anyway, that Christmas Eve night confirmed my worst fears, it was like a kind of royal flush'' for the infant Jimbo. All three kings - Pa Santa and the King of Kings - all down the pan together... And to be honest I don't believe any of them stands a chance of ever making a comeback with me. Then, is \"any of the three kings stands a chance of ever making a comeback with him\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.390122413635254,
+            -7.5629072189331055,
+            -9.801715850830078
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that B: And as far as like them, uh, entertaining the rights that they should have. A: Uh-huh. B: I mean, we educate them, we feed them, we take care of them and they no sooner get out on the street and they're back in again. A: Uh-huh. B: I'm not saying they're all bad, Then, is \"they're all bad\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.722603797912598,
+            -7.8244171142578125,
+            -8.155265808105469
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that B: Uh, I have, uh, I guess a lot of thoughts about the Vietnam War, um, I guess I feel like I was pretty young while it was going on and so there's probably a lot of things I remember and a lot of things that I really didn't have a clue as to what was happening. B: Yeah. A: Um, looking back, like maybe some of the things that I know now, I'm not sure I do believe it was worth the cost in dollars and lives. That was one of the questions that she asked us to think about, because we never went to war. I don't think we were committed to winning it and getting out Then, is \"they were committed to winning the Vietnam War and getting out\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.914224147796631,
+            -7.165120601654053,
+            -9.164288520812988
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that B: I did, too. A: I mean, it was just more for my money. B: Yeah. I didn't think it was too long at all. Then, is \"it was too long\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.086141586303711,
+            -5.42079496383667,
+            -5.565746784210205
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that B: Uh, uh, I've had one or two American cars I think, and they were okay. I had a Pontiac once and I never had a problem with it, but, uh, my mother had a Dodge at one point and I had driven it a few times and I really did not feel that I would buy a Dodge just from, A: Um. B: well, actually, I had uh, a Dodge Omni at one point A: Uh-huh. B: and that was, I think, what really prejudiced me against American cars because I did not feel that it was a very quality, uh, car. Then, is \"the Dodge Omni was a very quality car\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.163726806640625,
+            -6.5558953285217285,
+            -9.5295991897583
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that B: they did things for people, you know, for their communities, for their, uh, families, for their friends, where now, I'm not sure they really do. A: Yes. Yeah. Well, I think sometimes through groups and organizations, um, uh, when they asked the question I thought, well that sounds wonderful. And then, I wondered if people were unwilling but I think even if you went in with a negative attitude I don't think it would stay negative very long. Then, is \"that attitude would stay negative very long\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.578464508056641,
+            -8.57408618927002,
+            -7.845280170440674
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that A: Well, presumably those who find out such information, if they are doing it, I would prefer to not to be known, and, I mean, you know, the classic, oh, I don't know C I conspiracy theories or whatever, would have such parties trying to do it without your knowledge. So there's,, things that invade that second type of privacy where you do know about them and possibly things that invade that second type of privacy without you knowing about it, and I can't talk about the second one other than to generate paranoia. It's a surmise and, I'd like to think that it's quite low, at least in this country. B: to surmise. It is there. A: I don't think I'd like the KGB monitoring my phone or anything like that. Then, is \"he would like the KGB monitoring his phone\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.64284610748291,
+            -7.256499290466309,
+            -10.156258583068848
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that He had seen something I should have, which was a car turning in from Soho Square and coming up behind me. My right foot hovered over the accelerator pedal and I balanced Armstrong on the clutch. I wasn't as convinced as Malpass that Nevil was out of harm's way. Then, is \"Nevil was out of harm's way\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.205205917358398,
+            -6.381529808044434,
+            -6.3977532386779785
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that He's weird enough to have undressed me without thinking, according to some mad notion of the proper'' thing to do. Perhaps he thought I couldn't lie in bed with my clothes on. Then, is \"she couldn't lie in bed with her clothes on\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.372525215148926,
+            -5.696557521820068,
+            -6.68961763381958
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that B: That might be kind of tough, huh. A: It really would, yes, yes, and like I said, my sister's still in it, and I really don't think my mother'd want to be there, either. Then, is \"his mother would want to be there\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.220736503601074,
+            -7.6967010498046875,
+            -8.535707473754883
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that A: Yeah, that's crazy. B: and then you come here in the Dallas area, um, I don't believe that people should be allowed to carry guns in their vehicles. Then, is \"people should be allowed to carry guns in their vehicles\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.228209495544434,
+            -7.93419885635376,
+            -9.497784614562988
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that A: and then once they do get elected, they don't have the power or the authority or the willingness to do those things that they promised, you know, beforehand. B: Right. A: You know, maybe it just wasn't possible at all in the first place, you know, like the no new taxes thing. You know, that's, uh, with the economy going the way it is and everything, that was nearly ridiculous thing to, even try to do. B: Yeah. Yeah. Well, I don't think he's going to have to worry about that next year. Then, is \"he's going to have to worry about that next year\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -8.295063972473145,
+            -9.821443557739258,
+            -8.175882339477539
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that B: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah. Uh-huh. Uh-huh. B: I don't think it's going to be that easy to come up with Then, is \"it is going to be that easy to come up with\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.662535190582275,
+            -8.739215850830078,
+            -8.107442855834961
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that A: Uh, well, it would depend on when you go it's not excessively crowded on the weekends. B: See I'd want to be there in the mornings like from nine thirty to ten thirty. A: Oh, I don't think that would be bad at all. Then, is \"that would be bad\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.227527618408203,
+            -7.804297924041748,
+            -8.8307523727417
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that A: That's fairly interesting. B: I bet that would be, rather interesting. Uh, that's, uh, self improvement, well, that's kind of a hobby but it is self improvement from the standpoint of probably relaxing, uh. A: Yeah, I don't know that I read anything strictly labeled self improvement. Then, is \"she reads anything strictly labeled self improvement\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.768489837646484,
+            -7.975283145904541,
+            -8.375157356262207
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that B: Now see I. A: I'm intrigued by it, but I'm not sure I want to go see it yet. B: Yeah, I don't think I want to see that either. Then, is \"she wants to see that\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.571423053741455,
+            -6.5628204345703125,
+            -6.6805806159973145
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs. Then, is \"Celia was still a bit hazy from the drugs\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.364241600036621,
+            -8.614872932434082,
+            -6.886340618133545
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate. Then, is \"TV is pretty accurate\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.693977355957031,
+            -10.020903587341309,
+            -7.14880895614624
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that B: and both of those seem very easy to use compared to D Base. A: Uh-huh. Do you think D Base is more flexible or allows you to do more. Or do you think the others are pretty much compatible these days? Then, is \"the others are pretty much compatible these days\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -8.657488822937012,
+            -9.229968070983887,
+            -9.530220031738281
+        ]
+    }
+]

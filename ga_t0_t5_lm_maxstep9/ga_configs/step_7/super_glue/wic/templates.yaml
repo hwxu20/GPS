@@ -1,0 +1,2115 @@
+dataset: super_glue
+subset: wic
+templates:
+  05bcb8c1-df54-4ffe-9f82-01be1d6115b3: !Template
+    answer_choices: No ||| Yes
+    id: 05bcb8c1-df54-4ffe-9f82-01be1d6115b3
+    jinja: 'Do the word "{{word}}" in the first sentence and the second sentence have
+      the same meaning?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  073dd62e-5e11-4a39-ac4f-bad36957ae10: !Template
+    answer_choices: False ||| True
+    id: 073dd62e-5e11-4a39-ac4f-bad36957ae10
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentences A and B is a coordinating conjunction.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  0a87859c-9bd5-450a-bcad-d1785dcba405: !Template
+    answer_choices: No ||| Yes
+    id: 0a87859c-9bd5-450a-bcad-d1785dcba405
+    jinja: 'Is the word "{{word}}" in these two sentences related to each other?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  0ac959c4-3db5-4167-a051-9eb9e13b1a6e: !Template
+    answer_choices: False ||| True
+    id: 0ac959c4-3db5-4167-a051-9eb9e13b1a6e
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"''someday'' in sentence A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  0b244ed1-7b2a-4889-8358-4f646328b174: !Template
+    answer_choices: False ||| True
+    id: 0b244ed1-7b2a-4889-8358-4f646328b174
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''to be'' in sentence A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  0b37e706-f05f-43e3-a418-35e94655d049: !Template
+    answer_choices: False ||| True
+    id: 0b37e706-f05f-43e3-a418-35e94655d049
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentences A and B is a substiutute.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  1238dae4-0a5e-4d24-b2f5-1da397d73e8d: !Template
+    answer_choices: No ||| Yes
+    id: 1238dae4-0a5e-4d24-b2f5-1da397d73e8d
+    jinja: 'What are the same word "{{word}}" in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  158d2a2d-5cba-4856-b158-b7fa307a5ed9: !Template
+    answer_choices: False ||| True
+    id: 158d2a2d-5cba-4856-b158-b7fa307a5ed9
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''is'' in sentence A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  1869ae03-588d-4699-8ffd-465d956ce1e3: !Template
+    answer_choices: False ||| True
+    id: 1869ae03-588d-4699-8ffd-465d956ce1e3
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s ''now'' and ''here'' in sentences A and B are close substitutes.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  1b98e17b-235e-4f42-809b-7f01ffac1e45: !Template
+    answer_choices: No ||| Yes
+    id: 1b98e17b-235e-4f42-809b-7f01ffac1e45
+    jinja: 'Are the word "{{word}}" in the first sentence and the second sentence
+      good sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  1c027c01-4e30-4e73-8565-3e190fd92564: !Template
+    answer_choices: No ||| Yes
+    id: 1c027c01-4e30-4e73-8565-3e190fd92564
+    jinja: 'Are these word "{{word}}" similar?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  1cfdfbcf-b7f8-470a-97a6-e962947f129a: !Template
+    answer_choices: False ||| True
+    id: 1cfdfbcf-b7f8-470a-97a6-e962947f129a
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''in addition'' in sentences A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  1f016262-90cc-43fd-8fd1-6f17611c447e: !Template
+    answer_choices: False ||| True
+    id: 1f016262-90cc-43fd-8fd1-6f17611c447e
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentence A is a predicate modifier.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  208da3cc-d17e-4f33-98df-ff30f5c23dab: !Template
+    answer_choices: False ||| True
+    id: 208da3cc-d17e-4f33-98df-ff30f5c23dab
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentences A and B is a negative direct substitute.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  279c29ba-0add-41c8-8542-4d5ecd549a08: !Template
+    answer_choices: No ||| Yes
+    id: 279c29ba-0add-41c8-8542-4d5ecd549a08
+    jinja: 'Is the word "{{word}}" in these two sentences not a related thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  29723038-f9a5-4283-afd9-abe79aab3186: !Template
+    answer_choices: False ||| True
+    id: 29723038-f9a5-4283-afd9-abe79aab3186
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s ''how'' and ''by'' in sentences A and B are direct substitutes.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  2e81b7a6-1685-4f7d-bd2c-5ec8068c19c6: !Template
+    answer_choices: No ||| Yes
+    id: 2e81b7a6-1685-4f7d-bd2c-5ec8068c19c6
+    jinja: 'Is this the same word "{{word}}"?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  3013bfae-88b2-4beb-9e89-b41ec62073ad: !Template
+    answer_choices: False ||| True
+    id: 3013bfae-88b2-4beb-9e89-b41ec62073ad
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentences A and B is a shortened form.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  33512ecc-52a9-49d5-824a-2b587c52f49b: !Template
+    answer_choices: No ||| Yes
+    id: 33512ecc-52a9-49d5-824a-2b587c52f49b
+    jinja: 'Does the word "{{word}}" in these two sentences mean the same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  3712b141-4548-495b-9895-4712f6da0b45: !Template
+    answer_choices: No ||| Yes
+    id: 3712b141-4548-495b-9895-4712f6da0b45
+    jinja: 'Is this word "{{word}}" in these two sentences the same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  3c04d356-3959-429e-886d-411e03e735b8: !Template
+    answer_choices: False ||| True
+    id: 3c04d356-3959-429e-886d-411e03e735b8
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s ''there'' and ''here'' are common synonyms.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  3ee4d8d9-4e26-4f87-a973-1a80e1f6ac7a: !Template
+    answer_choices: No ||| Yes
+    id: 3ee4d8d9-4e26-4f87-a973-1a80e1f6ac7a
+    jinja: 'Do these word "{{word}}" is an alphabet?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  41eb6be9-171b-4168-9eb1-258b2690cb69: !Template
+    answer_choices: False ||| True
+    id: 41eb6be9-171b-4168-9eb1-258b2690cb69
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''therefore'' in sentences A and B is an antonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  42569764-3d38-4fc9-b2c5-71dbdb84419f: !Template
+    answer_choices: No ||| Yes
+    id: 42569764-3d38-4fc9-b2c5-71dbdb84419f
+    jinja: 'Do the word "{{word}}" in these two sentences refer to peculiar things?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  4333c941-338e-4ba0-93d3-fc4d18d54307: !Template
+    answer_choices: False ||| True
+    id: 4333c941-338e-4ba0-93d3-fc4d18d54307
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''it'' in sentence B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  477e38dc-d114-4dba-9fa3-7f64c8fe20f3: !Template
+    answer_choices: False ||| True
+    id: 477e38dc-d114-4dba-9fa3-7f64c8fe20f3
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentences A and B is a subordinate clause.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  4b46435c-cdac-426b-9675-68a4b9785f04: !Template
+    answer_choices: False ||| True
+    id: 4b46435c-cdac-426b-9675-68a4b9785f04
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentence A and B is a common synonymous.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  4b6d81b3-aa88-4848-b16b-446e8e91c1ee: !Template
+    answer_choices: No ||| Yes
+    id: 4b6d81b3-aa88-4848-b16b-446e8e91c1ee
+    jinja: 'Is the word "{{word}}" in these two sentences a non-related thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  4b7bc6cd-94cc-4495-b8f6-c890172aa233: !Template
+    answer_choices: No ||| Yes
+    id: 4b7bc6cd-94cc-4495-b8f6-c890172aa233
+    jinja: 'Is the word "{{word}}" in these two sentences strange?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  4fceb9d0-f880-488f-89bf-364cffdefb47: !Template
+    answer_choices: No ||| Yes
+    id: 4fceb9d0-f880-488f-89bf-364cffdefb47
+    jinja: 'Is the word "{{word}}" in these two sentences a strange thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  56a174e3-0e48-4c3d-bf8e-e0c5f3e972e3: !Template
+    answer_choices: No ||| Yes
+    id: 56a174e3-0e48-4c3d-bf8e-e0c5f3e972e3
+    jinja: 'Is the same word "{{word}}" in these two sentences the same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  586ab92f-3812-4dc9-84ff-9b97936d1998: !Template
+    answer_choices: False ||| True
+    id: 586ab92f-3812-4dc9-84ff-9b97936d1998
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''need'' in sentence A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  5a77b152-9310-4c29-8b0b-a260d33cb58d: !Template
+    answer_choices: False ||| True
+    id: 5a77b152-9310-4c29-8b0b-a260d33cb58d
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      There are more than one "{{word}}" for ''then''.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  5a95bcfd-b657-4572-8210-43bb27be8106: !Template
+    answer_choices: No ||| Yes
+    id: 5a95bcfd-b657-4572-8210-43bb27be8106
+    jinja: 'Do the word "{{word}}" in the first sentence and the second sentence mean
+      the same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  5bccafe0-1eae-4e86-b86e-a16cf9777a69: !Template
+    answer_choices: False ||| True
+    id: 5bccafe0-1eae-4e86-b86e-a16cf9777a69
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''then'' in sentences A and B is an uncommon synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  607c351f-2325-4338-95c3-573a7af4de42: !Template
+    answer_choices: False ||| True
+    id: 607c351f-2325-4338-95c3-573a7af4de42
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''near'' in sentence A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  60cca45d-6fe9-475b-b2fa-4b0c50641b05: !Template
+    answer_choices: No ||| Yes
+    id: 60cca45d-6fe9-475b-b2fa-4b0c50641b05
+    jinja: 'Is the word "{{word}}" in these two sentences is same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  6166c0d4-8325-42d0-989f-aa38ba851042: !Template
+    answer_choices: False ||| True
+    id: 6166c0d4-8325-42d0-989f-aa38ba851042
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''than'' in sentences A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  664bf755-04ca-4671-adb7-2e7cfa96e6c0: !Template
+    answer_choices: False ||| True
+    id: 664bf755-04ca-4671-adb7-2e7cfa96e6c0
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      This is a common synonym for "{{word}}" ''now'' in sentence A and B.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  6ad001ea-a9bc-4d21-9b11-67e165ca7c2a: !Template
+    answer_choices: False ||| True
+    id: 6ad001ea-a9bc-4d21-9b11-67e165ca7c2a
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''and'' in sentences A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  6bdc24f0-097d-404b-9afe-1dd5142e4ae3: !Template
+    answer_choices: False ||| True
+    id: 6bdc24f0-097d-404b-9afe-1dd5142e4ae3
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentence A and B is the same.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  6daf4bf2-ff8f-48ad-b65f-628043affe63: !Template
+    answer_choices: False ||| True
+    id: 6daf4bf2-ff8f-48ad-b65f-628043affe63
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      In sentence A, how many nouns can be created from "{{word}}"s ''had, had had''?
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  70d7dd4e-f177-4b73-8323-69d84dfe8d75: !Template
+    answer_choices: No ||| Yes
+    id: 70d7dd4e-f177-4b73-8323-69d84dfe8d75
+    jinja: 'What are these two word "{{word}}"?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  713cc29d-cc90-4239-bb82-a804c157ee25: !Template
+    answer_choices: False ||| True
+    id: 713cc29d-cc90-4239-bb82-a804c157ee25
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''here'' in sentence A and B is a non-homonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  73fa928a-5c72-4ab2-998a-2a94ed6751b4: !Template
+    answer_choices: No ||| Yes
+    id: 73fa928a-5c72-4ab2-998a-2a94ed6751b4
+    jinja: 'Is the word "{{word}}" in these two sentences peculiar to the world?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  7708daf5-6e3f-4745-ab44-91eb721ea412: !Template
+    answer_choices: False ||| True
+    id: 7708daf5-6e3f-4745-ab44-91eb721ea412
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''here'' in sentence A and B is a common antonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  77b4e982-e759-4924-8496-afe19d6eb032: !Template
+    answer_choices: No ||| Yes
+    id: 77b4e982-e759-4924-8496-afe19d6eb032
+    jinja: 'Is the word "{{word}}" in these two sentences an unusual thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  77cbe7ff-0533-4f9f-9316-26f43874f5e5: !Template
+    answer_choices: False ||| True
+    id: 77cbe7ff-0533-4f9f-9316-26f43874f5e5
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentences A and B is a further substitute.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  78944f68-078b-4765-b872-5826e107c895: !Template
+    answer_choices: No ||| Yes
+    id: 78944f68-078b-4765-b872-5826e107c895
+    jinja: 'If so, is the word "{{word}}" in each sentence a related thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  78c64730-4c1b-4341-a0dc-2ab2afb55f15: !Template
+    answer_choices: No ||| Yes
+    id: 78c64730-4c1b-4341-a0dc-2ab2afb55f15
+    jinja: 'If these two word "{{word}}" are same thing, then they both cannot be
+      followed by a comma.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  7d731c42-392e-4ccf-95ff-e567c487b879: !Template
+    answer_choices: False ||| True
+    id: 7d731c42-392e-4ccf-95ff-e567c487b879
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''where'' in sentence A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  7f3eac32-f977-4361-ac23-0b0611cc577b: !Template
+    answer_choices: No ||| Yes
+    id: 7f3eac32-f977-4361-ac23-0b0611cc577b
+    jinja: 'Is the word "{{word}}" in these two sentences are the same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  8160bbf9-7ca5-40d6-bbf9-deef512b7d81: !Template
+    answer_choices: False ||| True
+    id: 8160bbf9-7ca5-40d6-bbf9-deef512b7d81
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''there'' in sentence A and B is a common synonymous.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  82863615-1322-4e3a-a16a-5652fdc1e062: !Template
+    answer_choices: False ||| True
+    id: 82863615-1322-4e3a-a16a-5652fdc1e062
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      There is no common synonym for "{{word}}" ''here'' in sentence A and B.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  887f5185-d57e-433e-b931-a33c718f4b8b: !Template
+    answer_choices: False ||| True
+    id: 887f5185-d57e-433e-b931-a33c718f4b8b
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''as'' in sentence A is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  88f15671-1de9-43a2-a925-7b3c92abdc70: !Template
+    answer_choices: False ||| True
+    id: 88f15671-1de9-43a2-a925-7b3c92abdc70
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''after'' in sentences A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  88f43750-0589-4b3d-9ca0-0661cad23957: !Template
+    answer_choices: No ||| Yes
+    id: 88f43750-0589-4b3d-9ca0-0661cad23957
+    jinja: 'Do you know the word "{{word}}" in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  8b10b0cc-772b-4c40-95ab-f3d83215675e: !Template
+    answer_choices: False ||| True
+    id: 8b10b0cc-772b-4c40-95ab-f3d83215675e
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentences A and B is an indirect substitute.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  8e6876e5-9685-4e5a-ba55-afa6de4ca334: !Template
+    answer_choices: No ||| Yes
+    id: 8e6876e5-9685-4e5a-ba55-afa6de4ca334
+    jinja: 'Is the word "{{word}}" in these two sentences an interrelated thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  8f7a5574-5681-441c-9347-1141b9ef426c: !Template
+    answer_choices: False ||| True
+    id: 8f7a5574-5681-441c-9347-1141b9ef426c
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentence A and B is a rare synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  9265dc3c-e3a0-4eeb-8b6c-cd92b98e2e4e: !Template
+    answer_choices: False ||| True
+    id: 9265dc3c-e3a0-4eeb-8b6c-cd92b98e2e4e
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''here'' in sentence A and B is a common equivalent.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  937ecf80-b9f4-4f82-8a52-19729d6397ee: !Template
+    answer_choices: No ||| Yes
+    id: 937ecf80-b9f4-4f82-8a52-19729d6397ee
+    jinja: 'Is the word "{{word}}" in these two sentences is the same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  9701a9df-e0a7-4890-9f2f-ba85f085eeaf: !Template
+    answer_choices: No ||| Yes
+    id: 9701a9df-e0a7-4890-9f2f-ba85f085eeaf
+    jinja: 'Is the word "{{word}}" in these two sentences the same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  984fe9be-bc61-45ae-ac31-44c7ea2b9c06: !Template
+    answer_choices: False ||| True
+    id: 984fe9be-bc61-45ae-ac31-44c7ea2b9c06
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''then'' in sentences A and B is a common preposition.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  98dff15d-ad14-4fcd-8a21-ffc17d700428: !Template
+    answer_choices: No ||| Yes
+    id: 98dff15d-ad14-4fcd-8a21-ffc17d700428
+    jinja: 'What is the first word "{{word}}" in the second sentence?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  9b95ab3f-a008-4949-9fb0-5dd4020c583e: !Template
+    answer_choices: No ||| Yes
+    id: 9b95ab3f-a008-4949-9fb0-5dd4020c583e
+    jinja: 'Is the word "{{word}}" in these two sentences same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  9c2aadf9-a8d0-49ca-b615-12f7d9e6ef54: !Template
+    answer_choices: No ||| Yes
+    id: 9c2aadf9-a8d0-49ca-b615-12f7d9e6ef54
+    jinja: 'Does the word "{{word}}" in these two sentences have a similar meaning?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  9c68fac4-5ed3-4e6b-9fb4-12dec0e899ed: !Template
+    answer_choices: False ||| True
+    id: 9c68fac4-5ed3-4e6b-9fb4-12dec0e899ed
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s ''then'' and ''if'' are synonyms of ''then''.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  9c7ef384-e8fc-49a2-ad7c-93e6e80b3c92: !Template
+    answer_choices: False ||| True
+    id: 9c7ef384-e8fc-49a2-ad7c-93e6e80b3c92
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''in'' in sentence A and B is a common antonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  9c933dee-b9a1-49d4-8bac-494a9b2b369e: !Template
+    answer_choices: False ||| True
+    id: 9c933dee-b9a1-49d4-8bac-494a9b2b369e
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      In sentence A and B, what''s the common synonym of "{{word}}" ''now''?
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  a9774559-2f44-4175-b641-85a9fea90335: !Template
+    answer_choices: No ||| Yes
+    id: a9774559-2f44-4175-b641-85a9fea90335
+    jinja: 'Does the word "{{word}}" in these two sentences have the same meaning?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  ab581b6d-a92c-4c37-b22d-6d7aabf44c81: !Template
+    answer_choices: No ||| Yes
+    id: ab581b6d-a92c-4c37-b22d-6d7aabf44c81
+    jinja: 'What is the meaning of these two word "{{word}}"?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  ac780ec1-0ed2-47d8-9dc3-024e96b3a753: !Template
+    answer_choices: False ||| True
+    id: ac780ec1-0ed2-47d8-9dc3-024e96b3a753
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''here'' in sentence A and B is not a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  af9e5eb1-8874-4d46-8244-ffc14c69b3f4: !Template
+    answer_choices: No ||| Yes
+    id: af9e5eb1-8874-4d46-8244-ffc14c69b3f4
+    jinja: 'Is the word "{{word}}" in these two sentences related to these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  b27d501d-389f-4f1a-8d06-2caaf65d0553: !Template
+    answer_choices: No ||| Yes
+    id: b27d501d-389f-4f1a-8d06-2caaf65d0553
+    jinja: "Is the word \"{{word}}\" in these two sentences peculiar? Question 1:\
+      \ \n{{sentence1}}\n{{sentence2}}\n||| {% if label != -1%}\n{{answer_choices[label]}}\n\
+      {% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  b7e8f435-b021-48ed-ab66-f0d1f9b9cc4d: !Template
+    answer_choices: No ||| Yes
+    id: b7e8f435-b021-48ed-ab66-f0d1f9b9cc4d
+    jinja: 'How peculiar is the word "{{word}}" in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  b9914635-6a91-44be-abd2-49669f9398d0: !Template
+    answer_choices: False ||| True
+    id: b9914635-6a91-44be-abd2-49669f9398d0
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentence A and B is not a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  bc67c3e9-2548-49fc-b663-6f3794d6bd55: !Template
+    answer_choices: No ||| Yes
+    id: bc67c3e9-2548-49fc-b663-6f3794d6bd55
+    jinja: 'Does the word "{{word}}" in these two sentences mean the same?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  bc9d0565-1033-423c-bd47-c2c932c91db8: !Template
+    answer_choices: No ||| Yes
+    id: bc9d0565-1033-423c-bd47-c2c932c91db8
+    jinja: 'Is the word "{{word}}" in the first sentence and the second sentence the
+      same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  bd4681d4-f4d4-432d-a018-e7fc4e9caaac: !Template
+    answer_choices: False ||| True
+    id: bd4681d4-f4d4-432d-a018-e7fc4e9caaac
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      This is true of "{{word}}" ''than'' in sentences A and B.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  bd566f11-9b3f-46c3-9b17-0e7a62d32f17: !Template
+    answer_choices: False ||| True
+    id: bd566f11-9b3f-46c3-9b17-0e7a62d32f17
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''nearly'' in sentences A and B is an indirect substitute.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  c530e95a-50e1-4dee-96d0-575768502279: !Template
+    answer_choices: No ||| Yes
+    id: c530e95a-50e1-4dee-96d0-575768502279
+    jinja: 'Is the word "{{word}}" in these two sentences a similar thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  cfbea82e-75d3-48ef-aa6d-7eb771adbd64: !Template
+    answer_choices: False ||| True
+    id: cfbea82e-75d3-48ef-aa6d-7eb771adbd64
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentences A and B is not a direct substitute.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  d0bf7f12-938b-4530-81f0-052fe8628556: !Template
+    answer_choices: False ||| True
+    id: d0bf7f12-938b-4530-81f0-052fe8628556
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s ''here'' and ''there'' in sentence A and B are common synonyms.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  d4316757-ea30-4734-9480-bc25266a88d3: !Template
+    answer_choices: False ||| True
+    id: d4316757-ea30-4734-9480-bc25266a88d3
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s ''than'' and ''than ever'' in sentences A and B are synonyms.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  d801c450-77d1-41f9-99c9-a477de6f6658: !Template
+    answer_choices: No ||| Yes
+    id: d801c450-77d1-41f9-99c9-a477de6f6658
+    jinja: 'If the word "{{word}}" in the first sentence and the second sentence are
+      the same thing, why are there two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  da3c54e7-c784-4ce8-9a03-69732e1cc4be: !Template
+    answer_choices: False ||| True
+    id: da3c54e7-c784-4ce8-9a03-69732e1cc4be
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''there'' in sentence A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  dd01b302-18a6-49f9-ad4f-aa386b755037: !Template
+    answer_choices: No ||| Yes
+    id: dd01b302-18a6-49f9-ad4f-aa386b755037
+    jinja: 'Is the word "{{word}}" in these two sentences similar?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  e3950a08-175f-49bb-875d-dd5c84d41baa: !Template
+    answer_choices: No ||| Yes
+    id: e3950a08-175f-49bb-875d-dd5c84d41baa
+    jinja: 'Is the word "{{word}}" in the first sentence of these two sentences the
+      same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  e4880e4c-863c-4e44-9b9a-38ee646414aa: !Template
+    answer_choices: False ||| True
+    id: e4880e4c-863c-4e44-9b9a-38ee646414aa
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      In sentence A and B, "{{word}}" ''here'' is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  e6ca1a48-213d-4f84-80c8-63564815a348: !Template
+    answer_choices: False ||| True
+    id: e6ca1a48-213d-4f84-80c8-63564815a348
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''we'' in sentences A and B is a direct substitute.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  ea904792-8ebe-421c-aae5-9b3959696094: !Template
+    answer_choices: No ||| Yes
+    id: ea904792-8ebe-421c-aae5-9b3959696094
+    jinja: 'Is the word "{{word}}" in these two sentences related?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  eeafa8bd-53f0-4867-b341-cff416d42fde: !Template
+    answer_choices: No ||| Yes
+    id: eeafa8bd-53f0-4867-b341-cff416d42fde
+    jinja: 'Do the word "{{word}}" in the first sentence and the second sentence have
+      the same value?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  f0fbd0c6-4426-4e7c-a08e-906d26d9c7e1: !Template
+    answer_choices: False ||| True
+    id: f0fbd0c6-4426-4e7c-a08e-906d26d9c7e1
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      Although "{{word}}"s ''now'' and ''then'' do not relate to each other, the sentences
+      are still connected because they refer to the same event.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  f4950b51-52f4-4df1-99fc-9d27800cfe49: !Template
+    answer_choices: No ||| Yes
+    id: f4950b51-52f4-4df1-99fc-9d27800cfe49
+    jinja: 'Is the word "{{word}}" in these two sentences in the same category?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  f62f0cf0-0872-4cb2-b8c2-eaa29ba9ffa8: !Template
+    answer_choices: False ||| True
+    id: f62f0cf0-0872-4cb2-b8c2-eaa29ba9ffa8
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''than'' in sentences A and B is a common antonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  f9503112-25da-4638-85f3-fb1a39f1a531: !Template
+    answer_choices: No ||| Yes
+    id: f9503112-25da-4638-85f3-fb1a39f1a531
+    jinja: 'Is the word "{{word}}" in these two sentences a part of the same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  ffa98896-5dc4-4bf9-afb3-5f5eb719068d: !Template
+    answer_choices: False ||| True
+    id: ffa98896-5dc4-4bf9-afb3-5f5eb719068d
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''here'' in sentence A and B is an antonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''

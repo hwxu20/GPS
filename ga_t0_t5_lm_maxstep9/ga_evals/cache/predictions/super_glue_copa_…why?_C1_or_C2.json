@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "I got distracted from my conversation with the woman. Why? \"Everyone in the room was talking.\" or \"The woman was telling a funny story.\"?",
+        "target_text": "Everyone in the room was talking.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.3365858793258667,
+            -0.5253313183784485
+        ]
+    },
+    {
+        "input_text:": "I put my plate in the sink. Why? \"I finished eating.\" or \"I skipped dinner.\"?",
+        "target_text": "I finished eating.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6013681888580322,
+            -3.7014036178588867
+        ]
+    },
+    {
+        "input_text:": "The scientist gained recognition. Why? \"She discovered a new species.\" or \"She received tenure at the university.\"?",
+        "target_text": "She discovered a new species.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.050868272781372,
+            -4.235856056213379
+        ]
+    },
+    {
+        "input_text:": "I learned how to play the board game. Why? \"My friend explained the rules to me.\" or \"My friend got the rules wrong.\"?",
+        "target_text": "My friend explained the rules to me.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.145605206489563,
+            -7.040397644042969
+        ]
+    },
+    {
+        "input_text:": "The army surrendered the battle. Why? \"They were outnumbered.\" or \"They stormed the city.\"?",
+        "target_text": "They were outnumbered.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5782628059387207,
+            -9.587793350219727
+        ]
+    },
+    {
+        "input_text:": "The boy climbed the tree. Why? \"A cat got stuck in the tree.\" or \"A bird built a nest in the tree.\"?",
+        "target_text": "A cat got stuck in the tree.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -3.783729076385498,
+            -0.5655832290649414
+        ]
+    },
+    {
+        "input_text:": "The retail shop shut down. Why? \"Its sales were lagging.\" or \"It renewed its lease.\"?",
+        "target_text": "Its sales were lagging.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5912857055664062,
+            -11.19467830657959
+        ]
+    },
+    {
+        "input_text:": "I dabbed the floor with a paper towel. Why? \"I spilled juice on the floor.\" or \"The floor was permanently stained.\"?",
+        "target_text": "I spilled juice on the floor.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.698357880115509,
+            -3.2137932777404785
+        ]
+    },
+    {
+        "input_text:": "The tenants were evicted from the apartment. Why? \"They neglected to pay their rent.\" or \"They got along with their landlord.\"?",
+        "target_text": "They neglected to pay their rent.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3787952661514282,
+            -13.554083824157715
+        ]
+    },
+    {
+        "input_text:": "The dust came off the desk. Why? \"I wiped the desk with a cloth.\" or \"I removed the books from the desk.\"?",
+        "target_text": "I wiped the desk with a cloth.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.669862687587738,
+            -3.726597309112549
+        ]
+    },
+    {
+        "input_text:": "The runner wore shorts. Why? \"The forecast predicted high temperatures.\" or \"She planned to run along the beach.\"?",
+        "target_text": "The forecast predicted high temperatures.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5278340578079224,
+            -1.866665005683899
+        ]
+    },
+    {
+        "input_text:": "I botched the job interview. Why? \"The interviewer asked difficult questions.\" or \"I anticipated the interviewer's questions.\"?",
+        "target_text": "The interviewer asked difficult questions.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -3.3237810134887695,
+            -0.13774563372135162
+        ]
+    },
+    {
+        "input_text:": "I slipped on the floor. Why? \"The tile was wet.\" or \"The tile was cracked.\"?",
+        "target_text": "The tile was wet.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5609912872314453,
+            -4.893551826477051
+        ]
+    },
+    {
+        "input_text:": "I jumped instinctively in fright. Why? \"I sensed someone approaching me from behind.\" or \"I heard people chuckling in the adjacent room.\"?",
+        "target_text": "I sensed someone approaching me from behind.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.297670841217041,
+            -2.7167418003082275
+        ]
+    },
+    {
+        "input_text:": "The rider fell to the ground. Why? \"The bull bucked the rider.\" or \"The bull chased the rider.\"?",
+        "target_text": "The bull bucked the rider.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9997064471244812,
+            -4.317348003387451
+        ]
+    },
+    {
+        "input_text:": "The mother scolded her daughter. Why? \"Her daughter burped at the kitchen table.\" or \"Her daughter set the kitchen table.\"?",
+        "target_text": "Her daughter burped at the kitchen table.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3154701888561249,
+            -3.9915378093719482
+        ]
+    },
+    {
+        "input_text:": "Air pollution in the city worsened. Why? \"Factories increased their production.\" or \"Factories shut down.\"?",
+        "target_text": "Factories increased their production.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.8341926336288452,
+            -6.4964375495910645
+        ]
+    },
+    {
+        "input_text:": "The chandelier shattered on the floor. Why? \"The chandelier dropped from the ceiling.\" or \"The chandelier's lights flickered on and off.\"?",
+        "target_text": "The chandelier dropped from the ceiling.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7703678607940674,
+            -4.128411293029785
+        ]
+    },
+    {
+        "input_text:": "The cat purred. Why? \"It scratched me.\" or \"I petted it.\"?",
+        "target_text": "It scratched me.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.873647689819336,
+            -0.43586456775665283
+        ]
+    },
+    {
+        "input_text:": "My stomach hurt. Why? \"I jogged on the treadmill.\" or \"I ate birthday cake.\"?",
+        "target_text": "I jogged on the treadmill.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.966998100280762,
+            -1.4951717853546143
+        ]
+    },
+    {
+        "input_text:": "The man broke his toe. Why? \"He got a hole in his sock.\" or \"He dropped a hammer on his foot.\"?",
+        "target_text": "He got a hole in his sock.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.1841840744018555,
+            -0.29863736033439636
+        ]
+    },
+    {
+        "input_text:": "The man craved a cigarette. Why? \"His family urged him to quit smoking.\" or \"He was addicted to nicotine.\"?",
+        "target_text": "His family urged him to quit smoking.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.647327423095703,
+            -0.6570162773132324
+        ]
+    },
+    {
+        "input_text:": "The trip took a long time. Why? \"The driver talked the whole way.\" or \"The driver made a wrong turn.\"?",
+        "target_text": "The driver talked the whole way.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.083428144454956,
+            -0.16466595232486725
+        ]
+    },
+    {
+        "input_text:": "The chair squeaked. Why? \"The man carried the chair to his office.\" or \"The man scooted the chair closer to his desk.\"?",
+        "target_text": "The man carried the chair to his office.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.9343910217285156,
+            -1.1227259635925293
+        ]
+    },
+    {
+        "input_text:": "The company lost money. Why? \"Its products received positive consumer reviews.\" or \"Some of its products were manufactured defectively.\"?",
+        "target_text": "Its products received positive consumer reviews.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.5215020179748535,
+            -0.366281658411026
+        ]
+    },
+    {
+        "input_text:": "The teenager ran away from home. Why? \"He relied on his parents.\" or \"His parents abused him.\"?",
+        "target_text": "He relied on his parents.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.2414844036102295,
+            -0.32969534397125244
+        ]
+    },
+    {
+        "input_text:": "The glasses on the table spilled. Why? \"The child drew on the table.\" or \"The child yanked the tablecloth.\"?",
+        "target_text": "The child drew on the table.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.043807506561279,
+            -0.5470049381256104
+        ]
+    },
+    {
+        "input_text:": "The screen on the laptop went black. Why? \"The laptop's warranty expired.\" or \"The laptop's battery died.\"?",
+        "target_text": "The laptop's warranty expired.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.337082862854004,
+            -1.6001335382461548
+        ]
+    },
+    {
+        "input_text:": "The stain came out of the shirt. Why? \"I patched the shirt.\" or \"I bleached the shirt.\"?",
+        "target_text": "I patched the shirt.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.185128927230835,
+            -1.5780870914459229
+        ]
+    },
+    {
+        "input_text:": "The bar closed. Why? \"It was crowded.\" or \"It was 3 AM.\"?",
+        "target_text": "It was crowded.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.1333906650543213,
+            -0.859500527381897
+        ]
+    },
+    {
+        "input_text:": "The woman awakened. Why? \"She took sleeping pills.\" or \"Her husband was snoring.\"?",
+        "target_text": "She took sleeping pills.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.7198306322097778,
+            -0.6870593428611755
+        ]
+    },
+    {
+        "input_text:": "The woman's makeup smeared. Why? \"She brushed her hair.\" or \"She wiped her eyes.\"?",
+        "target_text": "She brushed her hair.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.4239163398742676,
+            -1.3582630157470703
+        ]
+    },
+    {
+        "input_text:": "The woman suffered amnesia. Why? \"She had an allergic reaction.\" or \"She got into a car accident.\"?",
+        "target_text": "She had an allergic reaction.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.113102436065674,
+            -0.9080742597579956
+        ]
+    }
+]

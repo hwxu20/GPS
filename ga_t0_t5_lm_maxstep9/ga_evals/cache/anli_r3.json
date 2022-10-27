@@ -1,0 +1,1010 @@
+[
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "03c9f202-9a26-46e1-818b-e518f21dde54",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.45454545454545453
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "052a0f7c-1410-4748-9b1c-0def63c20c3e",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "07d634f5-7e36-4541-9e3a-7a5da2bbdc3a",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "09614038-0004-419a-a246-5b45a5cc3875",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "0b64c625-02cf-4b50-b42d-901d951c601f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "0c477bbd-bbcb-42bc-b9aa-b23815d19bb2",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "1208268f-9166-437b-bb73-d92b3fd7a2f5",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "12203eaf-21ae-4447-8d6c-046ab553bf5f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "16d66e48-fa3a-4695-b2ca-5a773d016905",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "19e8be7c-5759-45f5-981b-9fe52b1a414e",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "1c6d0751-9fb1-4fec-87b9-288031f0e60c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "1e315cc7-70c6-40b7-88e6-84baaacadb86",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "21394972-1b30-4b38-85f2-04a0f1e2e025",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "21cd4b23-e788-4587-a828-cee21761eb80",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "2494b6ad-bb28-4ad7-b4ac-2fefa2eefb42",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "2c9c1bfd-357e-4d67-bd76-8a293b54c816",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "3595caff-67c4-4952-8240-87373fc0dae3",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "372d21ef-c31d-44d6-81e7-41fe88a6f3bc",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "3bb78cef-c175-42f3-970d-3ee95286fc34",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "3f3a2bec-b672-414e-aaa9-127194796372",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "4021e4f2-6de3-40f2-bd97-cd003d37b15f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "462f44d6-7246-47e0-9a7a-b1b001755a83",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "465688d7-2c66-4921-ae3d-4a2c8124b3e2",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "47e722c0-2880-4239-82ba-2f175da1b567",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.42424242424242425
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "4b151f77-7611-48f3-ad48-46550c0f4044",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.36363636363636365
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "4b4b2aee-e75a-474f-9c2a-934ebf1bf1b0",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "5248d433-7d7e-4ecd-9d6e-96d755746e87",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "5454ed7b-a22c-405e-98de-8e3366e22068",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.48484848484848486
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "54c1da1a-015c-424d-ba94-2641835e6189",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "54f0f378-1323-4510-ae18-4c0e755b608f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "560a3abf-9ab1-4024-bdcf-58e84a75b377",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "5707226f-ff01-4795-a333-0c50fa243d1f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "580102a1-a9be-4223-9a89-e569e2fb0f98",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "5a2806ee-65b9-44a1-be98-7169fa9815cf",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "5ae5ef6a-8490-461c-9e57-1477062d4a57",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.48484848484848486
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "5bcf508f-71a1-44b4-8e7e-d32a944c84e6",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "5e7a5c16-3b28-469c-aba6-0a11fd67d1a8",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "607f1e33-9736-442e-96e9-49786eaa9055",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "60a67018-7915-4b66-bed6-45792946dc49",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "652bfb29-8433-4cd1-9d2f-c815aab97994",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "65615bdd-743f-465b-a0a6-1464661c2ac4",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "6a3f1bec-071f-4e69-8cda-1f41d3315978",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.42424242424242425
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "6b3540eb-f2f1-4874-a100-973ba57b5d07",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "6c6f117f-b69c-47ff-bf37-f1e3f1ce5e01",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.48484848484848486
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "6fbd5f26-d80d-4807-9e67-291020bc307b",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.3939393939393939
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "6ffdafe9-60bc-4822-a29f-9e6ad70928bd",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "729b379a-370e-4b28-a1ad-e5a5592b9f51",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "75cfa09c-cfa4-4c5c-85af-b790ed8e4b40",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "77406af0-306c-4446-bf51-378a3248ad5b",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "79163d6f-b8d8-4f7f-a058-4ed4df7ba12c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "7de934a4-91d6-452d-bf0f-f164e36a1d3f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "7ec0beda-4a30-4dc9-9894-b9256cfcb857",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "7f311aa8-924d-4834-ab98-cee0aeea9a68",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "855479d6-15c0-4236-9779-95a7d92f9f01",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "89efc082-a7a7-49dd-a2ce-a750aa159c0a",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "8a9d8e00-c2b6-4041-8acb-66b24d1082af",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "8c2f6cbd-d676-47fc-833f-a6603e39c303",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "94b9c5bb-d45b-4288-935b-12269efec003",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "95137293-a727-4e44-9885-ed5d54178fed",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "9af96c7b-9aaf-4889-ad87-9f63123fe2be",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "9b705b57-0c0d-4c77-936c-dc0086b5b760",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "9b8233fc-0ac3-405d-8057-a84589637e3a",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.42424242424242425
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "9ef54a0e-95a9-455f-9dd6-c1dce2fc29d4",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "a0f2c12d-b704-4018-90d7-e10da9c34c61",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.36363636363636365
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "a3f1bbf2-453d-4e97-8627-c17743941764",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.45454545454545453
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "a3f6784f-2435-4a37-8fd0-6438a2979d80",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "a5c11a2e-7a15-4623-af91-588313386b0a",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.42424242424242425
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "a5dc461a-6ad9-4b35-8061-6575de7289d7",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "a7a10e09-99ee-49c8-8e0a-5b5d12859ad3",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "a82aaffc-25da-4d7d-b550-14a7b304c13d",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "ab8b7d26-3fbc-4f83-89c0-4a09bf1c8e75",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "aeecbf4d-d3fd-46d9-a199-997eb5c154da",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "b1124ae3-a538-4a62-8079-2311f81c87a4",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.3939393939393939
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "b3194b83-8a0b-4c10-ba7b-11454a241a96",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "b4e1219c-abce-4049-b107-b4810a1814ae",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "b4fba62b-ed84-4860-aa44-35f0aa1d9edf",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "b66ca495-daf9-4ecb-867a-cac7df6971c2",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.3939393939393939
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "ba73e6a9-d60d-4086-a6ed-f4ed56fc1d8a",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.42424242424242425
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "bc6a361f-707e-4e13-ae4b-6e6f6bf1b0d8",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "bd75b8c2-8155-4c50-9920-a35b14098f9e",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "bdd95cdd-aaec-477d-9f05-4ae23f797743",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.48484848484848486
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "beb3f6b2-970a-41e8-a386-cc2305118086",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "c111b1b0-3880-4764-95a1-d621d43c6781",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "c25dd3ac-b4e3-4fb5-9586-5ea421881bca",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "c50d835c-9964-4bfe-99ba-993fa9cf6390",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.42424242424242425
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "c5b03e23-6eeb-4d26-baa8-c1db09aa009c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "c61f4098-d55d-47f6-8e7c-fff4da2f1de6",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "ca72fbf8-c280-433c-9365-f9fedbd568e1",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "cb8a8a7d-d128-490b-ad86-1f687eb61ade",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "cbfb8f3c-a155-4f59-b487-05147512a2ba",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "cc8e780a-dad1-452e-af77-dd68ca81a339",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "cd928b3b-fe3d-4d4e-8b45-5fa71d5a63e5",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "cdfae9e7-3c59-4895-96e1-bfe3df6e6dd6",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.45454545454545453
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "cf78b759-1093-4875-a9ca-a5698b096528",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.48484848484848486
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "d0f9cfdc-562b-4e58-bd1e-f9b814d28d12",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.45454545454545453
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "d27dc2c7-ce78-4a22-b08a-c54cd048708f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "d44457bd-574c-4d32-b36b-79e9296bad48",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.3939393939393939
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "d752dd18-158a-4ce4-8cf3-0d782a0ada4e",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "d78bb9e1-53f2-44b6-a116-b2f41a823804",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "d92b4b58-8adb-43af-886d-60092c7a5867",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "da819f96-4d71-4b27-84da-2d07cb798edf",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "db16928b-aaf6-48f3-bc6f-d8cc43b1f232",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.48484848484848486
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "dba2a044-ff28-416e-8ee8-d8fe7d05ea18",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "e3f7586a-80c9-4939-b1f6-496b3f41e5f9",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "e7956cc4-987d-458b-a7e1-095378c98bd3",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "f136e4b6-7171-4e1f-95fb-61a7a74908ba",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "f4a23463-2ac0-4c46-8da7-7dd04d090630",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "f659f85b-a72d-4767-adb2-405f178620c0",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "f7e051d1-5466-47ac-9617-4b65352f6b12",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.45454545454545453
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "f86aab20-7810-47b0-a843-844254e148ed",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "faf46129-0f81-415f-965d-8b558ba0c473",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "anli",
+        "dataset_config_name": "r3",
+        "template_id": "ffdaae21-1103-4191-8a14-62e78ffe5006",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    }
+]

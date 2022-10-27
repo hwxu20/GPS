@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Suppose How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. But we can infer that \"You can be hired by passing a psychological test.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.800225019454956,
+            -1.2401537895202637,
+            -2.1485886573791504
+        ]
+    },
+    {
+        "input_text:": "Suppose Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. But we can infer that \"I was pregnant during at least one meeting\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5315674543380737,
+            -1.1200815439224243,
+            -2.8564674854278564
+        ]
+    },
+    {
+        "input_text:": "Suppose Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. But we can infer that \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7906908392906189,
+            -2.321826934814453,
+            -2.1470706462860107
+        ]
+    },
+    {
+        "input_text:": "Suppose Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. But we can infer that \"Dookie is still alive.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.856943666934967,
+            -2.01983904838562,
+            -1.5862019062042236
+        ]
+    },
+    {
+        "input_text:": "Suppose Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. But we can infer that \"The robbers get away from Reba by running away. \". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7999595999717712,
+            -1.8015849590301514,
+            -1.6781286001205444
+        ]
+    },
+    {
+        "input_text:": "Suppose NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) But we can infer that \"Crude futures experienced losses this week.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5006662607192993,
+            -2.711608409881592,
+            -3.743854284286499
+        ]
+    },
+    {
+        "input_text:": "Suppose Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. But we can infer that \"the church dedication was in 1824\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7162139415740967,
+            -2.673330307006836,
+            -0.883938193321228
+        ]
+    },
+    {
+        "input_text:": "Suppose Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. But we can infer that \" Bruce Larson quit drag racing for quite sometime\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.12753543257713318,
+            -2.912658929824829,
+            -3.6507182121276855
+        ]
+    },
+    {
+        "input_text:": "Suppose How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). But we can infer that \"Basic rules of soccer are decided upon by more than 1 member of IFAB\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6893450617790222,
+            -1.625875473022461,
+            -2.0519492626190186
+        ]
+    },
+    {
+        "input_text:": "Suppose The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). But we can infer that \"The Sounds have, at present, had less than four dozen coaches.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.615077018737793,
+            -1.9644567966461182,
+            -1.4830458164215088
+        ]
+    },
+    {
+        "input_text:": "Suppose Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. But we can infer that \"Anna use her camera in her photography class\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9932938814163208,
+            -1.7961111068725586,
+            -1.3381584882736206
+        ]
+    },
+    {
+        "input_text:": "Suppose Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. But we can infer that \"Tina enjoys being on the water.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.1640790700912476,
+            -1.641512155532837,
+            -0.8303325176239014
+        ]
+    },
+    {
+        "input_text:": "Suppose How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. But we can infer that \"She wnats to copy her hairstyle.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.1179920434951782,
+            -1.1209454536437988,
+            -2.2450296878814697
+        ]
+    },
+    {
+        "input_text:": "Suppose Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. But we can infer that \"Alvin's wife is immoral.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.9105383157730103,
+            -1.700766682624817,
+            -1.4083422422409058
+        ]
+    },
+    {
+        "input_text:": "Suppose Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. But we can infer that \"The narrator and Milosevic met on GeoCities, and their wives know each other.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.2247538566589355,
+            -2.5363152027130127,
+            -0.4097858667373657
+        ]
+    },
+    {
+        "input_text:": "Suppose Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. But we can infer that \"fish food has a s\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.35728469491004944,
+            -2.8737752437591553,
+            -1.8100106716156006
+        ]
+    },
+    {
+        "input_text:": "Suppose How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. But we can infer that \"Bankruptcy can always be avoided.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.93634432554245,
+            -1.440712332725525,
+            -1.5689746141433716
+        ]
+    },
+    {
+        "input_text:": "Suppose Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! But we can infer that \"Scott did not get along with his boss\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.1531059741973877,
+            -1.4897217750549316,
+            -1.3594876527786255
+        ]
+    },
+    {
+        "input_text:": "Suppose Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. But we can infer that \"Seth creates new levels in the game without any help from his brothers. \". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.8790968656539917,
+            -2.4160163402557373,
+            -1.0982359647750854
+        ]
+    },
+    {
+        "input_text:": "Suppose How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. But we can infer that \"Herding dogs is a bigger group than Border collies.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.3771467208862305,
+            -1.264560341835022,
+            -1.078000545501709
+        ]
+    },
+    {
+        "input_text:": "Suppose How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. But we can infer that \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.8982990384101868,
+            -1.299744963645935,
+            -1.612747073173523
+        ]
+    },
+    {
+        "input_text:": "Suppose How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. But we can infer that \"Red leaf lettuce must always be eaten with salad\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.6284291744232178,
+            -2.0493879318237305,
+            -0.6709622144699097
+        ]
+    },
+    {
+        "input_text:": "Suppose Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. But we can infer that \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.4349490404129028,
+            -2.298534870147705,
+            -0.4797397255897522
+        ]
+    },
+    {
+        "input_text:": "Suppose Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. But we can infer that \"Dan is in a wheelchair\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.1873624324798584,
+            -2.0563764572143555,
+            -0.5321598649024963
+        ]
+    },
+    {
+        "input_text:": "Suppose Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. But we can infer that \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.220912456512451,
+            -2.182600736618042,
+            -0.2944527566432953
+        ]
+    },
+    {
+        "input_text:": "Suppose But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? But we can infer that \"40,00 people with lose their union\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.7929627299308777,
+            -1.8651660680770874,
+            -1.434761881828308
+        ]
+    },
+    {
+        "input_text:": "Suppose Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. But we can infer that \"The Marple TV show used the same stories as the Marple book series.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -1.4837646484375,
+            -3.223829746246338,
+            -2.5580852031707764
+        ]
+    },
+    {
+        "input_text:": "Suppose \"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. But we can infer that \"Dead Yakuza chose money over life.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.653985023498535,
+            -2.063796043395996,
+            -0.4677591919898987
+        ]
+    },
+    {
+        "input_text:": "Suppose And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. But we can infer that \"The speaker would like it if the troops were withdrawn immediately.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.4527418613433838,
+            -1.2563598155975342,
+            -0.9524252414703369
+        ]
+    },
+    {
+        "input_text:": "Suppose Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. But we can infer that \"Benny was encouraged to continue\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.9462265968322754,
+            -2.2076823711395264,
+            -0.4210852384567261
+        ]
+    },
+    {
+        "input_text:": "Suppose How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. But we can infer that \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.404970169067383,
+            -1.967905879020691,
+            -0.4603411555290222
+        ]
+    },
+    {
+        "input_text:": "Suppose How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. But we can infer that \"The house will clean itself.\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.6333117485046387,
+            -1.699268102645874,
+            -1.444100022315979
+        ]
+    },
+    {
+        "input_text:": "Suppose Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. But we can infer that \"Joseph enjoyed the cake\". Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.097214698791504,
+            -2.0067572593688965,
+            -0.31226977705955505
+        ]
+    }
+]

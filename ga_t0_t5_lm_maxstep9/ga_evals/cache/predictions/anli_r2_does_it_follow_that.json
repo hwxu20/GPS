@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "If that statement is true, does that Rachel Brosnahan (born December 15, 1990) is an American actress. She is best known for her roles in the films \"The Unborn\" (2009) and \"Beautiful Creatures\" (2013) and for portraying Rachel Posner in the Netflix series \"House of Cards\", for which she was nominated for an Emmy Award. follow that She is an American citizen. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9519842863082886,
+            -4.0079426765441895,
+            -3.9102721214294434
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Tsewang Rigzin is the current president of the Tibetan Youth Congress. He has held the position since September 2007, and on August 8, 2008 he was re-elected to serve through August 2013. Prior to attaining his current position he served as the president of the Portland/Vancouver regional chapter of the Tibetan Youth Congress. follow that Tsewang Rigzin is the president of the Portland/Vancouver regional chapter of the Tibetan Youth Congress. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -4.393465995788574,
+            -5.939675807952881,
+            -2.9681150913238525
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that The phrase \"cold enough to freeze the balls off (or \"on\") a brass monkey\" is a colloquial expression used by some English speakers. The reference to the testes (as the term \"balls\" is commonly understood to mean) of the brass monkey appears to be a 20th-century variant on the expression, prefigured by a range of references to other body parts, especially the nose and tail. follow that cold enough to freeze the balls off or on a brass monkey has no date yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.0218513011932373,
+            -5.872193336486816,
+            -5.345409870147705
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Coraz\u00f3n Valiente (\"Fearless Heart\"), originally known as \"Cadas del Cielo\", is a Spanish-language telenovela produced by United States-based television network Telemundo Studios, Miami, featuring an ensemble cast. Adriana Fonseca, Ximena Duque, Jos\u00e9 Luis Res\u00e9ndez and Fabi\u00e1n Ros starred as the main protagonists, with Aylin Mujica and Manuel Landeta starred as the main antagonists. follow that The US-based television network Telemundo Studios produced the Spanish-language telenovela called Caidas del Cielo before the name was changed. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.0501320362091064,
+            -5.532464981079102,
+            -3.610872268676758
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that The Inter-American Peace Force (IAPF) was established, by the Organization of American States, on 23 May 1965, after the United States's intervention in the Dominican Republic. It largely consisted of over 42,600 United States military personnel, plus the following troops were sent by each country; follow that The IAPF was formed at the behest of the US. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.2948989868164062,
+            -5.877842903137207,
+            -4.921883583068848
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that The Last of Us Part II is an upcoming action-adventure survival horror video game developed by Naughty Dog and published by Sony Interactive Entertainment for PlayStation 4. It was announced at the PlayStation Experience event in December 2016, and will serve as the sequel to 2013's \"The Last of Us\". follow that The Last of Us was an action adventure survival horror video game yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.7667019367218018,
+            -4.7110748291015625,
+            -4.952279567718506
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that The PLDT Home TVolution Power Attackers (women's) and the PLDT Home Telpad-Air Force Turbo Boosters (men's) were professional volleyball teams owned by PLDT that played in the Philippine Super Liga (PSL) from 2013 to 2014. The club was first known as PLDT myDSL Speed Boosters. follow that the club known as pldt speed boosters played in philipine league yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.9030508995056152,
+            -5.516935348510742,
+            -5.014805316925049
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that The Return of the Condor Heroes, also called The Giant Eagle and Its Companion, is a wuxia novel by Jin Yong (Louis Cha). It is the second part of the \"Condor Trilogy\" and was preceded by \"The Legend of the Condor Heroes\" and followed by \"The Heaven Sword and Dragon Saber\". It was first serialised between 20 May 1959 and 5 July 1961 in the Hong Kong newspaper \"Ming Pao\". follow that Jin Yong wrote The Legend of the Condor Heroes yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.1810998916625977,
+            -4.818631172180176,
+            -4.33832311630249
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Valentino D. B. Mazzia (February 17, 1922 \u2013 March 10, 1999) was an American physician who served as chairman of the department of anesthesiology at the New York University School of Medicine and was a pioneer in the forensic analysis of deaths occurring during surgical procedures. He testified in many criminal cases about the use and presence of anesthesia products in cases of death. follow that Valentino D.B. Mazzia testified that anesthesia products are present in many death cases. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.337092638015747,
+            -6.323850154876709,
+            -6.076404094696045
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Carl Frederik Tietgen (19 March 1829 \u2013 19 October 1901) was a Danish financier and industrialist. The founder of numerous prominent Danish companies, many of which are still in operation today, he played an important role in the industrialisation of Denmark. Notably also forming conglomerates, several of Tietgen's companies attained a monopoly-like status, which cemented their durability. follow that Carl Tietgen formed conglomerates. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.561048746109009,
+            -6.016362190246582,
+            -5.12220573425293
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Himson Teleda (born 28 August 1992) is a footballer comes from Solomon Islands. He plays as a midfielder for Western United FC in Solomon Islands National Club Championship. He is a member of Solomon Islands national football team. He made his debut during the 2012 OFC Nations Cup and he scored one goal against New Zealand. In stage 3 he scored one goal against Tahiti. follow that Taleda is 27 years old. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.6605457067489624,
+            -2.9965858459472656,
+            -2.961883544921875
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Col du Glandon (1924 m ) is a high mountain pass in the Dauphin\u00e9 Alps in Savoie, France, linking Le Bourg-d'Oisans to La Chambre. It is situated between the Belledonne, Grandes Rousses and Arvan-Villards mountain ranges, west of the Col de la Croix de Fer. The road over the Col du Glandon was opened in 1898, although it was not linked to the Col de la Croix de Fer until 1912. follow that The road over the Col du Glandon was being constructed during 1898. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.915939450263977,
+            -5.6658501625061035,
+            -3.860790491104126
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Stephen R. \"Steve\" Bissette (born March 14, 1955) is an American comics artist, editor, and publisher with a focus on the horror genre. He is known for working with writer Alan Moore and inker John Totleben on the DC comic book \"Swamp Thing\" in the 1980s. follow that Stephen R. \"Steve\" Bissette was born in the year of the goat yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.3411805629730225,
+            -3.4554641246795654,
+            -4.032837390899658
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Shehzad Sheikh or Shahzad Sheikh is a Pakistani film and television actor and model, known for playing the lead role in the 2015 film \"Karachi Se Lahore\". He also starred in the series \"Annie Ki Ayegi Baraat\", \"Mi Raqsam\", and \"Mere Hamrahi\", and a TV film \"Main Kukkoo Aur woh\". He is the son of well-known actor Javed Sheikh. follow that Shahzad Sheikh primarily acted in Pakistani movies. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.8120615482330322,
+            -5.2466912269592285,
+            -4.335826873779297
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that The 1982 Bavarian Tennis Championships was a men's Grand Prix tennis circuit tournament held in Munich, West Germany which was played on outdoor clay courts. It was the 66th edition of the tournament and was held form 17 May through 23 May 1982. Gene Mayer won the singles title. follow that Gene Mayer was in Munich before East and West Germany reunited. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.979116201400757,
+            -5.0085225105285645,
+            -4.565011024475098
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Hakea microcarpa, commonly known as small-fruit hakea is a flowering plant in the family Proteaceae and is endemic to eastern Australia. It is a spreading shrub, often growing in woodlands, heathlands and near swamps in montane areas of eastern Australia. follow that Hakea microcarpa is grown solely in the mountainous regions of eastern Australia. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.8087291717529297,
+            -5.839300155639648,
+            -4.89741849899292
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Flamingo is the debut solo studio album by American singer-songwriter and The Killers lead singer Brandon Flowers, released on September 3, 2010 by Island Records. It was recorded at Battle Born Studios in Winchester, Nevada, and Henson Recording Studios in Hollywood, California. The album debuted at number one on the UK Albums Chart. follow that Brandon Flowers debut album was recorded on a hot day yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.849052667617798,
+            -4.565847396850586,
+            -3.5673513412475586
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Ernest Guiraud (] ; 26 June 1837 \u2013 6 May 1892) was a French composer and music teacher born in New Orleans, Louisiana. He is best known for writing the traditional orchestral recitatives used for Bizet's opera \"Carmen\" and for Offenbach's opera \"Les contes d'Hoffmann\" (\"The Tales of Hoffmann\"). follow that Ernest Guiraud spent his whole life in Louisiana yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.7529239654541016,
+            -5.3272786140441895,
+            -3.6660938262939453
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that State Route 204 (SR 204) is part of Maine's system of numbered state highways, located in Hancock County. It runs from State Route 3 in Trenton, passing State Route 184 in Lamoine, and ending at the intersection with Seal Point and Marlboro Beach roads. The route is 6.5 mi long. follow that State Route 204 has no cars on it ever. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -4.266519069671631,
+            -3.3232598304748535,
+            -2.8272337913513184
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that The 2016\u201317 ProA was the 10th season of the ProA, the second level of basketball in Germany. The champions the runners-up of the play-offs are promoted to the 2017\u201318 Basketball Bundesliga. The season started on September 22, 2016 and ended on May 7, 2017. Mitteldeutscher BC won the championship and promoted along with runners-up Oettinger Rockets. follow that The 2016-17 season of ProA promoted five teams to the Basketball Bundesliga yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.1484386920928955,
+            -4.1114606857299805,
+            -3.878328800201416
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Wayne Coles-Janess is an Australian producer, writer and director of drama and documentary film and TV programs. Based in Melbourne, Australia, he has produced documentaries about frontier places in the country. He has also made some documentaries in several international locations, including during times of war. follow that wayne cole janess ropes cattle in western movies. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.3480114936828613,
+            -4.262552738189697,
+            -2.3431856632232666
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Fan and Mortar Geysers are two geysers in the Upper Geyser Basin in Yellowstone National Park. For the past several decades, they have erupted in concert with one another and are generally talked about together. The records detailing these geysers' known eruptive history shows that they have been infrequent and irregular performers. follow that Sanse plays home games at multiple stadiums. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -5.026220321655273,
+            -5.555861473083496,
+            -3.322004795074463
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Svensk Hyllningsfest (], \"Swedish Honoring Festival\") is a biennial celebration held in Lindsborg, Kansas, in October of odd-numbered years since 1941 to celebrate the town's Swedish heritage. The festival includes Swedish dancing, foods including \"lutfisk\", cooking demonstrations, arts and crafts, entertainment by local artists and musicians, a parade, and a sm\u00f6rgsbord. follow that The Svensk Hyllningsfest does not still occur today. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.27366304397583,
+            -6.217069625854492,
+            -4.289435386657715
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that The Middlewich Folk and Boat Festival takes place in June in Middlewich, Cheshire, England. The festival builds on the town's industrial heritage in which canal boats were used to move coal and other raw materials in the town for the production of salt, and then move the salt out of town, either for use directly, or as a raw material in the manufacture of chemicals such as chlorine and soda ash. follow that The salt is used for sidewalks. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.607598304748535,
+            -5.011908054351807,
+            -1.6213840246200562
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Eldrid Nordb (born 12 August 1942) is a Norwegian politician for the Labour Party. She was personal secretary to the Minister of Social Affairs in 1971, state secretary to the prime minister (1986-89), and Minister of Trade and Shipping (1990-91). She is married to economist and politician Bjrn Skogstad Aamo. follow that Eldrid Nordbo was personal secretary to the Minister of Social Affairs after 1971. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.352810859680176,
+            -5.561474323272705,
+            -3.6185641288757324
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Marie Hedwig Auguste of Sulzbach (German: \"Marie Hedwig Auguste von Sulzbach\" ; born: 15 April 1650 in Sulzbach; died: 23 November 1681 in Hamburg) was a Countess Palatine of Sulzbach by birth and by marriage, Archduchess of Austria and by her second marriage, Duchess of Saxe-Lauenburg. follow that Marie Hedwig Auguste's husband was a duchess. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.440184116363525,
+            -5.299051761627197,
+            -3.7023723125457764
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Micropalaeosoma balticus (formerly \"Palaeosoma balticus\" ) is an extinct, fossil turbellarian flatworm known from Baltic amber of Kaliningrad, Russia, that lived approximately 40 million years ago. It measured approximately 1.5 mm in length and is the oldest and most complete flatworm fossil yet discovered. follow that Micropalaeosoma balticus is common in dogs. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.562717437744141,
+            -6.884711742401123,
+            -3.8516266345977783
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Joseph Maurice Francis Connaughton (15 August 1918 \u2013 12 February 1944) was an English first-class cricketer active 1939 who played for Middlesex. He was born in Paddington. During World War II he was commissioned in the Royal Artillery. He was drowned off the Maldives after SS \"Khedive Ismail\" was torpedoed; and officially declared dead one year later. follow that Joseph Maurice Francis Connaughton died after World War II. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -2.488312005996704,
+            -4.992587566375732,
+            -4.61997127532959
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Ian Drew is Entertainment Director for American celebrity magazine, Us Weekly. He speaks about celebrities, music and fashion on television shows including CNN, Good Morning America, The Early Show, MSNBC, and Fox News. He interviewed Janet Jackson for one of Us Weekly's best-selling issues. follow that Ian drew has not not appeared on CNN. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -2.447359561920166,
+            -3.2966370582580566,
+            -2.746561050415039
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that The Savings Bank Building is a commercial building located at 101 South Front Street in Marquette, Michigan. It is also known as the Marquette County Savings Bank. The building was designated a Michigan State Historic Site in 1976 and listed on the National Register of Historic Places in 1978. follow that Michigan State has included Marquette County Savings Bank as a state historical site and the United States has included Savings Bank on the list of historic places as of 1976. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.393817901611328,
+            -5.279876232147217,
+            -2.0777363777160645
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that The 18th Street Expressway (often shortened to 18th Street in everyday speech) is a freeway in Kansas City, Kansas that runs from Interstate 35 north to Interstate 70/U.S. Route 24/U.S. Route 40. It carries the U.S. Route 69 designation its entire length. follow that Interstate 70 doesn't connect with Interstate 35 North yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.490594387054443,
+            -4.1751508712768555,
+            -3.174164056777954
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Cherry Tomato () is a 2008 South Korean film starring Shin Goo and Kim Hyang-gi. The family drama, a directorial debut by Jung Young-bae, depicts the poverty-stricken life of an old man and his granddaughter that evokes a strong sense of sympathy and helplessness. It was screened at the Busan Children\u2019s Film Festival in 2008. follow that Cherry Tomato was released in 2010. yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -3.233482599258423,
+            -5.222864151000977,
+            -3.772359609603882
+        ]
+    },
+    {
+        "input_text:": "If that statement is true, does that Identification Marks: None (Polish: Rysopis ) is a 1964 Polish drama film directed by Jerzy Skolimowski. It was the first feature film directed by Skolimowski, after the shorts \"Erotique\", \"Little Hamlet\", \"The Menacing Eye\", \"Boxing\" and \"Your Money or Your Life\". follow that Jerzy Skolimowski was born in 1964 yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -2.4078209400177,
+            -3.747483491897583,
+            -2.6294338703155518
+        ]
+    }
+]

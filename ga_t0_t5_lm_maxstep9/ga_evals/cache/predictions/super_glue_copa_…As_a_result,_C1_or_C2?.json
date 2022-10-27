@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "The school principal implemented a dress code. As a result of the incident, \"Students protested the decision.\" or \"Students were expelled from school.\"?",
+        "target_text": "Students protested the decision.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.29345372319221497,
+            -2.6574676036834717
+        ]
+    },
+    {
+        "input_text:": "The photographer got the child to smile. As a result of the incident, \"The photographer quickly snapped the child's photo.\" or \"The photographer quickly changed the child's pose.\"?",
+        "target_text": "The photographer quickly snapped the child's photo.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5737852454185486,
+            -5.26979398727417
+        ]
+    },
+    {
+        "input_text:": "The swimmer won the race. As a result of the incident, \"She received a gold medal.\" or \"Her team lost the meet.\"?",
+        "target_text": "She received a gold medal.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.104116916656494,
+            -4.469963550567627
+        ]
+    },
+    {
+        "input_text:": "The terrorist set off the bomb. As a result of the incident, \"The bomb exploded.\" or \"The bomb was deactivated.\"?",
+        "target_text": "The bomb exploded.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6082234978675842,
+            -3.764751672744751
+        ]
+    },
+    {
+        "input_text:": "The girl came across an unfamiliar word in her textbook. As a result of the incident, \"She looked the term up in the dictionary.\" or \"She chucked the textbook across the room.\"?",
+        "target_text": "She looked the term up in the dictionary.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.34105390310287476,
+            -6.574200630187988
+        ]
+    },
+    {
+        "input_text:": "The archeologist dug up the site. As a result of the incident, \"She excavated ancient artifacts.\" or \"She read about the site's history.\"?",
+        "target_text": "She excavated ancient artifacts.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6903040409088135,
+            -6.4198150634765625
+        ]
+    },
+    {
+        "input_text:": "The truck crashed into the motorcycle on the bridge. As a result of the incident, \"The motorcyclist died.\" or \"The bridge collapsed.\"?",
+        "target_text": "The motorcyclist died.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.11176659911870956,
+            -5.8381805419921875
+        ]
+    },
+    {
+        "input_text:": "A man cut in front of me in the long line. As a result of the incident, \"I confronted him.\" or \"I smiled at him.\"?",
+        "target_text": "I confronted him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.1033910512924194,
+            -5.706966876983643
+        ]
+    },
+    {
+        "input_text:": "The fortune teller's revelations were convincing. As a result of the incident, \"She received many returning customers.\" or \"Many customers asked for refunds.\"?",
+        "target_text": "She received many returning customers.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -4.103699684143066,
+            -3.5521342754364014
+        ]
+    },
+    {
+        "input_text:": "I came upon a puddle on the sidewalk. As a result of the incident, \"I leapt over the puddle.\" or \"I played in the puddle.\"?",
+        "target_text": "I leapt over the puddle.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.2576812505722046,
+            -1.6476290225982666
+        ]
+    },
+    {
+        "input_text:": "The offender violated parole. As a result of the incident, \"She was sent back to jail.\" or \"She stole money from a church.\"?",
+        "target_text": "She was sent back to jail.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.467534065246582,
+            -11.267624855041504
+        ]
+    },
+    {
+        "input_text:": "I received a package in the mail. As a result of the incident, \"The package triggered my curiosity.\" or \"I took the package to the post office.\"?",
+        "target_text": "The package triggered my curiosity.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.6926268339157104,
+            -1.1166383028030396
+        ]
+    },
+    {
+        "input_text:": "The man begged for forgiveness. As a result of the incident, \"The woman took pity on him.\" or \"The woman joked around with him.\"?",
+        "target_text": "The woman took pity on him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4885130822658539,
+            -4.74833345413208
+        ]
+    },
+    {
+        "input_text:": "The vandals threw a rock at the window. As a result of the incident, \"The window cracked.\" or \"The window fogged up.\"?",
+        "target_text": "The window cracked.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.997422456741333,
+            -4.22807502746582
+        ]
+    },
+    {
+        "input_text:": "The man needed coins to fill the parking meter. As a result of the incident, \"He searched under his car seats for loose change.\" or \"He begged people on the street for loose change.\"?",
+        "target_text": "He searched under his car seats for loose change.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5760471224784851,
+            -1.5898222923278809
+        ]
+    },
+    {
+        "input_text:": "The print on the brochure was tiny. As a result of the incident, \"The man put his glasses on.\" or \"The man retrieved a pen from his pocket.\"?",
+        "target_text": "The man put his glasses on.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4466688632965088,
+            -2.553234338760376
+        ]
+    },
+    {
+        "input_text:": "The woman had an infection. As a result of the incident, \"She took antibiotics.\" or \"She washed her hands.\"?",
+        "target_text": "She took antibiotics.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9751946330070496,
+            -6.20764684677124
+        ]
+    },
+    {
+        "input_text:": "I put coins in the washing machine at the laundromat. As a result of the incident, \"The machine powered on.\" or \"I ran out of laundry detergent.\"?",
+        "target_text": "The machine powered on.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4653382897377014,
+            -3.143068552017212
+        ]
+    },
+    {
+        "input_text:": "The elderly woman suffered a stroke. As a result of the incident, \"The woman's daughter came over to clean her house.\" or \"The woman's daughter moved in to take care of her.\"?",
+        "target_text": "The woman's daughter came over to clean her house.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.8904261589050293,
+            -1.274200201034546
+        ]
+    },
+    {
+        "input_text:": "The flashlight was dead. As a result of the incident, \"I took it apart.\" or \"I replaced the batteries.\"?",
+        "target_text": "I took it apart.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.909682273864746,
+            -0.8379759192466736
+        ]
+    },
+    {
+        "input_text:": "The teacher caught the student chewing gum. As a result of the incident, \"The gum stuck to the student's shoe.\" or \"The student spit out the gum.\"?",
+        "target_text": "The gum stuck to the student's shoe.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.7402756214141846,
+            -0.18240861594676971
+        ]
+    },
+    {
+        "input_text:": "The student's answer on the exam was incorrect. As a result of the incident, \"The teacher added bonus points to the student's grade.\" or \"The teacher subtracted points off the student's grade.\"?",
+        "target_text": "The teacher added bonus points to the student's grade.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.4688591957092285,
+            -0.3923383355140686
+        ]
+    },
+    {
+        "input_text:": "The woman complimented the man. As a result of the incident, \"He sneezed.\" or \"He blushed.\"?",
+        "target_text": "He sneezed.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.306934356689453,
+            -0.41430196166038513
+        ]
+    },
+    {
+        "input_text:": "The clock stopped ticking. As a result of the incident, \"I took extra time to get ready.\" or \"The clock showed the wrong time.\"?",
+        "target_text": "I took extra time to get ready.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.209898948669434,
+            -0.44299572706222534
+        ]
+    },
+    {
+        "input_text:": "The water in the teapot started to boil. As a result of the incident, \"The teapot cooled.\" or \"The teapot whistled.\"?",
+        "target_text": "The teapot cooled.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.097266435623169,
+            -1.2501366138458252
+        ]
+    },
+    {
+        "input_text:": "The child kicked the stack of blocks. As a result of the incident, \"The stack towered over the boy's head.\" or \"The blocks scattered all over the rug.\"?",
+        "target_text": "The stack towered over the boy's head.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.6680407524108887,
+            -0.6113671064376831
+        ]
+    },
+    {
+        "input_text:": "The climbers reached the peak of the mountain. As a result of the incident, \"They encountered an avalanche.\" or \"They congratulated each other.\"?",
+        "target_text": "They encountered an avalanche.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.302802562713623,
+            -3.0051801204681396
+        ]
+    },
+    {
+        "input_text:": "The man looked at his watch. As a result of the incident, \"He realized he forgot something.\" or \"He realized he was early.\"?",
+        "target_text": "He realized he forgot something.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.7726328372955322,
+            -1.2511181831359863
+        ]
+    },
+    {
+        "input_text:": "The woman's ring slipped off in the shower. As a result of the incident, \"The woman polished the ring.\" or \"The ring went down the drain.\"?",
+        "target_text": "The woman polished the ring.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.0044987201690674,
+            -0.15054231882095337
+        ]
+    },
+    {
+        "input_text:": "The man slid the razor across his chin. As a result of the incident, \"His stubble grew.\" or \"His stubble disappeared.\"?",
+        "target_text": "His stubble grew.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5176323652267456,
+            -2.090210437774658
+        ]
+    },
+    {
+        "input_text:": "The bully stuck his foot out in front of his classmate. As a result of the incident, \"The bully picked up his classmate.\" or \"The bully's classmate tripped.\"?",
+        "target_text": "The bully picked up his classmate.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.340701580047607,
+            -0.36873242259025574
+        ]
+    },
+    {
+        "input_text:": "The woman sensed a pleasant smell. As a result of the incident, \"She remembered to take her medication.\" or \"She was reminded of her childhood.\"?",
+        "target_text": "She remembered to take her medication.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.256389141082764,
+            -1.6075084209442139
+        ]
+    },
+    {
+        "input_text:": "I tipped the bottle. As a result of the incident, \"The liquid in the bottle froze.\" or \"The liquid in the bottle poured out.\"?",
+        "target_text": "The liquid in the bottle froze.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.6863861083984375,
+            -0.8552495837211609
+        ]
+    }
+]

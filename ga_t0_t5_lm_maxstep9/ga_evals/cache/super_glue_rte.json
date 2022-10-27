@@ -1,0 +1,695 @@
+[
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "04592390-c98a-438c-af5d-84246491d5ff",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "04d04d1b-89bd-4363-9b62-d3e0f12d9047",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "0c8ae8b6-943e-46fd-ad2e-ba4af92144bd",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "0d103204-4d36-455e-8438-b6d7d76c6033",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "0ff34c4e-a3a2-4a13-a5eb-c1d1933cda31",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "15349efa-8e3c-4976-adb1-fc99d2026b4e",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "1b8e9c01-298f-4b45-984e-6ebf7e9674af",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "1be495cf-f165-4b27-a16d-83c746fc3264",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "1c71d09e-09b0-47bd-b08a-6e5b60cfafee",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "1f699f91-5bba-4f8c-b791-4b536fb98252",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "21b8f294-7b93-4c54-a1d7-7bd61c0510f2",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "22c7c78e-32f6-4a27-85b0-68aaf0669c3d",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "23681def-3949-44a2-8ce5-400afd2f5906",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "26513678-441e-47f3-8601-d7cd78ff6b1d",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "27a0fb0f-729a-4fd0-9e96-fa6a11cdb495",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "2ac0b5ee-e868-4926-baf9-b83adc07f022",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "2bbca542-c61a-4509-a4a7-2833a60ac19d",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "2f626846-c464-406a-bf9a-95a0a71d1369",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "347d6228-6d56-4921-a1b5-a862bb73786c",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "365597c3-59bc-4418-9828-264ec9b7a06d",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "378a91fa-fde8-4470-a745-38f299973340",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "38cb878d-8e5c-4b03-8638-7969d8174671",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "3ba0f644-9c89-48ff-b13b-6346196c4a1a",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "3e667ebe-1e1d-46f5-9f4b-cbec2912895c",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "3f43d31a-583c-428d-87e7-9deb84b736ad",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "42ba837c-e3e8-4bec-988e-1a323e425c53",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "46f35b1b-fa11-467f-93eb-40bf5b98fd4d",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "48467e22-000e-48a7-97ad-f4ccf387d3b6",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "4852143a-5198-43df-a740-a305f5a6ee21",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "4fcb9c11-a54b-48d0-a8c5-b9ddc2b8779f",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "51f80070-7278-4037-8f7b-a6e845abdf54",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "5362a79a-2015-4ca1-af3d-26f9a1157ecb",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "55b93aa9-6d6c-4ed9-a145-05fccc2c473f",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "5995f181-fe1b-44d8-baf7-b66de39265ef",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "62ff5fcb-09ba-4bc3-ac7a-c4f7b9afa38b",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "63ad1594-205d-49a5-9b1e-352a1759fee0",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "63fba8d0-1b75-47ed-81e7-172355148b7f",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "65f54380-5c62-4a46-9a77-fa4665510635",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "65f933f4-e95c-4b71-9396-3a153ac6983d",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "664598f9-8b6b-4073-b918-8dc689c3271a",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "6b71b43f-55e1-471a-9ec8-0143e1cc059f",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "75a0cd72-110a-4de1-b9c4-4f1022c8c274",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "79e913c3-01fa-437e-b377-b77a2bb3051d",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "7d6c39fa-a2e0-4a57-b639-474ee75640ef",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "7df24c81-e09f-4af3-9ce7-7b7dd6598ac9",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "7e3f081a-66b3-43c9-83d1-b61b65c6cf37",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "7f7cf988-9167-4cb2-b5e0-b69c6ea8e908",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "836e1c68-4c3c-4a03-8c19-2f0286a43515",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "85b0c1a2-d4bc-41fb-8d5e-18a28c8b7b27",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "88158564-caca-45ad-9b85-f21eb9440511",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "8b7c5ad9-e8dd-4974-9610-14375f3315c0",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "9143ac48-70c3-4f26-be3f-94230d538900",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "95056e78-1cf3-4fe8-8c34-2b7aabd4ee48",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "9b67aae6-e29e-4aa8-adc9-b978923b76e6",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "9fd5e692-a138-4413-83b9-8b4c600cb19b",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "a318d09b-5582-4c1f-8960-fddb3f337301",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "a8227d65-5902-43fb-a122-48a6620ce66d",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "ad0de9f1-5e65-46b0-823a-62cc98519800",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "adb75472-98ce-440d-b4f0-f0834e79c5b3",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "b458ac61-0282-44a7-8879-1731b8505a03",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "b4740a4b-b338-4be0-8369-98e1029e06d9",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "c093ca88-bd7d-48a9-ac29-4d098e1593db",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "c4d4cc46-9582-4774-bd61-def7ec525c1a",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "c58ad9c6-9d97-4a20-ad66-30c1063ed914",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "d5431d6f-88fa-429d-b3c0-c32da4332d07",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "d6d1f50e-f513-4baa-93d6-19b17fb9dc23",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "d94e96d5-9bb5-4aeb-a0c0-b32de8128d9a",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "e13d21ed-9040-41b5-aee7-28fb5feed00e",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "e2c1e530-9c9b-488e-a208-3b20f8ae7041",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "eb7b7c19-f42e-4b89-95f2-7064ae3ebad2",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "ef8267c0-09fb-4707-9631-563c89a69acb",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "f0198bc0-47de-49a6-86e7-40386d36f86d",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "f1ff78dd-034e-4208-bd87-f45d966bf2ef",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "f295b690-8399-4d86-a206-1eb6f864ffd7",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "f907b191-5324-401f-aaa8-a63c4396f36e",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "fba14221-9067-43c1-9516-5af639037471",
+        "template_name": "guaranteed true",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "rte",
+        "template_id": "fbc88b09-de1e-49b8-8743-7b449d091711",
+        "template_name": "does this imply",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    }
+]

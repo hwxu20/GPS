@@ -1,0 +1,121 @@
+dataset: winogrande
+subset: winogrande_xl
+templates:
+  1248756e-a207-4f84-87e7-0fcd675ed22a: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: 1248756e-a207-4f84-87e7-0fcd675ed22a
+    jinja: '{{ sentence }} In the previous sentence, who is _ referring to {{ option1
+      }} or {{ option2 }}? ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2
+      }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''
+  28ae0658-89ff-4e51-b72c-8f2b4414ccad: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: 28ae0658-89ff-4e51-b72c-8f2b4414ccad
+    jinja: '{{ sentence }} What does _ refer to {{ option1 }} or {{ option2 }}? |||
+      {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''
+  4fad47a2-410e-4a81-bc58-29458d8157e3: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: 4fad47a2-410e-4a81-bc58-29458d8157e3
+    jinja: '{{ sentence }} In the previous sentence, who does _ refer to {{ option1
+      }} or {{ option2 }}? ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2
+      }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''
+  4fee2022-6f2d-4406-bbe3-d52495209805: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: 4fee2022-6f2d-4406-bbe3-d52495209805
+    jinja: '{{ sentence }} What do you think _ refers to {{ option1 }} or {{ option2
+      }}? ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''
+  6112b68d-6e65-45ed-9783-1c4dca2770e0: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: 6112b68d-6e65-45ed-9783-1c4dca2770e0
+    jinja: '{{ sentence }} In the previous sentence, what is the antecedent of _ {{
+      option1 }} or {{ option2 }}? ||| {% if answer == "1" %} {{option1}} {% else
+      %} {{ option2 }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''
+  6a2f3770-68e3-4abd-ae6e-4ecffee3db92: !Template
+    answer_choices: '{{option1}} ||| {{option2}}'
+    id: 6a2f3770-68e3-4abd-ae6e-4ecffee3db92
+    jinja: '{{sentence}}
+
+      What is the referent of the _ in the above sentence? {{ option1 }} or {{ option2
+      }}? ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: underscore refer to
+    reference: ''
+  a75a1f47-3edc-45d2-833d-d65c203031b6: !Template
+    answer_choices: '{{option1}} ||| {{option2}}'
+    id: a75a1f47-3edc-45d2-833d-d65c203031b6
+    jinja: '{{sentence}}
+
+      What is the _ in the above sentence? {{ option1 }} or {{ option2 }}? ||| {%
+      if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: underscore refer to
+    reference: ''
+  be0dd2fb-12aa-4765-a877-06be8c0cc3d7: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: be0dd2fb-12aa-4765-a877-06be8c0cc3d7
+    jinja: '{{ sentence }} What do you mean by _ {{ option1 }} or {{ option2 }}? |||
+      {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''
+  d2fdf786-4a2a-4251-990a-b7a9d26a197f: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: d2fdf786-4a2a-4251-990a-b7a9d26a197f
+    jinja: '{{ sentence }} What does _ refer to in the previous sentence {{ option1
+      }} or {{ option2 }}? ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2
+      }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''

@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. Keeping in mind the above text, consider: You can be hired by passing a psychological test. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -5.853919506072998,
+            -4.974043369293213,
+            -6.372852325439453
+        ]
+    },
+    {
+        "input_text:": "Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. Keeping in mind the above text, consider: I was pregnant during at least one meeting Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -4.688039302825928,
+            -3.6491286754608154,
+            -6.239710330963135
+        ]
+    },
+    {
+        "input_text:": "Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. Keeping in mind the above text, consider: Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.474188804626465,
+            -6.334640026092529,
+            -7.8623247146606445
+        ]
+    },
+    {
+        "input_text:": "Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. Keeping in mind the above text, consider: Dookie is still alive. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.74035120010376,
+            -6.495413780212402,
+            -6.100525856018066
+        ]
+    },
+    {
+        "input_text:": "Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. Keeping in mind the above text, consider: The robbers get away from Reba by running away. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.283153533935547,
+            -5.644192695617676,
+            -5.705383777618408
+        ]
+    },
+    {
+        "input_text:": "NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) Keeping in mind the above text, consider: Crude futures experienced losses this week. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -5.7427520751953125,
+            -4.464465141296387,
+            -5.009884357452393
+        ]
+    },
+    {
+        "input_text:": "Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. Keeping in mind the above text, consider: the church dedication was in 1824 Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -5.676187992095947,
+            -5.652446746826172,
+            -6.480449676513672
+        ]
+    },
+    {
+        "input_text:": "Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. Keeping in mind the above text, consider: Bruce Larson quit drag racing for quite sometime Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -7.188972473144531,
+            -6.16774845123291,
+            -8.326231002807617
+        ]
+    },
+    {
+        "input_text:": "How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). Keeping in mind the above text, consider: Basic rules of soccer are decided upon by more than 1 member of IFAB Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.36134147644043,
+            -5.85224723815918,
+            -6.1864728927612305
+        ]
+    },
+    {
+        "input_text:": "The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). Keeping in mind the above text, consider: The Sounds have, at present, had less than four dozen coaches. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.504688262939453,
+            -6.68746280670166,
+            -4.367049694061279
+        ]
+    },
+    {
+        "input_text:": "Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. Keeping in mind the above text, consider: Anna use her camera in her photography class Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.2454071044921875,
+            -6.2865190505981445,
+            -6.532772541046143
+        ]
+    },
+    {
+        "input_text:": "Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. Keeping in mind the above text, consider: Tina enjoys being on the water. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -4.565934658050537,
+            -5.354372501373291,
+            -5.3017072677612305
+        ]
+    },
+    {
+        "input_text:": "How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. Keeping in mind the above text, consider: She wnats to copy her hairstyle. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.781046390533447,
+            -6.503849029541016,
+            -6.612267017364502
+        ]
+    },
+    {
+        "input_text:": "Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. Keeping in mind the above text, consider: Alvin's wife is immoral. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -5.250246524810791,
+            -6.38234281539917,
+            -5.072003364562988
+        ]
+    },
+    {
+        "input_text:": "Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. Keeping in mind the above text, consider: The narrator and Milosevic met on GeoCities, and their wives know each other. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -6.634572982788086,
+            -6.268441200256348,
+            -4.898078441619873
+        ]
+    },
+    {
+        "input_text:": "Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. Keeping in mind the above text, consider: fish food has a s Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.121664047241211,
+            -5.45182466506958,
+            -6.319953918457031
+        ]
+    },
+    {
+        "input_text:": "How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. Keeping in mind the above text, consider: Bankruptcy can always be avoided. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.56274938583374,
+            -6.187588214874268,
+            -7.280935287475586
+        ]
+    },
+    {
+        "input_text:": "Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! Keeping in mind the above text, consider: Scott did not get along with his boss Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.076927185058594,
+            -6.506362438201904,
+            -6.819279670715332
+        ]
+    },
+    {
+        "input_text:": "Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. Keeping in mind the above text, consider: Seth creates new levels in the game without any help from his brothers. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.49834680557251,
+            -6.441650390625,
+            -5.6984429359436035
+        ]
+    },
+    {
+        "input_text:": "How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. Keeping in mind the above text, consider: Herding dogs is a bigger group than Border collies. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.514663219451904,
+            -6.921054840087891,
+            -6.988133907318115
+        ]
+    },
+    {
+        "input_text:": "How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. Keeping in mind the above text, consider: Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.8354949951171875,
+            -6.701374530792236,
+            -6.255544662475586
+        ]
+    },
+    {
+        "input_text:": "How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. Keeping in mind the above text, consider: Red leaf lettuce must always be eaten with salad Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.223681926727295,
+            -7.406576633453369,
+            -7.292570114135742
+        ]
+    },
+    {
+        "input_text:": "Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. Keeping in mind the above text, consider: Clint had a dream where someone told him to build a Pac-Man arcade cabinet. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -6.5334367752075195,
+            -5.64263391494751,
+            -6.286179065704346
+        ]
+    },
+    {
+        "input_text:": "Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. Keeping in mind the above text, consider: Dan is in a wheelchair Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.780244827270508,
+            -6.0550923347473145,
+            -4.653100490570068
+        ]
+    },
+    {
+        "input_text:": "Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. Keeping in mind the above text, consider: Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -4.810179710388184,
+            -3.708621025085449,
+            -4.018560409545898
+        ]
+    },
+    {
+        "input_text:": "But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? Keeping in mind the above text, consider: 40,00 people with lose their union Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.523371696472168,
+            -5.872060298919678,
+            -4.022396087646484
+        ]
+    },
+    {
+        "input_text:": "Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. Keeping in mind the above text, consider: The Marple TV show used the same stories as the Marple book series. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -7.261305332183838,
+            -6.953076362609863,
+            -8.321842193603516
+        ]
+    },
+    {
+        "input_text:": "\"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. Keeping in mind the above text, consider: Dead Yakuza chose money over life. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.393467903137207,
+            -7.602809906005859,
+            -4.797884464263916
+        ]
+    },
+    {
+        "input_text:": "And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. Keeping in mind the above text, consider: The speaker would like it if the troops were withdrawn immediately. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.759084224700928,
+            -5.9767231941223145,
+            -5.337299346923828
+        ]
+    },
+    {
+        "input_text:": "Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. Keeping in mind the above text, consider: Benny was encouraged to continue Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -5.734683513641357,
+            -5.534595489501953,
+            -6.136397361755371
+        ]
+    },
+    {
+        "input_text:": "How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. Keeping in mind the above text, consider: Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.027885437011719,
+            -7.01054573059082,
+            -5.881618499755859
+        ]
+    },
+    {
+        "input_text:": "How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. Keeping in mind the above text, consider: The house will clean itself. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.040669918060303,
+            -7.252091407775879,
+            -6.026238918304443
+        ]
+    },
+    {
+        "input_text:": "Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. Keeping in mind the above text, consider: Joseph enjoyed the cake Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.866765022277832,
+            -6.264211177825928,
+            -4.276513576507568
+        ]
+    }
+]

@@ -1,0 +1,410 @@
+[
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to meet gay and bisexual men [title] know the lgbt community in your state. [step] in the last few decades, studies have been dedicated to create maps of demographics of sexual orientation. the studies show that the west coast and the states of new england have the highest percentage of lgbt people. Then,... (a) Bns are national organizations that advocate for gay and bisexuals in lgbt communities across the nation. [substeps] The national institutes of social justice (mbsi) has also shown that gay and bisexuals have the highest percentage of bns. (b) So while this geographical map is interesting for many and may provide a wealth of information that will help you have knowledge about \" gay and bisexuals, \" it's not good for anyone to assume their identity. Search for \" homophobia \" and/or \" gay and bisexuals association \" in any online database, like :. (c) States in the midwest have a very low percentage. If you are looking to surround yourself with gay and bisexual men, it will be easier to do if you live in a state with a more expansive lgbt community. (d) The chances of finding a gay and bisexual man are even higher. [title] Take a friend or family member to the meeting.",
+        "target_text": "Bns are national organizations that advocate for gay and bisexuals in lgbt communities across the nation. [substeps] The national institutes of social justice (mbsi) has also shown that gay and bisexuals have the highest percentage of bns.",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -23.285497665405273,
+            -22.964689254760742,
+            -14.602716445922852,
+            -16.055021286010742
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, a man is belly surfing as a wave arrives. he stands up on his surfboard and rides the waves. Then, a woman reporter... (a) talks to a man next to the board. (b) is interviewing him on the beach. (c) talks to a man about the surfer. (d) is interviewing the surf boarder as the waves got bigger.",
+        "target_text": "talks to a man next to the board.",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -12.7008056640625,
+            -5.109872341156006,
+            -8.802746772766113,
+            -0.5017753839492798
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, woman is holding a cat on her legs and is cutting his nails with a nail clipper. Then, the cat... (a) is now laying on the table and woman is putting clips on it's nails and making him laugh. (b) is a baby and the baby is watching his grandma slicing its nails with it's paw. (c) is faling sleep while the woman is cutting his nails. (d) is licking its paw and looking with passion on the woman.",
+        "target_text": "is now laying on the table and woman is putting clips on it's nails and making him laugh.",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -2.9086947441101074,
+            -6.8922648429870605,
+            -5.227521896362305,
+            -2.220219612121582
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, a man riding a horse and swinging a rope around is seen chasing after a calf and eventually grabbing the animal with his rope. he holds the calf down and another man comes out to help the man tie up the calf. Then, he... (a) releases the rope that fell out and the calf rushes to get out of the hay. (b) ropes the calf up once more and throws it over his shoulder next to him. (c) then grabs his rope and rides out of the arena on his horse. (d) picks up another calf and begins swinging him around on his rope while the man is once again standing next to the man.",
+        "target_text": "releases the rope that fell out and the calf rushes to get out of the hay.",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -4.745110511779785,
+            -4.515528202056885,
+            -4.850010395050049,
+            -5.641260147094727
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to stop your parents from nagging about schoolwork [title] let them know that nagging you isn't helping. [step] but, put this as respectfully as possible. don't say it in a rude or irritated way. Then,... (a) Just say, \" you don't need to nag me. We need to talk about it, \" and move on. (b) Say, \" i'm sorry, but my work is taking up a lot of my time. Do you mind if i do my homework too? \" if they insist, wait and let them know gently. (c) [substeps] You might say something like, \" i really think that if you asked me a bit more nicely about my schoolwork, i would be able to talk to you about it more. \" [title] Agree to work harder on your schoolwork. (d) Always direct the conversation with questions to show them you're not throwing a fit or complaining. [substeps] You might say, \" grandma, i know that you sometimes find me very stressed out.",
+        "target_text": "Just say, \" you don't need to nag me. We need to talk about it, \" and move on.",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -6.421135425567627,
+            -11.930253028869629,
+            -18.46814727783203,
+            -16.05320167541504
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to make cake mix [title] sift dry ingredients. [step] place the all purpose flour, baking powder, and salt into a sifter or a strainer. sift into a bowl, eliminating any clumps. Then,... (a) [title] Sift the egg white, milk, and sugar into a separate bowl. [step] Crack open the egg white into another container and stir until it dissolves completely. (b) [substeps] The flour and salt may both appear crumbly, so a strainer is absolutely necessary for this recipe. Alternatively, use a cheese strainer to collect the dry ingredients. (c) [substeps] Sifting helps lighten the flour from where it's been packed down. It also helps to mix the dry ingredients together well. (d) [substeps] Use a wire mixing container with a small enough opening to contain the batter. Your bowl should be shallow enough to comfortably transport the cake mix, but wide enough to accommodate the size of your cake mix cups.",
+        "target_text": "[title] Sift the egg white, milk, and sugar into a separate bowl. [step] Crack open the egg white into another container and stir until it dissolves completely.",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -12.470057487487793,
+            -19.007516860961914,
+            -19.081907272338867,
+            -12.716442108154297
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to make a garland with scrap fabrics [title] sort through your fabric stash. [substeps] coordinate the scraps by their color. determine how much yardage you have. Then,... (a) Together they will make up a lot of your garland. Do you have enough scrap fabric in your home to accommodate polyworcestershire yarn (and make sure to adjust the yardage of these scraps you have)? Use green yarn for a bold color theme. (b) Start from small and work your way up to larger pieces. As your garland size increases, you'll gradually increase the yardage. (c) You will be able to make approximately 30 inches (76 cm) of garland per yard (91 cm) of fabric you have on hand. Choose 2 to 4 coordinating fabrics to use for your garland. (d) If you have a lot of scraps, sort into different colors. If you have too many scraps, you'll have to sort through all of your scraps to determine what things to keep.",
+        "target_text": "Together they will make up a lot of your garland. Do you have enough scrap fabric in your home to accommodate polyworcestershire yarn (and make sure to adjust the yardage of these scraps you have)? Use green yarn for a bold color theme.",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -20.226184844970703,
+            -10.333235740661621,
+            -8.700075149536133,
+            -13.686225891113281
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, there's are some young athletes standing in an open field talking about hurling as some players play the game. Then, there... (a) are a lot of people gathered on the field and the coach is running around directing the game. (b)'s some young men dressed in white shirts standing with a red flag and a blue one sitting in front of them. (c) are two teams participating in hurling. (d) are several spectators watching the children from the sides.",
+        "target_text": "are a lot of people gathered on the field and the coach is running around directing the game.",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -6.023434638977051,
+            -9.2958345413208,
+            -4.352311134338379,
+            -1.751982569694519
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to be a corporate lawyer [title] understand what a corporate lawyer does. [step] corporate lawyers serve only one client-the corporation they work for. as a corporate lawyer, you will be called upon to handle a variety of legal tasks including corporate taxes, mergers and acquisitions, corporate structure issues, employment law, and government reporting. Then,... (a) [substeps] The corporate lawyer will spend an average salary of at least $12, 500 a year on legal work. The average hourly salary for corporate lawyers is $80, 000 per month. (b) These tasks are complex and difficult, so you will need some practice. [substeps] Going into this field by yourself may be stressful, but it is necessary if you want to land a corporate position. (c) Corporate lawyers will generally need to be knowledgeable in a wide range of legal fields and will need to be able to handle a large number of issues. Some corporations will hire multiple lawyers and each will be a specialist in one or two areas of corporate law. (d) These tasks are often complicated to handle individually, but are often highly recommended. To become a corporate lawyer, you must need to learn.",
+        "target_text": "[substeps] The corporate lawyer will spend an average salary of at least $12, 500 a year on legal work. The average hourly salary for corporate lawyers is $80, 000 per month.",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -15.963007926940918,
+            -22.771047592163086,
+            -11.97299861907959,
+            -10.914865493774414
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, a sign board is seen with a company logo and contact information. a construction worker screws down floor baseboards. Then, a construction worker... (a) shakes the dust around in a box while welding. (b) uses a handheld scraper to apply plaster to the bare floor. (c) nails tiles together on an asphalt floor. (d) lifts tiles to place in a protection configuration.",
+        "target_text": "shakes the dust around in a box while welding.",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -10.161641120910645,
+            -3.615004062652588,
+            -2.216010570526123,
+            -4.566624164581299
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to prove workplace bullying [title] start a log of events. [step] if someone at work starts bullying or harassing you, keep a detailed and organized log of each of the incidents. you may be not even need more than one incident, depending on the severity, before you can take action. Then,... (a) [substeps] Keep the log in a safe place where the bully cannot grab it. Remove as many objects as you can, let your belongings drop out of sight, and store them someplace you can't see. (b) [substeps] Incidents severe enough to warrant repercussions on their own include any physical abuse or intimidation, or verbal abuse that is blatantly racist or sexist. Smaller incidents may add up to a pattern of bullying or harassment. (c) [substeps] To start, find a person at the bottom of your log with whom you interact frequently. For example, you may be a coworker, or a teacher at a local high school. (d) [substeps] You may need a library or diary to record every incident. Write down any details that could be added into the log.",
+        "target_text": "[substeps] Keep the log in a safe place where the bully cannot grab it. Remove as many objects as you can, let your belongings drop out of sight, and store them someplace you can't see.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -11.97530746459961,
+            -14.234918594360352,
+            -13.140491485595703,
+            -14.03784465789795
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to make a shrimp tempura roll [title] make the tempura batter. [step] mix the flour, eggs, and cold water. make sure you put an equal amount of all three of the ingredients. Then,... (a) Mix in the shortening and cornstarch. [title] Spread the batter on a baking sheet. (b) Too much water could make the batter too runny, and too much flour could make the batter too thick. For a single roll, one egg, half a cup of cold water, and a cup of flour should work just fine. (c) If your recipe calls for 1 cup water, use that instead of flour. Then add 3 eggs and 1 flour into the egg mixture. (d) [substeps] To make a recipe using the flour mix, place the flour and water in a mixing bowl. Add your fingers to the flour mixture and whisk in the mixture.",
+        "target_text": "Mix in the shortening and cornstarch. [title] Spread the batter on a baking sheet.",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -14.184395790100098,
+            -12.708538055419922,
+            -8.410025596618652,
+            -11.95368766784668
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, the man takes a bow from a bag and lines it up on his arrow and man shoots his bow. Then, we... (a) then see a shot of a bridge, then houses with the same saying and logo. (b) switch to two other men shooting their bows. (c) see a stadium with instructors. (d) see the words above the arrow.",
+        "target_text": "then see a shot of a bridge, then houses with the same saying and logo.",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -9.274660110473633,
+            -4.903045654296875,
+            -3.5991311073303223,
+            -0.7806020975112915
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to play pool like a pro [title] check your hand position. [substeps] hold the thick end of the cue in your dominant hand with your palm facing upward. find the spot on the wrap where the cue evenly balances. Then,... (a) Holding it at that spot can put a lot of pressure on the cue ball, leading to inaccurate shots on the ball. You can also experiment to see where you can get heavier. (b) Grip your cue about 1 \" behind that spot. Make a circle with the thumb and index finger of your non-dominant hand. (c) Grip the cue between the index and middle fingers. This can be anywhere between 0.5 centimeter (0.8 in) and 0.8 centimeter (0.7 in). (d) At the top of the cue, with the cue wand on the opposite end, place the point between the index and middle fingers. [title] Position the cue wand in your extended out (vertical) position.",
+        "target_text": "Holding it at that spot can put a lot of pressure on the cue ball, leading to inaccurate shots on the ball. You can also experiment to see where you can get heavier.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -10.945014953613281,
+            -17.903146743774414,
+            -16.303260803222656,
+            -14.116678237915039
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, we see a man walk over and sits on a rowing machine. the man drink from his water. the man rows fast on the machine. we see a title screen. Then, we... (a) then see the man board a surf board. (b) see the man stop rowing and walks and gets the camera. (c) see a man look at his camera. (d) see the ending title screen.",
+        "target_text": "then see the man board a surf board.",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -10.176090240478516,
+            -6.33897066116333,
+            -5.723262786865234,
+            -0.31026768684387207
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, a man is seen pulling a pair of drums closer. he then begins playing on the drums. Then, the man... (a) continues playing and ends by laughing to the camera. (b) continues to play while looking off into the distance. (c) pauses and speaks more. (d) stops and begins drinking from a water can.",
+        "target_text": "continues playing and ends by laughing to the camera.",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -3.2867798805236816,
+            -3.65617036819458,
+            -4.524404048919678,
+            -1.9631561040878296
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to calculate a lease payment [title] learn the three main components of a lease payment. [step] the first is depreciation, the reduction in the value of the car over the term of the lease. the second is financing, the amount that you pay for the use of the car. Then,... (a) The money must be depreciated on time, and even in the first year of the lease. You would need to analyze the difference between a car depreciation and a lease repayment. (b) It is computed on the amount the leasing company invested to purchase it. The third is sales tax, which is added to the monthly lease payment in many u.s. (c) To calculate a lease payment, take out your loan term. You will need to change this out to a period of 30 years or longer. (d) Both financing and repayment periods vary and require different written forms and methods in order to be effective. [title] Look at your bank statements and loan statements.",
+        "target_text": "The money must be depreciated on time, and even in the first year of the lease. You would need to analyze the difference between a car depreciation and a lease repayment.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -11.745393753051758,
+            -18.207534790039062,
+            -13.070655822753906,
+            -19.830705642700195
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, the video begins with a title screen. Then, an older man... (a) is then shown speaking to several participants at an event. (b) shows off a surfing helmet on a child. (c) rides a bicycle over slopes standing in a parking lot. (d) is seen in a gym speaking to the camera while men play volleyball in the background.",
+        "target_text": "is then shown speaking to several participants at an event.",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -4.556247234344482,
+            -3.2472949028015137,
+            -8.015402793884277,
+            -1.3188672065734863
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, the person is now showing a very close up of them putting ingredients into a large clear glass bowl, and they mix it all together with a wooden spoon. Then, the person... (a) now has all of the ingredients blended together and sandwich seated into a bowl. (b) puts the mixing bowl into the large wooden pot, which they attach to the stove with two forks, then they struggle to get the liquid out of the bowls, they reach in for the spoons and scoop out the mess, finally putting it on a same plate to make a girl into puppy dog laugh. (c) is now talking to the camera that is sitting on the ground in the middle of them like it has been there a lot longer now that the time is come for them to start boiling it all together. (d) stops mixing with a spoon and then begins to use their hand to mix it all together.",
+        "target_text": "now has all of the ingredients blended together and sandwich seated into a bowl.",
+        "label:": 3,
+        "prediction:": 0,
+        "logits": [
+            -5.54064416885376,
+            -7.58895206451416,
+            -11.13248062133789,
+            -6.5580830574035645
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, then he is shown taking parts out to put the saxophone together where there isn't anyone really looking. Then, when he... (a)'s finished, all of the saxophones are added together and each one he put in has a gold bar riding onto the bass drum. (b) is done, he pulls out the bag and proceeds to use the device to play the saxophone all through the whole time. (c) the is over, he smiles to the camera and with one final union point he begins leaving the camera. (d)'s finished, he starts to play the saxophone using his mouth and his fingers.",
+        "target_text": "'s finished, all of the saxophones are added together and each one he put in has a gold bar riding onto the bass drum.",
+        "label:": 3,
+        "prediction:": 1,
+        "logits": [
+            -15.691737174987793,
+            -2.3800768852233887,
+            -6.130451679229736,
+            -3.8676962852478027
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, next, the man holds up a bag of lemons and begin to talk before they put their head equipment on. now, it is time for the match and they begin wrestling with one another. Then, however... (a), he turns the other around acting all crazy as he hits her continuously. (b), a fight breaks out between each of them and one makes a cut. (c), the man wins and they all laugh and talk about the outcome, after flipping the match over. (d), they've added a feature to the match and each person has to put lemons in the other's hat to gain points.",
+        "target_text": ", he turns the other around acting all crazy as he hits her continuously.",
+        "label:": 3,
+        "prediction:": 2,
+        "logits": [
+            -23.12516975402832,
+            -15.268474578857422,
+            -10.378040313720703,
+            -11.103289604187012
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to get an automatic and correct flash sight picture and an automatic and correct sight picture with p&s [title] learn to aim. [step] aiming involves sight alignment and sight placement. [title] learn what sight alignment is. Then,... (a) [step] Sight alignment is the placement of crosshair lines on the ground. This enables sighting to identify sights for target conditions or to guide crosshairs over distance. (b) [step] This is similar to the physical method, but your shooting sight will have the graphics shown on the display of the screen, such as balance, dotted light, a branch at the prime. This has many uses for one rifle, such as allowing you to be no more than 7 feet (2 meters) off the ground, well-controlled, target. (c) [title] Learn the control positions that occur in a snappose click and hold steady target hold. [title] Learn which mode to use with a picture splitter. (d) [step] Sight alignment is the centering of the front blade in the rear sight notch, and the raising or lowering the top of the front sight so it is level with the top of the rear sight. [title] Sight placement is the positioning of the weapon's sights in relation to the target.",
+        "target_text": "[step] Sight alignment is the placement of crosshair lines on the ground. This enables sighting to identify sights for target conditions or to guide crosshairs over distance.",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -12.197356224060059,
+            -9.874215126037598,
+            -10.961644172668457,
+            -8.660361289978027
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to live the yogic lifestyle [title] enroll in a class. [step] first things first: to live the lifestyle, you need to start doing yoga. consider joining a class at a gym, community center, or yoga studio, for example. Then,... (a) Yoga classes are designed to teach you some basic lifestyle moves. [substeps] Some classes for the yogic lifestyle include count and lean, slow yoga, and pali komigoong. (b) Starting yoga will help stretch your body after work and make you less susceptible to tightness and flare. Prepare your face and head, for example, for a yoga session. (c) [substeps] If you live in a rural area, going to local yoga studios will likely be easier than going to smaller-scale studios that are cheaper. Check online to find out any classes offered in your area. (d) Ease your way into the practice and prepare to feel better and more relaxed. [substeps] There are many reasons to start yoga.",
+        "target_text": "Yoga classes are designed to teach you some basic lifestyle moves. [substeps] Some classes for the yogic lifestyle include count and lean, slow yoga, and pali komigoong.",
+        "label:": 3,
+        "prediction:": 1,
+        "logits": [
+            -14.223722457885742,
+            -10.394012451171875,
+            -13.112236976623535,
+            -18.194917678833008
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to build a self sustaining ecosystem [title] choose a size for your ecosystem. [step] if you are new to building ecosystems, you may want to start small. however, the smaller your container, the harder it is to maintain a self-sustaining environment. Then,... (a) Subtract, or add sizes of ecosystems, trees, flowers, plants, and other organisms. Purchase your selection online so you know what will fill the bottom. (b) Experiment with sizes and sizes until you find what works for you. [substeps] For example, a 10-gallon bucket won't take up a lot of room in a 2-gallon bucket. (c) Deciding on a size can require you to assess whether you want to work with plants, birds, insects, or other creatures in your ecosystem. [substeps] For example, a 10-gallon tank might require an aquarium pond 4-6 gallons. (d) Larger containers allow for the inclusion of multiple diverse species and give everything room to grow. All containers must be clear to let in light.",
+        "target_text": "Subtract, or add sizes of ecosystems, trees, flowers, plants, and other organisms. Purchase your selection online so you know what will fill the bottom.",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -12.205389976501465,
+            -20.21085548400879,
+            -17.770849227905273,
+            -9.240330696105957
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to manage chats on whatsapp [title] open the whatsapp app. [step] if you do not already have whatsapp installed, you can get it from the. [title] select the \" chats \" tab. Then,... (a) [step] For example, you can tap \" log in \" in the \" create an account \" window to create an account with whatsapp. [substeps] When you're creating an account, tap the \" register \" button below \" setup settings \" in the upper right corner. (b) [step] A pop-up will appear asking you to log in. [title] Click \" send \" on the pop-up to send your friend and/or feed him/her the info you want him/her to see. (c) [step] If you do not have whatsapp installed, you can download the app from the app store at. [title] Sign into the you-app-visit screen. (d) [step] This button appears in the top menu bar, under the search and call buttons. You will be taken to a list of your chats.",
+        "target_text": "[step] For example, you can tap \" log in \" in the \" create an account \" window to create an account with whatsapp. [substeps] When you're creating an account, tap the \" register \" button below \" setup settings \" in the upper right corner.",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -18.510202407836914,
+            -20.028682708740234,
+            -16.248266220092773,
+            -15.645672798156738
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to outshine someone extremely popular [title] notice what the other person is doing that gets so much attention. [step] if it's something positive, like good grades or a good sense of fashion, you will want to go for the same thing. but if they're popular because they smoke or sleep around, think twice. Then,... (a) Do you really want to put your safety at risk for the sake of a little attention? [title] Think about yourself and the popular individual. [step] What do they do that you could do yourself? [title] Think about you, and what's important to you. (b) Always be aware of what the other person is doing that won't get the attention. [title] Find something you and your friend would compare with each other. (c) [title] Ask the two of them to go see their favorite movie. [step] If you're not sure you want to watch the movie, ask if it's okay if you do. (d) You don't want to start a rumor about that person's newfound popularity! [title] Have them do what you want them to do. [step] Don't bother trying to do something because you find it annoying, of course, but try and work with them if you see what it is.",
+        "target_text": "Do you really want to put your safety at risk for the sake of a little attention? [title] Think about yourself and the popular individual. [step] What do they do that you could do yourself? [title] Think about you, and what's important to you.",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -26.0705509185791,
+            -20.362293243408203,
+            -10.379354476928711,
+            -13.76220703125
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, a man starts talking and a young boy in pommel horse doing some endless circling move. he continues on doing it while the man is watching him and showing him what to do. Then, the man... (a) continues on talking about pommel horse while the boy continue on doing his routine. (b) does a few hand stands and is in the audience watching him. (c) is in very animated but just how to do the process is pretty difficult. (d) is still unsuccessful in brushing the horse.",
+        "target_text": "continues on talking about pommel horse while the boy continue on doing his routine.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.7306275367736816,
+            -8.623483657836914,
+            -6.178600311279297,
+            -4.481296062469482
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to clean a sticky keyboard [title] turn your computer off. [step] before you begin cleaning a sticky keyboard you will need to shut down your computer. once your computer is shut down, make sure its power sources are disconnected. Then,... (a) For example, if your desktop is plugged into an outlet, you will need to unplug it. [title] Unplug the keyboard from the computer. (b) Turn off your computer and unplug your device. This will save energy and reduce the number of germs that can then get on your device during the cleaning process. (c) Be sure that the sound meter on your computer is turned off before proceeding to any important tasks. [substeps] Doing so will prevent the key from accidentally buzzing and could put a damper on the cleaning process. (d) Turning your computer back on will allow you to perform the cleaning. [substeps] Without power off your computer, it will take much longer to clean a sticky keyboard than if you left your computer on with the circuit breaker on.",
+        "target_text": "For example, if your desktop is plugged into an outlet, you will need to unplug it. [title] Unplug the keyboard from the computer.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -11.021147727966309,
+            -7.681324005126953,
+            -9.955316543579102,
+            -8.948371887207031
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, many kids are in a gym playing dodge ball. the camera goes to one of the kids showing them making a throw. Then, the kids... (a) run back and forth as the game persists. (b) are swishing the balls up and down. (c) continue to walk around the court. (d) continue to make the throws and launch back and forth between the camera and the other kids.",
+        "target_text": "run back and forth as the game persists.",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -5.755821228027344,
+            -4.785981178283691,
+            -6.876624584197998,
+            -0.7609633803367615
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to file for divorce in texas without a lawyer [title] determine if you qualify to file for divorce in texas. [step] under texas law, at least one party to the divorce must have resided in texas for at least six months prior to the filing of the divorce. in addition, either you or your spouse must have lived in the county where you file for 90 days prior to the date of filing. Then,... (a) Also, a divorce in texas cannot be finalized if the wife is pregnant. If your wife is pregnant, be sure to keep this in mind. (b) If you and your spouse are unable to agree on a name change, you must have served as an alternate. You are considered an alternate as long as your default filing term of 90 days has passed. (c) In other words, neither party must have resided in the county where the divorce was finalized. [title] Determine if your state does not require the paperwork for divorce to be filed. (d) [substeps] Any resulting separation is an ordered divorce. You cannot file for divorce without a lawyer.",
+        "target_text": "Also, a divorce in texas cannot be finalized if the wife is pregnant. If your wife is pregnant, be sure to keep this in mind.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -17.596006393432617,
+            -8.930435180664062,
+            -19.432518005371094,
+            -17.75904655456543
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to bid on remodeling jobs [title] get credit references from your client if you have not worked for him before. [step] it's only smart business to ensure that your client has the means to pay you for your work. asking for bank references is certainly not out of line, especially if the remodeling job is significant. Then,... (a) Additionally, if you discover that your potential client has a history of dragging out payments, you may wish to decline bidding. [title] Analyze the job to see if it will make you a profit. (b) A good way to get references is to reference past clients to websites. Simply use \"...\" to give them your bid. (c) Remember to ask if your client would be willing to pay for this work when you bid on the job. [title] Evaluate your bid (or bid) based on the location and the quality of the work. (d) To get an off the cuff financial lift, ask a family member to vouch for your work. [substeps] Rich people-such as older retired people-may have financial needs other than trying to cover the cost of an expansion.",
+        "target_text": "Additionally, if you discover that your potential client has a history of dragging out payments, you may wish to decline bidding. [title] Analyze the job to see if it will make you a profit.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -14.929864883422852,
+            -10.203390121459961,
+            -13.064247131347656,
+            -17.108680725097656
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to use herbs to treat the flu [title] take andrographis as soon as you notice flu symptoms. [step] andrographis may reduce the severity of flu symptoms and the length of illness if it is taken as soon as the symptoms start. make sure that you talk to your doctor before trying this herb. Then,... (a) [substeps] Do not use andrographis if you have high or low blood pressure, diabetes, take a blood thinner, have an immune disorder, or if you are pregnant or trying to become pregnant. Choose a supplement that has been standardized to 4-5.6 mg andrographolide. (b) [substeps] Do not try andrographis as soon as you notice flu symptoms. Instead, take androtrec 1-3 times a day. (c) [substeps] Refrain from using andrographis if you are pregnant, having kidney and liver problems, or have other medical conditions which may impair your ability to take it. [title] Apply andrographis to protect yourself from fleas. (d) You should also talk to your doctor about taking andrographis to lessen the severity of flu-like symptoms. [substeps] You should also avoid taking andrographis if you have hypertension, strokes, urinary tract infections, or arthritis.",
+        "target_text": "[substeps] Do not use andrographis if you have high or low blood pressure, diabetes, take a blood thinner, have an immune disorder, or if you are pregnant or trying to become pregnant. Choose a supplement that has been standardized to 4-5.6 mg andrographolide.",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -14.516619682312012,
+            -17.899658203125,
+            -14.462050437927246,
+            -14.7747802734375
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to protect yourself during legal separation [title] stay in the home. [step] if you move out of the house, then you reduce the chances of getting joint custody. a judge will interpret your actions as a sign that you don't care about your children. Then,... (a) [substeps] If it is difficult to stay in the same house as your spouse, then you might want to \" time-share. \" under this arrangement, you both live in the house but at different times. (b) For these reasons, stay in the home. [substeps] The judge might give you a week or two to get out of the home. (c) [title] Determine how much time you are able to spend with your children. [step] Each state has its own requirements about how you can spend time with your children. (d) Some states and municipalities allow one parent to take custody during divorce proceedings. Others defraud plaintiff's other parent by suing the other.",
+        "target_text": "[substeps] If it is difficult to stay in the same house as your spouse, then you might want to \" time-share. \" under this arrangement, you both live in the house but at different times.",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -12.794482231140137,
+            -11.246013641357422,
+            -10.589091300964355,
+            -10.579421043395996
+        ]
+    },
+    {
+        "input_text:": "Describe the end of the journey: First, [header] how to convince your parents to let you buy a bunny [title] do some research on the basics of rabbit care. [step] your parents want to make sure you know how to care for any pet. spend some time online looking up the basics of rabbit care on websites like the humane society and the aspca. Then,... (a) [substeps] Rabbits usually live in cages or huts that are stocked with cedar or wood shavings. If your parents worry about messes, rabbits can be litter trained. (b) Check out the different rabbit options, as well as your parents' selections. Do some research online so you know what to expect in terms of price, facilities, and the availability of bunny clothes at specialty fur stores. (c) Sometimes these websites will let you see the water bowl, the good care instructions as well as some basic rules like doling out food and water. [substeps] Also research caring for a bunny from a reputable source. (d) [title] Find out what a bunny is allowed to bring into a home. [step] Many shelters or rescue organizations don't allow their rabbits outdoors in gardens.",
+        "target_text": "[substeps] Rabbits usually live in cages or huts that are stocked with cedar or wood shavings. If your parents worry about messes, rabbits can be litter trained.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -19.877145767211914,
+            -9.456583976745605,
+            -14.612701416015625,
+            -14.583189010620117
+        ]
+    }
+]

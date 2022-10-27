@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Assume it is true that How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. Therefore, \"You can be hired by passing a psychological test.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -11.300793647766113,
+            -8.196624755859375,
+            -12.966692924499512
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. Therefore, \"I was pregnant during at least one meeting\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -10.997904777526855,
+            -6.679263114929199,
+            -15.283729553222656
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. Therefore, \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -13.802703857421875,
+            -8.305974006652832,
+            -13.818671226501465
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. Therefore, \"Dookie is still alive.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -11.913785934448242,
+            -7.43582010269165,
+            -14.53674030303955
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. Therefore, \"The robbers get away from Reba by running away. \" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -13.553038597106934,
+            -8.876713752746582,
+            -11.335973739624023
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) Therefore, \"Crude futures experienced losses this week.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -9.183964729309082,
+            -7.294100284576416,
+            -14.935084342956543
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. Therefore, \"the church dedication was in 1824\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -10.022665023803711,
+            -7.116950988769531,
+            -13.444597244262695
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. Therefore, \" Bruce Larson quit drag racing for quite sometime\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -13.723191261291504,
+            -8.131181716918945,
+            -15.262086868286133
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). Therefore, \"Basic rules of soccer are decided upon by more than 1 member of IFAB\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -10.414353370666504,
+            -7.595486640930176,
+            -14.110808372497559
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). Therefore, \"The Sounds have, at present, had less than four dozen coaches.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -12.038273811340332,
+            -8.089367866516113,
+            -13.642435073852539
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. Therefore, \"Anna use her camera in her photography class\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -12.532352447509766,
+            -7.569669723510742,
+            -13.71285629272461
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. Therefore, \"Tina enjoys being on the water.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -10.266339302062988,
+            -6.655526161193848,
+            -14.200387001037598
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. Therefore, \"She wnats to copy her hairstyle.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -13.121426582336426,
+            -8.705426216125488,
+            -12.392912864685059
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. Therefore, \"Alvin's wife is immoral.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -9.738903999328613,
+            -8.058538436889648,
+            -10.246280670166016
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. Therefore, \"The narrator and Milosevic met on GeoCities, and their wives know each other.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -13.769808769226074,
+            -7.565444469451904,
+            -13.374643325805664
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. Therefore, \"fish food has a s\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -12.034223556518555,
+            -6.914728164672852,
+            -15.738863945007324
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. Therefore, \"Bankruptcy can always be avoided.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.094446182250977,
+            -9.738418579101562,
+            -12.254571914672852
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! Therefore, \"Scott did not get along with his boss\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.393875122070312,
+            -7.065350532531738,
+            -11.000499725341797
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. Therefore, \"Seth creates new levels in the game without any help from his brothers. \" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -13.023849487304688,
+            -9.083248138427734,
+            -11.986612319946289
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. Therefore, \"Herding dogs is a bigger group than Border collies.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.067923545837402,
+            -7.051544189453125,
+            -13.218545913696289
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. Therefore, \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.8255033493042,
+            -8.18956184387207,
+            -12.910614967346191
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. Therefore, \"Red leaf lettuce must always be eaten with salad\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -13.759825706481934,
+            -7.8824238777160645,
+            -13.118473052978516
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. Therefore, \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -12.064325332641602,
+            -6.346809387207031,
+            -11.458041191101074
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. Therefore, \"Dan is in a wheelchair\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -13.651870727539062,
+            -7.600638389587402,
+            -11.701146125793457
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. Therefore, \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -11.534113883972168,
+            -5.740405559539795,
+            -11.204499244689941
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? Therefore, \"40,00 people with lose their union\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -11.005383491516113,
+            -8.931520462036133,
+            -12.39961051940918
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. Therefore, \"The Marple TV show used the same stories as the Marple book series.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -11.579719543457031,
+            -8.76753044128418,
+            -14.629069328308105
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that \"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. Therefore, \"Dead Yakuza chose money over life.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -11.861801147460938,
+            -8.616711616516113,
+            -10.324443817138672
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. Therefore, \"The speaker would like it if the troops were withdrawn immediately.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -14.804786682128906,
+            -10.863526344299316,
+            -9.966259002685547
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. Therefore, \"Benny was encouraged to continue\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -13.045686721801758,
+            -7.957343578338623,
+            -11.650177001953125
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. Therefore, \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -12.06341552734375,
+            -10.699820518493652,
+            -10.60169506072998
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. Therefore, \"The house will clean itself.\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -10.679060935974121,
+            -8.303656578063965,
+            -11.890517234802246
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. Therefore, \"Joseph enjoyed the cake\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -13.704784393310547,
+            -8.109671592712402,
+            -11.358328819274902
+        ]
+    }
+]

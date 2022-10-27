@@ -1,0 +1,83 @@
+[
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "0e0872e2-f51f-4ec9-af84-e6f6ec11e5ba",
+        "template_name": "fill in the blank",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "6d1b8488-9a02-497d-b329-1c0a949e33e2",
+        "template_name": "does underscore refer to",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "9bcbd4b3-326f-459c-95c1-7b191e8d4b00",
+        "template_name": "underscore refer to",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "a22f6595-ab8f-450b-8c21-a66539ea2e9d",
+        "template_name": "underscore refer to",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "a4bc2e4e-0f98-4804-a4df-e83c9bb9e6a3",
+        "template_name": "fill in the blank",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "c4f51cb4-3bc8-4c88-a781-add4d92cf5c6",
+        "template_name": "underscore refer to",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "db85b6d0-4fa8-4873-84a6-2460c02304da",
+        "template_name": "fill in the blank",
+        "evaluation": {
+            "accuracy": 0.48484848484848486
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "f3b8f164-f3e8-4ad4-9a24-5af6332c0ba7",
+        "template_name": "underscore refer to",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "fd11261d-d726-4aa7-acc8-eb4955bc50e2",
+        "template_name": "fill in the blank",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    }
+]

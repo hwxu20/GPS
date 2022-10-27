@@ -1,0 +1,488 @@
+[
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "02c9bf75-f19d-4c67-b1be-7ecd6c3c9f62",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "037a619f-d820-45bf-84df-d197505b5b4a",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "0b5c38bb-8355-4f11-ae9c-61d3541e601d",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "0f1b2220-d6d2-4c00-864e-00d5c1342456",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "1382d046-b055-4cf4-a6ba-9da15020dc24",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "1438f6c1-610f-4000-9a4f-8be3255cc205",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.45454545454545453
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "1c54f25b-9fe4-4155-86c6-425614a68092",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "2ca2136e-4315-47c6-b5b2-4daa5cb6ecdc",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "3489b78c-b77a-4dc0-bdc8-d2565517233f",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "3a4cb209-28b0-4f90-aaf7-819a0ef9f41c",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "3b5be925-c1f4-41d3-bcbd-b2d796399773",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "3f985c29-f1c0-4ee1-ab81-b0ad9168a07f",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "445169e8-5c9e-44ba-a4de-9e3ae943b9a2",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "461a8886-76d3-4050-b71c-b7f3833e061e",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "46b2f6f6-8cad-45b1-9de2-548694fe88bf",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "477dbfe6-296d-4998-855a-214b4a5fef21",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "4c3d2296-8f27-4dc0-b321-783cc8bdcc7d",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "4c9edc44-96b7-43f4-839f-75a0adb5aafe",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "5d0f10db-fb18-403e-b0f2-c7bd11923955",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "621da5f7-c1e3-460d-a32c-f900a3fe2396",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "6d5e6886-4089-4311-b486-ec40a72d710e",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "743d6024-dd47-456c-bae8-d93d6ad0e490",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "7756ab7a-08ad-4423-8c9d-27ce4e32f4af",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "805bc6b5-6391-45e9-be02-c153464850a3",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "817571cc-4f52-4686-ae0f-2aeebc50182e",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "8903fe05-207d-4bc5-ab0a-987c35808aa2",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "8b952825-f882-456b-9941-9f6946b3b528",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "8dd03439-5ae6-4dcc-8a32-5737cb275360",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "904d6b81-4b02-4482-9b62-9ddb6f2de232",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "98a103af-70c9-4a4e-84c3-812f114d9aba",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "ac1aade9-e2cd-4ba9-8fb4-dc127f0fb1fa",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "ac1e6c4a-5e82-4fc6-9844-f28f7b2d3caf",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "ac819455-e7ee-43c4-96c7-61847e468f4a",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "af81f546-ba70-4bf9-acb5-1a6296f51e95",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "b032386d-6ef1-4be0-9e57-4fbdaf2d7c00",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "b5437fc9-dcfe-4ff6-b993-40cbbabe8ca9",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "bbe820b0-90c6-4307-9d75-57b093c3f24f",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "c06afc2f-097c-4d69-b394-8dec6a338ade",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "c3de4b61-dad8-41b8-a610-da0005d2d7b0",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "c49ec9bc-7dc1-4935-b913-f138806e53b9",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "c8286150-b49f-46e2-abe4-2fdc5d5e3f00",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "d954dcf9-29fe-4a71-88c2-fb0801c81215",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "d9a1ff90-bcac-459f-8442-eb5a17f9471b",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "dd8e36d2-f666-4902-9632-4f93f3293287",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "e50cf155-5487-4151-929d-4427e22bd63f",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "eda711df-15b3-41e1-980d-282d6b486e03",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "edc38f28-5356-4d08-8a52-987d5bd4594a",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "ee497891-a168-45fc-b203-93fb681883a7",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "ef5bb3ea-f6cb-4a79-8b71-017cbdd4a2ad",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "f9531e00-f940-4c17-8dc5-f9328605d646",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "fae4e1fd-3489-4f06-8438-a5209cbb0daa",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "fb4eafd2-f70e-49f6-88e5-bdfa74c7a94d",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "fd662552-a724-4490-a7fd-cbd2e2e3b42d",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "wsc.fixed",
+        "template_id": "fd78c22e-8047-4b59-aa77-72aebe25bade",
+        "template_name": "GPT-3 Style",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    }
+]

@@ -1,0 +1,322 @@
+[
+    {
+        "input_text:": "Can we extend the legs of this dining table? Extend the TV antenna. Question: Does the word \"extend\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.2642207145690918,
+            -1.1424890756607056
+        ]
+    },
+    {
+        "input_text:": "Did you catch that allusion? I have to catch a train at 7 o'clock. Question: Does the word \"catch\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.32650449872016907,
+            -1.9697808027267456
+        ]
+    },
+    {
+        "input_text:": "The car's finish was so shiny and new. \"Almost an inspiration which gives to all work that finish which is almost art\" -- Joseph Conrad. Question: Does the word \"finish\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.11061033606529236,
+            -2.461881399154663
+        ]
+    },
+    {
+        "input_text:": "Flood the market with tennis shoes. The images flooded his mind. Question: Does the word \"flood\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7710821032524109,
+            -1.5860188007354736
+        ]
+    },
+    {
+        "input_text:": "Lie dormant. The snow lies on the roof. Question: Does the word \"lie\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9641650915145874,
+            -2.6694955825805664
+        ]
+    },
+    {
+        "input_text:": "He was unable to make his motion because he couldn't get recognition by the chairman. Increasing recognition that diabetes frequently coexists with other chronic diseases. Question: Does the word \"recognition\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9923496246337891,
+            -1.8703423738479614
+        ]
+    },
+    {
+        "input_text:": "Build up confidence. The contractor builds houses for $100. Question: Does the word \"build\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.8869708776473999,
+            -1.3756155967712402
+        ]
+    },
+    {
+        "input_text:": "They sailed south around the point. A row of points. Question: Does the word \"point\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4373508095741272,
+            -1.5491591691970825
+        ]
+    },
+    {
+        "input_text:": "You are trying my patience. Try the yak butter. Question: Does the word \"try\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.26371797919273376,
+            -2.6598923206329346
+        ]
+    },
+    {
+        "input_text:": "Break cigarette smoking. His peccadilloes finally broke his marriage. Question: Does the word \"break\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4803844690322876,
+            -1.935356855392456
+        ]
+    },
+    {
+        "input_text:": "Is the direction of the economy a function of government? I couldn't follow the direction of his thoughts. Question: Does the word \"direction\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.31097128987312317,
+            -2.7774925231933594
+        ]
+    },
+    {
+        "input_text:": "Please check each name on the list. She checked for an instant and missed a step. Question: Does the word \"check\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6040990352630615,
+            -1.0202112197875977
+        ]
+    },
+    {
+        "input_text:": "The hollow of the hand or of a tree. He built himself a cabin in a hollow high up in the Rockies. Question: Does the word \"hollow\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.6532305479049683,
+            -1.1316699981689453
+        ]
+    },
+    {
+        "input_text:": "We should meet at a pre-arranged point. They sailed south around the point. Question: Does the word \"point\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.20911867916584015,
+            -1.9278569221496582
+        ]
+    },
+    {
+        "input_text:": "Put that light out! The light of my life. Question: Does the word \"light\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5861330628395081,
+            -2.357978105545044
+        ]
+    },
+    {
+        "input_text:": "He inserted the wedge into a split in the log. He demanded his split before they disbanded. Question: Does the word \"split\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.0166988372802734,
+            -2.139646530151367
+        ]
+    },
+    {
+        "input_text:": "I'll take that plate off the table. Take these letters to the boss. Question: Does the word \"take\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.8362271785736084,
+            -1.1023731231689453
+        ]
+    },
+    {
+        "input_text:": "This product of last month's quality standards committee is quite good, even though the process was flawed. The process of calcification begins later for boys than for girls. Question: Does the word \"process\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.038169823586940765,
+            -4.129497528076172
+        ]
+    },
+    {
+        "input_text:": "The president no longer has the support of his own party. They developed a scheme of mutual support. Question: Does the word \"support\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.7269636392593384,
+            -1.7308090925216675
+        ]
+    },
+    {
+        "input_text:": "Precious stones occur in a large area in Brazil. Sexism occurs in many workplaces. Question: Does the word \"occur\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.17080217599868774,
+            -2.0063180923461914
+        ]
+    },
+    {
+        "input_text:": "Why don't you call me in the morning? Why don't you call tomorrow? Question: Does the word \"call\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.0230958461761475,
+            -1.9515342712402344
+        ]
+    },
+    {
+        "input_text:": "Please focus on your studies and not on your hobbies. We focused on it. Question: Does the word \"focus\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.071542739868164,
+            -0.5173055529594421
+        ]
+    },
+    {
+        "input_text:": "He went to Las Vegas and spent all his money over a three-day run. I'm having a run of bad luck. Question: Does the word \"run\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.21972374618053436,
+            -2.1906025409698486
+        ]
+    },
+    {
+        "input_text:": "This diamond comes from a mine in South Africa. He came out of the coal mine with a face covered in black. Question: Does the word \"mine\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.32332223653793335,
+            -2.1420164108276367
+        ]
+    },
+    {
+        "input_text:": "Plug the hole. He attempted to plug the leaks with some caulk. Question: Does the word \"plug\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.6210164427757263,
+            -1.438529133796692
+        ]
+    },
+    {
+        "input_text:": "I didn't mean to knock your tooth out. I mean to go to Baddeck this summer. Question: Does the word \"mean\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4512207508087158,
+            -1.9910310506820679
+        ]
+    },
+    {
+        "input_text:": "I carry her image in my mind's eye. I carry a lot of life insurance. Question: Does the word \"carry\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.7456991672515869,
+            -1.5101608037948608
+        ]
+    },
+    {
+        "input_text:": "Come down here! Come out of the closet! Question: Does the word \"come\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.7147694826126099,
+            -1.2326033115386963
+        ]
+    },
+    {
+        "input_text:": "To advance the ripening of fruit. To advance one's interests. Question: Does the word \"advance\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.9211152791976929,
+            -1.7600035667419434
+        ]
+    },
+    {
+        "input_text:": "An indication of foul play. Indications of strain. Question: Does the word \"indication\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.9091273546218872,
+            -0.7904245853424072
+        ]
+    },
+    {
+        "input_text:": "I will check up on the car tomorrow. Check out the engine. Question: Does the word \"check\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.1347689628601074,
+            -0.6467244029045105
+        ]
+    },
+    {
+        "input_text:": "Some parents exercise their infants. This puzzle will exercise your mind. Question: Does the word \"exercise\" used in the two sentences above have the same meaning? Yes, No?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.7170447707176208,
+            -0.8826304078102112
+        ]
+    }
+]

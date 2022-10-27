@@ -1,0 +1,126 @@
+dataset: super_glue
+subset: rte
+templates:
+  0206cd05-1517-43e8-be13-7e7cb66e4465: !Template
+    answer_choices: Yes ||| No
+    id: 0206cd05-1517-43e8-be13-7e7cb66e4465
+    jinja: Given the {{premise}} , can you prove the "{{hypothesis}}" (A)? Yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  2addf184-a5fb-4971-b1b8-a627d5f95eb3: !Template
+    answer_choices: Yes ||| No
+    id: 2addf184-a5fb-4971-b1b8-a627d5f95eb3
+    jinja: Given the {{premise}} s, Can you prove the "{{hypothesis}}" (A)? Yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  3c017e12-0e2d-4156-9d0a-c20fb870f71b: !Template
+    answer_choices: Yes ||| No
+    id: 3c017e12-0e2d-4156-9d0a-c20fb870f71b
+    jinja: "{{premise}} \n\nQuestion: IF this is likely to entail that \"{{hypothesis}}\"\
+      , then that is likely to be true. ||| {% if label != -1 %}{{answer_choices[label]}}{%\
+      \ endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  3f88f37a-1958-42b5-b5c5-c218fa4b73a9: !Template
+    answer_choices: Yes ||| No
+    id: 3f88f37a-1958-42b5-b5c5-c218fa4b73a9
+    jinja: "{{premise}} \n\nQuestion: If this is likely to entail that \"{{hypothesis}}\"\
+      , then this is likely to be true. ||| {% if label != -1 %}{{answer_choices[label]}}{%\
+      \ endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  753d4851-03a0-4f60-978d-4ffdc9bfbf44: !Template
+    answer_choices: Yes ||| No
+    id: 753d4851-03a0-4f60-978d-4ffdc9bfbf44
+    jinja: '{{premise}} Based on the previous passage, is this fact a "{{hypothesis}}"?
+      Yes or no. ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  81b32d43-dea0-4573-b2a7-31597d99efb3: !Template
+    answer_choices: Yes ||| No
+    id: 81b32d43-dea0-4573-b2a7-31597d99efb3
+    jinja: '{{premise}} Based on the passage, do you support or reject that "{{hypothesis}}"?
+      Why? Yes or no. ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  83bdbe8e-064d-4a6f-9e4a-604a0120ee9e: !Template
+    answer_choices: Yes ||| No
+    id: 83bdbe8e-064d-4a6f-9e4a-604a0120ee9e
+    jinja: Given the {{premise}} , can you prove the "{{hypothesis}}" (B)? Yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  9b6eeda4-75f3-4293-9fa1-0c2580c9ce99: !Template
+    answer_choices: Yes ||| No
+    id: 9b6eeda4-75f3-4293-9fa1-0c2580c9ce99
+    jinja: '{{premise}} Based on the passage, do you support or reject that "{{hypothesis}}"?
+      Based on what evidence? Yes or no. ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  ac68d0d6-6bdc-4f27-a9bc-ceb7ad380501: !Template
+    answer_choices: Yes ||| No
+    id: ac68d0d6-6bdc-4f27-a9bc-ceb7ad380501
+    jinja: Given the {{premise}} s, can you prove the "{{hypothesis}}" (B)? Yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  b69421f0-0a04-467b-846e-0532318aa8e2: !Template
+    answer_choices: Yes ||| No
+    id: b69421f0-0a04-467b-846e-0532318aa8e2
+    jinja: "{{premise}} \n\nQuestion: is this likely to entail that \"{{hypothesis}}\"\
+      . ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021

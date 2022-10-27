@@ -1,0 +1,188 @@
+dataset: anli
+templates:
+  01a3d107-4cc1-4d9c-bd90-00a59e1583e9: !Template
+    answer_choices: True ||| Inconclusive ||| False
+    id: 01a3d107-4cc1-4d9c-bd90-00a59e1583e9
+    jinja: '{{premise}} Based on the evidence, is the claim: "{{hypothesis}}" {{"true"}},
+      {{"false"}}, or {{"inconclusive"}}? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: claim true/false/inconclusive
+    reference: Sanh et al. 2021
+  1039eb9a-b763-4673-8872-495aebfe80db: !Template
+    answer_choices: True ||| Inconclusive ||| False
+    id: 1039eb9a-b763-4673-8872-495aebfe80db
+    jinja: '{{premise}} Based on the evidence, should the claim: "{{hypothesis}}"
+      {{"true"}}, {{"false"}}, or {{"inconclusive"}}? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: claim true/false/inconclusive
+    reference: Sanh et al. 2021
+  2465d94d-c0f4-4807-93cd-1dfd5e047a72: !Template
+    answer_choices: True ||| Inconclusive ||| False
+    id: 2465d94d-c0f4-4807-93cd-1dfd5e047a72
+    jinja: '{{premise}} Based on the information is the hypothesis: "{{hypothesis}}"
+      {{"true"}}, {{"false"}}, or {{"inconclusive"}}? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: claim true/false/inconclusive
+    reference: Sanh et al. 2021
+  24828263-21da-42b3-bec7-69be0f6185d6: !Template
+    answer_choices: True ||| Inconclusive ||| False
+    id: 24828263-21da-42b3-bec7-69be0f6185d6
+    jinja: '{{premise}} Based on the same information, is the claim: "{{hypothesis}}"
+      {{"true"}}, {{"false"}}, or {{"inconclusive"}}? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: claim true/false/inconclusive
+    reference: Sanh et al. 2021
+  3940b543-d06a-4e8a-ad43-c1f0bb45a374: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 3940b543-d06a-4e8a-ad43-c1f0bb45a374
+    jinja: Given that {{premise}} Therefore, is it true that "{{hypothesis}}" ? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  3bdaf573-2ed2-4f64-ad7b-4de8bbbb8a2e: !Template
+    answer_choices: True ||| Inconclusive ||| False
+    id: 3bdaf573-2ed2-4f64-ad7b-4de8bbbb8a2e
+    jinja: '{{premise}} Based on the evidence presented, is the claim: "{{hypothesis}}"
+      {{"true"}}, {{"false"}}, or {{"inconclusive"}}? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: claim true/false/inconclusive
+    reference: Sanh et al. 2021
+  4d512fc5-9f98-4c13-8eaa-0a1d9eb54165: !Template
+    answer_choices: True ||| Inconclusive ||| False
+    id: 4d512fc5-9f98-4c13-8eaa-0a1d9eb54165
+    jinja: '{{premise}} Based on the information, is the claim: "{{hypothesis}}" {{"true"}},
+      {{"false"}}, or {{"inconclusive"}}? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: claim true/false/inconclusive
+    reference: Sanh et al. 2021
+  57fe71f8-c40e-4526-b3e6-978405f32681: !Template
+    answer_choices: True ||| Inconclusive ||| False
+    id: 57fe71f8-c40e-4526-b3e6-978405f32681
+    jinja: '{{premise}} Based on the information in the analysis, is the claim: "{{hypothesis}}"
+      {{"true"}}, {{"false"}}, or {{"inconclusive"}}? ||| {{ answer_choices[label]
+      }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: claim true/false/inconclusive
+    reference: Sanh et al. 2021
+  601d3714-1625-42a1-9ab9-92b118ad8074: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 601d3714-1625-42a1-9ab9-92b118ad8074
+    jinja: Given that {{premise}} Then, it must be true that "{{hypothesis}}" ? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  653f42ed-82b7-49b4-84b1-d14b637dbf8c: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 653f42ed-82b7-49b4-84b1-d14b637dbf8c
+    jinja: '{{premise}} Based on the previous passage, does it seem logical that "{{hypothesis}}"?
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  67dfe4d1-0b6a-486c-8a06-95ef68015ced: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 67dfe4d1-0b6a-486c-8a06-95ef68015ced
+    jinja: Suppose {{premise}} (be sure to take out the proper implication) Can we
+      infer the same "{{hypothesis}}" ? Yes, no, or maybe? ||| {{ answer_choices[label]
+      }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: can we infer
+    reference: Webson & Pavlick 2021
+  7fb0a183-5a0a-450d-ba13-b45efa34fcce: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 7fb0a183-5a0a-450d-ba13-b45efa34fcce
+    jinja: Given that {{premise}} Therefore, it is true that "{{hypothesis}}" ? Yes,
+      no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: must be true
+    reference: Sanh et al. 2021
+  804c2a48-86f2-4676-bb53-be0cb9b4597d: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 804c2a48-86f2-4676-bb53-be0cb9b4597d
+    jinja: If {{premise}} is true, then is "{{hypothesis}}" true? Yes, no, or maybe?
+      ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  8b2bb2fc-da06-4512-8f3c-cecc5a05813c: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: 8b2bb2fc-da06-4512-8f3c-cecc5a05813c
+    jinja: "{{premise}} \n\nQuestion: Does this mean that \"{{hypothesis}}\"? Yes,\
+      \ no, or maybe? ||| {{ answer_choices[label] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  d678aa1e-acdc-4440-9a0d-4a7f7edbc9ac: !Template
+    answer_choices: Yes ||| Maybe ||| No
+    id: d678aa1e-acdc-4440-9a0d-4a7f7edbc9ac
+    jinja: Given that {{premise}} , does that statement follow that {{hypothesis}}
+      Yes, no, or maybe? ||| {{ answer_choices[label] }}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does it follow that
+    reference: Sanh et al. 2021

@@ -1,0 +1,281 @@
+[
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "0484dac2-c5ad-4b6e-bb6a-d797b1ebcc4b",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.29411764705882354
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "08d2f910-0525-4c6a-8846-1443a359936a",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "115d6c22-9785-4cb0-85bf-6c4f2b7cfcf7",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.47058823529411764
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "232c77af-8699-4bcd-abb9-a05ee73bcbe0",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "23b3cc3a-8822-48e9-aa4c-5e5a1302beac",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "247780c9-b863-4401-bd35-85926b365464",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "30a7e036-cdf7-4167-8225-bd882b053e38",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "36bfdc61-2a20-4b0a-a0d6-89968af28a23",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "388797b3-88c5-40a5-a9fe-e8e95069dcac",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.38235294117647056
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "3a34075a-9ef2-495f-9a22-144e1a0e9de5",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "473a1fbd-7c5b-4c0a-aba8-7c710e52b2a6",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.47058823529411764
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "4d6739ae-fb01-4c31-8333-bbc9b81fb629",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.2647058823529412
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "4fdc3b3b-d5eb-44d3-b8ae-637f6b487fcf",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "51e40c90-13ca-4bf0-acaa-b2472a9695ae",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.47058823529411764
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "5a134602-c0d6-42dd-9e6a-4795a7f28d07",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.5
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "62f93f28-80ec-4c0e-86a4-b0e1108d06b3",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.29411764705882354
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "7eb517a1-437c-43a5-9eff-44caa4fcd1a1",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.38235294117647056
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "894024a2-67ca-46e8-9072-84f97cf1de17",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.5
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "9ddba5f6-e9ca-4ca6-8b0d-2fc09633aad4",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "a371bb82-eb14-4020-a3ea-0163b9883c33",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "a9bda848-1ffe-4fda-a1d7-6b897dc2dd56",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "aa84e24f-1076-468b-89c9-180de148a3c4",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "b94d2689-2867-4efd-a6d6-03bbc3df8340",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "c8346611-48b2-41ce-ad4b-77576d602045",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.47058823529411764
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "c8905ca4-0f7f-465d-9bbf-c02cfbc62f33",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "dce30f47-5faa-47dd-87d6-bc67b0b49b10",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "e188f7ed-2be3-4204-9965-d3d03634a62c",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "f1f98fba-ba5d-4d91-af4d-93ca414f79f5",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "f3f4948a-9774-4ca4-8b10-a53731f62f8e",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.47058823529411764
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "f6acc982-df50-4597-8046-1fd9b397cee4",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "f9baf27e-d9d3-468c-b805-24f03c736eff",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.2647058823529412
+        }
+    }
+]

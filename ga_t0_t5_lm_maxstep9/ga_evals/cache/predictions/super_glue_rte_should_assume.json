@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "Given that we believe that \"Green card is now difficult to receive.\" is true, should we assume Green cards are becoming more difficult to obtain. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9282054901123047,
+            -1.918384075164795
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Three scholars shared a Nobel Prize for their studies about the game theory.\" is true, should we assume Winning Team John C. Harsanyi, John F. Nash and Reinhard Selten were jointly awarded the Nobel Prize in Economics. The three professors were singled out for their unique contributions to game theory, derived from studies of games such as poker or chess, in which players have to think ahead and devise a strategy based on expected countermoves from opponents. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.7657606601715088,
+            -0.7287436723709106
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Shapour Bakhtiar died in 1991.\" is true, should we assume The anti-terrorist court found two men guilty of murdering Shapour Bakhtiar and his secretary Sorush Katibeh, who were found with their throats cut in August 1991. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.5628294944763184,
+            -0.7299631237983704
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"John Kerry was friends with Hunter S. Thompson.\" is true, should we assume On Feb. 20, Dr. Hunter S. Thompson took his life with a gunshot to the head at his fortified compound in Woody Creek, Colorado. The family will shortly provide more information about memorial service and media contacts. Hunter prized his privacy and we ask that his friends and admirers respect that privacy as well as that of his family, Juan Thompson said in a statement issued to Aspen Daily News. The death was confirmed by Pitkin County Sheriff Bob Braudis. Hunter S. Thompson was best known for his 1972 book \"Fear and Loathing in Las Vegas\". He was recently married and had emotionally supported his friend John Kerry's candidacy. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7177563905715942,
+            -1.1455073356628418
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"CVS will not sell its own brand of 500-milligram acetaminophen caplets any longer.\" is true, should we assume CVS will stop selling its own brand of 500-milligram acetaminophen caplets and pull bottles from store shelves nation wide, spokesman Mike DeAngelis said. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6364800333976746,
+            -1.526944637298584
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"A teenager shot 15 people in Germany.\" is true, should we assume WINNENDEN, Germany A teenage gunman killed 15 people, most of them female, on Wednesday in a rampage that began at a school near Stuttgart in southern Germany and ended in a nearby town, where he then killed himself after the police wounded him. The attack left Germany, which tightened tough gun controls after a similar attack at a school seven years ago, struggling to understand the carnage that had again befallen it, a country with relatively little violent crime. In 2002, a gunman killed 16 people before killing himself at a school in Erfurt, in eastern Germany. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.7341902256011963,
+            -0.20801855623722076
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Barings was Britain's oldest merchant bank.\" is true, should we assume Over a course of days, the bank went from apparent strength to bankruptcy. Barings was Britain's oldest merchant bank. It had financed the Napoleonic wars, the Louisiana purchase, and the Erie Canal. Barings was the Queen's bank. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.322217583656311,
+            -0.3841347098350525
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Pamuk won a Nobel Prize.\" is true, should we assume Even though the charges were dropped on January 22, 2006, his Nobel Prize reception continues to provoke mixed feelings of pride and anger among Turks. On the other hand, as Pamuk intended, the criminal case brought international attention to freedom of speech in Turkey. In his Nobel speech, he defined literature as:... what a person creates when he shuts himself up in a room, sits down at a table, and retires to a corner to express his thoughts - that is, the meaning of literature... When a writer shuts himself up in a room for years on end, with this gesture he suggests a single humanity, a world without a centre. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.9121431112289429,
+            -0.19203977286815643
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Barings was Britain's oldest merchant bank.\" is true, should we assume The chain of events which led to the collapse of Barings, Britain's oldest merchant bank, is a demonstration of how not to manage a derivatives operation. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.6755552291870117,
+            -0.6725304126739502
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Women are poorly represented in parliament.\" is true, should we assume In most Pacific countries there are very few women in parliament. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.944135308265686,
+            -0.3518146872520447
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"On Friday,Sharon fired Benny Elon and Avigdor Lieberman.\" is true, should we assume Sharon sent dismissal letters to Benny Elon and Avigdor Lieberman, who oppose his withdrawal plan, on Friday. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.2201632261276245,
+            -0.9962092041969299
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"The South African steel manufacturer Iscor plans to develop a mini-mill.\" is true, should we assume Iscor, the South African iron and steel manufacturer, has announced plans to develop a steel mini-mill at Saldanha Bay on the country's west coast in partnership with the state-run industrial development Corporation. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7565867900848389,
+            -0.9234439134597778
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"CBS newsman Harry Reasoner was born in Iowa.\" is true, should we assume CBS newsman Harry Reasoner is returning to his Iowa hometown to get married Saturday. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.057820200920105,
+            -0.7847803831100464
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Obesity is medically treated.\" is true, should we assume The gastric bypass operation, also known as stomach stapling, has become the most common surgical procedure for treating obesity. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.121248722076416,
+            -0.8299621939659119
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"AIDS spreads in Africa.\" is true, should we assume The spread of AIDS in Africa is driven not by unsafe sex but by unsafe medical practice, according to research published last week. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.4772332906723022,
+            -0.6243786811828613
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Hotel Rosengarten is a completely clothing-free hotel.\" is true, should we assume It will be the most German of combinations: nudity and beach towels. After decades of sunbathing and camping in the buff, the legions of Teutonic naturists are about to get their very own holiday heaven \u2014 a completely clothing-free hotel. The Hotel Rosengarten, in the aptly named Black Forest town of Freudenstadt (\"Town of Joys\"), will mark a new frontier for the homeland of Freik\u00f6rperkultur (FKK), meaning \"free body culture\". A handful of German hotels have accommodated naturists up to now, but the management at Rosengarten plan to take a hardline anti-apparel stance. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.0588778257369995,
+            -0.47162872552871704
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"The literacy rate in Cuba is 96%.\" is true, should we assume Nonetheless, a literacy rate of 96 percent put Cuba on a par with such highly developed countries as Japan, France, the Soviet Union, Switzerland and Italy, Campo said. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3772136867046356,
+            -1.2187659740447998
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Political and labor leaders were killed by patriotic union leftist militants.\" is true, should we assume According to an Israeli official, the murders of Galan, a high-ranking police officer, and a judge last week were probably carried out by an Israeli mercenary paid by the Medellin cartel - the world's most powerful drug-trafficking mafia - which has set up paramilitary squads accused of hundreds of individual murders and massacres against political and labor leaders, as well as peasants and patriotic union leftist militants in different parts of the country. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.6084959506988525,
+            -0.11979902535676956
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Three Iraqi soldiers also died Saturday when their convoy was attacked by gunmen near Adhaim.\" is true, should we assume Also Friday, five Iraqi soldiers were killed and nine wounded in a bombing, targeting their convoy near Beiji, 150 miles north of Baghdad, the Iraqi military said. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.828339099884033,
+            -0.11794324964284897
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Readers of online encyclopedias can edit the contents.\" is true, should we assume On August 21, the Polish weekly Przekr\u00f3j published an advertisement for Dan-Mark exercise books, bearing the logo of 4fun.tv, a Polish music/interactive TV station. Part of the advertisement contained a definition of the word \"exercise book\". The wording looked familiar, and Wikinews consulted Wikipedia, the collaborative online encyclopedia. Upon seeing the Wikipedia definition, it appeared that the entry quoted in the promotional material was identical to the initial two paragraphs of the relevant Wikipedia entry. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.310457944869995,
+            -0.7498906850814819
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"100 or more people lost their lives in a ferry sinking.\" is true, should we assume The drive towards this new law was driven in part from a string of transport-related disasters in the late 1980s, such as the sinking of cross-Channel ferry the Herald of Free Enterprise in 1987, the oil platform Piper Alpha disaster in 1988, and the Marchioness Thames river boat collision in 1989. More than 400 people lost their lives in these three disasters, but no one individual or organisation was brought to account. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.59561288356781,
+            -0.2769913375377655
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Manuel Antonio Rugama was killed by Jose Jesus Pena.\" is true, should we assume Ordonez Reyes accused Jose Jesus Pena, alleged chief of security for the Nicaraguan embassy in Tegucigalpa, of masterminding the January 7th assassination of contra-commander Manuel Antonio Rugama. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.7950928211212158,
+            -0.3785875141620636
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Sir Clement Freud was the grandson of Sigmund Freud.\" is true, should we assume In more than 40 years as a broadcaster, right up to the last weeks before his death, Sir Clement established himself as one of Britain's most recognizable personalities. He cultivated a reputation as a grumpy, irritable but hugely entertaining performer. He won widespread public affection, particularly for his appearances since 1967 as a relentlessly inventive, assertive and witty panelist on the 30-minute radio show \"Just a Minute,\" in which contestants vie to speak on offbeat topics for 60 seconds without \"hesitation, repetition or deviation.\". is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.1263277530670166,
+            -0.17023403942584991
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Police found four weapons - a.50-calibre rifle, two military style assault rifles and a handgun in the vehicle.\" is true, should we assume Police found four weapons-two semiautomatic machine guns, a.223-caliber rifle and two handguns in the vehicle. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.462928295135498,
+            -0.3077572286128998
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Michel Mayor is the discoverer of the High Accuracy Radial Velocity Planet Searcher.\" is true, should we assume Scientists have made two major discoveries in the search for other Earth-like planets. British astronomers say they have discovered the smallest known Earth-like exoplanet orbiting a living star called Gliese 581 e and also discovered that a nearby planet called Gliese 581 d, discovered in 2007, is in the much sought after 'habitable zone'. Astronomers also believe there is a possibility that 581 d could have liquid oceans on its surface, calling the find \"extraordinary.\" \"The Holy Grail of current exoplanet research is the detection of a rocky, Earth-like planet in the 'habitable zone',\" said astrophysicist at Switzerland's Geneva University, Michel Mayor. Astronomers say 581 e is 20.5 light years away from Earth and that it's roughly 1.9 times larger than Earth, making it the smallest exoplanet discovered to date. It was found using the High Accuracy Radial Velocity Planet Searcher (HARPS). is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.2600070238113403,
+            -0.39908069372177124
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"EuroDisney is located in the charming city of Magny-Le-Hongre.\" is true, should we assume The Hotel Moulin de Paris in 2.5km away from Disneyland Paris, and is located in the charming city of Magny-Le-Hongre. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.896152377128601,
+            -0.18925943970680237
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"The United States has asked member states of the International Energy Agency to provide oil.\" is true, should we assume The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.2330466508865356,
+            -0.5647662878036499
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Farabundo Marti National Liberation Front is suspected of the assassination of six Jesuit priests.\" is true, should we assume Vinicio Cerezo tacitly blamed president Alfredo Cristiani's administration for the crisis which prevails in the country as a result of the Farabundo Marti National Liberation Front's (FMLN) offensive. Meanwhile, Morales Ehrlich blamed the extreme- right, death-squads of El Salvador for the assassination of six Jesuit priests at the Central American University. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.115203857421875,
+            -0.6188770532608032
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"African polio outbreak feared\" is true, should we assume The last polio outbreak in the United States was in 1979. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.2794134616851807,
+            -0.29417747259140015
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"The Brazilian President is Luiz In\u00e1cio Lula da Silva.\" is true, should we assume The documents commented by the magazine date of April 25, 2002, epoch in which the Brazilian president was Fernando Henrique Cardoso. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.1861042976379395,
+            -0.35417109727859497
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"The Macdonough left Hawaii on 10 August.\" is true, should we assume On 21 July, the Macdonough patrolled the waters off Guam to protect the assault craft from enemy submarines, continuing that role until departing for Hawaii on 10 August. After a day at Pearl Harbor, she departed for the Admiralty Islands. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.5633633136749268,
+            -0.03934333473443985
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"Roughan has nine children.\" is true, should we assume Mr Roughan claims that children from the age of nine and up are drinking late at night. \"You don't know what the hell's going to happen.\" Mr Nant has apologised to the affected, inconvenienced residents. New Zealand Post state they are going to continue to monitor the situation, however and also have on-going discussion with the local council and police \"to make sure we're abreast of any developments in the area.\" The gang violence/activity New Zealand Post are referring to is, on the previous Thursday the Armed Offenders Squad was called out where they raided three homes following a shooting, eight people were arrested, and a large number of firearms were seized. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.913815975189209,
+            -0.05937128886580467
+        ]
+    },
+    {
+        "input_text:": "Given that we believe that \"A mercenary group was injured in El Jicote.\" is true, should we assume A mercenary group, faithful to the warmongering policy of former Somozist colonel Enrique Bermudez, attacked an IFA truck belonging to the interior ministry at 0900 on 26 March in El Jicote, wounded and killed an interior ministry worker and wounded five others. is true? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.940627098083496,
+            -0.06146540865302086
+        ]
+    }
+]

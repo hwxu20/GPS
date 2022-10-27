@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "Suppose we have Green cards are becoming more difficult to obtain. Can we infer that \"Green card is now difficult to receive.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6052404642105103,
+            -3.0248522758483887
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Winning Team John C. Harsanyi, John F. Nash and Reinhard Selten were jointly awarded the Nobel Prize in Economics. The three professors were singled out for their unique contributions to game theory, derived from studies of games such as poker or chess, in which players have to think ahead and devise a strategy based on expected countermoves from opponents. Can we infer that \"Three scholars shared a Nobel Prize for their studies about the game theory.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3856755495071411,
+            -1.4170907735824585
+        ]
+    },
+    {
+        "input_text:": "Suppose we have The anti-terrorist court found two men guilty of murdering Shapour Bakhtiar and his secretary Sorush Katibeh, who were found with their throats cut in August 1991. Can we infer that \"Shapour Bakhtiar died in 1991.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.36851659417152405,
+            -2.28110408782959
+        ]
+    },
+    {
+        "input_text:": "Suppose we have On Feb. 20, Dr. Hunter S. Thompson took his life with a gunshot to the head at his fortified compound in Woody Creek, Colorado. The family will shortly provide more information about memorial service and media contacts. Hunter prized his privacy and we ask that his friends and admirers respect that privacy as well as that of his family, Juan Thompson said in a statement issued to Aspen Daily News. The death was confirmed by Pitkin County Sheriff Bob Braudis. Hunter S. Thompson was best known for his 1972 book \"Fear and Loathing in Las Vegas\". He was recently married and had emotionally supported his friend John Kerry's candidacy. Can we infer that \"John Kerry was friends with Hunter S. Thompson.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.09633670002222061,
+            -3.2174408435821533
+        ]
+    },
+    {
+        "input_text:": "Suppose we have CVS will stop selling its own brand of 500-milligram acetaminophen caplets and pull bottles from store shelves nation wide, spokesman Mike DeAngelis said. Can we infer that \"CVS will not sell its own brand of 500-milligram acetaminophen caplets any longer.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4557493329048157,
+            -3.5466396808624268
+        ]
+    },
+    {
+        "input_text:": "Suppose we have WINNENDEN, Germany A teenage gunman killed 15 people, most of them female, on Wednesday in a rampage that began at a school near Stuttgart in southern Germany and ended in a nearby town, where he then killed himself after the police wounded him. The attack left Germany, which tightened tough gun controls after a similar attack at a school seven years ago, struggling to understand the carnage that had again befallen it, a country with relatively little violent crime. In 2002, a gunman killed 16 people before killing himself at a school in Erfurt, in eastern Germany. Can we infer that \"A teenager shot 15 people in Germany.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.8175625801086426,
+            -0.6018747091293335
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Over a course of days, the bank went from apparent strength to bankruptcy. Barings was Britain's oldest merchant bank. It had financed the Napoleonic wars, the Louisiana purchase, and the Erie Canal. Barings was the Queen's bank. Can we infer that \"Barings was Britain's oldest merchant bank.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.024786794558167458,
+            -3.936143398284912
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Even though the charges were dropped on January 22, 2006, his Nobel Prize reception continues to provoke mixed feelings of pride and anger among Turks. On the other hand, as Pamuk intended, the criminal case brought international attention to freedom of speech in Turkey. In his Nobel speech, he defined literature as:... what a person creates when he shuts himself up in a room, sits down at a table, and retires to a corner to express his thoughts - that is, the meaning of literature... When a writer shuts himself up in a room for years on end, with this gesture he suggests a single humanity, a world without a centre. Can we infer that \"Pamuk won a Nobel Prize.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.7875868082046509,
+            -0.6898313760757446
+        ]
+    },
+    {
+        "input_text:": "Suppose we have The chain of events which led to the collapse of Barings, Britain's oldest merchant bank, is a demonstration of how not to manage a derivatives operation. Can we infer that \"Barings was Britain's oldest merchant bank.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.056598760187625885,
+            -3.6283600330352783
+        ]
+    },
+    {
+        "input_text:": "Suppose we have In most Pacific countries there are very few women in parliament. Can we infer that \"Women are poorly represented in parliament.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.136179804801941,
+            -0.8018831014633179
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Sharon sent dismissal letters to Benny Elon and Avigdor Lieberman, who oppose his withdrawal plan, on Friday. Can we infer that \"On Friday,Sharon fired Benny Elon and Avigdor Lieberman.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5838778018951416,
+            -1.7333800792694092
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Iscor, the South African iron and steel manufacturer, has announced plans to develop a steel mini-mill at Saldanha Bay on the country's west coast in partnership with the state-run industrial development Corporation. Can we infer that \"The South African steel manufacturer Iscor plans to develop a mini-mill.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.21435080468654633,
+            -2.494192600250244
+        ]
+    },
+    {
+        "input_text:": "Suppose we have CBS newsman Harry Reasoner is returning to his Iowa hometown to get married Saturday. Can we infer that \"CBS newsman Harry Reasoner was born in Iowa.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3431742191314697,
+            -1.4274647235870361
+        ]
+    },
+    {
+        "input_text:": "Suppose we have The gastric bypass operation, also known as stomach stapling, has become the most common surgical procedure for treating obesity. Can we infer that \"Obesity is medically treated.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.41432809829711914,
+            -1.6846154928207397
+        ]
+    },
+    {
+        "input_text:": "Suppose we have The spread of AIDS in Africa is driven not by unsafe sex but by unsafe medical practice, according to research published last week. Can we infer that \"AIDS spreads in Africa.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6339771747589111,
+            -1.7036609649658203
+        ]
+    },
+    {
+        "input_text:": "Suppose we have It will be the most German of combinations: nudity and beach towels. After decades of sunbathing and camping in the buff, the legions of Teutonic naturists are about to get their very own holiday heaven \u2014 a completely clothing-free hotel. The Hotel Rosengarten, in the aptly named Black Forest town of Freudenstadt (\"Town of Joys\"), will mark a new frontier for the homeland of Freik\u00f6rperkultur (FKK), meaning \"free body culture\". A handful of German hotels have accommodated naturists up to now, but the management at Rosengarten plan to take a hardline anti-apparel stance. Can we infer that \"Hotel Rosengarten is a completely clothing-free hotel.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.24655595421791077,
+            -1.582110047340393
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Nonetheless, a literacy rate of 96 percent put Cuba on a par with such highly developed countries as Japan, France, the Soviet Union, Switzerland and Italy, Campo said. Can we infer that \"The literacy rate in Cuba is 96%.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.03884097933769226,
+            -3.396841287612915
+        ]
+    },
+    {
+        "input_text:": "Suppose we have According to an Israeli official, the murders of Galan, a high-ranking police officer, and a judge last week were probably carried out by an Israeli mercenary paid by the Medellin cartel - the world's most powerful drug-trafficking mafia - which has set up paramilitary squads accused of hundreds of individual murders and massacres against political and labor leaders, as well as peasants and patriotic union leftist militants in different parts of the country. Can we infer that \"Political and labor leaders were killed by patriotic union leftist militants.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.9501144886016846,
+            -0.24471531808376312
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Also Friday, five Iraqi soldiers were killed and nine wounded in a bombing, targeting their convoy near Beiji, 150 miles north of Baghdad, the Iraqi military said. Can we infer that \"Three Iraqi soldiers also died Saturday when their convoy was attacked by gunmen near Adhaim.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.49449348449707,
+            -0.10038582235574722
+        ]
+    },
+    {
+        "input_text:": "Suppose we have On August 21, the Polish weekly Przekr\u00f3j published an advertisement for Dan-Mark exercise books, bearing the logo of 4fun.tv, a Polish music/interactive TV station. Part of the advertisement contained a definition of the word \"exercise book\". The wording looked familiar, and Wikinews consulted Wikipedia, the collaborative online encyclopedia. Upon seeing the Wikipedia definition, it appeared that the entry quoted in the promotional material was identical to the initial two paragraphs of the relevant Wikipedia entry. Can we infer that \"Readers of online encyclopedias can edit the contents.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.8361082077026367,
+            -0.4843272566795349
+        ]
+    },
+    {
+        "input_text:": "Suppose we have The drive towards this new law was driven in part from a string of transport-related disasters in the late 1980s, such as the sinking of cross-Channel ferry the Herald of Free Enterprise in 1987, the oil platform Piper Alpha disaster in 1988, and the Marchioness Thames river boat collision in 1989. More than 400 people lost their lives in these three disasters, but no one individual or organisation was brought to account. Can we infer that \"100 or more people lost their lives in a ferry sinking.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.6073417067527771,
+            -0.8899313807487488
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Ordonez Reyes accused Jose Jesus Pena, alleged chief of security for the Nicaraguan embassy in Tegucigalpa, of masterminding the January 7th assassination of contra-commander Manuel Antonio Rugama. Can we infer that \"Manuel Antonio Rugama was killed by Jose Jesus Pena.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3650122880935669,
+            -1.3686611652374268
+        ]
+    },
+    {
+        "input_text:": "Suppose we have In more than 40 years as a broadcaster, right up to the last weeks before his death, Sir Clement established himself as one of Britain's most recognizable personalities. He cultivated a reputation as a grumpy, irritable but hugely entertaining performer. He won widespread public affection, particularly for his appearances since 1967 as a relentlessly inventive, assertive and witty panelist on the 30-minute radio show \"Just a Minute,\" in which contestants vie to speak on offbeat topics for 60 seconds without \"hesitation, repetition or deviation.\". Can we infer that \"Sir Clement Freud was the grandson of Sigmund Freud.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.245093584060669,
+            -0.46150410175323486
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Police found four weapons-two semiautomatic machine guns, a.223-caliber rifle and two handguns in the vehicle. Can we infer that \"Police found four weapons - a.50-calibre rifle, two military style assault rifles and a handgun in the vehicle.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.3529136180877686,
+            -0.2358197122812271
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Scientists have made two major discoveries in the search for other Earth-like planets. British astronomers say they have discovered the smallest known Earth-like exoplanet orbiting a living star called Gliese 581 e and also discovered that a nearby planet called Gliese 581 d, discovered in 2007, is in the much sought after 'habitable zone'. Astronomers also believe there is a possibility that 581 d could have liquid oceans on its surface, calling the find \"extraordinary.\" \"The Holy Grail of current exoplanet research is the detection of a rocky, Earth-like planet in the 'habitable zone',\" said astrophysicist at Switzerland's Geneva University, Michel Mayor. Astronomers say 581 e is 20.5 light years away from Earth and that it's roughly 1.9 times larger than Earth, making it the smallest exoplanet discovered to date. It was found using the High Accuracy Radial Velocity Planet Searcher (HARPS). Can we infer that \"Michel Mayor is the discoverer of the High Accuracy Radial Velocity Planet Searcher.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.2190370559692383,
+            -0.6606938242912292
+        ]
+    },
+    {
+        "input_text:": "Suppose we have The Hotel Moulin de Paris in 2.5km away from Disneyland Paris, and is located in the charming city of Magny-Le-Hongre. Can we infer that \"EuroDisney is located in the charming city of Magny-Le-Hongre.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.3358514308929443,
+            -0.109700508415699
+        ]
+    },
+    {
+        "input_text:": "Suppose we have The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina. Can we infer that \"The United States has asked member states of the International Energy Agency to provide oil.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.581068515777588,
+            -0.4955641031265259
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Vinicio Cerezo tacitly blamed president Alfredo Cristiani's administration for the crisis which prevails in the country as a result of the Farabundo Marti National Liberation Front's (FMLN) offensive. Meanwhile, Morales Ehrlich blamed the extreme- right, death-squads of El Salvador for the assassination of six Jesuit priests at the Central American University. Can we infer that \"Farabundo Marti National Liberation Front is suspected of the assassination of six Jesuit priests.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.958860993385315,
+            -0.31918972730636597
+        ]
+    },
+    {
+        "input_text:": "Suppose we have The last polio outbreak in the United States was in 1979. Can we infer that \"African polio outbreak feared\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.012450695037842,
+            -0.35895970463752747
+        ]
+    },
+    {
+        "input_text:": "Suppose we have The documents commented by the magazine date of April 25, 2002, epoch in which the Brazilian president was Fernando Henrique Cardoso. Can we infer that \"The Brazilian President is Luiz In\u00e1cio Lula da Silva.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.7105538845062256,
+            -0.16352207958698273
+        ]
+    },
+    {
+        "input_text:": "Suppose we have On 21 July, the Macdonough patrolled the waters off Guam to protect the assault craft from enemy submarines, continuing that role until departing for Hawaii on 10 August. After a day at Pearl Harbor, she departed for the Admiralty Islands. Can we infer that \"The Macdonough left Hawaii on 10 August.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.1912399530410767,
+            -0.4307524859905243
+        ]
+    },
+    {
+        "input_text:": "Suppose we have Mr Roughan claims that children from the age of nine and up are drinking late at night. \"You don't know what the hell's going to happen.\" Mr Nant has apologised to the affected, inconvenienced residents. New Zealand Post state they are going to continue to monitor the situation, however and also have on-going discussion with the local council and police \"to make sure we're abreast of any developments in the area.\" The gang violence/activity New Zealand Post are referring to is, on the previous Thursday the Armed Offenders Squad was called out where they raided three homes following a shooting, eight people were arrested, and a large number of firearms were seized. Can we infer that \"Roughan has nine children.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.2519428730010986,
+            -0.06284109503030777
+        ]
+    },
+    {
+        "input_text:": "Suppose we have A mercenary group, faithful to the warmongering policy of former Somozist colonel Enrique Bermudez, attacked an IFA truck belonging to the interior ministry at 0900 on 26 March in El Jicote, wounded and killed an interior ministry worker and wounded five others. Can we infer that \"A mercenary group was injured in El Jicote.\"? Yes or no?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.86741042137146,
+            -0.1270655244588852
+        ]
+    }
+]

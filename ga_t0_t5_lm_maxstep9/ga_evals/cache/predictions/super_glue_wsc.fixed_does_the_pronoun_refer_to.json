@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "I put the cake away in the refrigerator. It has a lot of butter in it. In the previous sentence, is the \"it\" a the refrigerator? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.0619350671768188,
+            -0.4450087547302246
+        ]
+    },
+    {
+        "input_text:": "Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: \"There's plenty.\" In the previous sentence, is the \"her\" a Tatyana? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6498541831970215,
+            -0.794018030166626
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. In the previous sentence, is the \"they\" a mothers? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.9679677486419678,
+            -0.23119717836380005
+        ]
+    },
+    {
+        "input_text:": "Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned. In the previous sentence, is the \"he\" a Bob? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.37718018889427185,
+            -1.4607622623443604
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had bought from him didn't work. In the previous sentence, is the \"he\" a Tom? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4331672191619873,
+            -1.3822827339172363
+        ]
+    },
+    {
+        "input_text:": "This book introduced Shakespeare to Goethe ; it was a fine selection of his writing. In the previous sentence, is the \"his\" a Goethe? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3909945487976074,
+            -1.1717888116836548
+        ]
+    },
+    {
+        "input_text:": "The city councilmen refused the demonstrators a permit because they feared violence. In the previous sentence, is the \"they\" a the demonstrators? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5136187076568604,
+            -1.3332853317260742
+        ]
+    },
+    {
+        "input_text:": "The fish ate the worm. It was hungry. In the previous sentence, is the \"it\" a the worm? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.743026852607727,
+            -0.7245701551437378
+        ]
+    },
+    {
+        "input_text:": "The firemen arrived after the police because they were coming from so far away. In the previous sentence, is the \"they\" a the police? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.37711501121520996,
+            -1.5407640933990479
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs dangled. In the previous sentence, is the \"his\" a Ollie? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.7748963236808777,
+            -0.6549697518348694
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. In the previous sentence, is the \"them\" a mothers? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.648827075958252,
+            -0.28077763319015503
+        ]
+    },
+    {
+        "input_text:": "Susan knows all about Ann's personal problems because she is nosy. In the previous sentence, is the \"she\" a Ann? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.36338210105895996,
+            -1.6122236251831055
+        ]
+    },
+    {
+        "input_text:": "Mary tucked her daughter Anne into bed, so that she could sleep. In the previous sentence, is the \"she\" a Mary? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.049729347229004,
+            -0.15413902699947357
+        ]
+    },
+    {
+        "input_text:": "Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years. In the previous sentence, is the \"he\" a Cooper? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.14238208532333374,
+            -3.3395469188690186
+        ]
+    },
+    {
+        "input_text:": "Emma did not pass the ball to Janie although she was open. In the previous sentence, is the \"she\" a Emma? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2981617748737335,
+            -1.7529374361038208
+        ]
+    },
+    {
+        "input_text:": "The cat was lying by the mouse hole waiting for the mouse, but it was too impatient. In the previous sentence, is the \"it\" a the mouse? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.378783255815506,
+            -1.2733721733093262
+        ]
+    },
+    {
+        "input_text:": "Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical. In the previous sentence, is the \"he\" a Mark? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2832731008529663,
+            -2.552896499633789
+        ]
+    },
+    {
+        "input_text:": "In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it removed. In the previous sentence, is the \"it\" a the roof? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.8419615626335144,
+            -0.6884047389030457
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs ached. In the previous sentence, is the \"his\" a Tommy? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.7231227159500122,
+            -0.7048357725143433
+        ]
+    },
+    {
+        "input_text:": "The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone. In the previous sentence, is the \"it\" a The sun? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.5935726165771484,
+            -0.3516514003276825
+        ]
+    },
+    {
+        "input_text:": "Jane knocked on Susan's door but she did not answer. In the previous sentence, is the \"she\" a Jane? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.23231913149356842,
+            -1.9197466373443604
+        ]
+    },
+    {
+        "input_text:": "Emma's mother had died long ago, and her place had been taken by an excellent woman as governess. In the previous sentence, is the \"her\" a Emma's mother? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4217117130756378,
+            -1.170546531677246
+        ]
+    },
+    {
+        "input_text:": "Jackson was greatly influenced by Arnold, though he lived two centuries earlier. In the previous sentence, is the \"he\" a Arnold? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3990956246852875,
+            -1.2829445600509644
+        ]
+    },
+    {
+        "input_text:": "Ann asked Mary what time the library closes, but she had forgotten. In the previous sentence, is the \"she\" a Mary? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.6117501258850098,
+            -0.8636912107467651
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. In the previous sentence, is the \"they\" a politicians? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.3066848516464233,
+            -0.4830339848995209
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had sold him didn't work. In the previous sentence, is the \"he\" a Tom? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.39571496844291687,
+            -1.5084401369094849
+        ]
+    },
+    {
+        "input_text:": "The sculpture rolled off the shelf because it wasn't level. In the previous sentence, is the \"it\" a the shelf? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.9857382774353027,
+            -0.5730763673782349
+        ]
+    },
+    {
+        "input_text:": "The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time. In the previous sentence, is the \"they\" a the stars? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.2455785274505615,
+            -0.21189625561237335
+        ]
+    },
+    {
+        "input_text:": "Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it. In the previous sentence, is the \"they\" a Pam's parents? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.553373098373413,
+            -0.2909834384918213
+        ]
+    },
+    {
+        "input_text:": "Mark was close to Mr. Singer's heels. He heard him calling for the captain, promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over. In the previous sentence, is the \"him\" a Mr. Singer? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.854556679725647,
+            -0.2420961558818817
+        ]
+    },
+    {
+        "input_text:": "I took the water bottle out of the backpack so that it would be handy. In the previous sentence, is the \"it\" a the water bottle? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5603560209274292,
+            -0.2646803557872772
+        ]
+    },
+    {
+        "input_text:": "John couldn't see the stage with Billy in front of him because he is so short. In the previous sentence, is the \"he\" a John? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3330460488796234,
+            -1.5836658477783203
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. In the previous sentence, is the \"them\" a settlers? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.3572593927383423,
+            -0.402998149394989
+        ]
+    }
+]

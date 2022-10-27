@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. Based on the previous passage, is it true that that \"You can be hired by passing a psychological test.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.48341846466064453,
+            -2.2487168312072754,
+            -1.424319863319397
+        ]
+    },
+    {
+        "input_text:": "Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. Based on the previous passage, is it true that that \"I was pregnant during at least one meeting\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3011816143989563,
+            -1.9446849822998047,
+            -2.7177157402038574
+        ]
+    },
+    {
+        "input_text:": "Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. Based on the previous passage, is it true that that \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4767930507659912,
+            -2.9320297241210938,
+            -1.8095308542251587
+        ]
+    },
+    {
+        "input_text:": "Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. Based on the previous passage, is it true that that \"Dookie is still alive.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6524383425712585,
+            -1.9212737083435059,
+            -1.5655124187469482
+        ]
+    },
+    {
+        "input_text:": "Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. Based on the previous passage, is it true that that \"The robbers get away from Reba by running away. \" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6253412365913391,
+            -2.0876336097717285,
+            -1.2922929525375366
+        ]
+    },
+    {
+        "input_text:": "NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) Based on the previous passage, is it true that that \"Crude futures experienced losses this week.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.28034281730651855,
+            -2.9849956035614014,
+            -1.9785277843475342
+        ]
+    },
+    {
+        "input_text:": "Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. Based on the previous passage, is it true that that \"the church dedication was in 1824\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7128720879554749,
+            -3.1527838706970215,
+            -0.7919341921806335
+        ]
+    },
+    {
+        "input_text:": "Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. Based on the previous passage, is it true that that \" Bruce Larson quit drag racing for quite sometime\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.1551695019006729,
+            -3.1405041217803955,
+            -3.06447434425354
+        ]
+    },
+    {
+        "input_text:": "How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). Based on the previous passage, is it true that that \"Basic rules of soccer are decided upon by more than 1 member of IFAB\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4417499303817749,
+            -2.1330032348632812,
+            -2.0020220279693604
+        ]
+    },
+    {
+        "input_text:": "The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). Based on the previous passage, is it true that that \"The Sounds have, at present, had less than four dozen coaches.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.47662869095802307,
+            -2.393728256225586,
+            -1.5139442682266235
+        ]
+    },
+    {
+        "input_text:": "Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. Based on the previous passage, is it true that that \"Anna use her camera in her photography class\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -0.9571080803871155,
+            -2.0475447177886963,
+            -0.8354080319404602
+        ]
+    },
+    {
+        "input_text:": "Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. Based on the previous passage, is it true that that \"Tina enjoys being on the water.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.6466083526611328,
+            -2.277672290802002,
+            -1.0588823556900024
+        ]
+    },
+    {
+        "input_text:": "How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. Based on the previous passage, is it true that that \"She wnats to copy her hairstyle.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5649642944335938,
+            -2.2220892906188965,
+            -1.3391438722610474
+        ]
+    },
+    {
+        "input_text:": "Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. Based on the previous passage, is it true that that \"Alvin's wife is immoral.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4270375370979309,
+            -2.601686477661133,
+            -1.5188283920288086
+        ]
+    },
+    {
+        "input_text:": "Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. Based on the previous passage, is it true that that \"The narrator and Milosevic met on GeoCities, and their wives know each other.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.2046961784362793,
+            -2.302591562271118,
+            -0.47261422872543335
+        ]
+    },
+    {
+        "input_text:": "Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. Based on the previous passage, is it true that that \"fish food has a s\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5128533840179443,
+            -3.328404664993286,
+            -1.0633668899536133
+        ]
+    },
+    {
+        "input_text:": "How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. Based on the previous passage, is it true that that \"Bankruptcy can always be avoided.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.041233777999878,
+            -1.7916518449783325,
+            -0.9050923585891724
+        ]
+    },
+    {
+        "input_text:": "Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! Based on the previous passage, is it true that that \"Scott did not get along with his boss\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.8031258583068848,
+            -1.664905071258545,
+            -0.6795410513877869
+        ]
+    },
+    {
+        "input_text:": "Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. Based on the previous passage, is it true that that \"Seth creates new levels in the game without any help from his brothers. \" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.0617600679397583,
+            -2.6372570991516113,
+            -0.6847141981124878
+        ]
+    },
+    {
+        "input_text:": "How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. Based on the previous passage, is it true that that \"Herding dogs is a bigger group than Border collies.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.6646851301193237,
+            -1.7317787408828735,
+            -0.567875862121582
+        ]
+    },
+    {
+        "input_text:": "How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. Based on the previous passage, is it true that that \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.6090911030769348,
+            -1.6393659114837646,
+            -1.894279956817627
+        ]
+    },
+    {
+        "input_text:": "How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. Based on the previous passage, is it true that that \"Red leaf lettuce must always be eaten with salad\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.881701111793518,
+            -2.4814062118530273,
+            -0.3545217216014862
+        ]
+    },
+    {
+        "input_text:": "Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. Based on the previous passage, is it true that that \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.742180347442627,
+            -2.387164354324341,
+            -0.34446239471435547
+        ]
+    },
+    {
+        "input_text:": "Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. Based on the previous passage, is it true that that \"Dan is in a wheelchair\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.6192541122436523,
+            -2.1256768703460693,
+            -0.3165987432003021
+        ]
+    },
+    {
+        "input_text:": "Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. Based on the previous passage, is it true that that \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.544090986251831,
+            -3.017831563949585,
+            -0.1463368684053421
+        ]
+    },
+    {
+        "input_text:": "But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? Based on the previous passage, is it true that that \"40,00 people with lose their union\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.6958548426628113,
+            -2.35149884223938,
+            -1.121034026145935
+        ]
+    },
+    {
+        "input_text:": "Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. Based on the previous passage, is it true that that \"The Marple TV show used the same stories as the Marple book series.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.8355215191841125,
+            -2.8748815059661865,
+            -1.4300318956375122
+        ]
+    },
+    {
+        "input_text:": "\"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. Based on the previous passage, is it true that that \"Dead Yakuza chose money over life.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.554921865463257,
+            -2.522202968597412,
+            -0.2925473749637604
+        ]
+    },
+    {
+        "input_text:": "And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. Based on the previous passage, is it true that that \"The speaker would like it if the troops were withdrawn immediately.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.4478542804718018,
+            -2.7700817584991455,
+            -0.16236445307731628
+        ]
+    },
+    {
+        "input_text:": "Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. Based on the previous passage, is it true that that \"Benny was encouraged to continue\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.301208734512329,
+            -2.6595582962036133,
+            -0.24512431025505066
+        ]
+    },
+    {
+        "input_text:": "How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. Based on the previous passage, is it true that that \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.6117966175079346,
+            -2.7177300453186035,
+            -0.21618647873401642
+        ]
+    },
+    {
+        "input_text:": "How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. Based on the previous passage, is it true that that \"The house will clean itself.\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.1895692348480225,
+            -1.790319561958313,
+            -0.6227564811706543
+        ]
+    },
+    {
+        "input_text:": "Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. Based on the previous passage, is it true that that \"Joseph enjoyed the cake\" is based on this fact? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.5051403045654297,
+            -2.9578628540039062,
+            -0.11824499070644379
+        ]
+    }
+]

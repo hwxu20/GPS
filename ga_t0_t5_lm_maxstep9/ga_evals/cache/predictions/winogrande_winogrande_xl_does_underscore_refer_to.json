@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "The football was flying higher than the basketball as it went through the air. The _ was lighter. In the previous sentence, who is the object _ is referring to football or basketball?",
+        "target_text": "football",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.759818971157074,
+            -0.6765345335006714
+        ]
+    },
+    {
+        "input_text:": "Adam cleaned his bathroom sink more often than Jason, therefore _ wasn't embarrassed when company came over. In the previous sentence, who is the object _ is referring to Adam or Jason?",
+        "target_text": "Adam",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.646245002746582,
+            -0.7559367418289185
+        ]
+    },
+    {
+        "input_text:": "Logan's immune system was much stronger than Joseph's because _ liked to eat kumquats as a snack. In the previous sentence, who is the object _ is referring to Logan or Joseph?",
+        "target_text": "Logan",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3218715786933899,
+            -1.2975517511367798
+        ]
+    },
+    {
+        "input_text:": "Jason got into a deep financial hole, unlike Joel, because _ managed their fortune well. In the previous sentence, who is the object _ is referring to Jason or Joel?",
+        "target_text": "Jason",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.9531721472740173,
+            -0.5038874745368958
+        ]
+    },
+    {
+        "input_text:": "Since _ could see, Benjamin described how the beautiful landscape looked to the bemused Neil. In the previous sentence, who is the object _ is referring to Benjamin or Neil?",
+        "target_text": "Benjamin",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.7531328797340393,
+            -0.6814879179000854
+        ]
+    },
+    {
+        "input_text:": "She used insane amounts of tape when wrapping presents making the _ very hard to open. In the previous sentence, who is the object _ is referring to presents or tape?",
+        "target_text": "presents",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5889604091644287,
+            -0.9010506272315979
+        ]
+    },
+    {
+        "input_text:": "Most of their guests wanted coffee and not lemonade because it was cold outside and the _ was cold. In the previous sentence, who is the object _ is referring to lemonade or coffee?",
+        "target_text": "lemonade",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.9401775598526,
+            -0.7119532227516174
+        ]
+    },
+    {
+        "input_text:": "Natalie disapproved of the behavior shown by Christine, although _ acted much worse in reality. In the previous sentence, who is the object _ is referring to Natalie or Christine?",
+        "target_text": "Natalie",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.5836992263793945,
+            -0.2712397575378418
+        ]
+    },
+    {
+        "input_text:": "The pill could not be crushed under that wood that it was placed. The _ it too soft. In the previous sentence, who is the object _ is referring to wood or pill?",
+        "target_text": "wood",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.3875771760940552,
+            -0.31014180183410645
+        ]
+    },
+    {
+        "input_text:": "When Betty wanted to organize her closet, instead of keeping things in cardboard boxes, she used plastic totes. The _ wouldn't last for a long time. In the previous sentence, who is the object _ is referring to cardboard boxes or plastic totes?",
+        "target_text": "cardboard boxes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.4867753982543945,
+            -5.289126873016357
+        ]
+    },
+    {
+        "input_text:": "Before each race, Sarah made sure to blow on their lucky helmet for good luck while Betty made sure the bike was ready because _ is superstitious. In the previous sentence, who is the object _ is referring to Sarah or Betty?",
+        "target_text": "Sarah",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.334090232849121,
+            -0.3096219003200531
+        ]
+    },
+    {
+        "input_text:": "The man had more pain in his back than in his legs because he had been lifting with the _. In the previous sentence, who is the object _ is referring to back or legs?",
+        "target_text": "back",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4370574355125427,
+            -1.1172345876693726
+        ]
+    },
+    {
+        "input_text:": "Peter needed to do consistent work and was able to use the wrench but replaced the screwdriver because the _ was durable. In the previous sentence, who is the object _ is referring to wrench or screwdriver?",
+        "target_text": "wrench",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2710722088813782,
+            -1.5831806659698486
+        ]
+    },
+    {
+        "input_text:": "Eating ice cream was Patricia's favorite thing to do but Christine can't eat ice cream because _ loved the cold texture. In the previous sentence, who is the object _ is referring to Patricia or Christine?",
+        "target_text": "Patricia",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7153089642524719,
+            -0.720499575138092
+        ]
+    },
+    {
+        "input_text:": "I grilled the steak for too long, but not the chicken breast so the _ ended up juicy. In the previous sentence, who is the object _ is referring to chicken breast or steak?",
+        "target_text": "chicken breast",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.7053543329238892,
+            -0.22091665863990784
+        ]
+    },
+    {
+        "input_text:": "Jennifer collected barbies when she was younger but not Jessica because _ was a girly girl. In the previous sentence, who is the object _ is referring to Jennifer or Jessica?",
+        "target_text": "Jennifer",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.9174939393997192,
+            -0.54134202003479
+        ]
+    },
+    {
+        "input_text:": "While preparing the meat to grill, we found out we need more propane, so we cooked on the _ with charcoal. In the previous sentence, who is the object _ is referring to meat or grill?",
+        "target_text": "meat",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.2262732982635498,
+            -0.4034252166748047
+        ]
+    },
+    {
+        "input_text:": "She preferred playing the castanets over regular drums because the _ didn't allow her to dance around. In the previous sentence, who is the object _ is referring to castanets or drums?",
+        "target_text": "castanets",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3654184341430664,
+            -1.3787028789520264
+        ]
+    },
+    {
+        "input_text:": "Jim was choosing between brown and yellow paint color for his bathroom wall, but the _ was too bright. In the previous sentence, who is the object _ is referring to brown or yellow?",
+        "target_text": "brown",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.716781139373779,
+            -6.085172176361084
+        ]
+    },
+    {
+        "input_text:": "Returning from the 5K run, Kim found coffee and water available in the clubhouse, and she refused the _ because she felt dehydrated. In the previous sentence, who is the object _ is referring to water or coffee?",
+        "target_text": "water",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.37982892990112305,
+            -2.580810546875
+        ]
+    },
+    {
+        "input_text:": "Brian needed to apply lotion more frequently than Adam due to _'s naturally oily skin. In the previous sentence, who is the object _ is referring to Brian or Adam?",
+        "target_text": "Brian",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.7193944454193115,
+            -0.2042035013437271
+        ]
+    },
+    {
+        "input_text:": "Sarah broke their parents' bathroom mirror in front of Patricia so _ began to laugh. In the previous sentence, who is the object _ is referring to Sarah or Patricia?",
+        "target_text": "Sarah",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.6751487255096436,
+            -0.21632502973079681
+        ]
+    },
+    {
+        "input_text:": "The car was avoided when he slammed on to the brake pedal. The _ was almost hit. In the previous sentence, who is the object _ is referring to pedal or car?",
+        "target_text": "pedal",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.9435290098190308,
+            -0.1832898110151291
+        ]
+    },
+    {
+        "input_text:": "Kayla was having trouble with Bedwetting but Victoria wasn't, so _ bought some silk sheets. In the previous sentence, who is the object _ is referring to Kayla or Victoria?",
+        "target_text": "Kayla",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.4785304069519043,
+            -0.08875107020139694
+        ]
+    },
+    {
+        "input_text:": "The was more careful unloading the eggs than the tomatoes into the house because the _ were tougher. In the previous sentence, who is the object _ is referring to eggs or tomatoes?",
+        "target_text": "eggs",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.4266796112060547,
+            -0.3073582351207733
+        ]
+    },
+    {
+        "input_text:": "Christopher thinks mice are a good pet but Derrick does not. _ bought some hamsters at the pet store. In the previous sentence, who is the object _ is referring to Christopher or Derrick?",
+        "target_text": "Christopher",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.1882949024438858,
+            -1.9959237575531006
+        ]
+    },
+    {
+        "input_text:": "During the child's development, the parents were required to get many books and not as many notebooks because the _ were not needed for learning. In the previous sentence, who is the object _ is referring to books or notebooks?",
+        "target_text": "books",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.215702772140503,
+            -2.2339837551116943
+        ]
+    },
+    {
+        "input_text:": "For work the technician went shopping for computer components and replaced the CPU but not the GPU because the _ was new. In the previous sentence, who is the object _ is referring to CPU or GPU?",
+        "target_text": "CPU",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.19476765394210815,
+            -1.7902230024337769
+        ]
+    },
+    {
+        "input_text:": "She knew the questions on the math test and not the reading test since the _ test was on a shorter timer. In the previous sentence, who is the object _ is referring to math or reading?",
+        "target_text": "math",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.1516351699829102,
+            -0.4776838421821594
+        ]
+    },
+    {
+        "input_text:": "The grass was more welcoming for the cats than the straw, even though the _ was dry. In the previous sentence, who is the object _ is referring to grass or straw?",
+        "target_text": "grass",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.182509422302246,
+            -0.48122310638427734
+        ]
+    },
+    {
+        "input_text:": "Tammy was treated for depression at the clinic and was overcharged but the _ was helpful. In the previous sentence, who is the object _ is referring to depression or clinic?",
+        "target_text": "depression",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.1653995513916016,
+            -0.13023877143859863
+        ]
+    },
+    {
+        "input_text:": "The senator introduced legislation to raise taxes on the rich and lower them on the poor, since the _ already paid high taxes. In the previous sentence, who is the object _ is referring to rich or poor?",
+        "target_text": "rich",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.0430307388305664,
+            -0.46483391523361206
+        ]
+    },
+    {
+        "input_text:": "Sally was cooking stew but she wasn't sure what type of steak to buy. The _ would cook in the stew for a long time to make the stew tasty. In the previous sentence, who is the object _ is referring to stew or steak?",
+        "target_text": "stew",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5311477184295654,
+            -0.28276899456977844
+        ]
+    }
+]

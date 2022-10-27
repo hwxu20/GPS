@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Suppose it's true that Rachel Brosnahan (born December 15, 1990) is an American actress. She is best known for her roles in the films \"The Unborn\" (2009) and \"Beautiful Creatures\" (2013) and for portraying Rachel Posner in the Netflix series \"House of Cards\", for which she was nominated for an Emmy Award. Then, is \"She is an American citizen.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.081472873687744,
+            -8.356277465820312,
+            -9.425097465515137
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Tsewang Rigzin is the current president of the Tibetan Youth Congress. He has held the position since September 2007, and on August 8, 2008 he was re-elected to serve through August 2013. Prior to attaining his current position he served as the president of the Portland/Vancouver regional chapter of the Tibetan Youth Congress. Then, is \"Tsewang Rigzin is the president of the Portland/Vancouver regional chapter of the Tibetan Youth Congress.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -7.174524784088135,
+            -6.911901473999023,
+            -8.84289836883545
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The phrase \"cold enough to freeze the balls off (or \"on\") a brass monkey\" is a colloquial expression used by some English speakers. The reference to the testes (as the term \"balls\" is commonly understood to mean) of the brass monkey appears to be a 20th-century variant on the expression, prefigured by a range of references to other body parts, especially the nose and tail. Then, is \"cold enough to freeze the balls off or on a brass monkey has no date\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.136843681335449,
+            -8.369384765625,
+            -7.464025974273682
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Coraz\u00f3n Valiente (\"Fearless Heart\"), originally known as \"Cadas del Cielo\", is a Spanish-language telenovela produced by United States-based television network Telemundo Studios, Miami, featuring an ensemble cast. Adriana Fonseca, Ximena Duque, Jos\u00e9 Luis Res\u00e9ndez and Fabi\u00e1n Ros starred as the main protagonists, with Aylin Mujica and Manuel Landeta starred as the main antagonists. Then, is \"The US-based television network Telemundo Studios produced the Spanish-language telenovela called Caidas del Cielo before the name was changed.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.594275951385498,
+            -8.574559211730957,
+            -10.072301864624023
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The Inter-American Peace Force (IAPF) was established, by the Organization of American States, on 23 May 1965, after the United States's intervention in the Dominican Republic. It largely consisted of over 42,600 United States military personnel, plus the following troops were sent by each country; Then, is \"The IAPF was formed at the behest of the US.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.978487968444824,
+            -7.7042155265808105,
+            -9.096476554870605
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The Last of Us Part II is an upcoming action-adventure survival horror video game developed by Naughty Dog and published by Sony Interactive Entertainment for PlayStation 4. It was announced at the PlayStation Experience event in December 2016, and will serve as the sequel to 2013's \"The Last of Us\". Then, is \"The Last of Us was an action adventure survival horror video game\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.208214282989502,
+            -7.724420070648193,
+            -10.12728214263916
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The PLDT Home TVolution Power Attackers (women's) and the PLDT Home Telpad-Air Force Turbo Boosters (men's) were professional volleyball teams owned by PLDT that played in the Philippine Super Liga (PSL) from 2013 to 2014. The club was first known as PLDT myDSL Speed Boosters. Then, is \"the club known as pldt speed boosters played in philipine league \" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.847803115844727,
+            -7.968691349029541,
+            -9.418221473693848
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The Return of the Condor Heroes, also called The Giant Eagle and Its Companion, is a wuxia novel by Jin Yong (Louis Cha). It is the second part of the \"Condor Trilogy\" and was preceded by \"The Legend of the Condor Heroes\" and followed by \"The Heaven Sword and Dragon Saber\". It was first serialised between 20 May 1959 and 5 July 1961 in the Hong Kong newspaper \"Ming Pao\". Then, is \"Jin Yong wrote The Legend of the Condor Heroes\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.772130966186523,
+            -7.081109523773193,
+            -8.936302185058594
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Valentino D. B. Mazzia (February 17, 1922 \u2013 March 10, 1999) was an American physician who served as chairman of the department of anesthesiology at the New York University School of Medicine and was a pioneer in the forensic analysis of deaths occurring during surgical procedures. He testified in many criminal cases about the use and presence of anesthesia products in cases of death. Then, is \"Valentino D.B. Mazzia testified that anesthesia products are present in many death cases.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -8.433042526245117,
+            -8.950068473815918,
+            -12.403007507324219
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Carl Frederik Tietgen (19 March 1829 \u2013 19 October 1901) was a Danish financier and industrialist. The founder of numerous prominent Danish companies, many of which are still in operation today, he played an important role in the industrialisation of Denmark. Notably also forming conglomerates, several of Tietgen's companies attained a monopoly-like status, which cemented their durability. Then, is \"Carl Tietgen formed conglomerates.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.030290126800537,
+            -8.16333293914795,
+            -9.983367919921875
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Himson Teleda (born 28 August 1992) is a footballer comes from Solomon Islands. He plays as a midfielder for Western United FC in Solomon Islands National Club Championship. He is a member of Solomon Islands national football team. He made his debut during the 2012 OFC Nations Cup and he scored one goal against New Zealand. In stage 3 he scored one goal against Tahiti. Then, is \"Taleda is 27 years old.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.416945457458496,
+            -7.486515998840332,
+            -7.446242809295654
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Col du Glandon (1924 m ) is a high mountain pass in the Dauphin\u00e9 Alps in Savoie, France, linking Le Bourg-d'Oisans to La Chambre. It is situated between the Belledonne, Grandes Rousses and Arvan-Villards mountain ranges, west of the Col de la Croix de Fer. The road over the Col du Glandon was opened in 1898, although it was not linked to the Col de la Croix de Fer until 1912. Then, is \"The road over the Col du Glandon was being constructed during 1898.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -8.845376968383789,
+            -9.650012969970703,
+            -10.274959564208984
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Stephen R. \"Steve\" Bissette (born March 14, 1955) is an American comics artist, editor, and publisher with a focus on the horror genre. He is known for working with writer Alan Moore and inker John Totleben on the DC comic book \"Swamp Thing\" in the 1980s. Then, is \"Stephen R. \"Steve\" Bissette was born in the year of the goat\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.1316962242126465,
+            -8.242773056030273,
+            -8.51192569732666
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Shehzad Sheikh or Shahzad Sheikh is a Pakistani film and television actor and model, known for playing the lead role in the 2015 film \"Karachi Se Lahore\". He also starred in the series \"Annie Ki Ayegi Baraat\", \"Mi Raqsam\", and \"Mere Hamrahi\", and a TV film \"Main Kukkoo Aur woh\". He is the son of well-known actor Javed Sheikh. Then, is \"Shahzad Sheikh primarily acted in Pakistani movies.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.3423261642456055,
+            -8.13053035736084,
+            -8.885147094726562
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The 1982 Bavarian Tennis Championships was a men's Grand Prix tennis circuit tournament held in Munich, West Germany which was played on outdoor clay courts. It was the 66th edition of the tournament and was held form 17 May through 23 May 1982. Gene Mayer won the singles title. Then, is \"Gene Mayer was in Munich before East and West Germany reunited.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.575453281402588,
+            -8.569540977478027,
+            -8.411147117614746
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Hakea microcarpa, commonly known as small-fruit hakea is a flowering plant in the family Proteaceae and is endemic to eastern Australia. It is a spreading shrub, often growing in woodlands, heathlands and near swamps in montane areas of eastern Australia. Then, is \"Hakea microcarpa is grown solely in the mountainous regions of eastern Australia.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.629317283630371,
+            -8.666237831115723,
+            -8.912440299987793
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Flamingo is the debut solo studio album by American singer-songwriter and The Killers lead singer Brandon Flowers, released on September 3, 2010 by Island Records. It was recorded at Battle Born Studios in Winchester, Nevada, and Henson Recording Studios in Hollywood, California. The album debuted at number one on the UK Albums Chart. Then, is \"Brandon Flowers debut album was recorded on a hot day\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.950020790100098,
+            -7.8003668785095215,
+            -8.767472267150879
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Ernest Guiraud (] ; 26 June 1837 \u2013 6 May 1892) was a French composer and music teacher born in New Orleans, Louisiana. He is best known for writing the traditional orchestral recitatives used for Bizet's opera \"Carmen\" and for Offenbach's opera \"Les contes d'Hoffmann\" (\"The Tales of Hoffmann\"). Then, is \"Ernest Guiraud spent his whole life in Louisiana\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.156317234039307,
+            -8.058947563171387,
+            -6.8806376457214355
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that State Route 204 (SR 204) is part of Maine's system of numbered state highways, located in Hancock County. It runs from State Route 3 in Trenton, passing State Route 184 in Lamoine, and ending at the intersection with Seal Point and Marlboro Beach roads. The route is 6.5 mi long. Then, is \"State Route 204 has no cars on it ever.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -9.565463066101074,
+            -10.172351837158203,
+            -7.971320152282715
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The 2016\u201317 ProA was the 10th season of the ProA, the second level of basketball in Germany. The champions the runners-up of the play-offs are promoted to the 2017\u201318 Basketball Bundesliga. The season started on September 22, 2016 and ended on May 7, 2017. Mitteldeutscher BC won the championship and promoted along with runners-up Oettinger Rockets. Then, is \"The 2016-17 season of ProA promoted five teams to the Basketball Bundesliga\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.937605381011963,
+            -7.472508430480957,
+            -8.910470962524414
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Wayne Coles-Janess is an Australian producer, writer and director of drama and documentary film and TV programs. Based in Melbourne, Australia, he has produced documentaries about frontier places in the country. He has also made some documentaries in several international locations, including during times of war. Then, is \"wayne cole janess ropes cattle in western movies.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -7.549825668334961,
+            -8.571044921875,
+            -7.541782855987549
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Fan and Mortar Geysers are two geysers in the Upper Geyser Basin in Yellowstone National Park. For the past several decades, they have erupted in concert with one another and are generally talked about together. The records detailing these geysers' known eruptive history shows that they have been infrequent and irregular performers. Then, is \"Sanse plays home games at multiple stadiums.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -8.62039852142334,
+            -9.009422302246094,
+            -9.606149673461914
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Svensk Hyllningsfest (], \"Swedish Honoring Festival\") is a biennial celebration held in Lindsborg, Kansas, in October of odd-numbered years since 1941 to celebrate the town's Swedish heritage. The festival includes Swedish dancing, foods including \"lutfisk\", cooking demonstrations, arts and crafts, entertainment by local artists and musicians, a parade, and a sm\u00f6rgsbord. Then, is \"The Svensk Hyllningsfest does not still occur today.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -8.431706428527832,
+            -10.155118942260742,
+            -8.524659156799316
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The Middlewich Folk and Boat Festival takes place in June in Middlewich, Cheshire, England. The festival builds on the town's industrial heritage in which canal boats were used to move coal and other raw materials in the town for the production of salt, and then move the salt out of town, either for use directly, or as a raw material in the manufacture of chemicals such as chlorine and soda ash. Then, is \"The salt is used for sidewalks.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -8.68023681640625,
+            -9.333724975585938,
+            -7.685786247253418
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Eldrid Nordb (born 12 August 1942) is a Norwegian politician for the Labour Party. She was personal secretary to the Minister of Social Affairs in 1971, state secretary to the prime minister (1986-89), and Minister of Trade and Shipping (1990-91). She is married to economist and politician Bjrn Skogstad Aamo. Then, is \"Eldrid Nordbo was personal secretary to the Minister of Social Affairs after 1971. \" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -7.770595550537109,
+            -8.198856353759766,
+            -8.037834167480469
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Marie Hedwig Auguste of Sulzbach (German: \"Marie Hedwig Auguste von Sulzbach\" ; born: 15 April 1650 in Sulzbach; died: 23 November 1681 in Hamburg) was a Countess Palatine of Sulzbach by birth and by marriage, Archduchess of Austria and by her second marriage, Duchess of Saxe-Lauenburg. Then, is \"Marie Hedwig Auguste's husband was a duchess.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -7.928189754486084,
+            -7.931346416473389,
+            -8.662444114685059
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Micropalaeosoma balticus (formerly \"Palaeosoma balticus\" ) is an extinct, fossil turbellarian flatworm known from Baltic amber of Kaliningrad, Russia, that lived approximately 40 million years ago. It measured approximately 1.5 mm in length and is the oldest and most complete flatworm fossil yet discovered. Then, is \"Micropalaeosoma balticus is common in dogs.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -8.471841812133789,
+            -9.3306884765625,
+            -6.980640888214111
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Joseph Maurice Francis Connaughton (15 August 1918 \u2013 12 February 1944) was an English first-class cricketer active 1939 who played for Middlesex. He was born in Paddington. During World War II he was commissioned in the Royal Artillery. He was drowned off the Maldives after SS \"Khedive Ismail\" was torpedoed; and officially declared dead one year later. Then, is \"Joseph Maurice Francis Connaughton died after World War II. \" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -5.928972244262695,
+            -6.920453071594238,
+            -7.769514560699463
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Ian Drew is Entertainment Director for American celebrity magazine, Us Weekly. He speaks about celebrities, music and fashion on television shows including CNN, Good Morning America, The Early Show, MSNBC, and Fox News. He interviewed Janet Jackson for one of Us Weekly's best-selling issues. Then, is \"Ian drew has not not appeared on CNN.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.833902359008789,
+            -9.14554214477539,
+            -6.689836025238037
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The Savings Bank Building is a commercial building located at 101 South Front Street in Marquette, Michigan. It is also known as the Marquette County Savings Bank. The building was designated a Michigan State Historic Site in 1976 and listed on the National Register of Historic Places in 1978. Then, is \"Michigan State has included Marquette County Savings Bank as a state historical site and the United States has included Savings Bank on the list of historic places as of 1976.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -7.03986930847168,
+            -9.939666748046875,
+            -9.298295974731445
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The 18th Street Expressway (often shortened to 18th Street in everyday speech) is a freeway in Kansas City, Kansas that runs from Interstate 35 north to Interstate 70/U.S. Route 24/U.S. Route 40. It carries the U.S. Route 69 designation its entire length. Then, is \"Interstate 70 doesn't connect with Interstate 35 North\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -8.606668472290039,
+            -9.260151863098145,
+            -7.387033462524414
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Cherry Tomato () is a 2008 South Korean film starring Shin Goo and Kim Hyang-gi. The family drama, a directorial debut by Jung Young-bae, depicts the poverty-stricken life of an old man and his granddaughter that evokes a strong sense of sympathy and helplessness. It was screened at the Busan Children\u2019s Film Festival in 2008. Then, is \"Cherry Tomato was released in 2010.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -6.63935661315918,
+            -7.614927768707275,
+            -7.002941131591797
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Identification Marks: None (Polish: Rysopis ) is a 1964 Polish drama film directed by Jerzy Skolimowski. It was the first feature film directed by Skolimowski, after the shorts \"Erotique\", \"Little Hamlet\", \"The Menacing Eye\", \"Boxing\" and \"Your Money or Your Life\". Then, is \"Jerzy Skolimowski was born in 1964\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -6.440922260284424,
+            -7.533695220947266,
+            -6.50658655166626
+        ]
+    }
+]

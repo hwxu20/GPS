@@ -1,0 +1,263 @@
+dataset: super_glue
+subset: wsc.fixed
+templates:
+  0fe51bd7-4f6b-4826-913a-47630835ff7b: !Template
+    answer_choices: No ||| Yes
+    id: 0fe51bd7-4f6b-4826-913a-47630835ff7b
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ refer to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  3959be9f-2273-4507-907c-4a54d09ec563: !Template
+    answer_choices: False ||| True
+    id: 3959be9f-2273-4507-907c-4a54d09ec563
+    jinja: "{{ text }} \nIn the passage above, {{ span1_text }} refers to the pronoun\
+      \ {{ span2_text }} . True or false? ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: the pronoun refers to
+    reference: "Adapted from Perez et al. 2021 and Schick & Sch\xFCtz 2021."
+  50f8abe5-9573-46be-b00f-9ad49fa13e57: !Template
+    answer_choices: No ||| Yes
+    id: 50f8abe5-9573-46be-b00f-9ad49fa13e57
+    jinja: '{{ text }} In the previous sentence, can "{{ span1_text }}" be used instead
+      of the pronoun "{{ span2_text }}" ? Yes or no? ||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: replaced with
+    reference: ''
+  5ed21638-de9b-41cd-b8ef-c9ddc1abb308: !Template
+    answer_choices: No ||| Yes
+    id: 5ed21638-de9b-41cd-b8ef-c9ddc1abb308
+    jinja: '{{ text }} No, because the antecedent and the object are the same. You
+      can replace the pronoun "{{ span2_text }}" with "{{ span1_text }}" , but then
+      you lose the meaning of the sentence. Do you agree? ||| {% if label != -1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: replaced with
+    reference: ''
+  6101fab8-9d47-4848-b7dc-8c5f6a611a3f: !Template
+    answer_choices: False ||| True
+    id: 6101fab8-9d47-4848-b7dc-8c5f6a611a3f
+    jinja: "{{ text }} \nIn the passage above, the pronoun {{ span2_text }} refers\
+      \ to {{ span1_text }} . ||| {% if label != -1 %}{{ answer_choices[label] }}{%\
+      \ endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: the pronoun refers to
+    reference: "Adapted from Perez et al. 2021 and Schick & Sch\xFCtz 2021."
+  63a0e75d-615a-45dd-861f-2747c48874a3: !Template
+    answer_choices: No ||| Yes
+    id: 63a0e75d-615a-45dd-861f-2747c48874a3
+    jinja: '{{ text }} In the previous sentence, is the "{{ span2_text.lower() }}"
+      referring to {{ span1_text }} ? Yes or no?||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does the pronoun refer to
+    reference: "Adapted from Perez et al. 2021 and Schick & Sch\xFCtz 2021."
+  71b1993b-75b8-48c0-a7d1-0c3c79160d78: !Template
+    answer_choices: No ||| Yes
+    id: 71b1993b-75b8-48c0-a7d1-0c3c79160d78
+    jinja: "Passage: {{ text }} \n\nQuestion: In the passage above, does {{ span1_text\
+      \ }} refer to the pronoun \"{{ span2_text }}\" ?\n\nAnswer: ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  74ae8903-6e80-4651-8b3f-e37afae584dc: !Template
+    answer_choices: No ||| Yes
+    id: 74ae8903-6e80-4651-8b3f-e37afae584dc
+    jinja: '{{ text }} In the previous sentence, can "{{ span1_text }}" be replaced
+      with the pronoun "{{ span2_text }}" ? Yes or no? ||| {% if label != -1 %}{{
+      answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: replaced with
+    reference: ''
+  7da3573a-dcc7-4919-a78c-73f287c0e9a5: !Template
+    answer_choices: No ||| Yes
+    id: 7da3573a-dcc7-4919-a78c-73f287c0e9a5
+    jinja: '{{ text }} In the previous sentence, does the "{{ span2_text.lower() }}"
+      refer to {{ span1_text }} ?||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does the pronoun refer to
+    reference: "Adapted from Perez et al. 2021 and Schick & Sch\xFCtz 2021."
+  86bd2eb0-0c08-40b0-a0f2-be16803acc5f: !Template
+    answer_choices: No ||| Yes
+    id: 86bd2eb0-0c08-40b0-a0f2-be16803acc5f
+    jinja: '{{ text }} In the previous sentence, can "{{ span1_text }}" be changed
+      to a different pronoun "{{ span2_text }}" ? Yes or no? ||| {% if label != -1
+      %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: replaced with
+    reference: ''
+  8b61f03e-62c5-4af9-a9b0-985bc761604f: !Template
+    answer_choices: No ||| Yes
+    id: 8b61f03e-62c5-4af9-a9b0-985bc761604f
+    jinja: "Passage: {{ text }} \n\nQuestion: Does {{ span1_text }} refer to the pronoun\
+      \ \"{{ span2_text }}\" ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  9b121ee0-5060-4669-a3ce-9a79050b4581: !Template
+    answer_choices: False ||| True
+    id: 9b121ee0-5060-4669-a3ce-9a79050b4581
+    jinja: "{{ text }} \nIn the passage above, the pronoun {{ span2_text }} refers\
+      \ to the place of {{ span1_text }} . True or false? ||| {% if label != -1 %}{{\
+      \ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: the pronoun refers to
+    reference: "Adapted from Perez et al. 2021 and Schick & Sch\xFCtz 2021."
+  9f40e76f-ca45-463f-8838-3bbd1c224b53: !Template
+    answer_choices: No ||| Yes
+    id: 9f40e76f-ca45-463f-8838-3bbd1c224b53
+    jinja: "Passage: {{ text }} \n\nQuestion: In the passage above, is the pronoun\
+      \ \"{{ span2_text }}\" referring to {{ span1_text }} ?\n\nAnswer: ||| {% if\
+      \ label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  a54014f4-3d77-4908-8dd6-bbea9bcd9968: !Template
+    answer_choices: No ||| Yes
+    id: a54014f4-3d77-4908-8dd6-bbea9bcd9968
+    jinja: '{{ text }} Here, does "{{ span2_text.lower() }}" stand for {{ span1_text
+      }} ? Yes or no. ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does p stand for
+    reference: ''
+  b82e0a9a-2665-4280-a5a8-b80eb55ad7c8: !Template
+    answer_choices: No ||| Yes
+    id: b82e0a9a-2665-4280-a5a8-b80eb55ad7c8
+    jinja: '{{ text }} Here, is "{{ span2_text.lower() }}" {{ span1_text }} ? Yes
+      or no? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does p stand for
+    reference: ''
+  bb10334c-e038-48ce-9eb0-bec118e314c5: !Template
+    answer_choices: No ||| Yes
+    id: bb10334c-e038-48ce-9eb0-bec118e314c5
+    jinja: "Passage: {{ text }} \n\nQuestion: In the passage above, does the pronoun\
+      \ \"{{ span2_text }}\" refer to the meaning of {{ span1_text }} ?\n\nAnswer:\
+      \ ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  cec925ab-beb8-4918-90dc-0a6b5f3487e8: !Template
+    answer_choices: No ||| Yes
+    id: cec925ab-beb8-4918-90dc-0a6b5f3487e8
+    jinja: '{{ text }} In the previous sentence, is the "{{ span2_text.lower() }}"
+      a {{ span1_text }} ? Yes or no?||| {% if label != -1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does the pronoun refer to
+    reference: "Adapted from Perez et al. 2021 and Schick & Sch\xFCtz 2021."
+  d0d42f8c-d22d-4748-ad2e-9120dc7ef423: !Template
+    answer_choices: No ||| Yes
+    id: d0d42f8c-d22d-4748-ad2e-9120dc7ef423
+    jinja: "Passage: {{ text }} \n\nQuestion: In the passage above, does the pronoun\
+      \ \"{{ span2_text }}\" refer to {{ span1_text }} ? Explain.\n\nAnswer: ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  d6936053-eb07-4287-abea-1449e56cd858: !Template
+    answer_choices: No ||| Yes
+    id: d6936053-eb07-4287-abea-1449e56cd858
+    jinja: '{{ text }} Here, does {{ span1_text }} stand for "{{ span2_text.lower()
+      }}" ? Yes or no? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does p stand for
+    reference: ''
+  ee4020de-1040-486d-9414-943b03347361: !Template
+    answer_choices: False ||| True
+    id: ee4020de-1040-486d-9414-943b03347361
+    jinja: "{{ text }} \nIn the passage above, the pronoun {{ span2_text }} refers\
+      \ to the name of {{ span1_text }} s. True or false? ||| {% if label != -1 %}{{\
+      \ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: the pronoun refers to
+    reference: "Adapted from Perez et al. 2021 and Schick & Sch\xFCtz 2021."

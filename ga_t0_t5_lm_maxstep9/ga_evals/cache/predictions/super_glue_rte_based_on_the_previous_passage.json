@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "Green cards are becoming more difficult to obtain. Based on the passage, what supports or rejects that \"Green card is now difficult to receive.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.5028231143951416,
+            -5.138033390045166
+        ]
+    },
+    {
+        "input_text:": "Winning Team John C. Harsanyi, John F. Nash and Reinhard Selten were jointly awarded the Nobel Prize in Economics. The three professors were singled out for their unique contributions to game theory, derived from studies of games such as poker or chess, in which players have to think ahead and devise a strategy based on expected countermoves from opponents. Based on the passage, what supports or rejects that \"Three scholars shared a Nobel Prize for their studies about the game theory.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.795224666595459,
+            -3.355980396270752
+        ]
+    },
+    {
+        "input_text:": "The anti-terrorist court found two men guilty of murdering Shapour Bakhtiar and his secretary Sorush Katibeh, who were found with their throats cut in August 1991. Based on the passage, what supports or rejects that \"Shapour Bakhtiar died in 1991.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.212042808532715,
+            -5.729984760284424
+        ]
+    },
+    {
+        "input_text:": "On Feb. 20, Dr. Hunter S. Thompson took his life with a gunshot to the head at his fortified compound in Woody Creek, Colorado. The family will shortly provide more information about memorial service and media contacts. Hunter prized his privacy and we ask that his friends and admirers respect that privacy as well as that of his family, Juan Thompson said in a statement issued to Aspen Daily News. The death was confirmed by Pitkin County Sheriff Bob Braudis. Hunter S. Thompson was best known for his 1972 book \"Fear and Loathing in Las Vegas\". He was recently married and had emotionally supported his friend John Kerry's candidacy. Based on the passage, what supports or rejects that \"John Kerry was friends with Hunter S. Thompson.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.90610933303833,
+            -6.594390869140625
+        ]
+    },
+    {
+        "input_text:": "CVS will stop selling its own brand of 500-milligram acetaminophen caplets and pull bottles from store shelves nation wide, spokesman Mike DeAngelis said. Based on the passage, what supports or rejects that \"CVS will not sell its own brand of 500-milligram acetaminophen caplets any longer.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.557483673095703,
+            -6.944666862487793
+        ]
+    },
+    {
+        "input_text:": "WINNENDEN, Germany A teenage gunman killed 15 people, most of them female, on Wednesday in a rampage that began at a school near Stuttgart in southern Germany and ended in a nearby town, where he then killed himself after the police wounded him. The attack left Germany, which tightened tough gun controls after a similar attack at a school seven years ago, struggling to understand the carnage that had again befallen it, a country with relatively little violent crime. In 2002, a gunman killed 16 people before killing himself at a school in Erfurt, in eastern Germany. Based on the passage, what supports or rejects that \"A teenager shot 15 people in Germany.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.4623918533325195,
+            -2.0402252674102783
+        ]
+    },
+    {
+        "input_text:": "Over a course of days, the bank went from apparent strength to bankruptcy. Barings was Britain's oldest merchant bank. It had financed the Napoleonic wars, the Louisiana purchase, and the Erie Canal. Barings was the Queen's bank. Based on the passage, what supports or rejects that \"Barings was Britain's oldest merchant bank.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.8479504585266113,
+            -5.404482364654541
+        ]
+    },
+    {
+        "input_text:": "Even though the charges were dropped on January 22, 2006, his Nobel Prize reception continues to provoke mixed feelings of pride and anger among Turks. On the other hand, as Pamuk intended, the criminal case brought international attention to freedom of speech in Turkey. In his Nobel speech, he defined literature as:... what a person creates when he shuts himself up in a room, sits down at a table, and retires to a corner to express his thoughts - that is, the meaning of literature... When a writer shuts himself up in a room for years on end, with this gesture he suggests a single humanity, a world without a centre. Based on the passage, what supports or rejects that \"Pamuk won a Nobel Prize.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.210549354553223,
+            -6.14926815032959
+        ]
+    },
+    {
+        "input_text:": "The chain of events which led to the collapse of Barings, Britain's oldest merchant bank, is a demonstration of how not to manage a derivatives operation. Based on the passage, what supports or rejects that \"Barings was Britain's oldest merchant bank.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.2434473037719727,
+            -5.323519706726074
+        ]
+    },
+    {
+        "input_text:": "In most Pacific countries there are very few women in parliament. Based on the passage, what supports or rejects that \"Women are poorly represented in parliament.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -4.410285949707031,
+            -4.1052093505859375
+        ]
+    },
+    {
+        "input_text:": "Sharon sent dismissal letters to Benny Elon and Avigdor Lieberman, who oppose his withdrawal plan, on Friday. Based on the passage, what supports or rejects that \"On Friday,Sharon fired Benny Elon and Avigdor Lieberman.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.8389272689819336,
+            -4.911421298980713
+        ]
+    },
+    {
+        "input_text:": "Iscor, the South African iron and steel manufacturer, has announced plans to develop a steel mini-mill at Saldanha Bay on the country's west coast in partnership with the state-run industrial development Corporation. Based on the passage, what supports or rejects that \"The South African steel manufacturer Iscor plans to develop a mini-mill.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.877326726913452,
+            -5.921624183654785
+        ]
+    },
+    {
+        "input_text:": "CBS newsman Harry Reasoner is returning to his Iowa hometown to get married Saturday. Based on the passage, what supports or rejects that \"CBS newsman Harry Reasoner was born in Iowa.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.6042485237121582,
+            -4.023664951324463
+        ]
+    },
+    {
+        "input_text:": "The gastric bypass operation, also known as stomach stapling, has become the most common surgical procedure for treating obesity. Based on the passage, what supports or rejects that \"Obesity is medically treated.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.877345085144043,
+            -6.038792133331299
+        ]
+    },
+    {
+        "input_text:": "The spread of AIDS in Africa is driven not by unsafe sex but by unsafe medical practice, according to research published last week. Based on the passage, what supports or rejects that \"AIDS spreads in Africa.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.951259136199951,
+            -7.296209335327148
+        ]
+    },
+    {
+        "input_text:": "It will be the most German of combinations: nudity and beach towels. After decades of sunbathing and camping in the buff, the legions of Teutonic naturists are about to get their very own holiday heaven \u2014 a completely clothing-free hotel. The Hotel Rosengarten, in the aptly named Black Forest town of Freudenstadt (\"Town of Joys\"), will mark a new frontier for the homeland of Freik\u00f6rperkultur (FKK), meaning \"free body culture\". A handful of German hotels have accommodated naturists up to now, but the management at Rosengarten plan to take a hardline anti-apparel stance. Based on the passage, what supports or rejects that \"Hotel Rosengarten is a completely clothing-free hotel.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.729665756225586,
+            -3.5192177295684814
+        ]
+    },
+    {
+        "input_text:": "Nonetheless, a literacy rate of 96 percent put Cuba on a par with such highly developed countries as Japan, France, the Soviet Union, Switzerland and Italy, Campo said. Based on the passage, what supports or rejects that \"The literacy rate in Cuba is 96%.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.527901649475098,
+            -5.457194805145264
+        ]
+    },
+    {
+        "input_text:": "According to an Israeli official, the murders of Galan, a high-ranking police officer, and a judge last week were probably carried out by an Israeli mercenary paid by the Medellin cartel - the world's most powerful drug-trafficking mafia - which has set up paramilitary squads accused of hundreds of individual murders and massacres against political and labor leaders, as well as peasants and patriotic union leftist militants in different parts of the country. Based on the passage, what supports or rejects that \"Political and labor leaders were killed by patriotic union leftist militants.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.585893630981445,
+            -2.3457226753234863
+        ]
+    },
+    {
+        "input_text:": "Also Friday, five Iraqi soldiers were killed and nine wounded in a bombing, targeting their convoy near Beiji, 150 miles north of Baghdad, the Iraqi military said. Based on the passage, what supports or rejects that \"Three Iraqi soldiers also died Saturday when their convoy was attacked by gunmen near Adhaim.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.748594284057617,
+            -5.425011157989502
+        ]
+    },
+    {
+        "input_text:": "On August 21, the Polish weekly Przekr\u00f3j published an advertisement for Dan-Mark exercise books, bearing the logo of 4fun.tv, a Polish music/interactive TV station. Part of the advertisement contained a definition of the word \"exercise book\". The wording looked familiar, and Wikinews consulted Wikipedia, the collaborative online encyclopedia. Upon seeing the Wikipedia definition, it appeared that the entry quoted in the promotional material was identical to the initial two paragraphs of the relevant Wikipedia entry. Based on the passage, what supports or rejects that \"Readers of online encyclopedias can edit the contents.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.656627655029297,
+            -3.8638486862182617
+        ]
+    },
+    {
+        "input_text:": "The drive towards this new law was driven in part from a string of transport-related disasters in the late 1980s, such as the sinking of cross-Channel ferry the Herald of Free Enterprise in 1987, the oil platform Piper Alpha disaster in 1988, and the Marchioness Thames river boat collision in 1989. More than 400 people lost their lives in these three disasters, but no one individual or organisation was brought to account. Based on the passage, what supports or rejects that \"100 or more people lost their lives in a ferry sinking.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.261007308959961,
+            -3.2730605602264404
+        ]
+    },
+    {
+        "input_text:": "Ordonez Reyes accused Jose Jesus Pena, alleged chief of security for the Nicaraguan embassy in Tegucigalpa, of masterminding the January 7th assassination of contra-commander Manuel Antonio Rugama. Based on the passage, what supports or rejects that \"Manuel Antonio Rugama was killed by Jose Jesus Pena.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -4.414834022521973,
+            -5.1419358253479
+        ]
+    },
+    {
+        "input_text:": "In more than 40 years as a broadcaster, right up to the last weeks before his death, Sir Clement established himself as one of Britain's most recognizable personalities. He cultivated a reputation as a grumpy, irritable but hugely entertaining performer. He won widespread public affection, particularly for his appearances since 1967 as a relentlessly inventive, assertive and witty panelist on the 30-minute radio show \"Just a Minute,\" in which contestants vie to speak on offbeat topics for 60 seconds without \"hesitation, repetition or deviation.\". Based on the passage, what supports or rejects that \"Sir Clement Freud was the grandson of Sigmund Freud.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.334256172180176,
+            -3.080606460571289
+        ]
+    },
+    {
+        "input_text:": "Police found four weapons-two semiautomatic machine guns, a.223-caliber rifle and two handguns in the vehicle. Based on the passage, what supports or rejects that \"Police found four weapons - a.50-calibre rifle, two military style assault rifles and a handgun in the vehicle.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.079796314239502,
+            -2.223752975463867
+        ]
+    },
+    {
+        "input_text:": "Scientists have made two major discoveries in the search for other Earth-like planets. British astronomers say they have discovered the smallest known Earth-like exoplanet orbiting a living star called Gliese 581 e and also discovered that a nearby planet called Gliese 581 d, discovered in 2007, is in the much sought after 'habitable zone'. Astronomers also believe there is a possibility that 581 d could have liquid oceans on its surface, calling the find \"extraordinary.\" \"The Holy Grail of current exoplanet research is the detection of a rocky, Earth-like planet in the 'habitable zone',\" said astrophysicist at Switzerland's Geneva University, Michel Mayor. Astronomers say 581 e is 20.5 light years away from Earth and that it's roughly 1.9 times larger than Earth, making it the smallest exoplanet discovered to date. It was found using the High Accuracy Radial Velocity Planet Searcher (HARPS). Based on the passage, what supports or rejects that \"Michel Mayor is the discoverer of the High Accuracy Radial Velocity Planet Searcher.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.813568592071533,
+            -3.8845291137695312
+        ]
+    },
+    {
+        "input_text:": "The Hotel Moulin de Paris in 2.5km away from Disneyland Paris, and is located in the charming city of Magny-Le-Hongre. Based on the passage, what supports or rejects that \"EuroDisney is located in the charming city of Magny-Le-Hongre.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.596188545227051,
+            -3.82389760017395
+        ]
+    },
+    {
+        "input_text:": "The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina. Based on the passage, what supports or rejects that \"The United States has asked member states of the International Energy Agency to provide oil.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.796141624450684,
+            -4.463942527770996
+        ]
+    },
+    {
+        "input_text:": "Vinicio Cerezo tacitly blamed president Alfredo Cristiani's administration for the crisis which prevails in the country as a result of the Farabundo Marti National Liberation Front's (FMLN) offensive. Meanwhile, Morales Ehrlich blamed the extreme- right, death-squads of El Salvador for the assassination of six Jesuit priests at the Central American University. Based on the passage, what supports or rejects that \"Farabundo Marti National Liberation Front is suspected of the assassination of six Jesuit priests.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.056903839111328,
+            -4.225528240203857
+        ]
+    },
+    {
+        "input_text:": "The last polio outbreak in the United States was in 1979. Based on the passage, what supports or rejects that \"African polio outbreak feared\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.776090621948242,
+            -6.833822250366211
+        ]
+    },
+    {
+        "input_text:": "The documents commented by the magazine date of April 25, 2002, epoch in which the Brazilian president was Fernando Henrique Cardoso. Based on the passage, what supports or rejects that \"The Brazilian President is Luiz In\u00e1cio Lula da Silva.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.657711982727051,
+            -1.6312782764434814
+        ]
+    },
+    {
+        "input_text:": "On 21 July, the Macdonough patrolled the waters off Guam to protect the assault craft from enemy submarines, continuing that role until departing for Hawaii on 10 August. After a day at Pearl Harbor, she departed for the Admiralty Islands. Based on the passage, what supports or rejects that \"The Macdonough left Hawaii on 10 August.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.160828590393066,
+            -4.0289177894592285
+        ]
+    },
+    {
+        "input_text:": "Mr Roughan claims that children from the age of nine and up are drinking late at night. \"You don't know what the hell's going to happen.\" Mr Nant has apologised to the affected, inconvenienced residents. New Zealand Post state they are going to continue to monitor the situation, however and also have on-going discussion with the local council and police \"to make sure we're abreast of any developments in the area.\" The gang violence/activity New Zealand Post are referring to is, on the previous Thursday the Armed Offenders Squad was called out where they raided three homes following a shooting, eight people were arrested, and a large number of firearms were seized. Based on the passage, what supports or rejects that \"Roughan has nine children.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.497505187988281,
+            -3.3665037155151367
+        ]
+    },
+    {
+        "input_text:": "A mercenary group, faithful to the warmongering policy of former Somozist colonel Enrique Bermudez, attacked an IFA truck belonging to the interior ministry at 0900 on 26 March in El Jicote, wounded and killed an interior ministry worker and wounded five others. Based on the passage, what supports or rejects that \"A mercenary group was injured in El Jicote.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.8317484855651855,
+            -2.652495861053467
+        ]
+    }
+]

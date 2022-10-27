@@ -1,0 +1,322 @@
+[
+    {
+        "input_text:": "Sentence A: Can we extend the legs of this dining table? Sentence B: Extend the TV antenna. Does the word \"extend\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.3363245725631714,
+            -0.49253642559051514
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Did you catch that allusion? Sentence B: I have to catch a train at 7 o'clock. Does the word \"catch\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3172564208507538,
+            -1.4739575386047363
+        ]
+    },
+    {
+        "input_text:": "Sentence A: The car's finish was so shiny and new. Sentence B: \"Almost an inspiration which gives to all work that finish which is almost art\" -- Joseph Conrad. Does the word \"finish\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.02903376892209053,
+            -4.271679878234863
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Flood the market with tennis shoes. Sentence B: The images flooded his mind. Does the word \"flood\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6377184391021729,
+            -0.9557554721832275
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Lie dormant. Sentence B: The snow lies on the roof. Does the word \"lie\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.0270392894744873,
+            -1.9540326595306396
+        ]
+    },
+    {
+        "input_text:": "Sentence A: He was unable to make his motion because he couldn't get recognition by the chairman. Sentence B: Increasing recognition that diabetes frequently coexists with other chronic diseases. Does the word \"recognition\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.065407395362854,
+            -1.4108291864395142
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Build up confidence. Sentence B: The contractor builds houses for $100. Does the word \"build\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.0000333786010742,
+            -0.8493061065673828
+        ]
+    },
+    {
+        "input_text:": "Sentence A: They sailed south around the point. Sentence B: A row of points. Does the word \"point\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4455305337905884,
+            -1.0584365129470825
+        ]
+    },
+    {
+        "input_text:": "Sentence A: You are trying my patience. Sentence B: Try the yak butter. Does the word \"try\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.48509377241134644,
+            -2.761091947555542
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Break cigarette smoking. Sentence B: His peccadilloes finally broke his marriage. Does the word \"break\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5942555665969849,
+            -0.9232922792434692
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Is the direction of the economy a function of government? Sentence B: I couldn't follow the direction of his thoughts. Does the word \"direction\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.14144384860992432,
+            -2.4717812538146973
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Please check each name on the list. Sentence B: She checked for an instant and missed a step. Does the word \"check\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5329129695892334,
+            -1.0609614849090576
+        ]
+    },
+    {
+        "input_text:": "Sentence A: The hollow of the hand or of a tree. Sentence B: He built himself a cabin in a hollow high up in the Rockies. Does the word \"hollow\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.776545524597168,
+            -1.2767829895019531
+        ]
+    },
+    {
+        "input_text:": "Sentence A: We should meet at a pre-arranged point. Sentence B: They sailed south around the point. Does the word \"point\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.09747940301895142,
+            -2.49757719039917
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Put that light out! Sentence B: The light of my life. Does the word \"light\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.27073928713798523,
+            -1.9714200496673584
+        ]
+    },
+    {
+        "input_text:": "Sentence A: He inserted the wedge into a split in the log. Sentence B: He demanded his split before they disbanded. Does the word \"split\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6046762466430664,
+            -2.03232479095459
+        ]
+    },
+    {
+        "input_text:": "Sentence A: I'll take that plate off the table. Sentence B: Take these letters to the boss. Does the word \"take\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.8798147439956665,
+            -0.7007671594619751
+        ]
+    },
+    {
+        "input_text:": "Sentence A: This product of last month's quality standards committee is quite good, even though the process was flawed. Sentence B: The process of calcification begins later for boys than for girls. Does the word \"process\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.022924985736608505,
+            -5.1678690910339355
+        ]
+    },
+    {
+        "input_text:": "Sentence A: The president no longer has the support of his own party. Sentence B: They developed a scheme of mutual support. Does the word \"support\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.2703883945941925,
+            -2.0492618083953857
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Precious stones occur in a large area in Brazil. Sentence B: Sexism occurs in many workplaces. Does the word \"occur\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.2859744131565094,
+            -1.7878187894821167
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Why don't you call me in the morning? Sentence B: Why don't you call tomorrow? Does the word \"call\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.299232006072998,
+            -0.41787010431289673
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Please focus on your studies and not on your hobbies. Sentence B: We focused on it. Does the word \"focus\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.0898598432540894,
+            -0.4284018278121948
+        ]
+    },
+    {
+        "input_text:": "Sentence A: He went to Las Vegas and spent all his money over a three-day run. Sentence B: I'm having a run of bad luck. Does the word \"run\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.13595034182071686,
+            -2.3751251697540283
+        ]
+    },
+    {
+        "input_text:": "Sentence A: This diamond comes from a mine in South Africa. Sentence B: He came out of the coal mine with a face covered in black. Does the word \"mine\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.20787803828716278,
+            -2.302546501159668
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Plug the hole. Sentence B: He attempted to plug the leaks with some caulk. Does the word \"plug\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4654722213745117,
+            -1.1109342575073242
+        ]
+    },
+    {
+        "input_text:": "Sentence A: I didn't mean to knock your tooth out. Sentence B: I mean to go to Baddeck this summer. Does the word \"mean\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.16909939050674438,
+            -2.199364185333252
+        ]
+    },
+    {
+        "input_text:": "Sentence A: I carry her image in my mind's eye. Sentence B: I carry a lot of life insurance. Does the word \"carry\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5368738770484924,
+            -1.2067184448242188
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Come down here! Sentence B: Come out of the closet! Does the word \"come\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.7453985214233398,
+            -0.7405691146850586
+        ]
+    },
+    {
+        "input_text:": "Sentence A: To advance the ripening of fruit. Sentence B: To advance one's interests. Does the word \"advance\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.7621387839317322,
+            -0.9056581854820251
+        ]
+    },
+    {
+        "input_text:": "Sentence A: An indication of foul play. Sentence B: Indications of strain. Does the word \"indication\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.151597499847412,
+            -0.41118380427360535
+        ]
+    },
+    {
+        "input_text:": "Sentence A: I will check up on the car tomorrow. Sentence B: Check out the engine. Does the word \"check\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.39259672164917,
+            -0.3246789574623108
+        ]
+    },
+    {
+        "input_text:": "Sentence A: Some parents exercise their infants. Sentence B: This puzzle will exercise your mind. Does the word \"exercise\" used in both sentences have the same meaning? Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4086472988128662,
+            -1.1263186931610107
+        ]
+    }
+]

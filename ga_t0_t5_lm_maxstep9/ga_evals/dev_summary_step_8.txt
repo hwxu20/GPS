@@ -1,0 +1,1568 @@
+[
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "0484dac2-c5ad-4b6e-bb6a-d797b1ebcc4b",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.29411764705882354
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "08d2f910-0525-4c6a-8846-1443a359936a",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "115d6c22-9785-4cb0-85bf-6c4f2b7cfcf7",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.47058823529411764
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "232c77af-8699-4bcd-abb9-a05ee73bcbe0",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "23b3cc3a-8822-48e9-aa4c-5e5a1302beac",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "247780c9-b863-4401-bd35-85926b365464",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "30a7e036-cdf7-4167-8225-bd882b053e38",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "36bfdc61-2a20-4b0a-a0d6-89968af28a23",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "388797b3-88c5-40a5-a9fe-e8e95069dcac",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.38235294117647056
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "3a34075a-9ef2-495f-9a22-144e1a0e9de5",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "473a1fbd-7c5b-4c0a-aba8-7c710e52b2a6",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.47058823529411764
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "4d6739ae-fb01-4c31-8333-bbc9b81fb629",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.2647058823529412
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "4fdc3b3b-d5eb-44d3-b8ae-637f6b487fcf",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "51e40c90-13ca-4bf0-acaa-b2472a9695ae",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.47058823529411764
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "5a134602-c0d6-42dd-9e6a-4795a7f28d07",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.5
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "62f93f28-80ec-4c0e-86a4-b0e1108d06b3",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.29411764705882354
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "7eb517a1-437c-43a5-9eff-44caa4fcd1a1",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.38235294117647056
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "894024a2-67ca-46e8-9072-84f97cf1de17",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.5
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "9ddba5f6-e9ca-4ca6-8b0d-2fc09633aad4",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "a371bb82-eb14-4020-a3ea-0163b9883c33",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "a9bda848-1ffe-4fda-a1d7-6b897dc2dd56",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "aa84e24f-1076-468b-89c9-180de148a3c4",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "b94d2689-2867-4efd-a6d6-03bbc3df8340",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "c8346611-48b2-41ce-ad4b-77576d602045",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.47058823529411764
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "c8905ca4-0f7f-465d-9bbf-c02cfbc62f33",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "dce30f47-5faa-47dd-87d6-bc67b0b49b10",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.35294117647058826
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "e188f7ed-2be3-4204-9965-d3d03634a62c",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4411764705882353
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "f1f98fba-ba5d-4d91-af4d-93ca414f79f5",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "f3f4948a-9774-4ca4-8b10-a53731f62f8e",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.47058823529411764
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "f6acc982-df50-4597-8046-1fd9b397cee4",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.4117647058823529
+        }
+    },
+    {
+        "dataset_name": "hellaswag",
+        "dataset_config_name": null,
+        "template_id": "f9baf27e-d9d3-468c-b805-24f03c736eff",
+        "template_name": "if_begins_how_continues",
+        "evaluation": {
+            "accuracy": 0.2647058823529412
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "00fb339c-2044-4ac7-bb97-a33ad1743ad1",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "02d419a4-1315-4441-b10c-8d5217587321",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "0732f339-fdef-4bae-82d4-0562bf7fb3b4",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "0a8866a1-c35a-4a94-816c-a047b11f29cd",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "0acab920-d9dd-478d-b2db-2306e1224ac7",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "0af96869-3637-4590-b6f2-5b81719907d1",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "0bdc2836-3d7d-42da-9b11-a88a73fb5a3a",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "0e200574-d1f9-441e-9ba6-085215036bb4",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "11d2babe-eb65-4702-a39d-0d5e56d5e12c",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "1608b60b-97fd-48cf-80f9-8711babd7e39",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "187f007d-8fb2-4626-bb11-f5c74adcaa79",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "1b16f066-2360-4b10-8c30-4a2e42d0d741",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "203f8d5b-cf37-42d4-b0de-e057010e1655",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "2271ff2b-480d-4446-bcf0-4501d203e734",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "227518bb-11a9-491a-8818-f91ad0dd50b7",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "232bd669-2217-4446-83f1-961812bc5204",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "27c5e345-a69d-4ac8-9954-2040bdc792ac",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "28b9a2af-e676-4b52-a32f-b05617c9f765",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "2ca87a03-b664-486d-8881-41b5f67a78b2",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "2d93b40e-e927-4204-bc20-49669aa77a55",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "2e8fa389-1b92-46a7-a3fd-17811b456144",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "305887c7-755c-449e-be62-3ac93d4e7d82",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "306ad7f7-caf3-4a46-81d0-c70a8de45245",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "315c89e1-e8b2-4fd9-abe9-2760a243efc0",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "32204637-3b9e-448b-b5ea-1da55bdd1b84",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "3369162a-cd24-4322-a683-f6a1b52fb8f3",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "3472a6a8-3a95-446e-9b66-f89696f89021",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "3930856a-40b7-4b89-85aa-b1f2cf098978",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "3b63d838-946d-4d37-a54f-d21f6bc29f3c",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "3b9f2017-c450-474d-90a5-bdbbd66052a4",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "3fa48b6a-e789-4b1d-b8fc-6a9056a66b7a",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "4071b142-2655-4e3b-9923-061a1ed845dd",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "40eeb60b-81ae-4858-9437-836b0a33a672",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "4178861b-95ea-4460-a2cd-72a98700b627",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "419af808-dd29-40f0-98a5-a07b05c90318",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "4207955d-6cb9-4791-8395-0a68fb682199",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "42510a70-4ed0-449e-8844-8657de13e802",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "42cae56b-c43f-4686-8236-685a2bac65ca",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "4757d08e-7534-4511-8daf-e4b345dff01f",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "47a25e27-24d2-4a80-a56e-89e389bc0e91",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "4ccdd851-0a40-4687-a9dd-ddba6b1184a3",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "4d00a988-d71f-4121-b8d8-86d7de32df9a",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "4f415637-04f7-4b6a-be3e-ff4647da22a7",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "51e6bed6-6b10-415a-9bc4-66dd4289c486",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "52298ed2-bd75-4e68-97d9-0d990b069571",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "545ea63c-1a3e-4764-85fd-3ca4ce851a84",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "556c7df3-1455-4414-ad06-e6b0ffb8386e",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "55cbc5ae-e563-4f07-9a09-e43ad9673516",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "56bc9253-edbc-426a-a557-6532e5aff60e",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "57df3af3-c505-43f4-b6e4-ef3a83dc0028",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "58858672-f135-4042-909a-4ab61ad72df3",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "58f58544-6bc5-4100-805f-76688ea5ce11",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "5a3d1e7e-89aa-426c-a5df-2667c9db37f2",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "5c3ab5c4-27de-4ce0-9d3d-74191c514c1f",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "5d55c185-33d9-46ef-b812-ea5cf644278c",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "5ed738fb-7a24-4923-896b-035ef2d646c0",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "64f61094-efa4-4f56-a09d-fe7434b3dea6",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "65197414-fae9-430a-bb6a-a903f8291f00",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "6aaf28d9-2551-47ca-90e5-39450bfe2ce0",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "6af4327b-edd3-4ab3-a669-f707ccf7eab0",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "6e896fa9-f823-4e09-b313-1d4bfe5e3d23",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "6ed8d0f6-36cf-4b40-a7f9-3e850904e3ee",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "6f605acc-310f-4772-8efb-98652a8d8be9",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "6f7dd075-e914-4339-9c0d-dc973bac878a",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "707e3d86-14d7-43f1-8582-8cae8d3135db",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "70b11239-9f60-44a8-971b-3f29ccc9819f",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "73db8f30-805e-4f10-bfd6-f38f9d45d537",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "75494d7a-f5bd-484e-9f2d-e9252a0a2ce8",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "762fdaf4-33d3-4399-8c66-aa7690b326ad",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "78f105c0-fe48-499f-abf2-3926645a464b",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "79855b4d-ee0a-47f5-b316-a026bdebf513",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "7aac61bc-3b50-4449-954f-9eb890bd1443",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "7b1798a9-d291-4840-975c-52b7cb338dcf",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "7d6c977b-ae4b-4581-903c-f27a163b5450",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "803ba761-8e21-48b7-a4de-c7ea3dddd27c",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "80cce5f5-8904-4b7e-a839-1c5b522563ee",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "813482a1-6c64-492c-b4fd-efa611d5937d",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "81a797a1-a876-4a9f-9880-b75f2603a444",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "894d3a8c-e462-4bc8-bce6-4215e3c6d155",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "89cafa4b-9e30-45e7-9e3f-16aeb6196820",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "8baee94a-e7fc-47f7-84d3-643a2ab1f9d4",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "8d613c3f-18c5-4c49-94f0-dad69aedd0ea",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "96754b43-d319-4f9d-924c-ca843f7c744f",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "9903257f-3cfd-4661-b522-a4ba6a1f2854",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "99708a0a-6ddb-482e-b9af-053be96c54b0",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "9a29b1e2-c4d3-4a57-98cf-4a9e5e6d2967",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "9a401034-166c-4e40-8713-8a2056842014",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "9b18991f-c1e1-4bb5-ab40-7d16e9f64b70",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "9baa0931-7a5c-4080-b705-dbb9c8dff9b1",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "a1ab00b8-a940-4f0f-8a66-0efd97f640f4",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "a50df1b2-eeee-482b-8d0d-7550d96cbc83",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "a536c841-1259-4eff-8d41-1958eccbf0c5",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "a5deaf0c-98e5-4ccd-83ca-a85a76c1b3f1",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "a61e2883-bc2b-467e-9a6c-ba666dbe456d",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "a64eea0d-2fe9-4bcb-bada-dc49828d74e2",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "a65ed729-d15f-4d02-8bd9-f11eb02e4f6d",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "a7a9abd3-e02f-4c03-b9dc-c045739dfa53",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "a7e2986b-da42-4607-af58-9d103cdc8b0d",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "ab5d9d25-135d-4a3f-a4c5-21f34bcaec1b",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "acabd619-0631-4f32-880d-87b0eca5d4e7",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "ace843bf-90ee-482d-8c22-867e665b806a",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "adbaba5f-f711-4e2f-99e3-32abc684689f",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "ae57201a-70e5-4e4d-9e21-b48dada6c91e",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b0519f74-73cf-4f3f-9e29-5c34ebac91d5",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b20d14fe-b5cf-4b94-a0c0-f200f5a79037",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b28ec17c-6f6d-4d38-bf9d-5d8c289f4361",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b300daa5-306f-488c-84ce-3bd8719b2169",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b497e73a-4cc0-4d76-8845-70a30c9e91de",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b573e9e3-58e6-4a10-9d37-70afa4c92b77",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b60789bd-ac70-433c-990a-7a6efa6091ce",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b62297ce-4341-4647-b48c-87dea4fbc98a",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b809ed22-fe7c-4ca3-bee1-af56f630bc29",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b949512f-01ab-48e6-9895-6ccc3b6a65e4",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "b98ea08c-d8bc-4dfd-890a-9b29f51e7f59",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "bb6c7aa1-a1c8-4551-8380-219bd379bf98",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "bb8efab7-79cf-4696-9750-743a34d170bf",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "bfe77ff1-f8f8-428a-9efd-2c36ab8c25ad",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "c3124557-6da0-4b04-a246-b1f842989268",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "c5e0511f-06ef-49ac-84a3-7c4331c54b5b",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "c621adef-4efc-4d68-b58b-0f35467c4183",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "c640f087-74f3-47cf-9939-7027976da705",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "cb09f4fe-5d4e-4db3-b8e8-d57d6cf5b9ce",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "cfc45fad-e78a-4686-8c2d-9f1b616261d9",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "d199c83f-3edd-4756-b1c0-1572a2cb831f",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "d367f798-3c90-4a10-94a1-63959190bc77",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "d7d070ff-4184-42d2-91c9-0a2e8b73badb",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9393939393939394
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "da55b9bf-69e5-4a72-97ed-7e79641793b6",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "db522c87-9299-469b-a7d4-6d8210743389",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "e03fea7f-da51-4871-95f1-0c3d580877ef",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "e1430394-f8a7-4d9c-b00f-01a13114e22a",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "f3b2bfda-f8ad-4533-a1dd-53bb2eb2739e",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "f48abff3-d247-41f6-bf57-9c55d0486566",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "f4906161-2882-48b9-b9fb-e4b946dca2d6",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "f5920f8b-5c23-4acb-bb6d-d2c09d18c11c",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "f657a07e-a204-4ffc-b455-028a9e0970b9",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "f7f64782-8c26-4039-98bc-fccbada06aeb",
+        "template_name": "cause_effect",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "f8e8fa42-eaf1-446e-a0b3-6e08b720ba9f",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "f9c9eeb7-c62f-44e1-b6f9-038db1d6a4cb",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "faaa90c8-e55d-44df-8c7d-44548ddf4cd4",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "fb6994a1-8e84-46e5-9329-e8d625618177",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "fbaaadfd-e19d-4a04-a090-aaeb9f31ac4b",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "fd0b9be3-08df-4bdc-8e5f-f02721510d7b",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 1.0
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "copa",
+        "template_id": "fe010e37-29fc-4b3a-8336-4c3db1ecda02",
+        "template_name": "…What could happen next, C1 or C2?",
+        "evaluation": {
+            "accuracy": 0.9696969696969697
+        }
+    }
+]

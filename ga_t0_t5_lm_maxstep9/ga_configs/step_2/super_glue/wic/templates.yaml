@@ -1,0 +1,1121 @@
+dataset: super_glue
+subset: wic
+templates:
+  02014cf1-59fe-419d-a344-ce51c48ab1cb: !Template
+    answer_choices: No ||| Yes
+    id: 02014cf1-59fe-419d-a344-ce51c48ab1cb
+    jinja: 'Describe the word ''{{word}}''''s meaning in the second sentence below.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  054967f0-0a84-44de-982c-e60e8d8965fd: !Template
+    answer_choices: No ||| Yes
+    id: 054967f0-0a84-44de-982c-e60e8d8965fd
+    jinja: 'Does the same word "{{word}}" mean the same in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  056db170-f41a-4e8a-941e-e40d3aba615a: !Template
+    answer_choices: No ||| Yes
+    id: 056db170-f41a-4e8a-941e-e40d3aba615a
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      Do you understand the meaning of the word "{{word}}" in both sentences?
+
+      ||| {% if label != -1 %}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: same_sense
+    reference: ''
+  06ebe2fa-b925-4dea-b101-34d0f510462e: !Template
+    answer_choices: No ||| Yes
+    id: 06ebe2fa-b925-4dea-b101-34d0f510462e
+    jinja: 'Does the same word "{{word}}" mean the same thing in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  0a8b20b2-3943-4ce9-8383-2728ceac4fd7: !Template
+    answer_choices: No ||| Yes
+    id: 0a8b20b2-3943-4ce9-8383-2728ceac4fd7
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      Do you understand the meaning of the word "{{word}}" in both sentences? Yes
+      or no.
+
+      ||| {% if label != -1 %}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: same_sense
+    reference: ''
+  0cc4bd56-598f-41ef-a85e-3770f7cade34: !Template
+    answer_choices: No ||| Yes
+    id: 0cc4bd56-598f-41ef-a85e-3770f7cade34
+    jinja: 'Compare the two sentences below by changing the word ''{{word}}'' that
+      they use.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  0cfd7056-88f8-42cb-97eb-9d2fdcad25eb: !Template
+    answer_choices: No ||| Yes
+    id: 0cfd7056-88f8-42cb-97eb-9d2fdcad25eb
+    jinja: 'What is the word "{{word}}" in the first sentence? Yes, No?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning-with-label
+    reference: Generalized question-context format with label
+  175121e5-611f-4b62-b4ee-9501e5f4b126: !Template
+    answer_choices: No ||| Yes
+    id: 175121e5-611f-4b62-b4ee-9501e5f4b126
+    jinja: 'What is the word "{{word}}" that is the same in both of these sentences?
+      Yes, No?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning-with-label
+    reference: Generalized question-context format with label
+  1c107a0b-3d09-4b95-9c4a-dbfce560ad93: !Template
+    answer_choices: No ||| Yes
+    id: 1c107a0b-3d09-4b95-9c4a-dbfce560ad93
+    jinja: 'Rewrite the two sentences below to use the same word ''{{word}}'' in one
+      sentence.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  1de925fa-d2d4-4f1e-92cc-abe81dbdc970: !Template
+    answer_choices: No ||| Yes
+    id: 1de925fa-d2d4-4f1e-92cc-abe81dbdc970
+    jinja: "Rewrite the two sentences below to use the same word '{{word}}'. Rewrite\
+      \ the sentence below by changing the word '{{word}}' to a synonym. You can use\
+      \ any word '{{word}}' as a synonym. \n{{sentence1}}\n{{sentence2}}\n||| {% if\
+      \ label != -1%}\n{{answer_choices[label]}}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  1e2e0751-4892-4171-a95c-ebf5dd627ac1: !Template
+    answer_choices: No ||| Yes
+    id: 1e2e0751-4892-4171-a95c-ebf5dd627ac1
+    jinja: 'Complete the sentence below using the word ''{{word}}''.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  1e491d02-6f91-42f2-b7a4-58500b02975e: !Template
+    answer_choices: No ||| Yes
+    id: 1e491d02-6f91-42f2-b7a4-58500b02975e
+    jinja: '{{sentence1}}
+
+      {{sentence2}}
+
+      Question: What two sentences above show how the word "{{word}}" is used in the
+      same sense?
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3-prompt
+    reference: Following table G32. https://arxiv.org/pdf/2005.14165.pdf
+  22646d7d-6863-4c67-9a37-86c28fa201c2: !Template
+    answer_choices: No ||| Yes
+    id: 22646d7d-6863-4c67-9a37-86c28fa201c2
+    jinja: 'Rewrite the two sentences below using the same word ''{{word}}''.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  2448ba34-ec3d-4320-9689-6de46afe8b46: !Template
+    answer_choices: No ||| Yes
+    id: 2448ba34-ec3d-4320-9689-6de46afe8b46
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      Is that the word "{{word}}" in both sentences? Yes or no?
+
+      ||| {% if label != -1 %}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: same_sense
+    reference: ''
+  2478b4fc-c4bd-404a-9b59-87109e737fcc: !Template
+    answer_choices: No ||| Yes
+    id: 2478b4fc-c4bd-404a-9b59-87109e737fcc
+    jinja: 'Homework
+
+
+      Compare the word "{{word}}"s used in the two following sentences. Answer by
+      yes or no.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: grammar_homework
+    reference: ''
+  293033b3-bd36-4cf2-bf54-e90c9bbc853e: !Template
+    answer_choices: No ||| Yes
+    id: 293033b3-bd36-4cf2-bf54-e90c9bbc853e
+    jinja: 'Rewrite the sentences below using the same word ''{{word}}''.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  35346f54-859d-49aa-a17d-b739257b3ccb: !Template
+    answer_choices: No ||| Yes
+    id: 35346f54-859d-49aa-a17d-b739257b3ccb
+    jinja: 'Rewrite the two sentences below, using the same word ''{{word}}'' as in
+      question 1.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  3fbbfd43-02cf-4b1f-8b8a-dd22f7484570: !Template
+    answer_choices: No ||| Yes
+    id: 3fbbfd43-02cf-4b1f-8b8a-dd22f7484570
+    jinja: 'Rewrite the two sentences below to use the same word ''{{word}}'' or phrases.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  405e655b-8291-47b3-824f-cee28f003399: !Template
+    answer_choices: No ||| Yes
+    id: 405e655b-8291-47b3-824f-cee28f003399
+    jinja: 'Rewrite the two sentences below using the same word ''{{word}}''. Be sure
+      you use the same word ''{{word}}'' each time.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  4509580b-3100-4a3a-949d-8f1a1ed6bec0: !Template
+    answer_choices: No ||| Yes
+    id: 4509580b-3100-4a3a-949d-8f1a1ed6bec0
+    jinja: 'Is the same word "{{word}}" in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning-with-label
+    reference: Generalized question-context format with label
+  46c45f9c-427b-4283-9cf4-f33510dcf14d: !Template
+    answer_choices: False ||| True
+    id: 46c45f9c-427b-4283-9cf4-f33510dcf14d
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s in sentences A and B have a similar meaning.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  47f23bcc-1ad6-4d68-9aae-9ff5cfcc3143: !Template
+    answer_choices: No ||| Yes
+    id: 47f23bcc-1ad6-4d68-9aae-9ff5cfcc3143
+    jinja: 'Do the word "{{word}}" mean the same thing in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  4de22776-dbd7-46a9-90fb-d55b65019103: !Template
+    answer_choices: No ||| Yes
+    id: 4de22776-dbd7-46a9-90fb-d55b65019103
+    jinja: 'Homework
+
+
+      Compare the meaning of the word "{{word}}" used in the two following sentences.
+      Answer by a negation or a agree.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: grammar_homework
+    reference: ''
+  58c3da0d-affc-4f04-b849-85910dbc09f1: !Template
+    answer_choices: No ||| Yes
+    id: 58c3da0d-affc-4f04-b849-85910dbc09f1
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      Is the word "{{word}}" used in both sentences the same in spelling? Yes or no?
+
+      ||| {% if label != -1 %}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: same_sense
+    reference: ''
+  8e16dcb2-49f5-4635-b8af-1a4b65f390af: !Template
+    answer_choices: No ||| Yes
+    id: 8e16dcb2-49f5-4635-b8af-1a4b65f390af
+    jinja: 'Describe the meaning of the word ''{{word}}''''s meaning in the second
+      sentence below.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  8ea3e296-9128-4e26-9f12-6aa5cde22e73: !Template
+    answer_choices: No ||| Yes
+    id: 8ea3e296-9128-4e26-9f12-6aa5cde22e73
+    jinja: 'Is the word "{{word}}" the same in these two sentences? Yes, No
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning-with-label
+    reference: Generalized question-context format with label
+  8f91f086-c3f6-47a8-9f27-20359531a5c9: !Template
+    answer_choices: No ||| Yes
+    id: 8f91f086-c3f6-47a8-9f27-20359531a5c9
+    jinja: 'Describe the meaning of the word ''{{word}}''''in the second sentence
+      below.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  910f9ebb-7958-43f3-9f85-982c28b86f4d: !Template
+    answer_choices: No ||| Yes
+    id: 910f9ebb-7958-43f3-9f85-982c28b86f4d
+    jinja: 'Take one word ''{{word}}'' from each sentence and place it in the other
+      sentence.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  9215ec24-291a-451d-bafa-3a9df5fee83a: !Template
+    answer_choices: No ||| Yes
+    id: 9215ec24-291a-451d-bafa-3a9df5fee83a
+    jinja: 'Rewrite the two sentences below using the same word ''{{word}}''s as in
+      question 1.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  994aab96-466e-467a-b92e-8f8babc38136: !Template
+    answer_choices: No ||| Yes
+    id: 994aab96-466e-467a-b92e-8f8babc38136
+    jinja: 'Do these two sentences use the same word "{{word}}"?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning-with-label
+    reference: Generalized question-context format with label
+  9edb59db-0f72-40f5-9772-cc8081d35ff3: !Template
+    answer_choices: No ||| Yes
+    id: 9edb59db-0f72-40f5-9772-cc8081d35ff3
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      Is the word "{{word}}" in both sentences of the same meaning? Yes or no?
+
+      ||| {% if label != -1 %}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: same_sense
+    reference: ''
+  a0af4a6e-7e9a-4bb3-bae8-f3580314d5d5: !Template
+    answer_choices: No ||| Yes
+    id: a0af4a6e-7e9a-4bb3-bae8-f3580314d5d5
+    jinja: 'When rewriting the two sentences below, make sure you use the same word
+      ''{{word}}''.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  a7024c3a-472c-41a3-afd6-2065c7707af7: !Template
+    answer_choices: No ||| Yes
+    id: a7024c3a-472c-41a3-afd6-2065c7707af7
+    jinja: 'Is the same word "{{word}}" used in both sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  a71c23bd-abc7-4e82-9456-59de6e3984e6: !Template
+    answer_choices: No ||| Yes
+    id: a71c23bd-abc7-4e82-9456-59de6e3984e6
+    jinja: 'Homework
+
+
+      Compare the two meaning of the word "{{word}}" used in the two following sentences.
+      Answer by yes or no.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: grammar_homework
+    reference: ''
+  a89beb65-dce3-4ff5-b1de-a7dbaeb4b2d8: !Template
+    answer_choices: No ||| Yes
+    id: a89beb65-dce3-4ff5-b1de-a7dbaeb4b2d8
+    jinja: 'Does the same word "{{word}}" have the same meaning in these two sentences?
+      2. The work is true.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  a9bea931-9386-4bf2-962e-f803d42b0d8d: !Template
+    answer_choices: False ||| True
+    id: a9bea931-9386-4bf2-962e-f803d42b0d8d
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      There are some similar "{{word}}"s between sentences A and B. True or False?
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  b6d23f81-a8c9-480b-88a1-c5be26cc793b: !Template
+    answer_choices: No ||| Yes
+    id: b6d23f81-a8c9-480b-88a1-c5be26cc793b
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      What is the difference between the meaning of these two word "{{word}}"s? Yes
+      or no?
+
+      ||| {% if label != -1 %}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: same_sense
+    reference: ''
+  b6ec1520-9eac-486e-a3c1-04ade50b2505: !Template
+    answer_choices: No ||| Yes
+    id: b6ec1520-9eac-486e-a3c1-04ade50b2505
+    jinja: 'What word ''{{word}}''s should I use in the first sentence?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  b775e0d7-d481-41a7-97e6-27f89fb4494c: !Template
+    answer_choices: No ||| Yes
+    id: b775e0d7-d481-41a7-97e6-27f89fb4494c
+    jinja: 'Is the word "{{word}}" the same thing in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  bd15ef60-1d74-4e52-9031-3c0d669de3cb: !Template
+    answer_choices: No ||| Yes
+    id: bd15ef60-1d74-4e52-9031-3c0d669de3cb
+    jinja: '{{sentence1}}
+
+      {{sentence2}}
+
+      Question: Are these sentences using the same sense of the same word "{{word}}"?
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3-prompt
+    reference: Following table G32. https://arxiv.org/pdf/2005.14165.pdf
+  c6603a86-5e72-4e7f-b7ce-ba03d9168760: !Template
+    answer_choices: False ||| True
+    id: c6603a86-5e72-4e7f-b7ce-ba03d9168760
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s have the same meaning in sentences A and B. True or False?
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  c6ef43db-2344-470a-b4a3-39dffceaf084: !Template
+    answer_choices: No ||| Yes
+    id: c6ef43db-2344-470a-b4a3-39dffceaf084
+    jinja: "In each sentence below, change the word '{{word}}' \n{{sentence1}}\n{{sentence2}}\n\
+      ||| {% if label != -1%}\n{{answer_choices[label]}}\n{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  c71b96ca-8734-435d-8afb-8087fb6ca23f: !Template
+    answer_choices: No ||| Yes
+    id: c71b96ca-8734-435d-8afb-8087fb6ca23f
+    jinja: "{{sentence1}}\n{{sentence2}}\nQuestion: Are the following sentences using\
+      \ the word \"{{word}}\" in the same way? E.g. Are 'vague' and'subtle' used in\
+      \ the same sense? \n||| {% if label != -1%}\n{{answer_choices[label]}}\n{% endif\
+      \ %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3-prompt
+    reference: Following table G32. https://arxiv.org/pdf/2005.14165.pdf
+  d1134cf5-e35d-4daa-bc83-73406eeab0ff: !Template
+    answer_choices: No ||| Yes
+    id: d1134cf5-e35d-4daa-bc83-73406eeab0ff
+    jinja: 'Homework
+
+
+      Compare the word "{{word}}" used in the two following sentences. Answer by yes
+      or no.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: grammar_homework
+    reference: ''
+  d526f360-b686-4483-bae4-f6d1ad323d64: !Template
+    answer_choices: No ||| Yes
+    id: d526f360-b686-4483-bae4-f6d1ad323d64
+    jinja: 'Is the same word "{{word}}" used in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  d6360334-9bff-446e-9581-749768ed7081: !Template
+    answer_choices: No ||| Yes
+    id: d6360334-9bff-446e-9581-749768ed7081
+    jinja: 'Is the word "{{word}}" the same in these two sentences? Yes, No.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning-with-label
+    reference: Generalized question-context format with label
+  e597ed6d-97d5-469f-9a56-55811d98d1bf: !Template
+    answer_choices: False ||| True
+    id: e597ed6d-97d5-469f-9a56-55811d98d1bf
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" with similar meaning in sentences A and B has the same pronunciation.
+      True or False?
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  ec2b662e-2be0-4761-b6ae-91007d62c298: !Template
+    answer_choices: No ||| Yes
+    id: ec2b662e-2be0-4761-b6ae-91007d62c298
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      Is the meaning of the word "{{word}}" the same in both sentences? Yes or no?
+
+      ||| {% if label != -1 %}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: same_sense
+    reference: ''
+  ecffc00b-2a6d-4a94-9f71-36c03e3115ab: !Template
+    answer_choices: No ||| Yes
+    id: ecffc00b-2a6d-4a94-9f71-36c03e3115ab
+    jinja: 'Homework
+
+
+      Compare the use of the word "{{word}}" used in the two following sentences.
+      Answer by yes or no.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: grammar_homework
+    reference: ''
+  f04f64d8-d8be-46c3-8a08-ccd2843d3705: !Template
+    answer_choices: No ||| Yes
+    id: f04f64d8-d8be-46c3-8a08-ccd2843d3705
+    jinja: 'Describe the meaning of the word ''{{word}}'' in the second sentence.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  f7a3a0dd-6b73-4f27-96d1-2a7b4583e0de: !Template
+    answer_choices: No ||| Yes
+    id: f7a3a0dd-6b73-4f27-96d1-2a7b4583e0de
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      Does the word "{{word}}" used in both sentences have the same meaning? Yes or
+      no?
+
+      ||| {% if label != -1 %}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: same_sense
+    reference: ''
+  fa1b1427-e580-402d-9c5f-0a97de156aa1: !Template
+    answer_choices: False ||| True
+    id: fa1b1427-e580-402d-9c5f-0a97de156aa1
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s in sentences A and B are the same. True or False?
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''

@@ -1,0 +1,333 @@
+dataset: hellaswag
+templates:
+  07ab4788-26f4-4345-b882-e2a8ba103a8c: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 07ab4788-26f4-4345-b882-e2a8ba103a8c
+    jinja: "If a situation begins like this: {{ ctx }}... then what happens in the\
+      \ middle? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1] }}\n\nEnding\
+      \ 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  227d1acb-2f4d-44c0-afbc-54acda0bb66d: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 227d1acb-2f4d-44c0-afbc-54acda0bb66d
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then what\
+      \ is the most likely thing that will happen next? \n\nEnding 1: {{ endings[0]\
+      \ }}\n\nEnding 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4:\
+      \ {{ endings[3] }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  3c49ee97-139c-4af2-8e56-a71036ee9a11: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 3c49ee97-139c-4af2-8e56-a71036ee9a11
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then what\
+      \ is the most likely thing that happened first? \n\nEnding 1: {{ endings[0]\
+      \ }}\n\nEnding 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4:\
+      \ {{ endings[3] }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  50c61dd5-0b8b-49cd-8f29-cbf57cf1bca5: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 50c61dd5-0b8b-49cd-8f29-cbf57cf1bca5
+    jinja: "If the same description begins like this: {{ ctx }}... then what is the\
+      \ most likely thing that happened? \n\nEnding 1: {{ endings[0] }}\n\nEnding\
+      \ 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3]\
+      \ }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  572efe18-5078-4156-9433-a415f1c5ce55: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 572efe18-5078-4156-9433-a415f1c5ce55
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then what\
+      \ is the least likely thing that can happen next? \n\nEnding 1: {{ endings[0]\
+      \ }}\n\nEnding 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4:\
+      \ {{ endings[3] }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  59bb1ed4-81b3-4fb7-9f48-dd8043bf4249: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 59bb1ed4-81b3-4fb7-9f48-dd8043bf4249
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then what\
+      \ does it not have at the end? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{\
+      \ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n\
+      |||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  6ae18240-4798-4d27-ba00-38288c0cb879: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 6ae18240-4798-4d27-ba00-38288c0cb879
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then which\
+      \ of the following could be true? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2:\
+      \ {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3]\
+      \ }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  80c93876-7d71-455f-b99a-56d9245b9776: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 80c93876-7d71-455f-b99a-56d9245b9776
+    jinja: "If the description of a situation begins like this: {{ ctx }}... then\
+      \ what is the most likely thing that happened? \n\nEnding 1: {{ endings[0] }}\n\
+      \nEnding 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3]\
+      \ }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  816ab513-b075-4251-82ae-351e4954e148: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 816ab513-b075-4251-82ae-351e4954e148
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then what\
+      \ is the most likely thing that happened? \n\nEnding 1: {{ endings[0] }}\n\n\
+      Ending 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3]\
+      \ }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  82fbf868-f741-41a5-b8c0-8ef97b2f5edb: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 82fbf868-f741-41a5-b8c0-8ef97b2f5edb
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then which\
+      \ of these words is most likely a description of that situation? \n\nEnding\
+      \ 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2]\
+      \ }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  83ec5716-6418-4098-9349-f5f868542d5f: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 83ec5716-6418-4098-9349-f5f868542d5f
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then which\
+      \ of these things is most likely to happen next? \n\nEnding 1: {{ endings[0]\
+      \ }}\n\nEnding 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4:\
+      \ {{ endings[3] }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  91e82eb6-e212-4037-8e83-46ccfe17d71a: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 91e82eb6-e212-4037-8e83-46ccfe17d71a
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then what\
+      \ happens in the end? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  92e18028-27c1-4824-b558-b4cbfda6f4ca: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 92e18028-27c1-4824-b558-b4cbfda6f4ca
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then which\
+      \ of the following would be the most likely outcome? \n\nEnding 1: {{ endings[0]\
+      \ }}\n\nEnding 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4:\
+      \ {{ endings[3] }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  9cd0dac8-d701-49a1-8269-3963622fd281: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: 9cd0dac8-d701-49a1-8269-3963622fd281
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then what\
+      \ are the possible things that can happen next? \n\nEnding 1: {{ endings[0]\
+      \ }}\n\nEnding 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4:\
+      \ {{ endings[3] }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  a1ef668b-360d-49eb-aa30-cdd37e4a065e: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: a1ef668b-360d-49eb-aa30-cdd37e4a065e
+    jinja: "If a description of a situation begins like this: {{ ctx }}... what is\
+      \ most likely to happen? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  a34be7bd-87f1-447b-9ca0-e1840fd2009f: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: a34be7bd-87f1-447b-9ca0-e1840fd2009f
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then which\
+      \ of these is most likely to happen? \n\nEnding 1: {{ endings[0] }}\n\nEnding\
+      \ 2: {{ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3]\
+      \ }}\n|||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  ac280415-91cc-4bc0-9690-6d4fa6dd0a29: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: ac280415-91cc-4bc0-9690-6d4fa6dd0a29
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then what\
+      \ happens in the middle? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  c4680bc8-a952-4675-928e-b999a0323ec7: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: c4680bc8-a952-4675-928e-b999a0323ec7
+    jinja: "If the first sentence begins like this: {{ ctx }}... then what happens\
+      \ at the end? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1] }}\n\
+      \nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  e3cdb831-8012-4bef-b2b0-ac60793a64e7: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: e3cdb831-8012-4bef-b2b0-ac60793a64e7
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then what\
+      \ does happen at the end? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  ec16f588-5c05-4388-9165-2cce831cbd58: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: ec16f588-5c05-4388-9165-2cce831cbd58
+    jinja: "If a description of a situation begins like this: {{ ctx }}... then how\
+      \ long does it take to finish? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{\
+      \ endings[1] }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n\
+      |||{{answer_choices[label | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  f380edf7-9c0a-4a07-9f93-29f1f9f252e9: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: f380edf7-9c0a-4a07-9f93-29f1f9f252e9
+    jinja: "If the same situation begins like this: {{ ctx }}... then what is the\
+      \ situation at the end? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1]\
+      \ }}\n\nEnding 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)
+  fa1f1c21-0a23-4ea3-8894-709c83b2e7a7: !Template
+    answer_choices: Ending 1 ||| Ending 2 ||| Ending 3 ||| Ending 4
+    id: fa1f1c21-0a23-4ea3-8894-709c83b2e7a7
+    jinja: "If the description of a situation begins like this: {{ ctx }}... then\
+      \ what was the most likely thing that happened after the description of that\
+      \ situation? \n\nEnding 1: {{ endings[0] }}\n\nEnding 2: {{ endings[1] }}\n\n\
+      Ending 3: {{ endings[2] }}\n\nEnding 4: {{ endings[3] }}\n|||{{answer_choices[label\
+      \ | int()] }}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: if_begins_how_continues
+    reference: Returns a Ending <int> string in the template (similar to how ends
+      paraphrased)

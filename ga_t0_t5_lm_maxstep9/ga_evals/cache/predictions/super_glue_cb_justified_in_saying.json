@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy. You could also say he was driven there by the railway. Does it look as if you have enough reasons to believe that \"Gustave was driven to creative retreat in Croisset by the railway\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.773281991481781,
+            -0.9757190346717834,
+            -2.0594491958618164
+        ]
+    },
+    {
+        "input_text:": "Jane ate without pausing. Hunger was an unknown experience. She had never imagined it could actually hurt. Does it look as if you have enough reasons to believe that \"hunger could actually hurt\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7852291464805603,
+            -1.3477548360824585,
+            -1.4894320964813232
+        ]
+    },
+    {
+        "input_text:": "They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. Does it look as if you have enough reasons to believe that \"Miss Lavant was in love with Dr Greenslade\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2112758904695511,
+            -2.2857065200805664,
+            -2.715402126312256
+        ]
+    },
+    {
+        "input_text:": "It was a complex language. Not written down but handed down. One might say it was peeled down. Does it look as if you have enough reasons to believe that \"the language was peeled down\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3796187937259674,
+            -1.687542200088501,
+            -2.2392995357513428
+        ]
+    },
+    {
+        "input_text:": "At length she decided that there was nothing to be gained by worrying her. Probably there was some quite innocent explanation, which Roger Kenyon would give her when she returned the wallet - if, indeed, it were his. And yet why had his manner changed so abruptly when he learned that the girl whose hat he had rescued was going to live at Sunset Cottage? Does it look as if you have enough reasons to believe that \"the girl whose hat Roger Kenyon had rescued was going to live at Sunset Cottage\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.43076103925704956,
+            -1.407416820526123,
+            -2.4333317279815674
+        ]
+    },
+    {
+        "input_text:": "A: Oh, oh yeah, and every time you see one hit on the side of the road you say is that my cat. B: Uh-huh. A: And you go crazy thinking it might be yours. B: Right, well I didn't realize my husband was such a sucker for animals until I brought one home one night. Does it look as if you have enough reasons to believe that \"her husband was such a sucker for animals\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5387132167816162,
+            -1.7097066640853882,
+            -1.8223189115524292
+        ]
+    },
+    {
+        "input_text:": "The Susweca. It means dragonfly'' in Sioux, you know. Did I ever tell you that's where Paul and I met? Does it look as if you have enough reasons to believe that \"Susweca is where she and Paul met\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.15705743432044983,
+            -3.069108486175537,
+            -2.506913423538208
+        ]
+    },
+    {
+        "input_text:": "Richard Breeden hadn't noticed that his new desk had just four telephone lines and one phone. Does it look as if you have enough reasons to believe that \"Richard Breeden's new desk had just four telephone lines and one phone\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.25424978137016296,
+            -2.4439961910247803,
+            -2.1428706645965576
+        ]
+    },
+    {
+        "input_text:": "B: Yeah, and the ground will filter some of it but not all of it. A: No, not when you figure, I didn't realize one cow produces that much manure Does it look as if you have enough reasons to believe that \"one cow produces that much manure\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.0077576637268066,
+            -1.639674186706543,
+            -1.4360380172729492
+        ]
+    },
+    {
+        "input_text:": "Paula could not help herself. It was just the way she was. Others might say they hated her and mean it. Does it look as if you have enough reasons to believe that \"others hated Paula\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9478470683097839,
+            -1.3566035032272339,
+            -1.2755714654922485
+        ]
+    },
+    {
+        "input_text:": "I wanted to tell you. But the Bookman asked me to keep our meeting a secret.'' How did you know I 'd met him? Does it look as if you have enough reasons to believe that \"he had met the Bookman\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5220332145690918,
+            -1.9358850717544556,
+            -1.6548967361450195
+        ]
+    },
+    {
+        "input_text:": "But don't dilly-dally for too long. Once it's published we are all going to look a little risible if we have made no adjustments to what is after all known as being predominantly my own design of gallery. Also I am a bit older than the rest of you but you can perhaps understand that I don't want to drop dead without a proper and public recantation. Does it look as if you have enough reasons to believe that \"he doesn't want to drop dead without a proper and public recantation\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6715606451034546,
+            -2.937086820602417,
+            -0.9410324096679688
+        ]
+    },
+    {
+        "input_text:": "How do you know? she was going to ask, but his smile was answer enough. If DeVore said there was going to be a vacancy there would be a vacancy. Does it look as if you have enough reasons to believe that \"there was going to be a vacancy\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.35275787115097046,
+            -2.306023359298706,
+            -1.8000802993774414
+        ]
+    },
+    {
+        "input_text:": "Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened. Does it look as if you have enough reasons to believe that \"something had happened\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6083189845085144,
+            -1.626136064529419,
+            -1.5561236143112183
+        ]
+    },
+    {
+        "input_text:": "But the damage was done as far as my faith was concerned, which is probably why I went mad. So anyway, that Christmas Eve night confirmed my worst fears, it was like a kind of royal flush'' for the infant Jimbo. All three kings - Pa Santa and the King of Kings - all down the pan together... And to be honest I don't believe any of them stands a chance of ever making a comeback with me. Does it look as if you have enough reasons to believe that \"any of the three kings stands a chance of ever making a comeback with him\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.004549741744995,
+            -0.4263078272342682,
+            -1.7792882919311523
+        ]
+    },
+    {
+        "input_text:": "B: And as far as like them, uh, entertaining the rights that they should have. A: Uh-huh. B: I mean, we educate them, we feed them, we take care of them and they no sooner get out on the street and they're back in again. A: Uh-huh. B: I'm not saying they're all bad, Does it look as if you have enough reasons to believe that \"they're all bad\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.4554953575134277,
+            -0.6154042482376099,
+            -1.32024347782135
+        ]
+    },
+    {
+        "input_text:": "B: Uh, I have, uh, I guess a lot of thoughts about the Vietnam War, um, I guess I feel like I was pretty young while it was going on and so there's probably a lot of things I remember and a lot of things that I really didn't have a clue as to what was happening. B: Yeah. A: Um, looking back, like maybe some of the things that I know now, I'm not sure I do believe it was worth the cost in dollars and lives. That was one of the questions that she asked us to think about, because we never went to war. I don't think we were committed to winning it and getting out Does it look as if you have enough reasons to believe that \"they were committed to winning the Vietnam War and getting out\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.520624876022339,
+            -0.2654893100261688,
+            -2.326408624649048
+        ]
+    },
+    {
+        "input_text:": "B: I did, too. A: I mean, it was just more for my money. B: Yeah. I didn't think it was too long at all. Does it look as if you have enough reasons to believe that \"it was too long\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.9461671113967896,
+            -0.709933876991272,
+            -1.3497639894485474
+        ]
+    },
+    {
+        "input_text:": "B: Uh, uh, I've had one or two American cars I think, and they were okay. I had a Pontiac once and I never had a problem with it, but, uh, my mother had a Dodge at one point and I had driven it a few times and I really did not feel that I would buy a Dodge just from, A: Um. B: well, actually, I had uh, a Dodge Omni at one point A: Uh-huh. B: and that was, I think, what really prejudiced me against American cars because I did not feel that it was a very quality, uh, car. Does it look as if you have enough reasons to believe that \"the Dodge Omni was a very quality car\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.66489839553833,
+            -0.06789474934339523,
+            -3.259796619415283
+        ]
+    },
+    {
+        "input_text:": "B: they did things for people, you know, for their communities, for their, uh, families, for their friends, where now, I'm not sure they really do. A: Yes. Yeah. Well, I think sometimes through groups and organizations, um, uh, when they asked the question I thought, well that sounds wonderful. And then, I wondered if people were unwilling but I think even if you went in with a negative attitude I don't think it would stay negative very long. Does it look as if you have enough reasons to believe that \"that attitude would stay negative very long\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.462051272392273,
+            -0.9445645809173584,
+            -1.1434283256530762
+        ]
+    },
+    {
+        "input_text:": "A: Well, presumably those who find out such information, if they are doing it, I would prefer to not to be known, and, I mean, you know, the classic, oh, I don't know C I conspiracy theories or whatever, would have such parties trying to do it without your knowledge. So there's,, things that invade that second type of privacy where you do know about them and possibly things that invade that second type of privacy without you knowing about it, and I can't talk about the second one other than to generate paranoia. It's a surmise and, I'd like to think that it's quite low, at least in this country. B: to surmise. It is there. A: I don't think I'd like the KGB monitoring my phone or anything like that. Does it look as if you have enough reasons to believe that \"he would like the KGB monitoring his phone\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.305601596832275,
+            -0.13115444779396057,
+            -2.7432096004486084
+        ]
+    },
+    {
+        "input_text:": "He had seen something I should have, which was a car turning in from Soho Square and coming up behind me. My right foot hovered over the accelerator pedal and I balanced Armstrong on the clutch. I wasn't as convinced as Malpass that Nevil was out of harm's way. Does it look as if you have enough reasons to believe that \"Nevil was out of harm's way\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.1471481323242188,
+            -1.0675575733184814,
+            -1.278990387916565
+        ]
+    },
+    {
+        "input_text:": "He's weird enough to have undressed me without thinking, according to some mad notion of the proper'' thing to do. Perhaps he thought I couldn't lie in bed with my clothes on. Does it look as if you have enough reasons to believe that \"she couldn't lie in bed with her clothes on\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.9417358636856079,
+            -0.9519416093826294,
+            -1.7662665843963623
+        ]
+    },
+    {
+        "input_text:": "B: That might be kind of tough, huh. A: It really would, yes, yes, and like I said, my sister's still in it, and I really don't think my mother'd want to be there, either. Does it look as if you have enough reasons to believe that \"his mother would want to be there\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.7887022495269775,
+            -0.3962399661540985,
+            -1.6749186515808105
+        ]
+    },
+    {
+        "input_text:": "A: Yeah, that's crazy. B: and then you come here in the Dallas area, um, I don't believe that people should be allowed to carry guns in their vehicles. Does it look as if you have enough reasons to believe that \"people should be allowed to carry guns in their vehicles\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.792815923690796,
+            -0.2771383821964264,
+            -2.078917980194092
+        ]
+    },
+    {
+        "input_text:": "A: and then once they do get elected, they don't have the power or the authority or the willingness to do those things that they promised, you know, beforehand. B: Right. A: You know, maybe it just wasn't possible at all in the first place, you know, like the no new taxes thing. You know, that's, uh, with the economy going the way it is and everything, that was nearly ridiculous thing to, even try to do. B: Yeah. Yeah. Well, I don't think he's going to have to worry about that next year. Does it look as if you have enough reasons to believe that \"he's going to have to worry about that next year\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5675715208053589,
+            -0.9666279554367065,
+            -1.3257219791412354
+        ]
+    },
+    {
+        "input_text:": "B: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah. Uh-huh. Uh-huh. B: I don't think it's going to be that easy to come up with Does it look as if you have enough reasons to believe that \"it is going to be that easy to come up with\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.4191651344299316,
+            -0.5323752760887146,
+            -1.590083360671997
+        ]
+    },
+    {
+        "input_text:": "A: Uh, well, it would depend on when you go it's not excessively crowded on the weekends. B: See I'd want to be there in the mornings like from nine thirty to ten thirty. A: Oh, I don't think that would be bad at all. Does it look as if you have enough reasons to believe that \"that would be bad\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.114128828048706,
+            -0.6890488266944885,
+            -1.238818883895874
+        ]
+    },
+    {
+        "input_text:": "A: That's fairly interesting. B: I bet that would be, rather interesting. Uh, that's, uh, self improvement, well, that's kind of a hobby but it is self improvement from the standpoint of probably relaxing, uh. A: Yeah, I don't know that I read anything strictly labeled self improvement. Does it look as if you have enough reasons to believe that \"she reads anything strictly labeled self improvement\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.464430570602417,
+            -0.8900486826896667,
+            -1.1510134935379028
+        ]
+    },
+    {
+        "input_text:": "B: Now see I. A: I'm intrigued by it, but I'm not sure I want to go see it yet. B: Yeah, I don't think I want to see that either. Does it look as if you have enough reasons to believe that \"she wants to see that\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.359064817428589,
+            -1.0401047468185425,
+            -0.9687085747718811
+        ]
+    },
+    {
+        "input_text:": "Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs. Does it look as if you have enough reasons to believe that \"Celia was still a bit hazy from the drugs\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.6432926654815674,
+            -2.079549789428711,
+            -1.123462438583374
+        ]
+    },
+    {
+        "input_text:": "A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate. Does it look as if you have enough reasons to believe that \"TV is pretty accurate\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.9701610803604126,
+            -1.203140139579773,
+            -1.4378046989440918
+        ]
+    },
+    {
+        "input_text:": "B: and both of those seem very easy to use compared to D Base. A: Uh-huh. Do you think D Base is more flexible or allows you to do more. Or do you think the others are pretty much compatible these days? Does it look as if you have enough reasons to believe that \"the others are pretty much compatible these days\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -2.007017135620117,
+            -0.6840493679046631,
+            -1.4127336740493774
+        ]
+    }
+]

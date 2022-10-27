@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. In your experience, what is the best way to test this \"You can be hired by passing a psychological test.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.9899821281433105,
+            -16.092994689941406,
+            -6.212315082550049
+        ]
+    },
+    {
+        "input_text:": "Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. In your experience, what is the best way to test this \"I was pregnant during at least one meeting\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -6.899679660797119,
+            -14.029356002807617,
+            -6.658984184265137
+        ]
+    },
+    {
+        "input_text:": "Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. In your experience, what is the best way to test this \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.4205081462860107,
+            -14.012406349182129,
+            -3.923074245452881
+        ]
+    },
+    {
+        "input_text:": "Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. In your experience, what is the best way to test this \"Dookie is still alive.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.693716049194336,
+            -14.674959182739258,
+            -4.417935848236084
+        ]
+    },
+    {
+        "input_text:": "Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. In your experience, what is the best way to test this \"The robbers get away from Reba by running away. \"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.150509238243103,
+            -14.09951114654541,
+            -2.268639087677002
+        ]
+    },
+    {
+        "input_text:": "NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) In your experience, what is the best way to test this \"Crude futures experienced losses this week.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.221280574798584,
+            -16.057796478271484,
+            -8.918363571166992
+        ]
+    },
+    {
+        "input_text:": "Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. In your experience, what is the best way to test this \"the church dedication was in 1824\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -4.024223327636719,
+            -15.92005729675293,
+            -1.905347466468811
+        ]
+    },
+    {
+        "input_text:": "Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. In your experience, what is the best way to test this \" Bruce Larson quit drag racing for quite sometime\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.8361412286758423,
+            -12.614378929138184,
+            -3.3070268630981445
+        ]
+    },
+    {
+        "input_text:": "How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). In your experience, what is the best way to test this \"Basic rules of soccer are decided upon by more than 1 member of IFAB\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.641463279724121,
+            -14.41064453125,
+            -3.2356069087982178
+        ]
+    },
+    {
+        "input_text:": "The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). In your experience, what is the best way to test this \"The Sounds have, at present, had less than four dozen coaches.\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -3.138612985610962,
+            -16.60122299194336,
+            -2.9777965545654297
+        ]
+    },
+    {
+        "input_text:": "Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. In your experience, what is the best way to test this \"Anna use her camera in her photography class\"?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.752082347869873,
+            -14.581097602844238,
+            -4.608471870422363
+        ]
+    },
+    {
+        "input_text:": "Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. In your experience, what is the best way to test this \"Tina enjoys being on the water.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.6862988471984863,
+            -14.4693021774292,
+            -1.168534755706787
+        ]
+    },
+    {
+        "input_text:": "How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. In your experience, what is the best way to test this \"She wnats to copy her hairstyle.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -5.600449562072754,
+            -13.669851303100586,
+            -4.112360954284668
+        ]
+    },
+    {
+        "input_text:": "Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. In your experience, what is the best way to test this \"Alvin's wife is immoral.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -4.515537261962891,
+            -15.022359848022461,
+            -4.163565635681152
+        ]
+    },
+    {
+        "input_text:": "Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. In your experience, what is the best way to test this \"The narrator and Milosevic met on GeoCities, and their wives know each other.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.21340560913086,
+            -16.951671600341797,
+            -7.327553749084473
+        ]
+    },
+    {
+        "input_text:": "Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. In your experience, what is the best way to test this \"fish food has a s\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.7824201583862305,
+            -14.651700973510742,
+            -1.828194260597229
+        ]
+    },
+    {
+        "input_text:": "How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. In your experience, what is the best way to test this \"Bankruptcy can always be avoided.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -5.1207051277160645,
+            -14.208137512207031,
+            -3.0123438835144043
+        ]
+    },
+    {
+        "input_text:": "Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! In your experience, what is the best way to test this \"Scott did not get along with his boss\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -4.522018909454346,
+            -14.168350219726562,
+            -1.3846945762634277
+        ]
+    },
+    {
+        "input_text:": "Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. In your experience, what is the best way to test this \"Seth creates new levels in the game without any help from his brothers. \"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.307229518890381,
+            -13.377681732177734,
+            -0.93722003698349
+        ]
+    },
+    {
+        "input_text:": "How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. In your experience, what is the best way to test this \"Herding dogs is a bigger group than Border collies.\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -8.005781173706055,
+            -14.710939407348633,
+            -5.723818778991699
+        ]
+    },
+    {
+        "input_text:": "How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. In your experience, what is the best way to test this \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.6006357669830322,
+            -11.237464904785156,
+            -3.6986002922058105
+        ]
+    },
+    {
+        "input_text:": "How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. In your experience, what is the best way to test this \"Red leaf lettuce must always be eaten with salad\"?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -6.133934020996094,
+            -15.129331588745117,
+            -0.6378434896469116
+        ]
+    },
+    {
+        "input_text:": "Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. In your experience, what is the best way to test this \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.103560447692871,
+            -13.773481369018555,
+            -3.5887410640716553
+        ]
+    },
+    {
+        "input_text:": "Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. In your experience, what is the best way to test this \"Dan is in a wheelchair\"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.2617316246032715,
+            -13.76270866394043,
+            -0.8508157730102539
+        ]
+    },
+    {
+        "input_text:": "Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. In your experience, what is the best way to test this \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -10.30298900604248,
+            -19.983055114746094,
+            -7.9319257736206055
+        ]
+    },
+    {
+        "input_text:": "But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? In your experience, what is the best way to test this \"40,00 people with lose their union\"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -7.430375576019287,
+            -16.226701736450195,
+            -8.13843059539795
+        ]
+    },
+    {
+        "input_text:": "Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. In your experience, what is the best way to test this \"The Marple TV show used the same stories as the Marple book series.\"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.9244589805603027,
+            -13.762165069580078,
+            -0.48504239320755005
+        ]
+    },
+    {
+        "input_text:": "\"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. In your experience, what is the best way to test this \"Dead Yakuza chose money over life.\"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -8.118648529052734,
+            -17.277591705322266,
+            -2.689969539642334
+        ]
+    },
+    {
+        "input_text:": "And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. In your experience, what is the best way to test this \"The speaker would like it if the troops were withdrawn immediately.\"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.159249782562256,
+            -15.461545944213867,
+            -0.19051802158355713
+        ]
+    },
+    {
+        "input_text:": "Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. In your experience, what is the best way to test this \"Benny was encouraged to continue\"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.74880838394165,
+            -13.563179016113281,
+            -1.8629229068756104
+        ]
+    },
+    {
+        "input_text:": "How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. In your experience, what is the best way to test this \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.460252285003662,
+            -15.959226608276367,
+            -2.6424169540405273
+        ]
+    },
+    {
+        "input_text:": "How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. In your experience, what is the best way to test this \"The house will clean itself.\"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.514100074768066,
+            -13.735721588134766,
+            -4.5247368812561035
+        ]
+    },
+    {
+        "input_text:": "Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. In your experience, what is the best way to test this \"Joseph enjoyed the cake\"?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.060059547424316,
+            -13.595839500427246,
+            -1.1183427572250366
+        ]
+    }
+]

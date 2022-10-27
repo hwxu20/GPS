@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "\"She was the designated driver for the night.\" or \"She was familiar with the bartender.\"? The woman refused a second beer. because",
+        "target_text": "She was the designated driver for the night.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.2310521602630615,
+            -6.5549187660217285
+        ]
+    },
+    {
+        "input_text:": "\"She completed the puzzle.\" or \"She took apart the puzzle.\"? The girl found the missing puzzle piece. so",
+        "target_text": "She completed the puzzle.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.2481105327606201,
+            -6.029211044311523
+        ]
+    },
+    {
+        "input_text:": "\"His landlord unlocked the door.\" or \"His landlord repaired the door.\"? The tenant misplaced his keys to his apartment. so",
+        "target_text": "His landlord unlocked the door.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.9261279106140137,
+            -4.086568832397461
+        ]
+    },
+    {
+        "input_text:": "\"The weeds came out of the soil.\" or \"The weeds produced seeds.\"? The gardener pulled the weeds. so",
+        "target_text": "The weeds came out of the soil.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -3.1056158542633057,
+            -2.963616132736206
+        ]
+    },
+    {
+        "input_text:": "\"He wanted to relax.\" or \"He felt content.\"? The man went away for the weekend. because",
+        "target_text": "He wanted to relax.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.182378888130188,
+            -5.094287395477295
+        ]
+    },
+    {
+        "input_text:": "\"The wave carried her to the shore.\" or \"She paddled her board into the ocean.\"? The surfer caught the wave. so",
+        "target_text": "The wave carried her to the shore.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.60725212097168,
+            -3.6621415615081787
+        ]
+    },
+    {
+        "input_text:": "\"He was sweaty from working out.\" or \"He opened a new bar of soap.\"? The man took a shower. because",
+        "target_text": "He was sweaty from working out.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9399266839027405,
+            -4.510961055755615
+        ]
+    },
+    {
+        "input_text:": "\"I felt awkward.\" or \"I became enraged.\"? Our group's conversation gradually lulled to silence. so",
+        "target_text": "I felt awkward.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.4038736820220947,
+            -7.048586368560791
+        ]
+    },
+    {
+        "input_text:": "\"I requested the librarian's help.\" or \"The book was checked out.\"? The librarian located the book in the stacks. because",
+        "target_text": "I requested the librarian's help.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.257359504699707,
+            -2.834568977355957
+        ]
+    },
+    {
+        "input_text:": "\"He was cured of cancer.\" or \"His wife was diagnosed with cancer.\"? The man felt thankful to be alive. because",
+        "target_text": "He was cured of cancer.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -4.932906627655029,
+            -4.196372985839844
+        ]
+    },
+    {
+        "input_text:": "\"She was sent back to jail.\" or \"She stole money from a church.\"? The offender violated parole. so",
+        "target_text": "She was sent back to jail.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.8765990734100342,
+            -8.2207612991333
+        ]
+    },
+    {
+        "input_text:": "\"He wanted to maintain his privacy.\" or \"He supported the cause behind his donation.\"? The benefactor requested to stay anonymous. because",
+        "target_text": "He wanted to maintain his privacy.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.4634212255477905,
+            -4.06321382522583
+        ]
+    },
+    {
+        "input_text:": "\"The bomb exploded.\" or \"The bomb was deactivated.\"? The terrorist set off the bomb. so",
+        "target_text": "The bomb exploded.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.533689022064209,
+            -4.887953758239746
+        ]
+    },
+    {
+        "input_text:": "\"He trusted the therapist.\" or \"He disagreed with the therapist.\"? The man revealed personal information to the therapist. because",
+        "target_text": "He trusted the therapist.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7824337482452393,
+            -17.353076934814453
+        ]
+    },
+    {
+        "input_text:": "\"His family offered him financial support.\" or \"His family cut off contact with him.\"? The man became disabled. so",
+        "target_text": "His family offered him financial support.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.3068761825561523,
+            -6.542702674865723
+        ]
+    },
+    {
+        "input_text:": "\"The woman kissed him.\" or \"The woman made him blush.\"? The man had lipstick on his cheek. because",
+        "target_text": "The woman kissed him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.1768304109573364,
+            -3.3736956119537354
+        ]
+    },
+    {
+        "input_text:": "\"I caught myself on the railing.\" or \"The railing came loose from the wall.\"? My knees buckled on the stairs. so",
+        "target_text": "I caught myself on the railing.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.029515504837036,
+            -3.2897725105285645
+        ]
+    },
+    {
+        "input_text:": "\"His sister tattled on him.\" or \"They played hide and seek.\"? The boy pushed his sister. so",
+        "target_text": "His sister tattled on him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.1864529848098755,
+            -3.565103769302368
+        ]
+    },
+    {
+        "input_text:": "\"The man called her.\" or \"The man stalked her.\"? The woman filed a restraining order against the man. because",
+        "target_text": "The man called her.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.211588382720947,
+            -1.146851897239685
+        ]
+    },
+    {
+        "input_text:": "\"The band signed autographs.\" or \"The band reappeared on the stage.\"? The crowd gave the band a standing ovation. so",
+        "target_text": "The band signed autographs.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.2809040546417236,
+            -4.2063093185424805
+        ]
+    },
+    {
+        "input_text:": "\"I stenciled it.\" or \"I glued it back together.\"? The vase broke. so",
+        "target_text": "I stenciled it.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.9701523780822754,
+            -2.466341257095337
+        ]
+    },
+    {
+        "input_text:": "\"I put my shoes on.\" or \"I shook my foot.\"? My foot went numb. so",
+        "target_text": "I put my shoes on.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.6085758209228516,
+            -3.08620023727417
+        ]
+    },
+    {
+        "input_text:": "\"His dog jumped up on him.\" or \"His dog ran over to eat the food.\"? The man dropped food on the floor. so",
+        "target_text": "His dog jumped up on him.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.400737762451172,
+            -3.03432297706604
+        ]
+    },
+    {
+        "input_text:": "\"Snowflakes began to fall from the sky.\" or \"The moon became visible in the sky.\"? It got dark outside. so",
+        "target_text": "Snowflakes began to fall from the sky.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.7062034606933594,
+            -2.275393009185791
+        ]
+    },
+    {
+        "input_text:": "\"She enrolled in college.\" or \"She graduated from college.\"? The woman received a diploma. because",
+        "target_text": "She enrolled in college.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.4103312492370605,
+            -1.179914951324463
+        ]
+    },
+    {
+        "input_text:": "\"Its products received positive consumer reviews.\" or \"Some of its products were manufactured defectively.\"? The company lost money. because",
+        "target_text": "Its products received positive consumer reviews.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.582991123199463,
+            -1.123789668083191
+        ]
+    },
+    {
+        "input_text:": "\"I paper clipped them together.\" or \"I kept them in a secure place.\"? The documents contained important information. so",
+        "target_text": "I paper clipped them together.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.662572860717773,
+            -1.1323126554489136
+        ]
+    },
+    {
+        "input_text:": "\"He realized he forgot something.\" or \"He realized he was early.\"? The man looked at his watch. so",
+        "target_text": "He realized he forgot something.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.560556173324585,
+            -1.3941631317138672
+        ]
+    },
+    {
+        "input_text:": "\"It was fresh.\" or \"It was stale.\"? The man threw out the bread. because",
+        "target_text": "It was fresh.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.282541275024414,
+            -1.4326727390289307
+        ]
+    },
+    {
+        "input_text:": "\"The procedure was costly.\" or \"Specialists recommended the procedure.\"? The patient underwent the risky medical procedure. because",
+        "target_text": "The procedure was costly.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.409941673278809,
+            -1.0530117750167847
+        ]
+    },
+    {
+        "input_text:": "\"She brushed her hair.\" or \"She wiped her eyes.\"? The woman's makeup smeared. because",
+        "target_text": "She brushed her hair.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.1192822456359863,
+            -2.1538949012756348
+        ]
+    },
+    {
+        "input_text:": "\"The gun recoiled.\" or \"The gun went off.\"? The police officer dropped the gun. so",
+        "target_text": "The gun recoiled.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.692527770996094,
+            -3.561511754989624
+        ]
+    },
+    {
+        "input_text:": "\"I encouraged her to take deep breaths.\" or \"I took her to the emergency room.\"? My daughter suffered an allergy attack. so",
+        "target_text": "I encouraged her to take deep breaths.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.7692259550094604,
+            -3.2120578289031982
+        ]
+    }
+]

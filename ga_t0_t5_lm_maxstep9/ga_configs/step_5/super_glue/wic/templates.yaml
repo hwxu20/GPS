@@ -1,0 +1,1712 @@
+dataset: super_glue
+subset: wic
+templates:
+  06c0b43c-9323-420c-b58f-511084f36855: !Template
+    answer_choices: False ||| True
+    id: 06c0b43c-9323-420c-b58f-511084f36855
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s ''today'' in sentences A and B are natural synonyms.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  0ab91a9d-c689-48aa-bc05-d95e9d696fc8: !Template
+    answer_choices: No ||| Yes
+    id: 0ab91a9d-c689-48aa-bc05-d95e9d696fc8
+    jinja: 'What is the difference between the two word "{{word}}" in the first sentence?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  0b4355f0-94f7-49ea-9ac3-a3a7c6d7397d: !Template
+    answer_choices: False ||| True
+    id: 0b4355f0-94f7-49ea-9ac3-a3a7c6d7397d
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"''sunday'' in sentences A and B is a natural synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  0bdaea47-e42e-4f73-80bf-24b502906423: !Template
+    answer_choices: False ||| True
+    id: 0bdaea47-e42e-4f73-80bf-24b502906423
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      The meaning of "{{word}}" ''now'' in sentences A and B is not a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  0d8db1e7-4c32-4cb9-9fbb-9ab2d1133d9b: !Template
+    answer_choices: No ||| Yes
+    id: 0d8db1e7-4c32-4cb9-9fbb-9ab2d1133d9b
+    jinja: 'What is the word "{{word}}" in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  0f7f5463-874e-4686-9609-00918225284a: !Template
+    answer_choices: False ||| True
+    id: 0f7f5463-874e-4686-9609-00918225284a
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''today'' in sentences A and B is a substitute.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  1111fa2b-5a17-4404-afe6-3f4b0b2d1e04: !Template
+    answer_choices: No ||| Yes
+    id: 1111fa2b-5a17-4404-afe6-3f4b0b2d1e04
+    jinja: 'Is the word "{{word}}" in these two sentences a common thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  138a868a-53d8-4910-8277-940b91e091cc: !Template
+    answer_choices: False ||| True
+    id: 138a868a-53d8-4910-8277-940b91e091cc
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s in sentences A and B are similar in spelling.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  1757d09d-082b-45c5-9128-d4388a252c51: !Template
+    answer_choices: No ||| Yes
+    id: 1757d09d-082b-45c5-9128-d4388a252c51
+    jinja: 'If the word "{{word}}" in these two sentences is a separate thing, why
+      is it not a separate thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  18428b15-7498-43b9-b6a8-bf7ed300409f: !Template
+    answer_choices: No ||| Yes
+    id: 18428b15-7498-43b9-b6a8-bf7ed300409f
+    jinja: 'Rewrite the following two sentences and then keep the same word ''{{word}}''
+      and.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  1f332f08-1fee-49e3-82e0-6a7312494e6e: !Template
+    answer_choices: No ||| Yes
+    id: 1f332f08-1fee-49e3-82e0-6a7312494e6e
+    jinja: 'Is this a word "{{word}}"?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  24381134-870f-4e89-abc3-743d95e386f0: !Template
+    answer_choices: False ||| True
+    id: 24381134-870f-4e89-abc3-743d95e386f0
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s ''today'' and ''now'' in sentences A and B are a homonyms.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  28284c5f-abfd-4e22-9cf3-64a0bead634b: !Template
+    answer_choices: No ||| Yes
+    id: 28284c5f-abfd-4e22-9cf3-64a0bead634b
+    jinja: 'Rewrite the following two sentences and make sure you use the same word
+      ''{{word}}''s as in Question 1.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  282f61f4-ab68-4675-97e5-44bbfc5a58dd: !Template
+    answer_choices: False ||| True
+    id: 282f61f4-ab68-4675-97e5-44bbfc5a58dd
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      Does each of sentences A and B include "{{word}}" ''now''?
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  284a10ca-2574-4e1b-ae29-5f61d565c859: !Template
+    answer_choices: False ||| True
+    id: 284a10ca-2574-4e1b-ae29-5f61d565c859
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''tomorrow'' in sentences A and B is a natural synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  2a3ef6ba-2948-4a81-94d1-6aa3d850c8bc: !Template
+    answer_choices: False ||| True
+    id: 2a3ef6ba-2948-4a81-94d1-6aa3d850c8bc
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''today'' in sentences A and B is a synonim.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  2db9cdc2-eebd-4911-90cf-aad52bd06864: !Template
+    answer_choices: No ||| Yes
+    id: 2db9cdc2-eebd-4911-90cf-aad52bd06864
+    jinja: 'Rewrite the following two sentences but make sure you use the same word
+      ''{{word}}'' s.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  34f91279-8b96-43b0-9e71-5eb63368457b: !Template
+    answer_choices: No ||| Yes
+    id: 34f91279-8b96-43b0-9e71-5eb63368457b
+    jinja: 'Is the word "{{word}}" in these two sentences a similar thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  35b83966-70d4-4435-b9e5-6a2d8db6591c: !Template
+    answer_choices: False ||| True
+    id: 35b83966-70d4-4435-b9e5-6a2d8db6591c
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      There are some similar "{{word}}"s between sentences A and B.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  37afe06d-47e2-4190-a928-ec3f27f9de2d: !Template
+    answer_choices: No ||| Yes
+    id: 37afe06d-47e2-4190-a928-ec3f27f9de2d
+    jinja: 'Is the word "{{word}}" in these two sentences the same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  380a3118-6cb8-40bd-b3b7-1848cc5f6e88: !Template
+    answer_choices: False ||| True
+    id: 380a3118-6cb8-40bd-b3b7-1848cc5f6e88
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s in sentences A and B are of the same kind.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  3fe3ec26-e2cb-47f0-bf22-7bec88bb7dae: !Template
+    answer_choices: No ||| Yes
+    id: 3fe3ec26-e2cb-47f0-bf22-7bec88bb7dae
+    jinja: 'Is the same word "{{word}}" used in these two sentences? Have you read
+      the story?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  410b2f1d-8be5-4e28-a19a-16a0cad2a23a: !Template
+    answer_choices: False ||| True
+    id: 410b2f1d-8be5-4e28-a19a-16a0cad2a23a
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      The meaning of "{{word}}"s ''now'' in sentences A and B are analogical.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  44d77366-334e-47de-bdab-09ef41bb43ef: !Template
+    answer_choices: False ||| True
+    id: 44d77366-334e-47de-bdab-09ef41bb43ef
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s in sentences A and B are almost the same.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  47a123a3-01be-4fa8-b553-fe543665776a: !Template
+    answer_choices: False ||| True
+    id: 47a123a3-01be-4fa8-b553-fe543665776a
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''today'' in sentences A and B is a natural antonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  48b900b7-a414-439b-bbe7-abbc58bd3641: !Template
+    answer_choices: False ||| True
+    id: 48b900b7-a414-439b-bbe7-abbc58bd3641
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s in sentences A and B mean the same thing.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  4afe2582-55d2-4df7-8132-c2a0e0df2796: !Template
+    answer_choices: False ||| True
+    id: 4afe2582-55d2-4df7-8132-c2a0e0df2796
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      The meaning of "{{word}}" ''now'' in sentences A and B is the same.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  4e6faf0b-cc62-4702-845b-b21131e39d9c: !Template
+    answer_choices: No ||| Yes
+    id: 4e6faf0b-cc62-4702-845b-b21131e39d9c
+    jinja: "In the above two sentences change the word '{{word}}' \n{{sentence1}}\n\
+      {{sentence2}}\n||| {% if label != -1%}\n{{answer_choices[label]}}\n{% endif\
+      \ %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  55b71413-d8cf-48aa-ad9e-b078abfcde61: !Template
+    answer_choices: No ||| Yes
+    id: 55b71413-d8cf-48aa-ad9e-b078abfcde61
+    jinja: 'Rewrite the following two sentences and make sure you use the same word
+      ''{{word}}'' in.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  5754e93d-c65b-4eef-94a6-b35abfdbd7e7: !Template
+    answer_choices: No ||| Yes
+    id: 5754e93d-c65b-4eef-94a6-b35abfdbd7e7
+    jinja: 'Rewrite the following sentences and make sure you use the same word ''{{word}}''s
+      s
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  587d1cfb-2dae-4a8d-bfc7-ebd028d867c8: !Template
+    answer_choices: False ||| True
+    id: 587d1cfb-2dae-4a8d-bfc7-ebd028d867c8
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s ''discount'' and ''discounts'' are natural synonyms.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  5c52d019-9409-4987-8c10-9de50f20aae9: !Template
+    answer_choices: No ||| Yes
+    id: 5c52d019-9409-4987-8c10-9de50f20aae9
+    jinja: 'Rewrite the following sentences and make sure you use the same word ''{{word}}''
+      and.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  5cc15af6-8307-456f-b7b9-e99286f49ecd: !Template
+    answer_choices: No ||| Yes
+    id: 5cc15af6-8307-456f-b7b9-e99286f49ecd
+    jinja: 'Please rewrite the following two sentences and make sure you use the same
+      word ''{{word}}'' but.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  61a16bc1-f209-44ab-b7f8-3a14db56584a: !Template
+    answer_choices: No ||| Yes
+    id: 61a16bc1-f209-44ab-b7f8-3a14db56584a
+    jinja: 'Does the same word "{{word}}" mean the same thing in these two sentences?
+      If so, why do you think they mean the same thing? If not, why?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  62e655a1-d070-4b82-83d3-7365fb490140: !Template
+    answer_choices: No ||| Yes
+    id: 62e655a1-d070-4b82-83d3-7365fb490140
+    jinja: 'Does the same word "{{word}}" used in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  63aee7f0-ec6f-4e9b-b5f8-b1fd334ada71: !Template
+    answer_choices: No ||| Yes
+    id: 63aee7f0-ec6f-4e9b-b5f8-b1fd334ada71
+    jinja: 'Are the same word "{{word}}" used in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  684aec70-75fa-4bb7-8616-90ff7fe2ae2d: !Template
+    answer_choices: No ||| Yes
+    id: 684aec70-75fa-4bb7-8616-90ff7fe2ae2d
+    jinja: 'Rewrite the following two sentences and use the same word ''{{word}}''
+      s.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  6cc85126-15e1-4b61-b143-9c8ac624f7ee: !Template
+    answer_choices: No ||| Yes
+    id: 6cc85126-15e1-4b61-b143-9c8ac624f7ee
+    jinja: 'Is the word "{{word}}" in these two sentences a single thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  6eaaed70-5cac-4587-beb5-6a563a5a2e91: !Template
+    answer_choices: No ||| Yes
+    id: 6eaaed70-5cac-4587-beb5-6a563a5a2e91
+    jinja: 'Rewrite the following two sentences without using the word ''{{word}}''
+      and.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  6fc2237b-95f1-4e32-8be7-f50c331b58ab: !Template
+    answer_choices: No ||| Yes
+    id: 6fc2237b-95f1-4e32-8be7-f50c331b58ab
+    jinja: 'Does the same word "{{word}}" appears in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  71529891-f185-482c-80b4-e9495dff9e96: !Template
+    answer_choices: No ||| Yes
+    id: 71529891-f185-482c-80b4-e9495dff9e96
+    jinja: 'Do the two word "{{word}}" mean the same thing in the sentence 1?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  743457ca-f3e9-41a2-b19c-7517a1b438ee: !Template
+    answer_choices: No ||| Yes
+    id: 743457ca-f3e9-41a2-b19c-7517a1b438ee
+    jinja: 'Rewrite the following two sentences and remove the word ''{{word}}'' but.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  7914b85c-3bf4-474d-bf55-9c855e263df3: !Template
+    answer_choices: No ||| Yes
+    id: 7914b85c-3bf4-474d-bf55-9c855e263df3
+    jinja: 'Is the word "{{word}}" in these two sentences a whole thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  7a5766d8-64bf-4d32-91c5-564aedaf779e: !Template
+    answer_choices: No ||| Yes
+    id: 7a5766d8-64bf-4d32-91c5-564aedaf779e
+    jinja: 'Rewrite the following two sentences and make sure you don''t use the same
+      word ''{{word}}'' and.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  84d1f8a3-d3e6-48d5-98b3-b5aba15181e1: !Template
+    answer_choices: No ||| Yes
+    id: 84d1f8a3-d3e6-48d5-98b3-b5aba15181e1
+    jinja: 'Rewrite the following two sentences and you must write only word ''{{word}}''s
+      that end in a syllable or a vowel.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  9051ad5c-6531-435c-aee3-217e78e64710: !Template
+    answer_choices: False ||| True
+    id: 9051ad5c-6531-435c-aee3-217e78e64710
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s in sentences A and B are opposite in meaning.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  90936278-fc95-42dd-9b50-3715f7e052f9: !Template
+    answer_choices: False ||| True
+    id: 90936278-fc95-42dd-9b50-3715f7e052f9
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s in sentences A and B are used to compare two things.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  9234bbbe-53d1-4838-8588-a15c6a03620d: !Template
+    answer_choices: No ||| Yes
+    id: 9234bbbe-53d1-4838-8588-a15c6a03620d
+    jinja: 'Do the same two word "{{word}}" mean the same thing in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  95296f92-81fc-497a-a85d-54b637f71b7f: !Template
+    answer_choices: No ||| Yes
+    id: 95296f92-81fc-497a-a85d-54b637f71b7f
+    jinja: 'Rewrite the following two sentences using only one word ''{{word}}'' and,
+      but make sure you use and.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  98684426-6972-4ed9-bf3c-c0b691af9852: !Template
+    answer_choices: No ||| Yes
+    id: 98684426-6972-4ed9-bf3c-c0b691af9852
+    jinja: 'Rewrite the following two sentences and don''t use the word ''{{word}}''
+      and.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  9f8e5419-f1ce-430b-813b-0ea2fbcdb9f2: !Template
+    answer_choices: False ||| True
+    id: 9f8e5419-f1ce-430b-813b-0ea2fbcdb9f2
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''today'' in sentences A and B is a lexical synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  a2236205-87d4-4932-be7c-f0b89984a2f5: !Template
+    answer_choices: No ||| Yes
+    id: a2236205-87d4-4932-be7c-f0b89984a2f5
+    jinja: 'Rewrite the following two sentences and change the same word ''{{word}}''.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  a67e02e3-dbd1-461d-a033-55cab2e3328e: !Template
+    answer_choices: No ||| Yes
+    id: a67e02e3-dbd1-461d-a033-55cab2e3328e
+    jinja: 'Rewrite the following two sentences and make sure you use the same word
+      ''{{word}}'' a.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  aaf0e56d-1b5d-46e7-976d-3b99c6b0c676: !Template
+    answer_choices: No ||| Yes
+    id: aaf0e56d-1b5d-46e7-976d-3b99c6b0c676
+    jinja: 'Are these word "{{word}}" used in the same sentence?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  b2bfcea8-5b3e-4ed8-b84b-dac3809d75f0: !Template
+    answer_choices: False ||| True
+    id: b2bfcea8-5b3e-4ed8-b84b-dac3809d75f0
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      Is "{{word}}" ''today'' a natural synonym?
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  c1c330e4-7cc1-4e66-a29d-9c108d7b6682: !Template
+    answer_choices: False ||| True
+    id: c1c330e4-7cc1-4e66-a29d-9c108d7b6682
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''this'' in sentence A and B is a natural synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  c2c65b2f-02d8-46d6-b71b-201ab6695eb6: !Template
+    answer_choices: No ||| Yes
+    id: c2c65b2f-02d8-46d6-b71b-201ab6695eb6
+    jinja: 'Which is the most common spelling of the word "{{word}}" used in these
+      two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  c52b348b-7771-488e-8274-6f99582475ff: !Template
+    answer_choices: False ||| True
+    id: c52b348b-7771-488e-8274-6f99582475ff
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''yesterday'' in sentences A and B is a natural synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  c58aa2d3-8008-4626-b2fe-9f23c37e7764: !Template
+    answer_choices: False ||| True
+    id: c58aa2d3-8008-4626-b2fe-9f23c37e7764
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''today'' in sentences A and B is not a natural synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  c5f4df19-b6a3-453c-ae6c-aa13c154d6cd: !Template
+    answer_choices: No ||| Yes
+    id: c5f4df19-b6a3-453c-ae6c-aa13c154d6cd
+    jinja: 'Rewrite the following two sentences and do not use the same word ''{{word}}''
+      and.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  c8f4331e-c6df-41fd-8fa2-a9e6fd4abaaa: !Template
+    answer_choices: False ||| True
+    id: c8f4331e-c6df-41fd-8fa2-a9e6fd4abaaa
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s in sentences A and B are the same.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  cacc4419-9046-4861-a9aa-c91bd6dca6b2: !Template
+    answer_choices: False ||| True
+    id: cacc4419-9046-4861-a9aa-c91bd6dca6b2
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''today'' in sentences A and B is a homophone.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  ce83b474-f658-46cd-b9d7-24cbfca384c4: !Template
+    answer_choices: No ||| Yes
+    id: ce83b474-f658-46cd-b9d7-24cbfca384c4
+    jinja: 'Does the two word "{{word}}" mean the same thing in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  d1d04518-4c10-46ce-bdc6-0418cf6fc6e8: !Template
+    answer_choices: No ||| Yes
+    id: d1d04518-4c10-46ce-bdc6-0418cf6fc6e8
+    jinja: 'Do the word "{{word}}" in these two sentences do the same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  d27954f2-e34c-4ca1-926b-560832b5aaf9: !Template
+    answer_choices: False ||| True
+    id: d27954f2-e34c-4ca1-926b-560832b5aaf9
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s ''today'' and ''yesterday'' in sentences A and B are ''natural synonyms.''
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  d46eb2f9-6761-4e9f-99a5-f755078ebc48: !Template
+    answer_choices: No ||| Yes
+    id: d46eb2f9-6761-4e9f-99a5-f755078ebc48
+    jinja: 'Is the word "{{word}}" in these two sentences a same thing?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  d48e7029-7eb6-4b84-b263-371da499a7e5: !Template
+    answer_choices: False ||| True
+    id: d48e7029-7eb6-4b84-b263-371da499a7e5
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''today'' in sentences A and B is an unnatural synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  d9ceea62-7182-475a-b8d4-c3ce1b5627ca: !Template
+    answer_choices: False ||| True
+    id: d9ceea62-7182-475a-b8d4-c3ce1b5627ca
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}"s in sentences A and B have the same meaning.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  db2c5d55-3309-4b93-b109-b2fad52fe72a: !Template
+    answer_choices: False ||| True
+    id: db2c5d55-3309-4b93-b109-b2fad52fe72a
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      The meaning of "{{word}}" ''now'' in sentence A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  dd272989-fa18-435a-8b06-f40fbbb2e3af: !Template
+    answer_choices: No ||| Yes
+    id: dd272989-fa18-435a-8b06-f40fbbb2e3af
+    jinja: 'Rewrite the following two sentences and make sure you use the same word
+      ''{{word}}'', and.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  de4b9bf3-25eb-46cc-aadc-d3ab8634a96b: !Template
+    answer_choices: False ||| True
+    id: de4b9bf3-25eb-46cc-aadc-d3ab8634a96b
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''today'' in sentences A and B is a non-natural synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  e76391bf-3ab6-499e-a305-b9f56d932bb5: !Template
+    answer_choices: False ||| True
+    id: e76391bf-3ab6-499e-a305-b9f56d932bb5
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''today'' in sentence A is not a natural synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  ea1ce714-69bd-4012-bd00-6f24f6f4b187: !Template
+    answer_choices: No ||| Yes
+    id: ea1ce714-69bd-4012-bd00-6f24f6f4b187
+    jinja: 'Do these two word "{{word}}" mean the same thing in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  ed1d9878-c8d8-433e-b00a-69b7f2c1edc8: !Template
+    answer_choices: No ||| Yes
+    id: ed1d9878-c8d8-433e-b00a-69b7f2c1edc8
+    jinja: 'Rewrite the following two sentences and make sure you use the same word
+      ''{{word}}'' but.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  eed862ab-9b6b-4a08-b0e8-fb140fd255ae: !Template
+    answer_choices: False ||| True
+    id: eed862ab-9b6b-4a08-b0e8-fb140fd255ae
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      There is no logical necessity that there should be the same "{{word}}" ''today''
+      in sentences A and B.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  f3ac99a4-7ada-45d6-906a-2d92bf55c6b7: !Template
+    answer_choices: No ||| Yes
+    id: f3ac99a4-7ada-45d6-906a-2d92bf55c6b7
+    jinja: 'Does the same two word "{{word}}" mean the same thing in these two sentences?
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context-meaning
+    reference: Generalized question-context format
+  f661cbd8-664f-46e3-b4d7-3705adecbfd4: !Template
+    answer_choices: No ||| Yes
+    id: f661cbd8-664f-46e3-b4d7-3705adecbfd4
+    jinja: 'You should rewrite the following two sentences and make sure you use the
+      same word ''{{word}}'' s.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format
+  f85c00d0-5904-4178-9bd0-7466c3669f3a: !Template
+    answer_choices: False ||| True
+    id: f85c00d0-5904-4178-9bd0-7466c3669f3a
+    jinja: 'Sentence A: {{sentence1}}
+
+      Sentence B: {{sentence2}}
+
+
+      "{{word}}" ''now'' in sentences A and B is a common synonym.
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: affirmation_true_or_false
+    reference: ''
+  fcf43f47-bd2b-4f2e-a755-c64770509749: !Template
+    answer_choices: No ||| Yes
+    id: fcf43f47-bd2b-4f2e-a755-c64770509749
+    jinja: 'Rewrite the following two sentences and make sure you use the same word
+      ''{{word}}''s s.
+
+      {{sentence1}}
+
+      {{sentence2}}
+
+      ||| {% if label != -1%}
+
+      {{answer_choices[label]}}
+
+      {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: question-context
+    reference: Generalized question-context format

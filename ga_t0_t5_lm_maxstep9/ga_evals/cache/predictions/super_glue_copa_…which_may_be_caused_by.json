@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "I got distracted from my conversation with the woman. How may be caused by \"Everyone in the room was talking.\" or \"The woman was telling a funny story.\"?",
+        "target_text": "Everyone in the room was talking.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.8882904648780823,
+            -1.0521328449249268
+        ]
+    },
+    {
+        "input_text:": "I put my plate in the sink. How may be caused by \"I finished eating.\" or \"I skipped dinner.\"?",
+        "target_text": "I finished eating.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6384885311126709,
+            -4.996070861816406
+        ]
+    },
+    {
+        "input_text:": "The scientist gained recognition. How may be caused by \"She discovered a new species.\" or \"She received tenure at the university.\"?",
+        "target_text": "She discovered a new species.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.8313543796539307,
+            -4.554653644561768
+        ]
+    },
+    {
+        "input_text:": "I learned how to play the board game. How may be caused by \"My friend explained the rules to me.\" or \"My friend got the rules wrong.\"?",
+        "target_text": "My friend explained the rules to me.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2751348614692688,
+            -6.708218097686768
+        ]
+    },
+    {
+        "input_text:": "The army surrendered the battle. How may be caused by \"They were outnumbered.\" or \"They stormed the city.\"?",
+        "target_text": "They were outnumbered.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.2505953311920166,
+            -6.997219562530518
+        ]
+    },
+    {
+        "input_text:": "The boy climbed the tree. How may be caused by \"A cat got stuck in the tree.\" or \"A bird built a nest in the tree.\"?",
+        "target_text": "A cat got stuck in the tree.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.4008703231811523,
+            -1.0946329832077026
+        ]
+    },
+    {
+        "input_text:": "The retail shop shut down. How may be caused by \"Its sales were lagging.\" or \"It renewed its lease.\"?",
+        "target_text": "Its sales were lagging.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6346627473831177,
+            -8.62220287322998
+        ]
+    },
+    {
+        "input_text:": "I dabbed the floor with a paper towel. How may be caused by \"I spilled juice on the floor.\" or \"The floor was permanently stained.\"?",
+        "target_text": "I spilled juice on the floor.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.9414141178131104,
+            -4.229936599731445
+        ]
+    },
+    {
+        "input_text:": "The tenants were evicted from the apartment. How may be caused by \"They neglected to pay their rent.\" or \"They got along with their landlord.\"?",
+        "target_text": "They neglected to pay their rent.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.44383275508880615,
+            -11.408072471618652
+        ]
+    },
+    {
+        "input_text:": "The dust came off the desk. How may be caused by \"I wiped the desk with a cloth.\" or \"I removed the books from the desk.\"?",
+        "target_text": "I wiped the desk with a cloth.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.4328842163085938,
+            -3.4521923065185547
+        ]
+    },
+    {
+        "input_text:": "The runner wore shorts. How may be caused by \"The forecast predicted high temperatures.\" or \"She planned to run along the beach.\"?",
+        "target_text": "The forecast predicted high temperatures.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.9997835159301758,
+            -3.4309864044189453
+        ]
+    },
+    {
+        "input_text:": "I botched the job interview. How may be caused by \"The interviewer asked difficult questions.\" or \"I anticipated the interviewer's questions.\"?",
+        "target_text": "The interviewer asked difficult questions.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.9383373260498047,
+            -0.31239053606987
+        ]
+    },
+    {
+        "input_text:": "I slipped on the floor. How may be caused by \"The tile was wet.\" or \"The tile was cracked.\"?",
+        "target_text": "The tile was wet.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5781508088111877,
+            -3.7112739086151123
+        ]
+    },
+    {
+        "input_text:": "I jumped instinctively in fright. How may be caused by \"I sensed someone approaching me from behind.\" or \"I heard people chuckling in the adjacent room.\"?",
+        "target_text": "I sensed someone approaching me from behind.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.5680432319641113,
+            -2.4348607063293457
+        ]
+    },
+    {
+        "input_text:": "The rider fell to the ground. How may be caused by \"The bull bucked the rider.\" or \"The bull chased the rider.\"?",
+        "target_text": "The bull bucked the rider.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5802619457244873,
+            -3.3526768684387207
+        ]
+    },
+    {
+        "input_text:": "The mother scolded her daughter. How may be caused by \"Her daughter burped at the kitchen table.\" or \"Her daughter set the kitchen table.\"?",
+        "target_text": "Her daughter burped at the kitchen table.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.4850168228149414,
+            -5.40894079208374
+        ]
+    },
+    {
+        "input_text:": "Air pollution in the city worsened. How may be caused by \"Factories increased their production.\" or \"Factories shut down.\"?",
+        "target_text": "Factories increased their production.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.431687116622925,
+            -5.885612964630127
+        ]
+    },
+    {
+        "input_text:": "The chandelier shattered on the floor. How may be caused by \"The chandelier dropped from the ceiling.\" or \"The chandelier's lights flickered on and off.\"?",
+        "target_text": "The chandelier dropped from the ceiling.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.4684569835662842,
+            -5.21811580657959
+        ]
+    },
+    {
+        "input_text:": "The cat purred. How may be caused by \"It scratched me.\" or \"I petted it.\"?",
+        "target_text": "It scratched me.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.4007515907287598,
+            -0.910963773727417
+        ]
+    },
+    {
+        "input_text:": "My stomach hurt. How may be caused by \"I jogged on the treadmill.\" or \"I ate birthday cake.\"?",
+        "target_text": "I jogged on the treadmill.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.117062091827393,
+            -2.3386340141296387
+        ]
+    },
+    {
+        "input_text:": "The man broke his toe. How may be caused by \"He got a hole in his sock.\" or \"He dropped a hammer on his foot.\"?",
+        "target_text": "He got a hole in his sock.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.286037921905518,
+            -2.3874411582946777
+        ]
+    },
+    {
+        "input_text:": "The man craved a cigarette. How may be caused by \"His family urged him to quit smoking.\" or \"He was addicted to nicotine.\"?",
+        "target_text": "His family urged him to quit smoking.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.593474864959717,
+            -2.118466854095459
+        ]
+    },
+    {
+        "input_text:": "The trip took a long time. How may be caused by \"The driver talked the whole way.\" or \"The driver made a wrong turn.\"?",
+        "target_text": "The driver talked the whole way.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.6771209239959717,
+            -0.24111714959144592
+        ]
+    },
+    {
+        "input_text:": "The chair squeaked. How may be caused by \"The man carried the chair to his office.\" or \"The man scooted the chair closer to his desk.\"?",
+        "target_text": "The man carried the chair to his office.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.176565647125244,
+            -1.2799161672592163
+        ]
+    },
+    {
+        "input_text:": "The company lost money. How may be caused by \"Its products received positive consumer reviews.\" or \"Some of its products were manufactured defectively.\"?",
+        "target_text": "Its products received positive consumer reviews.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.800960063934326,
+            -0.3263959288597107
+        ]
+    },
+    {
+        "input_text:": "The teenager ran away from home. How may be caused by \"He relied on his parents.\" or \"His parents abused him.\"?",
+        "target_text": "He relied on his parents.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.8385448455810547,
+            -0.3067631721496582
+        ]
+    },
+    {
+        "input_text:": "The glasses on the table spilled. How may be caused by \"The child drew on the table.\" or \"The child yanked the tablecloth.\"?",
+        "target_text": "The child drew on the table.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.621835231781006,
+            -0.6588886380195618
+        ]
+    },
+    {
+        "input_text:": "The screen on the laptop went black. How may be caused by \"The laptop's warranty expired.\" or \"The laptop's battery died.\"?",
+        "target_text": "The laptop's warranty expired.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.596641182899475,
+            -1.5663090944290161
+        ]
+    },
+    {
+        "input_text:": "The stain came out of the shirt. How may be caused by \"I patched the shirt.\" or \"I bleached the shirt.\"?",
+        "target_text": "I patched the shirt.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.978992462158203,
+            -2.031747579574585
+        ]
+    },
+    {
+        "input_text:": "The bar closed. How may be caused by \"It was crowded.\" or \"It was 3 AM.\"?",
+        "target_text": "It was crowded.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.450174808502197,
+            -1.2095308303833008
+        ]
+    },
+    {
+        "input_text:": "The woman awakened. How may be caused by \"She took sleeping pills.\" or \"Her husband was snoring.\"?",
+        "target_text": "She took sleeping pills.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.9448296427726746,
+            -2.0761847496032715
+        ]
+    },
+    {
+        "input_text:": "The woman's makeup smeared. How may be caused by \"She brushed her hair.\" or \"She wiped her eyes.\"?",
+        "target_text": "She brushed her hair.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.8817468881607056,
+            -1.519809603691101
+        ]
+    },
+    {
+        "input_text:": "The woman suffered amnesia. How may be caused by \"She had an allergic reaction.\" or \"She got into a car accident.\"?",
+        "target_text": "She had an allergic reaction.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.755035638809204,
+            -1.6511476039886475
+        ]
+    }
+]

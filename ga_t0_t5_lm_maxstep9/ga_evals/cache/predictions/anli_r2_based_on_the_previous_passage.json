@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Rachel Brosnahan (born December 15, 1990) is an American actress. She is best known for her roles in the films \"The Unborn\" (2009) and \"Beautiful Creatures\" (2013) and for portraying Rachel Posner in the Netflix series \"House of Cards\", for which she was nominated for an Emmy Award. Based on the passage you just read, is that \"She is an American citizen.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.08843834698200226,
+            -3.545305013656616,
+            -3.198594570159912
+        ]
+    },
+    {
+        "input_text:": "Tsewang Rigzin is the current president of the Tibetan Youth Congress. He has held the position since September 2007, and on August 8, 2008 he was re-elected to serve through August 2013. Prior to attaining his current position he served as the president of the Portland/Vancouver regional chapter of the Tibetan Youth Congress. Based on the passage you just read, is that \"Tsewang Rigzin is the president of the Portland/Vancouver regional chapter of the Tibetan Youth Congress.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.30127790570259094,
+            -3.4981391429901123,
+            -1.6627684831619263
+        ]
+    },
+    {
+        "input_text:": "The phrase \"cold enough to freeze the balls off (or \"on\") a brass monkey\" is a colloquial expression used by some English speakers. The reference to the testes (as the term \"balls\" is commonly understood to mean) of the brass monkey appears to be a 20th-century variant on the expression, prefigured by a range of references to other body parts, especially the nose and tail. Based on the passage you just read, is that \"cold enough to freeze the balls off or on a brass monkey has no date\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.760052502155304,
+            -3.5287985801696777,
+            -1.1602413654327393
+        ]
+    },
+    {
+        "input_text:": "Coraz\u00f3n Valiente (\"Fearless Heart\"), originally known as \"Cadas del Cielo\", is a Spanish-language telenovela produced by United States-based television network Telemundo Studios, Miami, featuring an ensemble cast. Adriana Fonseca, Ximena Duque, Jos\u00e9 Luis Res\u00e9ndez and Fabi\u00e1n Ros starred as the main protagonists, with Aylin Mujica and Manuel Landeta starred as the main antagonists. Based on the passage you just read, is that \"The US-based television network Telemundo Studios produced the Spanish-language telenovela called Caidas del Cielo before the name was changed.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.1125810518860817,
+            -4.278393745422363,
+            -2.603903293609619
+        ]
+    },
+    {
+        "input_text:": "The Inter-American Peace Force (IAPF) was established, by the Organization of American States, on 23 May 1965, after the United States's intervention in the Dominican Republic. It largely consisted of over 42,600 United States military personnel, plus the following troops were sent by each country; Based on the passage you just read, is that \"The IAPF was formed at the behest of the US.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2855060398578644,
+            -3.013578414916992,
+            -1.8065857887268066
+        ]
+    },
+    {
+        "input_text:": "The Last of Us Part II is an upcoming action-adventure survival horror video game developed by Naughty Dog and published by Sony Interactive Entertainment for PlayStation 4. It was announced at the PlayStation Experience event in December 2016, and will serve as the sequel to 2013's \"The Last of Us\". Based on the passage you just read, is that \"The Last of Us was an action adventure survival horror video game\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.12552830576896667,
+            -3.2124383449554443,
+            -2.7888505458831787
+        ]
+    },
+    {
+        "input_text:": "The PLDT Home TVolution Power Attackers (women's) and the PLDT Home Telpad-Air Force Turbo Boosters (men's) were professional volleyball teams owned by PLDT that played in the Philippine Super Liga (PSL) from 2013 to 2014. The club was first known as PLDT myDSL Speed Boosters. Based on the passage you just read, is that \"the club known as pldt speed boosters played in philipine league \" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.567138135433197,
+            -3.2196438312530518,
+            -1.3317867517471313
+        ]
+    },
+    {
+        "input_text:": "The Return of the Condor Heroes, also called The Giant Eagle and Its Companion, is a wuxia novel by Jin Yong (Louis Cha). It is the second part of the \"Condor Trilogy\" and was preceded by \"The Legend of the Condor Heroes\" and followed by \"The Heaven Sword and Dragon Saber\". It was first serialised between 20 May 1959 and 5 July 1961 in the Hong Kong newspaper \"Ming Pao\". Based on the passage you just read, is that \"Jin Yong wrote The Legend of the Condor Heroes\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.033296696841716766,
+            -5.051984786987305,
+            -3.9755399227142334
+        ]
+    },
+    {
+        "input_text:": "Valentino D. B. Mazzia (February 17, 1922 \u2013 March 10, 1999) was an American physician who served as chairman of the department of anesthesiology at the New York University School of Medicine and was a pioneer in the forensic analysis of deaths occurring during surgical procedures. He testified in many criminal cases about the use and presence of anesthesia products in cases of death. Based on the passage you just read, is that \"Valentino D.B. Mazzia testified that anesthesia products are present in many death cases.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.14295367896556854,
+            -3.99159836769104,
+            -3.1416563987731934
+        ]
+    },
+    {
+        "input_text:": "Carl Frederik Tietgen (19 March 1829 \u2013 19 October 1901) was a Danish financier and industrialist. The founder of numerous prominent Danish companies, many of which are still in operation today, he played an important role in the industrialisation of Denmark. Notably also forming conglomerates, several of Tietgen's companies attained a monopoly-like status, which cemented their durability. Based on the passage you just read, is that \"Carl Tietgen formed conglomerates.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.11056697368621826,
+            -3.8025805950164795,
+            -2.743849754333496
+        ]
+    },
+    {
+        "input_text:": "Himson Teleda (born 28 August 1992) is a footballer comes from Solomon Islands. He plays as a midfielder for Western United FC in Solomon Islands National Club Championship. He is a member of Solomon Islands national football team. He made his debut during the 2012 OFC Nations Cup and he scored one goal against New Zealand. In stage 3 he scored one goal against Tahiti. Based on the passage you just read, is that \"Taleda is 27 years old.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3062232732772827,
+            -2.3928322792053223,
+            -1.9979019165039062
+        ]
+    },
+    {
+        "input_text:": "Col du Glandon (1924 m ) is a high mountain pass in the Dauphin\u00e9 Alps in Savoie, France, linking Le Bourg-d'Oisans to La Chambre. It is situated between the Belledonne, Grandes Rousses and Arvan-Villards mountain ranges, west of the Col de la Croix de Fer. The road over the Col du Glandon was opened in 1898, although it was not linked to the Col de la Croix de Fer until 1912. Based on the passage you just read, is that \"The road over the Col du Glandon was being constructed during 1898.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.20298391580581665,
+            -3.7802927494049072,
+            -2.026092290878296
+        ]
+    },
+    {
+        "input_text:": "Stephen R. \"Steve\" Bissette (born March 14, 1955) is an American comics artist, editor, and publisher with a focus on the horror genre. He is known for working with writer Alan Moore and inker John Totleben on the DC comic book \"Swamp Thing\" in the 1980s. Based on the passage you just read, is that \"Stephen R. \"Steve\" Bissette was born in the year of the goat\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3822349011898041,
+            -1.9739402532577515,
+            -2.2409660816192627
+        ]
+    },
+    {
+        "input_text:": "Shehzad Sheikh or Shahzad Sheikh is a Pakistani film and television actor and model, known for playing the lead role in the 2015 film \"Karachi Se Lahore\". He also starred in the series \"Annie Ki Ayegi Baraat\", \"Mi Raqsam\", and \"Mere Hamrahi\", and a TV film \"Main Kukkoo Aur woh\". He is the son of well-known actor Javed Sheikh. Based on the passage you just read, is that \"Shahzad Sheikh primarily acted in Pakistani movies.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.18599674105644226,
+            -2.875246047973633,
+            -2.499889612197876
+        ]
+    },
+    {
+        "input_text:": "The 1982 Bavarian Tennis Championships was a men's Grand Prix tennis circuit tournament held in Munich, West Germany which was played on outdoor clay courts. It was the 66th edition of the tournament and was held form 17 May through 23 May 1982. Gene Mayer won the singles title. Based on the passage you just read, is that \"Gene Mayer was in Munich before East and West Germany reunited.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.40331751108169556,
+            -2.236316204071045,
+            -1.8999035358428955
+        ]
+    },
+    {
+        "input_text:": "Hakea microcarpa, commonly known as small-fruit hakea is a flowering plant in the family Proteaceae and is endemic to eastern Australia. It is a spreading shrub, often growing in woodlands, heathlands and near swamps in montane areas of eastern Australia. Based on the passage you just read, is that \"Hakea microcarpa is grown solely in the mountainous regions of eastern Australia.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -0.9455035924911499,
+            -2.586731433868408,
+            -0.7896103858947754
+        ]
+    },
+    {
+        "input_text:": "Flamingo is the debut solo studio album by American singer-songwriter and The Killers lead singer Brandon Flowers, released on September 3, 2010 by Island Records. It was recorded at Battle Born Studios in Winchester, Nevada, and Henson Recording Studios in Hollywood, California. The album debuted at number one on the UK Albums Chart. Based on the passage you just read, is that \"Brandon Flowers debut album was recorded on a hot day\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.4973959922790527,
+            -2.214292049407959,
+            -0.707329511642456
+        ]
+    },
+    {
+        "input_text:": "Ernest Guiraud (] ; 26 June 1837 \u2013 6 May 1892) was a French composer and music teacher born in New Orleans, Louisiana. He is best known for writing the traditional orchestral recitatives used for Bizet's opera \"Carmen\" and for Offenbach's opera \"Les contes d'Hoffmann\" (\"The Tales of Hoffmann\"). Based on the passage you just read, is that \"Ernest Guiraud spent his whole life in Louisiana\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.3734480142593384,
+            -2.635899782180786,
+            -0.44091904163360596
+        ]
+    },
+    {
+        "input_text:": "State Route 204 (SR 204) is part of Maine's system of numbered state highways, located in Hancock County. It runs from State Route 3 in Trenton, passing State Route 184 in Lamoine, and ending at the intersection with Seal Point and Marlboro Beach roads. The route is 6.5 mi long. Based on the passage you just read, is that \"State Route 204 has no cars on it ever.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.9489901065826416,
+            -1.8799831867218018,
+            -0.38058897852897644
+        ]
+    },
+    {
+        "input_text:": "The 2016\u201317 ProA was the 10th season of the ProA, the second level of basketball in Germany. The champions the runners-up of the play-offs are promoted to the 2017\u201318 Basketball Bundesliga. The season started on September 22, 2016 and ended on May 7, 2017. Mitteldeutscher BC won the championship and promoted along with runners-up Oettinger Rockets. Based on the passage you just read, is that \"The 2016-17 season of ProA promoted five teams to the Basketball Bundesliga\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.14163273572921753,
+            -3.0473198890686035,
+            -2.6731514930725098
+        ]
+    },
+    {
+        "input_text:": "Wayne Coles-Janess is an Australian producer, writer and director of drama and documentary film and TV programs. Based in Melbourne, Australia, he has produced documentaries about frontier places in the country. He has also made some documentaries in several international locations, including during times of war. Based on the passage you just read, is that \"wayne cole janess ropes cattle in western movies.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.4810383319854736,
+            -3.2467381954193115,
+            -0.18406853079795837
+        ]
+    },
+    {
+        "input_text:": "Fan and Mortar Geysers are two geysers in the Upper Geyser Basin in Yellowstone National Park. For the past several decades, they have erupted in concert with one another and are generally talked about together. The records detailing these geysers' known eruptive history shows that they have been infrequent and irregular performers. Based on the passage you just read, is that \"Sanse plays home games at multiple stadiums.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.065166711807251,
+            -2.0073280334472656,
+            -0.4645826816558838
+        ]
+    },
+    {
+        "input_text:": "Svensk Hyllningsfest (], \"Swedish Honoring Festival\") is a biennial celebration held in Lindsborg, Kansas, in October of odd-numbered years since 1941 to celebrate the town's Swedish heritage. The festival includes Swedish dancing, foods including \"lutfisk\", cooking demonstrations, arts and crafts, entertainment by local artists and musicians, a parade, and a sm\u00f6rgsbord. Based on the passage you just read, is that \"The Svensk Hyllningsfest does not still occur today.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.100341796875,
+            -3.1841938495635986,
+            -0.19093117117881775
+        ]
+    },
+    {
+        "input_text:": "The Middlewich Folk and Boat Festival takes place in June in Middlewich, Cheshire, England. The festival builds on the town's industrial heritage in which canal boats were used to move coal and other raw materials in the town for the production of salt, and then move the salt out of town, either for use directly, or as a raw material in the manufacture of chemicals such as chlorine and soda ash. Based on the passage you just read, is that \"The salt is used for sidewalks.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.3497819900512695,
+            -3.8743526935577393,
+            -0.09851454198360443
+        ]
+    },
+    {
+        "input_text:": "Eldrid Nordb (born 12 August 1942) is a Norwegian politician for the Labour Party. She was personal secretary to the Minister of Social Affairs in 1971, state secretary to the prime minister (1986-89), and Minister of Trade and Shipping (1990-91). She is married to economist and politician Bjrn Skogstad Aamo. Based on the passage you just read, is that \"Eldrid Nordbo was personal secretary to the Minister of Social Affairs after 1971. \" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.5225406289100647,
+            -2.86293625831604,
+            -1.1242828369140625
+        ]
+    },
+    {
+        "input_text:": "Marie Hedwig Auguste of Sulzbach (German: \"Marie Hedwig Auguste von Sulzbach\" ; born: 15 April 1650 in Sulzbach; died: 23 November 1681 in Hamburg) was a Countess Palatine of Sulzbach by birth and by marriage, Archduchess of Austria and by her second marriage, Duchess of Saxe-Lauenburg. Based on the passage you just read, is that \"Marie Hedwig Auguste's husband was a duchess.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.023587703704834,
+            -2.4777047634124756,
+            -0.7712529301643372
+        ]
+    },
+    {
+        "input_text:": "Micropalaeosoma balticus (formerly \"Palaeosoma balticus\" ) is an extinct, fossil turbellarian flatworm known from Baltic amber of Kaliningrad, Russia, that lived approximately 40 million years ago. It measured approximately 1.5 mm in length and is the oldest and most complete flatworm fossil yet discovered. Based on the passage you just read, is that \"Micropalaeosoma balticus is common in dogs.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.148870468139648,
+            -4.652204990386963,
+            -0.10023859143257141
+        ]
+    },
+    {
+        "input_text:": "Joseph Maurice Francis Connaughton (15 August 1918 \u2013 12 February 1944) was an English first-class cricketer active 1939 who played for Middlesex. He was born in Paddington. During World War II he was commissioned in the Royal Artillery. He was drowned off the Maldives after SS \"Khedive Ismail\" was torpedoed; and officially declared dead one year later. Based on the passage you just read, is that \"Joseph Maurice Francis Connaughton died after World War II. \" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.18609686195850372,
+            -3.4117767810821533,
+            -2.2837955951690674
+        ]
+    },
+    {
+        "input_text:": "Ian Drew is Entertainment Director for American celebrity magazine, Us Weekly. He speaks about celebrities, music and fashion on television shows including CNN, Good Morning America, The Early Show, MSNBC, and Fox News. He interviewed Janet Jackson for one of Us Weekly's best-selling issues. Based on the passage you just read, is that \"Ian drew has not not appeared on CNN.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.5127068758010864,
+            -2.2883543968200684,
+            -0.6933424472808838
+        ]
+    },
+    {
+        "input_text:": "The Savings Bank Building is a commercial building located at 101 South Front Street in Marquette, Michigan. It is also known as the Marquette County Savings Bank. The building was designated a Michigan State Historic Site in 1976 and listed on the National Register of Historic Places in 1978. Based on the passage you just read, is that \"Michigan State has included Marquette County Savings Bank as a state historical site and the United States has included Savings Bank on the list of historic places as of 1976.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.6028504371643066,
+            -3.7385237216949463,
+            -0.3301250636577606
+        ]
+    },
+    {
+        "input_text:": "The 18th Street Expressway (often shortened to 18th Street in everyday speech) is a freeway in Kansas City, Kansas that runs from Interstate 35 north to Interstate 70/U.S. Route 24/U.S. Route 40. It carries the U.S. Route 69 designation its entire length. Based on the passage you just read, is that \"Interstate 70 doesn't connect with Interstate 35 North\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.574296712875366,
+            -1.7794896364212036,
+            -0.37666526436805725
+        ]
+    },
+    {
+        "input_text:": "Cherry Tomato () is a 2008 South Korean film starring Shin Goo and Kim Hyang-gi. The family drama, a directorial debut by Jung Young-bae, depicts the poverty-stricken life of an old man and his granddaughter that evokes a strong sense of sympathy and helplessness. It was screened at the Busan Children\u2019s Film Festival in 2008. Based on the passage you just read, is that \"Cherry Tomato was released in 2010.\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.044616460800171,
+            -3.0926389694213867,
+            -0.5996032357215881
+        ]
+    },
+    {
+        "input_text:": "Identification Marks: None (Polish: Rysopis ) is a 1964 Polish drama film directed by Jerzy Skolimowski. It was the first feature film directed by Skolimowski, after the shorts \"Erotique\", \"Little Hamlet\", \"The Menacing Eye\", \"Boxing\" and \"Your Money or Your Life\". Based on the passage you just read, is that \"Jerzy Skolimowski was born in 1964\" supported by the passage? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.130653977394104,
+            -2.487206220626831,
+            -0.5577255487442017
+        ]
+    }
+]

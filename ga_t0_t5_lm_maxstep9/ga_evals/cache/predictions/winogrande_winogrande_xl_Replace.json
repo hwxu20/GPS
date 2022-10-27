@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "The football was flying higher than the basketball as it went through the air. The _ was lighter. Replace the _ in the above sentence with the correct option: - football - basketball",
+        "target_text": "football",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.5139137506484985,
+            -0.2510935664176941
+        ]
+    },
+    {
+        "input_text:": "Adam cleaned his bathroom sink more often than Jason, therefore _ wasn't embarrassed when company came over. Replace the _ in the above sentence with the correct option: - Adam - Jason",
+        "target_text": "Adam",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.1977992057800293,
+            -0.11805650591850281
+        ]
+    },
+    {
+        "input_text:": "Logan's immune system was much stronger than Joseph's because _ liked to eat kumquats as a snack. Replace the _ in the above sentence with the correct option: - Logan - Joseph",
+        "target_text": "Logan",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.050614595413208,
+            -0.4311109185218811
+        ]
+    },
+    {
+        "input_text:": "Jason got into a deep financial hole, unlike Joel, because _ managed their fortune well. Replace the _ in the above sentence with the correct option: - Jason - Joel",
+        "target_text": "Jason",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.1359531879425049,
+            -0.38804465532302856
+        ]
+    },
+    {
+        "input_text:": "Since _ could see, Benjamin described how the beautiful landscape looked to the bemused Neil. Replace the _ in the above sentence with the correct option: - Benjamin - Neil",
+        "target_text": "Benjamin",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2041090428829193,
+            -1.7285491228103638
+        ]
+    },
+    {
+        "input_text:": "She used insane amounts of tape when wrapping presents making the _ very hard to open. Replace the _ in the above sentence with the correct option: - presents - tape",
+        "target_text": "presents",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.763253390789032,
+            -0.6362658143043518
+        ]
+    },
+    {
+        "input_text:": "Most of their guests wanted coffee and not lemonade because it was cold outside and the _ was cold. Replace the _ in the above sentence with the correct option: - lemonade - coffee",
+        "target_text": "lemonade",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.2116889953613281,
+            -0.35660696029663086
+        ]
+    },
+    {
+        "input_text:": "Natalie disapproved of the behavior shown by Christine, although _ acted much worse in reality. Replace the _ in the above sentence with the correct option: - Natalie - Christine",
+        "target_text": "Natalie",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.420761823654175,
+            -0.09741254895925522
+        ]
+    },
+    {
+        "input_text:": "The pill could not be crushed under that wood that it was placed. The _ it too soft. Replace the _ in the above sentence with the correct option: - wood - pill",
+        "target_text": "wood",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.7811283469200134,
+            -0.6207566261291504
+        ]
+    },
+    {
+        "input_text:": "When Betty wanted to organize her closet, instead of keeping things in cardboard boxes, she used plastic totes. The _ wouldn't last for a long time. Replace the _ in the above sentence with the correct option: - cardboard boxes - plastic totes",
+        "target_text": "cardboard boxes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.05189180001616478,
+            -3.0077896118164062
+        ]
+    },
+    {
+        "input_text:": "Before each race, Sarah made sure to blow on their lucky helmet for good luck while Betty made sure the bike was ready because _ is superstitious. Replace the _ in the above sentence with the correct option: - Sarah - Betty",
+        "target_text": "Sarah",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.8158931136131287,
+            -0.5840535759925842
+        ]
+    },
+    {
+        "input_text:": "The man had more pain in his back than in his legs because he had been lifting with the _. Replace the _ in the above sentence with the correct option: - back - legs",
+        "target_text": "back",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.1519785076379776,
+            -1.9722315073013306
+        ]
+    },
+    {
+        "input_text:": "Peter needed to do consistent work and was able to use the wrench but replaced the screwdriver because the _ was durable. Replace the _ in the above sentence with the correct option: - wrench - screwdriver",
+        "target_text": "wrench",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3911972939968109,
+            -1.1301963329315186
+        ]
+    },
+    {
+        "input_text:": "Eating ice cream was Patricia's favorite thing to do but Christine can't eat ice cream because _ loved the cold texture. Replace the _ in the above sentence with the correct option: - Patricia - Christine",
+        "target_text": "Patricia",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.2939021587371826,
+            -0.32539796829223633
+        ]
+    },
+    {
+        "input_text:": "I grilled the steak for too long, but not the chicken breast so the _ ended up juicy. Replace the _ in the above sentence with the correct option: - chicken breast - steak",
+        "target_text": "chicken breast",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -3.2686221599578857,
+            -0.03955405205488205
+        ]
+    },
+    {
+        "input_text:": "Jennifer collected barbies when she was younger but not Jessica because _ was a girly girl. Replace the _ in the above sentence with the correct option: - Jennifer - Jessica",
+        "target_text": "Jennifer",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.9525642395019531,
+            -0.15598495304584503
+        ]
+    },
+    {
+        "input_text:": "While preparing the meat to grill, we found out we need more propane, so we cooked on the _ with charcoal. Replace the _ in the above sentence with the correct option: - meat - grill",
+        "target_text": "meat",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.14368194341659546,
+            -2.0891001224517822
+        ]
+    },
+    {
+        "input_text:": "She preferred playing the castanets over regular drums because the _ didn't allow her to dance around. Replace the _ in the above sentence with the correct option: - castanets - drums",
+        "target_text": "castanets",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.019156070426106453,
+            -3.987396478652954
+        ]
+    },
+    {
+        "input_text:": "Jim was choosing between brown and yellow paint color for his bathroom wall, but the _ was too bright. Replace the _ in the above sentence with the correct option: - brown - yellow",
+        "target_text": "brown",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.9613480567932129,
+            -0.48722147941589355
+        ]
+    },
+    {
+        "input_text:": "Returning from the 5K run, Kim found coffee and water available in the clubhouse, and she refused the _ because she felt dehydrated. Replace the _ in the above sentence with the correct option: - water - coffee",
+        "target_text": "water",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.02939792349934578,
+            -3.5588066577911377
+        ]
+    },
+    {
+        "input_text:": "Brian needed to apply lotion more frequently than Adam due to _'s naturally oily skin. Replace the _ in the above sentence with the correct option: - Brian - Adam",
+        "target_text": "Brian",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.05921086296439171,
+            -2.8614628314971924
+        ]
+    },
+    {
+        "input_text:": "Sarah broke their parents' bathroom mirror in front of Patricia so _ began to laugh. Replace the _ in the above sentence with the correct option: - Sarah - Patricia",
+        "target_text": "Sarah",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.26721957325935364,
+            -1.4529449939727783
+        ]
+    },
+    {
+        "input_text:": "The car was avoided when he slammed on to the brake pedal. The _ was almost hit. Replace the _ in the above sentence with the correct option: - pedal - car",
+        "target_text": "pedal",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.6169830560684204,
+            -0.22314777970314026
+        ]
+    },
+    {
+        "input_text:": "Kayla was having trouble with Bedwetting but Victoria wasn't, so _ bought some silk sheets. Replace the _ in the above sentence with the correct option: - Kayla - Victoria",
+        "target_text": "Kayla",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.757617950439453,
+            -0.00869455561041832
+        ]
+    },
+    {
+        "input_text:": "The was more careful unloading the eggs than the tomatoes into the house because the _ were tougher. Replace the _ in the above sentence with the correct option: - eggs - tomatoes",
+        "target_text": "eggs",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.37626367807388306,
+            -1.163179874420166
+        ]
+    },
+    {
+        "input_text:": "Christopher thinks mice are a good pet but Derrick does not. _ bought some hamsters at the pet store. Replace the _ in the above sentence with the correct option: - Christopher - Derrick",
+        "target_text": "Christopher",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.20188185572624207,
+            -1.7132753133773804
+        ]
+    },
+    {
+        "input_text:": "During the child's development, the parents were required to get many books and not as many notebooks because the _ were not needed for learning. Replace the _ in the above sentence with the correct option: - books - notebooks",
+        "target_text": "books",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5448826551437378,
+            -0.24295319616794586
+        ]
+    },
+    {
+        "input_text:": "For work the technician went shopping for computer components and replaced the CPU but not the GPU because the _ was new. Replace the _ in the above sentence with the correct option: - CPU - GPU",
+        "target_text": "CPU",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.14082135260105133,
+            -2.0345561504364014
+        ]
+    },
+    {
+        "input_text:": "She knew the questions on the math test and not the reading test since the _ test was on a shorter timer. Replace the _ in the above sentence with the correct option: - math - reading",
+        "target_text": "math",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.754619598388672,
+            -0.06669603288173676
+        ]
+    },
+    {
+        "input_text:": "The grass was more welcoming for the cats than the straw, even though the _ was dry. Replace the _ in the above sentence with the correct option: - grass - straw",
+        "target_text": "grass",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5932290554046631,
+            -0.8060744404792786
+        ]
+    },
+    {
+        "input_text:": "Tammy was treated for depression at the clinic and was overcharged but the _ was helpful. Replace the _ in the above sentence with the correct option: - depression - clinic",
+        "target_text": "depression",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.19058001041412354,
+            -1.7616643905639648
+        ]
+    },
+    {
+        "input_text:": "The senator introduced legislation to raise taxes on the rich and lower them on the poor, since the _ already paid high taxes. Replace the _ in the above sentence with the correct option: - rich - poor",
+        "target_text": "rich",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.13966061174869537,
+            -2.0502920150756836
+        ]
+    },
+    {
+        "input_text:": "Sally was cooking stew but she wasn't sure what type of steak to buy. The _ would cook in the stew for a long time to make the stew tasty. Replace the _ in the above sentence with the correct option: - stew - steak",
+        "target_text": "stew",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.8349626064300537,
+            -0.5714975595474243
+        ]
+    }
+]

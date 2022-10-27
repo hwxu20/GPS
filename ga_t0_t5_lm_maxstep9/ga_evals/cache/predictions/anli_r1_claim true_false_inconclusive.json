@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "John Fair \"Jocko\" Marcellino (born May 12, 1950) is an American singer, musician, songwriter, producer and actor best known as one of the founders of the American rock and roll group Sha Na Na. He performed with Sha Na Na at the original Woodstock Festival, in the movie \"Grease\" and in The Sha Na Na Show, their worldwide syndicated TV show. Based on the information given, is the conclusion: \"John Fair was born a singer in 1950\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.9640141725540161,
+            -6.658419132232666,
+            -2.162843704223633
+        ]
+    },
+    {
+        "input_text:": "The Gannochy trust is a charitable organisation which is based and operates in Scotland with a preference for projects in Perth and Kinross. The trust was founded in 1937 by influential Perth business man Arthur Kinmond Bell, known as A. K. Bell, of Arthur Bell & Sons Ltd. Based on the information given, is the conclusion: \"The Gannochy trust gives help to charitable causes in the US.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -4.547708511352539,
+            -9.069936752319336,
+            -1.5955368280410767
+        ]
+    },
+    {
+        "input_text:": "Mon Colle Knights, known as Six Gates Far Away Mon Colle Knight (Japanese: , Hepburn: Rokumon Tengai Mon Kore Naito ) in Japan, is an anime and manga series. The original concept was made by Hitoshi Yasuda and Group SNE. The series is based on the Monster Collection trading card game. Based on the information given, is the conclusion: \"Hitoshi Yasudau was involved in the original idea of the anime and maga series which was first a trading card game.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.458160638809204,
+            -10.094913482666016,
+            -4.345956802368164
+        ]
+    },
+    {
+        "input_text:": "Agatha Christie: Evil Under the Sun is a video game released for the PC and Nintendo Wii, and is the third installment of The Adventure Company's \"Agatha Christie\" series, developed by AWE Productions, based on Agatha Christie's novel \"Evil Under the Sun\". The PC version was released in 2007, and the Wii version one year later. Based on the information given, is the conclusion: \"The Adventure Company made at least three video games\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.995676279067993,
+            -8.418439865112305,
+            -3.1442995071411133
+        ]
+    },
+    {
+        "input_text:": "Pilsner (also pilsener or simply pils) is a type of pale lager. It takes its name from Plze (Pilsen in Czech Republic), a city in Bohemia, then in the Austrian Empire, now in the Czech Republic, where it was first produced in 1842. The world\u2019s first blond lager, the original Pilsner Urquell, is still produced there today. Based on the information given, is the conclusion: \"Pilsner is Czech.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.576390027999878,
+            -9.825370788574219,
+            -7.773186683654785
+        ]
+    },
+    {
+        "input_text:": "Okra or okro ( or ), known in many English-speaking countries as ladies' fingers or ochro, is a flowering plant in the mallow family. It is valued for its edible green seed pods. The geographical origin of okra is disputed, with supporters of West African, Ethiopian, and South Asian origins. The plant is cultivated in tropical, subtropical and warm temperate regions around the world. Based on the information given, is the conclusion: \"The geopgraphical origin of okra is disputed, with supporters stating that the origins of the plant could be from either East Africa, Eithiopia, or South Asia.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.660876750946045,
+            -10.37930965423584,
+            -5.32858419418335
+        ]
+    },
+    {
+        "input_text:": "Ai Weiwei The Fake Case is a 2013 documentary film about Chinese artist and activist Ai Weiwei, directed by Danish filmmaker Andreas Johnsen. The film won Best 2014 Documentary in Danish Film Critics Association's 67th Bodil Awards, played in the official selection of 2014 Hot Docs Canadian International Documentary Festival in Toronto and International Documentary Film Festival Amsterdam. Based on the information given, is the conclusion: \"Ai Weiwei The Fake Case is a 2013 documentary film about Chinese artist and activist Ai Weiwei staring Ai Weiwei.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.162232398986816,
+            -8.152084350585938,
+            -4.673389911651611
+        ]
+    },
+    {
+        "input_text:": "PSR B1919+21 is a pulsar with a period of 1.3373 seconds and a pulse width of 0.04 seconds. Discovered by Jocelyn Bell Burnell and Antony Hewish on November 28, 1967, it is the first discovered radio pulsar. The power and regularity of the signals were briefly thought to resemble an extraterrestrial beacon, leading the source to be nicknamed LGM-1 (for \"little green men\"). Based on the information given, is the conclusion: \"PSR B1919+21 has a period of 1337.3 ms\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.447166681289673,
+            -11.133755683898926,
+            -6.59476900100708
+        ]
+    },
+    {
+        "input_text:": "Objective-C is a general-purpose, object-oriented programming language that adds Smalltalk-style messaging to the C programming language. It was the main programming language used by Apple for the OS X and iOS operating systems, and their respective application programming interfaces (APIs) Cocoa and Cocoa Touch prior to the introduction of Swift. Based on the information given, is the conclusion: \"Objective-C is the main programming language that is now used by Apple for the OSX and iOS operating systems.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -4.41961669921875,
+            -8.933172225952148,
+            -2.377377510070801
+        ]
+    },
+    {
+        "input_text:": "Elazar Menachem Man Shach (Hebrew:     ) Elazar Shach (January 1, 1899 O.S. \u2013 November 2, 2001) was a leading Lithuanian-Jewish Haredi rabbi in Bnei Brak, Israel. He also served as one of three co-deans of the Ponevezh Yeshiva in Bnei Brak, along with Rabbis Shmuel Rozovsky and Dovid Povarsky. Based on the information given, is the conclusion: \"Bnei Brak was a leading Lithuanian-Jewish Haredi rabbi in Israel.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -4.036378383636475,
+            -8.073372840881348,
+            -3.400752305984497
+        ]
+    },
+    {
+        "input_text:": "Chamaecyparis, common names cypress or false cypress (to distinguish it from related cypresses), is a genus of conifers in the cypress family Cupressaceae, native to eastern Asia (Japan + Taiwan) and to the western and eastern margins of the United States. The name is derived from the Greek \"khamai\", meaning ground, and \"kuparissos\" for cypress. Based on the information given, is the conclusion: \"Chamaecyparis stands from cypress that means ground\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -3.548581600189209,
+            -8.735983848571777,
+            -2.5055618286132812
+        ]
+    },
+    {
+        "input_text:": "The Prince and Me is a 2004 romantic comedy film directed by Martha Coolidge, and starring Julia Stiles, Luke Mably, and Ben Miller, with Miranda Richardson, James Fox, and Alberta Watson. The film focuses on Paige Morgan, a pre-med college student in Wisconsin, who is pursued by a prince posing as a normal college student. Based on the information given, is the conclusion: \"The prince is a college graduate. \" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.469109535217285,
+            -8.337554931640625,
+            -4.605540752410889
+        ]
+    },
+    {
+        "input_text:": "Jia Zhangke (born 24 May 1970) is a Chinese film director and screenwriter. He is generally regarded as a leading figure of the \"Sixth Generation\" movement of Chinese cinema, a group that also includes such figures as Wang Xiaoshuai, Lou Ye, Wang Quan'an and Zhang Yuan. Based on the information given, is the conclusion: \"Jia was prominent in his career at age 65.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -5.010349273681641,
+            -8.690652847290039,
+            -3.5874316692352295
+        ]
+    },
+    {
+        "input_text:": "Taxi Driver: Oko Ashewo, also known as just Taxi Driver or Oko Ashewo, is a 2015 Nigerian dark comedy thriller film produced by Ayobami Macaulay and directed by Daniel Oriahi. It stars Odunlade Adekola, Femi Jacobs, Ijeoma Grace Agu and Hafeez Oyetoro. Based on the information given, is the conclusion: \"There's only four actors in Oko Ashewo\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.22019362449646,
+            -6.9712443351745605,
+            -3.011688232421875
+        ]
+    },
+    {
+        "input_text:": "Songs Our Daddy Taught Us is the second album by close harmony country/rock and roll duo The Everly Brothers, released in 1958. The album is a selection of songs that the brothers learned as boys from their father, Ike Everly. Originally released on Cadence Records, the album has been re-released on LP and CD many times, primarily by Rhino and EMI. Based on the information given, is the conclusion: \"Songs Our Daddy Taught Us won a Pulitzer.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -5.450893878936768,
+            -7.715479850769043,
+            -0.6075140833854675
+        ]
+    },
+    {
+        "input_text:": "Abroad with Two Yanks is a 1944 American comedy film directed by Allan Dwan and starring Helen Walker, William Bendix and Dennis O'Keefe as the title characters. It was Bendix's third and final role in a film as a US Marine and the first of Dwan's three films about the United States Marine Corps. Based on the information given, is the conclusion: \"Abroad with Two Yanks won an Academy Award for Best Picture in 1945, amid critical success.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -5.714753150939941,
+            -10.634749412536621,
+            -4.467130184173584
+        ]
+    },
+    {
+        "input_text:": "Shadowboxer is a 2005 crime thriller film directed by Lee Daniels and starring Academy Award winners Cuba Gooding Jr., Helen Mirren, and Mo'Nique. It opened in limited release in six cities: New York, Los Angeles, Washington, D.C., Baltimore, Philadelphia, and Richmond, Virginia. Based on the information given, is the conclusion: \"The limited release of Shadowboxer was not available in any landlocked states.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.803577423095703,
+            -8.399730682373047,
+            -3.961893320083618
+        ]
+    },
+    {
+        "input_text:": "Wedding Toasts I\u2019ll Never Give is a memoir by Ada Calhoun about marriage. It was inspired by the success of her \"New York Times\" \u201cModern Love\u201d column, \u201cThe Wedding Toast I\u2019ll Never Give,\u201d which the paper named one of its most-read stories of 2015. The book was released on May 16, 2017 by W. W. Norton & Company. Based on the information given, is the conclusion: \"Ada Calhoun is married.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.487114667892456,
+            -8.658225059509277,
+            -4.919320106506348
+        ]
+    },
+    {
+        "input_text:": "The Agatha Christie Award ( ) is a Japanese literary award established in 2010 in commemoration of the 120th anniversary of Agatha Christie's birth. The award is presented by Hayakawa Publishing Corporation in association with the Agatha Christie Society, which is chaired by Mathew Pritchard, the grandson of Agatha Christie. Based on the information given, is the conclusion: \"The Agatha Christie Award is a Japanese literary award established in 2010 in commemoration of the 120th anniversary of Agatha Christie's birth which Mathew Pritchard attends.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -4.565107345581055,
+            -9.163496971130371,
+            -6.31757116317749
+        ]
+    },
+    {
+        "input_text:": "BlayzBloo: Super Melee Brawlers Battle Royale, released in Japan as BlazBlue: Battle  Battle ( --, BureiBur: Batoru kurosu Batoru ), is a 3D arena fighting video game developed by Arc System Works. It was published in Japan by Arc System Works on January 27, 2010 and for the Nintendo DSi/Nintendo DSi XL. The game was released in North America on August 2, 2010. Based on the information given, is the conclusion: \"Arc System Works released many successful games, including BlazBlue which was released in North America in the fall of 2010.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.1939737796783447,
+            -8.317390441894531,
+            -2.074960947036743
+        ]
+    },
+    {
+        "input_text:": "Illinois Route 3 (IL 3) is a major north\u2013south arterial state highway in southwestern Illinois. It has its southern terminus at Cairo Junction (about 4 mi north of Cairo) at the intersection of Interstate 57 (I-57) and U.S. Route 51 (US 51), and its northern terminus in Grafton at IL 100. This is a distance of 187.44 mi. Based on the information given, is the conclusion: \"Illinois Route 3 does not extend into other states. \" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.4343373775482178,
+            -9.768804550170898,
+            -4.232120990753174
+        ]
+    },
+    {
+        "input_text:": "Shawn Levy (born July 23, 1968) is a Canadian film director, producer, and actor. He directed the films \"Big Fat Liar\" (2002), \"Just Married\" (2003), \"Cheaper by the Dozen\" (2003), \"The Pink Panther\" (2006), \"Night at the Museum\" (2006), \"\" (2009), \"Date Night\" (2010), \"Real Steel\" (2011), \"The Internship\" (2013), \"This Is Where I Leave You\" (2014) and \"\" (2014). Based on the information given, is the conclusion: \"Shawn Levy is still currently living in 2019.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -4.1356892585754395,
+            -8.979464530944824,
+            -6.583613395690918
+        ]
+    },
+    {
+        "input_text:": "Dr. Tony Gardner (born 10 January 1964) is an English actor and doctor. He qualified as a doctor at Guy's Hospital in 1987, then as a general practitioner in 1993. He combined medicine and comedy during the 1990s as half of the award-winning comedy duo \"Struck Off and Die\" with Phil Hammond. Based on the information given, is the conclusion: \"Dr. Tony Gardner became a general practitioner prior to becoming a doctor.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.167562961578369,
+            -7.61837911605835,
+            -2.976534605026245
+        ]
+    },
+    {
+        "input_text:": "Moonstruck is a 1987 American romantic comedy film directed by Norman Jewison and written by John Patrick Shanley. It is about a widowed 37-year-old Italian-American woman (Cher) who falls in love with her fianc\u00e9's (Danny Aiello) estranged, hot-tempered younger brother (Nicolas Cage). Vincent Gardenia and Olympia Dukakis play supporting roles. Based on the information given, is the conclusion: \" Moonstruck was not a documentary about a widowed 37 year old. \" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.39169454574585,
+            -7.768518447875977,
+            -3.660902261734009
+        ]
+    },
+    {
+        "input_text:": "Catterline is a coastal village on the North Sea in Aberdeenshire, Scotland. It is situated about six kilometres south of Stonehaven; nearby to the north are Dunnottar Castle and Fowlsheugh Nature Reserve. Other noted architectural or historic features in the general area include Fetteresso Castle, Fiddes Castle, Chapel of St. Mary and St. Nathalan and Muchalls Castle. Based on the information given, is the conclusion: \"6km north of Stonehaven is the coastal village of Catterline.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.108495712280273,
+            -7.194219589233398,
+            -0.6748355627059937
+        ]
+    },
+    {
+        "input_text:": "A flamenco shoe is a type of shoe worn by flamenco dancers. They are typically worn by female dancers, they are called flamenco heel, often with traje de flamenca costumes. Male flamenco dancers traditionally wear short, heeled boots, although there are now some flamenco shoe styles available for men. Based on the information given, is the conclusion: \"Flamenco dancers, both male and female, wear the same shoes.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.3013224601745605,
+            -8.7820405960083,
+            -4.144182205200195
+        ]
+    },
+    {
+        "input_text:": "Tura Beach is suburb of Merimbula, on the South Coast of New South Wales, Australia, in the Bega Valley Shire local government area. It lies approximately 6 km north of Merimbula. At the 2016 census, Tura Beach had a population of 3,158 people with an median age of 57 years, 19 years greater than that of the overall Australian population. Based on the information given, is the conclusion: \"The median age of the population of Australia in 2016 was 38 years. \" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.613186359405518,
+            -8.794713020324707,
+            -1.514149785041809
+        ]
+    },
+    {
+        "input_text:": "Mario Fernandez (born 1984), better known as Wizzo or wizzogmb, is a Mexican-American hip-hop/electronic producer, recording/mixing engineer, and DJ based in Santa Ana, Ca. He was born to Mexican mother and father in Guadalajara, Jalisco, Mexico. He has worked with Lil Jon, Boosie, DJ Drama, Nipsey Hussle, Yg, Skeme, Dom Kennedy, Jim Jonsin, and various other producers, artists and engineers. Based on the information given, is the conclusion: \"Fernandez's father is American.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.446135520935059,
+            -7.078126907348633,
+            -1.6128478050231934
+        ]
+    },
+    {
+        "input_text:": "Liverpool Football Club ( ) is a professional association football club based in Liverpool, Merseyside, England. They compete in the Premier League, the top tier of English football. The club has won an English record 5 European Cups, 3 UEFA Cups, 3 UEFA Super Cups, 18 League titles, 7 FA Cups, a record 8 League Cups, and 15 FA Community Shields. Based on the information given, is the conclusion: \"The liverpool football club, based in Liverpool, compete in a low tier of English football.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.415406227111816,
+            -8.59410572052002,
+            -1.273465633392334
+        ]
+    },
+    {
+        "input_text:": "John Travers (ca. 1703 \u2013 June 1758) was an English composer who held the office of Organist to the Chapel Royal from 1737 to 1758. Before filling several parochial posts in London he had been a choir boy at St. George's Chapel, Windsor and a pupil of Johann Christoph Pepusch. Based on the information given, is the conclusion: \"John Travers was a priest\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.4682774543762207,
+            -7.330918788909912,
+            -2.305504322052002
+        ]
+    },
+    {
+        "input_text:": "Stuart Murdoch (born September 2, 1955) is a football coach. He is perhaps best known for his spell as manager of Wimbledon between May 2002 and June 2004, during which time the team moved to Milton Keynes in 2003. Wimbledon were renamed Milton Keynes Dons by the new owner in 2004 and Murdoch remained in charge until November of that year. Based on the information given, is the conclusion: \"Stuart Murdoch coached a new football team in 2004\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.69555926322937,
+            -8.901219367980957,
+            -3.3010857105255127
+        ]
+    },
+    {
+        "input_text:": "\"All We Ever Knew\" is a song written and recorded by American folk band The Head and the Heart, released as the lead single for their third studio album \"Signs of Light\" by Warner Bros. Records. The song was written by the band and produced by Jay Joyce. Based on the information given, is the conclusion: \"\"The Head and the Heart\" was a song on the album \"Signs of Light\"\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.0242512226104736,
+            -6.9383087158203125,
+            -2.1595475673675537
+        ]
+    },
+    {
+        "input_text:": "Yeidhavan (English: The Man Who Aims ) is a 2017 Indian Tamil-language crime action film written and directed by Sakthi Rajasekaran and produced by Sudhakaran. The film stars Kalaiyarasan and Satna Titus in the leading roles and features music composed by newcomer, Paartav Barggo. The film released on 12 May 2017. Based on the information given, is the conclusion: \"Its not certian Yeidhavan (English: The Man Who Aims ) is a 2017 Indian Tamil-language\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -2.468869209289551,
+            -7.163346290588379,
+            -4.7379608154296875
+        ]
+    }
+]

@@ -1,0 +1,322 @@
+[
+    {
+        "input_text:": "Can we extend the legs of this dining table? Extend the TV antenna. Similar extend?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.40047550201416,
+            -9.07486343383789
+        ]
+    },
+    {
+        "input_text:": "Did you catch that allusion? I have to catch a train at 7 o'clock. Similar catch?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.7523398399353027,
+            -4.248639106750488
+        ]
+    },
+    {
+        "input_text:": "The car's finish was so shiny and new. \"Almost an inspiration which gives to all work that finish which is almost art\" -- Joseph Conrad. Similar finish?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.02231502532959,
+            -6.594473838806152
+        ]
+    },
+    {
+        "input_text:": "Flood the market with tennis shoes. The images flooded his mind. Similar flood?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -9.061057090759277,
+            -8.94805908203125
+        ]
+    },
+    {
+        "input_text:": "Lie dormant. The snow lies on the roof. Similar lie?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.3311238288879395,
+            -7.628870487213135
+        ]
+    },
+    {
+        "input_text:": "He was unable to make his motion because he couldn't get recognition by the chairman. Increasing recognition that diabetes frequently coexists with other chronic diseases. Similar recognition?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.033304691314697,
+            -11.253138542175293
+        ]
+    },
+    {
+        "input_text:": "Build up confidence. The contractor builds houses for $100. Similar build?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.077221870422363,
+            -6.964091777801514
+        ]
+    },
+    {
+        "input_text:": "They sailed south around the point. A row of points. Similar point?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.548202991485596,
+            -6.346524715423584
+        ]
+    },
+    {
+        "input_text:": "You are trying my patience. Try the yak butter. Similar try?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.2813243865966797,
+            -5.1714887619018555
+        ]
+    },
+    {
+        "input_text:": "Break cigarette smoking. His peccadilloes finally broke his marriage. Similar break?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.511040687561035,
+            -7.5249924659729
+        ]
+    },
+    {
+        "input_text:": "Is the direction of the economy a function of government? I couldn't follow the direction of his thoughts. Similar direction?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.3449082374572754,
+            -5.561084270477295
+        ]
+    },
+    {
+        "input_text:": "Please check each name on the list. She checked for an instant and missed a step. Similar check?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.941162109375,
+            -4.952818870544434
+        ]
+    },
+    {
+        "input_text:": "The hollow of the hand or of a tree. He built himself a cabin in a hollow high up in the Rockies. Similar hollow?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -9.79093074798584,
+            -10.229269027709961
+        ]
+    },
+    {
+        "input_text:": "We should meet at a pre-arranged point. They sailed south around the point. Similar point?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.332006454467773,
+            -7.156853675842285
+        ]
+    },
+    {
+        "input_text:": "Put that light out! The light of my life. Similar light?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.255792140960693,
+            -6.977219581604004
+        ]
+    },
+    {
+        "input_text:": "He inserted the wedge into a split in the log. He demanded his split before they disbanded. Similar split?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.196052551269531,
+            -8.894647598266602
+        ]
+    },
+    {
+        "input_text:": "I'll take that plate off the table. Take these letters to the boss. Similar take?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.151538848876953,
+            -8.11914348602295
+        ]
+    },
+    {
+        "input_text:": "This product of last month's quality standards committee is quite good, even though the process was flawed. The process of calcification begins later for boys than for girls. Similar process?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.476076126098633,
+            -7.9459147453308105
+        ]
+    },
+    {
+        "input_text:": "The president no longer has the support of his own party. They developed a scheme of mutual support. Similar support?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -4.631399631500244,
+            -7.222148895263672
+        ]
+    },
+    {
+        "input_text:": "Precious stones occur in a large area in Brazil. Sexism occurs in many workplaces. Similar occur?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.291905641555786,
+            -7.541155815124512
+        ]
+    },
+    {
+        "input_text:": "Why don't you call me in the morning? Why don't you call tomorrow? Similar call?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.5221004486083984,
+            -3.4301252365112305
+        ]
+    },
+    {
+        "input_text:": "Please focus on your studies and not on your hobbies. We focused on it. Similar focus?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.274547100067139,
+            -5.889389514923096
+        ]
+    },
+    {
+        "input_text:": "He went to Las Vegas and spent all his money over a three-day run. I'm having a run of bad luck. Similar run?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.300306797027588,
+            -7.43887996673584
+        ]
+    },
+    {
+        "input_text:": "This diamond comes from a mine in South Africa. He came out of the coal mine with a face covered in black. Similar mine?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.86167573928833,
+            -9.154738426208496
+        ]
+    },
+    {
+        "input_text:": "Plug the hole. He attempted to plug the leaks with some caulk. Similar plug?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.021644115447998,
+            -8.251044273376465
+        ]
+    },
+    {
+        "input_text:": "I didn't mean to knock your tooth out. I mean to go to Baddeck this summer. Similar mean?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.889129161834717,
+            -8.307772636413574
+        ]
+    },
+    {
+        "input_text:": "I carry her image in my mind's eye. I carry a lot of life insurance. Similar carry?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.048249244689941,
+            -6.288065433502197
+        ]
+    },
+    {
+        "input_text:": "Come down here! Come out of the closet! Similar come?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.361837387084961,
+            -5.793704986572266
+        ]
+    },
+    {
+        "input_text:": "To advance the ripening of fruit. To advance one's interests. Similar advance?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.784257411956787,
+            -8.76672649383545
+        ]
+    },
+    {
+        "input_text:": "An indication of foul play. Indications of strain. Similar indication?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.723229885101318,
+            -9.035423278808594
+        ]
+    },
+    {
+        "input_text:": "I will check up on the car tomorrow. Check out the engine. Similar check?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.048406600952148,
+            -5.965599060058594
+        ]
+    },
+    {
+        "input_text:": "Some parents exercise their infants. This puzzle will exercise your mind. Similar exercise?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -8.227775573730469,
+            -8.954839706420898
+        ]
+    }
+]

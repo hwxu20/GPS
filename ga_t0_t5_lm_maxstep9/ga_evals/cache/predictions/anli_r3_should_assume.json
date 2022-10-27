@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Given How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job., Should we assume that \"You can be hired by passing a psychological test.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4896329939365387,
+            -1.7736834287643433,
+            -1.9702461957931519
+        ]
+    },
+    {
+        "input_text:": "Given Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook., Should we assume that \"I was pregnant during at least one meeting\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3299913704395294,
+            -1.6232385635375977,
+            -2.623291492462158
+        ]
+    },
+    {
+        "input_text:": "Given Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit., Should we assume that \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4220292866230011,
+            -2.6642558574676514,
+            -2.073840618133545
+        ]
+    },
+    {
+        "input_text:": "Given Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis., Should we assume that \"Dookie is still alive.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6823291778564453,
+            -2.00897216796875,
+            -1.692099928855896
+        ]
+    },
+    {
+        "input_text:": "Given Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away., Should we assume that \"The robbers get away from Reba by running away. \" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4705282151699066,
+            -2.3179733753204346,
+            -1.9942803382873535
+        ]
+    },
+    {
+        "input_text:": "Given NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons), Should we assume that \"Crude futures experienced losses this week.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.12756013870239258,
+            -3.02311372756958,
+            -2.9693169593811035
+        ]
+    },
+    {
+        "input_text:": "Given Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary., Should we assume that \"the church dedication was in 1824\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -0.793083667755127,
+            -3.021514892578125,
+            -0.7235031127929688
+        ]
+    },
+    {
+        "input_text:": "Given Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros., Should we assume that \" Bruce Larson quit drag racing for quite sometime\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.11620912700891495,
+            -3.075226306915283,
+            -3.145078659057617
+        ]
+    },
+    {
+        "input_text:": "Given How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa)., Should we assume that \"Basic rules of soccer are decided upon by more than 1 member of IFAB\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2481556534767151,
+            -2.8344850540161133,
+            -2.319336414337158
+        ]
+    },
+    {
+        "input_text:": "Given The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching)., Should we assume that \"The Sounds have, at present, had less than four dozen coaches.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.40563875436782837,
+            -2.3597733974456787,
+            -1.6577394008636475
+        ]
+    },
+    {
+        "input_text:": "Given Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot., Should we assume that \"Anna use her camera in her photography class\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.8891632556915283,
+            -1.812883973121643,
+            -1.1968636512756348
+        ]
+    },
+    {
+        "input_text:": "Given Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves., Should we assume that \"Tina enjoys being on the water.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.606220543384552,
+            -1.8007320165634155,
+            -1.3785483837127686
+        ]
+    },
+    {
+        "input_text:": "Given How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long., Should we assume that \"She wnats to copy her hairstyle.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.47503340244293213,
+            -1.9311994314193726,
+            -1.6966720819473267
+        ]
+    },
+    {
+        "input_text:": "Given Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank., Should we assume that \"Alvin's wife is immoral.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.7508151531219482,
+            -2.1750943660736084,
+            -1.432582139968872
+        ]
+    },
+    {
+        "input_text:": "Given Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator., Should we assume that \"The narrator and Milosevic met on GeoCities, and their wives know each other.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.425692319869995,
+            -2.101137399673462,
+            -0.4478633403778076
+        ]
+    },
+    {
+        "input_text:": "Given Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food., Should we assume that \"fish food has a s\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3116394877433777,
+            -3.085961103439331,
+            -1.802087664604187
+        ]
+    },
+    {
+        "input_text:": "Given How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses., Should we assume that \"Bankruptcy can always be avoided.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.0245674848556519,
+            -1.6416823863983154,
+            -1.2805954217910767
+        ]
+    },
+    {
+        "input_text:": "Given Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer!, Should we assume that \"Scott did not get along with his boss\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.1109322309494019,
+            -1.7681432962417603,
+            -1.0619996786117554
+        ]
+    },
+    {
+        "input_text:": "Given Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers., Should we assume that \"Seth creates new levels in the game without any help from his brothers. \" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.6971410512924194,
+            -2.115851402282715,
+            -1.2760452032089233
+        ]
+    },
+    {
+        "input_text:": "Given How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them., Should we assume that \"Herding dogs is a bigger group than Border collies.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -0.9885851144790649,
+            -1.6757184267044067,
+            -0.9353197813034058
+        ]
+    },
+    {
+        "input_text:": "Given How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines., Should we assume that \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.6441218852996826,
+            -1.724660873413086,
+            -1.9225801229476929
+        ]
+    },
+    {
+        "input_text:": "Given How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water., Should we assume that \"Red leaf lettuce must always be eaten with salad\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.5898033380508423,
+            -2.2017345428466797,
+            -0.5599402785301208
+        ]
+    },
+    {
+        "input_text:": "Given Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic., Should we assume that \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.5993772745132446,
+            -2.348855495452881,
+            -0.41259509325027466
+        ]
+    },
+    {
+        "input_text:": "Given Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him., Should we assume that \"Dan is in a wheelchair\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.946397304534912,
+            -2.0463356971740723,
+            -0.5250102877616882
+        ]
+    },
+    {
+        "input_text:": "Given Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious., Should we assume that \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.8436055183410645,
+            -2.6429240703582764,
+            -0.2683519124984741
+        ]
+    },
+    {
+        "input_text:": "Given But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union?, Should we assume that \"40,00 people with lose their union\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.613966703414917,
+            -2.3994193077087402,
+            -1.0774548053741455
+        ]
+    },
+    {
+        "input_text:": "Given Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards., Should we assume that \"The Marple TV show used the same stories as the Marple book series.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.6625151634216309,
+            -2.724881410598755,
+            -1.7324657440185547
+        ]
+    },
+    {
+        "input_text:": "Given \"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said., Should we assume that \"Dead Yakuza chose money over life.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.1273586750030518,
+            -2.3070383071899414,
+            -0.3924926519393921
+        ]
+    },
+    {
+        "input_text:": "Given And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that., Should we assume that \"The speaker would like it if the troops were withdrawn immediately.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.8437778949737549,
+            -1.946643590927124,
+            -0.44933968782424927
+        ]
+    },
+    {
+        "input_text:": "Given Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop., Should we assume that \"Benny was encouraged to continue\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.583874464035034,
+            -2.5648436546325684,
+            -0.24171389639377594
+        ]
+    },
+    {
+        "input_text:": "Given How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other., Should we assume that \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.2764089107513428,
+            -2.3110604286193848,
+            -0.45020192861557007
+        ]
+    },
+    {
+        "input_text:": "Given How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes., Should we assume that \"The house will clean itself.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.333935499191284,
+            -1.9578936100006104,
+            -1.0280447006225586
+        ]
+    },
+    {
+        "input_text:": "Given Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience., Should we assume that \"Joseph enjoyed the cake\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.5041821002960205,
+            -2.717421770095825,
+            -0.18890602886676788
+        ]
+    }
+]

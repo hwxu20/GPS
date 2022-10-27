@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. Based on the information in the analysis, is the claim: \"You can be hired by passing a psychological test.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.387481212615967,
+            -8.231088638305664,
+            -4.546300411224365
+        ]
+    },
+    {
+        "input_text:": "Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. Based on the information in the analysis, is the claim: \"I was pregnant during at least one meeting\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.6083567142486572,
+            -8.808975219726562,
+            -5.820617198944092
+        ]
+    },
+    {
+        "input_text:": "Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. Based on the information in the analysis, is the claim: \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.556230068206787,
+            -9.744818687438965,
+            -6.029860019683838
+        ]
+    },
+    {
+        "input_text:": "Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. Based on the information in the analysis, is the claim: \"Dookie is still alive.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.835783004760742,
+            -8.690651893615723,
+            -4.652219772338867
+        ]
+    },
+    {
+        "input_text:": "Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. Based on the information in the analysis, is the claim: \"The robbers get away from Reba by running away. \" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.977508783340454,
+            -7.211921691894531,
+            -4.426140785217285
+        ]
+    },
+    {
+        "input_text:": "NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) Based on the information in the analysis, is the claim: \"Crude futures experienced losses this week.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.8578858375549316,
+            -9.096853256225586,
+            -2.469601631164551
+        ]
+    },
+    {
+        "input_text:": "Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. Based on the information in the analysis, is the claim: \"the church dedication was in 1824\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.797542095184326,
+            -7.353065013885498,
+            -3.8149380683898926
+        ]
+    },
+    {
+        "input_text:": "Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. Based on the information in the analysis, is the claim: \" Bruce Larson quit drag racing for quite sometime\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.7205440998077393,
+            -9.58380126953125,
+            -5.7498555183410645
+        ]
+    },
+    {
+        "input_text:": "How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). Based on the information in the analysis, is the claim: \"Basic rules of soccer are decided upon by more than 1 member of IFAB\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.9458117485046387,
+            -8.243002891540527,
+            -4.536930084228516
+        ]
+    },
+    {
+        "input_text:": "The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). Based on the information in the analysis, is the claim: \"The Sounds have, at present, had less than four dozen coaches.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.209303379058838,
+            -9.099255561828613,
+            -4.6433186531066895
+        ]
+    },
+    {
+        "input_text:": "Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. Based on the information in the analysis, is the claim: \"Anna use her camera in her photography class\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.063145875930786,
+            -7.658906936645508,
+            -2.5769786834716797
+        ]
+    },
+    {
+        "input_text:": "Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. Based on the information in the analysis, is the claim: \"Tina enjoys being on the water.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.146800994873047,
+            -6.879881858825684,
+            -2.4654877185821533
+        ]
+    },
+    {
+        "input_text:": "How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. Based on the information in the analysis, is the claim: \"She wnats to copy her hairstyle.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.194392204284668,
+            -7.747596740722656,
+            -3.182663917541504
+        ]
+    },
+    {
+        "input_text:": "Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. Based on the information in the analysis, is the claim: \"Alvin's wife is immoral.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.9285850524902344,
+            -6.960097789764404,
+            -3.472679376602173
+        ]
+    },
+    {
+        "input_text:": "Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. Based on the information in the analysis, is the claim: \"The narrator and Milosevic met on GeoCities, and their wives know each other.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -4.305037975311279,
+            -8.145562171936035,
+            -2.542198896408081
+        ]
+    },
+    {
+        "input_text:": "Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. Based on the information in the analysis, is the claim: \"fish food has a s\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.1368954181671143,
+            -7.392229080200195,
+            -3.449169874191284
+        ]
+    },
+    {
+        "input_text:": "How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. Based on the information in the analysis, is the claim: \"Bankruptcy can always be avoided.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.76705002784729,
+            -8.283653259277344,
+            -4.090434551239014
+        ]
+    },
+    {
+        "input_text:": "Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! Based on the information in the analysis, is the claim: \"Scott did not get along with his boss\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.027250051498413,
+            -6.721622943878174,
+            -2.0856611728668213
+        ]
+    },
+    {
+        "input_text:": "Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. Based on the information in the analysis, is the claim: \"Seth creates new levels in the game without any help from his brothers. \" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.5056235790252686,
+            -6.824958801269531,
+            -2.270597219467163
+        ]
+    },
+    {
+        "input_text:": "How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. Based on the information in the analysis, is the claim: \"Herding dogs is a bigger group than Border collies.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.8324337005615234,
+            -6.276673793792725,
+            -1.6017606258392334
+        ]
+    },
+    {
+        "input_text:": "How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. Based on the information in the analysis, is the claim: \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.9087634086608887,
+            -8.752558708190918,
+            -5.055706977844238
+        ]
+    },
+    {
+        "input_text:": "How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. Based on the information in the analysis, is the claim: \"Red leaf lettuce must always be eaten with salad\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.7738797664642334,
+            -7.147263526916504,
+            -1.6877334117889404
+        ]
+    },
+    {
+        "input_text:": "Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. Based on the information in the analysis, is the claim: \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.571995973587036,
+            -6.370147705078125,
+            -1.397708535194397
+        ]
+    },
+    {
+        "input_text:": "Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. Based on the information in the analysis, is the claim: \"Dan is in a wheelchair\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.3249096870422363,
+            -5.446396350860596,
+            -0.5402086973190308
+        ]
+    },
+    {
+        "input_text:": "Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. Based on the information in the analysis, is the claim: \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.2319188117980957,
+            -6.562901973724365,
+            -1.1917531490325928
+        ]
+    },
+    {
+        "input_text:": "But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? Based on the information in the analysis, is the claim: \"40,00 people with lose their union\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -1.7528733015060425,
+            -7.916328430175781,
+            -2.962529182434082
+        ]
+    },
+    {
+        "input_text:": "Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. Based on the information in the analysis, is the claim: \"The Marple TV show used the same stories as the Marple book series.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.127492904663086,
+            -9.256237983703613,
+            -4.7827558517456055
+        ]
+    },
+    {
+        "input_text:": "\"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. Based on the information in the analysis, is the claim: \"Dead Yakuza chose money over life.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.93919038772583,
+            -7.127408981323242,
+            -2.6799232959747314
+        ]
+    },
+    {
+        "input_text:": "And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. Based on the information in the analysis, is the claim: \"The speaker would like it if the troops were withdrawn immediately.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.198575973510742,
+            -8.438185691833496,
+            -2.3591156005859375
+        ]
+    },
+    {
+        "input_text:": "Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. Based on the information in the analysis, is the claim: \"Benny was encouraged to continue\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.0568666458129883,
+            -6.105859279632568,
+            -0.6516278982162476
+        ]
+    },
+    {
+        "input_text:": "How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. Based on the information in the analysis, is the claim: \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.079257488250732,
+            -7.382247447967529,
+            -1.7605458498001099
+        ]
+    },
+    {
+        "input_text:": "How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. Based on the information in the analysis, is the claim: \"The house will clean itself.\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.798707485198975,
+            -7.4922566413879395,
+            -3.041119337081909
+        ]
+    },
+    {
+        "input_text:": "Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. Based on the information in the analysis, is the claim: \"Joseph enjoyed the cake\" true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.567626953125,
+            -6.654651641845703,
+            -0.5587403774261475
+        ]
+    }
+]

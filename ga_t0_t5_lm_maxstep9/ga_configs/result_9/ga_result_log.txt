@@ -1,0 +1,3 @@
+task	work?	base_best_score	ga_prompts_score
+hellaswag	True	0.3824	0.5294,0.5294,0.5294,0.5000
+super_glue/copa	False	1.0000	1.0000,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000,1.0000

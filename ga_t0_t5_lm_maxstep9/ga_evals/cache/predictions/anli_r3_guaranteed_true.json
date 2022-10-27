@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Given the How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. s and the \"You can be hired by passing a psychological test.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.077387571334839,
+            -2.171298027038574,
+            -3.4047391414642334
+        ]
+    },
+    {
+        "input_text:": "Given the Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. s and the \"I was pregnant during at least one meeting\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.153724431991577,
+            -1.381424903869629,
+            -3.354435682296753
+        ]
+    },
+    {
+        "input_text:": "Given the Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. s and the \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.6007401943206787,
+            -3.6394317150115967,
+            -4.588753700256348
+        ]
+    },
+    {
+        "input_text:": "Given the Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. s and the \"Dookie is still alive.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.284029006958008,
+            -2.5103025436401367,
+            -3.329303503036499
+        ]
+    },
+    {
+        "input_text:": "Given the Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. s and the \"The robbers get away from Reba by running away. \", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.3595004081726074,
+            -2.1435272693634033,
+            -2.8019938468933105
+        ]
+    },
+    {
+        "input_text:": "Given the NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) s and the \"Crude futures experienced losses this week.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.2777838706970215,
+            -1.3674399852752686,
+            -3.7228479385375977
+        ]
+    },
+    {
+        "input_text:": "Given the Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. s and the \"the church dedication was in 1824\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.8211991786956787,
+            -2.7268710136413574,
+            -2.9929580688476562
+        ]
+    },
+    {
+        "input_text:": "Given the Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. s and the \" Bruce Larson quit drag racing for quite sometime\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.163698673248291,
+            -2.333204984664917,
+            -3.276207447052002
+        ]
+    },
+    {
+        "input_text:": "Given the How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). s and the \"Basic rules of soccer are decided upon by more than 1 member of IFAB\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.8200945854187012,
+            -2.0409810543060303,
+            -2.8410255908966064
+        ]
+    },
+    {
+        "input_text:": "Given the The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). s and the \"The Sounds have, at present, had less than four dozen coaches.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.7721697092056274,
+            -2.2664144039154053,
+            -2.056619167327881
+        ]
+    },
+    {
+        "input_text:": "Given the Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. s and the \"Anna use her camera in her photography class\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.313915491104126,
+            -2.133039951324463,
+            -2.654064655303955
+        ]
+    },
+    {
+        "input_text:": "Given the Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. s and the \"Tina enjoys being on the water.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.8489681482315063,
+            -1.3567876815795898,
+            -1.4547483921051025
+        ]
+    },
+    {
+        "input_text:": "Given the How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. s and the \"She wnats to copy her hairstyle.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.5278375148773193,
+            -2.1908185482025146,
+            -3.1624584197998047
+        ]
+    },
+    {
+        "input_text:": "Given the Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. s and the \"Alvin's wife is immoral.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.063861608505249,
+            -2.656390905380249,
+            -3.2035746574401855
+        ]
+    },
+    {
+        "input_text:": "Given the Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. s and the \"The narrator and Milosevic met on GeoCities, and their wives know each other.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.261617660522461,
+            -3.0163629055023193,
+            -3.0469605922698975
+        ]
+    },
+    {
+        "input_text:": "Given the Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. s and the \"fish food has a s\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.7636922597885132,
+            -2.5305612087249756,
+            -1.9840885400772095
+        ]
+    },
+    {
+        "input_text:": "Given the How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. s and the \"Bankruptcy can always be avoided.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.8440566062927246,
+            -2.0532689094543457,
+            -2.288850784301758
+        ]
+    },
+    {
+        "input_text:": "Given the Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! s and the \"Scott did not get along with his boss\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.156175374984741,
+            -2.1949663162231445,
+            -1.7564595937728882
+        ]
+    },
+    {
+        "input_text:": "Given the Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. s and the \"Seth creates new levels in the game without any help from his brothers. \", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.5623457431793213,
+            -2.024066925048828,
+            -1.5341825485229492
+        ]
+    },
+    {
+        "input_text:": "Given the How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. s and the \"Herding dogs is a bigger group than Border collies.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.745708703994751,
+            -1.3024260997772217,
+            -2.0543150901794434
+        ]
+    },
+    {
+        "input_text:": "Given the How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. s and the \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.25368332862854,
+            -1.7616784572601318,
+            -3.4079530239105225
+        ]
+    },
+    {
+        "input_text:": "Given the How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. s and the \"Red leaf lettuce must always be eaten with salad\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.393101930618286,
+            -2.8281896114349365,
+            -1.9694429636001587
+        ]
+    },
+    {
+        "input_text:": "Given the Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. s and the \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.2672107219696045,
+            -1.40224027633667,
+            -0.9820027351379395
+        ]
+    },
+    {
+        "input_text:": "Given the Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. s and the \"Dan is in a wheelchair\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.064889907836914,
+            -2.456700325012207,
+            -1.5470894575119019
+        ]
+    },
+    {
+        "input_text:": "Given the Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. s and the \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.1987202167510986,
+            -1.213219404220581,
+            -0.8521170616149902
+        ]
+    },
+    {
+        "input_text:": "Given the But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? s and the \"40,00 people with lose their union\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.1390204429626465,
+            -2.704914093017578,
+            -2.350470781326294
+        ]
+    },
+    {
+        "input_text:": "Given the Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. s and the \"The Marple TV show used the same stories as the Marple book series.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -1.7257194519042969,
+            -2.4750967025756836,
+            -3.171543598175049
+        ]
+    },
+    {
+        "input_text:": "Given the \"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. s and the \"Dead Yakuza chose money over life.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -3.6637051105499268,
+            -2.513231039047241,
+            -2.519139289855957
+        ]
+    },
+    {
+        "input_text:": "Given the And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. s and the \"The speaker would like it if the troops were withdrawn immediately.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.8693697452545166,
+            -1.8263458013534546,
+            -1.307682991027832
+        ]
+    },
+    {
+        "input_text:": "Given the Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. s and the \"Benny was encouraged to continue\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.197970390319824,
+            -2.185354232788086,
+            -0.9734718799591064
+        ]
+    },
+    {
+        "input_text:": "Given the How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. s and the \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.674801826477051,
+            -2.847830057144165,
+            -1.2582285404205322
+        ]
+    },
+    {
+        "input_text:": "Given the How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. s and the \"The house will clean itself.\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -2.928368330001831,
+            -2.0269947052001953,
+            -2.6330530643463135
+        ]
+    },
+    {
+        "input_text:": "Given the Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. s and the \"Joseph enjoyed the cake\", what is the probability that the conclusion c is true, yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.275270938873291,
+            -2.3868517875671387,
+            -1.0550172328948975
+        ]
+    }
+]

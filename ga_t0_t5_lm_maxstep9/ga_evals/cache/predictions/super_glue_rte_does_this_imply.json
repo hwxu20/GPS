@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "Green cards are becoming more difficult to obtain. Question: Why is this more likely to entail that \"Green card is now difficult to receive.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.900031566619873,
+            -6.719152450561523
+        ]
+    },
+    {
+        "input_text:": "Winning Team John C. Harsanyi, John F. Nash and Reinhard Selten were jointly awarded the Nobel Prize in Economics. The three professors were singled out for their unique contributions to game theory, derived from studies of games such as poker or chess, in which players have to think ahead and devise a strategy based on expected countermoves from opponents. Question: Why is this more likely to entail that \"Three scholars shared a Nobel Prize for their studies about the game theory.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.2699496746063232,
+            -4.772563457489014
+        ]
+    },
+    {
+        "input_text:": "The anti-terrorist court found two men guilty of murdering Shapour Bakhtiar and his secretary Sorush Katibeh, who were found with their throats cut in August 1991. Question: Why is this more likely to entail that \"Shapour Bakhtiar died in 1991.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.808289051055908,
+            -6.268096446990967
+        ]
+    },
+    {
+        "input_text:": "On Feb. 20, Dr. Hunter S. Thompson took his life with a gunshot to the head at his fortified compound in Woody Creek, Colorado. The family will shortly provide more information about memorial service and media contacts. Hunter prized his privacy and we ask that his friends and admirers respect that privacy as well as that of his family, Juan Thompson said in a statement issued to Aspen Daily News. The death was confirmed by Pitkin County Sheriff Bob Braudis. Hunter S. Thompson was best known for his 1972 book \"Fear and Loathing in Las Vegas\". He was recently married and had emotionally supported his friend John Kerry's candidacy. Question: Why is this more likely to entail that \"John Kerry was friends with Hunter S. Thompson.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.643781661987305,
+            -8.811777114868164
+        ]
+    },
+    {
+        "input_text:": "CVS will stop selling its own brand of 500-milligram acetaminophen caplets and pull bottles from store shelves nation wide, spokesman Mike DeAngelis said. Question: Why is this more likely to entail that \"CVS will not sell its own brand of 500-milligram acetaminophen caplets any longer.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.0906670093536377,
+            -9.954395294189453
+        ]
+    },
+    {
+        "input_text:": "WINNENDEN, Germany A teenage gunman killed 15 people, most of them female, on Wednesday in a rampage that began at a school near Stuttgart in southern Germany and ended in a nearby town, where he then killed himself after the police wounded him. The attack left Germany, which tightened tough gun controls after a similar attack at a school seven years ago, struggling to understand the carnage that had again befallen it, a country with relatively little violent crime. In 2002, a gunman killed 16 people before killing himself at a school in Erfurt, in eastern Germany. Question: Why is this more likely to entail that \"A teenager shot 15 people in Germany.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.113370895385742,
+            -4.698479175567627
+        ]
+    },
+    {
+        "input_text:": "Over a course of days, the bank went from apparent strength to bankruptcy. Barings was Britain's oldest merchant bank. It had financed the Napoleonic wars, the Louisiana purchase, and the Erie Canal. Barings was the Queen's bank. Question: Why is this more likely to entail that \"Barings was Britain's oldest merchant bank.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.5994367599487305,
+            -7.590083122253418
+        ]
+    },
+    {
+        "input_text:": "Even though the charges were dropped on January 22, 2006, his Nobel Prize reception continues to provoke mixed feelings of pride and anger among Turks. On the other hand, as Pamuk intended, the criminal case brought international attention to freedom of speech in Turkey. In his Nobel speech, he defined literature as:... what a person creates when he shuts himself up in a room, sits down at a table, and retires to a corner to express his thoughts - that is, the meaning of literature... When a writer shuts himself up in a room for years on end, with this gesture he suggests a single humanity, a world without a centre. Question: Why is this more likely to entail that \"Pamuk won a Nobel Prize.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.604415416717529,
+            -7.401599884033203
+        ]
+    },
+    {
+        "input_text:": "The chain of events which led to the collapse of Barings, Britain's oldest merchant bank, is a demonstration of how not to manage a derivatives operation. Question: Why is this more likely to entail that \"Barings was Britain's oldest merchant bank.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.1061787605285645,
+            -5.462104797363281
+        ]
+    },
+    {
+        "input_text:": "In most Pacific countries there are very few women in parliament. Question: Why is this more likely to entail that \"Women are poorly represented in parliament.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.757808208465576,
+            -6.738319396972656
+        ]
+    },
+    {
+        "input_text:": "Sharon sent dismissal letters to Benny Elon and Avigdor Lieberman, who oppose his withdrawal plan, on Friday. Question: Why is this more likely to entail that \"On Friday,Sharon fired Benny Elon and Avigdor Lieberman.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.5919854640960693,
+            -6.946873664855957
+        ]
+    },
+    {
+        "input_text:": "Iscor, the South African iron and steel manufacturer, has announced plans to develop a steel mini-mill at Saldanha Bay on the country's west coast in partnership with the state-run industrial development Corporation. Question: Why is this more likely to entail that \"The South African steel manufacturer Iscor plans to develop a mini-mill.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.904005289077759,
+            -6.376030445098877
+        ]
+    },
+    {
+        "input_text:": "CBS newsman Harry Reasoner is returning to his Iowa hometown to get married Saturday. Question: Why is this more likely to entail that \"CBS newsman Harry Reasoner was born in Iowa.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.351138114929199,
+            -5.893272876739502
+        ]
+    },
+    {
+        "input_text:": "The gastric bypass operation, also known as stomach stapling, has become the most common surgical procedure for treating obesity. Question: Why is this more likely to entail that \"Obesity is medically treated.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.530706405639648,
+            -8.836864471435547
+        ]
+    },
+    {
+        "input_text:": "The spread of AIDS in Africa is driven not by unsafe sex but by unsafe medical practice, according to research published last week. Question: Why is this more likely to entail that \"AIDS spreads in Africa.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.650672912597656,
+            -11.285087585449219
+        ]
+    },
+    {
+        "input_text:": "It will be the most German of combinations: nudity and beach towels. After decades of sunbathing and camping in the buff, the legions of Teutonic naturists are about to get their very own holiday heaven \u2014 a completely clothing-free hotel. The Hotel Rosengarten, in the aptly named Black Forest town of Freudenstadt (\"Town of Joys\"), will mark a new frontier for the homeland of Freik\u00f6rperkultur (FKK), meaning \"free body culture\". A handful of German hotels have accommodated naturists up to now, but the management at Rosengarten plan to take a hardline anti-apparel stance. Question: Why is this more likely to entail that \"Hotel Rosengarten is a completely clothing-free hotel.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.9966843128204346,
+            -11.869915008544922
+        ]
+    },
+    {
+        "input_text:": "Nonetheless, a literacy rate of 96 percent put Cuba on a par with such highly developed countries as Japan, France, the Soviet Union, Switzerland and Italy, Campo said. Question: Why is this more likely to entail that \"The literacy rate in Cuba is 96%.\"",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.716921806335449,
+            -5.856777191162109
+        ]
+    },
+    {
+        "input_text:": "According to an Israeli official, the murders of Galan, a high-ranking police officer, and a judge last week were probably carried out by an Israeli mercenary paid by the Medellin cartel - the world's most powerful drug-trafficking mafia - which has set up paramilitary squads accused of hundreds of individual murders and massacres against political and labor leaders, as well as peasants and patriotic union leftist militants in different parts of the country. Question: Why is this more likely to entail that \"Political and labor leaders were killed by patriotic union leftist militants.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.29046106338501,
+            -4.92643928527832
+        ]
+    },
+    {
+        "input_text:": "Also Friday, five Iraqi soldiers were killed and nine wounded in a bombing, targeting their convoy near Beiji, 150 miles north of Baghdad, the Iraqi military said. Question: Why is this more likely to entail that \"Three Iraqi soldiers also died Saturday when their convoy was attacked by gunmen near Adhaim.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -9.419642448425293,
+            -6.025965213775635
+        ]
+    },
+    {
+        "input_text:": "On August 21, the Polish weekly Przekr\u00f3j published an advertisement for Dan-Mark exercise books, bearing the logo of 4fun.tv, a Polish music/interactive TV station. Part of the advertisement contained a definition of the word \"exercise book\". The wording looked familiar, and Wikinews consulted Wikipedia, the collaborative online encyclopedia. Upon seeing the Wikipedia definition, it appeared that the entry quoted in the promotional material was identical to the initial two paragraphs of the relevant Wikipedia entry. Question: Why is this more likely to entail that \"Readers of online encyclopedias can edit the contents.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.904757499694824,
+            -5.6476006507873535
+        ]
+    },
+    {
+        "input_text:": "The drive towards this new law was driven in part from a string of transport-related disasters in the late 1980s, such as the sinking of cross-Channel ferry the Herald of Free Enterprise in 1987, the oil platform Piper Alpha disaster in 1988, and the Marchioness Thames river boat collision in 1989. More than 400 people lost their lives in these three disasters, but no one individual or organisation was brought to account. Question: Why is this more likely to entail that \"100 or more people lost their lives in a ferry sinking.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -8.668546676635742,
+            -10.66463851928711
+        ]
+    },
+    {
+        "input_text:": "Ordonez Reyes accused Jose Jesus Pena, alleged chief of security for the Nicaraguan embassy in Tegucigalpa, of masterminding the January 7th assassination of contra-commander Manuel Antonio Rugama. Question: Why is this more likely to entail that \"Manuel Antonio Rugama was killed by Jose Jesus Pena.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -4.447295188903809,
+            -6.93560266494751
+        ]
+    },
+    {
+        "input_text:": "In more than 40 years as a broadcaster, right up to the last weeks before his death, Sir Clement established himself as one of Britain's most recognizable personalities. He cultivated a reputation as a grumpy, irritable but hugely entertaining performer. He won widespread public affection, particularly for his appearances since 1967 as a relentlessly inventive, assertive and witty panelist on the 30-minute radio show \"Just a Minute,\" in which contestants vie to speak on offbeat topics for 60 seconds without \"hesitation, repetition or deviation.\". Question: Why is this more likely to entail that \"Sir Clement Freud was the grandson of Sigmund Freud.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.215044021606445,
+            -5.164225101470947
+        ]
+    },
+    {
+        "input_text:": "Police found four weapons-two semiautomatic machine guns, a.223-caliber rifle and two handguns in the vehicle. Question: Why is this more likely to entail that \"Police found four weapons - a.50-calibre rifle, two military style assault rifles and a handgun in the vehicle.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.955267429351807,
+            -6.571292877197266
+        ]
+    },
+    {
+        "input_text:": "Scientists have made two major discoveries in the search for other Earth-like planets. British astronomers say they have discovered the smallest known Earth-like exoplanet orbiting a living star called Gliese 581 e and also discovered that a nearby planet called Gliese 581 d, discovered in 2007, is in the much sought after 'habitable zone'. Astronomers also believe there is a possibility that 581 d could have liquid oceans on its surface, calling the find \"extraordinary.\" \"The Holy Grail of current exoplanet research is the detection of a rocky, Earth-like planet in the 'habitable zone',\" said astrophysicist at Switzerland's Geneva University, Michel Mayor. Astronomers say 581 e is 20.5 light years away from Earth and that it's roughly 1.9 times larger than Earth, making it the smallest exoplanet discovered to date. It was found using the High Accuracy Radial Velocity Planet Searcher (HARPS). Question: Why is this more likely to entail that \"Michel Mayor is the discoverer of the High Accuracy Radial Velocity Planet Searcher.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -9.474468231201172,
+            -7.255343914031982
+        ]
+    },
+    {
+        "input_text:": "The Hotel Moulin de Paris in 2.5km away from Disneyland Paris, and is located in the charming city of Magny-Le-Hongre. Question: Why is this more likely to entail that \"EuroDisney is located in the charming city of Magny-Le-Hongre.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.982608795166016,
+            -5.641745090484619
+        ]
+    },
+    {
+        "input_text:": "The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina. Question: Why is this more likely to entail that \"The United States has asked member states of the International Energy Agency to provide oil.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.653409481048584,
+            -6.1135149002075195
+        ]
+    },
+    {
+        "input_text:": "Vinicio Cerezo tacitly blamed president Alfredo Cristiani's administration for the crisis which prevails in the country as a result of the Farabundo Marti National Liberation Front's (FMLN) offensive. Meanwhile, Morales Ehrlich blamed the extreme- right, death-squads of El Salvador for the assassination of six Jesuit priests at the Central American University. Question: Why is this more likely to entail that \"Farabundo Marti National Liberation Front is suspected of the assassination of six Jesuit priests.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.544601440429688,
+            -7.294280052185059
+        ]
+    },
+    {
+        "input_text:": "The last polio outbreak in the United States was in 1979. Question: Why is this more likely to entail that \"African polio outbreak feared\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -9.48334789276123,
+            -11.418695449829102
+        ]
+    },
+    {
+        "input_text:": "The documents commented by the magazine date of April 25, 2002, epoch in which the Brazilian president was Fernando Henrique Cardoso. Question: Why is this more likely to entail that \"The Brazilian President is Luiz In\u00e1cio Lula da Silva.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.179850101470947,
+            -6.69995641708374
+        ]
+    },
+    {
+        "input_text:": "On 21 July, the Macdonough patrolled the waters off Guam to protect the assault craft from enemy submarines, continuing that role until departing for Hawaii on 10 August. After a day at Pearl Harbor, she departed for the Admiralty Islands. Question: Why is this more likely to entail that \"The Macdonough left Hawaii on 10 August.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.186364650726318,
+            -5.167344093322754
+        ]
+    },
+    {
+        "input_text:": "Mr Roughan claims that children from the age of nine and up are drinking late at night. \"You don't know what the hell's going to happen.\" Mr Nant has apologised to the affected, inconvenienced residents. New Zealand Post state they are going to continue to monitor the situation, however and also have on-going discussion with the local council and police \"to make sure we're abreast of any developments in the area.\" The gang violence/activity New Zealand Post are referring to is, on the previous Thursday the Armed Offenders Squad was called out where they raided three homes following a shooting, eight people were arrested, and a large number of firearms were seized. Question: Why is this more likely to entail that \"Roughan has nine children.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.98791217803955,
+            -7.123477935791016
+        ]
+    },
+    {
+        "input_text:": "A mercenary group, faithful to the warmongering policy of former Somozist colonel Enrique Bermudez, attacked an IFA truck belonging to the interior ministry at 0900 on 26 March in El Jicote, wounded and killed an interior ministry worker and wounded five others. Question: Why is this more likely to entail that \"A mercenary group was injured in El Jicote.\"",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.314680576324463,
+            -3.833498001098633
+        ]
+    }
+]

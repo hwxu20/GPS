@@ -1,0 +1,64 @@
+dataset: winogrande
+subset: winogrande_xl
+templates:
+  096ee035-356d-4c6c-b09e-aa30963d76de: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: 096ee035-356d-4c6c-b09e-aa30963d76de
+    jinja: '{{ sentence }} What is the use of _ {{ option1 }} or {{ option2 }}? |||
+      {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''
+  0eb8dd94-84bb-482b-83a5-283f30f78537: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: 0eb8dd94-84bb-482b-83a5-283f30f78537
+    jinja: '{{ sentence }} What is the function of _ {{ option1 }} or {{ option2 }}?
+      ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''
+  ca3f4dea-1437-48a3-a52d-98d6c9d1f159: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: ca3f4dea-1437-48a3-a52d-98d6c9d1f159
+    jinja: '{{ sentence }} What is the use of _s {{ option1 }} or {{ option2 }}? |||
+      {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''
+  cec2ed19-fbe6-49a3-a353-cb73aab2b314: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: cec2ed19-fbe6-49a3-a353-cb73aab2b314
+    jinja: '{{ sentence }} In the previous sentence, what does _ refer to {{ option1
+      }} or {{ option2 }}? ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2
+      }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''
+  ea7c4efc-c8c6-4456-a695-67d50e999b69: !Template
+    answer_choices: '{{ option1 }} ||| {{ option2 }}'
+    id: ea7c4efc-c8c6-4456-a695-67d50e999b69
+    jinja: '{{ sentence }} What is the meaning of _ {{ option1 }} or {{ option2 }}?
+      ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does underscore refer to
+    reference: ''

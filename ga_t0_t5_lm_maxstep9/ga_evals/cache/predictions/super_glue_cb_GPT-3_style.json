@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy. You could also say he was driven there by the railway. Question: Gustave was driven to creative retreat in Croisset by the railway True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4177754521369934,
+            -1.086328387260437,
+            -6.350119590759277
+        ]
+    },
+    {
+        "input_text:": "Jane ate without pausing. Hunger was an unknown experience. She had never imagined it could actually hurt. Question: hunger could actually hurt True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.28279757499694824,
+            -1.4417808055877686,
+            -5.168840408325195
+        ]
+    },
+    {
+        "input_text:": "They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. Question: Miss Lavant was in love with Dr Greenslade True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.04164661094546318,
+            -3.232590436935425,
+            -8.281285285949707
+        ]
+    },
+    {
+        "input_text:": "It was a complex language. Not written down but handed down. One might say it was peeled down. Question: the language was peeled down True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0652361661195755,
+            -2.8409595489501953,
+            -5.95234489440918
+        ]
+    },
+    {
+        "input_text:": "At length she decided that there was nothing to be gained by worrying her. Probably there was some quite innocent explanation, which Roger Kenyon would give her when she returned the wallet - if, indeed, it were his. And yet why had his manner changed so abruptly when he learned that the girl whose hat he had rescued was going to live at Sunset Cottage? Question: the girl whose hat Roger Kenyon had rescued was going to live at Sunset Cottage True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0286155566573143,
+            -3.636179208755493,
+            -8.277585983276367
+        ]
+    },
+    {
+        "input_text:": "A: Oh, oh yeah, and every time you see one hit on the side of the road you say is that my cat. B: Uh-huh. A: And you go crazy thinking it might be yours. B: Right, well I didn't realize my husband was such a sucker for animals until I brought one home one night. Question: her husband was such a sucker for animals True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.11326903104782104,
+            -2.263731002807617,
+            -7.316186904907227
+        ]
+    },
+    {
+        "input_text:": "The Susweca. It means dragonfly'' in Sioux, you know. Did I ever tell you that's where Paul and I met? Question: Susweca is where she and Paul met True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0702337920665741,
+            -2.71636962890625,
+            -7.218835353851318
+        ]
+    },
+    {
+        "input_text:": "Richard Breeden hadn't noticed that his new desk had just four telephone lines and one phone. Question: Richard Breeden's new desk had just four telephone lines and one phone True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.03080020658671856,
+            -3.548257350921631,
+            -7.8983659744262695
+        ]
+    },
+    {
+        "input_text:": "B: Yeah, and the ground will filter some of it but not all of it. A: No, not when you figure, I didn't realize one cow produces that much manure Question: one cow produces that much manure True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.1558220535516739,
+            -2.033578395843506,
+            -4.904158115386963
+        ]
+    },
+    {
+        "input_text:": "Paula could not help herself. It was just the way she was. Others might say they hated her and mean it. Question: others hated Paula True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.20464885234832764,
+            -1.7026093006134033,
+            -7.1413702964782715
+        ]
+    },
+    {
+        "input_text:": "I wanted to tell you. But the Bookman asked me to keep our meeting a secret.'' How did you know I 'd met him? Question: he had met the Bookman True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.12782496213912964,
+            -2.192544937133789,
+            -5.366296768188477
+        ]
+    },
+    {
+        "input_text:": "But don't dilly-dally for too long. Once it's published we are all going to look a little risible if we have made no adjustments to what is after all known as being predominantly my own design of gallery. Also I am a bit older than the rest of you but you can perhaps understand that I don't want to drop dead without a proper and public recantation. Question: he doesn't want to drop dead without a proper and public recantation True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.06813079118728638,
+            -2.7486579418182373,
+            -7.957324504852295
+        ]
+    },
+    {
+        "input_text:": "How do you know? she was going to ask, but his smile was answer enough. If DeVore said there was going to be a vacancy there would be a vacancy. Question: there was going to be a vacancy True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.018462466076016426,
+            -4.067268371582031,
+            -7.7803449630737305
+        ]
+    },
+    {
+        "input_text:": "Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened. Question: something had happened True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.047913338989019394,
+            -3.1619179248809814,
+            -6.139848709106445
+        ]
+    },
+    {
+        "input_text:": "But the damage was done as far as my faith was concerned, which is probably why I went mad. So anyway, that Christmas Eve night confirmed my worst fears, it was like a kind of royal flush'' for the infant Jimbo. All three kings - Pa Santa and the King of Kings - all down the pan together... And to be honest I don't believe any of them stands a chance of ever making a comeback with me. Question: any of the three kings stands a chance of ever making a comeback with him True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.6164652705192566,
+            -0.7909035086631775,
+            -6.023715972900391
+        ]
+    },
+    {
+        "input_text:": "B: And as far as like them, uh, entertaining the rights that they should have. A: Uh-huh. B: I mean, we educate them, we feed them, we take care of them and they no sooner get out on the street and they're back in again. A: Uh-huh. B: I'm not saying they're all bad, Question: they're all bad True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.6992734670639038,
+            -0.21213094890117645,
+            -5.704965591430664
+        ]
+    },
+    {
+        "input_text:": "B: Uh, I have, uh, I guess a lot of thoughts about the Vietnam War, um, I guess I feel like I was pretty young while it was going on and so there's probably a lot of things I remember and a lot of things that I really didn't have a clue as to what was happening. B: Yeah. A: Um, looking back, like maybe some of the things that I know now, I'm not sure I do believe it was worth the cost in dollars and lives. That was one of the questions that she asked us to think about, because we never went to war. I don't think we were committed to winning it and getting out Question: they were committed to winning the Vietnam War and getting out True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5822933912277222,
+            -0.23425884544849396,
+            -7.9884443283081055
+        ]
+    },
+    {
+        "input_text:": "B: I did, too. A: I mean, it was just more for my money. B: Yeah. I didn't think it was too long at all. Question: it was too long True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.6806391477584839,
+            -0.21861910820007324,
+            -5.409297466278076
+        ]
+    },
+    {
+        "input_text:": "B: Uh, uh, I've had one or two American cars I think, and they were okay. I had a Pontiac once and I never had a problem with it, but, uh, my mother had a Dodge at one point and I had driven it a few times and I really did not feel that I would buy a Dodge just from, A: Um. B: well, actually, I had uh, a Dodge Omni at one point A: Uh-huh. B: and that was, I think, what really prejudiced me against American cars because I did not feel that it was a very quality, uh, car. Question: the Dodge Omni was a very quality car True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.9663853645324707,
+            -0.054370854049921036,
+            -8.410614967346191
+        ]
+    },
+    {
+        "input_text:": "B: they did things for people, you know, for their communities, for their, uh, families, for their friends, where now, I'm not sure they really do. A: Yes. Yeah. Well, I think sometimes through groups and organizations, um, uh, when they asked the question I thought, well that sounds wonderful. And then, I wondered if people were unwilling but I think even if you went in with a negative attitude I don't think it would stay negative very long. Question: that attitude would stay negative very long True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5740252733230591,
+            -0.8354989290237427,
+            -7.648216724395752
+        ]
+    },
+    {
+        "input_text:": "A: Well, presumably those who find out such information, if they are doing it, I would prefer to not to be known, and, I mean, you know, the classic, oh, I don't know C I conspiracy theories or whatever, would have such parties trying to do it without your knowledge. So there's,, things that invade that second type of privacy where you do know about them and possibly things that invade that second type of privacy without you knowing about it, and I can't talk about the second one other than to generate paranoia. It's a surmise and, I'd like to think that it's quite low, at least in this country. B: to surmise. It is there. A: I don't think I'd like the KGB monitoring my phone or anything like that. Question: he would like the KGB monitoring his phone True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.1373367309570312,
+            -0.12914074957370758,
+            -7.105654239654541
+        ]
+    },
+    {
+        "input_text:": "He had seen something I should have, which was a car turning in from Soho Square and coming up behind me. My right foot hovered over the accelerator pedal and I balanced Armstrong on the clutch. I wasn't as convinced as Malpass that Nevil was out of harm's way. Question: Nevil was out of harm's way True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.20466837286949158,
+            -1.7002036571502686,
+            -7.152684211730957
+        ]
+    },
+    {
+        "input_text:": "He's weird enough to have undressed me without thinking, according to some mad notion of the proper'' thing to do. Perhaps he thought I couldn't lie in bed with my clothes on. Question: she couldn't lie in bed with her clothes on True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.28133973479270935,
+            -1.4173671007156372,
+            -7.300254821777344
+        ]
+    },
+    {
+        "input_text:": "B: That might be kind of tough, huh. A: It really would, yes, yes, and like I said, my sister's still in it, and I really don't think my mother'd want to be there, either. Question: his mother would want to be there True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.7379900217056274,
+            -0.6643869876861572,
+            -5.9751877784729
+        ]
+    },
+    {
+        "input_text:": "A: Yeah, that's crazy. B: and then you come here in the Dallas area, um, I don't believe that people should be allowed to carry guns in their vehicles. Question: people should be allowed to carry guns in their vehicles True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.1806424856185913,
+            -0.3778134286403656,
+            -5.558135986328125
+        ]
+    },
+    {
+        "input_text:": "A: and then once they do get elected, they don't have the power or the authority or the willingness to do those things that they promised, you know, beforehand. B: Right. A: You know, maybe it just wasn't possible at all in the first place, you know, like the no new taxes thing. You know, that's, uh, with the economy going the way it is and everything, that was nearly ridiculous thing to, even try to do. B: Yeah. Yeah. Well, I don't think he's going to have to worry about that next year. Question: he's going to have to worry about that next year True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.15087485313415527,
+            -1.9770174026489258,
+            -7.983816146850586
+        ]
+    },
+    {
+        "input_text:": "B: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah. Uh-huh. Uh-huh. B: I don't think it's going to be that easy to come up with Question: it is going to be that easy to come up with True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.41949859261512756,
+            -1.0844876766204834,
+            -7.1913323402404785
+        ]
+    },
+    {
+        "input_text:": "A: Uh, well, it would depend on when you go it's not excessively crowded on the weekends. B: See I'd want to be there in the mornings like from nine thirty to ten thirty. A: Oh, I don't think that would be bad at all. Question: that would be bad True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.6666860580444336,
+            -0.21823737025260925,
+            -5.722909927368164
+        ]
+    },
+    {
+        "input_text:": "A: That's fairly interesting. B: I bet that would be, rather interesting. Uh, that's, uh, self improvement, well, that's kind of a hobby but it is self improvement from the standpoint of probably relaxing, uh. A: Yeah, I don't know that I read anything strictly labeled self improvement. Question: she reads anything strictly labeled self improvement True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4700435996055603,
+            -0.9915667176246643,
+            -6.6849188804626465
+        ]
+    },
+    {
+        "input_text:": "B: Now see I. A: I'm intrigued by it, but I'm not sure I want to go see it yet. B: Yeah, I don't think I want to see that either. Question: she wants to see that True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.4860049486160278,
+            -0.2667802572250366,
+            -5.3310065269470215
+        ]
+    },
+    {
+        "input_text:": "Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs. Question: Celia was still a bit hazy from the drugs True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.05294132977724075,
+            -3.0139851570129395,
+            -7.352808475494385
+        ]
+    },
+    {
+        "input_text:": "A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate. Question: TV is pretty accurate True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.2422989159822464,
+            -1.5700963735580444,
+            -6.023406982421875
+        ]
+    },
+    {
+        "input_text:": "B: and both of those seem very easy to use compared to D Base. A: Uh-huh. Do you think D Base is more flexible or allows you to do more. Or do you think the others are pretty much compatible these days? Question: the others are pretty much compatible these days True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.699367880821228,
+            -0.7084120512008667,
+            -5.4470648765563965
+        ]
+    }
+]

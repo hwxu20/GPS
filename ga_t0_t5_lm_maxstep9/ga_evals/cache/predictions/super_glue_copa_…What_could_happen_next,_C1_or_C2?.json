@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "The school principal implemented a dress code. What is happening happening? \"Students protested the decision.\" or \"Students were expelled from school.\"?",
+        "target_text": "Students protested the decision.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.41586774587631226,
+            -3.644700765609741
+        ]
+    },
+    {
+        "input_text:": "The photographer got the child to smile. What is happening happening? \"The photographer quickly snapped the child's photo.\" or \"The photographer quickly changed the child's pose.\"?",
+        "target_text": "The photographer quickly snapped the child's photo.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.394269734621048,
+            -5.906033515930176
+        ]
+    },
+    {
+        "input_text:": "The swimmer won the race. What is happening happening? \"She received a gold medal.\" or \"Her team lost the meet.\"?",
+        "target_text": "She received a gold medal.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3680877387523651,
+            -4.428228378295898
+        ]
+    },
+    {
+        "input_text:": "The terrorist set off the bomb. What is happening happening? \"The bomb exploded.\" or \"The bomb was deactivated.\"?",
+        "target_text": "The bomb exploded.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.25192564725875854,
+            -3.921184539794922
+        ]
+    },
+    {
+        "input_text:": "The girl came across an unfamiliar word in her textbook. What is happening happening? \"She looked the term up in the dictionary.\" or \"She chucked the textbook across the room.\"?",
+        "target_text": "She looked the term up in the dictionary.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.15136347711086273,
+            -8.291559219360352
+        ]
+    },
+    {
+        "input_text:": "The archeologist dug up the site. What is happening happening? \"She excavated ancient artifacts.\" or \"She read about the site's history.\"?",
+        "target_text": "She excavated ancient artifacts.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.48767489194869995,
+            -6.931371212005615
+        ]
+    },
+    {
+        "input_text:": "The truck crashed into the motorcycle on the bridge. What is happening happening? \"The motorcyclist died.\" or \"The bridge collapsed.\"?",
+        "target_text": "The motorcyclist died.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2907508611679077,
+            -4.493961811065674
+        ]
+    },
+    {
+        "input_text:": "A man cut in front of me in the long line. What is happening happening? \"I confronted him.\" or \"I smiled at him.\"?",
+        "target_text": "I confronted him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.6318883895874023,
+            -5.847570896148682
+        ]
+    },
+    {
+        "input_text:": "The fortune teller's revelations were convincing. What is happening happening? \"She received many returning customers.\" or \"Many customers asked for refunds.\"?",
+        "target_text": "She received many returning customers.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.6371928453445435,
+            -5.465965270996094
+        ]
+    },
+    {
+        "input_text:": "I came upon a puddle on the sidewalk. What is happening happening? \"I leapt over the puddle.\" or \"I played in the puddle.\"?",
+        "target_text": "I leapt over the puddle.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.2350295782089233,
+            -1.5057640075683594
+        ]
+    },
+    {
+        "input_text:": "The offender violated parole. What is happening happening? \"She was sent back to jail.\" or \"She stole money from a church.\"?",
+        "target_text": "She was sent back to jail.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.0249786376953125,
+            -9.723873138427734
+        ]
+    },
+    {
+        "input_text:": "I received a package in the mail. What is happening happening? \"The package triggered my curiosity.\" or \"I took the package to the post office.\"?",
+        "target_text": "The package triggered my curiosity.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.4447040557861328,
+            -1.4361685514450073
+        ]
+    },
+    {
+        "input_text:": "The man begged for forgiveness. What is happening happening? \"The woman took pity on him.\" or \"The woman joked around with him.\"?",
+        "target_text": "The woman took pity on him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.33052635192871094,
+            -6.056164264678955
+        ]
+    },
+    {
+        "input_text:": "The vandals threw a rock at the window. What is happening happening? \"The window cracked.\" or \"The window fogged up.\"?",
+        "target_text": "The window cracked.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5190768241882324,
+            -3.9187631607055664
+        ]
+    },
+    {
+        "input_text:": "The man needed coins to fill the parking meter. What is happening happening? \"He searched under his car seats for loose change.\" or \"He begged people on the street for loose change.\"?",
+        "target_text": "He searched under his car seats for loose change.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7526844143867493,
+            -1.2416929006576538
+        ]
+    },
+    {
+        "input_text:": "The print on the brochure was tiny. What is happening happening? \"The man put his glasses on.\" or \"The man retrieved a pen from his pocket.\"?",
+        "target_text": "The man put his glasses on.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.517774224281311,
+            -1.627610445022583
+        ]
+    },
+    {
+        "input_text:": "The woman had an infection. What is happening happening? \"She took antibiotics.\" or \"She washed her hands.\"?",
+        "target_text": "She took antibiotics.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.15435746312141418,
+            -4.695547103881836
+        ]
+    },
+    {
+        "input_text:": "I put coins in the washing machine at the laundromat. What is happening happening? \"The machine powered on.\" or \"I ran out of laundry detergent.\"?",
+        "target_text": "The machine powered on.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.18396437168121338,
+            -5.057316780090332
+        ]
+    },
+    {
+        "input_text:": "The elderly woman suffered a stroke. What is happening happening? \"The woman's daughter came over to clean her house.\" or \"The woman's daughter moved in to take care of her.\"?",
+        "target_text": "The woman's daughter came over to clean her house.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.7529706954956055,
+            -0.5249724984169006
+        ]
+    },
+    {
+        "input_text:": "The flashlight was dead. What is happening happening? \"I took it apart.\" or \"I replaced the batteries.\"?",
+        "target_text": "I took it apart.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.413595199584961,
+            -0.6073945760726929
+        ]
+    },
+    {
+        "input_text:": "The teacher caught the student chewing gum. What is happening happening? \"The gum stuck to the student's shoe.\" or \"The student spit out the gum.\"?",
+        "target_text": "The gum stuck to the student's shoe.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.401059627532959,
+            -0.35003039240837097
+        ]
+    },
+    {
+        "input_text:": "The student's answer on the exam was incorrect. What is happening happening? \"The teacher added bonus points to the student's grade.\" or \"The teacher subtracted points off the student's grade.\"?",
+        "target_text": "The teacher added bonus points to the student's grade.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.8936333656311035,
+            -0.24316227436065674
+        ]
+    },
+    {
+        "input_text:": "The woman complimented the man. What is happening happening? \"He sneezed.\" or \"He blushed.\"?",
+        "target_text": "He sneezed.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -9.55283260345459,
+            -0.34113311767578125
+        ]
+    },
+    {
+        "input_text:": "The clock stopped ticking. What is happening happening? \"I took extra time to get ready.\" or \"The clock showed the wrong time.\"?",
+        "target_text": "I took extra time to get ready.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.794959545135498,
+            -0.2021324336528778
+        ]
+    },
+    {
+        "input_text:": "The water in the teapot started to boil. What is happening happening? \"The teapot cooled.\" or \"The teapot whistled.\"?",
+        "target_text": "The teapot cooled.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.117249011993408,
+            -2.0195794105529785
+        ]
+    },
+    {
+        "input_text:": "The child kicked the stack of blocks. What is happening happening? \"The stack towered over the boy's head.\" or \"The blocks scattered all over the rug.\"?",
+        "target_text": "The stack towered over the boy's head.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.283246994018555,
+            -0.1517653614282608
+        ]
+    },
+    {
+        "input_text:": "The climbers reached the peak of the mountain. What is happening happening? \"They encountered an avalanche.\" or \"They congratulated each other.\"?",
+        "target_text": "They encountered an avalanche.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.639846801757812,
+            -0.7777175307273865
+        ]
+    },
+    {
+        "input_text:": "The man looked at his watch. What is happening happening? \"He realized he forgot something.\" or \"He realized he was early.\"?",
+        "target_text": "He realized he forgot something.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5456793308258057,
+            -1.0755451917648315
+        ]
+    },
+    {
+        "input_text:": "The woman's ring slipped off in the shower. What is happening happening? \"The woman polished the ring.\" or \"The ring went down the drain.\"?",
+        "target_text": "The woman polished the ring.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.294451713562012,
+            -0.161663219332695
+        ]
+    },
+    {
+        "input_text:": "The man slid the razor across his chin. What is happening happening? \"His stubble grew.\" or \"His stubble disappeared.\"?",
+        "target_text": "His stubble grew.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5845743417739868,
+            -0.4994996190071106
+        ]
+    },
+    {
+        "input_text:": "The bully stuck his foot out in front of his classmate. What is happening happening? \"The bully picked up his classmate.\" or \"The bully's classmate tripped.\"?",
+        "target_text": "The bully picked up his classmate.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.330114364624023,
+            -0.4540095925331116
+        ]
+    },
+    {
+        "input_text:": "The woman sensed a pleasant smell. What is happening happening? \"She remembered to take her medication.\" or \"She was reminded of her childhood.\"?",
+        "target_text": "She remembered to take her medication.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.0103912353515625,
+            -1.0917115211486816
+        ]
+    },
+    {
+        "input_text:": "I tipped the bottle. What is happening happening? \"The liquid in the bottle froze.\" or \"The liquid in the bottle poured out.\"?",
+        "target_text": "The liquid in the bottle froze.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.538326263427734,
+            -0.8378404974937439
+        ]
+    }
+]

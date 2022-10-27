@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Take the following as truth: How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. Then the following statement: \"You can be hired by passing a psychological test.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.0311713218688965,
+            -8.273955345153809,
+            -4.211419105529785
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. Then the following statement: \"I was pregnant during at least one meeting\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.9930351972579956,
+            -8.665156364440918,
+            -5.243200302124023
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. Then the following statement: \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.1882405281066895,
+            -8.676800727844238,
+            -5.415584564208984
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. Then the following statement: \"Dookie is still alive.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.8510563373565674,
+            -8.438202857971191,
+            -3.788212537765503
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. Then the following statement: \"The robbers get away from Reba by running away. \" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.1279618740081787,
+            -6.778580188751221,
+            -3.938483476638794
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) Then the following statement: \"Crude futures experienced losses this week.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.28994426131248474,
+            -8.705638885498047,
+            -2.4058547019958496
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. Then the following statement: \"the church dedication was in 1824\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.3484076261520386,
+            -6.499098777770996,
+            -2.497589588165283
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. Then the following statement: \" Bruce Larson quit drag racing for quite sometime\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.7869287729263306,
+            -8.973472595214844,
+            -5.6303391456604
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). Then the following statement: \"Basic rules of soccer are decided upon by more than 1 member of IFAB\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.3450870513916016,
+            -7.300971031188965,
+            -3.2934131622314453
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). Then the following statement: \"The Sounds have, at present, had less than four dozen coaches.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.799420118331909,
+            -7.7767109870910645,
+            -2.8491547107696533
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. Then the following statement: \"Anna use her camera in her photography class\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.5950850248336792,
+            -7.919997215270996,
+            -2.842761754989624
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. Then the following statement: \"Tina enjoys being on the water.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.1492897272109985,
+            -6.681276798248291,
+            -1.6507484912872314
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. Then the following statement: \"She wnats to copy her hairstyle.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.916097640991211,
+            -7.159219264984131,
+            -2.499979019165039
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. Then the following statement: \"Alvin's wife is immoral.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.683311939239502,
+            -6.366025924682617,
+            -2.02500581741333
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. Then the following statement: \"The narrator and Milosevic met on GeoCities, and their wives know each other.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -4.081610679626465,
+            -7.707405090332031,
+            -1.4781156778335571
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. Then the following statement: \"fish food has a s\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.014815092086792,
+            -8.098712921142578,
+            -4.225763320922852
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. Then the following statement: \"Bankruptcy can always be avoided.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.4858357906341553,
+            -8.198841094970703,
+            -3.2629923820495605
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! Then the following statement: \"Scott did not get along with his boss\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.8287229537963867,
+            -6.712630748748779,
+            -1.6399238109588623
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. Then the following statement: \"Seth creates new levels in the game without any help from his brothers. \" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.538959264755249,
+            -6.442806243896484,
+            -1.5994956493377686
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. Then the following statement: \"Herding dogs is a bigger group than Border collies.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.954884648323059,
+            -6.722013473510742,
+            -1.6287966966629028
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. Then the following statement: \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.5192089080810547,
+            -7.7855143547058105,
+            -3.7188971042633057
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. Then the following statement: \"Red leaf lettuce must always be eaten with salad\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.284590005874634,
+            -7.073540210723877,
+            -1.7632379531860352
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. Then the following statement: \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.6882874965667725,
+            -6.118720531463623,
+            -0.9196616411209106
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. Then the following statement: \"Dan is in a wheelchair\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.2569100856781006,
+            -6.1380228996276855,
+            -0.49004268646240234
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. Then the following statement: \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.4859461784362793,
+            -7.039148807525635,
+            -0.7071588635444641
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? Then the following statement: \"40,00 people with lose their union\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -1.3308945894241333,
+            -7.7231950759887695,
+            -3.145545482635498
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. Then the following statement: \"The Marple TV show used the same stories as the Marple book series.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.9225940704345703,
+            -8.863669395446777,
+            -3.8277971744537354
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: \"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. Then the following statement: \"Dead Yakuza chose money over life.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.716876745223999,
+            -7.696016788482666,
+            -2.290797233581543
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. Then the following statement: \"The speaker would like it if the troops were withdrawn immediately.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.20886492729187,
+            -8.364203453063965,
+            -2.1982429027557373
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. Then the following statement: \"Benny was encouraged to continue\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.937877893447876,
+            -6.736745357513428,
+            -0.5058306455612183
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. Then the following statement: \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.595030784606934,
+            -8.002669334411621,
+            -1.2172770500183105
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. Then the following statement: \"The house will clean itself.\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -3.061683416366577,
+            -8.217596054077148,
+            -3.2004590034484863
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. Then the following statement: \"Joseph enjoyed the cake\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -4.493625640869141,
+            -7.336657524108887,
+            -1.0755038261413574
+        ]
+    }
+]

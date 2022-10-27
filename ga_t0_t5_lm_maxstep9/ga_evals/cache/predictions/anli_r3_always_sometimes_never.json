@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Suppose it's true that How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. Then, is \"You can be hired by passing a psychological test.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -7.671797752380371,
+            -7.03560733795166,
+            -10.153520584106445
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. Then, is \"I was pregnant during at least one meeting\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.416445732116699,
+            -6.191426753997803,
+            -8.913169860839844
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. Then, is \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.324727535247803,
+            -8.047527313232422,
+            -9.934039115905762
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. Then, is \"Dookie is still alive.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.986449241638184,
+            -7.831068992614746,
+            -7.971177101135254
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. Then, is \"The robbers get away from Reba by running away. \" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -8.01476764678955,
+            -7.635533809661865,
+            -8.940070152282715
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) Then, is \"Crude futures experienced losses this week.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.4301066398620605,
+            -8.290887832641602,
+            -8.435543060302734
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. Then, is \"the church dedication was in 1824\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.972383499145508,
+            -6.437834739685059,
+            -8.194653511047363
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. Then, is \" Bruce Larson quit drag racing for quite sometime\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -7.26141357421875,
+            -6.781531810760498,
+            -9.819926261901855
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). Then, is \"Basic rules of soccer are decided upon by more than 1 member of IFAB\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.16513204574585,
+            -7.771476745605469,
+            -9.109638214111328
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). Then, is \"The Sounds have, at present, had less than four dozen coaches.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -8.117804527282715,
+            -9.613092422485352,
+            -8.411642074584961
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. Then, is \"Anna use her camera in her photography class\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.076829433441162,
+            -7.380167484283447,
+            -8.499258995056152
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. Then, is \"Tina enjoys being on the water.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.856482028961182,
+            -7.649190902709961,
+            -8.8896484375
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. Then, is \"She wnats to copy her hairstyle.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.9421515464782715,
+            -7.604100704193115,
+            -8.599156379699707
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. Then, is \"Alvin's wife is immoral.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.145185947418213,
+            -7.207799434661865,
+            -7.536560535430908
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. Then, is \"The narrator and Milosevic met on GeoCities, and their wives know each other.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -9.069515228271484,
+            -10.143498420715332,
+            -8.660161972045898
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. Then, is \"fish food has a s\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.591678142547607,
+            -7.121245384216309,
+            -9.15930461883545
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. Then, is \"Bankruptcy can always be avoided.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.988203525543213,
+            -8.543929100036621,
+            -8.595067024230957
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! Then, is \"Scott did not get along with his boss\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -7.4976043701171875,
+            -7.714218616485596,
+            -7.096787452697754
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. Then, is \"Seth creates new levels in the game without any help from his brothers. \" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -8.114173889160156,
+            -9.063370704650879,
+            -7.8451714515686035
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. Then, is \"Herding dogs is a bigger group than Border collies.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.798346519470215,
+            -9.184538841247559,
+            -9.402650833129883
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. Then, is \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.382033824920654,
+            -8.99409008026123,
+            -8.984884262084961
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. Then, is \"Red leaf lettuce must always be eaten with salad\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.771994113922119,
+            -8.114614486694336,
+            -8.757192611694336
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. Then, is \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -7.186216831207275,
+            -7.91923189163208,
+            -7.6077141761779785
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. Then, is \"Dan is in a wheelchair\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.3683671951293945,
+            -8.292969703674316,
+            -6.043835639953613
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. Then, is \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -7.217245101928711,
+            -8.124167442321777,
+            -8.180049896240234
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? Then, is \"40,00 people with lose their union\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -5.957261562347412,
+            -7.636266708374023,
+            -7.064728260040283
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. Then, is \"The Marple TV show used the same stories as the Marple book series.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -8.816210746765137,
+            -8.784736633300781,
+            -10.137556076049805
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that \"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. Then, is \"Dead Yakuza chose money over life.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -7.086708068847656,
+            -8.77052116394043,
+            -7.5038957595825195
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. Then, is \"The speaker would like it if the troops were withdrawn immediately.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.768461227416992,
+            -8.518338203430176,
+            -7.585714340209961
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. Then, is \"Benny was encouraged to continue\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.466380596160889,
+            -7.151578426361084,
+            -6.104751110076904
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. Then, is \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -8.625221252441406,
+            -9.24516487121582,
+            -8.067734718322754
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. Then, is \"The house will clean itself.\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -7.843903064727783,
+            -8.464804649353027,
+            -8.315984725952148
+        ]
+    },
+    {
+        "input_text:": "Suppose it's true that Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. Then, is \"Joseph enjoyed the cake\" always, sometimes, or never true?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.491028308868408,
+            -7.378629207611084,
+            -6.720318794250488
+        ]
+    }
+]

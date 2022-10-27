@@ -1,0 +1,719 @@
+dataset: super_glue
+subset: wsc.fixed
+templates:
+  01871a8c-5a41-4765-8d88-3cd2308a2b93: !Template
+    answer_choices: No ||| Yes
+    id: 01871a8c-5a41-4765-8d88-3cd2308a2b93
+    jinja: "Passage: {{ text }} \n\nQuestion: Is {{ span1_text }} is referring to\
+      \ the non-referring pronoun \"{{ span2_text }}\" ?\n\nAnswer: ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  02a2e35d-a2a0-4e17-bd82-0abdbc5542ab: !Template
+    answer_choices: No ||| Yes
+    id: 02a2e35d-a2a0-4e17-bd82-0abdbc5542ab
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ refer to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  08f5706a-8adf-49fb-b792-1d705de7150b: !Template
+    answer_choices: No ||| Yes
+    id: 08f5706a-8adf-49fb-b792-1d705de7150b
+    jinja: "Passage: {{ text }} \n\nQuestion: Do pronoun \"{{ span2_text }}\" s refer\
+      \ to {{ span1_text }} s?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  0a21fe80-e117-4e3f-982c-050611993af9: !Template
+    answer_choices: No ||| Yes
+    id: 0a21fe80-e117-4e3f-982c-050611993af9
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ referring to the object of {{ span1_text }} \n\nAnswer: ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  0bfa0739-ea8b-44fc-b899-590ac8850901: !Template
+    answer_choices: No ||| Yes
+    id: 0bfa0739-ea8b-44fc-b899-590ac8850901
+    jinja: "Passage: {{ text }} \n\nQuestion: Is {{ span1_text }} referring to the\
+      \ pronoun \"{{ span2_text }}\" s?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  0cf021f6-dc27-41b1-ac62-a62e4aa9ba7e: !Template
+    answer_choices: No ||| Yes
+    id: 0cf021f6-dc27-41b1-ac62-a62e4aa9ba7e
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ in the above sentence refer to the person of {{ span1_text }} ?\n\nAnswer:\
+      \ ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  17efcdf6-9e69-4807-8cdb-735b7af9e4bb: !Template
+    answer_choices: No ||| Yes
+    id: 17efcdf6-9e69-4807-8cdb-735b7af9e4bb
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ referring to {{ span1_text }} of the concept?\n\nAnswer: ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  18875d2f-747b-4f12-a111-3e493f672a3f: !Template
+    answer_choices: No ||| Yes
+    id: 18875d2f-747b-4f12-a111-3e493f672a3f
+    jinja: "Passage: {{ text }} \n\nQuestion: Which pronoun \"{{ span2_text }}\" refers\
+      \ to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  1a4f326a-26ea-428c-9ebc-7b6519d780d9: !Template
+    answer_choices: No ||| Yes
+    id: 1a4f326a-26ea-428c-9ebc-7b6519d780d9
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ s referring to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  1af540c5-1c26-434c-9fbe-25f4686be5e0: !Template
+    answer_choices: No ||| Yes
+    id: 1af540c5-1c26-434c-9fbe-25f4686be5e0
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ refer to the subject of {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1\
+      \ %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  1b83b0c8-1d3b-4dd3-9157-6a3d67748fce: !Template
+    answer_choices: No ||| Yes
+    id: 1b83b0c8-1d3b-4dd3-9157-6a3d67748fce
+    jinja: "Passage: {{ text }} \n\nQuestion: What is the relation between the pronoun\
+      \ \"{{ span2_text }}\" and the person of {{ span1_text }} in the passage above?\n\
+      \nAnswer: ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  229690f0-d124-4255-ab17-0384fe679eae: !Template
+    answer_choices: No ||| Yes
+    id: 229690f0-d124-4255-ab17-0384fe679eae
+    jinja: "Passage: {{ text }} \n\nQuestion: is the pronoun \"{{ span2_text }}\"\
+      \ refering to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  2d6b7fa4-1342-42d0-a9de-99f16e27f396: !Template
+    answer_choices: No ||| Yes
+    id: 2d6b7fa4-1342-42d0-a9de-99f16e27f396
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ s refer to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  3563b9b2-8eee-4bc3-bbe8-d5725b09c8e5: !Template
+    answer_choices: No ||| Yes
+    id: 3563b9b2-8eee-4bc3-bbe8-d5725b09c8e5
+    jinja: "Passage: {{ text }} \n\nQuestion: In the passage above, does the pronoun\
+      \ \"{{ span2_text }}\" refer to the subject of {{ span1_text }} ?\n\nAnswer:\
+      \ ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  38f18255-1335-4425-a6fa-7a9764b1b472: !Template
+    answer_choices: No ||| Yes
+    id: 38f18255-1335-4425-a6fa-7a9764b1b472
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ referring to the meaning of {{ span1_text }} .\n\nAnswer: ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  3dd5122f-5007-41a5-8ef3-47a4ec033447: !Template
+    answer_choices: No ||| Yes
+    id: 3dd5122f-5007-41a5-8ef3-47a4ec033447
+    jinja: "Passage: {{ text }} \n\nQuestion: In the passage above, is the pronoun\
+      \ \"{{ span2_text }}\" refer to {{ span1_text }} ?\n\nAnswer: ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  44b38049-d063-4a42-a6bd-cf7f616e87d5: !Template
+    answer_choices: No ||| Yes
+    id: 44b38049-d063-4a42-a6bd-cf7f616e87d5
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ referring to {{ span1_text }} \n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  4e71b7ed-83c9-4c19-a815-3bc415a39a11: !Template
+    answer_choices: No ||| Yes
+    id: 4e71b7ed-83c9-4c19-a815-3bc415a39a11
+    jinja: "Passage: {{ text }} \n\nQuestion: Are the pronoun \"{{ span2_text }}\"\
+      \ s s, u, n, e and x referring to {{ span1_text }} ?\n\nAnswer: ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  702d7e13-b730-4d54-b229-d36e9bccda78: !Template
+    answer_choices: No ||| Yes
+    id: 702d7e13-b730-4d54-b229-d36e9bccda78
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ referring to the referents of {{ span1_text }} \n\nAnswer: ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  773e5169-5c95-47b9-ba26-42f76406b933: !Template
+    answer_choices: No ||| Yes
+    id: 773e5169-5c95-47b9-ba26-42f76406b933
+    jinja: "Passage: {{ text }} \n\nQuestion: Is {{ span1_text }} referring to the\
+      \ meaning of the pronoun \"{{ span2_text }}\" \n\nAnswer: ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  7a1f39d9-12d8-4839-b602-47bc1c3c7455: !Template
+    answer_choices: No ||| Yes
+    id: 7a1f39d9-12d8-4839-b602-47bc1c3c7455
+    jinja: "Passage: {{ text }} \n\nQuestion: Do the pronoun \"{{ span2_text }}\"\
+      \ refer to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  7ac32672-9a32-48e6-8843-6c4cb679a59e: !Template
+    answer_choices: No ||| Yes
+    id: 7ac32672-9a32-48e6-8843-6c4cb679a59e
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ refer to the person of {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1\
+      \ %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  80ce897d-a911-487e-8535-33f014315c56: !Template
+    answer_choices: No ||| Yes
+    id: 80ce897d-a911-487e-8535-33f014315c56
+    jinja: "Passage: {{ text }} \n\nQuestion: Are {{ span1_text }} , meaning and pronoun\
+      \ \"{{ span2_text }}\" equal\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  82d7891a-4440-4ae8-88c3-ab62d0850d9f: !Template
+    answer_choices: No ||| Yes
+    id: 82d7891a-4440-4ae8-88c3-ab62d0850d9f
+    jinja: "Passage: {{ text }} \n\nQuestion: What is {{ span1_text }} for the pronoun\
+      \ \"{{ span2_text }}\" ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  831c1fbd-748e-4ba9-b605-ac7ca3b1ec2b: !Template
+    answer_choices: No ||| Yes
+    id: 831c1fbd-748e-4ba9-b605-ac7ca3b1ec2b
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ referring to the interpretation of {{ span1_text }} \n\nAnswer: ||| {% if\
+      \ label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  84625f6d-1650-4901-9e43-06fb6dfb207c: !Template
+    answer_choices: No ||| Yes
+    id: 84625f6d-1650-4901-9e43-06fb6dfb207c
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ refer to the person of {{ span1_text }} ? \n\nAnswer: ||| {% if label != -1\
+      \ %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  86aaa7a7-8e50-48ce-9d8d-2442ae96dafa: !Template
+    answer_choices: No ||| Yes
+    id: 86aaa7a7-8e50-48ce-9d8d-2442ae96dafa
+    jinja: "Passage: {{ text }} \n\nQuestion: In the passage above, does the pronoun\
+      \ \"{{ span2_text }}\" refer to the person of {{ span1_text }} or another person?\n\
+      \nAnswer: ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  89c804ad-3000-4056-b420-3276098daa1b: !Template
+    answer_choices: No ||| Yes
+    id: 89c804ad-3000-4056-b420-3276098daa1b
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ refer to the object of {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1\
+      \ %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  8d9858f7-b144-418d-b5b7-061b4254da3a: !Template
+    answer_choices: No ||| Yes
+    id: 8d9858f7-b144-418d-b5b7-061b4254da3a
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the non-referring pronoun \"{{ span2_text\
+      \ }}\" referring to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{\
+      \ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  8f48d8ba-1a36-422d-95ca-ed30d1f15c0a: !Template
+    answer_choices: No ||| Yes
+    id: 8f48d8ba-1a36-422d-95ca-ed30d1f15c0a
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ refer to the person of {{ span1_text }} or to the the person of the introduction?\n\
+      \nAnswer: ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  972706c0-8355-4f93-9f27-184222f0eb9a: !Template
+    answer_choices: No ||| Yes
+    id: 972706c0-8355-4f93-9f27-184222f0eb9a
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ referring to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  9c71fc80-2d60-494c-8a7b-cbec774e824e: !Template
+    answer_choices: No ||| Yes
+    id: 9c71fc80-2d60-494c-8a7b-cbec774e824e
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the antecedent of the pronoun \"\
+      {{ span2_text }}\" referring to {{ span1_text }} ?\n\nAnswer: ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  abcc432d-2f15-4ebe-b789-401d12e2982a: !Template
+    answer_choices: No ||| Yes
+    id: abcc432d-2f15-4ebe-b789-401d12e2982a
+    jinja: "Passage: {{ text }} \n\nQuestion: Is {{ span1_text }} referring to the\
+      \ non-referring pronoun \"{{ span2_text }}\" ?\n\nAnswer: ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  ad3988aa-cf75-41c9-99b3-6c28060702cb: !Template
+    answer_choices: No ||| Yes
+    id: ad3988aa-cf75-41c9-99b3-6c28060702cb
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ refer to {{ span1_text }} ? Explain.\n\nAnswer: ||| {% if label != -1 %}{{\
+      \ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  ae2f6ead-a1d7-4065-87c8-0d9c5a3a28e5: !Template
+    answer_choices: No ||| Yes
+    id: ae2f6ead-a1d7-4065-87c8-0d9c5a3a28e5
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the noun referred by the pronoun\
+      \ \"{{ span2_text }}\" refer to the person of {{ span1_text }} ?\n\nAnswer:\
+      \ ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  af28f0b3-cbb8-4511-9d61-7baffd86020c: !Template
+    answer_choices: No ||| Yes
+    id: af28f0b3-cbb8-4511-9d61-7baffd86020c
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ refering to {{ span1_text }} ? Answer: Yes. A semicolon (\n\nAnswer: ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  badbf8dc-c3db-4d77-b8b9-46ce6941d61f: !Template
+    answer_choices: No ||| Yes
+    id: badbf8dc-c3db-4d77-b8b9-46ce6941d61f
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ referring to the person of {{ span1_text }} ? \n\nAnswer: ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  bb8c0b2e-acc9-4fbb-9495-db6d4fb75194: !Template
+    answer_choices: No ||| Yes
+    id: bb8c0b2e-acc9-4fbb-9495-db6d4fb75194
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ refer to the referece or to the person of {{ span1_text }} ?\n\nAnswer: |||\
+      \ {% if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  c3b04f80-e759-41c7-a241-00a5c913821f: !Template
+    answer_choices: No ||| Yes
+    id: c3b04f80-e759-41c7-a241-00a5c913821f
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ referring to the sense of {{ span1_text }} \n\nAnswer: ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  d20f9980-852f-49fd-bfb7-20d85ecc251f: !Template
+    answer_choices: No ||| Yes
+    id: d20f9980-852f-49fd-bfb7-20d85ecc251f
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ refer to the referent of {{ span1_text }} \n\nAnswer: ||| {% if label != -1\
+      \ %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  d2260e94-dbaf-4723-9628-8a1e407ff10c: !Template
+    answer_choices: No ||| Yes
+    id: d2260e94-dbaf-4723-9628-8a1e407ff10c
+    jinja: "Passage: {{ text }} \n\nQuestion: What is the pronoun \"{{ span2_text\
+      \ }}\" refer to the person of {{ span1_text }} ?\n\nAnswer: ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  d374cffe-3790-4865-adb6-c487315fd342: !Template
+    answer_choices: No ||| Yes
+    id: d374cffe-3790-4865-adb6-c487315fd342
+    jinja: "Passage: {{ text }} \n\nQuestion: is the non-referring pronoun \"{{ span2_text\
+      \ }}\" referring to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{\
+      \ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  d85e942f-3f1c-4d4e-be08-a72c6714a94d: !Template
+    answer_choices: No ||| Yes
+    id: d85e942f-3f1c-4d4e-be08-a72c6714a94d
+    jinja: "Passage: {{ text }} \n\nQuestion: In the passage above, does the pronoun\
+      \ \"{{ span2_text }}\" refer to the object of {{ span1_text }} ?\n\nAnswer:\
+      \ ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  dcfc0dfe-f0c8-4d02-9b4e-8f1b299510ae: !Template
+    answer_choices: No ||| Yes
+    id: dcfc0dfe-f0c8-4d02-9b4e-8f1b299510ae
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ refer to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  e577bf5f-93b2-44a8-be87-f0903092f600: !Template
+    answer_choices: No ||| Yes
+    id: e577bf5f-93b2-44a8-be87-f0903092f600
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the referring pronoun \"{{ span2_text\
+      \ }}\" referring to {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1 %}{{\
+      \ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  e602fe9a-e201-4ade-94a5-82d12937e188: !Template
+    answer_choices: No ||| Yes
+    id: e602fe9a-e201-4ade-94a5-82d12937e188
+    jinja: "Passage: {{ text }} \n\nQuestion: What type of {{ span1_text }} does the\
+      \ pronoun \"{{ span2_text }}\" have?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  e7063d5b-f7e3-4399-b23a-16d69a191fc7: !Template
+    answer_choices: No ||| Yes
+    id: e7063d5b-f7e3-4399-b23a-16d69a191fc7
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ refer to the subject of {{ span1_text }} ?\n\nAnswer: ||| {% if label != -1\
+      \ %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  e7e9f14b-839c-4f35-9aeb-af2a89a7aa8a: !Template
+    answer_choices: No ||| Yes
+    id: e7e9f14b-839c-4f35-9aeb-af2a89a7aa8a
+    jinja: "Passage: {{ text }} \n\nQuestion: Does the pronoun \"{{ span2_text }}\"\
+      \ refer to the person of {{ span1_text }} or does it refer to the definite article?\
+      \ Explain.\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label] }}{%\
+      \ endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  e9af3302-3249-4f50-b75b-f9cb9b01c907: !Template
+    answer_choices: No ||| Yes
+    id: e9af3302-3249-4f50-b75b-f9cb9b01c907
+    jinja: "Passage: {{ text }} \n\nQuestion: In the passage above, what is the relation\
+      \ between the pronoun \"{{ span2_text }}\" and the place of {{ span1_text }}\
+      \ ?\n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  f4d3e199-d04f-474d-a045-8d27e1c62979: !Template
+    answer_choices: No ||| Yes
+    id: f4d3e199-d04f-474d-a045-8d27e1c62979
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the non-referring pronoun \"{{ span2_text\
+      \ }}\" referring to {{ span1_text }} or to the antecedent?\n\nAnswer: ||| {%\
+      \ if label != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  f4f43c71-2210-42cc-be1b-591777909a65: !Template
+    answer_choices: No ||| Yes
+    id: f4f43c71-2210-42cc-be1b-591777909a65
+    jinja: "Passage: {{ text }} \n\nQuestion: Is {{ span1_text }} referring to the\
+      \ pronoun \"{{ span2_text }}\" \n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  f95fac54-7a09-405f-b99d-6f890a072ac0: !Template
+    answer_choices: No ||| Yes
+    id: f95fac54-7a09-405f-b99d-6f890a072ac0
+    jinja: "Passage: {{ text }} \n\nQuestion: In the passage above, what is {{ span1_text\
+      \ }} of the pronoun \"{{ span2_text }}\" ? Explain.\n\nAnswer: ||| {% if label\
+      \ != -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  fbd1067e-ef88-4c10-b88a-c8d71b063eea: !Template
+    answer_choices: No ||| Yes
+    id: fbd1067e-ef88-4c10-b88a-c8d71b063eea
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the meaning of {{ span1_text }} being\
+      \ called the pronoun \"{{ span2_text }}\" ?\n\nAnswer: ||| {% if label != -1\
+      \ %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  fe295138-146e-4bd7-be56-73ada1cb57ec: !Template
+    answer_choices: No ||| Yes
+    id: fe295138-146e-4bd7-be56-73ada1cb57ec
+    jinja: "Passage: {{ text }} \n\nQuestion: Is the pronoun \"{{ span2_text }}\"\
+      \ refer to {{ span1_text }} ? \n\nAnswer: ||| {% if label != -1 %}{{ answer_choices[label]\
+      \ }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020
+  fed94451-6e10-4113-8f0d-79fa3313a7db: !Template
+    answer_choices: No ||| Yes
+    id: fed94451-6e10-4113-8f0d-79fa3313a7db
+    jinja: "Passage: {{ text }} \n\nQuestion: is the pronoun \"{{ span2_text }}\"\
+      \ refering to the meaning of {{ span1_text }} \n\nAnswer: ||| {% if label !=\
+      \ -1 %}{{ answer_choices[label] }}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: false
+      metrics:
+      - Accuracy
+      original_task: true
+    name: GPT-3 Style
+    reference: Adapted from Figure G33, p. 59, Brown et al. 2020

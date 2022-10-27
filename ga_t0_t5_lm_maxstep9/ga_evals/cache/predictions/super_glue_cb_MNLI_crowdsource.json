@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy. You could also say he was driven there by the railway. Are there any changes in the above description that would indicate that \"Gustave was driven to creative retreat in Croisset by the railway\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -8.026248931884766,
+            -8.48281192779541,
+            -5.402252197265625
+        ]
+    },
+    {
+        "input_text:": "Jane ate without pausing. Hunger was an unknown experience. She had never imagined it could actually hurt. Are there any changes in the above description that would indicate that \"hunger could actually hurt\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.871798992156982,
+            -6.226382732391357,
+            -7.744203567504883
+        ]
+    },
+    {
+        "input_text:": "They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. Are there any changes in the above description that would indicate that \"Miss Lavant was in love with Dr Greenslade\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.735998630523682,
+            -6.024397373199463,
+            -5.4388861656188965
+        ]
+    },
+    {
+        "input_text:": "It was a complex language. Not written down but handed down. One might say it was peeled down. Are there any changes in the above description that would indicate that \"the language was peeled down\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.151147365570068,
+            -5.003910541534424,
+            -6.617408752441406
+        ]
+    },
+    {
+        "input_text:": "At length she decided that there was nothing to be gained by worrying her. Probably there was some quite innocent explanation, which Roger Kenyon would give her when she returned the wallet - if, indeed, it were his. And yet why had his manner changed so abruptly when he learned that the girl whose hat he had rescued was going to live at Sunset Cottage? Are there any changes in the above description that would indicate that \"the girl whose hat Roger Kenyon had rescued was going to live at Sunset Cottage\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.425191879272461,
+            -6.650218486785889,
+            -5.575051307678223
+        ]
+    },
+    {
+        "input_text:": "A: Oh, oh yeah, and every time you see one hit on the side of the road you say is that my cat. B: Uh-huh. A: And you go crazy thinking it might be yours. B: Right, well I didn't realize my husband was such a sucker for animals until I brought one home one night. Are there any changes in the above description that would indicate that \"her husband was such a sucker for animals\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.505712032318115,
+            -5.5948615074157715,
+            -7.635098934173584
+        ]
+    },
+    {
+        "input_text:": "The Susweca. It means dragonfly'' in Sioux, you know. Did I ever tell you that's where Paul and I met? Are there any changes in the above description that would indicate that \"Susweca is where she and Paul met\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.658870697021484,
+            -5.232279300689697,
+            -4.710430145263672
+        ]
+    },
+    {
+        "input_text:": "Richard Breeden hadn't noticed that his new desk had just four telephone lines and one phone. Are there any changes in the above description that would indicate that \"Richard Breeden's new desk had just four telephone lines and one phone\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.369622707366943,
+            -5.844388008117676,
+            -5.341484069824219
+        ]
+    },
+    {
+        "input_text:": "B: Yeah, and the ground will filter some of it but not all of it. A: No, not when you figure, I didn't realize one cow produces that much manure Are there any changes in the above description that would indicate that \"one cow produces that much manure\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -7.0640645027160645,
+            -5.139166831970215,
+            -8.743207931518555
+        ]
+    },
+    {
+        "input_text:": "Paula could not help herself. It was just the way she was. Others might say they hated her and mean it. Are there any changes in the above description that would indicate that \"others hated Paula\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.101937294006348,
+            -4.538857936859131,
+            -5.521520137786865
+        ]
+    },
+    {
+        "input_text:": "I wanted to tell you. But the Bookman asked me to keep our meeting a secret.'' How did you know I 'd met him? Are there any changes in the above description that would indicate that \"he had met the Bookman\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -5.4039716720581055,
+            -4.794453144073486,
+            -5.083569526672363
+        ]
+    },
+    {
+        "input_text:": "But don't dilly-dally for too long. Once it's published we are all going to look a little risible if we have made no adjustments to what is after all known as being predominantly my own design of gallery. Also I am a bit older than the rest of you but you can perhaps understand that I don't want to drop dead without a proper and public recantation. Are there any changes in the above description that would indicate that \"he doesn't want to drop dead without a proper and public recantation\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.7323408126831055,
+            -4.930901050567627,
+            -6.916738986968994
+        ]
+    },
+    {
+        "input_text:": "How do you know? she was going to ask, but his smile was answer enough. If DeVore said there was going to be a vacancy there would be a vacancy. Are there any changes in the above description that would indicate that \"there was going to be a vacancy\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -6.080265998840332,
+            -5.30107307434082,
+            -4.831790447235107
+        ]
+    },
+    {
+        "input_text:": "Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened. Are there any changes in the above description that would indicate that \"something had happened\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -5.30092191696167,
+            -4.817118167877197,
+            -5.817018508911133
+        ]
+    },
+    {
+        "input_text:": "But the damage was done as far as my faith was concerned, which is probably why I went mad. So anyway, that Christmas Eve night confirmed my worst fears, it was like a kind of royal flush'' for the infant Jimbo. All three kings - Pa Santa and the King of Kings - all down the pan together... And to be honest I don't believe any of them stands a chance of ever making a comeback with me. Are there any changes in the above description that would indicate that \"any of the three kings stands a chance of ever making a comeback with him\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.229538440704346,
+            -5.499434947967529,
+            -8.537236213684082
+        ]
+    },
+    {
+        "input_text:": "B: And as far as like them, uh, entertaining the rights that they should have. A: Uh-huh. B: I mean, we educate them, we feed them, we take care of them and they no sooner get out on the street and they're back in again. A: Uh-huh. B: I'm not saying they're all bad, Are there any changes in the above description that would indicate that \"they're all bad\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -9.442061424255371,
+            -5.722690582275391,
+            -7.410723686218262
+        ]
+    },
+    {
+        "input_text:": "B: Uh, I have, uh, I guess a lot of thoughts about the Vietnam War, um, I guess I feel like I was pretty young while it was going on and so there's probably a lot of things I remember and a lot of things that I really didn't have a clue as to what was happening. B: Yeah. A: Um, looking back, like maybe some of the things that I know now, I'm not sure I do believe it was worth the cost in dollars and lives. That was one of the questions that she asked us to think about, because we never went to war. I don't think we were committed to winning it and getting out Are there any changes in the above description that would indicate that \"they were committed to winning the Vietnam War and getting out\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.5627665519714355,
+            -4.352738857269287,
+            -7.250694274902344
+        ]
+    },
+    {
+        "input_text:": "B: I did, too. A: I mean, it was just more for my money. B: Yeah. I didn't think it was too long at all. Are there any changes in the above description that would indicate that \"it was too long\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.815080165863037,
+            -4.286531925201416,
+            -7.109908580780029
+        ]
+    },
+    {
+        "input_text:": "B: Uh, uh, I've had one or two American cars I think, and they were okay. I had a Pontiac once and I never had a problem with it, but, uh, my mother had a Dodge at one point and I had driven it a few times and I really did not feel that I would buy a Dodge just from, A: Um. B: well, actually, I had uh, a Dodge Omni at one point A: Uh-huh. B: and that was, I think, what really prejudiced me against American cars because I did not feel that it was a very quality, uh, car. Are there any changes in the above description that would indicate that \"the Dodge Omni was a very quality car\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.323297023773193,
+            -3.945838451385498,
+            -6.426401138305664
+        ]
+    },
+    {
+        "input_text:": "B: they did things for people, you know, for their communities, for their, uh, families, for their friends, where now, I'm not sure they really do. A: Yes. Yeah. Well, I think sometimes through groups and organizations, um, uh, when they asked the question I thought, well that sounds wonderful. And then, I wondered if people were unwilling but I think even if you went in with a negative attitude I don't think it would stay negative very long. Are there any changes in the above description that would indicate that \"that attitude would stay negative very long\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.812906265258789,
+            -6.056689262390137,
+            -8.405875205993652
+        ]
+    },
+    {
+        "input_text:": "A: Well, presumably those who find out such information, if they are doing it, I would prefer to not to be known, and, I mean, you know, the classic, oh, I don't know C I conspiracy theories or whatever, would have such parties trying to do it without your knowledge. So there's,, things that invade that second type of privacy where you do know about them and possibly things that invade that second type of privacy without you knowing about it, and I can't talk about the second one other than to generate paranoia. It's a surmise and, I'd like to think that it's quite low, at least in this country. B: to surmise. It is there. A: I don't think I'd like the KGB monitoring my phone or anything like that. Are there any changes in the above description that would indicate that \"he would like the KGB monitoring his phone\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.3282928466796875,
+            -5.7228922843933105,
+            -9.576970100402832
+        ]
+    },
+    {
+        "input_text:": "He had seen something I should have, which was a car turning in from Soho Square and coming up behind me. My right foot hovered over the accelerator pedal and I balanced Armstrong on the clutch. I wasn't as convinced as Malpass that Nevil was out of harm's way. Are there any changes in the above description that would indicate that \"Nevil was out of harm's way\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -4.936697959899902,
+            -5.098990440368652,
+            -5.625964164733887
+        ]
+    },
+    {
+        "input_text:": "He's weird enough to have undressed me without thinking, according to some mad notion of the proper'' thing to do. Perhaps he thought I couldn't lie in bed with my clothes on. Are there any changes in the above description that would indicate that \"she couldn't lie in bed with her clothes on\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -6.396284103393555,
+            -6.283127784729004,
+            -6.109379768371582
+        ]
+    },
+    {
+        "input_text:": "B: That might be kind of tough, huh. A: It really would, yes, yes, and like I said, my sister's still in it, and I really don't think my mother'd want to be there, either. Are there any changes in the above description that would indicate that \"his mother would want to be there\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.576047420501709,
+            -5.016469955444336,
+            -7.7235426902771
+        ]
+    },
+    {
+        "input_text:": "A: Yeah, that's crazy. B: and then you come here in the Dallas area, um, I don't believe that people should be allowed to carry guns in their vehicles. Are there any changes in the above description that would indicate that \"people should be allowed to carry guns in their vehicles\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.373544692993164,
+            -6.490493297576904,
+            -8.123224258422852
+        ]
+    },
+    {
+        "input_text:": "A: and then once they do get elected, they don't have the power or the authority or the willingness to do those things that they promised, you know, beforehand. B: Right. A: You know, maybe it just wasn't possible at all in the first place, you know, like the no new taxes thing. You know, that's, uh, with the economy going the way it is and everything, that was nearly ridiculous thing to, even try to do. B: Yeah. Yeah. Well, I don't think he's going to have to worry about that next year. Are there any changes in the above description that would indicate that \"he's going to have to worry about that next year\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.584827899932861,
+            -7.369471073150635,
+            -10.525918006896973
+        ]
+    },
+    {
+        "input_text:": "B: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah. Uh-huh. Uh-huh. B: I don't think it's going to be that easy to come up with Are there any changes in the above description that would indicate that \"it is going to be that easy to come up with\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -6.571241855621338,
+            -6.480900764465332,
+            -6.328296661376953
+        ]
+    },
+    {
+        "input_text:": "A: Uh, well, it would depend on when you go it's not excessively crowded on the weekends. B: See I'd want to be there in the mornings like from nine thirty to ten thirty. A: Oh, I don't think that would be bad at all. Are there any changes in the above description that would indicate that \"that would be bad\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.124265670776367,
+            -5.886364459991455,
+            -8.227384567260742
+        ]
+    },
+    {
+        "input_text:": "A: That's fairly interesting. B: I bet that would be, rather interesting. Uh, that's, uh, self improvement, well, that's kind of a hobby but it is self improvement from the standpoint of probably relaxing, uh. A: Yeah, I don't know that I read anything strictly labeled self improvement. Are there any changes in the above description that would indicate that \"she reads anything strictly labeled self improvement\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.865811824798584,
+            -5.825718402862549,
+            -7.437997817993164
+        ]
+    },
+    {
+        "input_text:": "B: Now see I. A: I'm intrigued by it, but I'm not sure I want to go see it yet. B: Yeah, I don't think I want to see that either. Are there any changes in the above description that would indicate that \"she wants to see that\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.192491054534912,
+            -5.065088748931885,
+            -6.099640846252441
+        ]
+    },
+    {
+        "input_text:": "Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs. Are there any changes in the above description that would indicate that \"Celia was still a bit hazy from the drugs\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -5.866367340087891,
+            -5.2501139640808105,
+            -6.790488243103027
+        ]
+    },
+    {
+        "input_text:": "A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate. Are there any changes in the above description that would indicate that \"TV is pretty accurate\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.008550643920898,
+            -6.736473560333252,
+            -5.362084865570068
+        ]
+    },
+    {
+        "input_text:": "B: and both of those seem very easy to use compared to D Base. A: Uh-huh. Do you think D Base is more flexible or allows you to do more. Or do you think the others are pretty much compatible these days? Are there any changes in the above description that would indicate that \"the others are pretty much compatible these days\" is definitely correct, incorrect, or inconclusive?",
+        "target_text": "Correct",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -10.453556060791016,
+            -7.644205093383789,
+            -6.553323268890381
+        ]
+    }
+]

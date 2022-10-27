@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "I put the cake away in the refrigerator. It has a lot of butter in it. Question: Who or what is \"it\"? Is it the refrigerator? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.021347522735596,
+            -5.535956859588623
+        ]
+    },
+    {
+        "input_text:": "Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: \"There's plenty.\" Question: Who or what is \"her\"? Is it Tatyana? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.3670501708984375,
+            -7.499953746795654
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. Question: Who or what are \"they\"? mothers? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -10.044124603271484,
+            -8.43704891204834
+        ]
+    },
+    {
+        "input_text:": "Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned. Question: Who or what is \"he\"? Is it Bob? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.061044692993164,
+            -5.685931205749512
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had bought from him didn't work. Question: Who or what is \"he\"? Is it Tom? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.731262683868408,
+            -6.078752040863037
+        ]
+    },
+    {
+        "input_text:": "This book introduced Shakespeare to Goethe ; it was a fine selection of his writing. Question: Who or what is \"his\"? Is it Goethe? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5211160182952881,
+            -2.098342180252075
+        ]
+    },
+    {
+        "input_text:": "The city councilmen refused the demonstrators a permit because they feared violence. Question: Who or what are \"they\"? the demonstrators? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -11.229986190795898,
+            -11.91894817352295
+        ]
+    },
+    {
+        "input_text:": "The fish ate the worm. It was hungry. Question: Who or what is \"it\"? Is it the worm? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.737663507461548,
+            -4.488533020019531
+        ]
+    },
+    {
+        "input_text:": "The firemen arrived after the police because they were coming from so far away. Question: Who or what are \"they\"? the police? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -10.012710571289062,
+            -12.32036018371582
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs dangled. Question: Who or what is \"his\"? Is it Ollie? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.6471431255340576,
+            -4.189651966094971
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. Question: Who or what are \"them\"? mothers? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -10.278135299682617,
+            -8.590154647827148
+        ]
+    },
+    {
+        "input_text:": "Susan knows all about Ann's personal problems because she is nosy. Question: Who or what is \"she\"? Is it Ann? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.79693865776062,
+            -5.9139790534973145
+        ]
+    },
+    {
+        "input_text:": "Mary tucked her daughter Anne into bed, so that she could sleep. Question: Who or what is \"she\"? Is it Mary? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.2862777709960938,
+            -4.199324607849121
+        ]
+    },
+    {
+        "input_text:": "Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years. Question: Who or what is \"he\"? Is it Cooper? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.5726085901260376,
+            -6.024773597717285
+        ]
+    },
+    {
+        "input_text:": "Emma did not pass the ball to Janie although she was open. Question: Who or what is \"she\"? Is it Emma? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.7872793674468994,
+            -5.3476481437683105
+        ]
+    },
+    {
+        "input_text:": "The cat was lying by the mouse hole waiting for the mouse, but it was too impatient. Question: Who or what is \"it\"? Is it the mouse? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.9766323566436768,
+            -5.705713272094727
+        ]
+    },
+    {
+        "input_text:": "Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical. Question: Who or what is \"he\"? Is it Mark? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.862016201019287,
+            -7.517833709716797
+        ]
+    },
+    {
+        "input_text:": "In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it removed. Question: Who or what is \"it\"? Is it the roof? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.046276569366455,
+            -7.082451820373535
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs ached. Question: Who or what is \"his\"? Is it Tommy? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.0530104637146,
+            -4.4839301109313965
+        ]
+    },
+    {
+        "input_text:": "The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone. Question: Who or what is \"it\"? Is it The sun? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.4601738452911377,
+            -3.806067705154419
+        ]
+    },
+    {
+        "input_text:": "Jane knocked on Susan's door but she did not answer. Question: Who or what is \"she\"? Is it Jane? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -4.775685787200928,
+            -7.217117786407471
+        ]
+    },
+    {
+        "input_text:": "Emma's mother had died long ago, and her place had been taken by an excellent woman as governess. Question: Who or what is \"her\"? Is it Emma's mother? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.9833042621612549,
+            -3.5394225120544434
+        ]
+    },
+    {
+        "input_text:": "Jackson was greatly influenced by Arnold, though he lived two centuries earlier. Question: Who or what is \"he\"? Is it Arnold? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.0956884622573853,
+            -3.978109121322632
+        ]
+    },
+    {
+        "input_text:": "Ann asked Mary what time the library closes, but she had forgotten. Question: Who or what is \"she\"? Is it Mary? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.079099655151367,
+            -2.537426233291626
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. Question: Who or what are \"they\"? politicians? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -11.704214096069336,
+            -9.819311141967773
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had sold him didn't work. Question: Who or what is \"he\"? Is it Tom? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.922921895980835,
+            -5.9797821044921875
+        ]
+    },
+    {
+        "input_text:": "The sculpture rolled off the shelf because it wasn't level. Question: Who or what is \"it\"? Is it the shelf? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -4.8982086181640625,
+            -5.763021469116211
+        ]
+    },
+    {
+        "input_text:": "The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time. Question: Who or what are \"they\"? the stars? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -9.138148307800293,
+            -6.362460613250732
+        ]
+    },
+    {
+        "input_text:": "Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it. Question: Who or what are \"they\"? Pam's parents? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -10.45662784576416,
+            -8.72155475616455
+        ]
+    },
+    {
+        "input_text:": "Mark was close to Mr. Singer's heels. He heard him calling for the captain, promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over. Question: Who or what is \"him\"? Is it Mr. Singer? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.600771427154541,
+            -3.2991528511047363
+        ]
+    },
+    {
+        "input_text:": "I took the water bottle out of the backpack so that it would be handy. Question: Who or what is \"it\"? Is it the water bottle? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.438549280166626,
+            -3.6138482093811035
+        ]
+    },
+    {
+        "input_text:": "John couldn't see the stage with Billy in front of him because he is so short. Question: Who or what is \"he\"? Is it John? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.585715651512146,
+            -2.649610757827759
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. Question: Who or what are \"them\"? settlers? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -12.016334533691406,
+            -10.885952949523926
+        ]
+    }
+]

@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Assume it is true that Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy. You could also say he was driven there by the railway. Therefore, \"Gustave was driven to creative retreat in Croisset by the railway\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -13.276753425598145,
+            -10.699517250061035,
+            -7.216830730438232
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Jane ate without pausing. Hunger was an unknown experience. She had never imagined it could actually hurt. Therefore, \"hunger could actually hurt\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -13.489143371582031,
+            -12.31978702545166,
+            -9.188884735107422
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. Therefore, \"Miss Lavant was in love with Dr Greenslade\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -12.231904029846191,
+            -12.826739311218262,
+            -7.395965099334717
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that It was a complex language. Not written down but handed down. One might say it was peeled down. Therefore, \"the language was peeled down\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -11.849652290344238,
+            -12.045257568359375,
+            -7.178452014923096
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that At length she decided that there was nothing to be gained by worrying her. Probably there was some quite innocent explanation, which Roger Kenyon would give her when she returned the wallet - if, indeed, it were his. And yet why had his manner changed so abruptly when he learned that the girl whose hat he had rescued was going to live at Sunset Cottage? Therefore, \"the girl whose hat Roger Kenyon had rescued was going to live at Sunset Cottage\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -11.481017112731934,
+            -13.788921356201172,
+            -7.704197883605957
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that A: Oh, oh yeah, and every time you see one hit on the side of the road you say is that my cat. B: Uh-huh. A: And you go crazy thinking it might be yours. B: Right, well I didn't realize my husband was such a sucker for animals until I brought one home one night. Therefore, \"her husband was such a sucker for animals\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -10.604470252990723,
+            -15.464763641357422,
+            -7.709127902984619
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that The Susweca. It means dragonfly'' in Sioux, you know. Did I ever tell you that's where Paul and I met? Therefore, \"Susweca is where she and Paul met\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -9.88805866241455,
+            -13.151651382446289,
+            -5.661248207092285
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Richard Breeden hadn't noticed that his new desk had just four telephone lines and one phone. Therefore, \"Richard Breeden's new desk had just four telephone lines and one phone\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -11.124561309814453,
+            -11.780694961547852,
+            -7.219278335571289
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that B: Yeah, and the ground will filter some of it but not all of it. A: No, not when you figure, I didn't realize one cow produces that much manure Therefore, \"one cow produces that much manure\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -12.30305004119873,
+            -12.58476448059082,
+            -9.327471733093262
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Paula could not help herself. It was just the way she was. Others might say they hated her and mean it. Therefore, \"others hated Paula\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -11.63585090637207,
+            -11.510272026062012,
+            -7.3803863525390625
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that I wanted to tell you. But the Bookman asked me to keep our meeting a secret.'' How did you know I 'd met him? Therefore, \"he had met the Bookman\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -10.553910255432129,
+            -12.747489929199219,
+            -7.447534561157227
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that But don't dilly-dally for too long. Once it's published we are all going to look a little risible if we have made no adjustments to what is after all known as being predominantly my own design of gallery. Also I am a bit older than the rest of you but you can perhaps understand that I don't want to drop dead without a proper and public recantation. Therefore, \"he doesn't want to drop dead without a proper and public recantation\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -11.196020126342773,
+            -13.43071174621582,
+            -8.259601593017578
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that How do you know? she was going to ask, but his smile was answer enough. If DeVore said there was going to be a vacancy there would be a vacancy. Therefore, \"there was going to be a vacancy\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -9.02699089050293,
+            -14.847977638244629,
+            -9.497796058654785
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened. Therefore, \"something had happened\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -11.214029312133789,
+            -13.349419593811035,
+            -7.087899684906006
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that But the damage was done as far as my faith was concerned, which is probably why I went mad. So anyway, that Christmas Eve night confirmed my worst fears, it was like a kind of royal flush'' for the infant Jimbo. All three kings - Pa Santa and the King of Kings - all down the pan together... And to be honest I don't believe any of them stands a chance of ever making a comeback with me. Therefore, \"any of the three kings stands a chance of ever making a comeback with him\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.476496696472168,
+            -11.742865562438965,
+            -10.199406623840332
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that B: And as far as like them, uh, entertaining the rights that they should have. A: Uh-huh. B: I mean, we educate them, we feed them, we take care of them and they no sooner get out on the street and they're back in again. A: Uh-huh. B: I'm not saying they're all bad, Therefore, \"they're all bad\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -11.55190658569336,
+            -13.001359939575195,
+            -8.296331405639648
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that B: Uh, I have, uh, I guess a lot of thoughts about the Vietnam War, um, I guess I feel like I was pretty young while it was going on and so there's probably a lot of things I remember and a lot of things that I really didn't have a clue as to what was happening. B: Yeah. A: Um, looking back, like maybe some of the things that I know now, I'm not sure I do believe it was worth the cost in dollars and lives. That was one of the questions that she asked us to think about, because we never went to war. I don't think we were committed to winning it and getting out Therefore, \"they were committed to winning the Vietnam War and getting out\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.436497688293457,
+            -11.804346084594727,
+            -7.832150459289551
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that B: I did, too. A: I mean, it was just more for my money. B: Yeah. I didn't think it was too long at all. Therefore, \"it was too long\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -10.770772933959961,
+            -11.836897850036621,
+            -6.322944164276123
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that B: Uh, uh, I've had one or two American cars I think, and they were okay. I had a Pontiac once and I never had a problem with it, but, uh, my mother had a Dodge at one point and I had driven it a few times and I really did not feel that I would buy a Dodge just from, A: Um. B: well, actually, I had uh, a Dodge Omni at one point A: Uh-huh. B: and that was, I think, what really prejudiced me against American cars because I did not feel that it was a very quality, uh, car. Therefore, \"the Dodge Omni was a very quality car\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.331489562988281,
+            -11.799484252929688,
+            -7.824434280395508
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that B: they did things for people, you know, for their communities, for their, uh, families, for their friends, where now, I'm not sure they really do. A: Yes. Yeah. Well, I think sometimes through groups and organizations, um, uh, when they asked the question I thought, well that sounds wonderful. And then, I wondered if people were unwilling but I think even if you went in with a negative attitude I don't think it would stay negative very long. Therefore, \"that attitude would stay negative very long\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.699064254760742,
+            -14.747272491455078,
+            -8.9110746383667
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that A: Well, presumably those who find out such information, if they are doing it, I would prefer to not to be known, and, I mean, you know, the classic, oh, I don't know C I conspiracy theories or whatever, would have such parties trying to do it without your knowledge. So there's,, things that invade that second type of privacy where you do know about them and possibly things that invade that second type of privacy without you knowing about it, and I can't talk about the second one other than to generate paranoia. It's a surmise and, I'd like to think that it's quite low, at least in this country. B: to surmise. It is there. A: I don't think I'd like the KGB monitoring my phone or anything like that. Therefore, \"he would like the KGB monitoring his phone\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.833064079284668,
+            -11.086307525634766,
+            -8.768314361572266
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that He had seen something I should have, which was a car turning in from Soho Square and coming up behind me. My right foot hovered over the accelerator pedal and I balanced Armstrong on the clutch. I wasn't as convinced as Malpass that Nevil was out of harm's way. Therefore, \"Nevil was out of harm's way\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.349617958068848,
+            -13.511642456054688,
+            -7.021071910858154
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that He's weird enough to have undressed me without thinking, according to some mad notion of the proper'' thing to do. Perhaps he thought I couldn't lie in bed with my clothes on. Therefore, \"she couldn't lie in bed with her clothes on\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -11.489337921142578,
+            -10.9113130569458,
+            -8.26539421081543
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that B: That might be kind of tough, huh. A: It really would, yes, yes, and like I said, my sister's still in it, and I really don't think my mother'd want to be there, either. Therefore, \"his mother would want to be there\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -13.057830810546875,
+            -12.10992431640625,
+            -8.370848655700684
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that A: Yeah, that's crazy. B: and then you come here in the Dallas area, um, I don't believe that people should be allowed to carry guns in their vehicles. Therefore, \"people should be allowed to carry guns in their vehicles\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -14.638537406921387,
+            -11.933402061462402,
+            -8.550775527954102
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that A: and then once they do get elected, they don't have the power or the authority or the willingness to do those things that they promised, you know, beforehand. B: Right. A: You know, maybe it just wasn't possible at all in the first place, you know, like the no new taxes thing. You know, that's, uh, with the economy going the way it is and everything, that was nearly ridiculous thing to, even try to do. B: Yeah. Yeah. Well, I don't think he's going to have to worry about that next year. Therefore, \"he's going to have to worry about that next year\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -11.691043853759766,
+            -13.417403221130371,
+            -8.872148513793945
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that B: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah. Uh-huh. Uh-huh. B: I don't think it's going to be that easy to come up with Therefore, \"it is going to be that easy to come up with\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.38046932220459,
+            -11.51938247680664,
+            -8.956724166870117
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that A: Uh, well, it would depend on when you go it's not excessively crowded on the weekends. B: See I'd want to be there in the mornings like from nine thirty to ten thirty. A: Oh, I don't think that would be bad at all. Therefore, \"that would be bad\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -11.492169380187988,
+            -11.95775032043457,
+            -8.899237632751465
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that A: That's fairly interesting. B: I bet that would be, rather interesting. Uh, that's, uh, self improvement, well, that's kind of a hobby but it is self improvement from the standpoint of probably relaxing, uh. A: Yeah, I don't know that I read anything strictly labeled self improvement. Therefore, \"she reads anything strictly labeled self improvement\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -13.19852352142334,
+            -13.671561241149902,
+            -7.702611923217773
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that B: Now see I. A: I'm intrigued by it, but I'm not sure I want to go see it yet. B: Yeah, I don't think I want to see that either. Therefore, \"she wants to see that\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -12.664448738098145,
+            -11.585176467895508,
+            -6.48783016204834
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs. Therefore, \"Celia was still a bit hazy from the drugs\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -13.068853378295898,
+            -13.360905647277832,
+            -8.009275436401367
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate. Therefore, \"TV is pretty accurate\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -10.977377891540527,
+            -13.662956237792969,
+            -7.132104396820068
+        ]
+    },
+    {
+        "input_text:": "Assume it is true that B: and both of those seem very easy to use compared to D Base. A: Uh-huh. Do you think D Base is more flexible or allows you to do more. Or do you think the others are pretty much compatible these days? Therefore, \"the others are pretty much compatible these days\" is guaranteed, possible, or impossible?",
+        "target_text": "Guaranteed",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -11.931051254272461,
+            -13.784585952758789,
+            -9.037514686584473
+        ]
+    }
+]

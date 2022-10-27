@@ -1,0 +1,1505 @@
+[
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "01fdaed3-42b0-4c7f-81fc-7af44717d096",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "02b86648-e9fa-4d36-8c44-e03c672344f3",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "02d013f2-57da-4176-99b1-432a88b613ed",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "03a81b87-1025-4f5b-9d5c-aaa91902e8ac",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "0729d709-f2dd-4d5c-8512-8684f2f82224",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "088a97d6-e778-48fc-a1f9-e7e12e33f7dd",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "093ed383-cd81-4611-bc0b-ad5ec455b9b7",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "09abb628-7029-45c6-8bc2-9f5b9d624b19",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "0ac07897-1bdd-4a68-a01b-12954abf9f57",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "0ac30e90-129e-417a-9cb2-352691d306c2",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "0b86f3e9-72f8-486d-8ef0-c2a2485e58c1",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "0bd4b5ab-cc56-447a-9c2c-874bb0e0fddf",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "0c58bb87-7973-4819-9a0a-9eaaccbe1de2",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "12335035-cdbc-4578-a0d1-6dd0dd8dd658",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "1503235f-89d2-48a0-b094-995233b6ab67",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "16839d29-ae4b-4bdf-8da4-fc19eb70986a",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "169ce892-6b16-4f72-b5e3-454bb7cdd272",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "176d4a96-83d2-46d7-9cee-73ecb7df8680",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "18e0e6a6-bb64-472d-9877-25bf1e1fbe7f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "193d907e-f1c7-451d-bf44-1daf32646493",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "19574a36-78b2-4b07-9bd2-b13e4fc2abcf",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "1aa2d8fb-3a2a-4a21-80b2-96752a5eaf1a",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "1c36796c-4f37-4268-a4d8-6d51a8b9a6d8",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "1c69b217-d5dd-4098-833a-882fe4c6bae5",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "1e8135f2-5c20-447b-9a86-dde7515f0c6d",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "1edd2c52-94bb-42b3-aced-53608b03a20d",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "1ef8707a-c930-4f4b-83fe-85f59c300e33",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "2135ce22-4e25-43b7-8871-2384ab6c55ea",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "214cd23d-64f4-481a-9cf7-6b784c829a39",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "21c33d9c-836d-42ce-8e27-d29513b84c0e",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "22b319cd-9baf-434b-a7ec-de458a84ebbb",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "25c8e6f1-29f5-48a2-a8ff-2353c0a8b6e9",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "26aae1a7-fd06-49a6-bdd4-87796f3f32b0",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "2a473515-0be2-465e-8a28-bbfd14a202b5",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "2be9e723-aab4-4d3e-a2fc-522584a474d1",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "2cf83b65-914c-433d-93a1-e9271d18ed0c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "2d64556c-7a47-4ebe-92bc-5816b5b47306",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "31817d71-5421-4ec0-90f5-fa4337fa1202",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "35765fd7-fb9a-4bee-8ef4-08d34002ee04",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.48484848484848486
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "36720918-9030-478e-a7e2-0988dae6fcde",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "36c52eb5-344b-408f-bf3d-042ec229cc29",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "3a4ac0b6-7d7b-4bec-8ea3-2b5e7fb4d5cd",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "3abed89a-b82c-4ce7-8749-274241930c0d",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "3aff1d36-ab35-47a4-bd49-1241fb1c4305",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "3e058571-b9dc-425d-b771-f3730635f783",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "3e25805a-c688-4761-b256-d94578363a37",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.45454545454545453
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "40e382aa-5a19-489b-aec9-0bd21a3271c1",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "4111ecde-cba5-4a78-aa8d-2a3a7a333a2c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "4165947d-8ca2-49b8-82b1-8ba27b609d6d",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "433dcc56-e26e-4cb7-be0b-10545f69cc66",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "435653d2-7231-455b-86e6-39501de2957f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "473c6b0e-9c72-499d-ab97-a41ee5d73fea",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "48d05b2f-4ac2-4562-bcd7-085dcf2e751e",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "48de135e-34f5-472e-9aa0-4579f6abc351",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "4a42b368-ee73-4ed6-8e08-403351760921",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "4ae3d49f-d8dd-488a-8335-7665f57e042c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "4d5b0ca7-7746-477c-b093-c959aa60f540",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "51e09298-ecd9-4f67-8860-0f9d0931b347",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "529e9f32-2aeb-4473-b8ad-144d0c888534",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "52f03b3e-615f-4d71-a784-a00769cc7e0c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "5311c84e-1636-4211-a1b7-4b42595aeb22",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "5593584d-d9db-47f1-807e-ca26baf97964",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "55c0d694-536b-4d5e-8157-b3d4e4c61d3f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "570fe176-da5e-4a95-a7a4-386cc762eebd",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "57396bbe-9aaf-489c-a91e-5692b62fefb3",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "57f1a23b-c9d8-4b9d-828c-c988f99dc015",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "59ec33c0-e9cb-442c-9731-5007a2f1e3d5",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "5a8455f8-816b-4e0f-8d2a-a00ead0d74bb",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "5ea0439b-8ad3-4c63-a754-0a8770706692",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "5f311115-8bd6-4055-bc98-5224c0bfeae1",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "619ed285-d6f5-4db2-897e-dd875175a63e",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "62bba441-79e3-4369-bff4-8e702cfd8abf",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.42424242424242425
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "6366ccd9-b412-449b-953e-d45caf2f9c20",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "63d00f34-c881-4619-9e09-6e88fc68757d",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "656c9443-521c-47d6-8386-aaca8e2a2297",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "667b2f4c-68ba-4c8f-a1a1-4b369a096c60",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "6a86363b-9384-401b-aa87-cc7391978169",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "6b59457d-5b26-4136-97c7-81f14ae81a7f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "6ce2686f-37c2-49c0-94f3-3e09d67ba6aa",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7111ad2d-647f-49ab-b349-255e385eeb37",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "73420c73-b2f9-4849-ac2e-2d28425400f7",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7371048a-4ec1-40ce-a838-d580ac332201",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7405f59a-c2a2-4f4b-90a8-817f1a6e44ba",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "745a04a4-b72f-4103-af37-2cbeb6d270eb",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7572f177-2059-4fa1-a3b7-8baf1109df3c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7670c2fb-6e1b-44ca-bb55-8f6ca6fe6391",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "78275df9-3a10-4af7-9515-d51cf4fbf85e",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7b5f038c-2b59-49c5-a508-c99ccb1afbe0",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7c3a9db7-74c2-4580-b778-f609d48f4f8e",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7d7ba64c-6c31-491a-a34a-996ed0555bf4",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7d831d5b-d7f8-4e67-b11c-b1b75efa4228",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7dc87e4d-dbae-454f-a622-099775f0f4b3",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7e4a968d-8808-40b9-835b-cd345ac6a4e5",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "7fe39dd4-43e4-4939-bb3c-73c72dc3dcd1",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "811fd27a-cb7a-4cbb-90ca-f797cfadb9c1",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "81923099-5946-4fe7-9dd1-d1c9035b5637",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6666666666666666
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "82130ec8-955f-422d-8108-81b19bfca7f6",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.2727272727272727
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "852f9a1a-93e3-4efe-b087-80f6f7c9f33f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "87248067-9c26-43a2-9676-f97a5ad5f5b3",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "892d3208-6a1a-4a28-919e-2bb9f720dba0",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6060606060606061
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "8ba8f8f2-293f-4653-abdc-2443b401acf8",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "8d9b5cb5-62b9-4c3f-866a-3a117bb3f259",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "8e0ebac9-51b2-45cf-a562-799ebc3a890a",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "8f8fb4a9-4190-4d86-a69e-84052d1443ca",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "910330b6-4bf6-4908-8096-a53231b7cdc4",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "92059de3-7a03-424e-8e54-f7b4fa60d913",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "953e42dd-1a6f-4012-a580-cbe330ae2e91",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "9555ae31-6dba-4afe-95b6-fcc7223b8f81",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "95e980e3-177c-4c31-bc0c-4cd684a26a3e",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "98036d9b-3170-4f2f-b482-d29060a6d1d7",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "99e50628-ca0c-4163-bd0c-a01f576f837c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "9a86c378-56ca-4410-8dd3-3fe916f5c322",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "9a8ee2e2-9b89-4e1e-8dec-5d570185c828",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "9abecaaf-d284-4f1d-907f-669b1eea48a5",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "9b71ed73-2b65-41e9-ad55-3499f49ea495",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "9c19577d-080c-44b6-a479-b9e081546381",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "9d142096-b920-4cd0-b338-e1481277dd5f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "9e86e245-ad0a-4ce7-81a3-60613a3fe59c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "9e9f353c-9544-473c-aa48-5f07753bc64f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "a0e63fa6-69ff-4fdf-b00a-110c8a1871d9",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "a1271f1c-29b5-4f11-9b48-26745e58e49a",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "a53d21c4-d735-4ac0-9cb0-2c37daadedad",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "a5cadbea-f1f3-4963-9897-eb9584da412f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "a5e3b572-a81f-4f85-8f29-eacaaef5bfe4",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "aadfe2af-78b1-4314-86db-af148a6fb5db",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "aaebb5ff-7892-445a-95c8-5706f28af6ba",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "acdbd3e6-c859-41cc-b13c-79a18d9d2ee4",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "b1057b40-5e27-4af4-b00e-6c3e0382edc2",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "b27339c9-7716-4a3e-ba59-d015bfb7044f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "b297afc2-8520-4285-807f-9c2e81ba0289",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "b2a16c14-9a30-46ba-b190-edb73959f385",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "c3db5d0a-a0a9-4328-929d-5870e8f31c81",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "c4aebb32-d2bf-4fb4-8790-ae17a7d6f3ae",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "c69bbd75-c80d-47b1-9c0a-7b5a448a45da",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "cccdfc06-e497-4656-910e-6330e9dbf714",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.696969696969697
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "cd8e782f-d5ad-4f45-b9d8-38cf82da6e24",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "cff3fe8d-f06c-402f-b763-7b05e7d8f550",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d00f2574-8560-4147-a6ad-d773e4e1c4f9",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d201ce46-9ff2-4b0e-8db8-793e0afc8a56",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d2aa0359-1e1e-464b-8e4d-edf24a74211f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d34ce2f7-4efe-42f1-8562-582b70e1ea5f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d3985eab-e825-4ec6-948e-0d73202d141c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d491ccd4-b0df-41b6-b9c0-2328853239e1",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d69cc7d2-6340-44e3-859b-dbdfbe6ea527",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d7ecf298-c2ab-4880-b9e1-2c03d12be412",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d8260641-c4ab-4498-acf5-7a0dbab8909d",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d97fcffe-6938-4e87-9a44-fe0ee59f1e6c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d99c618c-0bed-4374-aa54-4616ab6a1eec",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "d99da76f-ee14-409f-bdd2-b6b1109020dc",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "da2d82f6-9e57-474a-ab49-3a790c1711ca",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "dcd70905-8e1f-4cd5-b53b-450aaa7bd6e0",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "de10ea0c-6129-42ab-a576-e6e76b98b57c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "e20c2e11-90ec-40ae-9a9e-1883db2a35e4",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.6363636363636364
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "e4bfeea1-cc04-457d-a756-2cb23e9aefc9",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "e8986af0-b4d1-4983-9c98-68055ff338b8",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "ede4443a-f1ab-4656-a17f-5f72b0e6865f",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "f1509e8e-f445-46f3-8cb4-8b1351876c7b",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "f1e7e9e4-1cc1-447f-aca4-8d26c74f44f5",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7272727272727273
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "f340bd99-0077-4f59-9501-6a2badd2eeed",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "f41d352a-6b48-41e6-9715-fd47e399d0fe",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "f526f6d9-f703-43e6-a73a-4063d8abd88b",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8181818181818182
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "f7a7c423-bb64-4f88-8fd8-fec264944a0c",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7575757575757576
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "f9d2b36f-d317-45d5-ba25-0a40b69e38f9",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "fc195b61-cffa-4ec0-a5c6-669259805866",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.7878787878787878
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "fe5dfdf5-6878-4557-b1b6-f544b436eb26",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.9090909090909091
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "feaed3dd-ee6e-4874-897b-ff4b074fe576",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8787878787878788
+        }
+    },
+    {
+        "dataset_name": "super_glue",
+        "dataset_config_name": "cb",
+        "template_id": "ff4b16af-d6c1-4fe4-8668-a41c2a88e4b5",
+        "template_name": "justified in saying",
+        "evaluation": {
+            "accuracy": 0.8484848484848485
+        }
+    }
+]

@@ -1,0 +1,410 @@
+[
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to meet gay and bisexual men [title] Know the lgbt community in your state. [step] In the last few decades, studies have been dedicated to create maps of demographics of sexual orientation. The studies show that the west coast and the states of new england have the highest percentage of lgbt people.... then how can we know when the story will end? Ending 1: Bns are national organizations that advocate for gay and bisexuals in lgbt communities across the nation. [substeps] The national institutes of social justice (mbsi) has also shown that gay and bisexuals have the highest percentage of bns. Ending 2: So while this geographical map is interesting for many and may provide a wealth of information that will help you have knowledge about \" gay and bisexuals, \" it's not good for anyone to assume their identity. Search for \" homophobia \" and/or \" gay and bisexuals association \" in any online database, like :. Ending 3: States in the midwest have a very low percentage. If you are looking to surround yourself with gay and bisexual men, it will be easier to do if you live in a state with a more expansive lgbt community. Ending 4: The chances of finding a gay and bisexual man are even higher. [title] Take a friend or family member to the meeting.",
+        "target_text": "Ending 1",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -12.544771194458008,
+            -13.866739273071289,
+            -13.135704040527344,
+            -11.600969314575195
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: A man is belly surfing as a wave arrives. He stands up on his surfboard and rides the waves. a woman reporter... then how can we know when the story will end? Ending 1: talks to a man next to the board. Ending 2: is interviewing him on the beach. Ending 3: talks to a man about the surfer. Ending 4: is interviewing the surf boarder as the waves got bigger.",
+        "target_text": "Ending 1",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -4.500114917755127,
+            -2.771789073944092,
+            -3.158885955810547,
+            -1.7367773056030273
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: Woman is holding a cat on her legs and is cutting his nails with a nail clipper. the cat... then how can we know when the story will end? Ending 1: is now laying on the table and woman is putting clips on it's nails and making him laugh. Ending 2: is a baby and the baby is watching his grandma slicing its nails with it's paw. Ending 3: is faling sleep while the woman is cutting his nails. Ending 4: is licking its paw and looking with passion on the woman.",
+        "target_text": "Ending 1",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -5.501299858093262,
+            -5.636061668395996,
+            -4.549651145935059,
+            -3.4429819583892822
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: A man riding a horse and swinging a rope around is seen chasing after a calf and eventually grabbing the animal with his rope. He holds the calf down and another man comes out to help the man tie up the calf. he... then how can we know when the story will end? Ending 1: releases the rope that fell out and the calf rushes to get out of the hay. Ending 2: ropes the calf up once more and throws it over his shoulder next to him. Ending 3: then grabs his rope and rides out of the arena on his horse. Ending 4: picks up another calf and begins swinging him around on his rope while the man is once again standing next to the man.",
+        "target_text": "Ending 1",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -3.9849205017089844,
+            -2.8107004165649414,
+            -3.4669957160949707,
+            -3.7173285484313965
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to stop your parents from nagging about schoolwork [title] Let them know that nagging you isn't helping. [step] But, put this as respectfully as possible. Don't say it in a rude or irritated way.... then how can we know when the story will end? Ending 1: Just say, \" you don't need to nag me. We need to talk about it, \" and move on. Ending 2: Say, \" i'm sorry, but my work is taking up a lot of my time. Do you mind if i do my homework too? \" if they insist, wait and let them know gently. Ending 3: [substeps] You might say something like, \" i really think that if you asked me a bit more nicely about my schoolwork, i would be able to talk to you about it more. \" [title] Agree to work harder on your schoolwork. Ending 4: Always direct the conversation with questions to show them you're not throwing a fit or complaining. [substeps] You might say, \" grandma, i know that you sometimes find me very stressed out.",
+        "target_text": "Ending 1",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -6.0343451499938965,
+            -5.812462329864502,
+            -4.966674327850342,
+            -3.557575225830078
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to make cake mix [title] Sift dry ingredients. [step] Place the all purpose flour, baking powder, and salt into a sifter or a strainer. Sift into a bowl, eliminating any clumps.... then how can we know when the story will end? Ending 1: [title] Sift the egg white, milk, and sugar into a separate bowl. [step] Crack open the egg white into another container and stir until it dissolves completely. Ending 2: [substeps] The flour and salt may both appear crumbly, so a strainer is absolutely necessary for this recipe. Alternatively, use a cheese strainer to collect the dry ingredients. Ending 3: [substeps] Sifting helps lighten the flour from where it's been packed down. It also helps to mix the dry ingredients together well. Ending 4: [substeps] Use a wire mixing container with a small enough opening to contain the batter. Your bowl should be shallow enough to comfortably transport the cake mix, but wide enough to accommodate the size of your cake mix cups.",
+        "target_text": "Ending 1",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -9.366864204406738,
+            -9.367886543273926,
+            -9.61308765411377,
+            -8.086840629577637
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to make a garland with scrap fabrics [title] Sort through your fabric stash. [substeps] Coordinate the scraps by their color. Determine how much yardage you have.... then how can we know when the story will end? Ending 1: Together they will make up a lot of your garland. Do you have enough scrap fabric in your home to accommodate polyworcestershire yarn (and make sure to adjust the yardage of these scraps you have)? Use green yarn for a bold color theme. Ending 2: Start from small and work your way up to larger pieces. As your garland size increases, you'll gradually increase the yardage. Ending 3: You will be able to make approximately 30 inches (76 cm) of garland per yard (91 cm) of fabric you have on hand. Choose 2 to 4 coordinating fabrics to use for your garland. Ending 4: If you have a lot of scraps, sort into different colors. If you have too many scraps, you'll have to sort through all of your scraps to determine what things to keep.",
+        "target_text": "Ending 1",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -7.839285850524902,
+            -8.988367080688477,
+            -7.961800575256348,
+            -5.663998603820801
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: There's are some young athletes standing in an open field talking about hurling as some players play the game. there... then how can we know when the story will end? Ending 1: are a lot of people gathered on the field and the coach is running around directing the game. Ending 2:'s some young men dressed in white shirts standing with a red flag and a blue one sitting in front of them. Ending 3: are two teams participating in hurling. Ending 4: are several spectators watching the children from the sides.",
+        "target_text": "Ending 1",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -3.7063965797424316,
+            -3.497140884399414,
+            -2.629398822784424,
+            -1.29392409324646
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to be a corporate lawyer [title] Understand what a corporate lawyer does. [step] Corporate lawyers serve only one client-the corporation they work for. As a corporate lawyer, you will be called upon to handle a variety of legal tasks including corporate taxes, mergers and acquisitions, corporate structure issues, employment law, and government reporting.... then how can we know when the story will end? Ending 1: [substeps] The corporate lawyer will spend an average salary of at least $12, 500 a year on legal work. The average hourly salary for corporate lawyers is $80, 000 per month. Ending 2: These tasks are complex and difficult, so you will need some practice. [substeps] Going into this field by yourself may be stressful, but it is necessary if you want to land a corporate position. Ending 3: Corporate lawyers will generally need to be knowledgeable in a wide range of legal fields and will need to be able to handle a large number of issues. Some corporations will hire multiple lawyers and each will be a specialist in one or two areas of corporate law. Ending 4: These tasks are often complicated to handle individually, but are often highly recommended. To become a corporate lawyer, you must need to learn.",
+        "target_text": "Ending 1",
+        "label:": 2,
+        "prediction:": 3,
+        "logits": [
+            -8.269495964050293,
+            -8.920771598815918,
+            -8.475885391235352,
+            -5.859773635864258
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to outshine someone extremely popular [title] Notice what the other person is doing that gets so much attention. [step] If it's something positive, like good grades or a good sense of fashion, you will want to go for the same thing. But if they're popular because they smoke or sleep around, think twice.... then how can we know when the story will end? Ending 1: Do you really want to put your safety at risk for the sake of a little attention? [title] Think about yourself and the popular individual. [step] What do they do that you could do yourself? [title] Think about you, and what's important to you. Ending 2: Always be aware of what the other person is doing that won't get the attention. [title] Find something you and your friend would compare with each other. Ending 3: [title] Ask the two of them to go see their favorite movie. [step] If you're not sure you want to watch the movie, ask if it's okay if you do. Ending 4: You don't want to start a rumor about that person's newfound popularity! [title] Have them do what you want them to do. [step] Don't bother trying to do something because you find it annoying, of course, but try and work with them if you see what it is.",
+        "target_text": "Ending 1",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -8.328592300415039,
+            -9.19067096710205,
+            -9.182031631469727,
+            -7.222776412963867
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: A man starts talking and a young boy in pommel horse doing some endless circling move. He continues on doing it while the man is watching him and showing him what to do. the man... then how can we know when the story will end? Ending 1: continues on talking about pommel horse while the boy continue on doing his routine. Ending 2: does a few hand stands and is in the audience watching him. Ending 3: is in very animated but just how to do the process is pretty difficult. Ending 4: is still unsuccessful in brushing the horse.",
+        "target_text": "Ending 1",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.19407320022583,
+            -5.715157508850098,
+            -6.097390651702881,
+            -6.661789894104004
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to clean a sticky keyboard [title] Turn your computer off. [step] Before you begin cleaning a sticky keyboard you will need to shut down your computer. Once your computer is shut down, make sure its power sources are disconnected.... then how can we know when the story will end? Ending 1: For example, if your desktop is plugged into an outlet, you will need to unplug it. [title] Unplug the keyboard from the computer. Ending 2: Turn off your computer and unplug your device. This will save energy and reduce the number of germs that can then get on your device during the cleaning process. Ending 3: Be sure that the sound meter on your computer is turned off before proceeding to any important tasks. [substeps] Doing so will prevent the key from accidentally buzzing and could put a damper on the cleaning process. Ending 4: Turning your computer back on will allow you to perform the cleaning. [substeps] Without power off your computer, it will take much longer to clean a sticky keyboard than if you left your computer on with the circuit breaker on.",
+        "target_text": "Ending 1",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -8.730792999267578,
+            -9.282758712768555,
+            -9.226236343383789,
+            -7.203561305999756
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: Many kids are in a gym playing dodge ball. The camera goes to one of the kids showing them making a throw. the kids... then how can we know when the story will end? Ending 1: run back and forth as the game persists. Ending 2: are swishing the balls up and down. Ending 3: continue to walk around the court. Ending 4: continue to make the throws and launch back and forth between the camera and the other kids.",
+        "target_text": "Ending 1",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -3.56083083152771,
+            -4.099647521972656,
+            -3.237971544265747,
+            -1.089607834815979
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to file for divorce in texas without a lawyer [title] Determine if you qualify to file for divorce in texas. [step] Under texas law, at least one party to the divorce must have resided in texas for at least six months prior to the filing of the divorce. In addition, either you or your spouse must have lived in the county where you file for 90 days prior to the date of filing.... then how can we know when the story will end? Ending 1: Also, a divorce in texas cannot be finalized if the wife is pregnant. If your wife is pregnant, be sure to keep this in mind. Ending 2: If you and your spouse are unable to agree on a name change, you must have served as an alternate. You are considered an alternate as long as your default filing term of 90 days has passed. Ending 3: In other words, neither party must have resided in the county where the divorce was finalized. [title] Determine if your state does not require the paperwork for divorce to be filed. Ending 4: [substeps] Any resulting separation is an ordered divorce. You cannot file for divorce without a lawyer.",
+        "target_text": "Ending 1",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -9.256524085998535,
+            -10.910257339477539,
+            -10.93439769744873,
+            -8.384592056274414
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to bid on remodeling jobs [title] Get credit references from your client if you have not worked for him before. [step] It's only smart business to ensure that your client has the means to pay you for your work. Asking for bank references is certainly not out of line, especially if the remodeling job is significant.... then how can we know when the story will end? Ending 1: Additionally, if you discover that your potential client has a history of dragging out payments, you may wish to decline bidding. [title] Analyze the job to see if it will make you a profit. Ending 2: A good way to get references is to reference past clients to websites. Simply use \"...\" to give them your bid. Ending 3: Remember to ask if your client would be willing to pay for this work when you bid on the job. [title] Evaluate your bid (or bid) based on the location and the quality of the work. Ending 4: To get an off the cuff financial lift, ask a family member to vouch for your work. [substeps] Rich people-such as older retired people-may have financial needs other than trying to cover the cost of an expansion.",
+        "target_text": "Ending 1",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -9.633033752441406,
+            -11.189977645874023,
+            -10.535723686218262,
+            -8.888236045837402
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to use herbs to treat the flu [title] Take andrographis as soon as you notice flu symptoms. [step] Andrographis may reduce the severity of flu symptoms and the length of illness if it is taken as soon as the symptoms start. Make sure that you talk to your doctor before trying this herb.... then how can we know when the story will end? Ending 1: [substeps] Do not use andrographis if you have high or low blood pressure, diabetes, take a blood thinner, have an immune disorder, or if you are pregnant or trying to become pregnant. Choose a supplement that has been standardized to 4-5.6 mg andrographolide. Ending 2: [substeps] Do not try andrographis as soon as you notice flu symptoms. Instead, take androtrec 1-3 times a day. Ending 3: [substeps] Refrain from using andrographis if you are pregnant, having kidney and liver problems, or have other medical conditions which may impair your ability to take it. [title] Apply andrographis to protect yourself from fleas. Ending 4: You should also talk to your doctor about taking andrographis to lessen the severity of flu-like symptoms. [substeps] You should also avoid taking andrographis if you have hypertension, strokes, urinary tract infections, or arthritis.",
+        "target_text": "Ending 1",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -8.110309600830078,
+            -8.753334999084473,
+            -8.25485610961914,
+            -8.026299476623535
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to protect yourself during legal separation [title] Stay in the home. [step] If you move out of the house, then you reduce the chances of getting joint custody. A judge will interpret your actions as a sign that you don't care about your children.... then how can we know when the story will end? Ending 1: [substeps] If it is difficult to stay in the same house as your spouse, then you might want to \" time-share. \" under this arrangement, you both live in the house but at different times. Ending 2: For these reasons, stay in the home. [substeps] The judge might give you a week or two to get out of the home. Ending 3: [title] Determine how much time you are able to spend with your children. [step] Each state has its own requirements about how you can spend time with your children. Ending 4: Some states and municipalities allow one parent to take custody during divorce proceedings. Others defraud plaintiff's other parent by suing the other.",
+        "target_text": "Ending 1",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -11.966447830200195,
+            -12.735006332397461,
+            -12.24007797241211,
+            -9.671367645263672
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to convince your parents to let you buy a bunny [title] Do some research on the basics of rabbit care. [step] Your parents want to make sure you know how to care for any pet. Spend some time online looking up the basics of rabbit care on websites like the humane society and the aspca.... then how can we know when the story will end? Ending 1: [substeps] Rabbits usually live in cages or huts that are stocked with cedar or wood shavings. If your parents worry about messes, rabbits can be litter trained. Ending 2: Check out the different rabbit options, as well as your parents' selections. Do some research online so you know what to expect in terms of price, facilities, and the availability of bunny clothes at specialty fur stores. Ending 3: Sometimes these websites will let you see the water bowl, the good care instructions as well as some basic rules like doling out food and water. [substeps] Also research caring for a bunny from a reputable source. Ending 4: [title] Find out what a bunny is allowed to bring into a home. [step] Many shelters or rescue organizations don't allow their rabbits outdoors in gardens.",
+        "target_text": "Ending 1",
+        "label:": 0,
+        "prediction:": 3,
+        "logits": [
+            -5.990236282348633,
+            -7.317666053771973,
+            -7.084461688995361,
+            -4.9197773933410645
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: The video begins with a title screen. an older man... then how can we know when the story will end? Ending 1: is then shown speaking to several participants at an event. Ending 2: shows off a surfing helmet on a child. Ending 3: rides a bicycle over slopes standing in a parking lot. Ending 4: is seen in a gym speaking to the camera while men play volleyball in the background.",
+        "target_text": "Ending 1",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -3.8767547607421875,
+            -4.4255571365356445,
+            -4.212034225463867,
+            -2.3706512451171875
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: The person is now showing a very close up of them putting ingredients into a large clear glass bowl, and they mix it all together with a wooden spoon. the person... then how can we know when the story will end? Ending 1: now has all of the ingredients blended together and sandwich seated into a bowl. Ending 2: puts the mixing bowl into the large wooden pot, which they attach to the stove with two forks, then they struggle to get the liquid out of the bowls, they reach in for the spoons and scoop out the mess, finally putting it on a same plate to make a girl into puppy dog laugh. Ending 3: is now talking to the camera that is sitting on the ground in the middle of them like it has been there a lot longer now that the time is come for them to start boiling it all together. Ending 4: stops mixing with a spoon and then begins to use their hand to mix it all together.",
+        "target_text": "Ending 1",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -7.353569507598877,
+            -7.442063808441162,
+            -8.034215927124023,
+            -6.812757968902588
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: Then he is shown taking parts out to put the saxophone together where there isn't anyone really looking. when he... then how can we know when the story will end? Ending 1:'s finished, all of the saxophones are added together and each one he put in has a gold bar riding onto the bass drum. Ending 2: is done, he pulls out the bag and proceeds to use the device to play the saxophone all through the whole time. Ending 3: the is over, he smiles to the camera and with one final union point he begins leaving the camera. Ending 4:'s finished, he starts to play the saxophone using his mouth and his fingers.",
+        "target_text": "Ending 1",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -6.7229695320129395,
+            -6.506572246551514,
+            -6.760975360870361,
+            -5.392760753631592
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: Next, the man holds up a bag of lemons and begin to talk before they put their head equipment on. Now, it is time for the match and they begin wrestling with one another. however... then how can we know when the story will end? Ending 1:, he turns the other around acting all crazy as he hits her continuously. Ending 2:, a fight breaks out between each of them and one makes a cut. Ending 3:, the man wins and they all laugh and talk about the outcome, after flipping the match over. Ending 4:, they've added a feature to the match and each person has to put lemons in the other's hat to gain points.",
+        "target_text": "Ending 1",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -5.380858421325684,
+            -4.207269668579102,
+            -4.930130958557129,
+            -4.195249557495117
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to get an automatic and correct flash sight picture and an automatic and correct sight picture with p&s [title] Learn to aim. [step] Aiming involves sight alignment and sight placement. [title] Learn what sight alignment is.... then how can we know when the story will end? Ending 1: [step] Sight alignment is the placement of crosshair lines on the ground. This enables sighting to identify sights for target conditions or to guide crosshairs over distance. Ending 2: [step] This is similar to the physical method, but your shooting sight will have the graphics shown on the display of the screen, such as balance, dotted light, a branch at the prime. This has many uses for one rifle, such as allowing you to be no more than 7 feet (2 meters) off the ground, well-controlled, target. Ending 3: [title] Learn the control positions that occur in a snappose click and hold steady target hold. [title] Learn which mode to use with a picture splitter. Ending 4: [step] Sight alignment is the centering of the front blade in the rear sight notch, and the raising or lowering the top of the front sight so it is level with the top of the rear sight. [title] Sight placement is the positioning of the weapon's sights in relation to the target.",
+        "target_text": "Ending 1",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -9.333585739135742,
+            -9.785304069519043,
+            -9.13608169555664,
+            -6.6981048583984375
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to live the yogic lifestyle [title] Enroll in a class. [step] First things first: to live the lifestyle, you need to start doing yoga. Consider joining a class at a gym, community center, or yoga studio, for example.... then how can we know when the story will end? Ending 1: Yoga classes are designed to teach you some basic lifestyle moves. [substeps] Some classes for the yogic lifestyle include count and lean, slow yoga, and pali komigoong. Ending 2: Starting yoga will help stretch your body after work and make you less susceptible to tightness and flare. Prepare your face and head, for example, for a yoga session. Ending 3: [substeps] If you live in a rural area, going to local yoga studios will likely be easier than going to smaller-scale studios that are cheaper. Check online to find out any classes offered in your area. Ending 4: Ease your way into the practice and prepare to feel better and more relaxed. [substeps] There are many reasons to start yoga.",
+        "target_text": "Ending 1",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -9.589008331298828,
+            -10.063408851623535,
+            -9.221673965454102,
+            -7.609278202056885
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to build a self sustaining ecosystem [title] Choose a size for your ecosystem. [step] If you are new to building ecosystems, you may want to start small. However, the smaller your container, the harder it is to maintain a self-sustaining environment.... then how can we know when the story will end? Ending 1: Subtract, or add sizes of ecosystems, trees, flowers, plants, and other organisms. Purchase your selection online so you know what will fill the bottom. Ending 2: Experiment with sizes and sizes until you find what works for you. [substeps] For example, a 10-gallon bucket won't take up a lot of room in a 2-gallon bucket. Ending 3: Deciding on a size can require you to assess whether you want to work with plants, birds, insects, or other creatures in your ecosystem. [substeps] For example, a 10-gallon tank might require an aquarium pond 4-6 gallons. Ending 4: Larger containers allow for the inclusion of multiple diverse species and give everything room to grow. All containers must be clear to let in light.",
+        "target_text": "Ending 1",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -6.734218597412109,
+            -6.897390365600586,
+            -6.747925758361816,
+            -4.519402503967285
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to manage chats on whatsapp [title] Open the whatsapp app. [step] If you do not already have whatsapp installed, you can get it from the. [title] Select the \" chats \" tab.... then how can we know when the story will end? Ending 1: [step] For example, you can tap \" log in \" in the \" create an account \" window to create an account with whatsapp. [substeps] When you're creating an account, tap the \" register \" button below \" setup settings \" in the upper right corner. Ending 2: [step] A pop-up will appear asking you to log in. [title] Click \" send \" on the pop-up to send your friend and/or feed him/her the info you want him/her to see. Ending 3: [step] If you do not have whatsapp installed, you can download the app from the app store at. [title] Sign into the you-app-visit screen. Ending 4: [step] This button appears in the top menu bar, under the search and call buttons. You will be taken to a list of your chats.",
+        "target_text": "Ending 1",
+        "label:": 3,
+        "prediction:": 3,
+        "logits": [
+            -8.685872077941895,
+            -9.779131889343262,
+            -8.842779159545898,
+            -5.993865966796875
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: A sign board is seen with a company logo and contact information. A construction worker screws down floor baseboards. a construction worker... then how can we know when the story will end? Ending 1: shakes the dust around in a box while welding. Ending 2: uses a handheld scraper to apply plaster to the bare floor. Ending 3: nails tiles together on an asphalt floor. Ending 4: lifts tiles to place in a protection configuration.",
+        "target_text": "Ending 1",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -5.671255111694336,
+            -4.817317962646484,
+            -4.646151065826416,
+            -3.2845053672790527
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to prove workplace bullying [title] Start a log of events. [step] If someone at work starts bullying or harassing you, keep a detailed and organized log of each of the incidents. You may be not even need more than one incident, depending on the severity, before you can take action.... then how can we know when the story will end? Ending 1: [substeps] Keep the log in a safe place where the bully cannot grab it. Remove as many objects as you can, let your belongings drop out of sight, and store them someplace you can't see. Ending 2: [substeps] Incidents severe enough to warrant repercussions on their own include any physical abuse or intimidation, or verbal abuse that is blatantly racist or sexist. Smaller incidents may add up to a pattern of bullying or harassment. Ending 3: [substeps] To start, find a person at the bottom of your log with whom you interact frequently. For example, you may be a coworker, or a teacher at a local high school. Ending 4: [substeps] You may need a library or diary to record every incident. Write down any details that could be added into the log.",
+        "target_text": "Ending 1",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -6.44842004776001,
+            -8.230754852294922,
+            -7.570918083190918,
+            -5.398268222808838
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to make a shrimp tempura roll [title] Make the tempura batter. [step] Mix the flour, eggs, and cold water. Make sure you put an equal amount of all three of the ingredients.... then how can we know when the story will end? Ending 1: Mix in the shortening and cornstarch. [title] Spread the batter on a baking sheet. Ending 2: Too much water could make the batter too runny, and too much flour could make the batter too thick. For a single roll, one egg, half a cup of cold water, and a cup of flour should work just fine. Ending 3: If your recipe calls for 1 cup water, use that instead of flour. Then add 3 eggs and 1 flour into the egg mixture. Ending 4: [substeps] To make a recipe using the flour mix, place the flour and water in a mixing bowl. Add your fingers to the flour mixture and whisk in the mixture.",
+        "target_text": "Ending 1",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -8.734410285949707,
+            -8.578696250915527,
+            -8.229572296142578,
+            -6.50584077835083
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: The man takes a bow from a bag and lines it up on his arrow and man shoots his bow. we... then how can we know when the story will end? Ending 1: then see a shot of a bridge, then houses with the same saying and logo. Ending 2: switch to two other men shooting their bows. Ending 3: see a stadium with instructors. Ending 4: see the words above the arrow.",
+        "target_text": "Ending 1",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -6.726612567901611,
+            -7.161694049835205,
+            -7.346416473388672,
+            -4.2901458740234375
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to play pool like a pro [title] Check your hand position. [substeps] Hold the thick end of the cue in your dominant hand with your palm facing upward. Find the spot on the wrap where the cue evenly balances.... then how can we know when the story will end? Ending 1: Holding it at that spot can put a lot of pressure on the cue ball, leading to inaccurate shots on the ball. You can also experiment to see where you can get heavier. Ending 2: Grip your cue about 1 \" behind that spot. Make a circle with the thumb and index finger of your non-dominant hand. Ending 3: Grip the cue between the index and middle fingers. This can be anywhere between 0.5 centimeter (0.8 in) and 0.8 centimeter (0.7 in). Ending 4: At the top of the cue, with the cue wand on the opposite end, place the point between the index and middle fingers. [title] Position the cue wand in your extended out (vertical) position.",
+        "target_text": "Ending 1",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -9.284723281860352,
+            -9.118953704833984,
+            -8.18103313446045,
+            -6.922223091125488
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: We see a man walk over and sits on a rowing machine. The man drink from his water. The man rows fast on the machine. We see a title screen. we... then how can we know when the story will end? Ending 1: then see the man board a surf board. Ending 2: see the man stop rowing and walks and gets the camera. Ending 3: see a man look at his camera. Ending 4: see the ending title screen.",
+        "target_text": "Ending 1",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -5.177380561828613,
+            -5.399790287017822,
+            -6.053289413452148,
+            -2.6754250526428223
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: A man is seen pulling a pair of drums closer. He then begins playing on the drums. the man... then how can we know when the story will end? Ending 1: continues playing and ends by laughing to the camera. Ending 2: continues to play while looking off into the distance. Ending 3: pauses and speaks more. Ending 4: stops and begins drinking from a water can.",
+        "target_text": "Ending 1",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.2210025787353516,
+            -3.6215004920959473,
+            -3.81308913230896,
+            -3.539963722229004
+        ]
+    },
+    {
+        "input_text:": "If a description of a situation begins like this: [header] How to calculate a lease payment [title] Learn the three main components of a lease payment. [step] The first is depreciation, the reduction in the value of the car over the term of the lease. The second is financing, the amount that you pay for the use of the car.... then how can we know when the story will end? Ending 1: The money must be depreciated on time, and even in the first year of the lease. You would need to analyze the difference between a car depreciation and a lease repayment. Ending 2: It is computed on the amount the leasing company invested to purchase it. The third is sales tax, which is added to the monthly lease payment in many u.s. Ending 3: To calculate a lease payment, take out your loan term. You will need to change this out to a period of 30 years or longer. Ending 4: Both financing and repayment periods vary and require different written forms and methods in order to be effective. [title] Look at your bank statements and loan statements.",
+        "target_text": "Ending 1",
+        "label:": 1,
+        "prediction:": 3,
+        "logits": [
+            -9.729984283447266,
+            -11.021482467651367,
+            -10.209650993347168,
+            -7.546102046966553
+        ]
+    }
+]

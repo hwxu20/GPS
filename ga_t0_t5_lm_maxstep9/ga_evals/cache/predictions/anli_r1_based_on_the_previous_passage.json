@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "John Fair \"Jocko\" Marcellino (born May 12, 1950) is an American singer, musician, songwriter, producer and actor best known as one of the founders of the American rock and roll group Sha Na Na. He performed with Sha Na Na at the original Woodstock Festival, in the movie \"Grease\" and in The Sha Na Na Show, their worldwide syndicated TV show. Based on the passage, is it true that the other \"John Fair was born a singer in 1950\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.1903386116027832,
+            -1.593593716621399,
+            -1.2011336088180542
+        ]
+    },
+    {
+        "input_text:": "The Gannochy trust is a charitable organisation which is based and operates in Scotland with a preference for projects in Perth and Kinross. The trust was founded in 1937 by influential Perth business man Arthur Kinmond Bell, known as A. K. Bell, of Arthur Bell & Sons Ltd. Based on the passage, is it true that the other \"The Gannochy trust gives help to charitable causes in the US.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -1.7991943359375,
+            -2.9400529861450195,
+            -0.3275766372680664
+        ]
+    },
+    {
+        "input_text:": "Mon Colle Knights, known as Six Gates Far Away Mon Colle Knight (Japanese: , Hepburn: Rokumon Tengai Mon Kore Naito ) in Japan, is an anime and manga series. The original concept was made by Hitoshi Yasuda and Group SNE. The series is based on the Monster Collection trading card game. Based on the passage, is it true that the other \"Hitoshi Yasudau was involved in the original idea of the anime and maga series which was first a trading card game.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.732022225856781,
+            -2.3227670192718506,
+            -1.3730404376983643
+        ]
+    },
+    {
+        "input_text:": "Agatha Christie: Evil Under the Sun is a video game released for the PC and Nintendo Wii, and is the third installment of The Adventure Company's \"Agatha Christie\" series, developed by AWE Productions, based on Agatha Christie's novel \"Evil Under the Sun\". The PC version was released in 2007, and the Wii version one year later. Based on the passage, is it true that the other \"The Adventure Company made at least three video games\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -1.0533335208892822,
+            -1.8349465131759644,
+            -0.9447809457778931
+        ]
+    },
+    {
+        "input_text:": "Pilsner (also pilsener or simply pils) is a type of pale lager. It takes its name from Plze (Pilsen in Czech Republic), a city in Bohemia, then in the Austrian Empire, now in the Czech Republic, where it was first produced in 1842. The world\u2019s first blond lager, the original Pilsner Urquell, is still produced there today. Based on the passage, is it true that the other \"Pilsner is Czech.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -1.0449278354644775,
+            -2.7568302154541016,
+            -0.8972216248512268
+        ]
+    },
+    {
+        "input_text:": "Okra or okro ( or ), known in many English-speaking countries as ladies' fingers or ochro, is a flowering plant in the mallow family. It is valued for its edible green seed pods. The geographical origin of okra is disputed, with supporters of West African, Ethiopian, and South Asian origins. The plant is cultivated in tropical, subtropical and warm temperate regions around the world. Based on the passage, is it true that the other \"The geopgraphical origin of okra is disputed, with supporters stating that the origins of the plant could be from either East Africa, Eithiopia, or South Asia.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9706254005432129,
+            -2.53428316116333,
+            -1.4829668998718262
+        ]
+    },
+    {
+        "input_text:": "Ai Weiwei The Fake Case is a 2013 documentary film about Chinese artist and activist Ai Weiwei, directed by Danish filmmaker Andreas Johnsen. The film won Best 2014 Documentary in Danish Film Critics Association's 67th Bodil Awards, played in the official selection of 2014 Hot Docs Canadian International Documentary Festival in Toronto and International Documentary Film Festival Amsterdam. Based on the passage, is it true that the other \"Ai Weiwei The Fake Case is a 2013 documentary film about Chinese artist and activist Ai Weiwei staring Ai Weiwei.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7609732151031494,
+            -3.03818416595459,
+            -1.8336186408996582
+        ]
+    },
+    {
+        "input_text:": "PSR B1919+21 is a pulsar with a period of 1.3373 seconds and a pulse width of 0.04 seconds. Discovered by Jocelyn Bell Burnell and Antony Hewish on November 28, 1967, it is the first discovered radio pulsar. The power and regularity of the signals were briefly thought to resemble an extraterrestrial beacon, leading the source to be nicknamed LGM-1 (for \"little green men\"). Based on the passage, is it true that the other \"PSR B1919+21 has a period of 1337.3 ms\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5066914558410645,
+            -2.4766745567321777,
+            -1.4980534315109253
+        ]
+    },
+    {
+        "input_text:": "Objective-C is a general-purpose, object-oriented programming language that adds Smalltalk-style messaging to the C programming language. It was the main programming language used by Apple for the OS X and iOS operating systems, and their respective application programming interfaces (APIs) Cocoa and Cocoa Touch prior to the introduction of Swift. Based on the passage, is it true that the other \"Objective-C is the main programming language that is now used by Apple for the OSX and iOS operating systems.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -1.8150041103363037,
+            -2.1859323978424072,
+            -0.8544502258300781
+        ]
+    },
+    {
+        "input_text:": "Elazar Menachem Man Shach (Hebrew:     ) Elazar Shach (January 1, 1899 O.S. \u2013 November 2, 2001) was a leading Lithuanian-Jewish Haredi rabbi in Bnei Brak, Israel. He also served as one of three co-deans of the Ponevezh Yeshiva in Bnei Brak, along with Rabbis Shmuel Rozovsky and Dovid Povarsky. Based on the passage, is it true that the other \"Bnei Brak was a leading Lithuanian-Jewish Haredi rabbi in Israel.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7623065710067749,
+            -2.8491079807281494,
+            -1.2435595989227295
+        ]
+    },
+    {
+        "input_text:": "Chamaecyparis, common names cypress or false cypress (to distinguish it from related cypresses), is a genus of conifers in the cypress family Cupressaceae, native to eastern Asia (Japan + Taiwan) and to the western and eastern margins of the United States. The name is derived from the Greek \"khamai\", meaning ground, and \"kuparissos\" for cypress. Based on the passage, is it true that the other \"Chamaecyparis stands from cypress that means ground\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -1.2926400899887085,
+            -2.9737870693206787,
+            -0.6831636428833008
+        ]
+    },
+    {
+        "input_text:": "The Prince and Me is a 2004 romantic comedy film directed by Martha Coolidge, and starring Julia Stiles, Luke Mably, and Ben Miller, with Miranda Richardson, James Fox, and Alberta Watson. The film focuses on Paige Morgan, a pre-med college student in Wisconsin, who is pursued by a prince posing as a normal college student. Based on the passage, is it true that the other \"The prince is a college graduate. \" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.6870884895324707,
+            -2.392606258392334,
+            -1.0490270853042603
+        ]
+    },
+    {
+        "input_text:": "Jia Zhangke (born 24 May 1970) is a Chinese film director and screenwriter. He is generally regarded as a leading figure of the \"Sixth Generation\" movement of Chinese cinema, a group that also includes such figures as Wang Xiaoshuai, Lou Ye, Wang Quan'an and Zhang Yuan. Based on the passage, is it true that the other \"Jia was prominent in his career at age 65.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.21416974067688,
+            -2.08549165725708,
+            -0.8495047688484192
+        ]
+    },
+    {
+        "input_text:": "Taxi Driver: Oko Ashewo, also known as just Taxi Driver or Oko Ashewo, is a 2015 Nigerian dark comedy thriller film produced by Ayobami Macaulay and directed by Daniel Oriahi. It stars Odunlade Adekola, Femi Jacobs, Ijeoma Grace Agu and Hafeez Oyetoro. Based on the passage, is it true that the other \"There's only four actors in Oko Ashewo\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.1225504875183105,
+            -1.9837312698364258,
+            -0.9774368405342102
+        ]
+    },
+    {
+        "input_text:": "Songs Our Daddy Taught Us is the second album by close harmony country/rock and roll duo The Everly Brothers, released in 1958. The album is a selection of songs that the brothers learned as boys from their father, Ike Everly. Originally released on Cadence Records, the album has been re-released on LP and CD many times, primarily by Rhino and EMI. Based on the passage, is it true that the other \"Songs Our Daddy Taught Us won a Pulitzer.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -3.6218883991241455,
+            -3.360616683959961,
+            -0.4109802544116974
+        ]
+    },
+    {
+        "input_text:": "Abroad with Two Yanks is a 1944 American comedy film directed by Allan Dwan and starring Helen Walker, William Bendix and Dennis O'Keefe as the title characters. It was Bendix's third and final role in a film as a US Marine and the first of Dwan's three films about the United States Marine Corps. Based on the passage, is it true that the other \"Abroad with Two Yanks won an Academy Award for Best Picture in 1945, amid critical success.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.7548425197601318,
+            -2.5733277797698975,
+            -0.7756467461585999
+        ]
+    },
+    {
+        "input_text:": "Shadowboxer is a 2005 crime thriller film directed by Lee Daniels and starring Academy Award winners Cuba Gooding Jr., Helen Mirren, and Mo'Nique. It opened in limited release in six cities: New York, Los Angeles, Washington, D.C., Baltimore, Philadelphia, and Richmond, Virginia. Based on the passage, is it true that the other \"The limited release of Shadowboxer was not available in any landlocked states.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4690864086151123,
+            -1.9695522785186768,
+            -1.8502813577651978
+        ]
+    },
+    {
+        "input_text:": "Wedding Toasts I\u2019ll Never Give is a memoir by Ada Calhoun about marriage. It was inspired by the success of her \"New York Times\" \u201cModern Love\u201d column, \u201cThe Wedding Toast I\u2019ll Never Give,\u201d which the paper named one of its most-read stories of 2015. The book was released on May 16, 2017 by W. W. Norton & Company. Based on the passage, is it true that the other \"Ada Calhoun is married.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.2201677560806274,
+            -1.9372050762176514,
+            -1.0427354574203491
+        ]
+    },
+    {
+        "input_text:": "The Agatha Christie Award ( ) is a Japanese literary award established in 2010 in commemoration of the 120th anniversary of Agatha Christie's birth. The award is presented by Hayakawa Publishing Corporation in association with the Agatha Christie Society, which is chaired by Mathew Pritchard, the grandson of Agatha Christie. Based on the passage, is it true that the other \"The Agatha Christie Award is a Japanese literary award established in 2010 in commemoration of the 120th anniversary of Agatha Christie's birth which Mathew Pritchard attends.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3721029758453369,
+            -2.7803261280059814,
+            -2.5469682216644287
+        ]
+    },
+    {
+        "input_text:": "BlayzBloo: Super Melee Brawlers Battle Royale, released in Japan as BlazBlue: Battle  Battle ( --, BureiBur: Batoru kurosu Batoru ), is a 3D arena fighting video game developed by Arc System Works. It was published in Japan by Arc System Works on January 27, 2010 and for the Nintendo DSi/Nintendo DSi XL. The game was released in North America on August 2, 2010. Based on the passage, is it true that the other \"Arc System Works released many successful games, including BlazBlue which was released in North America in the fall of 2010.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.8086701035499573,
+            -1.999301791191101,
+            -1.0341098308563232
+        ]
+    },
+    {
+        "input_text:": "Illinois Route 3 (IL 3) is a major north\u2013south arterial state highway in southwestern Illinois. It has its southern terminus at Cairo Junction (about 4 mi north of Cairo) at the intersection of Interstate 57 (I-57) and U.S. Route 51 (US 51), and its northern terminus in Grafton at IL 100. This is a distance of 187.44 mi. Based on the passage, is it true that the other \"Illinois Route 3 does not extend into other states. \" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.1907933950424194,
+            -0.9324200749397278,
+            -1.4920001029968262
+        ]
+    },
+    {
+        "input_text:": "Shawn Levy (born July 23, 1968) is a Canadian film director, producer, and actor. He directed the films \"Big Fat Liar\" (2002), \"Just Married\" (2003), \"Cheaper by the Dozen\" (2003), \"The Pink Panther\" (2006), \"Night at the Museum\" (2006), \"\" (2009), \"Date Night\" (2010), \"Real Steel\" (2011), \"The Internship\" (2013), \"This Is Where I Leave You\" (2014) and \"\" (2014). Based on the passage, is it true that the other \"Shawn Levy is still currently living in 2019.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.1731467247009277,
+            -2.088884115219116,
+            -1.7241628170013428
+        ]
+    },
+    {
+        "input_text:": "Dr. Tony Gardner (born 10 January 1964) is an English actor and doctor. He qualified as a doctor at Guy's Hospital in 1987, then as a general practitioner in 1993. He combined medicine and comedy during the 1990s as half of the award-winning comedy duo \"Struck Off and Die\" with Phil Hammond. Based on the passage, is it true that the other \"Dr. Tony Gardner became a general practitioner prior to becoming a doctor.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.804111957550049,
+            -2.498284101486206,
+            -0.2687329947948456
+        ]
+    },
+    {
+        "input_text:": "Moonstruck is a 1987 American romantic comedy film directed by Norman Jewison and written by John Patrick Shanley. It is about a widowed 37-year-old Italian-American woman (Cher) who falls in love with her fianc\u00e9's (Danny Aiello) estranged, hot-tempered younger brother (Nicolas Cage). Vincent Gardenia and Olympia Dukakis play supporting roles. Based on the passage, is it true that the other \" Moonstruck was not a documentary about a widowed 37 year old. \" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.103907585144043,
+            -1.7928284406661987,
+            -0.7959970831871033
+        ]
+    },
+    {
+        "input_text:": "Catterline is a coastal village on the North Sea in Aberdeenshire, Scotland. It is situated about six kilometres south of Stonehaven; nearby to the north are Dunnottar Castle and Fowlsheugh Nature Reserve. Other noted architectural or historic features in the general area include Fetteresso Castle, Fiddes Castle, Chapel of St. Mary and St. Nathalan and Muchalls Castle. Based on the passage, is it true that the other \"6km north of Stonehaven is the coastal village of Catterline.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.306238889694214,
+            -2.836280107498169,
+            -0.3031037151813507
+        ]
+    },
+    {
+        "input_text:": "A flamenco shoe is a type of shoe worn by flamenco dancers. They are typically worn by female dancers, they are called flamenco heel, often with traje de flamenca costumes. Male flamenco dancers traditionally wear short, heeled boots, although there are now some flamenco shoe styles available for men. Based on the passage, is it true that the other \"Flamenco dancers, both male and female, wear the same shoes.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.6518802642822266,
+            -3.147770404815674,
+            -0.4363856911659241
+        ]
+    },
+    {
+        "input_text:": "Tura Beach is suburb of Merimbula, on the South Coast of New South Wales, Australia, in the Bega Valley Shire local government area. It lies approximately 6 km north of Merimbula. At the 2016 census, Tura Beach had a population of 3,158 people with an median age of 57 years, 19 years greater than that of the overall Australian population. Based on the passage, is it true that the other \"The median age of the population of Australia in 2016 was 38 years. \" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.6614556312561035,
+            -2.1840732097625732,
+            -1.1580781936645508
+        ]
+    },
+    {
+        "input_text:": "Mario Fernandez (born 1984), better known as Wizzo or wizzogmb, is a Mexican-American hip-hop/electronic producer, recording/mixing engineer, and DJ based in Santa Ana, Ca. He was born to Mexican mother and father in Guadalajara, Jalisco, Mexico. He has worked with Lil Jon, Boosie, DJ Drama, Nipsey Hussle, Yg, Skeme, Dom Kennedy, Jim Jonsin, and various other producers, artists and engineers. Based on the passage, is it true that the other \"Fernandez's father is American.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.5107189416885376,
+            -1.9687732458114624,
+            -0.6097971796989441
+        ]
+    },
+    {
+        "input_text:": "Liverpool Football Club ( ) is a professional association football club based in Liverpool, Merseyside, England. They compete in the Premier League, the top tier of English football. The club has won an English record 5 European Cups, 3 UEFA Cups, 3 UEFA Super Cups, 18 League titles, 7 FA Cups, a record 8 League Cups, and 15 FA Community Shields. Based on the passage, is it true that the other \"The liverpool football club, based in Liverpool, compete in a low tier of English football.\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.6836230754852295,
+            -2.9936599731445312,
+            -0.5247642397880554
+        ]
+    },
+    {
+        "input_text:": "John Travers (ca. 1703 \u2013 June 1758) was an English composer who held the office of Organist to the Chapel Royal from 1737 to 1758. Before filling several parochial posts in London he had been a choir boy at St. George's Chapel, Windsor and a pupil of Johann Christoph Pepusch. Based on the passage, is it true that the other \"John Travers was a priest\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.6934399604797363,
+            -2.6504948139190674,
+            -0.5994623899459839
+        ]
+    },
+    {
+        "input_text:": "Stuart Murdoch (born September 2, 1955) is a football coach. He is perhaps best known for his spell as manager of Wimbledon between May 2002 and June 2004, during which time the team moved to Milton Keynes in 2003. Wimbledon were renamed Milton Keynes Dons by the new owner in 2004 and Murdoch remained in charge until November of that year. Based on the passage, is it true that the other \"Stuart Murdoch coached a new football team in 2004\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -1.1480032205581665,
+            -2.258382558822632,
+            -1.6552664041519165
+        ]
+    },
+    {
+        "input_text:": "\"All We Ever Knew\" is a song written and recorded by American folk band The Head and the Heart, released as the lead single for their third studio album \"Signs of Light\" by Warner Bros. Records. The song was written by the band and produced by Jay Joyce. Based on the passage, is it true that the other \"\"The Head and the Heart\" was a song on the album \"Signs of Light\"\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.0480096340179443,
+            -2.167569398880005,
+            -0.6833094954490662
+        ]
+    },
+    {
+        "input_text:": "Yeidhavan (English: The Man Who Aims ) is a 2017 Indian Tamil-language crime action film written and directed by Sakthi Rajasekaran and produced by Sudhakaran. The film stars Kalaiyarasan and Satna Titus in the leading roles and features music composed by newcomer, Paartav Barggo. The film released on 12 May 2017. Based on the passage, is it true that the other \"Its not certian Yeidhavan (English: The Man Who Aims ) is a 2017 Indian Tamil-language\" is not true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.3826921284198761,
+            -1.7933602333068848,
+            -2.619276762008667
+        ]
+    }
+]

@@ -1,0 +1,123 @@
+dataset: super_glue
+subset: rte
+templates:
+  1761982e-3262-47c4-9df2-47103f3e22e0: !Template
+    answer_choices: Yes ||| No
+    id: 1761982e-3262-47c4-9df2-47103f3e22e0
+    jinja: Given the {{premise}} s s and the consequent d d, can you prove the "{{hypothesis}}"
+      (B)? Yes or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  296faf61-9170-44b8-9609-ab81cb8a54e0: !Template
+    answer_choices: Yes ||| No
+    id: 296faf61-9170-44b8-9609-ab81cb8a54e0
+    jinja: Given the {{premise}} s s, can you prove the "{{hypothesis}}" (A)? Yes
+      or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  2cb8ad6e-8a48-459f-9ee4-f01dc557b5b6: !Template
+    answer_choices: Yes ||| No
+    id: 2cb8ad6e-8a48-459f-9ee4-f01dc557b5b6
+    jinja: Given the {{premise}} (A), can you prove the "{{hypothesis}}" (B)? Yes
+      or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  312a0b1e-59d7-457a-a4af-f4c5deb132e4: !Template
+    answer_choices: Yes ||| No
+    id: 312a0b1e-59d7-457a-a4af-f4c5deb132e4
+    jinja: Given the {{premise}} s and the conclusion x, Can you prove the "{{hypothesis}}"
+      (B)? Yes or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  3956121d-b956-4895-98cd-ee3c89e8c270: !Template
+    answer_choices: Yes ||| No
+    id: 3956121d-b956-4895-98cd-ee3c89e8c270
+    jinja: Given the {{premise}} s, can you prove the "{{hypothesis}}" (B)? Yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  3fa64480-da9f-4231-8834-276ec4bc8e37: !Template
+    answer_choices: Yes ||| No
+    id: 3fa64480-da9f-4231-8834-276ec4bc8e37
+    jinja: "{{premise}} \n\nQuestion: Would this entail that \"{{hypothesis}}\"? |||\
+      \ {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  41f42760-30ec-4bf7-b3f4-c7e6f487b896: !Template
+    answer_choices: Yes ||| No
+    id: 41f42760-30ec-4bf7-b3f4-c7e6f487b896
+    jinja: A given the {{premise}} p, can you prove the "{{hypothesis}}" (D)? Yes
+      or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  492b158c-cb22-4c4a-8b55-0747bbf2db18: !Template
+    answer_choices: Yes ||| No
+    id: 492b158c-cb22-4c4a-8b55-0747bbf2db18
+    jinja: Given the {{premise}} s s s s, can you prove the "{{hypothesis}}" (B)?
+      Yes or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  4b098f87-918d-4369-9266-9e0ebbf661e8: !Template
+    answer_choices: Yes ||| No
+    id: 4b098f87-918d-4369-9266-9e0ebbf661e8
+    jinja: Given the {{premise}} (s) s, Can you prove the "{{hypothesis}}" (A)? Yes
+      or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  4d919843-80e6-4172-b133-8bc574dae593: !Template
+    answer_choices: Yes ||| No
+    id: 4d919843-80e6-4172-b133-8bc574dae593
+    jinja: "{{premise}} \n\nQuestion: Is this more likely to entail that \"{{hypothesis}}\"\
+      . ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021

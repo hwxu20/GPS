@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "The woman refused a second beer. What's the best option? - She was the designated driver for the night. - She was familiar with the bartender. We are looking for a cause",
+        "target_text": "She was the designated driver for the night.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.008608430624008179,
+            -5.6962480545043945
+        ]
+    },
+    {
+        "input_text:": "The girl found the missing puzzle piece. What's the best option? - She completed the puzzle. - She took apart the puzzle. We are looking for an effect",
+        "target_text": "She completed the puzzle.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.006150068715214729,
+            -9.02613639831543
+        ]
+    },
+    {
+        "input_text:": "The tenant misplaced his keys to his apartment. What's the best option? - His landlord unlocked the door. - His landlord repaired the door. We are looking for an effect",
+        "target_text": "His landlord unlocked the door.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.006849243305623531,
+            -5.715291976928711
+        ]
+    },
+    {
+        "input_text:": "The gardener pulled the weeds. What's the best option? - The weeds came out of the soil. - The weeds produced seeds. We are looking for an effect",
+        "target_text": "The weeds came out of the soil.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.793102741241455,
+            -4.553358554840088
+        ]
+    },
+    {
+        "input_text:": "The man went away for the weekend. What's the best option? - He wanted to relax. - He felt content. We are looking for a cause",
+        "target_text": "He wanted to relax.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.02142586186528206,
+            -4.191411972045898
+        ]
+    },
+    {
+        "input_text:": "The surfer caught the wave. What's the best option? - The wave carried her to the shore. - She paddled her board into the ocean. We are looking for an effect",
+        "target_text": "The wave carried her to the shore.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.06442711502313614,
+            -2.935793161392212
+        ]
+    },
+    {
+        "input_text:": "The man took a shower. What's the best option? - He was sweaty from working out. - He opened a new bar of soap. We are looking for a cause",
+        "target_text": "He was sweaty from working out.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.15729168057441711,
+            -2.0774190425872803
+        ]
+    },
+    {
+        "input_text:": "Our group's conversation gradually lulled to silence. What's the best option? - I felt awkward. - I became enraged. We are looking for an effect",
+        "target_text": "I felt awkward.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.004499595146626234,
+            -6.206470966339111
+        ]
+    },
+    {
+        "input_text:": "The librarian located the book in the stacks. What's the best option? - I requested the librarian's help. - The book was checked out. We are looking for a cause",
+        "target_text": "I requested the librarian's help.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.610308051109314,
+            -1.0149720907211304
+        ]
+    },
+    {
+        "input_text:": "The man felt thankful to be alive. What's the best option? - He was cured of cancer. - His wife was diagnosed with cancer. We are looking for a cause",
+        "target_text": "He was cured of cancer.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.8023922443389893,
+            -0.5974193811416626
+        ]
+    },
+    {
+        "input_text:": "The offender violated parole. What's the best option? - She was sent back to jail. - She stole money from a church. We are looking for an effect",
+        "target_text": "She was sent back to jail.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.011358351446688175,
+            -13.583442687988281
+        ]
+    },
+    {
+        "input_text:": "The benefactor requested to stay anonymous. What's the best option? - He wanted to maintain his privacy. - He supported the cause behind his donation. We are looking for a cause",
+        "target_text": "He wanted to maintain his privacy.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.061857081949710846,
+            -2.9881784915924072
+        ]
+    },
+    {
+        "input_text:": "The terrorist set off the bomb. What's the best option? - The bomb exploded. - The bomb was deactivated. We are looking for an effect",
+        "target_text": "The bomb exploded.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.01719127595424652,
+            -6.139932155609131
+        ]
+    },
+    {
+        "input_text:": "The man revealed personal information to the therapist. What's the best option? - He trusted the therapist. - He disagreed with the therapist. We are looking for a cause",
+        "target_text": "He trusted the therapist.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.00769816292449832,
+            -18.27784538269043
+        ]
+    },
+    {
+        "input_text:": "The man became disabled. What's the best option? - His family offered him financial support. - His family cut off contact with him. We are looking for an effect",
+        "target_text": "His family offered him financial support.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0042837499640882015,
+            -11.921873092651367
+        ]
+    },
+    {
+        "input_text:": "The man had lipstick on his cheek. What's the best option? - The woman kissed him. - The woman made him blush. We are looking for a cause",
+        "target_text": "The woman kissed him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.004037815611809492,
+            -6.639573097229004
+        ]
+    },
+    {
+        "input_text:": "My knees buckled on the stairs. What's the best option? - I caught myself on the railing. - The railing came loose from the wall. We are looking for an effect",
+        "target_text": "I caught myself on the railing.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.19924183189868927,
+            -2.9926888942718506
+        ]
+    },
+    {
+        "input_text:": "The boy pushed his sister. What's the best option? - His sister tattled on him. - They played hide and seek. We are looking for an effect",
+        "target_text": "His sister tattled on him.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.9467740058898926,
+            -0.5161253213882446
+        ]
+    },
+    {
+        "input_text:": "The woman filed a restraining order against the man. What's the best option? - The man called her. - The man stalked her. We are looking for a cause",
+        "target_text": "The man called her.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -9.579045295715332,
+            -0.0009219265775755048
+        ]
+    },
+    {
+        "input_text:": "The crowd gave the band a standing ovation. What's the best option? - The band signed autographs. - The band reappeared on the stage. We are looking for an effect",
+        "target_text": "The band signed autographs.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -12.13566780090332,
+            -0.5690149664878845
+        ]
+    },
+    {
+        "input_text:": "The vase broke. What's the best option? - I stenciled it. - I glued it back together. We are looking for an effect",
+        "target_text": "I stenciled it.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.440842151641846,
+            -0.032775260508060455
+        ]
+    },
+    {
+        "input_text:": "My foot went numb. What's the best option? - I put my shoes on. - I shook my foot. We are looking for an effect",
+        "target_text": "I put my shoes on.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.6514599323272705,
+            -0.2663409113883972
+        ]
+    },
+    {
+        "input_text:": "The man dropped food on the floor. What's the best option? - His dog jumped up on him. - His dog ran over to eat the food. We are looking for an effect",
+        "target_text": "His dog jumped up on him.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.342886924743652,
+            -0.012611934915184975
+        ]
+    },
+    {
+        "input_text:": "It got dark outside. What's the best option? - Snowflakes began to fall from the sky. - The moon became visible in the sky. We are looking for an effect",
+        "target_text": "Snowflakes began to fall from the sky.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.4288256168365479,
+            -0.46987009048461914
+        ]
+    },
+    {
+        "input_text:": "The woman received a diploma. What's the best option? - She enrolled in college. - She graduated from college. We are looking for a cause",
+        "target_text": "She enrolled in college.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.1456334590911865,
+            -0.05023130029439926
+        ]
+    },
+    {
+        "input_text:": "The company lost money. What's the best option? - Its products received positive consumer reviews. - Some of its products were manufactured defectively. We are looking for a cause",
+        "target_text": "Its products received positive consumer reviews.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.182543754577637,
+            -0.006096165161579847
+        ]
+    },
+    {
+        "input_text:": "The documents contained important information. What's the best option? - I paper clipped them together. - I kept them in a secure place. We are looking for an effect",
+        "target_text": "I paper clipped them together.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.03254508972168,
+            -0.01121506467461586
+        ]
+    },
+    {
+        "input_text:": "The man looked at his watch. What's the best option? - He realized he forgot something. - He realized he was early. We are looking for an effect",
+        "target_text": "He realized he forgot something.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.9274113178253174,
+            -0.18244893848896027
+        ]
+    },
+    {
+        "input_text:": "The man threw out the bread. What's the best option? - It was fresh. - It was stale. We are looking for a cause",
+        "target_text": "It was fresh.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.099568843841553,
+            -0.007867534644901752
+        ]
+    },
+    {
+        "input_text:": "The patient underwent the risky medical procedure. What's the best option? - The procedure was costly. - Specialists recommended the procedure. We are looking for a cause",
+        "target_text": "The procedure was costly.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.458507537841797,
+            -0.0022653713822364807
+        ]
+    },
+    {
+        "input_text:": "The woman's makeup smeared. What's the best option? - She brushed her hair. - She wiped her eyes. We are looking for a cause",
+        "target_text": "She brushed her hair.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.209859609603882,
+            -0.058451585471630096
+        ]
+    },
+    {
+        "input_text:": "The police officer dropped the gun. What's the best option? - The gun recoiled. - The gun went off. We are looking for an effect",
+        "target_text": "The gun recoiled.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.1003851890563965,
+            -0.10948381572961807
+        ]
+    },
+    {
+        "input_text:": "My daughter suffered an allergy attack. What's the best option? - I encouraged her to take deep breaths. - I took her to the emergency room. We are looking for an effect",
+        "target_text": "I encouraged her to take deep breaths.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.9184792041778564,
+            -0.5221366882324219
+        ]
+    }
+]

@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Rachel Brosnahan (born December 15, 1990) is an American actress. She is best known for her roles in the films \"The Unborn\" (2009) and \"Beautiful Creatures\" (2013) and for portraying Rachel Posner in the Netflix series \"House of Cards\", for which she was nominated for an Emmy Award. Keeping in mind the above text, consider: She is an American citizen. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.070617198944092,
+            -6.047084331512451,
+            -6.3844733238220215
+        ]
+    },
+    {
+        "input_text:": "Tsewang Rigzin is the current president of the Tibetan Youth Congress. He has held the position since September 2007, and on August 8, 2008 he was re-elected to serve through August 2013. Prior to attaining his current position he served as the president of the Portland/Vancouver regional chapter of the Tibetan Youth Congress. Keeping in mind the above text, consider: Tsewang Rigzin is the president of the Portland/Vancouver regional chapter of the Tibetan Youth Congress. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -5.952270030975342,
+            -5.4971818923950195,
+            -6.704927444458008
+        ]
+    },
+    {
+        "input_text:": "The phrase \"cold enough to freeze the balls off (or \"on\") a brass monkey\" is a colloquial expression used by some English speakers. The reference to the testes (as the term \"balls\" is commonly understood to mean) of the brass monkey appears to be a 20th-century variant on the expression, prefigured by a range of references to other body parts, especially the nose and tail. Keeping in mind the above text, consider: cold enough to freeze the balls off or on a brass monkey has no date Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -8.969608306884766,
+            -8.575212478637695,
+            -9.971230506896973
+        ]
+    },
+    {
+        "input_text:": "Coraz\u00f3n Valiente (\"Fearless Heart\"), originally known as \"Cadas del Cielo\", is a Spanish-language telenovela produced by United States-based television network Telemundo Studios, Miami, featuring an ensemble cast. Adriana Fonseca, Ximena Duque, Jos\u00e9 Luis Res\u00e9ndez and Fabi\u00e1n Ros starred as the main protagonists, with Aylin Mujica and Manuel Landeta starred as the main antagonists. Keeping in mind the above text, consider: The US-based television network Telemundo Studios produced the Spanish-language telenovela called Caidas del Cielo before the name was changed. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.486658096313477,
+            -6.054698944091797,
+            -7.211831569671631
+        ]
+    },
+    {
+        "input_text:": "The Inter-American Peace Force (IAPF) was established, by the Organization of American States, on 23 May 1965, after the United States's intervention in the Dominican Republic. It largely consisted of over 42,600 United States military personnel, plus the following troops were sent by each country; Keeping in mind the above text, consider: The IAPF was formed at the behest of the US. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.249204158782959,
+            -5.5335917472839355,
+            -6.005277633666992
+        ]
+    },
+    {
+        "input_text:": "The Last of Us Part II is an upcoming action-adventure survival horror video game developed by Naughty Dog and published by Sony Interactive Entertainment for PlayStation 4. It was announced at the PlayStation Experience event in December 2016, and will serve as the sequel to 2013's \"The Last of Us\". Keeping in mind the above text, consider: The Last of Us was an action adventure survival horror video game Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.535409927368164,
+            -6.425454139709473,
+            -8.176990509033203
+        ]
+    },
+    {
+        "input_text:": "The PLDT Home TVolution Power Attackers (women's) and the PLDT Home Telpad-Air Force Turbo Boosters (men's) were professional volleyball teams owned by PLDT that played in the Philippine Super Liga (PSL) from 2013 to 2014. The club was first known as PLDT myDSL Speed Boosters. Keeping in mind the above text, consider: the club known as pldt speed boosters played in philipine league Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -8.452154159545898,
+            -8.492018699645996,
+            -9.048863410949707
+        ]
+    },
+    {
+        "input_text:": "The Return of the Condor Heroes, also called The Giant Eagle and Its Companion, is a wuxia novel by Jin Yong (Louis Cha). It is the second part of the \"Condor Trilogy\" and was preceded by \"The Legend of the Condor Heroes\" and followed by \"The Heaven Sword and Dragon Saber\". It was first serialised between 20 May 1959 and 5 July 1961 in the Hong Kong newspaper \"Ming Pao\". Keeping in mind the above text, consider: Jin Yong wrote The Legend of the Condor Heroes Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.738332748413086,
+            -6.408409595489502,
+            -7.509201526641846
+        ]
+    },
+    {
+        "input_text:": "Valentino D. B. Mazzia (February 17, 1922 \u2013 March 10, 1999) was an American physician who served as chairman of the department of anesthesiology at the New York University School of Medicine and was a pioneer in the forensic analysis of deaths occurring during surgical procedures. He testified in many criminal cases about the use and presence of anesthesia products in cases of death. Keeping in mind the above text, consider: Valentino D.B. Mazzia testified that anesthesia products are present in many death cases. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -8.588677406311035,
+            -7.342748165130615,
+            -11.18568229675293
+        ]
+    },
+    {
+        "input_text:": "Carl Frederik Tietgen (19 March 1829 \u2013 19 October 1901) was a Danish financier and industrialist. The founder of numerous prominent Danish companies, many of which are still in operation today, he played an important role in the industrialisation of Denmark. Notably also forming conglomerates, several of Tietgen's companies attained a monopoly-like status, which cemented their durability. Keeping in mind the above text, consider: Carl Tietgen formed conglomerates. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -7.002464294433594,
+            -5.687248229980469,
+            -7.848784923553467
+        ]
+    },
+    {
+        "input_text:": "Himson Teleda (born 28 August 1992) is a footballer comes from Solomon Islands. He plays as a midfielder for Western United FC in Solomon Islands National Club Championship. He is a member of Solomon Islands national football team. He made his debut during the 2012 OFC Nations Cup and he scored one goal against New Zealand. In stage 3 he scored one goal against Tahiti. Keeping in mind the above text, consider: Taleda is 27 years old. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -6.448769569396973,
+            -6.262021064758301,
+            -5.045706748962402
+        ]
+    },
+    {
+        "input_text:": "Col du Glandon (1924 m ) is a high mountain pass in the Dauphin\u00e9 Alps in Savoie, France, linking Le Bourg-d'Oisans to La Chambre. It is situated between the Belledonne, Grandes Rousses and Arvan-Villards mountain ranges, west of the Col de la Croix de Fer. The road over the Col du Glandon was opened in 1898, although it was not linked to the Col de la Croix de Fer until 1912. Keeping in mind the above text, consider: The road over the Col du Glandon was being constructed during 1898. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.750364780426025,
+            -7.506544589996338,
+            -7.634654998779297
+        ]
+    },
+    {
+        "input_text:": "Stephen R. \"Steve\" Bissette (born March 14, 1955) is an American comics artist, editor, and publisher with a focus on the horror genre. He is known for working with writer Alan Moore and inker John Totleben on the DC comic book \"Swamp Thing\" in the 1980s. Keeping in mind the above text, consider: Stephen R. \"Steve\" Bissette was born in the year of the goat Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.143074035644531,
+            -7.541431903839111,
+            -7.65147590637207
+        ]
+    },
+    {
+        "input_text:": "Shehzad Sheikh or Shahzad Sheikh is a Pakistani film and television actor and model, known for playing the lead role in the 2015 film \"Karachi Se Lahore\". He also starred in the series \"Annie Ki Ayegi Baraat\", \"Mi Raqsam\", and \"Mere Hamrahi\", and a TV film \"Main Kukkoo Aur woh\". He is the son of well-known actor Javed Sheikh. Keeping in mind the above text, consider: Shahzad Sheikh primarily acted in Pakistani movies. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.605813503265381,
+            -6.298435211181641,
+            -6.6044464111328125
+        ]
+    },
+    {
+        "input_text:": "The 1982 Bavarian Tennis Championships was a men's Grand Prix tennis circuit tournament held in Munich, West Germany which was played on outdoor clay courts. It was the 66th edition of the tournament and was held form 17 May through 23 May 1982. Gene Mayer won the singles title. Keeping in mind the above text, consider: Gene Mayer was in Munich before East and West Germany reunited. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -5.603179454803467,
+            -6.580121040344238,
+            -6.2682976722717285
+        ]
+    },
+    {
+        "input_text:": "Hakea microcarpa, commonly known as small-fruit hakea is a flowering plant in the family Proteaceae and is endemic to eastern Australia. It is a spreading shrub, often growing in woodlands, heathlands and near swamps in montane areas of eastern Australia. Keeping in mind the above text, consider: Hakea microcarpa is grown solely in the mountainous regions of eastern Australia. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -7.135160446166992,
+            -6.854984760284424,
+            -6.581906318664551
+        ]
+    },
+    {
+        "input_text:": "Flamingo is the debut solo studio album by American singer-songwriter and The Killers lead singer Brandon Flowers, released on September 3, 2010 by Island Records. It was recorded at Battle Born Studios in Winchester, Nevada, and Henson Recording Studios in Hollywood, California. The album debuted at number one on the UK Albums Chart. Keeping in mind the above text, consider: Brandon Flowers debut album was recorded on a hot day Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -7.5682268142700195,
+            -7.310396671295166,
+            -7.147100925445557
+        ]
+    },
+    {
+        "input_text:": "Ernest Guiraud (] ; 26 June 1837 \u2013 6 May 1892) was a French composer and music teacher born in New Orleans, Louisiana. He is best known for writing the traditional orchestral recitatives used for Bizet's opera \"Carmen\" and for Offenbach's opera \"Les contes d'Hoffmann\" (\"The Tales of Hoffmann\"). Keeping in mind the above text, consider: Ernest Guiraud spent his whole life in Louisiana Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -6.231687068939209,
+            -7.097379207611084,
+            -4.816635608673096
+        ]
+    },
+    {
+        "input_text:": "State Route 204 (SR 204) is part of Maine's system of numbered state highways, located in Hancock County. It runs from State Route 3 in Trenton, passing State Route 184 in Lamoine, and ending at the intersection with Seal Point and Marlboro Beach roads. The route is 6.5 mi long. Keeping in mind the above text, consider: State Route 204 has no cars on it ever. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -7.638027667999268,
+            -7.916663646697998,
+            -5.120665550231934
+        ]
+    },
+    {
+        "input_text:": "The 2016\u201317 ProA was the 10th season of the ProA, the second level of basketball in Germany. The champions the runners-up of the play-offs are promoted to the 2017\u201318 Basketball Bundesliga. The season started on September 22, 2016 and ended on May 7, 2017. Mitteldeutscher BC won the championship and promoted along with runners-up Oettinger Rockets. Keeping in mind the above text, consider: The 2016-17 season of ProA promoted five teams to the Basketball Bundesliga Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.20301628112793,
+            -6.839224338531494,
+            -7.925877094268799
+        ]
+    },
+    {
+        "input_text:": "Wayne Coles-Janess is an Australian producer, writer and director of drama and documentary film and TV programs. Based in Melbourne, Australia, he has produced documentaries about frontier places in the country. He has also made some documentaries in several international locations, including during times of war. Keeping in mind the above text, consider: wayne cole janess ropes cattle in western movies. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -7.354384422302246,
+            -8.014998435974121,
+            -5.710297107696533
+        ]
+    },
+    {
+        "input_text:": "Fan and Mortar Geysers are two geysers in the Upper Geyser Basin in Yellowstone National Park. For the past several decades, they have erupted in concert with one another and are generally talked about together. The records detailing these geysers' known eruptive history shows that they have been infrequent and irregular performers. Keeping in mind the above text, consider: Sanse plays home games at multiple stadiums. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.997485160827637,
+            -6.234790325164795,
+            -7.877151012420654
+        ]
+    },
+    {
+        "input_text:": "Svensk Hyllningsfest (], \"Swedish Honoring Festival\") is a biennial celebration held in Lindsborg, Kansas, in October of odd-numbered years since 1941 to celebrate the town's Swedish heritage. The festival includes Swedish dancing, foods including \"lutfisk\", cooking demonstrations, arts and crafts, entertainment by local artists and musicians, a parade, and a sm\u00f6rgsbord. Keeping in mind the above text, consider: The Svensk Hyllningsfest does not still occur today. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.716484069824219,
+            -7.994510650634766,
+            -6.52999210357666
+        ]
+    },
+    {
+        "input_text:": "The Middlewich Folk and Boat Festival takes place in June in Middlewich, Cheshire, England. The festival builds on the town's industrial heritage in which canal boats were used to move coal and other raw materials in the town for the production of salt, and then move the salt out of town, either for use directly, or as a raw material in the manufacture of chemicals such as chlorine and soda ash. Keeping in mind the above text, consider: The salt is used for sidewalks. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.918697834014893,
+            -6.842933177947998,
+            -5.569781303405762
+        ]
+    },
+    {
+        "input_text:": "Eldrid Nordb (born 12 August 1942) is a Norwegian politician for the Labour Party. She was personal secretary to the Minister of Social Affairs in 1971, state secretary to the prime minister (1986-89), and Minister of Trade and Shipping (1990-91). She is married to economist and politician Bjrn Skogstad Aamo. Keeping in mind the above text, consider: Eldrid Nordbo was personal secretary to the Minister of Social Affairs after 1971. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.697995185852051,
+            -7.42902946472168,
+            -7.252914905548096
+        ]
+    },
+    {
+        "input_text:": "Marie Hedwig Auguste of Sulzbach (German: \"Marie Hedwig Auguste von Sulzbach\" ; born: 15 April 1650 in Sulzbach; died: 23 November 1681 in Hamburg) was a Countess Palatine of Sulzbach by birth and by marriage, Archduchess of Austria and by her second marriage, Duchess of Saxe-Lauenburg. Keeping in mind the above text, consider: Marie Hedwig Auguste's husband was a duchess. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.988633155822754,
+            -6.666673183441162,
+            -6.534347057342529
+        ]
+    },
+    {
+        "input_text:": "Micropalaeosoma balticus (formerly \"Palaeosoma balticus\" ) is an extinct, fossil turbellarian flatworm known from Baltic amber of Kaliningrad, Russia, that lived approximately 40 million years ago. It measured approximately 1.5 mm in length and is the oldest and most complete flatworm fossil yet discovered. Keeping in mind the above text, consider: Micropalaeosoma balticus is common in dogs. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.4802446365356445,
+            -7.2422261238098145,
+            -5.651658058166504
+        ]
+    },
+    {
+        "input_text:": "Joseph Maurice Francis Connaughton (15 August 1918 \u2013 12 February 1944) was an English first-class cricketer active 1939 who played for Middlesex. He was born in Paddington. During World War II he was commissioned in the Royal Artillery. He was drowned off the Maldives after SS \"Khedive Ismail\" was torpedoed; and officially declared dead one year later. Keeping in mind the above text, consider: Joseph Maurice Francis Connaughton died after World War II. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.495888710021973,
+            -5.580986499786377,
+            -4.656405925750732
+        ]
+    },
+    {
+        "input_text:": "Ian Drew is Entertainment Director for American celebrity magazine, Us Weekly. He speaks about celebrities, music and fashion on television shows including CNN, Good Morning America, The Early Show, MSNBC, and Fox News. He interviewed Janet Jackson for one of Us Weekly's best-selling issues. Keeping in mind the above text, consider: Ian drew has not not appeared on CNN. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.0398688316345215,
+            -8.275118827819824,
+            -5.187950134277344
+        ]
+    },
+    {
+        "input_text:": "The Savings Bank Building is a commercial building located at 101 South Front Street in Marquette, Michigan. It is also known as the Marquette County Savings Bank. The building was designated a Michigan State Historic Site in 1976 and listed on the National Register of Historic Places in 1978. Keeping in mind the above text, consider: Michigan State has included Marquette County Savings Bank as a state historical site and the United States has included Savings Bank on the list of historic places as of 1976. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.210811614990234,
+            -7.37630033493042,
+            -5.496825218200684
+        ]
+    },
+    {
+        "input_text:": "The 18th Street Expressway (often shortened to 18th Street in everyday speech) is a freeway in Kansas City, Kansas that runs from Interstate 35 north to Interstate 70/U.S. Route 24/U.S. Route 40. It carries the U.S. Route 69 designation its entire length. Keeping in mind the above text, consider: Interstate 70 doesn't connect with Interstate 35 North Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -9.0936918258667,
+            -8.81828498840332,
+            -6.892760276794434
+        ]
+    },
+    {
+        "input_text:": "Cherry Tomato () is a 2008 South Korean film starring Shin Goo and Kim Hyang-gi. The family drama, a directorial debut by Jung Young-bae, depicts the poverty-stricken life of an old man and his granddaughter that evokes a strong sense of sympathy and helplessness. It was screened at the Busan Children\u2019s Film Festival in 2008. Keeping in mind the above text, consider: Cherry Tomato was released in 2010. Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.139489650726318,
+            -5.76079797744751,
+            -5.025693416595459
+        ]
+    },
+    {
+        "input_text:": "Identification Marks: None (Polish: Rysopis ) is a 1964 Polish drama film directed by Jerzy Skolimowski. It was the first feature film directed by Skolimowski, after the shorts \"Erotique\", \"Little Hamlet\", \"The Menacing Eye\", \"Boxing\" and \"Your Money or Your Life\". Keeping in mind the above text, consider: Jerzy Skolimowski was born in 1964 Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -5.219048976898193,
+            -6.584765911102295,
+            -4.058647632598877
+        ]
+    }
+]

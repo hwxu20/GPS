@@ -1,0 +1,736 @@
+dataset: super_glue
+subset: rte
+templates:
+  008c4283-8ba9-417a-93a7-28c5bdc86110: !Template
+    answer_choices: Yes ||| No
+    id: 008c4283-8ba9-417a-93a7-28c5bdc86110
+    jinja: '{{premise}} Is that "{{hypothesis}}" a possible reason? Yes or no? |||
+      {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  020aa22e-6a01-4683-abc9-efe0b7cb9c88: !Template
+    answer_choices: Yes ||| No
+    id: 020aa22e-6a01-4683-abc9-efe0b7cb9c88
+    jinja: '{{premise}} Based on the passage, is it true that "{{hypothesis}}"? Yes
+      or no. ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  0282d237-e35c-49ee-b0fb-34fea666b83a: !Template
+    answer_choices: Yes ||| No
+    id: 0282d237-e35c-49ee-b0fb-34fea666b83a
+    jinja: "{{premise}} \n\nQuestion: Does this imply that the \"{{hypothesis}}\"\
+      \ is true? ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  04d903b4-a925-4303-918f-658758498a7a: !Template
+    answer_choices: Yes ||| No
+    id: 04d903b4-a925-4303-918f-658758498a7a
+    jinja: Given {{premise}} Is it guaranteed true that "{{hypothesis}}" is true?
+      Yes or no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  0bc8f610-cb9d-4c55-ae45-0a61f105b694: !Template
+    answer_choices: Yes ||| No
+    id: 0bc8f610-cb9d-4c55-ae45-0a61f105b694
+    jinja: Given {{premise}} , is it guaranteed true that "{{hypothesis}}" ? Yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  1018f104-02f3-40c8-93b2-b280ed28fe2b: !Template
+    answer_choices: Yes ||| No
+    id: 1018f104-02f3-40c8-93b2-b280ed28fe2b
+    jinja: '{{premise}} Does the null "{{hypothesis}}" change in value when the variable
+      A is measured? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  1020ae41-0968-4e25-84fc-16ffd1a293b2: !Template
+    answer_choices: Yes ||| No
+    id: 1020ae41-0968-4e25-84fc-16ffd1a293b2
+    jinja: Given "{{hypothesis}}" , is it guaranteed true that {{premise}} ? Yes or
+      no? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  1384ae0d-3fe8-42bb-9ed8-cab24225d2a2: !Template
+    answer_choices: Yes ||| No
+    id: 1384ae0d-3fe8-42bb-9ed8-cab24225d2a2
+    jinja: "{{premise}} \n\nQuestion: Does this imply that \"{{hypothesis}}\"? No,\
+      \ yes, or no ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  1a56b31c-20e4-479e-86ad-cd7732595ee3: !Template
+    answer_choices: Yes ||| No
+    id: 1a56b31c-20e4-479e-86ad-cd7732595ee3
+    jinja: '{{premise}} Based on the previous passage, is it true that "{{hypothesis}}"?
+      No or yes. ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  2ebb3a4f-8dde-43b0-a196-7f1f20059bad: !Template
+    answer_choices: Yes ||| No
+    id: 2ebb3a4f-8dde-43b0-a196-7f1f20059bad
+    jinja: Given that we believe that "{{hypothesis}}" is true, should we assume {{premise}}
+      is true? Yes or no? ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif
+      %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: should assume
+    reference: Webson & Pavlick 2021
+  33263282-1e53-412c-a845-30b22b78abd5: !Template
+    answer_choices: Yes ||| No
+    id: 33263282-1e53-412c-a845-30b22b78abd5
+    jinja: "{{premise}} \n\nQuestion: If this is true, then this implies that \"{{hypothesis}}\"\
+      . ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  3719ec9d-513c-4f45-bcfc-f1b63eb5f7cd: !Template
+    answer_choices: Yes ||| No
+    id: 3719ec9d-513c-4f45-bcfc-f1b63eb5f7cd
+    jinja: "{{premise}} \n\nQuestion: If this is true, then does that imply that \"\
+      {{hypothesis}}\"? ||| {% if label != -1 %}{{answer_choices[label]}}{% endif\
+      \ %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  379e7850-5723-4cec-82c0-dbb0c27d9564: !Template
+    answer_choices: Yes ||| No
+    id: 379e7850-5723-4cec-82c0-dbb0c27d9564
+    jinja: "{{premise}} \n\nQuestion: If this is true, then this entails that \"{{hypothesis}}\"\
+      . ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  3d5daf7e-4975-4627-a245-25bb628de727: !Template
+    answer_choices: Yes ||| No
+    id: 3d5daf7e-4975-4627-a245-25bb628de727
+    jinja: '{{premise}} Based on the previous passage, is the "{{hypothesis}}" true?
+      Yes or no. ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  414b077a-d4a0-408c-b33c-1972d69c274b: !Template
+    answer_choices: Yes ||| No
+    id: 414b077a-d4a0-408c-b33c-1972d69c274b
+    jinja: Given {{premise}} , Is it guaranteed true that "{{hypothesis}}" ? Yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  452a64e6-b31c-4ea5-ad66-5ac2548da946: !Template
+    answer_choices: Yes ||| No
+    id: 452a64e6-b31c-4ea5-ad66-5ac2548da946
+    jinja: '{{premise}} Is that "{{hypothesis}}" true? And what is the evidence to
+      support it? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  471dc26d-aa3e-4438-a7a1-ed7b8adee304: !Template
+    answer_choices: Yes ||| No
+    id: 471dc26d-aa3e-4438-a7a1-ed7b8adee304
+    jinja: '{{premise}} Is that "{{hypothesis}}" true? In this case, is ''pi'' 1 or
+      0? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  5236b921-cf82-487c-a1ff-0a193fd231e7: !Template
+    answer_choices: Yes ||| No
+    id: 5236b921-cf82-487c-a1ff-0a193fd231e7
+    jinja: '{{premise}} Is that "{{hypothesis}}" true? How do you know? ||| {% if
+      label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  530d2b6c-82f9-466e-9cb9-7b93145fb785: !Template
+    answer_choices: Yes ||| No
+    id: 530d2b6c-82f9-466e-9cb9-7b93145fb785
+    jinja: "{{premise}} \n\nQuestion: Does this mean that \"{{hypothesis}}\"? Yes\
+      \ or no? ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  54d91844-a2be-475d-9b62-719979a0a54a: !Template
+    answer_choices: Yes ||| No
+    id: 54d91844-a2be-475d-9b62-719979a0a54a
+    jinja: Given {{premise}} Is it guaranteed true that "{{hypothesis}}" ? yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  56d75893-90ef-48e4-8d7c-992bf6ba0cbc: !Template
+    answer_choices: Yes ||| No
+    id: 56d75893-90ef-48e4-8d7c-992bf6ba0cbc
+    jinja: "{{premise}} \n\nQuestion: Is this the result of that \"{{hypothesis}}\"\
+      \ or not? Yes or no?? Answer: Yes or no ||| {% if label != -1 %}{{answer_choices[label]}}{%\
+      \ endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  57a615d6-0deb-4353-848b-681c72df0d6d: !Template
+    answer_choices: Yes ||| No
+    id: 57a615d6-0deb-4353-848b-681c72df0d6d
+    jinja: '{{premise}} Based on the passage, do you agree with the "{{hypothesis}}"?
+      Yes or no? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  587d7ff9-fcd2-4edd-802e-6455bb9899b0: !Template
+    answer_choices: Yes ||| No
+    id: 587d7ff9-fcd2-4edd-802e-6455bb9899b0
+    jinja: '{{premise}} Based on the previous passage, is it true that this is a "{{hypothesis}}"?
+      Yes or no. ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  5a1a9c31-b3e2-45ea-87cb-15f374b3cb38: !Template
+    answer_choices: Yes ||| No
+    id: 5a1a9c31-b3e2-45ea-87cb-15f374b3cb38
+    jinja: '{{premise}} Is that "{{hypothesis}}" true? All the way or not at all?
+      ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  5de46d80-d195-49ca-ac9b-eb5092382919: !Template
+    answer_choices: Yes ||| No
+    id: 5de46d80-d195-49ca-ac9b-eb5092382919
+    jinja: Given {{premise}} , Can you prove the "{{hypothesis}}" (A)? Yes or no |||
+      {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  64e6f57f-8656-4bf1-8fd1-4aceaeb8f61a: !Template
+    answer_choices: Yes ||| No
+    id: 64e6f57f-8656-4bf1-8fd1-4aceaeb8f61a
+    jinja: '{{premise}} Based on the previous passage, do you agree that the "{{hypothesis}}"
+      is true? Yes or no? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  714e6147-0cbe-4ce2-afbd-93be656806cf: !Template
+    answer_choices: Yes ||| No
+    id: 714e6147-0cbe-4ce2-afbd-93be656806cf
+    jinja: '{{premise}} Based on the passage, is it true that the "{{hypothesis}}"
+      is true? Yes or no? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  7fd62d35-360e-4e12-83d3-bfe3c3f83928: !Template
+    answer_choices: Yes ||| No
+    id: 7fd62d35-360e-4e12-83d3-bfe3c3f83928
+    jinja: "{{premise}} \n\nQuestion: if this is true, does this imply that \"{{hypothesis}}\"\
+      ? ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  901e673a-8e4c-449f-abca-8c8d25b42a49: !Template
+    answer_choices: Yes ||| No
+    id: 901e673a-8e4c-449f-abca-8c8d25b42a49
+    jinja: '{{premise}} That "{{hypothesis}}" is true. But is it the truth? ||| {%
+      if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  9b9c67ba-c4cf-42e0-bd52-ffb17bc4fded: !Template
+    answer_choices: Yes ||| No
+    id: 9b9c67ba-c4cf-42e0-bd52-ffb17bc4fded
+    jinja: '{{premise}} Based on the previous passage, do you believe that "{{hypothesis}}"?
+      Yes or no. ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  a3874696-c200-4f86-b7ae-37453e5555e3: !Template
+    answer_choices: Yes ||| No
+    id: a3874696-c200-4f86-b7ae-37453e5555e3
+    jinja: '{{premise}} Based on the passage above, do you agree with that "{{hypothesis}}"?
+      Yes or no? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  ad6b2889-1540-4a4e-9a20-4ec358afd622: !Template
+    answer_choices: Yes ||| No
+    id: ad6b2889-1540-4a4e-9a20-4ec358afd622
+    jinja: '{{premise}} Based on the passage, is it true that "{{hypothesis}}"? No
+      or yes? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  b3027030-28d5-431a-a93e-88c77fd14e80: !Template
+    answer_choices: Yes ||| No
+    id: b3027030-28d5-431a-a93e-88c77fd14e80
+    jinja: '{{premise}} Based on the previous passage, do you agree that the "{{hypothesis}}"
+      is correct? Yes or no? ||| {% if label !=-1 %}{{ answer_choices[label] }}{%
+      endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  b416d051-f24e-485a-8677-fec33f0f31a1: !Template
+    answer_choices: Yes ||| No
+    id: b416d051-f24e-485a-8677-fec33f0f31a1
+    jinja: "{{premise}} \n\nQuestion: Does this imply that \"{{hypothesis}}\"? No\
+      \ or yes? ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  b43e18ac-cdbf-453c-9b18-9faa492eac80: !Template
+    answer_choices: Yes ||| No
+    id: b43e18ac-cdbf-453c-9b18-9faa492eac80
+    jinja: '{{premise}} Is that "{{hypothesis}}" true? Yes or no. ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  baf6b00f-d981-473f-ac0f-79421e021475: !Template
+    answer_choices: Yes ||| No
+    id: baf6b00f-d981-473f-ac0f-79421e021475
+    jinja: Given {{premise}} is it guaranteed true that "{{hypothesis}}" ? Yes or
+      no ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  c5209a42-8742-4002-aa5c-8a8c05c19963: !Template
+    answer_choices: Yes ||| No
+    id: c5209a42-8742-4002-aa5c-8a8c05c19963
+    jinja: '{{premise}} Is that "{{hypothesis}}" true? Exactly? ||| {% if label !=-1
+      %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  c84c7008-889d-4c9f-8b47-4d7e0caaee08: !Template
+    answer_choices: Yes ||| No
+    id: c84c7008-889d-4c9f-8b47-4d7e0caaee08
+    jinja: '{{premise}} Is that an "{{hypothesis}}"? Yes or no? ||| {% if label !=-1
+      %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  c938bc87-bc13-4689-be3f-d42666c77a5c: !Template
+    answer_choices: Yes ||| No
+    id: c938bc87-bc13-4689-be3f-d42666c77a5c
+    jinja: '{{premise}} Based on the following passage, do you agree that "{{hypothesis}}"?
+      Yes or no? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  ccd409bb-789e-4cfe-8ba6-7e7302a2f4c0: !Template
+    answer_choices: Yes ||| No
+    id: ccd409bb-789e-4cfe-8ba6-7e7302a2f4c0
+    jinja: '{{premise}} Based on the previous passage, what is the evidence for that
+      "{{hypothesis}}"? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  cdd89ac1-7a89-44b0-940b-097ddff34003: !Template
+    answer_choices: Yes ||| No
+    id: cdd89ac1-7a89-44b0-940b-097ddff34003
+    jinja: '{{premise}} What are the properties of that "{{hypothesis}}"? Yes or no?
+      ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d25e2e21-c8db-4361-9269-a0952d9caa67: !Template
+    answer_choices: Yes ||| No
+    id: d25e2e21-c8db-4361-9269-a0952d9caa67
+    jinja: '{{premise}} Based on the previous passage, do you agree that the "{{hypothesis}}"?
+      Yes or no? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  d29f4542-fe85-40c9-977a-0dc436f0c5fb: !Template
+    answer_choices: Yes ||| No
+    id: d29f4542-fe85-40c9-977a-0dc436f0c5fb
+    jinja: "{{premise}} \n\nQuestion: Does this imply that \"{{hypothesis}}\"? |||\
+      \ {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  d4fc6c15-cdee-4e6b-97e3-9b631e6ed30e: !Template
+    answer_choices: Yes ||| No
+    id: d4fc6c15-cdee-4e6b-97e3-9b631e6ed30e
+    jinja: "{{premise}} \n\nQuestion: If this is true, does that imply that \"{{hypothesis}}\"\
+      ? ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  d6ba2ac6-f4fb-4b06-ac36-13d78ffb01a3: !Template
+    answer_choices: Yes ||| No
+    id: d6ba2ac6-f4fb-4b06-ac36-13d78ffb01a3
+    jinja: '{{premise}} Is that "{{hypothesis}}" true? Why or why not? ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d72e7f23-d36a-4822-b091-cc2ed34a2190: !Template
+    answer_choices: Yes ||| No
+    id: d72e7f23-d36a-4822-b091-cc2ed34a2190
+    jinja: "{{premise}} \n\nQuestion: Does this imply that \"{{hypothesis}}\"? Yes\
+      \ or no? Answer: Yes or no ||| {% if label != -1 %}{{answer_choices[label]}}{%\
+      \ endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  d895df5c-b15b-419f-8c3b-ae7c351ae8af: !Template
+    answer_choices: Yes ||| No
+    id: d895df5c-b15b-419f-8c3b-ae7c351ae8af
+    jinja: '{{premise}} Is that "{{hypothesis}}" true? A yes or a no? ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  d9d03e47-654c-4fae-83fd-d2ceb4b79a8e: !Template
+    answer_choices: Yes ||| No
+    id: d9d03e47-654c-4fae-83fd-d2ceb4b79a8e
+    jinja: '{{premise}} Based on the previous passage, is it true that that "{{hypothesis}}"?
+      No or yes? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  dddd803d-e53f-4e6a-8b0a-dba5ced3cee9: !Template
+    answer_choices: Yes ||| No
+    id: dddd803d-e53f-4e6a-8b0a-dba5ced3cee9
+    jinja: '{{premise}} Is that "{{hypothesis}}" true? Maybe or possibly? ||| {% if
+      label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: justified in saying
+    reference: Webson & Pavlick 2021
+  e241a466-ef72-49e2-b599-9228182e6fe1: !Template
+    answer_choices: Yes ||| No
+    id: e241a466-ef72-49e2-b599-9228182e6fe1
+    jinja: '{{premise}} Based on the previous passage, do you agree that that "{{hypothesis}}"
+      is correct? Yes or no? ||| {% if label !=-1 %}{{ answer_choices[label] }}{%
+      endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  e3f8cdf9-41af-4373-86aa-66c9924b61da: !Template
+    answer_choices: Yes ||| No
+    id: e3f8cdf9-41af-4373-86aa-66c9924b61da
+    jinja: '{{premise}} Based on the previous passage, is it true that "{{hypothesis}}"?
+      Yes or no? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  eb2ac4ad-627b-4387-947d-8af347ee4686: !Template
+    answer_choices: Yes ||| No
+    id: eb2ac4ad-627b-4387-947d-8af347ee4686
+    jinja: "{{premise}} \n\nIf this is true, does this imply that \"{{hypothesis}}\"\
+      ? ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  ed150b9b-d2c2-4313-a760-17521498680c: !Template
+    answer_choices: Yes ||| No
+    id: ed150b9b-d2c2-4313-a760-17521498680c
+    jinja: '{{premise}} Based on the previous passage, is it true that it is not true
+      that "{{hypothesis}}"? Yes or no. ||| {% if label !=-1 %}{{ answer_choices[label]
+      }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  f2d2dc17-0c41-46e0-9544-429f571437ba: !Template
+    answer_choices: Yes ||| No
+    id: f2d2dc17-0c41-46e0-9544-429f571437ba
+    jinja: "{{premise}} \n\nQuestion: IF this is true, does this imply that \"{{hypothesis}}\"\
+      ? ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  f314eff9-d08a-4a9c-a71b-76bbd623d819: !Template
+    answer_choices: Yes ||| No
+    id: f314eff9-d08a-4a9c-a71b-76bbd623d819
+    jinja: '{{premise}} Based on the passage, do you believe that "{{hypothesis}}"?
+      Yes or no? ||| {% if label !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  f3f24677-2d58-4a03-9349-c5191e739ae7: !Template
+    answer_choices: Yes ||| No
+    id: f3f24677-2d58-4a03-9349-c5191e739ae7
+    jinja: "{{premise}} \n\nQuestion: Does this prove that \"{{hypothesis}}\"? Yes\
+      \ or no? ||| {% if label != -1 %}{{answer_choices[label]}}{% endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  f75b3a24-2000-47e9-a8cc-caeb777598bd: !Template
+    answer_choices: Yes ||| No
+    id: f75b3a24-2000-47e9-a8cc-caeb777598bd
+    jinja: Given "{{hypothesis}}" , Is it guaranteed true that {{premise}} is true
+      ||| {% if label != -1 %}{{ answer_choices[label] }}{% endif %}
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: guaranteed true
+    reference: Webson & Pavlick 2021
+  f7a4ef7b-fd2c-41cc-bb08-508aa14b8b17: !Template
+    answer_choices: Yes ||| No
+    id: f7a4ef7b-fd2c-41cc-bb08-508aa14b8b17
+    jinja: "{{premise}} \n\nQuestion: If this is true, is this inconsistent with that\
+      \ \"{{hypothesis}}\"? ||| {% if label != -1 %}{{answer_choices[label]}}{% endif\
+      \ %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021
+  fd5357d9-8fa5-4876-a0ed-e0722c08e656: !Template
+    answer_choices: Yes ||| No
+    id: fd5357d9-8fa5-4876-a0ed-e0722c08e656
+    jinja: '{{premise}} Based on the previous passage, do you agree that the author
+      is likely to be right about the "{{hypothesis}}"? Yes or no? ||| {% if label
+      !=-1 %}{{ answer_choices[label] }}{% endif %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: based on the previous passage
+    reference: "Adapted from the BoolQ prompts in Schick & Sch\xFCtze 2021."
+  fd8a0acf-01f8-4ee0-b717-1113d36b48b0: !Template
+    answer_choices: Yes ||| No
+    id: fd8a0acf-01f8-4ee0-b717-1113d36b48b0
+    jinja: "{{premise}} \n\nQuestion: Does this imply that \"{{hypothesis}}\"? No\
+      \ or yes?? Answer: Yes or no ||| {% if label != -1 %}{{answer_choices[label]}}{%\
+      \ endif %}"
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: does this imply
+    reference: Sanh et al. 2021

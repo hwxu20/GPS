@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "The woman refused a second beer. I am hesitating between two options. Help me choose the more probable cause: - She was the designated driver for the night. - She was familiar with the bartender.",
+        "target_text": "She was the designated driver for the night.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.006409159861505032,
+            -8.785324096679688
+        ]
+    },
+    {
+        "input_text:": "The girl found the missing puzzle piece. I am hesitating between two options. Help me choose the more probable effect: - She completed the puzzle. - She took apart the puzzle.",
+        "target_text": "She completed the puzzle.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.008146430365741253,
+            -9.788440704345703
+        ]
+    },
+    {
+        "input_text:": "The tenant misplaced his keys to his apartment. I am hesitating between two options. Help me choose the more probable effect: - His landlord unlocked the door. - His landlord repaired the door.",
+        "target_text": "His landlord unlocked the door.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.005416052415966988,
+            -8.216259956359863
+        ]
+    },
+    {
+        "input_text:": "The gardener pulled the weeds. I am hesitating between two options. Help me choose the more probable effect: - The weeds came out of the soil. - The weeds produced seeds.",
+        "target_text": "The weeds came out of the soil.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.03311210870742798,
+            -5.208981037139893
+        ]
+    },
+    {
+        "input_text:": "The man went away for the weekend. I am hesitating between two options. Help me choose the more probable cause: - He wanted to relax. - He felt content.",
+        "target_text": "He wanted to relax.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.012815386056900024,
+            -6.331317901611328
+        ]
+    },
+    {
+        "input_text:": "The surfer caught the wave. I am hesitating between two options. Help me choose the more probable effect: - The wave carried her to the shore. - She paddled her board into the ocean.",
+        "target_text": "The wave carried her to the shore.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.035102199763059616,
+            -3.449528217315674
+        ]
+    },
+    {
+        "input_text:": "The man took a shower. I am hesitating between two options. Help me choose the more probable cause: - He was sweaty from working out. - He opened a new bar of soap.",
+        "target_text": "He was sweaty from working out.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0783027783036232,
+            -2.8937790393829346
+        ]
+    },
+    {
+        "input_text:": "Our group's conversation gradually lulled to silence. I am hesitating between two options. Help me choose the more probable effect: - I felt awkward. - I became enraged.",
+        "target_text": "I felt awkward.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0038066781125962734,
+            -7.110814094543457
+        ]
+    },
+    {
+        "input_text:": "The librarian located the book in the stacks. I am hesitating between two options. Help me choose the more probable cause: - I requested the librarian's help. - The book was checked out.",
+        "target_text": "I requested the librarian's help.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.45538756251335144,
+            -1.0522793531417847
+        ]
+    },
+    {
+        "input_text:": "The man felt thankful to be alive. I am hesitating between two options. Help me choose the more probable cause: - He was cured of cancer. - His wife was diagnosed with cancer.",
+        "target_text": "He was cured of cancer.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.01252736896276474,
+            -4.649325847625732
+        ]
+    },
+    {
+        "input_text:": "The offender violated parole. I am hesitating between two options. Help me choose the more probable effect: - She was sent back to jail. - She stole money from a church.",
+        "target_text": "She was sent back to jail.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.046975526958703995,
+            -12.526041984558105
+        ]
+    },
+    {
+        "input_text:": "The benefactor requested to stay anonymous. I am hesitating between two options. Help me choose the more probable cause: - He wanted to maintain his privacy. - He supported the cause behind his donation.",
+        "target_text": "He wanted to maintain his privacy.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.022650951519608498,
+            -6.153291702270508
+        ]
+    },
+    {
+        "input_text:": "The terrorist set off the bomb. I am hesitating between two options. Help me choose the more probable effect: - The bomb exploded. - The bomb was deactivated.",
+        "target_text": "The bomb exploded.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.005064912140369415,
+            -6.931782245635986
+        ]
+    },
+    {
+        "input_text:": "The man revealed personal information to the therapist. I am hesitating between two options. Help me choose the more probable cause: - He trusted the therapist. - He disagreed with the therapist.",
+        "target_text": "He trusted the therapist.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.012926089577376842,
+            -18.70647430419922
+        ]
+    },
+    {
+        "input_text:": "The man became disabled. I am hesitating between two options. Help me choose the more probable effect: - His family offered him financial support. - His family cut off contact with him.",
+        "target_text": "His family offered him financial support.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.00604894757270813,
+            -8.990863800048828
+        ]
+    },
+    {
+        "input_text:": "The man had lipstick on his cheek. I am hesitating between two options. Help me choose the more probable cause: - The woman kissed him. - The woman made him blush.",
+        "target_text": "The woman kissed him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.005800566170364618,
+            -6.743701457977295
+        ]
+    },
+    {
+        "input_text:": "My knees buckled on the stairs. I am hesitating between two options. Help me choose the more probable effect: - I caught myself on the railing. - The railing came loose from the wall.",
+        "target_text": "I caught myself on the railing.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.042416274547576904,
+            -3.6504740715026855
+        ]
+    },
+    {
+        "input_text:": "The boy pushed his sister. I am hesitating between two options. Help me choose the more probable effect: - His sister tattled on him. - They played hide and seek.",
+        "target_text": "His sister tattled on him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.02545386180281639,
+            -4.804698944091797
+        ]
+    },
+    {
+        "input_text:": "The woman filed a restraining order against the man. I am hesitating between two options. Help me choose the more probable cause: - The man called her. - The man stalked her.",
+        "target_text": "The man called her.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.714504241943359,
+            -0.002832214580848813
+        ]
+    },
+    {
+        "input_text:": "The crowd gave the band a standing ovation. I am hesitating between two options. Help me choose the more probable effect: - The band signed autographs. - The band reappeared on the stage.",
+        "target_text": "The band signed autographs.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.3137762546539307,
+            -0.11873077601194382
+        ]
+    },
+    {
+        "input_text:": "The vase broke. I am hesitating between two options. Help me choose the more probable effect: - I stenciled it. - I glued it back together.",
+        "target_text": "I stenciled it.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.3458805084228516,
+            -0.13356953859329224
+        ]
+    },
+    {
+        "input_text:": "My foot went numb. I am hesitating between two options. Help me choose the more probable effect: - I put my shoes on. - I shook my foot.",
+        "target_text": "I put my shoes on.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.1735345870256424,
+            -2.3340139389038086
+        ]
+    },
+    {
+        "input_text:": "The man dropped food on the floor. I am hesitating between two options. Help me choose the more probable effect: - His dog jumped up on him. - His dog ran over to eat the food.",
+        "target_text": "His dog jumped up on him.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.9546103477478027,
+            -0.08094481378793716
+        ]
+    },
+    {
+        "input_text:": "It got dark outside. I am hesitating between two options. Help me choose the more probable effect: - Snowflakes began to fall from the sky. - The moon became visible in the sky.",
+        "target_text": "Snowflakes began to fall from the sky.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.1318743228912354,
+            -0.4107823669910431
+        ]
+    },
+    {
+        "input_text:": "The woman received a diploma. I am hesitating between two options. Help me choose the more probable cause: - She enrolled in college. - She graduated from college.",
+        "target_text": "She enrolled in college.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.349663257598877,
+            -0.011743525043129921
+        ]
+    },
+    {
+        "input_text:": "The company lost money. I am hesitating between two options. Help me choose the more probable cause: - Its products received positive consumer reviews. - Some of its products were manufactured defectively.",
+        "target_text": "Its products received positive consumer reviews.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.821667194366455,
+            -0.08549228310585022
+        ]
+    },
+    {
+        "input_text:": "The documents contained important information. I am hesitating between two options. Help me choose the more probable effect: - I paper clipped them together. - I kept them in a secure place.",
+        "target_text": "I paper clipped them together.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.936588764190674,
+            -0.03157549723982811
+        ]
+    },
+    {
+        "input_text:": "The man looked at his watch. I am hesitating between two options. Help me choose the more probable effect: - He realized he forgot something. - He realized he was early.",
+        "target_text": "He realized he forgot something.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.206958532333374,
+            -1.092742919921875
+        ]
+    },
+    {
+        "input_text:": "The man threw out the bread. I am hesitating between two options. Help me choose the more probable cause: - It was fresh. - It was stale.",
+        "target_text": "It was fresh.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.243680000305176,
+            -0.042463723570108414
+        ]
+    },
+    {
+        "input_text:": "The patient underwent the risky medical procedure. I am hesitating between two options. Help me choose the more probable cause: - The procedure was costly. - Specialists recommended the procedure.",
+        "target_text": "The procedure was costly.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.577003002166748,
+            -0.005771050229668617
+        ]
+    },
+    {
+        "input_text:": "The woman's makeup smeared. I am hesitating between two options. Help me choose the more probable cause: - She brushed her hair. - She wiped her eyes.",
+        "target_text": "She brushed her hair.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.8138766288757324,
+            -0.19259336590766907
+        ]
+    },
+    {
+        "input_text:": "The police officer dropped the gun. I am hesitating between two options. Help me choose the more probable effect: - The gun recoiled. - The gun went off.",
+        "target_text": "The gun recoiled.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.2731873989105225,
+            -0.054126426577568054
+        ]
+    },
+    {
+        "input_text:": "My daughter suffered an allergy attack. I am hesitating between two options. Help me choose the more probable effect: - I encouraged her to take deep breaths. - I took her to the emergency room.",
+        "target_text": "I encouraged her to take deep breaths.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.9762815237045288,
+            -0.1552378535270691
+        ]
+    }
+]

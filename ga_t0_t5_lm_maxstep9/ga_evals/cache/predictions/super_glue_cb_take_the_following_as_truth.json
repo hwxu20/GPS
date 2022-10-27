@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Take the following as truth: Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy. You could also say he was driven there by the railway. Then the following statement: \"Gustave was driven to creative retreat in Croisset by the railway\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.261911392211914,
+            -3.841064453125,
+            -7.310250282287598
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Jane ate without pausing. Hunger was an unknown experience. She had never imagined it could actually hurt. Then the following statement: \"hunger could actually hurt\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.3425662517547607,
+            -5.490819454193115,
+            -8.802709579467773
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. Then the following statement: \"Miss Lavant was in love with Dr Greenslade\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.5663076639175415,
+            -6.513101100921631,
+            -9.06456184387207
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: It was a complex language. Not written down but handed down. One might say it was peeled down. Then the following statement: \"the language was peeled down\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.523967981338501,
+            -5.240418434143066,
+            -7.489344596862793
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: At length she decided that there was nothing to be gained by worrying her. Probably there was some quite innocent explanation, which Roger Kenyon would give her when she returned the wallet - if, indeed, it were his. And yet why had his manner changed so abruptly when he learned that the girl whose hat he had rescued was going to live at Sunset Cottage? Then the following statement: \"the girl whose hat Roger Kenyon had rescued was going to live at Sunset Cottage\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.699601650238037,
+            -6.657042026519775,
+            -9.150546073913574
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: A: Oh, oh yeah, and every time you see one hit on the side of the road you say is that my cat. B: Uh-huh. A: And you go crazy thinking it might be yours. B: Right, well I didn't realize my husband was such a sucker for animals until I brought one home one night. Then the following statement: \"her husband was such a sucker for animals\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.7417625188827515,
+            -4.575183868408203,
+            -7.956614971160889
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: The Susweca. It means dragonfly'' in Sioux, you know. Did I ever tell you that's where Paul and I met? Then the following statement: \"Susweca is where she and Paul met\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6878160238265991,
+            -4.441373348236084,
+            -7.829484462738037
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Richard Breeden hadn't noticed that his new desk had just four telephone lines and one phone. Then the following statement: \"Richard Breeden's new desk had just four telephone lines and one phone\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.3571209907531738,
+            -5.037628173828125,
+            -7.7726874351501465
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: B: Yeah, and the ground will filter some of it but not all of it. A: No, not when you figure, I didn't realize one cow produces that much manure Then the following statement: \"one cow produces that much manure\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -3.1218557357788086,
+            -5.4636311531066895,
+            -8.430581092834473
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Paula could not help herself. It was just the way she was. Others might say they hated her and mean it. Then the following statement: \"others hated Paula\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.2861862182617188,
+            -4.970897674560547,
+            -7.656686782836914
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: I wanted to tell you. But the Bookman asked me to keep our meeting a secret.'' How did you know I 'd met him? Then the following statement: \"he had met the Bookman\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.3513147830963135,
+            -4.95001220703125,
+            -7.20479154586792
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: But don't dilly-dally for too long. Once it's published we are all going to look a little risible if we have made no adjustments to what is after all known as being predominantly my own design of gallery. Also I am a bit older than the rest of you but you can perhaps understand that I don't want to drop dead without a proper and public recantation. Then the following statement: \"he doesn't want to drop dead without a proper and public recantation\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.57098126411438,
+            -5.702642917633057,
+            -9.63217544555664
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: How do you know? she was going to ask, but his smile was answer enough. If DeVore said there was going to be a vacancy there would be a vacancy. Then the following statement: \"there was going to be a vacancy\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.7257208824157715,
+            -5.588284492492676,
+            -8.330649375915527
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened. Then the following statement: \"something had happened\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.3122763633728027,
+            -6.421335220336914,
+            -8.65048885345459
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: But the damage was done as far as my faith was concerned, which is probably why I went mad. So anyway, that Christmas Eve night confirmed my worst fears, it was like a kind of royal flush'' for the infant Jimbo. All three kings - Pa Santa and the King of Kings - all down the pan together... And to be honest I don't believe any of them stands a chance of ever making a comeback with me. Then the following statement: \"any of the three kings stands a chance of ever making a comeback with him\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -3.2042665481567383,
+            -3.612804412841797,
+            -8.369354248046875
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: B: And as far as like them, uh, entertaining the rights that they should have. A: Uh-huh. B: I mean, we educate them, we feed them, we take care of them and they no sooner get out on the street and they're back in again. A: Uh-huh. B: I'm not saying they're all bad, Then the following statement: \"they're all bad\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.75748610496521,
+            -3.1722583770751953,
+            -7.159731388092041
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: B: Uh, I have, uh, I guess a lot of thoughts about the Vietnam War, um, I guess I feel like I was pretty young while it was going on and so there's probably a lot of things I remember and a lot of things that I really didn't have a clue as to what was happening. B: Yeah. A: Um, looking back, like maybe some of the things that I know now, I'm not sure I do believe it was worth the cost in dollars and lives. That was one of the questions that she asked us to think about, because we never went to war. I don't think we were committed to winning it and getting out Then the following statement: \"they were committed to winning the Vietnam War and getting out\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.493396043777466,
+            -1.6946204900741577,
+            -6.835256099700928
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: B: I did, too. A: I mean, it was just more for my money. B: Yeah. I didn't think it was too long at all. Then the following statement: \"it was too long\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.672560691833496,
+            -2.0879883766174316,
+            -6.311675071716309
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: B: Uh, uh, I've had one or two American cars I think, and they were okay. I had a Pontiac once and I never had a problem with it, but, uh, my mother had a Dodge at one point and I had driven it a few times and I really did not feel that I would buy a Dodge just from, A: Um. B: well, actually, I had uh, a Dodge Omni at one point A: Uh-huh. B: and that was, I think, what really prejudiced me against American cars because I did not feel that it was a very quality, uh, car. Then the following statement: \"the Dodge Omni was a very quality car\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.499448776245117,
+            -0.9515592455863953,
+            -7.169821262359619
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: B: they did things for people, you know, for their communities, for their, uh, families, for their friends, where now, I'm not sure they really do. A: Yes. Yeah. Well, I think sometimes through groups and organizations, um, uh, when they asked the question I thought, well that sounds wonderful. And then, I wondered if people were unwilling but I think even if you went in with a negative attitude I don't think it would stay negative very long. Then the following statement: \"that attitude would stay negative very long\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.9165728092193604,
+            -3.029630422592163,
+            -7.794985771179199
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: A: Well, presumably those who find out such information, if they are doing it, I would prefer to not to be known, and, I mean, you know, the classic, oh, I don't know C I conspiracy theories or whatever, would have such parties trying to do it without your knowledge. So there's,, things that invade that second type of privacy where you do know about them and possibly things that invade that second type of privacy without you knowing about it, and I can't talk about the second one other than to generate paranoia. It's a surmise and, I'd like to think that it's quite low, at least in this country. B: to surmise. It is there. A: I don't think I'd like the KGB monitoring my phone or anything like that. Then the following statement: \"he would like the KGB monitoring his phone\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.687150478363037,
+            -2.3094968795776367,
+            -8.210182189941406
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: He had seen something I should have, which was a car turning in from Soho Square and coming up behind me. My right foot hovered over the accelerator pedal and I balanced Armstrong on the clutch. I wasn't as convinced as Malpass that Nevil was out of harm's way. Then the following statement: \"Nevil was out of harm's way\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.7958147525787354,
+            -3.6948821544647217,
+            -8.239596366882324
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: He's weird enough to have undressed me without thinking, according to some mad notion of the proper'' thing to do. Perhaps he thought I couldn't lie in bed with my clothes on. Then the following statement: \"she couldn't lie in bed with her clothes on\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.911146640777588,
+            -4.987387180328369,
+            -8.641355514526367
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: B: That might be kind of tough, huh. A: It really would, yes, yes, and like I said, my sister's still in it, and I really don't think my mother'd want to be there, either. Then the following statement: \"his mother would want to be there\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.4636292457580566,
+            -3.095224618911743,
+            -7.461410045623779
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: A: Yeah, that's crazy. B: and then you come here in the Dallas area, um, I don't believe that people should be allowed to carry guns in their vehicles. Then the following statement: \"people should be allowed to carry guns in their vehicles\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.51593542098999,
+            -2.50830078125,
+            -7.280004978179932
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: A: and then once they do get elected, they don't have the power or the authority or the willingness to do those things that they promised, you know, beforehand. B: Right. A: You know, maybe it just wasn't possible at all in the first place, you know, like the no new taxes thing. You know, that's, uh, with the economy going the way it is and everything, that was nearly ridiculous thing to, even try to do. B: Yeah. Yeah. Well, I don't think he's going to have to worry about that next year. Then the following statement: \"he's going to have to worry about that next year\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.4512555599212646,
+            -5.097568035125732,
+            -9.402027130126953
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: B: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah. Uh-huh. Uh-huh. B: I don't think it's going to be that easy to come up with Then the following statement: \"it is going to be that easy to come up with\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.9264488220214844,
+            -3.5237860679626465,
+            -8.710577011108398
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: A: Uh, well, it would depend on when you go it's not excessively crowded on the weekends. B: See I'd want to be there in the mornings like from nine thirty to ten thirty. A: Oh, I don't think that would be bad at all. Then the following statement: \"that would be bad\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.9860000610351562,
+            -2.3559317588806152,
+            -7.395505905151367
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: A: That's fairly interesting. B: I bet that would be, rather interesting. Uh, that's, uh, self improvement, well, that's kind of a hobby but it is self improvement from the standpoint of probably relaxing, uh. A: Yeah, I don't know that I read anything strictly labeled self improvement. Then the following statement: \"she reads anything strictly labeled self improvement\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -2.4175989627838135,
+            -3.24226975440979,
+            -7.162911891937256
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: B: Now see I. A: I'm intrigued by it, but I'm not sure I want to go see it yet. B: Yeah, I don't think I want to see that either. Then the following statement: \"she wants to see that\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.557569980621338,
+            -2.7354159355163574,
+            -6.624228477478027
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs. Then the following statement: \"Celia was still a bit hazy from the drugs\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -2.373934745788574,
+            -5.608246326446533,
+            -8.71825122833252
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate. Then the following statement: \"TV is pretty accurate\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -2.3214797973632812,
+            -4.348444938659668,
+            -7.413406848907471
+        ]
+    },
+    {
+        "input_text:": "Take the following as truth: B: and both of those seem very easy to use compared to D Base. A: Uh-huh. Do you think D Base is more flexible or allows you to do more. Or do you think the others are pretty much compatible these days? Then the following statement: \"the others are pretty much compatible these days\" is true, false, or inconclusive?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -3.6035828590393066,
+            -3.902806520462036,
+            -7.64463996887207
+        ]
+    }
+]

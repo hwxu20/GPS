@@ -1,0 +1,322 @@
+[
+    {
+        "input_text:": "Is this word \"extend\" in these two sentences a separate thing? Can we extend the legs of this dining table? Extend the TV antenna.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -8.023221015930176,
+            -7.08424186706543
+        ]
+    },
+    {
+        "input_text:": "Is this word \"catch\" in these two sentences a separate thing? Did you catch that allusion? I have to catch a train at 7 o'clock.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.498527526855469,
+            -6.6438679695129395
+        ]
+    },
+    {
+        "input_text:": "Is this word \"finish\" in these two sentences a separate thing? The car's finish was so shiny and new. \"Almost an inspiration which gives to all work that finish which is almost art\" -- Joseph Conrad.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.6415696144104,
+            -7.493695259094238
+        ]
+    },
+    {
+        "input_text:": "Is this word \"flood\" in these two sentences a separate thing? Flood the market with tennis shoes. The images flooded his mind.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.662919521331787,
+            -6.744100570678711
+        ]
+    },
+    {
+        "input_text:": "Is this word \"lie\" in these two sentences a separate thing? Lie dormant. The snow lies on the roof.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -8.552648544311523,
+            -9.301185607910156
+        ]
+    },
+    {
+        "input_text:": "Is this word \"recognition\" in these two sentences a separate thing? He was unable to make his motion because he couldn't get recognition by the chairman. Increasing recognition that diabetes frequently coexists with other chronic diseases.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -8.805996894836426,
+            -8.831718444824219
+        ]
+    },
+    {
+        "input_text:": "Is this word \"build\" in these two sentences a separate thing? Build up confidence. The contractor builds houses for $100.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.95688533782959,
+            -6.915245532989502
+        ]
+    },
+    {
+        "input_text:": "Is this word \"point\" in these two sentences a separate thing? They sailed south around the point. A row of points.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.493409156799316,
+            -7.290920257568359
+        ]
+    },
+    {
+        "input_text:": "Is this word \"try\" in these two sentences a separate thing? You are trying my patience. Try the yak butter.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -9.669596672058105,
+            -11.204748153686523
+        ]
+    },
+    {
+        "input_text:": "Is this word \"break\" in these two sentences a separate thing? Break cigarette smoking. His peccadilloes finally broke his marriage.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -8.061066627502441,
+            -9.025762557983398
+        ]
+    },
+    {
+        "input_text:": "Is this word \"direction\" in these two sentences a separate thing? Is the direction of the economy a function of government? I couldn't follow the direction of his thoughts.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -6.5541157722473145,
+            -8.796055793762207
+        ]
+    },
+    {
+        "input_text:": "Is this word \"check\" in these two sentences a separate thing? Please check each name on the list. She checked for an instant and missed a step.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -7.433590888977051,
+            -6.898172855377197
+        ]
+    },
+    {
+        "input_text:": "Is this word \"hollow\" in these two sentences a separate thing? The hollow of the hand or of a tree. He built himself a cabin in a hollow high up in the Rockies.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.242493152618408,
+            -7.33743143081665
+        ]
+    },
+    {
+        "input_text:": "Is this word \"point\" in these two sentences a separate thing? We should meet at a pre-arranged point. They sailed south around the point.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.8967695236206055,
+            -7.257030487060547
+        ]
+    },
+    {
+        "input_text:": "Is this word \"light\" in these two sentences a separate thing? Put that light out! The light of my life.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -7.568389415740967,
+            -8.85875129699707
+        ]
+    },
+    {
+        "input_text:": "Is this word \"split\" in these two sentences a separate thing? He inserted the wedge into a split in the log. He demanded his split before they disbanded.",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -8.844929695129395,
+            -9.976909637451172
+        ]
+    },
+    {
+        "input_text:": "Is this word \"take\" in these two sentences a separate thing? I'll take that plate off the table. Take these letters to the boss.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.034303665161133,
+            -6.805975914001465
+        ]
+    },
+    {
+        "input_text:": "Is this word \"process\" in these two sentences a separate thing? This product of last month's quality standards committee is quite good, even though the process was flawed. The process of calcification begins later for boys than for girls.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -8.626577377319336,
+            -9.88685131072998
+        ]
+    },
+    {
+        "input_text:": "Is this word \"support\" in these two sentences a separate thing? The president no longer has the support of his own party. They developed a scheme of mutual support.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -9.562027931213379,
+            -9.36068344116211
+        ]
+    },
+    {
+        "input_text:": "Is this word \"occur\" in these two sentences a separate thing? Precious stones occur in a large area in Brazil. Sexism occurs in many workplaces.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.025518417358398,
+            -6.3125739097595215
+        ]
+    },
+    {
+        "input_text:": "Is this word \"call\" in these two sentences a separate thing? Why don't you call me in the morning? Why don't you call tomorrow?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.474017143249512,
+            -8.053949356079102
+        ]
+    },
+    {
+        "input_text:": "Is this word \"focus\" in these two sentences a separate thing? Please focus on your studies and not on your hobbies. We focused on it.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.371461868286133,
+            -5.522685527801514
+        ]
+    },
+    {
+        "input_text:": "Is this word \"run\" in these two sentences a separate thing? He went to Las Vegas and spent all his money over a three-day run. I'm having a run of bad luck.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -7.093760967254639,
+            -8.735960960388184
+        ]
+    },
+    {
+        "input_text:": "Is this word \"mine\" in these two sentences a separate thing? This diamond comes from a mine in South Africa. He came out of the coal mine with a face covered in black.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.376669406890869,
+            -7.310638427734375
+        ]
+    },
+    {
+        "input_text:": "Is this word \"plug\" in these two sentences a separate thing? Plug the hole. He attempted to plug the leaks with some caulk.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.553366184234619,
+            -6.3968400955200195
+        ]
+    },
+    {
+        "input_text:": "Is this word \"mean\" in these two sentences a separate thing? I didn't mean to knock your tooth out. I mean to go to Baddeck this summer.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -9.407944679260254,
+            -12.383543014526367
+        ]
+    },
+    {
+        "input_text:": "Is this word \"carry\" in these two sentences a separate thing? I carry her image in my mind's eye. I carry a lot of life insurance.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.38829517364502,
+            -7.8886823654174805
+        ]
+    },
+    {
+        "input_text:": "Is this word \"come\" in these two sentences a separate thing? Come down here! Come out of the closet!",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.604826927185059,
+            -6.267697334289551
+        ]
+    },
+    {
+        "input_text:": "Is this word \"advance\" in these two sentences a separate thing? To advance the ripening of fruit. To advance one's interests.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.749381065368652,
+            -8.292202949523926
+        ]
+    },
+    {
+        "input_text:": "Is this word \"indication\" in these two sentences a separate thing? An indication of foul play. Indications of strain.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.586488723754883,
+            -5.848386764526367
+        ]
+    },
+    {
+        "input_text:": "Is this word \"check\" in these two sentences a separate thing? I will check up on the car tomorrow. Check out the engine.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.131563663482666,
+            -5.893154621124268
+        ]
+    },
+    {
+        "input_text:": "Is this word \"exercise\" in these two sentences a separate thing? Some parents exercise their infants. This puzzle will exercise your mind.",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.094386577606201,
+            -5.4242963790893555
+        ]
+    }
+]

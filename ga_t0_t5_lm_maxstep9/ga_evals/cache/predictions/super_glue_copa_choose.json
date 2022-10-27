@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "The woman refused a second beer. because... Choose between the best answer and the worst answer: - She was the designated driver for the night. - She was familiar with the bartender.",
+        "target_text": "She was the designated driver for the night.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.008267329074442387,
+            -7.745912075042725
+        ]
+    },
+    {
+        "input_text:": "The girl found the missing puzzle piece. so... Choose between the best answer and the worst answer: - She completed the puzzle. - She took apart the puzzle.",
+        "target_text": "She completed the puzzle.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.01006457768380642,
+            -8.443222999572754
+        ]
+    },
+    {
+        "input_text:": "The tenant misplaced his keys to his apartment. so... Choose between the best answer and the worst answer: - His landlord unlocked the door. - His landlord repaired the door.",
+        "target_text": "His landlord unlocked the door.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.006593751721084118,
+            -6.434704303741455
+        ]
+    },
+    {
+        "input_text:": "The gardener pulled the weeds. so... Choose between the best answer and the worst answer: - The weeds came out of the soil. - The weeds produced seeds.",
+        "target_text": "The weeds came out of the soil.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.596744954586029,
+            -3.199169158935547
+        ]
+    },
+    {
+        "input_text:": "The man went away for the weekend. because... Choose between the best answer and the worst answer: - He wanted to relax. - He felt content.",
+        "target_text": "He wanted to relax.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.00894167460501194,
+            -5.906826972961426
+        ]
+    },
+    {
+        "input_text:": "The surfer caught the wave. so... Choose between the best answer and the worst answer: - The wave carried her to the shore. - She paddled her board into the ocean.",
+        "target_text": "The wave carried her to the shore.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.04670771583914757,
+            -3.197986364364624
+        ]
+    },
+    {
+        "input_text:": "The man took a shower. because... Choose between the best answer and the worst answer: - He was sweaty from working out. - He opened a new bar of soap.",
+        "target_text": "He was sweaty from working out.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.012967247515916824,
+            -7.384265422821045
+        ]
+    },
+    {
+        "input_text:": "Our group's conversation gradually lulled to silence. so... Choose between the best answer and the worst answer: - I felt awkward. - I became enraged.",
+        "target_text": "I felt awkward.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.002973295981064439,
+            -6.638011455535889
+        ]
+    },
+    {
+        "input_text:": "The librarian located the book in the stacks. because... Choose between the best answer and the worst answer: - I requested the librarian's help. - The book was checked out.",
+        "target_text": "I requested the librarian's help.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2442740797996521,
+            -2.1665470600128174
+        ]
+    },
+    {
+        "input_text:": "The man felt thankful to be alive. because... Choose between the best answer and the worst answer: - He was cured of cancer. - His wife was diagnosed with cancer.",
+        "target_text": "He was cured of cancer.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.18490354716777802,
+            -1.795316219329834
+        ]
+    },
+    {
+        "input_text:": "The offender violated parole. so... Choose between the best answer and the worst answer: - She was sent back to jail. - She stole money from a church.",
+        "target_text": "She was sent back to jail.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.030841609463095665,
+            -8.251786231994629
+        ]
+    },
+    {
+        "input_text:": "The benefactor requested to stay anonymous. because... Choose between the best answer and the worst answer: - He wanted to maintain his privacy. - He supported the cause behind his donation.",
+        "target_text": "He wanted to maintain his privacy.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.011012366972863674,
+            -7.863341331481934
+        ]
+    },
+    {
+        "input_text:": "The terrorist set off the bomb. so... Choose between the best answer and the worst answer: - The bomb exploded. - The bomb was deactivated.",
+        "target_text": "The bomb exploded.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.004346228204667568,
+            -7.35738468170166
+        ]
+    },
+    {
+        "input_text:": "The man revealed personal information to the therapist. because... Choose between the best answer and the worst answer: - He trusted the therapist. - He disagreed with the therapist.",
+        "target_text": "He trusted the therapist.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.008059214800596237,
+            -19.06869125366211
+        ]
+    },
+    {
+        "input_text:": "The man became disabled. so... Choose between the best answer and the worst answer: - His family offered him financial support. - His family cut off contact with him.",
+        "target_text": "His family offered him financial support.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.4118916988372803,
+            -0.2828616797924042
+        ]
+    },
+    {
+        "input_text:": "The man had lipstick on his cheek. because... Choose between the best answer and the worst answer: - The woman kissed him. - The woman made him blush.",
+        "target_text": "The woman kissed him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.011010070331394672,
+            -5.155910015106201
+        ]
+    },
+    {
+        "input_text:": "My knees buckled on the stairs. so... Choose between the best answer and the worst answer: - I caught myself on the railing. - The railing came loose from the wall.",
+        "target_text": "I caught myself on the railing.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4239526689052582,
+            -1.9610458612442017
+        ]
+    },
+    {
+        "input_text:": "The boy pushed his sister. so... Choose between the best answer and the worst answer: - His sister tattled on him. - They played hide and seek.",
+        "target_text": "His sister tattled on him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2506893277168274,
+            -1.6432791948318481
+        ]
+    },
+    {
+        "input_text:": "The woman filed a restraining order against the man. because... Choose between the best answer and the worst answer: - The man called her. - The man stalked her.",
+        "target_text": "The man called her.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.916614532470703,
+            -0.0016695746453478932
+        ]
+    },
+    {
+        "input_text:": "The crowd gave the band a standing ovation. so... Choose between the best answer and the worst answer: - The band signed autographs. - The band reappeared on the stage.",
+        "target_text": "The band signed autographs.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.212969779968262,
+            -0.14827553927898407
+        ]
+    },
+    {
+        "input_text:": "The vase broke. so... Choose between the best answer and the worst answer: - I stenciled it. - I glued it back together.",
+        "target_text": "I stenciled it.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.1651225090026855,
+            -0.026101697236299515
+        ]
+    },
+    {
+        "input_text:": "My foot went numb. so... Choose between the best answer and the worst answer: - I put my shoes on. - I shook my foot.",
+        "target_text": "I put my shoes on.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.824321985244751,
+            -0.1383906751871109
+        ]
+    },
+    {
+        "input_text:": "The man dropped food on the floor. so... Choose between the best answer and the worst answer: - His dog jumped up on him. - His dog ran over to eat the food.",
+        "target_text": "His dog jumped up on him.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.256701946258545,
+            -0.01857827417552471
+        ]
+    },
+    {
+        "input_text:": "It got dark outside. so... Choose between the best answer and the worst answer: - Snowflakes began to fall from the sky. - The moon became visible in the sky.",
+        "target_text": "Snowflakes began to fall from the sky.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.0442605018615723,
+            -0.05829684063792229
+        ]
+    },
+    {
+        "input_text:": "The woman received a diploma. because... Choose between the best answer and the worst answer: - She enrolled in college. - She graduated from college.",
+        "target_text": "She enrolled in college.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.688931941986084,
+            -0.005561209283769131
+        ]
+    },
+    {
+        "input_text:": "The company lost money. because... Choose between the best answer and the worst answer: - Its products received positive consumer reviews. - Some of its products were manufactured defectively.",
+        "target_text": "Its products received positive consumer reviews.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.926692008972168,
+            -0.003790040500462055
+        ]
+    },
+    {
+        "input_text:": "The documents contained important information. so... Choose between the best answer and the worst answer: - I paper clipped them together. - I kept them in a secure place.",
+        "target_text": "I paper clipped them together.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.1455464363098145,
+            -0.025452081114053726
+        ]
+    },
+    {
+        "input_text:": "The man looked at his watch. so... Choose between the best answer and the worst answer: - He realized he forgot something. - He realized he was early.",
+        "target_text": "He realized he forgot something.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.24631929397583,
+            -0.7113490104675293
+        ]
+    },
+    {
+        "input_text:": "The man threw out the bread. because... Choose between the best answer and the worst answer: - It was fresh. - It was stale.",
+        "target_text": "It was fresh.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.185873508453369,
+            -0.008757291361689568
+        ]
+    },
+    {
+        "input_text:": "The patient underwent the risky medical procedure. because... Choose between the best answer and the worst answer: - The procedure was costly. - Specialists recommended the procedure.",
+        "target_text": "The procedure was costly.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.70229721069336,
+            -0.0027899108827114105
+        ]
+    },
+    {
+        "input_text:": "The woman's makeup smeared. because... Choose between the best answer and the worst answer: - She brushed her hair. - She wiped her eyes.",
+        "target_text": "She brushed her hair.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.9588983058929443,
+            -0.0984124168753624
+        ]
+    },
+    {
+        "input_text:": "The police officer dropped the gun. so... Choose between the best answer and the worst answer: - The gun recoiled. - The gun went off.",
+        "target_text": "The gun recoiled.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.6112263202667236,
+            -0.05972453951835632
+        ]
+    },
+    {
+        "input_text:": "My daughter suffered an allergy attack. so... Choose between the best answer and the worst answer: - I encouraged her to take deep breaths. - I took her to the emergency room.",
+        "target_text": "I encouraged her to take deep breaths.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5940000414848328,
+            -0.8279521465301514
+        ]
+    }
+]

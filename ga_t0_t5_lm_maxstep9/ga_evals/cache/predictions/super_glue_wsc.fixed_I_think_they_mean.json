@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "I put the cake away in the refrigerator. It has a lot of butter in it. I think they mean \"the refrigerator has a lot of butter in it.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3697161078453064,
+            -1.191474199295044
+        ]
+    },
+    {
+        "input_text:": "Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: \"There's plenty.\" I think they mean \"Tatyana guests. Now Tatyana watched as Grandma gatTatyanaed Tatyana's small motTatyana into a wide, scrawny embrace and then propelled Tatyana to the table, lifting Tatyana shawl from Tatyana shoulders, seating Tatyana in the place of honor, and saying simply: \"TTatyanae's plenty.\"\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.05885807424783707,
+            -2.945152521133423
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. I think they mean \"mothers ran away.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.04020415246486664,
+            -3.505936622619629
+        ]
+    },
+    {
+        "input_text:": "Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned. I think they mean \"Bob was very concerned.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.27939945459365845,
+            -1.5028235912322998
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had bought from him didn't work. I think they mean \"Tom had bought from him didn't work.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5748537182807922,
+            -0.8667026162147522
+        ]
+    },
+    {
+        "input_text:": "This book introduced Shakespeare to Goethe ; it was a fine selection of his writing. I think they mean \"Goethe writing.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3140474855899811,
+            -1.3150171041488647
+        ]
+    },
+    {
+        "input_text:": "The city councilmen refused the demonstrators a permit because they feared violence. I think they mean \"the demonstrators feared violence.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.24822495877742767,
+            -2.1713638305664062
+        ]
+    },
+    {
+        "input_text:": "The fish ate the worm. It was hungry. I think they mean \"the worm was hungry.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.48229819536209106,
+            -0.9784570336341858
+        ]
+    },
+    {
+        "input_text:": "The firemen arrived after the police because they were coming from so far away. I think they mean \"the police were coming from so far away.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.16553257405757904,
+            -1.9541277885437012
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs dangled. I think they mean \"Ollie legs dangled.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.274922251701355,
+            -0.33827176690101624
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. I think they mean \"mothers back, but they scold mothers just the same because they ran away.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5646700859069824,
+            -0.9361557960510254
+        ]
+    },
+    {
+        "input_text:": "Susan knows all about Ann's personal problems because she is nosy. I think they mean \"Ann is nosy.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.05405975505709648,
+            -3.394447088241577
+        ]
+    },
+    {
+        "input_text:": "Mary tucked her daughter Anne into bed, so that she could sleep. I think they mean \"Mary could sleep.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.23298326134681702,
+            -1.5854169130325317
+        ]
+    },
+    {
+        "input_text:": "Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years. I think they mean \"Cooper had been travelling for five years.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.006086742039769888,
+            -5.309447765350342
+        ]
+    },
+    {
+        "input_text:": "Emma did not pass the ball to Janie although she was open. I think they mean \"Emma was open.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5869833827018738,
+            -0.9698935151100159
+        ]
+    },
+    {
+        "input_text:": "The cat was lying by the mouse hole waiting for the mouse, but it was too impatient. I think they mean \"the mouse was too impatient.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.25999122858047485,
+            -1.502697229385376
+        ]
+    },
+    {
+        "input_text:": "Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical. I think they mean \"Mark should have been more skeptical.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.07731913030147552,
+            -2.9778618812561035
+        ]
+    },
+    {
+        "input_text:": "In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it removed. I think they mean \"the roof removed.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3352554142475128,
+            -1.3984328508377075
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs ached. I think they mean \"Tommy legs ached.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.36635175347328186,
+            -1.204344630241394
+        ]
+    },
+    {
+        "input_text:": "The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone. I think they mean \"The sun was gone.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6263595223426819,
+            -0.8872604966163635
+        ]
+    },
+    {
+        "input_text:": "Jane knocked on Susan's door but she did not answer. I think they mean \"Jane did not answer.\" Yes or no?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2429703325033188,
+            -1.7183371782302856
+        ]
+    },
+    {
+        "input_text:": "Emma's mother had died long ago, and her place had been taken by an excellent woman as governess. I think they mean \"Emma's mother place had been taken by an excellent woman as governess.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.887523889541626,
+            -0.17141157388687134
+        ]
+    },
+    {
+        "input_text:": "Jackson was greatly influenced by Arnold, though he lived two centuries earlier. I think they mean \"Arnold lived two centuries earlier.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4023500084877014,
+            -1.1193835735321045
+        ]
+    },
+    {
+        "input_text:": "Ann asked Mary what time the library closes, but she had forgotten. I think they mean \"Mary had forgotten.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.7802081108093262,
+            -0.6482652425765991
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. I think they mean \"politicians must make rules to regulate them.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.2876615524291992,
+            -0.5542213320732117
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had sold him didn't work. I think they mean \"Tom had sold him didn't work.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.2623467445373535,
+            -0.36090075969696045
+        ]
+    },
+    {
+        "input_text:": "The sculpture rolled off the shelf because it wasn't level. I think they mean \"the shelf wasn't level.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.117109775543213,
+            -0.41778603196144104
+        ]
+    },
+    {
+        "input_text:": "The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time. I think they mean \"the stars were very cooperative, so the interview lasted for a long time.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.2551069259643555,
+            -0.17436210811138153
+        ]
+    },
+    {
+        "input_text:": "Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it. I think they mean \"Pam's parents were furious about it.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.7717714309692383,
+            -0.2759878933429718
+        ]
+    },
+    {
+        "input_text:": "Mark was close to Mr. Singer's heels. He heard him calling for the captain, promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over. I think they mean \"Mr. Singer calling for the captain, promising Mr. Singer, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.06670079380273819,
+            -2.8949694633483887
+        ]
+    },
+    {
+        "input_text:": "I took the water bottle out of the backpack so that it would be handy. I think they mean \"the water bottle would be handy.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.7327845096588135,
+            -0.2318643480539322
+        ]
+    },
+    {
+        "input_text:": "John couldn't see the stage with Billy in front of him because he is so short. I think they mean \"John is so short.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.6835348010063171,
+            -0.7721349596977234
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. I think they mean \"settlers.\" Yes or no?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.6932171583175659,
+            -0.7438435554504395
+        ]
+    }
+]

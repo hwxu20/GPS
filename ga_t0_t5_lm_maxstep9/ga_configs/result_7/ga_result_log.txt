@@ -1,0 +1,2 @@
+task	work?	base_best_score	ga_prompts_score
+winogrande/winogrande_xl	True	0.6667	0.6970,0.6970,0.6970,0.6667,0.6667

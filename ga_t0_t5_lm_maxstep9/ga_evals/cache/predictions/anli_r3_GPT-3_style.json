@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. Question: You can be hired by passing a psychological test. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.16790416836738586,
+            -5.986861228942871,
+            -1.9022446870803833
+        ]
+    },
+    {
+        "input_text:": "Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. Question: I was pregnant during at least one meeting True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.03450458124279976,
+            -7.495984077453613,
+            -3.4420812129974365
+        ]
+    },
+    {
+        "input_text:": "Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. Question: Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.19447237253189087,
+            -7.568972587585449,
+            -1.7503831386566162
+        ]
+    },
+    {
+        "input_text:": "Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. Question: Dookie is still alive. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6963782906532288,
+            -4.291279315948486,
+            -0.7229766249656677
+        ]
+    },
+    {
+        "input_text:": "Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. Question: The robbers get away from Reba by running away. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2925328314304352,
+            -7.365901947021484,
+            -1.3853107690811157
+        ]
+    },
+    {
+        "input_text:": "NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) Question: Crude futures experienced losses this week. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.13658855855464935,
+            -9.395218849182129,
+            -2.069505453109741
+        ]
+    },
+    {
+        "input_text:": "Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. Question: the church dedication was in 1824 True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -0.9162778258323669,
+            -5.319308280944824,
+            -0.5260465741157532
+        ]
+    },
+    {
+        "input_text:": "Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. Question: Bruce Larson quit drag racing for quite sometime True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.11954949051141739,
+            -7.0430908203125,
+            -2.2004261016845703
+        ]
+    },
+    {
+        "input_text:": "How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). Question: Basic rules of soccer are decided upon by more than 1 member of IFAB True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.17299512028694153,
+            -6.827132701873779,
+            -1.865525484085083
+        ]
+    },
+    {
+        "input_text:": "The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). Question: The Sounds have, at present, had less than four dozen coaches. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -1.1795060634613037,
+            -6.457693576812744,
+            -0.3706887662410736
+        ]
+    },
+    {
+        "input_text:": "Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. Question: Anna use her camera in her photography class True, False, or Neither?",
+        "target_text": "True",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.41528981924057007,
+            -6.590088367462158,
+            -1.0954089164733887
+        ]
+    },
+    {
+        "input_text:": "Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. Question: Tina enjoys being on the water. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4327205419540405,
+            -6.114445686340332,
+            -1.0599647760391235
+        ]
+    },
+    {
+        "input_text:": "How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. Question: She wnats to copy her hairstyle. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -0.8684474229812622,
+            -6.10599946975708,
+            -0.5612953901290894
+        ]
+    },
+    {
+        "input_text:": "Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. Question: Alvin's wife is immoral. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -0.7386947274208069,
+            -5.416142463684082,
+            -0.6695647835731506
+        ]
+    },
+    {
+        "input_text:": "Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. Question: The narrator and Milosevic met on GeoCities, and their wives know each other. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.1467719078063965,
+            -7.4294281005859375,
+            -0.12620092928409576
+        ]
+    },
+    {
+        "input_text:": "Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. Question: fish food has a s True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.282629370689392,
+            -6.804213047027588,
+            -0.3439651429653168
+        ]
+    },
+    {
+        "input_text:": "How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. Question: Bankruptcy can always be avoided. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5439078211784363,
+            -4.630293369293213,
+            -0.9029157757759094
+        ]
+    },
+    {
+        "input_text:": "Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! Question: Scott did not get along with his boss True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -0.8297948837280273,
+            -5.926619529724121,
+            -0.587600588798523
+        ]
+    },
+    {
+        "input_text:": "Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. Question: Seth creates new levels in the game without any help from his brothers. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4706118702888489,
+            -5.916865825653076,
+            -0.993518054485321
+        ]
+    },
+    {
+        "input_text:": "How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. Question: Herding dogs is a bigger group than Border collies. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.7295432090759277,
+            -5.903041362762451,
+            -0.2002103626728058
+        ]
+    },
+    {
+        "input_text:": "How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. Question: Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5339897274971008,
+            -4.857813835144043,
+            -0.9436914324760437
+        ]
+    },
+    {
+        "input_text:": "How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. Question: Red leaf lettuce must always be eaten with salad True, False, or Neither?",
+        "target_text": "True",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.8504290580749512,
+            -5.6704583168029785,
+            -0.180386483669281
+        ]
+    },
+    {
+        "input_text:": "Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. Question: Clint had a dream where someone told him to build a Pac-Man arcade cabinet. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.51027250289917,
+            -6.28866720199585,
+            -0.2559990882873535
+        ]
+    },
+    {
+        "input_text:": "Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. Question: Dan is in a wheelchair True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.153688430786133,
+            -4.956234455108643,
+            -0.13879811763763428
+        ]
+    },
+    {
+        "input_text:": "Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. Question: Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.0309431552886963,
+            -5.848755836486816,
+            -0.14834049344062805
+        ]
+    },
+    {
+        "input_text:": "But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? Question: 40,00 people with lose their union True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.42197659611701965,
+            -7.682936668395996,
+            -1.071623682975769
+        ]
+    },
+    {
+        "input_text:": "Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. Question: The Marple TV show used the same stories as the Marple book series. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -0.7222627401351929,
+            -5.7104878425598145,
+            -0.6780989170074463
+        ]
+    },
+    {
+        "input_text:": "\"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. Question: Dead Yakuza chose money over life. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.73944354057312,
+            -5.764583587646484,
+            -0.07345861196517944
+        ]
+    },
+    {
+        "input_text:": "And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. Question: The speaker would like it if the troops were withdrawn immediately. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.2339487075805664,
+            -5.503983020782471,
+            -0.3533364236354828
+        ]
+    },
+    {
+        "input_text:": "Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. Question: Benny was encouraged to continue True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.0778753757476807,
+            -6.643274784088135,
+            -0.13838247954845428
+        ]
+    },
+    {
+        "input_text:": "How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. Question: Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.3846213817596436,
+            -6.801065921783447,
+            -0.10234066098928452
+        ]
+    },
+    {
+        "input_text:": "How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. Question: The house will clean itself. True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.3364219665527344,
+            -5.047874927520752,
+            -0.11734259873628616
+        ]
+    },
+    {
+        "input_text:": "Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. Question: Joseph enjoyed the cake True, False, or Neither?",
+        "target_text": "True",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.1679747104644775,
+            -5.472646236419678,
+            -0.0507267601788044
+        ]
+    }
+]

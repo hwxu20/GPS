@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Given Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy. You could also say he was driven there by the railway. and \"Gustave was driven to creative retreat in Croisset by the railway\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7698825597763062,
+            -1.1037296056747437,
+            -2.948256254196167
+        ]
+    },
+    {
+        "input_text:": "Given Jane ate without pausing. Hunger was an unknown experience. She had never imagined it could actually hurt. and \"hunger could actually hurt\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.4555187225341797,
+            -1.4865769147872925,
+            -2.0239272117614746
+        ]
+    },
+    {
+        "input_text:": "Given They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. and \"Miss Lavant was in love with Dr Greenslade\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2597058117389679,
+            -2.2618331909179688,
+            -3.0305943489074707
+        ]
+    },
+    {
+        "input_text:": "Given It was a complex language. Not written down but handed down. One might say it was peeled down. and \"the language was peeled down\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2401900738477707,
+            -2.88632869720459,
+            -2.615222454071045
+        ]
+    },
+    {
+        "input_text:": "Given At length she decided that there was nothing to be gained by worrying her. Probably there was some quite innocent explanation, which Roger Kenyon would give her when she returned the wallet - if, indeed, it were his. And yet why had his manner changed so abruptly when he learned that the girl whose hat he had rescued was going to live at Sunset Cottage? and \"the girl whose hat Roger Kenyon had rescued was going to live at Sunset Cottage\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.47507989406585693,
+            -1.6279497146606445,
+            -2.6739256381988525
+        ]
+    },
+    {
+        "input_text:": "Given A: Oh, oh yeah, and every time you see one hit on the side of the road you say is that my cat. B: Uh-huh. A: And you go crazy thinking it might be yours. B: Right, well I didn't realize my husband was such a sucker for animals until I brought one home one night. and \"her husband was such a sucker for animals\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5382128357887268,
+            -1.7749181985855103,
+            -1.6761176586151123
+        ]
+    },
+    {
+        "input_text:": "Given The Susweca. It means dragonfly'' in Sioux, you know. Did I ever tell you that's where Paul and I met? and \"Susweca is where she and Paul met\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2847115695476532,
+            -3.429124116897583,
+            -3.439626932144165
+        ]
+    },
+    {
+        "input_text:": "Given Richard Breeden hadn't noticed that his new desk had just four telephone lines and one phone. and \"Richard Breeden's new desk had just four telephone lines and one phone\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2566816806793213,
+            -2.626016855239868,
+            -2.464871644973755
+        ]
+    },
+    {
+        "input_text:": "Given B: Yeah, and the ground will filter some of it but not all of it. A: No, not when you figure, I didn't realize one cow produces that much manure and \"one cow produces that much manure\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7849741578102112,
+            -1.9967862367630005,
+            -1.6920616626739502
+        ]
+    },
+    {
+        "input_text:": "Given Paula could not help herself. It was just the way she was. Others might say they hated her and mean it. and \"others hated Paula\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7377368807792664,
+            -1.281834363937378,
+            -1.9234901666641235
+        ]
+    },
+    {
+        "input_text:": "Given I wanted to tell you. But the Bookman asked me to keep our meeting a secret.'' How did you know I 'd met him? and \"he had met the Bookman\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.2049763202667236,
+            -2.2437846660614014,
+            -2.303436279296875
+        ]
+    },
+    {
+        "input_text:": "Given But don't dilly-dally for too long. Once it's published we are all going to look a little risible if we have made no adjustments to what is after all known as being predominantly my own design of gallery. Also I am a bit older than the rest of you but you can perhaps understand that I don't want to drop dead without a proper and public recantation. and \"he doesn't want to drop dead without a proper and public recantation\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6303503513336182,
+            -2.941195249557495,
+            -1.2281429767608643
+        ]
+    },
+    {
+        "input_text:": "Given How do you know? she was going to ask, but his smile was answer enough. If DeVore said there was going to be a vacancy there would be a vacancy. and \"there was going to be a vacancy\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.36269962787628174,
+            -2.8763110637664795,
+            -3.049712657928467
+        ]
+    },
+    {
+        "input_text:": "Given Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened. and \"something had happened\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9698840379714966,
+            -0.9966704845428467,
+            -1.801391839981079
+        ]
+    },
+    {
+        "input_text:": "Given But the damage was done as far as my faith was concerned, which is probably why I went mad. So anyway, that Christmas Eve night confirmed my worst fears, it was like a kind of royal flush'' for the infant Jimbo. All three kings - Pa Santa and the King of Kings - all down the pan together... And to be honest I don't believe any of them stands a chance of ever making a comeback with me. and \"any of the three kings stands a chance of ever making a comeback with him\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.023190498352051,
+            -0.42029038071632385,
+            -2.2159643173217773
+        ]
+    },
+    {
+        "input_text:": "Given B: And as far as like them, uh, entertaining the rights that they should have. A: Uh-huh. B: I mean, we educate them, we feed them, we take care of them and they no sooner get out on the street and they're back in again. A: Uh-huh. B: I'm not saying they're all bad, and \"they're all bad\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.3989779949188232,
+            -0.17776347696781158,
+            -2.5542654991149902
+        ]
+    },
+    {
+        "input_text:": "Given B: Uh, I have, uh, I guess a lot of thoughts about the Vietnam War, um, I guess I feel like I was pretty young while it was going on and so there's probably a lot of things I remember and a lot of things that I really didn't have a clue as to what was happening. B: Yeah. A: Um, looking back, like maybe some of the things that I know now, I'm not sure I do believe it was worth the cost in dollars and lives. That was one of the questions that she asked us to think about, because we never went to war. I don't think we were committed to winning it and getting out and \"they were committed to winning the Vietnam War and getting out\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.3295655250549316,
+            -0.2041534185409546,
+            -2.4278042316436768
+        ]
+    },
+    {
+        "input_text:": "Given B: I did, too. A: I mean, it was just more for my money. B: Yeah. I didn't think it was too long at all. and \"it was too long\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.0189156532287598,
+            -0.31694963574409485,
+            -1.5990196466445923
+        ]
+    },
+    {
+        "input_text:": "Given B: Uh, uh, I've had one or two American cars I think, and they were okay. I had a Pontiac once and I never had a problem with it, but, uh, my mother had a Dodge at one point and I had driven it a few times and I really did not feel that I would buy a Dodge just from, A: Um. B: well, actually, I had uh, a Dodge Omni at one point A: Uh-huh. B: and that was, I think, what really prejudiced me against American cars because I did not feel that it was a very quality, uh, car. and \"the Dodge Omni was a very quality car\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.938241004943848,
+            -0.026708805933594704,
+            -4.100883483886719
+        ]
+    },
+    {
+        "input_text:": "Given B: they did things for people, you know, for their communities, for their, uh, families, for their friends, where now, I'm not sure they really do. A: Yes. Yeah. Well, I think sometimes through groups and organizations, um, uh, when they asked the question I thought, well that sounds wonderful. And then, I wondered if people were unwilling but I think even if you went in with a negative attitude I don't think it would stay negative very long. and \"that attitude would stay negative very long\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.3206214904785156,
+            -0.1827850341796875,
+            -2.1650052070617676
+        ]
+    },
+    {
+        "input_text:": "Given A: Well, presumably those who find out such information, if they are doing it, I would prefer to not to be known, and, I mean, you know, the classic, oh, I don't know C I conspiracy theories or whatever, would have such parties trying to do it without your knowledge. So there's,, things that invade that second type of privacy where you do know about them and possibly things that invade that second type of privacy without you knowing about it, and I can't talk about the second one other than to generate paranoia. It's a surmise and, I'd like to think that it's quite low, at least in this country. B: to surmise. It is there. A: I don't think I'd like the KGB monitoring my phone or anything like that. and \"he would like the KGB monitoring his phone\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.724113941192627,
+            -0.26199978590011597,
+            -2.9599993228912354
+        ]
+    },
+    {
+        "input_text:": "Given He had seen something I should have, which was a car turning in from Soho Square and coming up behind me. My right foot hovered over the accelerator pedal and I balanced Armstrong on the clutch. I wasn't as convinced as Malpass that Nevil was out of harm's way. and \"Nevil was out of harm's way\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.350242018699646,
+            -0.7180883884429932,
+            -1.8169833421707153
+        ]
+    },
+    {
+        "input_text:": "Given He's weird enough to have undressed me without thinking, according to some mad notion of the proper'' thing to do. Perhaps he thought I couldn't lie in bed with my clothes on. and \"she couldn't lie in bed with her clothes on\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.8462480306625366,
+            -1.492759108543396,
+            -2.028712749481201
+        ]
+    },
+    {
+        "input_text:": "Given B: That might be kind of tough, huh. A: It really would, yes, yes, and like I said, my sister's still in it, and I really don't think my mother'd want to be there, either. and \"his mother would want to be there\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.957206964492798,
+            -0.46534568071365356,
+            -1.4747897386550903
+        ]
+    },
+    {
+        "input_text:": "Given A: Yeah, that's crazy. B: and then you come here in the Dallas area, um, I don't believe that people should be allowed to carry guns in their vehicles. and \"people should be allowed to carry guns in their vehicles\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.2759644985198975,
+            -0.42557600140571594,
+            -1.728270411491394
+        ]
+    },
+    {
+        "input_text:": "Given A: and then once they do get elected, they don't have the power or the authority or the willingness to do those things that they promised, you know, beforehand. B: Right. A: You know, maybe it just wasn't possible at all in the first place, you know, like the no new taxes thing. You know, that's, uh, with the economy going the way it is and everything, that was nearly ridiculous thing to, even try to do. B: Yeah. Yeah. Well, I don't think he's going to have to worry about that next year. and \"he's going to have to worry about that next year\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.9646621942520142,
+            -1.2276009321212769,
+            -1.0122716426849365
+        ]
+    },
+    {
+        "input_text:": "Given B: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah. Uh-huh. Uh-huh. B: I don't think it's going to be that easy to come up with and \"it is going to be that easy to come up with\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.253297805786133,
+            -0.6610780358314514,
+            -1.7844678163528442
+        ]
+    },
+    {
+        "input_text:": "Given A: Uh, well, it would depend on when you go it's not excessively crowded on the weekends. B: See I'd want to be there in the mornings like from nine thirty to ten thirty. A: Oh, I don't think that would be bad at all. and \"that would be bad\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.086744785308838,
+            -0.2321222573518753,
+            -1.9446333646774292
+        ]
+    },
+    {
+        "input_text:": "Given A: That's fairly interesting. B: I bet that would be, rather interesting. Uh, that's, uh, self improvement, well, that's kind of a hobby but it is self improvement from the standpoint of probably relaxing, uh. A: Yeah, I don't know that I read anything strictly labeled self improvement. and \"she reads anything strictly labeled self improvement\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.7146273851394653,
+            -0.8198477625846863,
+            -1.4934018850326538
+        ]
+    },
+    {
+        "input_text:": "Given B: Now see I. A: I'm intrigued by it, but I'm not sure I want to go see it yet. B: Yeah, I don't think I want to see that either. and \"she wants to see that\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.7637431621551514,
+            -0.5207709670066833,
+            -1.3720371723175049
+        ]
+    },
+    {
+        "input_text:": "Given Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs. and \"Celia was still a bit hazy from the drugs\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.6356754899024963,
+            -2.3876025676727295,
+            -1.1186847686767578
+        ]
+    },
+    {
+        "input_text:": "Given A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate. and \"TV is pretty accurate\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.8501984477043152,
+            -1.3695098161697388,
+            -1.485955834388733
+        ]
+    },
+    {
+        "input_text:": "Given B: and both of those seem very easy to use compared to D Base. A: Uh-huh. Do you think D Base is more flexible or allows you to do more. Or do you think the others are pretty much compatible these days? and \"the others are pretty much compatible these days\", can a conclusion be inferred about the proposition? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -2.589385986328125,
+            -0.48519274592399597,
+            -2.1872665882110596
+        ]
+    }
+]

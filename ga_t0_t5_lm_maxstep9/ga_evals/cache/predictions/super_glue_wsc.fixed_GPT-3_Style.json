@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "Passage: I put the cake away in the refrigerator. It has a lot of butter in it. Question: Is the pronoun \"It\" refers to the refrigerator? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.131819009780884,
+            -3.1939334869384766
+        ]
+    },
+    {
+        "input_text:": "Passage: Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: \"There's plenty.\" Question: Is the pronoun \"her\" refers to Tatyana? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.301252007484436,
+            -2.957390546798706
+        ]
+    },
+    {
+        "input_text:": "Passage: The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. Question: Is the pronoun \"they\" refers to mothers? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -3.1754157543182373,
+            -0.8260119557380676
+        ]
+    },
+    {
+        "input_text:": "Passage: Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned. Question: Is the pronoun \"He\" refers to Bob? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.189969539642334,
+            -2.245915412902832
+        ]
+    },
+    {
+        "input_text:": "Passage: Frank was upset with Tom because the toaster he had bought from him didn't work. Question: Is the pronoun \"he\" refers to Tom? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.35772705078125,
+            -1.7056442499160767
+        ]
+    },
+    {
+        "input_text:": "Passage: This book introduced Shakespeare to Goethe ; it was a fine selection of his writing. Question: Is the pronoun \"his\" refers to Goethe? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.8434425592422485,
+            -2.0739026069641113
+        ]
+    },
+    {
+        "input_text:": "Passage: The city councilmen refused the demonstrators a permit because they feared violence. Question: Is the pronoun \"they\" refers to the demonstrators? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.510944128036499,
+            -2.0158894062042236
+        ]
+    },
+    {
+        "input_text:": "Passage: The fish ate the worm. It was hungry. Question: Is the pronoun \"It\" refers to the worm? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.0744214057922363,
+            -3.2794673442840576
+        ]
+    },
+    {
+        "input_text:": "Passage: The firemen arrived after the police because they were coming from so far away. Question: Is the pronoun \"they\" refers to the police? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.0387656688690186,
+            -3.362745761871338
+        ]
+    },
+    {
+        "input_text:": "Passage: As Ollie carried Tommy up the long winding steps, his legs dangled. Question: Is the pronoun \"his\" refers to Ollie? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.8680224418640137,
+            -1.6869983673095703
+        ]
+    },
+    {
+        "input_text:": "Passage: The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. Question: Is the pronoun \"them\" refers to mothers? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.8952984809875488,
+            -1.0960583686828613
+        ]
+    },
+    {
+        "input_text:": "Passage: Susan knows all about Ann's personal problems because she is nosy. Question: Is the pronoun \"she\" refers to Ann? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6970469355583191,
+            -1.8341739177703857
+        ]
+    },
+    {
+        "input_text:": "Passage: Mary tucked her daughter Anne into bed, so that she could sleep. Question: Is the pronoun \"she\" refers to Mary? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.1796387434005737,
+            -1.7881028652191162
+        ]
+    },
+    {
+        "input_text:": "Passage: Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years. Question: Is the pronoun \"he\" refers to Cooper? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.32809561491012573,
+            -2.169407367706299
+        ]
+    },
+    {
+        "input_text:": "Passage: Emma did not pass the ball to Janie although she was open. Question: Is the pronoun \"she\" refers to Emma? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.969933271408081,
+            -1.5217279195785522
+        ]
+    },
+    {
+        "input_text:": "Passage: The cat was lying by the mouse hole waiting for the mouse, but it was too impatient. Question: Is the pronoun \"it\" refers to the mouse? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.4505765438079834,
+            -3.36963152885437
+        ]
+    },
+    {
+        "input_text:": "Passage: Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical. Question: Is the pronoun \"He\" refers to Mark? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.4388525485992432,
+            -3.055147409439087
+        ]
+    },
+    {
+        "input_text:": "Passage: In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it removed. Question: Is the pronoun \"it\" refers to the roof? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -2.1176936626434326,
+            -3.039634943008423
+        ]
+    },
+    {
+        "input_text:": "Passage: As Ollie carried Tommy up the long winding steps, his legs ached. Question: Is the pronoun \"his\" refers to Tommy? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.8683773279190063,
+            -1.1617153882980347
+        ]
+    },
+    {
+        "input_text:": "Passage: The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone. Question: Is the pronoun \"it\" refers to The sun? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.8097034692764282,
+            -1.0477585792541504
+        ]
+    },
+    {
+        "input_text:": "Passage: Jane knocked on Susan's door but she did not answer. Question: Is the pronoun \"she\" refers to Jane? Answer:",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.0961750745773315,
+            -3.861013174057007
+        ]
+    },
+    {
+        "input_text:": "Passage: Emma's mother had died long ago, and her place had been taken by an excellent woman as governess. Question: Is the pronoun \"her\" refers to Emma's mother? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.6345802545547485,
+            -0.8519919514656067
+        ]
+    },
+    {
+        "input_text:": "Passage: Jackson was greatly influenced by Arnold, though he lived two centuries earlier. Question: Is the pronoun \"he\" refers to Arnold? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.2874841690063477,
+            -1.3761708736419678
+        ]
+    },
+    {
+        "input_text:": "Passage: Ann asked Mary what time the library closes, but she had forgotten. Question: Is the pronoun \"she\" refers to Mary? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.512350559234619,
+            -0.6781503558158875
+        ]
+    },
+    {
+        "input_text:": "Passage: The politicians far away in Washington could not know the settlers so they must make rules to regulate them. Question: Is the pronoun \"they\" refers to politicians? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.022095203399658,
+            -0.7251784801483154
+        ]
+    },
+    {
+        "input_text:": "Passage: Frank was upset with Tom because the toaster he had sold him didn't work. Question: Is the pronoun \"he\" refers to Tom? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.052473545074463,
+            -1.9473764896392822
+        ]
+    },
+    {
+        "input_text:": "Passage: The sculpture rolled off the shelf because it wasn't level. Question: Is the pronoun \"it\" refers to the shelf? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.9593791961669922,
+            -2.3820343017578125
+        ]
+    },
+    {
+        "input_text:": "Passage: The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time. Question: Is the pronoun \"They\" refers to the stars? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.1654324531555176,
+            -0.6371328234672546
+        ]
+    },
+    {
+        "input_text:": "Passage: Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it. Question: Is the pronoun \"They\" refers to Pam's parents? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.1208722591400146,
+            -0.5945889353752136
+        ]
+    },
+    {
+        "input_text:": "Passage: Mark was close to Mr. Singer's heels. He heard him calling for the captain, promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over. Question: Is the pronoun \"him\" refers to Mr. Singer? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.4931273460388184,
+            -0.21357972919940948
+        ]
+    },
+    {
+        "input_text:": "Passage: I took the water bottle out of the backpack so that it would be handy. Question: Is the pronoun \"it\" refers to the water bottle? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.6411521434783936,
+            -0.5373952388763428
+        ]
+    },
+    {
+        "input_text:": "Passage: John couldn't see the stage with Billy in front of him because he is so short. Question: Is the pronoun \"he\" refers to John? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.492372751235962,
+            -0.6767383813858032
+        ]
+    },
+    {
+        "input_text:": "Passage: The politicians far away in Washington could not know the settlers so they must make rules to regulate them. Question: Is the pronoun \"them\" refers to settlers? Answer:",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.418111801147461,
+            -2.5299041271209717
+        ]
+    }
+]

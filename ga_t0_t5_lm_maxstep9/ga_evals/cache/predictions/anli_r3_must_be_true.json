@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Given that the \"You can be hired by passing a psychological test.\" then, if the How to pass a psychological test for a jobbr>Think about the job requirements. As the job market becomes increasingly competitive, the hiring process is becoming more complex. More and more companies are turning to psychological (or personality) assessments to determine whether someone is the right fit for the job. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6771845817565918,
+            -1.55239999294281,
+            -2.3217694759368896
+        ]
+    },
+    {
+        "input_text:": "Given that the \"I was pregnant during at least one meeting\" then, if the Okay. Some of the -- I attended a lot of meetings, so facts blur together. What I do recall, I -- as my husband said yesterday, I was pregnant at the time, so I have some reason to remember certain things. But I recall Barrie Callahan speaking about the textbook. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7779998183250427,
+            -1.0037739276885986,
+            -1.9715327024459839
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Domestic markets for cigarettes in American were reduced in the 1990s but it seems American companies that sell tobacco had gained a high profit.\" then, if the Although the domestic markets for cigarettes in America in the 1990s was greatly reduced due to bans on advertising, smoking in public places and health warnings, American tobacco companies were showing a higher profit. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7689409255981445,
+            -2.349275588989258,
+            -1.806535243988037
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Dookie is still alive.\" then, if the Dookie (1933-?) or Rozavel Golden Eagle was a Pembroke Welsh Corgi bought in 1933 by King George VI and was the first of many Welsh Corgis to join the Royal Family. The dog was especially popular with Queen Elizabeth II, who has since owned over thirty corgis. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6667085886001587,
+            -2.14393949508667,
+            -1.8316041231155396
+        ]
+    },
+    {
+        "input_text:": "Given that the \"The robbers get away from Reba by running away. \" then, if the Reba gets robbedbr>Reba is walking down the street. She gets mugged. Her purse is taken and her watch. She tries running after them. She cannot catch them and they get away. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -1.1799880266189575,
+            -1.6925028562545776,
+            -0.9471547603607178
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Crude futures experienced losses this week.\" then, if the NEW YORK, Oct 5 (Reuters) - Brent crude futures fell on Friday and posted a small loss for the week as a fragile global economy countered any support from a better-than-expected U.S. employment report, North Sea crude cargo delays and the threat of supply disruptions due to Middle East turmoil. Brent November crude fell 56 cents, or 0.50 percent, to settle at $112.02 a barrel, having traded from $110.54 to $113.05. For the week, Brent prices fell 37 cents or 0.33 percent. (Reporting by Robert Gibbons) is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.553100049495697,
+            -2.948152542114258,
+            -3.3837122917175293
+        ]
+    },
+    {
+        "input_text:": "Given that the \"the church dedication was in 1824\" then, if the Chiesa di Sant'Andrea (Serravalle) is a church located in Serravalle, San Marino. It was built in 1824 over the ancient walls of the former city. It belongs to the Roman Catholic Diocese of San Marino-Montefeltro. It was built in 1824. The church was dedicated to St. Andrew and the Virgin Mary. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4152904748916626,
+            -2.954080104827881,
+            -1.462494134902954
+        ]
+    },
+    {
+        "input_text:": "Given that the \" Bruce Larson quit drag racing for quite sometime\" then, if the Bruce Larson is a retired American drag racer from Camp Hill, Pennsylvania. He became nationally known for his match races. He quit drag racing during the early 1980s. He returned in 1985 on the National Hot Rod Association (NHRA) Funny Car tour and won the 1989 NHRA Funny Car championship. Larson is remembered for his red, white, and blue USA-1 Chevrolet Camaros. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.15062029659748077,
+            -2.9866414070129395,
+            -3.165694236755371
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Basic rules of soccer are decided upon by more than 1 member of IFAB\" then, if the How to be a soccer goaliebr>Learn the basic rules of soccer. Before you can develop yourself into a goalie, you should know the rules of soccer. These rules and regulations are discussed by and decided upon by the international football association board (ifab), which is a committee within the f\u00e9d\u00e9ration internationale de football association (fifa). is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.8276023864746094,
+            -1.6979480981826782,
+            -1.497545838356018
+        ]
+    },
+    {
+        "input_text:": "Given that the \"The Sounds have, at present, had less than four dozen coaches.\" then, if the The Nashville Sounds Minor League Baseball team has employed 43 coaches since its establishment in Nashville, Tennessee, in the 1978 season. Of these, 22 have been pitching coaches and 21 have been hitting coaches. As of the 2017 season, the Sounds' coaches are Eric Martins (hitting) and Rick Rodriguez (pitching). is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7219837307929993,
+            -2.480687141418457,
+            -2.2692084312438965
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Anna use her camera in her photography class\" then, if the Anna the Photographerbr>Anna really wanted to be a photographer. She had an artistic eye and took decent photos. She knew she needed to improve her skills, though. Anna enrolled in a photography class. After saving up for a nice camera, she booked her first photo shoot. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4543670415878296,
+            -2.1512157917022705,
+            -1.7475985288619995
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Tina enjoys being on the water.\" then, if the Back on the ferrybr>Tina had to go back on the ferry. Her vacation was coming to an end. So she was excited about it. When she went home she told her friends about it. They then wanted to go themselves. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.939367413520813,
+            -2.364868640899658,
+            -0.2958081066608429
+        ]
+    },
+    {
+        "input_text:": "Given that the \"She wnats to copy her hairstyle.\" then, if the How to look like whitney port from \" the hills \"br>Whitney has long \" beach \" blonde hair with platinum blonde highlights. So you can try to copy her hairstyle by doing so. If you can just try to grow it long. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.3397026062011719,
+            -1.3411219120025635,
+            -1.3410357236862183
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Alvin's wife is immoral.\" then, if the Doorbr>Alvin opened the door. He surprised his Wife. His wife had a visitor. His name was Frank. His wife was cheating on him with Frank. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.2668204307556152,
+            -1.50680673122406,
+            -1.0602929592132568
+        ]
+    },
+    {
+        "input_text:": "Given that the \"The narrator and Milosevic met on GeoCities, and their wives know each other.\" then, if the Well, I've been kind of a hard-liner on this issue for more than eight years. When I was in the senate before I became vice president I was pushing for stronger action against Milosevic. He caused the death of so many people. He was the last communist party boss there and then he became a dictator that by some other label he was still essentially a communist dictator. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.8193392753601074,
+            -2.1122796535491943,
+            -0.5792250633239746
+        ]
+    },
+    {
+        "input_text:": "Given that the \"fish food has a s\" then, if the Beta Fishbr>I fed my betta fish today. I grabbed the fish food. I poured fish food in the tank. My fish swam to the top of the tank. My fish at the fish food. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4996902644634247,
+            -2.7522804737091064,
+            -1.2752292156219482
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Bankruptcy can always be avoided.\" then, if the How to avoid bankruptcybr>Total your monthly expenses. The easiest way to avoid bankruptcy is to pay off your debts by coming up with a budget. Begin by going through your monthly expenses. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.8357597589492798,
+            -1.8476250171661377,
+            -1.6354167461395264
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Scott did not get along with his boss\" then, if the Phone Repairbr>Scott worked at the cell phone repair shop. One day, his boss brought him a totally destroyed phone. Scott worked hard to try and fix it. He put everything into place and got the phone working. He handed the phone back to a very happy customer! is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.8096259832382202,
+            -1.731896996498108,
+            -0.48005154728889465
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Seth creates new levels in the game without any help from his brothers. \" then, if the Gaming is funbr>Seth loves video games. He plays them most days after school. His favorite video game is Little Big Planet. In the game he builds his own levels. He has fun playing those levels with his brothers. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.2355974912643433,
+            -2.4107704162597656,
+            -0.6662623286247253
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Herding dogs is a bigger group than Border collies.\" then, if the How to choose a dog breed good at fetchbr>Pick a border collie for a highly trainable dog. Border collies and other herding dogs are playful, smart, and energetic. Most will love to fetch and spend hours playing if you let them. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.508685827255249,
+            -0.8489617705345154,
+            -1.1042871475219727
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Google chrome can make your life easier but you should make google your search engine of choice and your homepage by following these instructions. \" then, if the How to make google your homepage on chromebr>Click on the chrome menu icon. Doing so will cause a drop-down menu to appear. [substeps] The menu icon is a small button with three horizontal lines. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.8677595853805542,
+            -1.692152738571167,
+            -2.4928951263427734
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Red leaf lettuce must always be eaten with salad\" then, if the How to choose the healthiest salad greensbr>Look for low-calorie greens. If your idea of healthy is synonymous with low in calories, you might choose red leaf lettuce. This lettuce, like all varieties of lettuce, is mostly water. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.0345141887664795,
+            -2.253448963165283,
+            -0.8754270076751709
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Clint had a dream where someone told him to build a Pac-Man arcade cabinet.\" then, if the Retro Gamingbr>Clint loved playing classic games from the 1980s. His dream was to own an original Pac-Man arcade cabinet. His family built him a replica for his birthday. Clint loved it and thanked his family profusely. Inside Clint felt a pang of ingratitude at it being inauthentic. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.4123903512954712,
+            -1.8403819799423218,
+            -0.5951186418533325
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Dan is in a wheelchair\" then, if the Hurdle Jumperbr>Dan loved to run, but he also loved to jump. During college, Dan's running coach recommended being a Hurdler. Dan decided to try out jumping hurdles. Dan loved jumping hurdles so much! Dan was glad his coach recommended jumping hurdles for him. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.0185580253601074,
+            -1.639363169670105,
+            -0.5110321044921875
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Officers were called to Byron Crescent in the Northfield area of the city two days earlier, but did not find anything suspicious.\" then, if the Police are investigating an unexplained death at a house in Aberdeen. Officers were called to Byron Crescent in the Northfield area of the city shortly before 21:00 on Saturday. No details of the deceased have been released. Police Scotland said inquiries were at an early stage but the death is not believed to have been suspicious. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.7199347019195557,
+            -2.5177576541900635,
+            -0.19583339989185333
+        ]
+    },
+    {
+        "input_text:": "Given that the \"40,00 people with lose their union\" then, if the But how can that happen when we know from the start that this agency will be made up of an extremely large number of employees-40,000 is the number we have been seeing-who will no longer come under the Public Service Employment Act and who will therefore have difficulty keeping their union? is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.3717772960662842,
+            -2.0519793033599854,
+            -0.5831792950630188
+        ]
+    },
+    {
+        "input_text:": "Given that the \"The Marple TV show used the same stories as the Marple book series.\" then, if the Agatha Christie's Marple (or simply Marple) is a British ITV television series loosely based on the books and short stories by British crime novelist Agatha Christie. The title character was played by Geraldine McEwan from the first to third series, until her retirement from the role, and by Julia McKenzie from the fourth series onwards. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.6158563494682312,
+            -2.587669610977173,
+            -2.7622385025024414
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Dead Yakuza chose money over life.\" then, if the \"For Japanese yakuza, the most important thing is staying alive, and making money is second,\" the yakuza said. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.3260269165039062,
+            -2.1480751037597656,
+            -0.3290194869041443
+        ]
+    },
+    {
+        "input_text:": "Given that the \"The speaker would like it if the troops were withdrawn immediately.\" then, if the And I mentioned one, and that's the Balkans. I would very much like to get our troops out of there. I recognize we can't do it now, nor do I advocate an immediate withdrawal. That would be an abrogation of our agreement with NATO. No one is suggesting that. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.8582823276519775,
+            -1.478599190711975,
+            -0.6040058135986328
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Benny was encouraged to continue\" then, if the Low Self-esteembr>Benny tried to practice cheerleading during recess. The other boys in the class made fun of him. This included calling him several names. Benny felt embarrassed. Although cheer leading was his passion, he decided to stop. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.4896981716156006,
+            -2.41733980178833,
+            -0.2483140379190445
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Cats and dogs getting along is a sign of the end of the world even if you have a spacious home. \" then, if the How to make a cat and dog get alongbr>Prepare for the introduction. Whether you are bringing a new cat or dog into a home that already has a cat or dog or you are trying to make your existing pets get along better, you need to create a good foundation to build on. To begin with, make sure that your home has ample space for the two pets to have some space away from each other. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.3617279529571533,
+            -2.0284368991851807,
+            -0.5075972676277161
+        ]
+    },
+    {
+        "input_text:": "Given that the \"The house will clean itself.\" then, if the How to tidy the house without your parents knowingbr>Find an excuse to get your parents out of the house. Tell them that there is a sudden need of groceries, or that your teacher wants to talk to them. Something like that, but an excuse that will keep them out of the house for about 20 minutes. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.093782901763916,
+            -1.4070035219192505,
+            -1.3451077938079834
+        ]
+    },
+    {
+        "input_text:": "Given that the \"Joseph enjoyed the cake\" then, if the Sense of tastebr>Joseph looked forward to his birthday. He already tasted the chocolate on his taste buds. So when his birthday came, he was sitting with his fork at the ready. His mom put the cake in front of him. But the cake tasted like nothing and was a disappointing experience. is true then, the conclusion is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.575002670288086,
+            -2.8025341033935547,
+            -0.1196240559220314
+        ]
+    }
+]

@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "Given that Green cards are becoming more difficult to obtain. Does it follow that Green card is now difficult to receive. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.8762391805648804,
+            -0.7633601427078247
+        ]
+    },
+    {
+        "input_text:": "Given that Winning Team John C. Harsanyi, John F. Nash and Reinhard Selten were jointly awarded the Nobel Prize in Economics. The three professors were singled out for their unique contributions to game theory, derived from studies of games such as poker or chess, in which players have to think ahead and devise a strategy based on expected countermoves from opponents. Does it follow that Three scholars shared a Nobel Prize for their studies about the game theory. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.30357998609542847,
+            -1.6554863452911377
+        ]
+    },
+    {
+        "input_text:": "Given that The anti-terrorist court found two men guilty of murdering Shapour Bakhtiar and his secretary Sorush Katibeh, who were found with their throats cut in August 1991. Does it follow that Shapour Bakhtiar died in 1991. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2614626884460449,
+            -2.1514458656311035
+        ]
+    },
+    {
+        "input_text:": "Given that On Feb. 20, Dr. Hunter S. Thompson took his life with a gunshot to the head at his fortified compound in Woody Creek, Colorado. The family will shortly provide more information about memorial service and media contacts. Hunter prized his privacy and we ask that his friends and admirers respect that privacy as well as that of his family, Juan Thompson said in a statement issued to Aspen Daily News. The death was confirmed by Pitkin County Sheriff Bob Braudis. Hunter S. Thompson was best known for his 1972 book \"Fear and Loathing in Las Vegas\". He was recently married and had emotionally supported his friend John Kerry's candidacy. Does it follow that John Kerry was friends with Hunter S. Thompson. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.1733119934797287,
+            -2.218951940536499
+        ]
+    },
+    {
+        "input_text:": "Given that CVS will stop selling its own brand of 500-milligram acetaminophen caplets and pull bottles from store shelves nation wide, spokesman Mike DeAngelis said. Does it follow that CVS will not sell its own brand of 500-milligram acetaminophen caplets any longer. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5939541459083557,
+            -2.8444771766662598
+        ]
+    },
+    {
+        "input_text:": "Given that WINNENDEN, Germany A teenage gunman killed 15 people, most of them female, on Wednesday in a rampage that began at a school near Stuttgart in southern Germany and ended in a nearby town, where he then killed himself after the police wounded him. The attack left Germany, which tightened tough gun controls after a similar attack at a school seven years ago, struggling to understand the carnage that had again befallen it, a country with relatively little violent crime. In 2002, a gunman killed 16 people before killing himself at a school in Erfurt, in eastern Germany. Does it follow that A teenager shot 15 people in Germany. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7105528116226196,
+            -0.7115011215209961
+        ]
+    },
+    {
+        "input_text:": "Given that Over a course of days, the bank went from apparent strength to bankruptcy. Barings was Britain's oldest merchant bank. It had financed the Napoleonic wars, the Louisiana purchase, and the Erie Canal. Barings was the Queen's bank. Does it follow that Barings was Britain's oldest merchant bank. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.13018058240413666,
+            -2.1840856075286865
+        ]
+    },
+    {
+        "input_text:": "Given that Even though the charges were dropped on January 22, 2006, his Nobel Prize reception continues to provoke mixed feelings of pride and anger among Turks. On the other hand, as Pamuk intended, the criminal case brought international attention to freedom of speech in Turkey. In his Nobel speech, he defined literature as:... what a person creates when he shuts himself up in a room, sits down at a table, and retires to a corner to express his thoughts - that is, the meaning of literature... When a writer shuts himself up in a room for years on end, with this gesture he suggests a single humanity, a world without a centre. Does it follow that Pamuk won a Nobel Prize. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.8284145593643188,
+            -0.1849440038204193
+        ]
+    },
+    {
+        "input_text:": "Given that The chain of events which led to the collapse of Barings, Britain's oldest merchant bank, is a demonstration of how not to manage a derivatives operation. Does it follow that Barings was Britain's oldest merchant bank. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3648167848587036,
+            -1.3040324449539185
+        ]
+    },
+    {
+        "input_text:": "Given that In most Pacific countries there are very few women in parliament. Does it follow that Women are poorly represented in parliament. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.774661660194397,
+            -0.23585370182991028
+        ]
+    },
+    {
+        "input_text:": "Given that Sharon sent dismissal letters to Benny Elon and Avigdor Lieberman, who oppose his withdrawal plan, on Friday. Does it follow that On Friday,Sharon fired Benny Elon and Avigdor Lieberman. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.9404500126838684,
+            -1.270396113395691
+        ]
+    },
+    {
+        "input_text:": "Given that Iscor, the South African iron and steel manufacturer, has announced plans to develop a steel mini-mill at Saldanha Bay on the country's west coast in partnership with the state-run industrial development Corporation. Does it follow that The South African steel manufacturer Iscor plans to develop a mini-mill. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.09635554999113083,
+            -3.260186195373535
+        ]
+    },
+    {
+        "input_text:": "Given that CBS newsman Harry Reasoner is returning to his Iowa hometown to get married Saturday. Does it follow that CBS newsman Harry Reasoner was born in Iowa. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.7402336597442627,
+            -0.7158993482589722
+        ]
+    },
+    {
+        "input_text:": "Given that The gastric bypass operation, also known as stomach stapling, has become the most common surgical procedure for treating obesity. Does it follow that Obesity is medically treated. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.32451269030570984,
+            -1.7070595026016235
+        ]
+    },
+    {
+        "input_text:": "Given that The spread of AIDS in Africa is driven not by unsafe sex but by unsafe medical practice, according to research published last week. Does it follow that AIDS spreads in Africa. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.1500287055969238,
+            -1.6019012928009033
+        ]
+    },
+    {
+        "input_text:": "Given that It will be the most German of combinations: nudity and beach towels. After decades of sunbathing and camping in the buff, the legions of Teutonic naturists are about to get their very own holiday heaven \u2014 a completely clothing-free hotel. The Hotel Rosengarten, in the aptly named Black Forest town of Freudenstadt (\"Town of Joys\"), will mark a new frontier for the homeland of Freik\u00f6rperkultur (FKK), meaning \"free body culture\". A handful of German hotels have accommodated naturists up to now, but the management at Rosengarten plan to take a hardline anti-apparel stance. Does it follow that Hotel Rosengarten is a completely clothing-free hotel. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.16678965091705322,
+            -1.9737763404846191
+        ]
+    },
+    {
+        "input_text:": "Given that Nonetheless, a literacy rate of 96 percent put Cuba on a par with such highly developed countries as Japan, France, the Soviet Union, Switzerland and Italy, Campo said. Does it follow that The literacy rate in Cuba is 96%. Yes or no",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.20401577651500702,
+            -1.7387806177139282
+        ]
+    },
+    {
+        "input_text:": "Given that According to an Israeli official, the murders of Galan, a high-ranking police officer, and a judge last week were probably carried out by an Israeli mercenary paid by the Medellin cartel - the world's most powerful drug-trafficking mafia - which has set up paramilitary squads accused of hundreds of individual murders and massacres against political and labor leaders, as well as peasants and patriotic union leftist militants in different parts of the country. Does it follow that Political and labor leaders were killed by patriotic union leftist militants. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.3901563882827759,
+            -0.4470190405845642
+        ]
+    },
+    {
+        "input_text:": "Given that Also Friday, five Iraqi soldiers were killed and nine wounded in a bombing, targeting their convoy near Beiji, 150 miles north of Baghdad, the Iraqi military said. Does it follow that Three Iraqi soldiers also died Saturday when their convoy was attacked by gunmen near Adhaim. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.1241180896759033,
+            -0.11999025195837021
+        ]
+    },
+    {
+        "input_text:": "Given that On August 21, the Polish weekly Przekr\u00f3j published an advertisement for Dan-Mark exercise books, bearing the logo of 4fun.tv, a Polish music/interactive TV station. Part of the advertisement contained a definition of the word \"exercise book\". The wording looked familiar, and Wikinews consulted Wikipedia, the collaborative online encyclopedia. Upon seeing the Wikipedia definition, it appeared that the entry quoted in the promotional material was identical to the initial two paragraphs of the relevant Wikipedia entry. Does it follow that Readers of online encyclopedias can edit the contents. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.9698742628097534,
+            -0.20224563777446747
+        ]
+    },
+    {
+        "input_text:": "Given that The drive towards this new law was driven in part from a string of transport-related disasters in the late 1980s, such as the sinking of cross-Channel ferry the Herald of Free Enterprise in 1987, the oil platform Piper Alpha disaster in 1988, and the Marchioness Thames river boat collision in 1989. More than 400 people lost their lives in these three disasters, but no one individual or organisation was brought to account. Does it follow that 100 or more people lost their lives in a ferry sinking. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.4940670728683472,
+            -0.34343650937080383
+        ]
+    },
+    {
+        "input_text:": "Given that Ordonez Reyes accused Jose Jesus Pena, alleged chief of security for the Nicaraguan embassy in Tegucigalpa, of masterminding the January 7th assassination of contra-commander Manuel Antonio Rugama. Does it follow that Manuel Antonio Rugama was killed by Jose Jesus Pena. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.8467487096786499,
+            -0.9572458267211914
+        ]
+    },
+    {
+        "input_text:": "Given that In more than 40 years as a broadcaster, right up to the last weeks before his death, Sir Clement established himself as one of Britain's most recognizable personalities. He cultivated a reputation as a grumpy, irritable but hugely entertaining performer. He won widespread public affection, particularly for his appearances since 1967 as a relentlessly inventive, assertive and witty panelist on the 30-minute radio show \"Just a Minute,\" in which contestants vie to speak on offbeat topics for 60 seconds without \"hesitation, repetition or deviation.\". Does it follow that Sir Clement Freud was the grandson of Sigmund Freud. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.1224647760391235,
+            -0.4501933157444
+        ]
+    },
+    {
+        "input_text:": "Given that Police found four weapons-two semiautomatic machine guns, a.223-caliber rifle and two handguns in the vehicle. Does it follow that Police found four weapons - a.50-calibre rifle, two military style assault rifles and a handgun in the vehicle. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.634986162185669,
+            -0.16081197559833527
+        ]
+    },
+    {
+        "input_text:": "Given that Scientists have made two major discoveries in the search for other Earth-like planets. British astronomers say they have discovered the smallest known Earth-like exoplanet orbiting a living star called Gliese 581 e and also discovered that a nearby planet called Gliese 581 d, discovered in 2007, is in the much sought after 'habitable zone'. Astronomers also believe there is a possibility that 581 d could have liquid oceans on its surface, calling the find \"extraordinary.\" \"The Holy Grail of current exoplanet research is the detection of a rocky, Earth-like planet in the 'habitable zone',\" said astrophysicist at Switzerland's Geneva University, Michel Mayor. Astronomers say 581 e is 20.5 light years away from Earth and that it's roughly 1.9 times larger than Earth, making it the smallest exoplanet discovered to date. It was found using the High Accuracy Radial Velocity Planet Searcher (HARPS). Does it follow that Michel Mayor is the discoverer of the High Accuracy Radial Velocity Planet Searcher. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.2493690252304077,
+            -0.38664668798446655
+        ]
+    },
+    {
+        "input_text:": "Given that The Hotel Moulin de Paris in 2.5km away from Disneyland Paris, and is located in the charming city of Magny-Le-Hongre. Does it follow that EuroDisney is located in the charming city of Magny-Le-Hongre. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.4308364391326904,
+            -0.09960898011922836
+        ]
+    },
+    {
+        "input_text:": "Given that The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina. Does it follow that The United States has asked member states of the International Energy Agency to provide oil. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.0320360660552979,
+            -0.7437530159950256
+        ]
+    },
+    {
+        "input_text:": "Given that Vinicio Cerezo tacitly blamed president Alfredo Cristiani's administration for the crisis which prevails in the country as a result of the Farabundo Marti National Liberation Front's (FMLN) offensive. Meanwhile, Morales Ehrlich blamed the extreme- right, death-squads of El Salvador for the assassination of six Jesuit priests at the Central American University. Does it follow that Farabundo Marti National Liberation Front is suspected of the assassination of six Jesuit priests. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.8783073425292969,
+            -0.24648909270763397
+        ]
+    },
+    {
+        "input_text:": "Given that The last polio outbreak in the United States was in 1979. Does it follow that African polio outbreak feared Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.9133098125457764,
+            -0.10902582854032516
+        ]
+    },
+    {
+        "input_text:": "Given that The documents commented by the magazine date of April 25, 2002, epoch in which the Brazilian president was Fernando Henrique Cardoso. Does it follow that The Brazilian President is Luiz In\u00e1cio Lula da Silva. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.899933338165283,
+            -0.09754391759634018
+        ]
+    },
+    {
+        "input_text:": "Given that On 21 July, the Macdonough patrolled the waters off Guam to protect the assault craft from enemy submarines, continuing that role until departing for Hawaii on 10 August. After a day at Pearl Harbor, she departed for the Admiralty Islands. Does it follow that The Macdonough left Hawaii on 10 August. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.3919174671173096,
+            -0.30593642592430115
+        ]
+    },
+    {
+        "input_text:": "Given that Mr Roughan claims that children from the age of nine and up are drinking late at night. \"You don't know what the hell's going to happen.\" Mr Nant has apologised to the affected, inconvenienced residents. New Zealand Post state they are going to continue to monitor the situation, however and also have on-going discussion with the local council and police \"to make sure we're abreast of any developments in the area.\" The gang violence/activity New Zealand Post are referring to is, on the previous Thursday the Armed Offenders Squad was called out where they raided three homes following a shooting, eight people were arrested, and a large number of firearms were seized. Does it follow that Roughan has nine children. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.478215456008911,
+            -0.03590485826134682
+        ]
+    },
+    {
+        "input_text:": "Given that A mercenary group, faithful to the warmongering policy of former Somozist colonel Enrique Bermudez, attacked an IFA truck belonging to the interior ministry at 0900 on 26 March in El Jicote, wounded and killed an interior ministry worker and wounded five others. Does it follow that A mercenary group was injured in El Jicote. Yes or no",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.722181558609009,
+            -0.10073097050189972
+        ]
+    }
+]

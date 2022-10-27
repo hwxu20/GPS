@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "The woman refused a second beer. This happened because... Help me choose the one that is easier to read: - She was the designated driver for the night. - She was familiar with the bartender.",
+        "target_text": "She was the designated driver for the night.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.007638538256287575,
+            -7.636443138122559
+        ]
+    },
+    {
+        "input_text:": "The girl found the missing puzzle piece. As a consequence... Help me choose the one that is easier to read: - She completed the puzzle. - She took apart the puzzle.",
+        "target_text": "She completed the puzzle.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.01754002459347248,
+            -7.1077189445495605
+        ]
+    },
+    {
+        "input_text:": "The tenant misplaced his keys to his apartment. As a consequence... Help me choose the one that is easier to read: - His landlord unlocked the door. - His landlord repaired the door.",
+        "target_text": "His landlord unlocked the door.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.008908819407224655,
+            -5.445330619812012
+        ]
+    },
+    {
+        "input_text:": "The gardener pulled the weeds. As a consequence... Help me choose the one that is easier to read: - The weeds came out of the soil. - The weeds produced seeds.",
+        "target_text": "The weeds came out of the soil.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -1.120675802230835,
+            -1.7896994352340698
+        ]
+    },
+    {
+        "input_text:": "The man went away for the weekend. This happened because... Help me choose the one that is easier to read: - He wanted to relax. - He felt content.",
+        "target_text": "He wanted to relax.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.013842915184795856,
+            -5.605852127075195
+        ]
+    },
+    {
+        "input_text:": "The surfer caught the wave. As a consequence... Help me choose the one that is easier to read: - The wave carried her to the shore. - She paddled her board into the ocean.",
+        "target_text": "The wave carried her to the shore.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.047226227819919586,
+            -3.1758978366851807
+        ]
+    },
+    {
+        "input_text:": "The man took a shower. This happened because... Help me choose the one that is easier to read: - He was sweaty from working out. - He opened a new bar of soap.",
+        "target_text": "He was sweaty from working out.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.016494836658239365,
+            -5.772721290588379
+        ]
+    },
+    {
+        "input_text:": "Our group's conversation gradually lulled to silence. As a consequence... Help me choose the one that is easier to read: - I felt awkward. - I became enraged.",
+        "target_text": "I felt awkward.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.009940218180418015,
+            -5.155588626861572
+        ]
+    },
+    {
+        "input_text:": "The librarian located the book in the stacks. This happened because... Help me choose the one that is easier to read: - I requested the librarian's help. - The book was checked out.",
+        "target_text": "I requested the librarian's help.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.33556175231933594,
+            -1.8101019859313965
+        ]
+    },
+    {
+        "input_text:": "The man felt thankful to be alive. This happened because... Help me choose the one that is easier to read: - He was cured of cancer. - His wife was diagnosed with cancer.",
+        "target_text": "He was cured of cancer.",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.9015586376190186,
+            -0.5261708498001099
+        ]
+    },
+    {
+        "input_text:": "The offender violated parole. As a consequence... Help me choose the one that is easier to read: - She was sent back to jail. - She stole money from a church.",
+        "target_text": "She was sent back to jail.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.05455831438302994,
+            -9.100724220275879
+        ]
+    },
+    {
+        "input_text:": "The benefactor requested to stay anonymous. This happened because... Help me choose the one that is easier to read: - He wanted to maintain his privacy. - He supported the cause behind his donation.",
+        "target_text": "He wanted to maintain his privacy.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.021531999111175537,
+            -5.715299606323242
+        ]
+    },
+    {
+        "input_text:": "The terrorist set off the bomb. As a consequence... Help me choose the one that is easier to read: - The bomb exploded. - The bomb was deactivated.",
+        "target_text": "The bomb exploded.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.015138612128794193,
+            -5.7096476554870605
+        ]
+    },
+    {
+        "input_text:": "The man revealed personal information to the therapist. This happened because... Help me choose the one that is easier to read: - He trusted the therapist. - He disagreed with the therapist.",
+        "target_text": "He trusted the therapist.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.009823381900787354,
+            -19.813199996948242
+        ]
+    },
+    {
+        "input_text:": "The man became disabled. As a consequence... Help me choose the one that is easier to read: - His family offered him financial support. - His family cut off contact with him.",
+        "target_text": "His family offered him financial support.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6528613567352295,
+            -0.746362030506134
+        ]
+    },
+    {
+        "input_text:": "The man had lipstick on his cheek. This happened because... Help me choose the one that is easier to read: - The woman kissed him. - The woman made him blush.",
+        "target_text": "The woman kissed him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.013128501363098621,
+            -4.807323455810547
+        ]
+    },
+    {
+        "input_text:": "My knees buckled on the stairs. As a consequence... Help me choose the one that is easier to read: - I caught myself on the railing. - The railing came loose from the wall.",
+        "target_text": "I caught myself on the railing.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5326418876647949,
+            -1.0292212963104248
+        ]
+    },
+    {
+        "input_text:": "The boy pushed his sister. As a consequence... Help me choose the one that is easier to read: - His sister tattled on him. - They played hide and seek.",
+        "target_text": "His sister tattled on him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.08503877371549606,
+            -2.713972568511963
+        ]
+    },
+    {
+        "input_text:": "The woman filed a restraining order against the man. This happened because... Help me choose the one that is easier to read: - The man called her. - The man stalked her.",
+        "target_text": "The man called her.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.100031852722168,
+            -0.0015589373651891947
+        ]
+    },
+    {
+        "input_text:": "The crowd gave the band a standing ovation. As a consequence... Help me choose the one that is easier to read: - The band signed autographs. - The band reappeared on the stage.",
+        "target_text": "The band signed autographs.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.421408653259277,
+            -0.2775481343269348
+        ]
+    },
+    {
+        "input_text:": "The vase broke. As a consequence... Help me choose the one that is easier to read: - I stenciled it. - I glued it back together.",
+        "target_text": "I stenciled it.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.2242074012756348,
+            -0.13630123436450958
+        ]
+    },
+    {
+        "input_text:": "My foot went numb. As a consequence... Help me choose the one that is easier to read: - I put my shoes on. - I shook my foot.",
+        "target_text": "I put my shoes on.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5337361097335815,
+            -0.9991611838340759
+        ]
+    },
+    {
+        "input_text:": "The man dropped food on the floor. As a consequence... Help me choose the one that is easier to read: - His dog jumped up on him. - His dog ran over to eat the food.",
+        "target_text": "His dog jumped up on him.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.381840705871582,
+            -0.020368197932839394
+        ]
+    },
+    {
+        "input_text:": "It got dark outside. As a consequence... Help me choose the one that is easier to read: - Snowflakes began to fall from the sky. - The moon became visible in the sky.",
+        "target_text": "Snowflakes began to fall from the sky.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.5002543926239014,
+            -0.053334519267082214
+        ]
+    },
+    {
+        "input_text:": "The woman received a diploma. This happened because... Help me choose the one that is easier to read: - She enrolled in college. - She graduated from college.",
+        "target_text": "She enrolled in college.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.343538284301758,
+            -0.009635928086936474
+        ]
+    },
+    {
+        "input_text:": "The company lost money. This happened because... Help me choose the one that is easier to read: - Its products received positive consumer reviews. - Some of its products were manufactured defectively.",
+        "target_text": "Its products received positive consumer reviews.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.466640472412109,
+            -0.0168159119784832
+        ]
+    },
+    {
+        "input_text:": "The documents contained important information. As a consequence... Help me choose the one that is easier to read: - I paper clipped them together. - I kept them in a secure place.",
+        "target_text": "I paper clipped them together.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.1112000942230225,
+            -0.13931524753570557
+        ]
+    },
+    {
+        "input_text:": "The man looked at his watch. As a consequence... Help me choose the one that is easier to read: - He realized he forgot something. - He realized he was early.",
+        "target_text": "He realized he forgot something.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.2558186054229736,
+            -0.499584436416626
+        ]
+    },
+    {
+        "input_text:": "The man threw out the bread. This happened because... Help me choose the one that is easier to read: - It was fresh. - It was stale.",
+        "target_text": "It was fresh.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.1762824058532715,
+            -0.017832938581705093
+        ]
+    },
+    {
+        "input_text:": "The patient underwent the risky medical procedure. This happened because... Help me choose the one that is easier to read: - The procedure was costly. - Specialists recommended the procedure.",
+        "target_text": "The procedure was costly.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.432328224182129,
+            -0.01741957850754261
+        ]
+    },
+    {
+        "input_text:": "The woman's makeup smeared. This happened because... Help me choose the one that is easier to read: - She brushed her hair. - She wiped her eyes.",
+        "target_text": "She brushed her hair.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.4058942794799805,
+            -0.14173556864261627
+        ]
+    },
+    {
+        "input_text:": "The police officer dropped the gun. As a consequence... Help me choose the one that is easier to read: - The gun recoiled. - The gun went off.",
+        "target_text": "The gun recoiled.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.927248477935791,
+            -0.058808472007513046
+        ]
+    },
+    {
+        "input_text:": "My daughter suffered an allergy attack. As a consequence... Help me choose the one that is easier to read: - I encouraged her to take deep breaths. - I took her to the emergency room.",
+        "target_text": "I encouraged her to take deep breaths.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.31071895360946655,
+            -1.3608641624450684
+        ]
+    }
+]

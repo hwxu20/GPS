@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy. You could also say he was driven there by the railway. Question: Does this have the effect of that \"Gustave was driven to creative retreat in Croisset by the railway\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6198140382766724,
+            -0.9945176839828491,
+            -2.707531452178955
+        ]
+    },
+    {
+        "input_text:": "Jane ate without pausing. Hunger was an unknown experience. She had never imagined it could actually hurt. Question: Does this have the effect of that \"hunger could actually hurt\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.39746376872062683,
+            -1.55756413936615,
+            -2.4441075325012207
+        ]
+    },
+    {
+        "input_text:": "They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. Question: Does this have the effect of that \"Miss Lavant was in love with Dr Greenslade\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.17682315409183502,
+            -2.195578098297119,
+            -3.5327420234680176
+        ]
+    },
+    {
+        "input_text:": "It was a complex language. Not written down but handed down. One might say it was peeled down. Question: Does this have the effect of that \"the language was peeled down\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.19172394275665283,
+            -2.1239898204803467,
+            -3.1316399574279785
+        ]
+    },
+    {
+        "input_text:": "At length she decided that there was nothing to be gained by worrying her. Probably there was some quite innocent explanation, which Roger Kenyon would give her when she returned the wallet - if, indeed, it were his. And yet why had his manner changed so abruptly when he learned that the girl whose hat he had rescued was going to live at Sunset Cottage? Question: Does this have the effect of that \"the girl whose hat Roger Kenyon had rescued was going to live at Sunset Cottage\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.20653609931468964,
+            -2.0110833644866943,
+            -3.3691396713256836
+        ]
+    },
+    {
+        "input_text:": "A: Oh, oh yeah, and every time you see one hit on the side of the road you say is that my cat. B: Uh-huh. A: And you go crazy thinking it might be yours. B: Right, well I didn't realize my husband was such a sucker for animals until I brought one home one night. Question: Does this have the effect of that \"her husband was such a sucker for animals\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3415045142173767,
+            -1.7770209312438965,
+            -2.3532557487487793
+        ]
+    },
+    {
+        "input_text:": "The Susweca. It means dragonfly'' in Sioux, you know. Did I ever tell you that's where Paul and I met? Question: Does this have the effect of that \"Susweca is where she and Paul met\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.06753337383270264,
+            -3.3457658290863037,
+            -4.0014848709106445
+        ]
+    },
+    {
+        "input_text:": "Richard Breeden hadn't noticed that his new desk had just four telephone lines and one phone. Question: Does this have the effect of that \"Richard Breeden's new desk had just four telephone lines and one phone\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.12204447388648987,
+            -2.8167126178741455,
+            -3.105395555496216
+        ]
+    },
+    {
+        "input_text:": "B: Yeah, and the ground will filter some of it but not all of it. A: No, not when you figure, I didn't realize one cow produces that much manure Question: Does this have the effect of that \"one cow produces that much manure\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -1.2382632493972778,
+            -1.4513897895812988,
+            -1.141660213470459
+        ]
+    },
+    {
+        "input_text:": "Paula could not help herself. It was just the way she was. Others might say they hated her and mean it. Question: Does this have the effect of that \"others hated Paula\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.611515998840332,
+            -1.2540645599365234,
+            -2.0626795291900635
+        ]
+    },
+    {
+        "input_text:": "I wanted to tell you. But the Bookman asked me to keep our meeting a secret.'' How did you know I 'd met him? Question: Does this have the effect of that \"he had met the Bookman\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.406175822019577,
+            -1.6075087785720825,
+            -2.4467575550079346
+        ]
+    },
+    {
+        "input_text:": "But don't dilly-dally for too long. Once it's published we are all going to look a little risible if we have made no adjustments to what is after all known as being predominantly my own design of gallery. Also I am a bit older than the rest of you but you can perhaps understand that I don't want to drop dead without a proper and public recantation. Question: Does this have the effect of that \"he doesn't want to drop dead without a proper and public recantation\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3906315863132477,
+            -2.5949723720550537,
+            -1.507120132446289
+        ]
+    },
+    {
+        "input_text:": "How do you know? she was going to ask, but his smile was answer enough. If DeVore said there was going to be a vacancy there would be a vacancy. Question: Does this have the effect of that \"there was going to be a vacancy\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3601275086402893,
+            -1.7890554666519165,
+            -2.4229092597961426
+        ]
+    },
+    {
+        "input_text:": "Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened. Question: Does this have the effect of that \"something had happened\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5412586331367493,
+            -1.3765759468078613,
+            -2.0352747440338135
+        ]
+    },
+    {
+        "input_text:": "But the damage was done as far as my faith was concerned, which is probably why I went mad. So anyway, that Christmas Eve night confirmed my worst fears, it was like a kind of royal flush'' for the infant Jimbo. All three kings - Pa Santa and the King of Kings - all down the pan together... And to be honest I don't believe any of them stands a chance of ever making a comeback with me. Question: Does this have the effect of that \"any of the three kings stands a chance of ever making a comeback with him\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.7441949844360352,
+            -0.46618276834487915,
+            -2.2880465984344482
+        ]
+    },
+    {
+        "input_text:": "B: And as far as like them, uh, entertaining the rights that they should have. A: Uh-huh. B: I mean, we educate them, we feed them, we take care of them and they no sooner get out on the street and they're back in again. A: Uh-huh. B: I'm not saying they're all bad, Question: Does this have the effect of that \"they're all bad\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.7714124917984009,
+            -0.5365198254585266,
+            -1.555239200592041
+        ]
+    },
+    {
+        "input_text:": "B: Uh, I have, uh, I guess a lot of thoughts about the Vietnam War, um, I guess I feel like I was pretty young while it was going on and so there's probably a lot of things I remember and a lot of things that I really didn't have a clue as to what was happening. B: Yeah. A: Um, looking back, like maybe some of the things that I know now, I'm not sure I do believe it was worth the cost in dollars and lives. That was one of the questions that she asked us to think about, because we never went to war. I don't think we were committed to winning it and getting out Question: Does this have the effect of that \"they were committed to winning the Vietnam War and getting out\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.1685073375701904,
+            -0.13013944029808044,
+            -2.9245495796203613
+        ]
+    },
+    {
+        "input_text:": "B: I did, too. A: I mean, it was just more for my money. B: Yeah. I didn't think it was too long at all. Question: Does this have the effect of that \"it was too long\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.68184494972229,
+            -0.531888484954834,
+            -1.6211546659469604
+        ]
+    },
+    {
+        "input_text:": "B: Uh, uh, I've had one or two American cars I think, and they were okay. I had a Pontiac once and I never had a problem with it, but, uh, my mother had a Dodge at one point and I had driven it a few times and I really did not feel that I would buy a Dodge just from, A: Um. B: well, actually, I had uh, a Dodge Omni at one point A: Uh-huh. B: and that was, I think, what really prejudiced me against American cars because I did not feel that it was a very quality, uh, car. Question: Does this have the effect of that \"the Dodge Omni was a very quality car\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.968585014343262,
+            -0.023580092936754227,
+            -4.278664588928223
+        ]
+    },
+    {
+        "input_text:": "B: they did things for people, you know, for their communities, for their, uh, families, for their friends, where now, I'm not sure they really do. A: Yes. Yeah. Well, I think sometimes through groups and organizations, um, uh, when they asked the question I thought, well that sounds wonderful. And then, I wondered if people were unwilling but I think even if you went in with a negative attitude I don't think it would stay negative very long. Question: Does this have the effect of that \"that attitude would stay negative very long\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.539406657218933,
+            -0.5560917258262634,
+            -1.714233160018921
+        ]
+    },
+    {
+        "input_text:": "A: Well, presumably those who find out such information, if they are doing it, I would prefer to not to be known, and, I mean, you know, the classic, oh, I don't know C I conspiracy theories or whatever, would have such parties trying to do it without your knowledge. So there's,, things that invade that second type of privacy where you do know about them and possibly things that invade that second type of privacy without you knowing about it, and I can't talk about the second one other than to generate paranoia. It's a surmise and, I'd like to think that it's quite low, at least in this country. B: to surmise. It is there. A: I don't think I'd like the KGB monitoring my phone or anything like that. Question: Does this have the effect of that \"he would like the KGB monitoring his phone\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.932377815246582,
+            -0.0645919218659401,
+            -3.523695468902588
+        ]
+    },
+    {
+        "input_text:": "He had seen something I should have, which was a car turning in from Soho Square and coming up behind me. My right foot hovered over the accelerator pedal and I balanced Armstrong on the clutch. I wasn't as convinced as Malpass that Nevil was out of harm's way. Question: Does this have the effect of that \"Nevil was out of harm's way\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.3038934469223022,
+            -0.6157513856887817,
+            -1.8632423877716064
+        ]
+    },
+    {
+        "input_text:": "He's weird enough to have undressed me without thinking, according to some mad notion of the proper'' thing to do. Perhaps he thought I couldn't lie in bed with my clothes on. Question: Does this have the effect of that \"she couldn't lie in bed with her clothes on\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.622178852558136,
+            -1.0979441404342651,
+            -2.5396175384521484
+        ]
+    },
+    {
+        "input_text:": "B: That might be kind of tough, huh. A: It really would, yes, yes, and like I said, my sister's still in it, and I really don't think my mother'd want to be there, either. Question: Does this have the effect of that \"his mother would want to be there\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.1828644275665283,
+            -0.36722034215927124,
+            -1.8992520570755005
+        ]
+    },
+    {
+        "input_text:": "A: Yeah, that's crazy. B: and then you come here in the Dallas area, um, I don't believe that people should be allowed to carry guns in their vehicles. Question: Does this have the effect of that \"people should be allowed to carry guns in their vehicles\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.745074510574341,
+            -0.2855329215526581,
+            -2.075380563735962
+        ]
+    },
+    {
+        "input_text:": "A: and then once they do get elected, they don't have the power or the authority or the willingness to do those things that they promised, you know, beforehand. B: Right. A: You know, maybe it just wasn't possible at all in the first place, you know, like the no new taxes thing. You know, that's, uh, with the economy going the way it is and everything, that was nearly ridiculous thing to, even try to do. B: Yeah. Yeah. Well, I don't think he's going to have to worry about that next year. Question: Does this have the effect of that \"he's going to have to worry about that next year\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -1.0296934843063354,
+            -1.107387900352478,
+            -1.4223295450210571
+        ]
+    },
+    {
+        "input_text:": "B: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah. Uh-huh. Uh-huh. B: I don't think it's going to be that easy to come up with Question: Does this have the effect of that \"it is going to be that easy to come up with\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.6455466747283936,
+            -0.4348260760307312,
+            -2.0511186122894287
+        ]
+    },
+    {
+        "input_text:": "A: Uh, well, it would depend on when you go it's not excessively crowded on the weekends. B: See I'd want to be there in the mornings like from nine thirty to ten thirty. A: Oh, I don't think that would be bad at all. Question: Does this have the effect of that \"that would be bad\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.014876127243042,
+            -0.34852221608161926,
+            -1.9928227663040161
+        ]
+    },
+    {
+        "input_text:": "A: That's fairly interesting. B: I bet that would be, rather interesting. Uh, that's, uh, self improvement, well, that's kind of a hobby but it is self improvement from the standpoint of probably relaxing, uh. A: Yeah, I don't know that I read anything strictly labeled self improvement. Question: Does this have the effect of that \"she reads anything strictly labeled self improvement\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.0585453510284424,
+            -0.8198032379150391,
+            -1.6729822158813477
+        ]
+    },
+    {
+        "input_text:": "B: Now see I. A: I'm intrigued by it, but I'm not sure I want to go see it yet. B: Yeah, I don't think I want to see that either. Question: Does this have the effect of that \"she wants to see that\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.805387258529663,
+            -0.4175964295864105,
+            -1.4216076135635376
+        ]
+    },
+    {
+        "input_text:": "Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs. Question: Does this have the effect of that \"Celia was still a bit hazy from the drugs\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.42061078548431396,
+            -1.9928419589996338,
+            -1.6495810747146606
+        ]
+    },
+    {
+        "input_text:": "A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate. Question: Does this have the effect of that \"TV is pretty accurate\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.7276715040206909,
+            -1.1201562881469727,
+            -1.8443078994750977
+        ]
+    },
+    {
+        "input_text:": "B: and both of those seem very easy to use compared to D Base. A: Uh-huh. Do you think D Base is more flexible or allows you to do more. Or do you think the others are pretty much compatible these days? Question: Does this have the effect of that \"the others are pretty much compatible these days\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -1.3712304830551147,
+            -0.46213412284851074,
+            -2.3935091495513916
+        ]
+    }
+]

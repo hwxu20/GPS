@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy. You could also say he was driven there by the railway. Keeping in mind the above text, consider: Gustave was driven to creative retreat in Croisset by the railway Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -5.897396564483643,
+            -5.1270904541015625,
+            -5.843408584594727
+        ]
+    },
+    {
+        "input_text:": "Jane ate without pausing. Hunger was an unknown experience. She had never imagined it could actually hurt. Keeping in mind the above text, consider: hunger could actually hurt Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -6.080191135406494,
+            -5.5428080558776855,
+            -6.406003475189209
+        ]
+    },
+    {
+        "input_text:": "They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. Keeping in mind the above text, consider: Miss Lavant was in love with Dr Greenslade Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.669567108154297,
+            -6.3831634521484375,
+            -5.205877304077148
+        ]
+    },
+    {
+        "input_text:": "It was a complex language. Not written down but handed down. One might say it was peeled down. Keeping in mind the above text, consider: the language was peeled down Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.32550048828125,
+            -5.232347011566162,
+            -4.573554515838623
+        ]
+    },
+    {
+        "input_text:": "At length she decided that there was nothing to be gained by worrying her. Probably there was some quite innocent explanation, which Roger Kenyon would give her when she returned the wallet - if, indeed, it were his. And yet why had his manner changed so abruptly when he learned that the girl whose hat he had rescued was going to live at Sunset Cottage? Keeping in mind the above text, consider: the girl whose hat Roger Kenyon had rescued was going to live at Sunset Cottage Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -5.591966152191162,
+            -5.2138495445251465,
+            -5.7392497062683105
+        ]
+    },
+    {
+        "input_text:": "A: Oh, oh yeah, and every time you see one hit on the side of the road you say is that my cat. B: Uh-huh. A: And you go crazy thinking it might be yours. B: Right, well I didn't realize my husband was such a sucker for animals until I brought one home one night. Keeping in mind the above text, consider: her husband was such a sucker for animals Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.946887493133545,
+            -7.054881572723389,
+            -5.567590713500977
+        ]
+    },
+    {
+        "input_text:": "The Susweca. It means dragonfly'' in Sioux, you know. Did I ever tell you that's where Paul and I met? Keeping in mind the above text, consider: Susweca is where she and Paul met Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.036754131317139,
+            -5.388701438903809,
+            -5.489270210266113
+        ]
+    },
+    {
+        "input_text:": "Richard Breeden hadn't noticed that his new desk had just four telephone lines and one phone. Keeping in mind the above text, consider: Richard Breeden's new desk had just four telephone lines and one phone Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.053445339202881,
+            -5.524965763092041,
+            -5.673984050750732
+        ]
+    },
+    {
+        "input_text:": "B: Yeah, and the ground will filter some of it but not all of it. A: No, not when you figure, I didn't realize one cow produces that much manure Keeping in mind the above text, consider: one cow produces that much manure Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.347999095916748,
+            -6.61063289642334,
+            -6.778562545776367
+        ]
+    },
+    {
+        "input_text:": "Paula could not help herself. It was just the way she was. Others might say they hated her and mean it. Keeping in mind the above text, consider: others hated Paula Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -5.612520217895508,
+            -4.773688316345215,
+            -5.749561786651611
+        ]
+    },
+    {
+        "input_text:": "I wanted to tell you. But the Bookman asked me to keep our meeting a secret.'' How did you know I 'd met him? Keeping in mind the above text, consider: he had met the Bookman Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.682906627655029,
+            -6.033989429473877,
+            -5.465722560882568
+        ]
+    },
+    {
+        "input_text:": "But don't dilly-dally for too long. Once it's published we are all going to look a little risible if we have made no adjustments to what is after all known as being predominantly my own design of gallery. Also I am a bit older than the rest of you but you can perhaps understand that I don't want to drop dead without a proper and public recantation. Keeping in mind the above text, consider: he doesn't want to drop dead without a proper and public recantation Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.945832252502441,
+            -6.700218677520752,
+            -6.455201148986816
+        ]
+    },
+    {
+        "input_text:": "How do you know? she was going to ask, but his smile was answer enough. If DeVore said there was going to be a vacancy there would be a vacancy. Keeping in mind the above text, consider: there was going to be a vacancy Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -5.7502546310424805,
+            -7.632140636444092,
+            -6.454250812530518
+        ]
+    },
+    {
+        "input_text:": "Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened. Keeping in mind the above text, consider: something had happened Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 0,
+        "prediction:": 2,
+        "logits": [
+            -5.828807353973389,
+            -6.925173282623291,
+            -5.805093288421631
+        ]
+    },
+    {
+        "input_text:": "But the damage was done as far as my faith was concerned, which is probably why I went mad. So anyway, that Christmas Eve night confirmed my worst fears, it was like a kind of royal flush'' for the infant Jimbo. All three kings - Pa Santa and the King of Kings - all down the pan together... And to be honest I don't believe any of them stands a chance of ever making a comeback with me. Keeping in mind the above text, consider: any of the three kings stands a chance of ever making a comeback with him Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -8.013524055480957,
+            -5.951913356781006,
+            -8.305473327636719
+        ]
+    },
+    {
+        "input_text:": "B: And as far as like them, uh, entertaining the rights that they should have. A: Uh-huh. B: I mean, we educate them, we feed them, we take care of them and they no sooner get out on the street and they're back in again. A: Uh-huh. B: I'm not saying they're all bad, Keeping in mind the above text, consider: they're all bad Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.537959098815918,
+            -5.482511043548584,
+            -7.2772297859191895
+        ]
+    },
+    {
+        "input_text:": "B: Uh, I have, uh, I guess a lot of thoughts about the Vietnam War, um, I guess I feel like I was pretty young while it was going on and so there's probably a lot of things I remember and a lot of things that I really didn't have a clue as to what was happening. B: Yeah. A: Um, looking back, like maybe some of the things that I know now, I'm not sure I do believe it was worth the cost in dollars and lives. That was one of the questions that she asked us to think about, because we never went to war. I don't think we were committed to winning it and getting out Keeping in mind the above text, consider: they were committed to winning the Vietnam War and getting out Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.286413192749023,
+            -6.013085842132568,
+            -7.37560510635376
+        ]
+    },
+    {
+        "input_text:": "B: I did, too. A: I mean, it was just more for my money. B: Yeah. I didn't think it was too long at all. Keeping in mind the above text, consider: it was too long Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.370546340942383,
+            -4.799604415893555,
+            -5.325491428375244
+        ]
+    },
+    {
+        "input_text:": "B: Uh, uh, I've had one or two American cars I think, and they were okay. I had a Pontiac once and I never had a problem with it, but, uh, my mother had a Dodge at one point and I had driven it a few times and I really did not feel that I would buy a Dodge just from, A: Um. B: well, actually, I had uh, a Dodge Omni at one point A: Uh-huh. B: and that was, I think, what really prejudiced me against American cars because I did not feel that it was a very quality, uh, car. Keeping in mind the above text, consider: the Dodge Omni was a very quality car Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.439642429351807,
+            -4.172501087188721,
+            -6.693941593170166
+        ]
+    },
+    {
+        "input_text:": "B: they did things for people, you know, for their communities, for their, uh, families, for their friends, where now, I'm not sure they really do. A: Yes. Yeah. Well, I think sometimes through groups and organizations, um, uh, when they asked the question I thought, well that sounds wonderful. And then, I wondered if people were unwilling but I think even if you went in with a negative attitude I don't think it would stay negative very long. Keeping in mind the above text, consider: that attitude would stay negative very long Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -7.065184593200684,
+            -7.146308422088623,
+            -6.99648904800415
+        ]
+    },
+    {
+        "input_text:": "A: Well, presumably those who find out such information, if they are doing it, I would prefer to not to be known, and, I mean, you know, the classic, oh, I don't know C I conspiracy theories or whatever, would have such parties trying to do it without your knowledge. So there's,, things that invade that second type of privacy where you do know about them and possibly things that invade that second type of privacy without you knowing about it, and I can't talk about the second one other than to generate paranoia. It's a surmise and, I'd like to think that it's quite low, at least in this country. B: to surmise. It is there. A: I don't think I'd like the KGB monitoring my phone or anything like that. Keeping in mind the above text, consider: he would like the KGB monitoring his phone Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.380034446716309,
+            -6.040353775024414,
+            -8.040748596191406
+        ]
+    },
+    {
+        "input_text:": "He had seen something I should have, which was a car turning in from Soho Square and coming up behind me. My right foot hovered over the accelerator pedal and I balanced Armstrong on the clutch. I wasn't as convinced as Malpass that Nevil was out of harm's way. Keeping in mind the above text, consider: Nevil was out of harm's way Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.089356422424316,
+            -4.885529518127441,
+            -6.109072685241699
+        ]
+    },
+    {
+        "input_text:": "He's weird enough to have undressed me without thinking, according to some mad notion of the proper'' thing to do. Perhaps he thought I couldn't lie in bed with my clothes on. Keeping in mind the above text, consider: she couldn't lie in bed with her clothes on Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.193531036376953,
+            -5.674368381500244,
+            -7.933350086212158
+        ]
+    },
+    {
+        "input_text:": "B: That might be kind of tough, huh. A: It really would, yes, yes, and like I said, my sister's still in it, and I really don't think my mother'd want to be there, either. Keeping in mind the above text, consider: his mother would want to be there Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.869626998901367,
+            -6.202207088470459,
+            -6.959741592407227
+        ]
+    },
+    {
+        "input_text:": "A: Yeah, that's crazy. B: and then you come here in the Dallas area, um, I don't believe that people should be allowed to carry guns in their vehicles. Keeping in mind the above text, consider: people should be allowed to carry guns in their vehicles Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.7410197257995605,
+            -6.922624111175537,
+            -8.386064529418945
+        ]
+    },
+    {
+        "input_text:": "A: and then once they do get elected, they don't have the power or the authority or the willingness to do those things that they promised, you know, beforehand. B: Right. A: You know, maybe it just wasn't possible at all in the first place, you know, like the no new taxes thing. You know, that's, uh, with the economy going the way it is and everything, that was nearly ridiculous thing to, even try to do. B: Yeah. Yeah. Well, I don't think he's going to have to worry about that next year. Keeping in mind the above text, consider: he's going to have to worry about that next year Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -7.2803955078125,
+            -7.540925025939941,
+            -6.8898491859436035
+        ]
+    },
+    {
+        "input_text:": "B: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah. Uh-huh. Uh-huh. B: I don't think it's going to be that easy to come up with Keeping in mind the above text, consider: it is going to be that easy to come up with Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -6.572894096374512,
+            -6.789074897766113,
+            -6.7253642082214355
+        ]
+    },
+    {
+        "input_text:": "A: Uh, well, it would depend on when you go it's not excessively crowded on the weekends. B: See I'd want to be there in the mornings like from nine thirty to ten thirty. A: Oh, I don't think that would be bad at all. Keeping in mind the above text, consider: that would be bad Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.269389629364014,
+            -6.441147804260254,
+            -7.48619270324707
+        ]
+    },
+    {
+        "input_text:": "A: That's fairly interesting. B: I bet that would be, rather interesting. Uh, that's, uh, self improvement, well, that's kind of a hobby but it is self improvement from the standpoint of probably relaxing, uh. A: Yeah, I don't know that I read anything strictly labeled self improvement. Keeping in mind the above text, consider: she reads anything strictly labeled self improvement Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -7.6617937088012695,
+            -6.65461540222168,
+            -6.8981032371521
+        ]
+    },
+    {
+        "input_text:": "B: Now see I. A: I'm intrigued by it, but I'm not sure I want to go see it yet. B: Yeah, I don't think I want to see that either. Keeping in mind the above text, consider: she wants to see that Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -6.334418773651123,
+            -6.182030200958252,
+            -4.951229572296143
+        ]
+    },
+    {
+        "input_text:": "Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs. Keeping in mind the above text, consider: Celia was still a bit hazy from the drugs Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -6.702545642852783,
+            -7.0346999168396,
+            -5.227446556091309
+        ]
+    },
+    {
+        "input_text:": "A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate. Keeping in mind the above text, consider: TV is pretty accurate Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -7.22415018081665,
+            -9.77217960357666,
+            -6.302047252655029
+        ]
+    },
+    {
+        "input_text:": "B: and both of those seem very easy to use compared to D Base. A: Uh-huh. Do you think D Base is more flexible or allows you to do more. Or do you think the others are pretty much compatible these days? Keeping in mind the above text, consider: the others are pretty much compatible these days Is this always, sometimes, or never correct?",
+        "target_text": "Always",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -7.682809352874756,
+            -7.881009578704834,
+            -9.09471607208252
+        ]
+    }
+]

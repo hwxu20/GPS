@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "Green cards are becoming more difficult to obtain. Is that \"Green card is now difficult to receive.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5769461989402771,
+            -2.598217248916626
+        ]
+    },
+    {
+        "input_text:": "Winning Team John C. Harsanyi, John F. Nash and Reinhard Selten were jointly awarded the Nobel Prize in Economics. The three professors were singled out for their unique contributions to game theory, derived from studies of games such as poker or chess, in which players have to think ahead and devise a strategy based on expected countermoves from opponents. Is that \"Three scholars shared a Nobel Prize for their studies about the game theory.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.25717222690582275,
+            -2.2270419597625732
+        ]
+    },
+    {
+        "input_text:": "The anti-terrorist court found two men guilty of murdering Shapour Bakhtiar and his secretary Sorush Katibeh, who were found with their throats cut in August 1991. Is that \"Shapour Bakhtiar died in 1991.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.16854777932167053,
+            -2.546271800994873
+        ]
+    },
+    {
+        "input_text:": "On Feb. 20, Dr. Hunter S. Thompson took his life with a gunshot to the head at his fortified compound in Woody Creek, Colorado. The family will shortly provide more information about memorial service and media contacts. Hunter prized his privacy and we ask that his friends and admirers respect that privacy as well as that of his family, Juan Thompson said in a statement issued to Aspen Daily News. The death was confirmed by Pitkin County Sheriff Bob Braudis. Hunter S. Thompson was best known for his 1972 book \"Fear and Loathing in Las Vegas\". He was recently married and had emotionally supported his friend John Kerry's candidacy. Is that \"John Kerry was friends with Hunter S. Thompson.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.39447569847106934,
+            -3.191506862640381
+        ]
+    },
+    {
+        "input_text:": "CVS will stop selling its own brand of 500-milligram acetaminophen caplets and pull bottles from store shelves nation wide, spokesman Mike DeAngelis said. Is that \"CVS will not sell its own brand of 500-milligram acetaminophen caplets any longer.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2601073682308197,
+            -3.06427001953125
+        ]
+    },
+    {
+        "input_text:": "WINNENDEN, Germany A teenage gunman killed 15 people, most of them female, on Wednesday in a rampage that began at a school near Stuttgart in southern Germany and ended in a nearby town, where he then killed himself after the police wounded him. The attack left Germany, which tightened tough gun controls after a similar attack at a school seven years ago, struggling to understand the carnage that had again befallen it, a country with relatively little violent crime. In 2002, a gunman killed 16 people before killing himself at a school in Erfurt, in eastern Germany. Is that \"A teenager shot 15 people in Germany.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.33977603912353516,
+            -2.1371779441833496
+        ]
+    },
+    {
+        "input_text:": "Over a course of days, the bank went from apparent strength to bankruptcy. Barings was Britain's oldest merchant bank. It had financed the Napoleonic wars, the Louisiana purchase, and the Erie Canal. Barings was the Queen's bank. Is that \"Barings was Britain's oldest merchant bank.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.14452463388442993,
+            -3.1196367740631104
+        ]
+    },
+    {
+        "input_text:": "Even though the charges were dropped on January 22, 2006, his Nobel Prize reception continues to provoke mixed feelings of pride and anger among Turks. On the other hand, as Pamuk intended, the criminal case brought international attention to freedom of speech in Turkey. In his Nobel speech, he defined literature as:... what a person creates when he shuts himself up in a room, sits down at a table, and retires to a corner to express his thoughts - that is, the meaning of literature... When a writer shuts himself up in a room for years on end, with this gesture he suggests a single humanity, a world without a centre. Is that \"Pamuk won a Nobel Prize.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.39505189657211304,
+            -2.1669435501098633
+        ]
+    },
+    {
+        "input_text:": "The chain of events which led to the collapse of Barings, Britain's oldest merchant bank, is a demonstration of how not to manage a derivatives operation. Is that \"Barings was Britain's oldest merchant bank.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.20197542011737823,
+            -2.393976926803589
+        ]
+    },
+    {
+        "input_text:": "In most Pacific countries there are very few women in parliament. Is that \"Women are poorly represented in parliament.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5843905806541443,
+            -1.6366245746612549
+        ]
+    },
+    {
+        "input_text:": "Sharon sent dismissal letters to Benny Elon and Avigdor Lieberman, who oppose his withdrawal plan, on Friday. Is that \"On Friday,Sharon fired Benny Elon and Avigdor Lieberman.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.44705674052238464,
+            -2.527345657348633
+        ]
+    },
+    {
+        "input_text:": "Iscor, the South African iron and steel manufacturer, has announced plans to develop a steel mini-mill at Saldanha Bay on the country's west coast in partnership with the state-run industrial development Corporation. Is that \"The South African steel manufacturer Iscor plans to develop a mini-mill.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.30225393176078796,
+            -2.7479944229125977
+        ]
+    },
+    {
+        "input_text:": "CBS newsman Harry Reasoner is returning to his Iowa hometown to get married Saturday. Is that \"CBS newsman Harry Reasoner was born in Iowa.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.18727557361125946,
+            -3.2906646728515625
+        ]
+    },
+    {
+        "input_text:": "The gastric bypass operation, also known as stomach stapling, has become the most common surgical procedure for treating obesity. Is that \"Obesity is medically treated.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6764993071556091,
+            -1.682835340499878
+        ]
+    },
+    {
+        "input_text:": "The spread of AIDS in Africa is driven not by unsafe sex but by unsafe medical practice, according to research published last week. Is that \"AIDS spreads in Africa.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5343961715698242,
+            -1.849613070487976
+        ]
+    },
+    {
+        "input_text:": "It will be the most German of combinations: nudity and beach towels. After decades of sunbathing and camping in the buff, the legions of Teutonic naturists are about to get their very own holiday heaven \u2014 a completely clothing-free hotel. The Hotel Rosengarten, in the aptly named Black Forest town of Freudenstadt (\"Town of Joys\"), will mark a new frontier for the homeland of Freik\u00f6rperkultur (FKK), meaning \"free body culture\". A handful of German hotels have accommodated naturists up to now, but the management at Rosengarten plan to take a hardline anti-apparel stance. Is that \"Hotel Rosengarten is a completely clothing-free hotel.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.40490028262138367,
+            -2.038081407546997
+        ]
+    },
+    {
+        "input_text:": "Nonetheless, a literacy rate of 96 percent put Cuba on a par with such highly developed countries as Japan, France, the Soviet Union, Switzerland and Italy, Campo said. Is that \"The literacy rate in Cuba is 96%.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.18368375301361084,
+            -2.3458433151245117
+        ]
+    },
+    {
+        "input_text:": "According to an Israeli official, the murders of Galan, a high-ranking police officer, and a judge last week were probably carried out by an Israeli mercenary paid by the Medellin cartel - the world's most powerful drug-trafficking mafia - which has set up paramilitary squads accused of hundreds of individual murders and massacres against political and labor leaders, as well as peasants and patriotic union leftist militants in different parts of the country. Is that \"Political and labor leaders were killed by patriotic union leftist militants.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.090092658996582,
+            -0.24331432580947876
+        ]
+    },
+    {
+        "input_text:": "Also Friday, five Iraqi soldiers were killed and nine wounded in a bombing, targeting their convoy near Beiji, 150 miles north of Baghdad, the Iraqi military said. Is that \"Three Iraqi soldiers also died Saturday when their convoy was attacked by gunmen near Adhaim.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5214492082595825,
+            -0.36052262783050537
+        ]
+    },
+    {
+        "input_text:": "On August 21, the Polish weekly Przekr\u00f3j published an advertisement for Dan-Mark exercise books, bearing the logo of 4fun.tv, a Polish music/interactive TV station. Part of the advertisement contained a definition of the word \"exercise book\". The wording looked familiar, and Wikinews consulted Wikipedia, the collaborative online encyclopedia. Upon seeing the Wikipedia definition, it appeared that the entry quoted in the promotional material was identical to the initial two paragraphs of the relevant Wikipedia entry. Is that \"Readers of online encyclopedias can edit the contents.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.496115803718567,
+            -0.5766552686691284
+        ]
+    },
+    {
+        "input_text:": "The drive towards this new law was driven in part from a string of transport-related disasters in the late 1980s, such as the sinking of cross-Channel ferry the Herald of Free Enterprise in 1987, the oil platform Piper Alpha disaster in 1988, and the Marchioness Thames river boat collision in 1989. More than 400 people lost their lives in these three disasters, but no one individual or organisation was brought to account. Is that \"100 or more people lost their lives in a ferry sinking.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.8574960231781006,
+            -0.7242962121963501
+        ]
+    },
+    {
+        "input_text:": "Ordonez Reyes accused Jose Jesus Pena, alleged chief of security for the Nicaraguan embassy in Tegucigalpa, of masterminding the January 7th assassination of contra-commander Manuel Antonio Rugama. Is that \"Manuel Antonio Rugama was killed by Jose Jesus Pena.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.43507370352745056,
+            -2.293363094329834
+        ]
+    },
+    {
+        "input_text:": "In more than 40 years as a broadcaster, right up to the last weeks before his death, Sir Clement established himself as one of Britain's most recognizable personalities. He cultivated a reputation as a grumpy, irritable but hugely entertaining performer. He won widespread public affection, particularly for his appearances since 1967 as a relentlessly inventive, assertive and witty panelist on the 30-minute radio show \"Just a Minute,\" in which contestants vie to speak on offbeat topics for 60 seconds without \"hesitation, repetition or deviation.\". Is that \"Sir Clement Freud was the grandson of Sigmund Freud.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.2786574065685272,
+            -1.936969518661499
+        ]
+    },
+    {
+        "input_text:": "Police found four weapons-two semiautomatic machine guns, a.223-caliber rifle and two handguns in the vehicle. Is that \"Police found four weapons - a.50-calibre rifle, two military style assault rifles and a handgun in the vehicle.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.3288987874984741,
+            -0.4420493245124817
+        ]
+    },
+    {
+        "input_text:": "Scientists have made two major discoveries in the search for other Earth-like planets. British astronomers say they have discovered the smallest known Earth-like exoplanet orbiting a living star called Gliese 581 e and also discovered that a nearby planet called Gliese 581 d, discovered in 2007, is in the much sought after 'habitable zone'. Astronomers also believe there is a possibility that 581 d could have liquid oceans on its surface, calling the find \"extraordinary.\" \"The Holy Grail of current exoplanet research is the detection of a rocky, Earth-like planet in the 'habitable zone',\" said astrophysicist at Switzerland's Geneva University, Michel Mayor. Astronomers say 581 e is 20.5 light years away from Earth and that it's roughly 1.9 times larger than Earth, making it the smallest exoplanet discovered to date. It was found using the High Accuracy Radial Velocity Planet Searcher (HARPS). Is that \"Michel Mayor is the discoverer of the High Accuracy Radial Velocity Planet Searcher.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.813072681427002,
+            -0.7319021224975586
+        ]
+    },
+    {
+        "input_text:": "The Hotel Moulin de Paris in 2.5km away from Disneyland Paris, and is located in the charming city of Magny-Le-Hongre. Is that \"EuroDisney is located in the charming city of Magny-Le-Hongre.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.3478803634643555,
+            -0.46158984303474426
+        ]
+    },
+    {
+        "input_text:": "The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina. Is that \"The United States has asked member states of the International Energy Agency to provide oil.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.7658264636993408,
+            -1.1467398405075073
+        ]
+    },
+    {
+        "input_text:": "Vinicio Cerezo tacitly blamed president Alfredo Cristiani's administration for the crisis which prevails in the country as a result of the Farabundo Marti National Liberation Front's (FMLN) offensive. Meanwhile, Morales Ehrlich blamed the extreme- right, death-squads of El Salvador for the assassination of six Jesuit priests at the Central American University. Is that \"Farabundo Marti National Liberation Front is suspected of the assassination of six Jesuit priests.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.49926766753196716,
+            -1.915756344795227
+        ]
+    },
+    {
+        "input_text:": "The last polio outbreak in the United States was in 1979. Is that \"African polio outbreak feared\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.9212628602981567,
+            -0.9973005056381226
+        ]
+    },
+    {
+        "input_text:": "The documents commented by the magazine date of April 25, 2002, epoch in which the Brazilian president was Fernando Henrique Cardoso. Is that \"The Brazilian President is Luiz In\u00e1cio Lula da Silva.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.0272796154022217,
+            -0.6954965591430664
+        ]
+    },
+    {
+        "input_text:": "On 21 July, the Macdonough patrolled the waters off Guam to protect the assault craft from enemy submarines, continuing that role until departing for Hawaii on 10 August. After a day at Pearl Harbor, she departed for the Admiralty Islands. Is that \"The Macdonough left Hawaii on 10 August.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3538270592689514,
+            -1.3889280557632446
+        ]
+    },
+    {
+        "input_text:": "Mr Roughan claims that children from the age of nine and up are drinking late at night. \"You don't know what the hell's going to happen.\" Mr Nant has apologised to the affected, inconvenienced residents. New Zealand Post state they are going to continue to monitor the situation, however and also have on-going discussion with the local council and police \"to make sure we're abreast of any developments in the area.\" The gang violence/activity New Zealand Post are referring to is, on the previous Thursday the Armed Offenders Squad was called out where they raided three homes following a shooting, eight people were arrested, and a large number of firearms were seized. Is that \"Roughan has nine children.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.504244089126587,
+            -0.4905768036842346
+        ]
+    },
+    {
+        "input_text:": "A mercenary group, faithful to the warmongering policy of former Somozist colonel Enrique Bermudez, attacked an IFA truck belonging to the interior ministry at 0900 on 26 March in El Jicote, wounded and killed an interior ministry worker and wounded five others. Is that \"A mercenary group was injured in El Jicote.\" true? Maybe or possibly?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.9197585582733154,
+            -0.10881688445806503
+        ]
+    }
+]

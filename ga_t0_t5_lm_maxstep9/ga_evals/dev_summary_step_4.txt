@@ -1,0 +1,74 @@
+[
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "0be4e9d8-b14c-4c3a-aab1-58270b2e066b",
+        "template_name": "does underscore refer to",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "3b23e91f-ed2e-4f80-8ece-f14c72d1f190",
+        "template_name": "does underscore refer to",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "50cd4b26-eb63-4d34-adb1-1e7cf7afa52f",
+        "template_name": "does underscore refer to",
+        "evaluation": {
+            "accuracy": 0.5151515151515151
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "77e6e797-754d-4d1d-9504-1e801984ced1",
+        "template_name": "does underscore refer to",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "81b02f79-5bf5-4b9a-93c7-c444cf9dc1fb",
+        "template_name": "does underscore refer to",
+        "evaluation": {
+            "accuracy": 0.5757575757575758
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "c132684c-c335-491c-a7db-f84a4d9c1b2e",
+        "template_name": "does underscore refer to",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "e058e3e1-9765-4e60-ba5c-4376dd178347",
+        "template_name": "does underscore refer to",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    },
+    {
+        "dataset_name": "winogrande",
+        "dataset_config_name": "winogrande_xl",
+        "template_id": "efbaeb80-d0ac-4195-902e-f467a31de8c1",
+        "template_name": "does underscore refer to",
+        "evaluation": {
+            "accuracy": 0.5454545454545454
+        }
+    }
+]

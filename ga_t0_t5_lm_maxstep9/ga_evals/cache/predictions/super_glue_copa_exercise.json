@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The woman refused a second beer. because... - She was the designated driver for the night. - She was familiar with the bartender.",
+        "target_text": "She was the designated driver for the night.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.009711509570479393,
+            -8.609625816345215
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The girl found the missing puzzle piece. so... - She completed the puzzle. - She took apart the puzzle.",
+        "target_text": "She completed the puzzle.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.017016107216477394,
+            -10.1071195602417
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The tenant misplaced his keys to his apartment. so... - His landlord unlocked the door. - His landlord repaired the door.",
+        "target_text": "His landlord unlocked the door.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.004651651717722416,
+            -7.697656631469727
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The gardener pulled the weeds. so... - The weeds came out of the soil. - The weeds produced seeds.",
+        "target_text": "The weeds came out of the soil.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2565583884716034,
+            -5.561773777008057
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The man went away for the weekend. because... - He wanted to relax. - He felt content.",
+        "target_text": "He wanted to relax.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.008517689071595669,
+            -6.419755935668945
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The surfer caught the wave. so... - The wave carried her to the shore. - She paddled her board into the ocean.",
+        "target_text": "The wave carried her to the shore.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.04865307733416557,
+            -3.2428131103515625
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The man took a shower. because... - He was sweaty from working out. - He opened a new bar of soap.",
+        "target_text": "He was sweaty from working out.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.034970931708812714,
+            -7.542305946350098
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. Our group's conversation gradually lulled to silence. so... - I felt awkward. - I became enraged.",
+        "target_text": "I felt awkward.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.009126147255301476,
+            -7.002431869506836
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The librarian located the book in the stacks. because... - I requested the librarian's help. - The book was checked out.",
+        "target_text": "I requested the librarian's help.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4163355231285095,
+            -1.7015818357467651
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The man felt thankful to be alive. because... - He was cured of cancer. - His wife was diagnosed with cancer.",
+        "target_text": "He was cured of cancer.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.25490760803222656,
+            -1.516578197479248
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The offender violated parole. so... - She was sent back to jail. - She stole money from a church.",
+        "target_text": "She was sent back to jail.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.13038495182991028,
+            -8.490385055541992
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The benefactor requested to stay anonymous. because... - He wanted to maintain his privacy. - He supported the cause behind his donation.",
+        "target_text": "He wanted to maintain his privacy.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.02312241680920124,
+            -6.032429218292236
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The terrorist set off the bomb. so... - The bomb exploded. - The bomb was deactivated.",
+        "target_text": "The bomb exploded.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.009798903949558735,
+            -6.577089309692383
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The man revealed personal information to the therapist. because... - He trusted the therapist. - He disagreed with the therapist.",
+        "target_text": "He trusted the therapist.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.010075986385345459,
+            -19.50931167602539
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The man became disabled. so... - His family offered him financial support. - His family cut off contact with him.",
+        "target_text": "His family offered him financial support.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.0035412723664194345,
+            -14.106673240661621
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The man had lipstick on his cheek. because... - The woman kissed him. - The woman made him blush.",
+        "target_text": "The woman kissed him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.005671244114637375,
+            -6.630103588104248
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. My knees buckled on the stairs. so... - I caught myself on the railing. - The railing came loose from the wall.",
+        "target_text": "I caught myself on the railing.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6854900121688843,
+            -2.349569797515869
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The boy pushed his sister. so... - His sister tattled on him. - They played hide and seek.",
+        "target_text": "His sister tattled on him.",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3576168417930603,
+            -1.3833775520324707
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The woman filed a restraining order against the man. because... - The man called her. - The man stalked her.",
+        "target_text": "The man called her.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -9.384084701538086,
+            -0.0009237281628884375
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The crowd gave the band a standing ovation. so... - The band signed autographs. - The band reappeared on the stage.",
+        "target_text": "The band signed autographs.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.72652006149292,
+            -0.4099038541316986
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The vase broke. so... - I stenciled it. - I glued it back together.",
+        "target_text": "I stenciled it.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.8225717544555664,
+            -0.10376932471990585
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. My foot went numb. so... - I put my shoes on. - I shook my foot.",
+        "target_text": "I put my shoes on.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.9634957313537598,
+            -0.1723165661096573
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The man dropped food on the floor. so... - His dog jumped up on him. - His dog ran over to eat the food.",
+        "target_text": "His dog jumped up on him.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.391354560852051,
+            -0.01779891364276409
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. It got dark outside. so... - Snowflakes began to fall from the sky. - The moon became visible in the sky.",
+        "target_text": "Snowflakes began to fall from the sky.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5240236520767212,
+            -0.2819516658782959
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The woman received a diploma. because... - She enrolled in college. - She graduated from college.",
+        "target_text": "She enrolled in college.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.913571834564209,
+            -0.01467010099440813
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The company lost money. because... - Its products received positive consumer reviews. - Some of its products were manufactured defectively.",
+        "target_text": "Its products received positive consumer reviews.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.196374893188477,
+            -0.006245476193726063
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The documents contained important information. so... - I paper clipped them together. - I kept them in a secure place.",
+        "target_text": "I paper clipped them together.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -5.00918436050415,
+            -0.0139900092035532
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The man looked at his watch. so... - He realized he forgot something. - He realized he was early.",
+        "target_text": "He realized he forgot something.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.2407572269439697,
+            -0.678911030292511
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The man threw out the bread. because... - It was fresh. - It was stale.",
+        "target_text": "It was fresh.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.58480167388916,
+            -0.012385083362460136
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The patient underwent the risky medical procedure. because... - The procedure was costly. - Specialists recommended the procedure.",
+        "target_text": "The procedure was costly.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -6.933253288269043,
+            -0.006555100902915001
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The woman's makeup smeared. because... - She brushed her hair. - She wiped her eyes.",
+        "target_text": "She brushed her hair.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.6315656900405884,
+            -0.23197664320468903
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. The police officer dropped the gun. so... - The gun recoiled. - The gun went off.",
+        "target_text": "The gun recoiled.",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.2923665046691895,
+            -0.12789297103881836
+        ]
+    },
+    {
+        "input_text:": "Exercise: Choose the most probable alternative. My daughter suffered an allergy attack. so... - I encouraged her to take deep breaths. - I took her to the emergency room.",
+        "target_text": "I encouraged her to take deep breaths.",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.008863162249326706,
+            -5.186709880828857
+        ]
+    }
+]

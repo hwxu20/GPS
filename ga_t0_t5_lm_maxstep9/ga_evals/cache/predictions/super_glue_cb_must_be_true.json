@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Given that Part of it was to be compulsorily purchased. You could say that Gustave was shepherded into creative retreat at Croisset by epilepsy. You could also say he was driven there by the railway. and that conclusion, is the \"Gustave was driven to creative retreat in Croisset by the railway\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7312995195388794,
+            -0.804030179977417,
+            -2.92048978805542
+        ]
+    },
+    {
+        "input_text:": "Given that Jane ate without pausing. Hunger was an unknown experience. She had never imagined it could actually hurt. and that conclusion, is the \"hunger could actually hurt\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6174407601356506,
+            -1.335478663444519,
+            -2.2103769779205322
+        ]
+    },
+    {
+        "input_text:": "Given that They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. and that conclusion, is the \"Miss Lavant was in love with Dr Greenslade\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.16939030587673187,
+            -2.350489377975464,
+            -3.4020755290985107
+        ]
+    },
+    {
+        "input_text:": "Given that It was a complex language. Not written down but handed down. One might say it was peeled down. and that conclusion, is the \"the language was peeled down\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.25851935148239136,
+            -1.8142613172531128,
+            -3.0607824325561523
+        ]
+    },
+    {
+        "input_text:": "Given that At length she decided that there was nothing to be gained by worrying her. Probably there was some quite innocent explanation, which Roger Kenyon would give her when she returned the wallet - if, indeed, it were his. And yet why had his manner changed so abruptly when he learned that the girl whose hat he had rescued was going to live at Sunset Cottage? and that conclusion, is the \"the girl whose hat Roger Kenyon had rescued was going to live at Sunset Cottage\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.431659996509552,
+            -1.4467352628707886,
+            -2.8997809886932373
+        ]
+    },
+    {
+        "input_text:": "Given that A: Oh, oh yeah, and every time you see one hit on the side of the road you say is that my cat. B: Uh-huh. A: And you go crazy thinking it might be yours. B: Right, well I didn't realize my husband was such a sucker for animals until I brought one home one night. and that conclusion, is the \"her husband was such a sucker for animals\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.46062687039375305,
+            -1.732365369796753,
+            -1.9419273138046265
+        ]
+    },
+    {
+        "input_text:": "Given that The Susweca. It means dragonfly'' in Sioux, you know. Did I ever tell you that's where Paul and I met? and that conclusion, is the \"Susweca is where she and Paul met\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.18669547140598297,
+            -2.2325265407562256,
+            -3.2380473613739014
+        ]
+    },
+    {
+        "input_text:": "Given that Richard Breeden hadn't noticed that his new desk had just four telephone lines and one phone. and that conclusion, is the \"Richard Breeden's new desk had just four telephone lines and one phone\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.151117205619812,
+            -2.488349676132202,
+            -3.149179697036743
+        ]
+    },
+    {
+        "input_text:": "Given that B: Yeah, and the ground will filter some of it but not all of it. A: No, not when you figure, I didn't realize one cow produces that much manure and that conclusion, is the \"one cow produces that much manure\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.936516284942627,
+            -1.2583725452423096,
+            -2.096557378768921
+        ]
+    },
+    {
+        "input_text:": "Given that Paula could not help herself. It was just the way she was. Others might say they hated her and mean it. and that conclusion, is the \"others hated Paula\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.655207633972168,
+            -1.287927269935608,
+            -1.960680365562439
+        ]
+    },
+    {
+        "input_text:": "Given that I wanted to tell you. But the Bookman asked me to keep our meeting a secret.'' How did you know I 'd met him? and that conclusion, is the \"he had met the Bookman\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4261927008628845,
+            -1.6663697957992554,
+            -2.6778552532196045
+        ]
+    },
+    {
+        "input_text:": "Given that But don't dilly-dally for too long. Once it's published we are all going to look a little risible if we have made no adjustments to what is after all known as being predominantly my own design of gallery. Also I am a bit older than the rest of you but you can perhaps understand that I don't want to drop dead without a proper and public recantation. and that conclusion, is the \"he doesn't want to drop dead without a proper and public recantation\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5276631116867065,
+            -1.9510525465011597,
+            -1.4413522481918335
+        ]
+    },
+    {
+        "input_text:": "Given that How do you know? she was going to ask, but his smile was answer enough. If DeVore said there was going to be a vacancy there would be a vacancy. and that conclusion, is the \"there was going to be a vacancy\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2795504629611969,
+            -2.300229787826538,
+            -2.524174928665161
+        ]
+    },
+    {
+        "input_text:": "Given that Chopra stood unsteadily on his feet. The shapechanger bounded around with excitement. Chopra could tell something had happened. and that conclusion, is the \"something had happened\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.7619791626930237,
+            -1.026307225227356,
+            -1.9813028573989868
+        ]
+    },
+    {
+        "input_text:": "Given that But the damage was done as far as my faith was concerned, which is probably why I went mad. So anyway, that Christmas Eve night confirmed my worst fears, it was like a kind of royal flush'' for the infant Jimbo. All three kings - Pa Santa and the King of Kings - all down the pan together... And to be honest I don't believe any of them stands a chance of ever making a comeback with me. and that conclusion, is the \"any of the three kings stands a chance of ever making a comeback with him\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.1960651874542236,
+            -0.4926104247570038,
+            -2.3295974731445312
+        ]
+    },
+    {
+        "input_text:": "Given that B: And as far as like them, uh, entertaining the rights that they should have. A: Uh-huh. B: I mean, we educate them, we feed them, we take care of them and they no sooner get out on the street and they're back in again. A: Uh-huh. B: I'm not saying they're all bad, and that conclusion, is the \"they're all bad\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.4079482555389404,
+            -0.602048397064209,
+            -1.643620491027832
+        ]
+    },
+    {
+        "input_text:": "Given that B: Uh, I have, uh, I guess a lot of thoughts about the Vietnam War, um, I guess I feel like I was pretty young while it was going on and so there's probably a lot of things I remember and a lot of things that I really didn't have a clue as to what was happening. B: Yeah. A: Um, looking back, like maybe some of the things that I know now, I'm not sure I do believe it was worth the cost in dollars and lives. That was one of the questions that she asked us to think about, because we never went to war. I don't think we were committed to winning it and getting out and that conclusion, is the \"they were committed to winning the Vietnam War and getting out\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.3734853267669678,
+            -0.619938850402832,
+            -2.197791337966919
+        ]
+    },
+    {
+        "input_text:": "Given that B: I did, too. A: I mean, it was just more for my money. B: Yeah. I didn't think it was too long at all. and that conclusion, is the \"it was too long\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.9548468589782715,
+            -0.19500850141048431,
+            -2.258077383041382
+        ]
+    },
+    {
+        "input_text:": "Given that B: Uh, uh, I've had one or two American cars I think, and they were okay. I had a Pontiac once and I never had a problem with it, but, uh, my mother had a Dodge at one point and I had driven it a few times and I really did not feel that I would buy a Dodge just from, A: Um. B: well, actually, I had uh, a Dodge Omni at one point A: Uh-huh. B: and that was, I think, what really prejudiced me against American cars because I did not feel that it was a very quality, uh, car. and that conclusion, is the \"the Dodge Omni was a very quality car\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.272589206695557,
+            -0.045325927436351776,
+            -3.9782416820526123
+        ]
+    },
+    {
+        "input_text:": "Given that B: they did things for people, you know, for their communities, for their, uh, families, for their friends, where now, I'm not sure they really do. A: Yes. Yeah. Well, I think sometimes through groups and organizations, um, uh, when they asked the question I thought, well that sounds wonderful. And then, I wondered if people were unwilling but I think even if you went in with a negative attitude I don't think it would stay negative very long. and that conclusion, is the \"that attitude would stay negative very long\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.8026589155197144,
+            -0.37284472584724426,
+            -2.1495261192321777
+        ]
+    },
+    {
+        "input_text:": "Given that A: Well, presumably those who find out such information, if they are doing it, I would prefer to not to be known, and, I mean, you know, the classic, oh, I don't know C I conspiracy theories or whatever, would have such parties trying to do it without your knowledge. So there's,, things that invade that second type of privacy where you do know about them and possibly things that invade that second type of privacy without you knowing about it, and I can't talk about the second one other than to generate paranoia. It's a surmise and, I'd like to think that it's quite low, at least in this country. B: to surmise. It is there. A: I don't think I'd like the KGB monitoring my phone or anything like that. and that conclusion, is the \"he would like the KGB monitoring his phone\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.822585582733154,
+            -0.2972743809223175,
+            -3.54999041557312
+        ]
+    },
+    {
+        "input_text:": "Given that He had seen something I should have, which was a car turning in from Soho Square and coming up behind me. My right foot hovered over the accelerator pedal and I balanced Armstrong on the clutch. I wasn't as convinced as Malpass that Nevil was out of harm's way. and that conclusion, is the \"Nevil was out of harm's way\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.1635832786560059,
+            -0.7314492464065552,
+            -1.7269420623779297
+        ]
+    },
+    {
+        "input_text:": "Given that He's weird enough to have undressed me without thinking, according to some mad notion of the proper'' thing to do. Perhaps he thought I couldn't lie in bed with my clothes on. and that conclusion, is the \"she couldn't lie in bed with her clothes on\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.561170220375061,
+            -1.104970932006836,
+            -2.8049533367156982
+        ]
+    },
+    {
+        "input_text:": "Given that B: That might be kind of tough, huh. A: It really would, yes, yes, and like I said, my sister's still in it, and I really don't think my mother'd want to be there, either. and that conclusion, is the \"his mother would want to be there\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.520075798034668,
+            -0.35973432660102844,
+            -1.8699796199798584
+        ]
+    },
+    {
+        "input_text:": "Given that A: Yeah, that's crazy. B: and then you come here in the Dallas area, um, I don't believe that people should be allowed to carry guns in their vehicles. and that conclusion, is the \"people should be allowed to carry guns in their vehicles\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.3222577571868896,
+            -0.30953454971313477,
+            -2.1971206665039062
+        ]
+    },
+    {
+        "input_text:": "Given that A: and then once they do get elected, they don't have the power or the authority or the willingness to do those things that they promised, you know, beforehand. B: Right. A: You know, maybe it just wasn't possible at all in the first place, you know, like the no new taxes thing. You know, that's, uh, with the economy going the way it is and everything, that was nearly ridiculous thing to, even try to do. B: Yeah. Yeah. Well, I don't think he's going to have to worry about that next year. and that conclusion, is the \"he's going to have to worry about that next year\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.9945570230484009,
+            -1.0043576955795288,
+            -1.6933379173278809
+        ]
+    },
+    {
+        "input_text:": "Given that B: And I've worked in the hospital for fifteen years and I've taken care of a few AIDS patients. A: Uh-huh. B: Uh, when they asked us did we want to, uh, keep it the same or, uh, spend more, spend less, uh, I think right now what they're spending is adequate. Uh, for my personal opinion. Uh, because I think it's something that's going to take them a while to come up with a, uh, vaccine for. A: Yeah. Uh-huh. Uh-huh. B: I don't think it's going to be that easy to come up with and that conclusion, is the \"it is going to be that easy to come up with\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.523144006729126,
+            -0.8368717432022095,
+            -1.7892637252807617
+        ]
+    },
+    {
+        "input_text:": "Given that A: Uh, well, it would depend on when you go it's not excessively crowded on the weekends. B: See I'd want to be there in the mornings like from nine thirty to ten thirty. A: Oh, I don't think that would be bad at all. and that conclusion, is the \"that would be bad\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -4.368057727813721,
+            -0.09354674816131592,
+            -2.8232250213623047
+        ]
+    },
+    {
+        "input_text:": "Given that A: That's fairly interesting. B: I bet that would be, rather interesting. Uh, that's, uh, self improvement, well, that's kind of a hobby but it is self improvement from the standpoint of probably relaxing, uh. A: Yeah, I don't know that I read anything strictly labeled self improvement. and that conclusion, is the \"she reads anything strictly labeled self improvement\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5109614133834839,
+            -0.6155958771705627,
+            -1.7237944602966309
+        ]
+    },
+    {
+        "input_text:": "Given that B: Now see I. A: I'm intrigued by it, but I'm not sure I want to go see it yet. B: Yeah, I don't think I want to see that either. and that conclusion, is the \"she wants to see that\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.80617356300354,
+            -0.632988691329956,
+            -1.1910529136657715
+        ]
+    },
+    {
+        "input_text:": "Given that Then it cried. It was another girl. I was a little disappointed but I could only hope that Celia was still a bit hazy from the drugs. and that conclusion, is the \"Celia was still a bit hazy from the drugs\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.3799797296524048,
+            -2.088036298751831,
+            -1.7699956893920898
+        ]
+    },
+    {
+        "input_text:": "Given that A: Yeah. The radio doesn't really have much news sometimes. The stations I listen to are just mainly music. B: Yeah, I think you pretty much have to listen to all news station to get any news at all. A: Yeah. Do you think that TV is, uh, pretty accurate. and that conclusion, is the \"TV is pretty accurate\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.9140958786010742,
+            -1.3966577053070068,
+            -1.5717120170593262
+        ]
+    },
+    {
+        "input_text:": "Given that B: and both of those seem very easy to use compared to D Base. A: Uh-huh. Do you think D Base is more flexible or allows you to do more. Or do you think the others are pretty much compatible these days? and that conclusion, is the \"the others are pretty much compatible these days\"? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 1,
+        "logits": [
+            -2.161118984222412,
+            -0.6083076596260071,
+            -2.003262758255005
+        ]
+    }
+]

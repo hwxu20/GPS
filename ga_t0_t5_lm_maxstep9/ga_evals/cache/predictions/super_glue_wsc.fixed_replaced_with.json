@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "I put the cake away in the refrigerator. It has a lot of butter in it. Yes, because the antecedent and the object are the same. You can replace the pronoun \"It\" with \"the refrigerator\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.172354817390442,
+            -0.37496593594551086
+        ]
+    },
+    {
+        "input_text:": "Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: \"There's plenty.\" Yes, because the antecedent and the object are the same. You can replace the pronoun \"her\" with \"Tatyana\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.4863587021827698,
+            -0.9994345307350159
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. Yes, because the antecedent and the object are the same. You can replace the pronoun \"they\" with \"mothers\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.8444827795028687,
+            -0.7625330686569214
+        ]
+    },
+    {
+        "input_text:": "Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned. Yes, because the antecedent and the object are the same. You can replace the pronoun \"He\" with \"Bob\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.25441133975982666,
+            -1.834637999534607
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had bought from him didn't work. Yes, because the antecedent and the object are the same. You can replace the pronoun \"he\" with \"Tom\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6451640129089355,
+            -0.8129317760467529
+        ]
+    },
+    {
+        "input_text:": "This book introduced Shakespeare to Goethe ; it was a fine selection of his writing. Yes, because the antecedent and the object are the same. You can replace the pronoun \"his\" with \"Goethe\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.1587785929441452,
+            -1.9290636777877808
+        ]
+    },
+    {
+        "input_text:": "The city councilmen refused the demonstrators a permit because they feared violence. Yes, because the antecedent and the object are the same. You can replace the pronoun \"they\" with \"the demonstrators\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.269702672958374,
+            -0.9174416065216064
+        ]
+    },
+    {
+        "input_text:": "The fish ate the worm. It was hungry. Yes, because the antecedent and the object are the same. You can replace the pronoun \"It\" with \"the worm\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.2534825801849365,
+            -0.34482067823410034
+        ]
+    },
+    {
+        "input_text:": "The firemen arrived after the police because they were coming from so far away. Yes, because the antecedent and the object are the same. You can replace the pronoun \"they\" with \"the police\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6408641934394836,
+            -1.070021390914917
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs dangled. Yes, because the antecedent and the object are the same. You can replace the pronoun \"his\" with \"Ollie\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.40370768308639526,
+            -1.1321134567260742
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. Yes, because the antecedent and the object are the same. You can replace the pronoun \"them\" with \"mothers\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.8433754444122314,
+            -0.826490044593811
+        ]
+    },
+    {
+        "input_text:": "Susan knows all about Ann's personal problems because she is nosy. Yes, because the antecedent and the object are the same. You can replace the pronoun \"she\" with \"Ann\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.731808066368103,
+            -0.8180280923843384
+        ]
+    },
+    {
+        "input_text:": "Mary tucked her daughter Anne into bed, so that she could sleep. Yes, because the antecedent and the object are the same. You can replace the pronoun \"she\" with \"Mary\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.7411854267120361,
+            -0.6578481197357178
+        ]
+    },
+    {
+        "input_text:": "Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years. Yes, because the antecedent and the object are the same. You can replace the pronoun \"he\" with \"Cooper\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3025643229484558,
+            -1.4219646453857422
+        ]
+    },
+    {
+        "input_text:": "Emma did not pass the ball to Janie although she was open. Yes, because the antecedent and the object are the same. You can replace the pronoun \"she\" with \"Emma\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3765348196029663,
+            -1.2631480693817139
+        ]
+    },
+    {
+        "input_text:": "The cat was lying by the mouse hole waiting for the mouse, but it was too impatient. Yes, because the antecedent and the object are the same. You can replace the pronoun \"it\" with \"the mouse\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.1259924173355103,
+            -0.4059333801269531
+        ]
+    },
+    {
+        "input_text:": "Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical. Yes, because the antecedent and the object are the same. You can replace the pronoun \"He\" with \"Mark\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5851702690124512,
+            -0.9941699504852295
+        ]
+    },
+    {
+        "input_text:": "In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it removed. Yes, because the antecedent and the object are the same. You can replace the pronoun \"it\" with \"the roof\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.970678687095642,
+            -0.46168962121009827
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs ached. Yes, because the antecedent and the object are the same. You can replace the pronoun \"his\" with \"Tommy\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.0385404825210571,
+            -0.4466412663459778
+        ]
+    },
+    {
+        "input_text:": "The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone. Yes, because the antecedent and the object are the same. You can replace the pronoun \"it\" with \"The sun\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.8912889361381531,
+            -0.6924466490745544
+        ]
+    },
+    {
+        "input_text:": "Jane knocked on Susan's door but she did not answer. Yes, because the antecedent and the object are the same. You can replace the pronoun \"she\" with \"Jane\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.713424801826477,
+            -0.7100296020507812
+        ]
+    },
+    {
+        "input_text:": "Emma's mother had died long ago, and her place had been taken by an excellent woman as governess. Yes, because the antecedent and the object are the same. You can replace the pronoun \"her\" with \"Emma's mother\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5070433616638184,
+            -0.9298046827316284
+        ]
+    },
+    {
+        "input_text:": "Jackson was greatly influenced by Arnold, though he lived two centuries earlier. Yes, because the antecedent and the object are the same. You can replace the pronoun \"he\" with \"Arnold\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.07864662259817123,
+            -2.6353042125701904
+        ]
+    },
+    {
+        "input_text:": "Ann asked Mary what time the library closes, but she had forgotten. Yes, because the antecedent and the object are the same. You can replace the pronoun \"she\" with \"Mary\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.22984202206134796,
+            -1.6578679084777832
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. Yes, because the antecedent and the object are the same. You can replace the pronoun \"they\" with \"politicians\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.0852161645889282,
+            -1.0038151741027832
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had sold him didn't work. Yes, because the antecedent and the object are the same. You can replace the pronoun \"he\" with \"Tom\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.431831032037735,
+            -1.1449519395828247
+        ]
+    },
+    {
+        "input_text:": "The sculpture rolled off the shelf because it wasn't level. Yes, because the antecedent and the object are the same. You can replace the pronoun \"it\" with \"the shelf\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.5738974809646606,
+            -0.25920265913009644
+        ]
+    },
+    {
+        "input_text:": "The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time. Yes, because the antecedent and the object are the same. You can replace the pronoun \"They\" with \"the stars\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.139699935913086,
+            -0.18750806152820587
+        ]
+    },
+    {
+        "input_text:": "Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it. Yes, because the antecedent and the object are the same. You can replace the pronoun \"They\" with \"Pam's parents\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.2268732786178589,
+            -0.4095090925693512
+        ]
+    },
+    {
+        "input_text:": "Mark was close to Mr. Singer's heels. He heard him calling for the captain, promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over. Yes, because the antecedent and the object are the same. You can replace the pronoun \"him\" with \"Mr. Singer\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.756988525390625,
+            -0.9835695028305054
+        ]
+    },
+    {
+        "input_text:": "I took the water bottle out of the backpack so that it would be handy. Yes, because the antecedent and the object are the same. You can replace the pronoun \"it\" with \"the water bottle\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.3882750272750854,
+            -0.3071421980857849
+        ]
+    },
+    {
+        "input_text:": "John couldn't see the stage with Billy in front of him because he is so short. Yes, because the antecedent and the object are the same. You can replace the pronoun \"he\" with \"John\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.7512394189834595,
+            -0.766895055770874
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. Yes, because the antecedent and the object are the same. You can replace the pronoun \"them\" with \"settlers\", but then you lose the meaning of the sentence. Do you agree?",
+        "target_text": "No",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.9859715700149536,
+            -0.5544536113739014
+        ]
+    }
+]

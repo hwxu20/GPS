@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "I put the cake away in the refrigerator. It has a lot of butter in it. In the passage above, the pronoun It span2_text span2_text refers to the name of the refrigerator s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.41541337966918945,
+            -1.096436619758606
+        ]
+    },
+    {
+        "input_text:": "Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: \"There's plenty.\" In the passage above, the pronoun her span2_text span2_text refers to the name of Tatyana s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.22557106614112854,
+            -1.7323856353759766
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. In the passage above, the pronoun they span2_text span2_text refers to the name of mothers s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.47071194648742676,
+            -1.0584299564361572
+        ]
+    },
+    {
+        "input_text:": "Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned. In the passage above, the pronoun He span2_text span2_text refers to the name of Bob s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.20577053725719452,
+            -1.7282648086547852
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had bought from him didn't work. In the passage above, the pronoun he span2_text span2_text refers to the name of Tom s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.1350628286600113,
+            -2.5632662773132324
+        ]
+    },
+    {
+        "input_text:": "This book introduced Shakespeare to Goethe ; it was a fine selection of his writing. In the passage above, the pronoun his span2_text span2_text refers to the name of Goethe s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.12317206710577011,
+            -2.6664695739746094
+        ]
+    },
+    {
+        "input_text:": "The city councilmen refused the demonstrators a permit because they feared violence. In the passage above, the pronoun they span2_text span2_text refers to the name of the demonstrators s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.31894126534461975,
+            -1.8669079542160034
+        ]
+    },
+    {
+        "input_text:": "The fish ate the worm. It was hungry. In the passage above, the pronoun It span2_text span2_text refers to the name of the worm s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.18850888311862946,
+            -2.012054443359375
+        ]
+    },
+    {
+        "input_text:": "The firemen arrived after the police because they were coming from so far away. In the passage above, the pronoun they span2_text span2_text refers to the name of the police s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.30495309829711914,
+            -1.9129072427749634
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs dangled. In the passage above, the pronoun his span2_text span2_text refers to the name of Ollie s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.14667654037475586,
+            -2.3048813343048096
+        ]
+    },
+    {
+        "input_text:": "The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. In the passage above, the pronoun them span2_text span2_text refers to the name of mothers s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.24191433191299438,
+            -1.6713824272155762
+        ]
+    },
+    {
+        "input_text:": "Susan knows all about Ann's personal problems because she is nosy. In the passage above, the pronoun she span2_text span2_text refers to the name of Ann s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.16958628594875336,
+            -2.1421003341674805
+        ]
+    },
+    {
+        "input_text:": "Mary tucked her daughter Anne into bed, so that she could sleep. In the passage above, the pronoun she span2_text span2_text refers to the name of Mary s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.8946132659912109,
+            -0.5839231014251709
+        ]
+    },
+    {
+        "input_text:": "Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years. In the passage above, the pronoun he span2_text span2_text refers to the name of Cooper s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.12738654017448425,
+            -2.2382593154907227
+        ]
+    },
+    {
+        "input_text:": "Emma did not pass the ball to Janie although she was open. In the passage above, the pronoun she span2_text span2_text refers to the name of Emma s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2589132487773895,
+            -1.9849227666854858
+        ]
+    },
+    {
+        "input_text:": "The cat was lying by the mouse hole waiting for the mouse, but it was too impatient. In the passage above, the pronoun it span2_text span2_text refers to the name of the mouse s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2621386647224426,
+            -1.7529922723770142
+        ]
+    },
+    {
+        "input_text:": "Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical. In the passage above, the pronoun He span2_text span2_text refers to the name of Mark s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.07209756970405579,
+            -3.1498286724090576
+        ]
+    },
+    {
+        "input_text:": "In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it removed. In the passage above, the pronoun it span2_text span2_text refers to the name of the roof s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6405030488967896,
+            -1.7970972061157227
+        ]
+    },
+    {
+        "input_text:": "As Ollie carried Tommy up the long winding steps, his legs ached. In the passage above, the pronoun his span2_text span2_text refers to the name of Tommy s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.061911750584840775,
+            -3.4774563312530518
+        ]
+    },
+    {
+        "input_text:": "The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone. In the passage above, the pronoun it span2_text span2_text refers to the name of The sun s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.1987581253051758,
+            -0.6188777685165405
+        ]
+    },
+    {
+        "input_text:": "Jane knocked on Susan's door but she did not answer. In the passage above, the pronoun she span2_text span2_text refers to the name of Jane s. True or false?",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.36489278078079224,
+            -1.3068535327911377
+        ]
+    },
+    {
+        "input_text:": "Emma's mother had died long ago, and her place had been taken by an excellent woman as governess. In the passage above, the pronoun her span2_text span2_text refers to the name of Emma's mother s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.0348730087280273,
+            -0.48681479692459106
+        ]
+    },
+    {
+        "input_text:": "Jackson was greatly influenced by Arnold, though he lived two centuries earlier. In the passage above, the pronoun he span2_text span2_text refers to the name of Arnold s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.08774905651807785,
+            -2.6182804107666016
+        ]
+    },
+    {
+        "input_text:": "Ann asked Mary what time the library closes, but she had forgotten. In the passage above, the pronoun she span2_text span2_text refers to the name of Mary s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.4254642724990845,
+            -1.2050257921218872
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. In the passage above, the pronoun they span2_text span2_text refers to the name of politicians s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.37493428587913513,
+            -1.4067275524139404
+        ]
+    },
+    {
+        "input_text:": "Frank was upset with Tom because the toaster he had sold him didn't work. In the passage above, the pronoun he span2_text span2_text refers to the name of Tom s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.08449293673038483,
+            -3.1069581508636475
+        ]
+    },
+    {
+        "input_text:": "The sculpture rolled off the shelf because it wasn't level. In the passage above, the pronoun it span2_text span2_text refers to the name of the shelf s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.383381724357605,
+            -1.395509123802185
+        ]
+    },
+    {
+        "input_text:": "The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time. In the passage above, the pronoun They span2_text span2_text refers to the name of the stars s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.07705819606781,
+            -0.5074833035469055
+        ]
+    },
+    {
+        "input_text:": "Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it. In the passage above, the pronoun They span2_text span2_text refers to the name of Pam's parents s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.3923448324203491,
+            -0.36797139048576355
+        ]
+    },
+    {
+        "input_text:": "Mark was close to Mr. Singer's heels. He heard him calling for the captain, promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over. In the passage above, the pronoun him span2_text span2_text refers to the name of Mr. Singer s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5349788665771484,
+            -0.9468930959701538
+        ]
+    },
+    {
+        "input_text:": "I took the water bottle out of the backpack so that it would be handy. In the passage above, the pronoun it span2_text span2_text refers to the name of the water bottle s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.2126394510269165,
+            -0.4128839075565338
+        ]
+    },
+    {
+        "input_text:": "John couldn't see the stage with Billy in front of him because he is so short. In the passage above, the pronoun he span2_text span2_text refers to the name of John s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.139934241771698,
+            -2.292682409286499
+        ]
+    },
+    {
+        "input_text:": "The politicians far away in Washington could not know the settlers so they must make rules to regulate them. In the passage above, the pronoun them span2_text span2_text refers to the name of settlers s. True or false?",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -0.9368230700492859,
+            -0.5650617480278015
+        ]
+    }
+]

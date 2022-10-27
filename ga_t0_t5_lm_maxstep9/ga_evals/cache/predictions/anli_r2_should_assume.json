@@ -1,0 +1,365 @@
+[
+    {
+        "input_text:": "Given Rachel Brosnahan (born December 15, 1990) is an American actress. She is best known for her roles in the films \"The Unborn\" (2009) and \"Beautiful Creatures\" (2013) and for portraying Rachel Posner in the Netflix series \"House of Cards\", for which she was nominated for an Emmy Award. -Should we assume that \"She is an American citizen.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.1259249895811081,
+            -3.114246129989624,
+            -2.8674280643463135
+        ]
+    },
+    {
+        "input_text:": "Given Tsewang Rigzin is the current president of the Tibetan Youth Congress. He has held the position since September 2007, and on August 8, 2008 he was re-elected to serve through August 2013. Prior to attaining his current position he served as the president of the Portland/Vancouver regional chapter of the Tibetan Youth Congress. -Should we assume that \"Tsewang Rigzin is the president of the Portland/Vancouver regional chapter of the Tibetan Youth Congress.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3584516942501068,
+            -2.783273696899414,
+            -1.5617555379867554
+        ]
+    },
+    {
+        "input_text:": "Given The phrase \"cold enough to freeze the balls off (or \"on\") a brass monkey\" is a colloquial expression used by some English speakers. The reference to the testes (as the term \"balls\" is commonly understood to mean) of the brass monkey appears to be a 20th-century variant on the expression, prefigured by a range of references to other body parts, especially the nose and tail. -Should we assume that \"cold enough to freeze the balls off or on a brass monkey has no date\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5585695505142212,
+            -3.3253016471862793,
+            -1.551362156867981
+        ]
+    },
+    {
+        "input_text:": "Given Coraz\u00f3n Valiente (\"Fearless Heart\"), originally known as \"Cadas del Cielo\", is a Spanish-language telenovela produced by United States-based television network Telemundo Studios, Miami, featuring an ensemble cast. Adriana Fonseca, Ximena Duque, Jos\u00e9 Luis Res\u00e9ndez and Fabi\u00e1n Ros starred as the main protagonists, with Aylin Mujica and Manuel Landeta starred as the main antagonists. -Should we assume that \"The US-based television network Telemundo Studios produced the Spanish-language telenovela called Caidas del Cielo before the name was changed.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2763929069042206,
+            -3.1906557083129883,
+            -1.7751507759094238
+        ]
+    },
+    {
+        "input_text:": "Given The Inter-American Peace Force (IAPF) was established, by the Organization of American States, on 23 May 1965, after the United States's intervention in the Dominican Republic. It largely consisted of over 42,600 United States military personnel, plus the following troops were sent by each country; -Should we assume that \"The IAPF was formed at the behest of the US.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.39460790157318115,
+            -2.5852105617523193,
+            -1.5143464803695679
+        ]
+    },
+    {
+        "input_text:": "Given The Last of Us Part II is an upcoming action-adventure survival horror video game developed by Naughty Dog and published by Sony Interactive Entertainment for PlayStation 4. It was announced at the PlayStation Experience event in December 2016, and will serve as the sequel to 2013's \"The Last of Us\". -Should we assume that \"The Last of Us was an action adventure survival horror video game\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.18762363493442535,
+            -2.470940589904785,
+            -2.8518621921539307
+        ]
+    },
+    {
+        "input_text:": "Given The PLDT Home TVolution Power Attackers (women's) and the PLDT Home Telpad-Air Force Turbo Boosters (men's) were professional volleyball teams owned by PLDT that played in the Philippine Super Liga (PSL) from 2013 to 2014. The club was first known as PLDT myDSL Speed Boosters. -Should we assume that \"the club known as pldt speed boosters played in philipine league \" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.6173908114433289,
+            -2.7896714210510254,
+            -1.2768911123275757
+        ]
+    },
+    {
+        "input_text:": "Given The Return of the Condor Heroes, also called The Giant Eagle and Its Companion, is a wuxia novel by Jin Yong (Louis Cha). It is the second part of the \"Condor Trilogy\" and was preceded by \"The Legend of the Condor Heroes\" and followed by \"The Heaven Sword and Dragon Saber\". It was first serialised between 20 May 1959 and 5 July 1961 in the Hong Kong newspaper \"Ming Pao\". -Should we assume that \"Jin Yong wrote The Legend of the Condor Heroes\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.11553135514259338,
+            -3.279664993286133,
+            -3.1635468006134033
+        ]
+    },
+    {
+        "input_text:": "Given Valentino D. B. Mazzia (February 17, 1922 \u2013 March 10, 1999) was an American physician who served as chairman of the department of anesthesiology at the New York University School of Medicine and was a pioneer in the forensic analysis of deaths occurring during surgical procedures. He testified in many criminal cases about the use and presence of anesthesia products in cases of death. -Should we assume that \"Valentino D.B. Mazzia testified that anesthesia products are present in many death cases.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.22109459340572357,
+            -3.0069708824157715,
+            -2.5339627265930176
+        ]
+    },
+    {
+        "input_text:": "Given Carl Frederik Tietgen (19 March 1829 \u2013 19 October 1901) was a Danish financier and industrialist. The founder of numerous prominent Danish companies, many of which are still in operation today, he played an important role in the industrialisation of Denmark. Notably also forming conglomerates, several of Tietgen's companies attained a monopoly-like status, which cemented their durability. -Should we assume that \"Carl Tietgen formed conglomerates.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.21607454121112823,
+            -3.0580475330352783,
+            -2.3573379516601562
+        ]
+    },
+    {
+        "input_text:": "Given Himson Teleda (born 28 August 1992) is a footballer comes from Solomon Islands. He plays as a midfielder for Western United FC in Solomon Islands National Club Championship. He is a member of Solomon Islands national football team. He made his debut during the 2012 OFC Nations Cup and he scored one goal against New Zealand. In stage 3 he scored one goal against Tahiti. -Should we assume that \"Taleda is 27 years old.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.40682345628738403,
+            -2.1863632202148438,
+            -1.654172420501709
+        ]
+    },
+    {
+        "input_text:": "Given Col du Glandon (1924 m ) is a high mountain pass in the Dauphin\u00e9 Alps in Savoie, France, linking Le Bourg-d'Oisans to La Chambre. It is situated between the Belledonne, Grandes Rousses and Arvan-Villards mountain ranges, west of the Col de la Croix de Fer. The road over the Col du Glandon was opened in 1898, although it was not linked to the Col de la Croix de Fer until 1912. -Should we assume that \"The road over the Col du Glandon was being constructed during 1898.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3766169250011444,
+            -2.8120946884155273,
+            -1.4580920934677124
+        ]
+    },
+    {
+        "input_text:": "Given Stephen R. \"Steve\" Bissette (born March 14, 1955) is an American comics artist, editor, and publisher with a focus on the horror genre. He is known for working with writer Alan Moore and inker John Totleben on the DC comic book \"Swamp Thing\" in the 1980s. -Should we assume that \"Stephen R. \"Steve\" Bissette was born in the year of the goat\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.5726749897003174,
+            -1.5033854246139526,
+            -2.126157283782959
+        ]
+    },
+    {
+        "input_text:": "Given Shehzad Sheikh or Shahzad Sheikh is a Pakistani film and television actor and model, known for playing the lead role in the 2015 film \"Karachi Se Lahore\". He also starred in the series \"Annie Ki Ayegi Baraat\", \"Mi Raqsam\", and \"Mere Hamrahi\", and a TV film \"Main Kukkoo Aur woh\". He is the son of well-known actor Javed Sheikh. -Should we assume that \"Shahzad Sheikh primarily acted in Pakistani movies.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.24912452697753906,
+            -2.8224027156829834,
+            -2.2395622730255127
+        ]
+    },
+    {
+        "input_text:": "Given The 1982 Bavarian Tennis Championships was a men's Grand Prix tennis circuit tournament held in Munich, West Germany which was played on outdoor clay courts. It was the 66th edition of the tournament and was held form 17 May through 23 May 1982. Gene Mayer won the singles title. -Should we assume that \"Gene Mayer was in Munich before East and West Germany reunited.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.3686063587665558,
+            -2.3502066135406494,
+            -1.9129525423049927
+        ]
+    },
+    {
+        "input_text:": "Given Hakea microcarpa, commonly known as small-fruit hakea is a flowering plant in the family Proteaceae and is endemic to eastern Australia. It is a spreading shrub, often growing in woodlands, heathlands and near swamps in montane areas of eastern Australia. -Should we assume that \"Hakea microcarpa is grown solely in the mountainous regions of eastern Australia.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.8745344877243042,
+            -2.4902002811431885,
+            -0.884192705154419
+        ]
+    },
+    {
+        "input_text:": "Given Flamingo is the debut solo studio album by American singer-songwriter and The Killers lead singer Brandon Flowers, released on September 3, 2010 by Island Records. It was recorded at Battle Born Studios in Winchester, Nevada, and Henson Recording Studios in Hollywood, California. The album debuted at number one on the UK Albums Chart. -Should we assume that \"Brandon Flowers debut album was recorded on a hot day\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.6317793130874634,
+            -2.0641002655029297,
+            -1.1613023281097412
+        ]
+    },
+    {
+        "input_text:": "Given Ernest Guiraud (] ; 26 June 1837 \u2013 6 May 1892) was a French composer and music teacher born in New Orleans, Louisiana. He is best known for writing the traditional orchestral recitatives used for Bizet's opera \"Carmen\" and for Offenbach's opera \"Les contes d'Hoffmann\" (\"The Tales of Hoffmann\"). -Should we assume that \"Ernest Guiraud spent his whole life in Louisiana\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.603037714958191,
+            -2.1289446353912354,
+            -0.4507957398891449
+        ]
+    },
+    {
+        "input_text:": "Given State Route 204 (SR 204) is part of Maine's system of numbered state highways, located in Hancock County. It runs from State Route 3 in Trenton, passing State Route 184 in Lamoine, and ending at the intersection with Seal Point and Marlboro Beach roads. The route is 6.5 mi long. -Should we assume that \"State Route 204 has no cars on it ever.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.2792468070983887,
+            -1.7725133895874023,
+            -0.5117853879928589
+        ]
+    },
+    {
+        "input_text:": "Given The 2016\u201317 ProA was the 10th season of the ProA, the second level of basketball in Germany. The champions the runners-up of the play-offs are promoted to the 2017\u201318 Basketball Bundesliga. The season started on September 22, 2016 and ended on May 7, 2017. Mitteldeutscher BC won the championship and promoted along with runners-up Oettinger Rockets. -Should we assume that \"The 2016-17 season of ProA promoted five teams to the Basketball Bundesliga\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 0,
+        "logits": [
+            -0.23393267393112183,
+            -2.6892948150634766,
+            -2.06180739402771
+        ]
+    },
+    {
+        "input_text:": "Given Wayne Coles-Janess is an Australian producer, writer and director of drama and documentary film and TV programs. Based in Melbourne, Australia, he has produced documentaries about frontier places in the country. He has also made some documentaries in several international locations, including during times of war. -Should we assume that \"wayne cole janess ropes cattle in western movies.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -2.195462942123413,
+            -2.7367546558380127,
+            -0.29968661069869995
+        ]
+    },
+    {
+        "input_text:": "Given Fan and Mortar Geysers are two geysers in the Upper Geyser Basin in Yellowstone National Park. For the past several decades, they have erupted in concert with one another and are generally talked about together. The records detailing these geysers' known eruptive history shows that they have been infrequent and irregular performers. -Should we assume that \"Sanse plays home games at multiple stadiums.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 1,
+        "prediction:": 2,
+        "logits": [
+            -1.9926716089248657,
+            -1.8849756717681885,
+            -0.7085014581680298
+        ]
+    },
+    {
+        "input_text:": "Given Svensk Hyllningsfest (], \"Swedish Honoring Festival\") is a biennial celebration held in Lindsborg, Kansas, in October of odd-numbered years since 1941 to celebrate the town's Swedish heritage. The festival includes Swedish dancing, foods including \"lutfisk\", cooking demonstrations, arts and crafts, entertainment by local artists and musicians, a parade, and a sm\u00f6rgsbord. -Should we assume that \"The Svensk Hyllningsfest does not still occur today.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -2.1556692123413086,
+            -2.6317098140716553,
+            -0.6042717695236206
+        ]
+    },
+    {
+        "input_text:": "Given The Middlewich Folk and Boat Festival takes place in June in Middlewich, Cheshire, England. The festival builds on the town's industrial heritage in which canal boats were used to move coal and other raw materials in the town for the production of salt, and then move the salt out of town, either for use directly, or as a raw material in the manufacture of chemicals such as chlorine and soda ash. -Should we assume that \"The salt is used for sidewalks.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.382333993911743,
+            -3.799623489379883,
+            -0.08805038779973984
+        ]
+    },
+    {
+        "input_text:": "Given Eldrid Nordb (born 12 August 1942) is a Norwegian politician for the Labour Party. She was personal secretary to the Minister of Social Affairs in 1971, state secretary to the prime minister (1986-89), and Minister of Trade and Shipping (1990-91). She is married to economist and politician Bjrn Skogstad Aamo. -Should we assume that \"Eldrid Nordbo was personal secretary to the Minister of Social Affairs after 1971. \" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.4365530014038086,
+            -2.5870821475982666,
+            -1.4236379861831665
+        ]
+    },
+    {
+        "input_text:": "Given Marie Hedwig Auguste of Sulzbach (German: \"Marie Hedwig Auguste von Sulzbach\" ; born: 15 April 1650 in Sulzbach; died: 23 November 1681 in Hamburg) was a Countess Palatine of Sulzbach by birth and by marriage, Archduchess of Austria and by her second marriage, Duchess of Saxe-Lauenburg. -Should we assume that \"Marie Hedwig Auguste's husband was a duchess.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.0889438390731812,
+            -2.5388612747192383,
+            -0.7307251691818237
+        ]
+    },
+    {
+        "input_text:": "Given Micropalaeosoma balticus (formerly \"Palaeosoma balticus\" ) is an extinct, fossil turbellarian flatworm known from Baltic amber of Kaliningrad, Russia, that lived approximately 40 million years ago. It measured approximately 1.5 mm in length and is the oldest and most complete flatworm fossil yet discovered. -Should we assume that \"Micropalaeosoma balticus is common in dogs.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.4643588066101074,
+            -3.505979537963867,
+            -0.176264226436615
+        ]
+    },
+    {
+        "input_text:": "Given Joseph Maurice Francis Connaughton (15 August 1918 \u2013 12 February 1944) was an English first-class cricketer active 1939 who played for Middlesex. He was born in Paddington. During World War II he was commissioned in the Royal Artillery. He was drowned off the Maldives after SS \"Khedive Ismail\" was torpedoed; and officially declared dead one year later. -Should we assume that \"Joseph Maurice Francis Connaughton died after World War II. \" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.5348619222640991,
+            -2.387678623199463,
+            -1.3236812353134155
+        ]
+    },
+    {
+        "input_text:": "Given Ian Drew is Entertainment Director for American celebrity magazine, Us Weekly. He speaks about celebrities, music and fashion on television shows including CNN, Good Morning America, The Early Show, MSNBC, and Fox News. He interviewed Janet Jackson for one of Us Weekly's best-selling issues. -Should we assume that \"Ian drew has not not appeared on CNN.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.5400121212005615,
+            -2.0843868255615234,
+            -0.7377182841300964
+        ]
+    },
+    {
+        "input_text:": "Given The Savings Bank Building is a commercial building located at 101 South Front Street in Marquette, Michigan. It is also known as the Marquette County Savings Bank. The building was designated a Michigan State Historic Site in 1976 and listed on the National Register of Historic Places in 1978. -Should we assume that \"Michigan State has included Marquette County Savings Bank as a state historical site and the United States has included Savings Bank on the list of historic places as of 1976.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.359134316444397,
+            -2.9398577213287354,
+            -0.45167016983032227
+        ]
+    },
+    {
+        "input_text:": "Given The 18th Street Expressway (often shortened to 18th Street in everyday speech) is a freeway in Kansas City, Kansas that runs from Interstate 35 north to Interstate 70/U.S. Route 24/U.S. Route 40. It carries the U.S. Route 69 designation its entire length. -Should we assume that \"Interstate 70 doesn't connect with Interstate 35 North\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -3.0218582153320312,
+            -1.5180209875106812,
+            -0.48237600922584534
+        ]
+    },
+    {
+        "input_text:": "Given Cherry Tomato () is a 2008 South Korean film starring Shin Goo and Kim Hyang-gi. The family drama, a directorial debut by Jung Young-bae, depicts the poverty-stricken life of an old man and his granddaughter that evokes a strong sense of sympathy and helplessness. It was screened at the Busan Children\u2019s Film Festival in 2008. -Should we assume that \"Cherry Tomato was released in 2010.\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 2,
+        "logits": [
+            -1.0839135646820068,
+            -2.213305950164795,
+            -0.7030973434448242
+        ]
+    },
+    {
+        "input_text:": "Given Identification Marks: None (Polish: Rysopis ) is a 1964 Polish drama film directed by Jerzy Skolimowski. It was the first feature film directed by Skolimowski, after the shorts \"Erotique\", \"Little Hamlet\", \"The Menacing Eye\", \"Boxing\" and \"Your Money or Your Life\". -Should we assume that \"Jerzy Skolimowski was born in 1964\" is true? Yes, no, or maybe?",
+        "target_text": "Yes",
+        "label:": 2,
+        "prediction:": 0,
+        "logits": [
+            -0.6143468618392944,
+            -2.006042957305908,
+            -1.17752206325531
+        ]
+    }
+]

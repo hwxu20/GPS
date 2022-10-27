@@ -1,0 +1,332 @@
+[
+    {
+        "input_text:": "Context: I put the cake away in the refrigerator. It has a lot of butter in it. Question: \"It\" is the refrigerator. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.5841985940933228,
+            -0.23758509755134583
+        ]
+    },
+    {
+        "input_text:": "Context: Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: \"There's plenty.\" Question: \"her\" is Tatyana. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.49645426869392395,
+            -0.9911233186721802
+        ]
+    },
+    {
+        "input_text:": "Context: The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. Question: \"they\" are mothers. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.759479284286499,
+            -0.07857096195220947
+        ]
+    },
+    {
+        "input_text:": "Context: Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned. Question: \"He\" is Bob. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.2292678356170654,
+            -0.35548946261405945
+        ]
+    },
+    {
+        "input_text:": "Context: Frank was upset with Tom because the toaster he had bought from him didn't work. Question: \"he\" is Tom. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.1669217348098755,
+            -0.40407344698905945
+        ]
+    },
+    {
+        "input_text:": "Context: This book introduced Shakespeare to Goethe ; it was a fine selection of his writing. Question: \"his\" is Goethe. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.4104968309402466,
+            -0.3017389178276062
+        ]
+    },
+    {
+        "input_text:": "Context: The city councilmen refused the demonstrators a permit because they feared violence. Question: \"they\" are the demonstrators. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.8692610859870911,
+            -0.6523762345314026
+        ]
+    },
+    {
+        "input_text:": "Context: The fish ate the worm. It was hungry. Question: \"It\" is the worm. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.7519248723983765,
+            -0.6625577807426453
+        ]
+    },
+    {
+        "input_text:": "Context: The firemen arrived after the police because they were coming from so far away. Question: \"they\" are the police. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.9337697625160217,
+            -0.613756537437439
+        ]
+    },
+    {
+        "input_text:": "Context: As Ollie carried Tommy up the long winding steps, his legs dangled. Question: \"his\" is Ollie. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.5498171448707581,
+            -0.9147584438323975
+        ]
+    },
+    {
+        "input_text:": "Context: The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold them just the same because they ran away. Question: \"them\" are mothers. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.5078539848327637,
+            -0.10294992476701736
+        ]
+    },
+    {
+        "input_text:": "Context: Susan knows all about Ann's personal problems because she is nosy. Question: \"she\" is Ann. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.2428547888994217,
+            -1.6322768926620483
+        ]
+    },
+    {
+        "input_text:": "Context: Mary tucked her daughter Anne into bed, so that she could sleep. Question: \"she\" is Mary. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.6883480548858643,
+            -0.21969453990459442
+        ]
+    },
+    {
+        "input_text:": "Context: Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years. Question: \"he\" is Cooper. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.12375396490097046,
+            -2.258639335632324
+        ]
+    },
+    {
+        "input_text:": "Context: Emma did not pass the ball to Janie although she was open. Question: \"she\" is Emma. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.0470924377441406,
+            -0.4954407215118408
+        ]
+    },
+    {
+        "input_text:": "Context: The cat was lying by the mouse hole waiting for the mouse, but it was too impatient. Question: \"it\" is the mouse. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -0.7498941421508789,
+            -0.6762731671333313
+        ]
+    },
+    {
+        "input_text:": "Context: Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical. Question: \"He\" is Mark. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.23540998995304108,
+            -1.6382896900177002
+        ]
+    },
+    {
+        "input_text:": "Context: In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it removed. Question: \"it\" is the roof. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -1.648335576057434,
+            -0.31133535504341125
+        ]
+    },
+    {
+        "input_text:": "Context: As Ollie carried Tommy up the long winding steps, his legs ached. Question: \"his\" is Tommy. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.32038694620132446,
+            -1.3729348182678223
+        ]
+    },
+    {
+        "input_text:": "Context: The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone. Question: \"it\" is The sun. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 1,
+        "logits": [
+            -2.866154670715332,
+            -0.07989618182182312
+        ]
+    },
+    {
+        "input_text:": "Context: Jane knocked on Susan's door but she did not answer. Question: \"she\" is Jane. True or false? Answer:",
+        "target_text": "False",
+        "label:": 0,
+        "prediction:": 0,
+        "logits": [
+            -0.3958703577518463,
+            -1.169878602027893
+        ]
+    },
+    {
+        "input_text:": "Context: Emma's mother had died long ago, and her place had been taken by an excellent woman as governess. Question: \"her\" is Emma's mother. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.627193808555603,
+            -0.2544984817504883
+        ]
+    },
+    {
+        "input_text:": "Context: Jackson was greatly influenced by Arnold, though he lived two centuries earlier. Question: \"he\" is Arnold. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.9142160415649414,
+            -0.16847555339336395
+        ]
+    },
+    {
+        "input_text:": "Context: Ann asked Mary what time the library closes, but she had forgotten. Question: \"she\" is Mary. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.0871264934539795,
+            -0.15483392775058746
+        ]
+    },
+    {
+        "input_text:": "Context: The politicians far away in Washington could not know the settlers so they must make rules to regulate them. Question: \"they\" are politicians. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.8169113397598267,
+            -0.19700394570827484
+        ]
+    },
+    {
+        "input_text:": "Context: Frank was upset with Tom because the toaster he had sold him didn't work. Question: \"he\" is Tom. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.045431137084961,
+            -0.4696322977542877
+        ]
+    },
+    {
+        "input_text:": "Context: The sculpture rolled off the shelf because it wasn't level. Question: \"it\" is the shelf. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.2022026777267456,
+            -0.42085394263267517
+        ]
+    },
+    {
+        "input_text:": "Context: The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time. Question: \"They\" are the stars. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.2517054080963135,
+            -0.047193557024002075
+        ]
+    },
+    {
+        "input_text:": "Context: Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it. Question: \"They\" are Pam's parents. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.3216392993927,
+            -0.04463653266429901
+        ]
+    },
+    {
+        "input_text:": "Context: Mark was close to Mr. Singer's heels. He heard him calling for the captain, promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over. Question: \"him\" is Mr. Singer. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.6172683238983154,
+            -0.03921893984079361
+        ]
+    },
+    {
+        "input_text:": "Context: I took the water bottle out of the backpack so that it would be handy. Question: \"it\" is the water bottle. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -3.2523422241210938,
+            -0.04702753946185112
+        ]
+    },
+    {
+        "input_text:": "Context: John couldn't see the stage with Billy in front of him because he is so short. Question: \"he\" is John. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -1.0777674913406372,
+            -0.4394001364707947
+        ]
+    },
+    {
+        "input_text:": "Context: The politicians far away in Washington could not know the settlers so they must make rules to regulate them. Question: \"them\" are settlers. True or false? Answer:",
+        "target_text": "False",
+        "label:": 1,
+        "prediction:": 1,
+        "logits": [
+            -2.2022311687469482,
+            -0.13703395426273346
+        ]
+    }
+]
