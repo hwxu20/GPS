@@ -25,7 +25,6 @@ You can find more details of this work in our paper.
    * numpy
    * tqdm
 2. Download model checkpoints:
-   * Note: 
    * ```cd pretrained_model```
    * Download [T0](https://huggingface.co/bigscience/T0)
    * Download [T5-xxl](https://huggingface.co/google/t5-xxl-lm-adapt)
