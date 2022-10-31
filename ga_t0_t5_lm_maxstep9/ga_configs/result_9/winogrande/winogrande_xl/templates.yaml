@@ -1,17 +1,34 @@
 dataset: winogrande
 subset: winogrande_xl
 templates:
-  0eb8dd94-84bb-482b-83a5-283f30f78537: !Template
-    answer_choices: '{{ option1 }} ||| {{ option2 }}'
-    id: 0eb8dd94-84bb-482b-83a5-283f30f78537
-    jinja: '{{ sentence }} What is the function of _ {{ option1 }} or {{ option2 }}?
-      ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
+  19df31b7-6dd4-48ab-b81a-4b731eb7fc3d: !Template
+    answer_choices: '{{option1}} ||| {{option2}}'
+    id: 19df31b7-6dd4-48ab-b81a-4b731eb7fc3d
+    jinja: '{{sentence}}
+
+      What is the _ in the above sentence? {{ option1 }} or {{ option2 }}? ||| {%
+      if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
     metadata: !TemplateMetadata
       choices_in_prompt: true
       metrics:
       - Accuracy
       original_task: true
-    name: does underscore refer to
+    name: underscore refer to
+    reference: ''
+  47c0a01c-3d6d-42be-bfb2-6d2bbe4652d9: !Template
+    answer_choices: '{{option1}} ||| {{option2}}'
+    id: 47c0a01c-3d6d-42be-bfb2-6d2bbe4652d9
+    jinja: '{{sentence}}
+
+      What is the antecedent of the _ in the above sentence? {{ option1 }} or {{ option2
+      }}? ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif
+      %}'
+    metadata: !TemplateMetadata
+      choices_in_prompt: true
+      metrics:
+      - Accuracy
+      original_task: true
+    name: underscore refer to
     reference: ''
   5af00ba1-86e0-421b-bb97-26bf58df52d3: !Template
     answer_choices: '{{option1}} ||| {{option2}}'
@@ -28,12 +45,12 @@ templates:
       original_task: true
     name: underscore refer to
     reference: ''
-  9bcbd4b3-326f-459c-95c1-7b191e8d4b00: !Template
+  71c0df4b-7386-4e47-a47d-6f9d9501fd16: !Template
     answer_choices: '{{option1}} ||| {{option2}}'
-    id: 9bcbd4b3-326f-459c-95c1-7b191e8d4b00
+    id: 71c0df4b-7386-4e47-a47d-6f9d9501fd16
     jinja: '{{sentence}}
 
-      What is the antecedent of the _ in the above sentence? {{ option1 }} or {{ option2
+      What is the _ in the above sentence referring to? {{ option1 }} or {{ option2
       }}? ||| {% if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif
       %}'
     metadata: !TemplateMetadata
@@ -43,23 +60,9 @@ templates:
       original_task: true
     name: underscore refer to
     reference: ''
-  a22f6595-ab8f-450b-8c21-a66539ea2e9d: !Template
+  c5996a18-f5f8-4bd8-8f64-7014b7fcf0fb: !Template
     answer_choices: '{{option1}} ||| {{option2}}'
-    id: a22f6595-ab8f-450b-8c21-a66539ea2e9d
-    jinja: '{{sentence}}
-
-      What is the _ in the above sentence? {{ option1 }} or {{ option2 }}? ||| {%
-      if answer == "1" %} {{option1}} {% else %} {{ option2 }} {% endif %}'
-    metadata: !TemplateMetadata
-      choices_in_prompt: true
-      metrics:
-      - Accuracy
-      original_task: true
-    name: underscore refer to
-    reference: ''
-  a75a1f47-3edc-45d2-833d-d65c203031b6: !Template
-    answer_choices: '{{option1}} ||| {{option2}}'
-    id: a75a1f47-3edc-45d2-833d-d65c203031b6
+    id: c5996a18-f5f8-4bd8-8f64-7014b7fcf0fb
     jinja: '{{sentence}}
 
       What is the _ in the above sentence? {{ option1 }} or {{ option2 }}? ||| {%
