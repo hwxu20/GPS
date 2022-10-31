@@ -24,6 +24,9 @@ You can find more details of this work in our paper.
    * pandas
    * numpy
    * tqdm
+   * sentencepiece
+   * sklearn
+   * protobuf==3.20.0
 2. Download model checkpoints:
    * ```cd pretrained_model```
    * Download [T0](https://huggingface.co/bigscience/T0)
